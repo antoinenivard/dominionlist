@@ -10,11 +10,11 @@ A company qualifies if it meets **all** of the following:
 2. The company is incorporated or headquartered in the United States.
 3. The company is a technology company or venture-backed startup that has raised venture capital, achieved meaningful revenue scale, or reached a significant valuation.
 
-To submit a company, open a [GitHub issue](https://github.com/antoinenivard/the-dominion-list/issues/new?template=submit-company.md) using the "Submit a Company" template. Include at least one public source confirming the Canadian founder connection.
+To submit a company, open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=submit-company.md) using the "Submit a Company" template. Include at least one public source confirming the Canadian founder connection.
 
 ## Suggesting a correction
 
-If you notice incorrect data (wrong founding year, outdated funding round, incorrect founder info), open a [GitHub issue](https://github.com/antoinenivard/the-dominion-list/issues/new?template=suggest-edit.md) using the "Suggest an Edit" template. Include a source URL for the correction.
+If you notice incorrect data (wrong founding year, outdated funding round, incorrect founder info), open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=suggest-edit.md) using the "Suggest an Edit" template. Include a source URL for the correction.
 
 ## Editing the data directly
 
