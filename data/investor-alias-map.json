@@ -1,0 +1,450 @@
+{
+  "_comment": "Canonical display aliases for venture investors. Key = raw name found in data, Value = short canonical display name. UI maps through this before rendering.",
+
+  "Andreessen Horowitz": "a16z",
+  "a16z": "a16z",
+  "a16z Bio": "a16z Bio",
+
+  "Sequoia Capital": "Sequoia",
+  "Sequoia Capital Global Equities": "Sequoia",
+  "Sequoia": "Sequoia",
+
+  "Lightspeed Venture Partners": "Lightspeed",
+  "Lightspeed Ventures": "Lightspeed",
+  "Lightspeed": "Lightspeed",
+
+  "Bessemer Venture Partners": "Bessemer",
+  "Bessemer": "Bessemer",
+
+  "Greylock Partners": "Greylock",
+  "Greylock": "Greylock",
+
+  "Khosla Ventures": "Khosla",
+  "Khosla": "Khosla",
+
+  "Thrive Capital": "Thrive",
+  "Thrive": "Thrive",
+
+  "Founders Fund": "Founders Fund",
+
+  "New Enterprise Associates": "NEA",
+  "NEA": "NEA",
+
+  "General Catalyst": "General Catalyst",
+  "General Catalyst Partners": "General Catalyst",
+
+  "General Atlantic": "General Atlantic",
+
+  "Tiger Global": "Tiger Global",
+  "Tiger Global Management": "Tiger Global",
+
+  "Coatue Management": "Coatue",
+  "Coatue": "Coatue",
+
+  "D1 Capital Partners": "D1",
+  "D1": "D1",
+
+  "Dragoneer Investment Group": "Dragoneer",
+  "Dragoneer": "Dragoneer",
+
+  "Index Ventures": "Index",
+  "Index": "Index",
+
+  "Menlo Ventures": "Menlo",
+  "Menlo": "Menlo",
+
+  "Accel": "Accel",
+  "Accel Partners": "Accel",
+
+  "Inovia Capital": "Inovia",
+  "Inovia": "Inovia",
+
+  "Social Capital": "Social Capital",
+  "Social+Capital": "Social Capital",
+
+  "First Round Capital": "First Round",
+  "First Round": "First Round",
+
+  "Spark Capital": "Spark",
+  "Spark": "Spark",
+
+  "Y Combinator": "YC",
+  "Y Combinator Continuity": "YC Continuity",
+  "YC": "YC",
+
+  "Google Ventures": "GV",
+  "GV": "GV",
+  "Google": "Google",
+  "Gradient Ventures": "Gradient",
+
+  "Kleiner Perkins": "Kleiner Perkins",
+  "Kleiner Perkins Caufield & Byers": "Kleiner Perkins",
+
+  "Valor Equity Partners": "Valor",
+  "Valor": "Valor",
+
+  "Bain Capital Ventures": "Bain Capital",
+  "Bain Capital": "Bain Capital",
+
+  "SoftBank": "SoftBank",
+  "SoftBank Vision Fund": "SoftBank",
+
+  "Fidelity Investments": "Fidelity",
+  "Fidelity Management & Research": "Fidelity",
+  "Fidelity": "Fidelity",
+
+  "Benchmark Capital": "Benchmark",
+  "Benchmark": "Benchmark",
+
+  "ICONIQ Growth": "ICONIQ",
+  "ICONIQ Capital": "ICONIQ",
+  "ICONIQ": "ICONIQ",
+
+  "Craft Ventures": "Craft",
+  "Craft": "Craft",
+
+  "Salesforce Ventures": "Salesforce Ventures",
+
+  "Trinity Ventures": "Trinity",
+  "Trinity": "Trinity",
+
+  "Fifty Years": "Fifty Years",
+
+  "Maple VC": "Maple VC",
+
+  "Garage Capital": "Garage Capital",
+
+  "Insight Venture Partners": "Insight",
+  "Insight Partners": "Insight",
+  "Insight": "Insight",
+
+  "Greenoaks Capital": "Greenoaks",
+  "Greenoaks": "Greenoaks",
+
+  "Meritech Capital": "Meritech",
+  "Meritech": "Meritech",
+
+  "Matrix Partners": "Matrix",
+  "Matrix": "Matrix",
+
+  "Redpoint Ventures": "Redpoint",
+  "Redpoint": "Redpoint",
+
+  "Felicis Ventures": "Felicis",
+  "Felicis": "Felicis",
+
+  "Lerer Hippeau": "Lerer Hippeau",
+
+  "Union Square Ventures": "USV",
+  "USV": "USV",
+
+  "Battery Ventures": "Battery",
+  "Battery": "Battery",
+
+  "Forerunner Ventures": "Forerunner",
+  "Forerunner": "Forerunner",
+
+  "Sapphire Ventures": "Sapphire",
+  "Sapphire": "Sapphire",
+
+  "Canaan Partners": "Canaan",
+  "Canaan": "Canaan",
+
+  "GGV Capital": "GGV",
+  "GGV": "GGV",
+
+  "Nexus Venture Partners": "Nexus",
+  "Nexus": "Nexus",
+
+  "DCM Ventures": "DCM",
+  "DCM": "DCM",
+
+  "Initialized Capital": "Initialized",
+  "Initialized": "Initialized",
+
+  "Scale Venture Partners": "Scale VP",
+  "Scale VP": "Scale VP",
+
+  "Uncork Capital": "Uncork",
+  "Uncork": "Uncork",
+
+  "True Ventures": "True Ventures",
+
+  "Sutter Hill Ventures": "Sutter Hill",
+  "Sutter Hill": "Sutter Hill",
+
+  "Blue Cloud Ventures": "Blue Cloud",
+
+  "Boldstart Ventures": "Boldstart",
+  "Boldstart": "Boldstart",
+
+  "Shasta Ventures": "Shasta",
+  "Shasta": "Shasta",
+
+  "Basis Set Ventures": "Basis Set",
+  "Basis Set": "Basis Set",
+
+  "BlueRun Ventures": "BlueRun",
+  "BlueRun": "BlueRun",
+
+  "Costanoa Ventures": "Costanoa",
+  "Costanoa": "Costanoa",
+
+  "Flourish Ventures": "Flourish",
+  "Flourish": "Flourish",
+
+  "Resolute Ventures": "Resolute",
+  "Resolute": "Resolute",
+
+  "Sound Ventures": "Sound",
+  "Sound": "Sound",
+
+  "Toyota Ventures": "Toyota Ventures",
+
+  "Amazon Ventures": "Amazon Ventures",
+  "Amazon": "Amazon",
+
+  "Radical Ventures": "Radical",
+  "Radical": "Radical",
+
+  "Energize Ventures": "Energize",
+  "Energize": "Energize",
+
+  "Zoom Ventures": "Zoom Ventures",
+
+  "Cisco Investments": "Cisco",
+  "Cisco": "Cisco",
+
+  "Intel Capital": "Intel Capital",
+
+  "PayPal Ventures": "PayPal Ventures",
+
+  "Samsung Ventures": "Samsung Ventures",
+  "Samsung Securities": "Samsung",
+
+  "Rakuten Ventures": "Rakuten",
+  "Rakuten": "Rakuten",
+
+  "Pine Venture Partners": "Pine",
+  "Pine": "Pine",
+
+  "Polychain Capital": "Polychain",
+  "Polychain": "Polychain",
+
+  "Versant Ventures": "Versant",
+  "Versant": "Versant",
+
+  "Mithril Capital": "Mithril",
+  "Mithril": "Mithril",
+
+  "Sofinnova Partners": "Sofinnova",
+  "Sofinnova": "Sofinnova",
+
+  "Stage 2 Capital": "Stage 2",
+  "Stage 2": "Stage 2",
+
+  "CapitalG": "CapitalG",
+
+  "Altimeter Capital": "Altimeter",
+  "Altimeter": "Altimeter",
+
+  "Alkeon Capital": "Alkeon",
+  "Alkeon": "Alkeon",
+
+  "Lead Edge Capital": "Lead Edge",
+  "Lead Edge": "Lead Edge",
+
+  "Durable Capital Partners": "Durable",
+  "Durable": "Durable",
+
+  "Franklin Templeton": "Franklin Templeton",
+  "T. Rowe Price": "T. Rowe Price",
+  "Goldman Sachs": "Goldman Sachs",
+  "BlackRock": "BlackRock",
+  "Baillie Gifford": "Baillie Gifford",
+  "Wellington Management": "Wellington",
+  "Wellington": "Wellington",
+  "J.P. Morgan Asset Management": "J.P. Morgan",
+
+  "L Catterton": "L Catterton",
+  "Viking Global": "Viking Global",
+  "Temasek": "Temasek",
+  "GIC": "GIC",
+  "Ontario Teachers' Pension Plan": "OTPP",
+  "OTPP": "OTPP",
+  "Caisse de depot et placement du Quebec": "CDPQ",
+  "CDPQ": "CDPQ",
+  "PSP Investments": "PSP",
+  "PSP": "PSP",
+  "Abu Dhabi Investment Authority": "ADIA",
+  "ADIA": "ADIA",
+  "Saudi Arabia Public Investment Fund": "PIF",
+  "PIF": "PIF",
+  "Qatar Investment Authority": "QIA",
+  "QIA": "QIA",
+  "Mubadala Capital": "Mubadala",
+  "Mubadala": "Mubadala",
+  "MGX": "MGX",
+
+  "Counterpoint Global (Morgan Stanley)": "Morgan Stanley",
+  "WCM Investment Management": "WCM",
+  "Steadfast Capital": "Steadfast",
+  "Atreides Management": "Atreides",
+  "Belfer Management": "Belfer",
+  "StepStone Group": "StepStone",
+
+  "Intact Private Capital": "Intact",
+  "Intact Ventures": "Intact",
+  "Intact": "Intact",
+
+  "Greenlight Capital Re": "Greenlight Re",
+
+  "Abstract Ventures": "Abstract",
+  "Abstract": "Abstract",
+
+  "DCVC Bio": "DCVC Bio",
+  "DCVC": "DCVC",
+
+  "ClearSky Security": "ClearSky",
+  "ClearSky": "ClearSky",
+
+  "Soma Capital": "Soma",
+  "Soma": "Soma",
+
+  "WestCap": "WestCap",
+  "BoxGroup": "BoxGroup",
+  "IVP": "IVP",
+  "BOND": "BOND",
+  "NFX": "NFX",
+  "SignalFire": "SignalFire",
+  "CRV": "CRV",
+  "8VC": "8VC",
+  "M13": "M13",
+  "Paradigm": "Paradigm",
+  "FLOODGATE": "Floodgate",
+  "Nvidia": "Nvidia",
+  "Microsoft": "Microsoft",
+  "Uber": "Uber",
+  "SpaceX": "SpaceX",
+  "AMD": "AMD",
+  "Alphabet": "Alphabet",
+  "Substack": "Substack",
+  "Jane Street": "Jane Street",
+  "ARK Invest": "ARK",
+  "Jaan Tallinn": "Jaan Tallinn",
+  "Dustin Moskovitz": "Dustin Moskovitz",
+  "Naval Ravikant": "Naval Ravikant",
+  "Chris Sacca": "Chris Sacca",
+
+  "Brookfield Growth": "Brookfield",
+  "Brookfield": "Brookfield",
+
+  "A*": "A*",
+
+  "Glade Brook Capital": "Glade Brook",
+  "Flagship Pioneering": "Flagship",
+  "AstraZeneca": "AstraZeneca",
+  "Tenaya Capital": "Tenaya",
+  "DAG Ventures": "DAG",
+  "Harrison Metal": "Harrison Metal",
+  "Formation 8": "Formation 8",
+  "Prysm Capital": "Prysm",
+  "DFJ Growth": "DFJ",
+  "August Capital": "August",
+  "The Chernin Group": "Chernin",
+  "Pelion Venture Partners": "Pelion",
+  "Venrock": "Venrock",
+  "FirstMark Capital": "FirstMark",
+  "Canapi Ventures": "Canapi",
+  "Cobalt": "Cobalt",
+  "Leadout Capital": "Leadout",
+  "Akkadian Ventures": "Akkadian",
+  "Gigafund": "Gigafund",
+  "First Minute Capital": "First Minute",
+  "Mayfield Fund": "Mayfield",
+  "Section 32": "Section 32",
+  "Afore Capital": "Afore",
+  "White Star Capital": "White Star",
+  "Portage": "Portage",
+  "SUSA Ventures": "SUSA",
+  "Gigascale Capital": "Gigascale",
+  "Thiel Foundation": "Thiel Foundation",
+  "Base10 Partners": "Base10",
+  "Braemar Energy Ventures": "Braemar",
+  "Cherubic Ventures": "Cherubic",
+  "Fusion Fund": "Fusion Fund",
+  "Northzone": "Northzone",
+  "IndieBio": "IndieBio",
+  "Quiet Capital": "Quiet",
+  "CrunchFund": "CrunchFund",
+  "Equal Ventures": "Equal",
+  "Peak State Ventures": "Peak State",
+  "Wayfinder Ventures": "Wayfinder",
+  "Pioneer Fund": "Pioneer Fund",
+  "Pioneer": "Pioneer",
+  "Feld Ventures": "Feld",
+  "Vectura Ventures": "Vectura",
+  "Mischief": "Mischief",
+  "AI Grant": "AI Grant",
+  "Script Capital": "Script",
+  "Liquid 2 Ventures": "Liquid 2",
+  "Backwards Capital": "Backwards",
+  "SBXi": "SBXi",
+  "Berkeley SkyDeck": "Berkeley SkyDeck",
+  "K5 Global": "K5",
+  "Materialized View Capital": "Materialized View",
+  "Triatomic Capital": "Triatomic",
+  "SHAKTI": "SHAKTI",
+  "CancerX": "CancerX",
+  "Air Street Capital": "Air Street",
+  "Collab+Currency": "Collab+Currency",
+  "Sfermion": "Sfermion",
+  "Kindred Ventures": "Kindred",
+  "Refactor": "Refactor",
+  "Factorial": "Factorial",
+  "Karman Ventures": "Karman",
+  "SVAngel": "SVAngel",
+  "Avalon Ventures": "Avalon",
+  "NHN Investment": "NHN",
+  "Blank Ventures": "Blank",
+  "640 Oxford": "640 Oxford",
+  "Exceptional Capital": "Exceptional",
+  "Greycroft": "Greycroft",
+  "FPV Ventures": "FPV",
+  "Homebrew": "Homebrew",
+  "Cedars-Sinai Accelerator": "Cedars-Sinai",
+  "Telescope Partners": "Telescope",
+  "Allianz Life Ventures": "Allianz",
+  "CNO Financial Group": "CNO",
+  "Variant Fund": "Variant",
+  "Primitive Ventures": "Primitive",
+  "Monta Vista Capital": "Monta Vista",
+  "D.E. Shaw Ventures": "D.E. Shaw",
+  "National Australia Bank Ventures": "NAB Ventures",
+  "Truist Ventures": "Truist",
+  "Leaps by Bayer": "Leaps by Bayer",
+  "Nevcaut Ventures": "Nevcaut",
+  "Footwork VC": "Footwork",
+  "Blackbird Ventures": "Blackbird",
+  "New Ground Ventures": "New Ground",
+  "Antler": "Antler",
+  "e& capital": "e& capital",
+  "CVC": "CVC",
+  "Sonae Investment Management": "Sonae",
+  "AFW Partners": "AFW",
+  "NFDG": "NFDG",
+  "Future Fund": "Future Fund",
+  "MESH": "MESH",
+  "KCK Group": "KCK",
+  "The Rise Fund": "Rise Fund",
+  "True North Fund": "True North",
+  "Twelve Below": "Twelve Below",
+  "Alameda Research (FTX)": "Alameda",
+  "Founders Inc": "Founders Inc",
+  "Haystack": "Haystack",
+  "Crowdfunding": "Crowdfunding",
+  "Maj Invest": "Maj Invest",
+  "Oak HC/FT": "Oak HC/FT",
+  "Stata Venture Partners": "Stata",
+  "Aidenlair Capital": "Aidenlair"
+}
