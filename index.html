@@ -711,8 +711,8 @@ async function loadData() {
 
   /* Populate footer from metadata */
   const fv = document.getElementById('footerVersion');
-  if (fv && dbMeta.last_updated_date_display) {
-    fv.textContent = 'Updated ' + dbMeta.last_updated_date_display
+  if (fv && dbMeta.last_updated_datetime_display) {
+    fv.textContent = 'Updated ' + dbMeta.last_updated_datetime_display
       + (dbMeta.db_version ? ' \u00B7 The Dominion List ' + dbMeta.db_version : '');
   }
 

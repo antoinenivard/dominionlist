@@ -459,11 +459,11 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 <script>
 /* ═══ Footer version from metadata ═══ */
 fetch('data/metadata.json').then(function(r){return r.json()}).then(function(m){
-  var txt='Updated '+m.last_updated_date_display+(m.db_version?' · The Dominion List '+m.db_version:'');
+  var txt='Updated '+m.last_updated_datetime_display+(m.db_version?' · The Dominion List '+m.db_version:'');
   var fv=document.getElementById('footerVersion');
   var fvm=document.getElementById('footerVersionMobile');
-  if(fv&&m.last_updated_date_display) fv.textContent=txt;
-  if(fvm&&m.last_updated_date_display) fvm.textContent=txt;
+  if(fv&&m.last_updated_datetime_display) fv.textContent=txt;
+  if(fvm&&m.last_updated_datetime_display) fvm.textContent=txt;
 }).catch(function(){});
 
 /* ═══ Load data ═══ */

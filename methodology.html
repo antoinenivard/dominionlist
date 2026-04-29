@@ -358,7 +358,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 /* ═══ Footer version from metadata ═══ */
 fetch('data/metadata.json').then(function(r){return r.json()}).then(function(m){
   var fv=document.getElementById('footerVersion');
-  if(fv&&m.last_updated_date_display) fv.textContent='Updated '+m.last_updated_date_display+(m.db_version?' · The Dominion List '+m.db_version:'');
+  if(fv&&m.last_updated_datetime_display) fv.textContent='Updated '+m.last_updated_datetime_display+(m.db_version?' · The Dominion List '+m.db_version:'');
 }).catch(function(){});
 
 /* ═══ Live stats from companies.json ═══ */
