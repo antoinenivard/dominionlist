@@ -6699,7 +6699,7 @@
       },
       {
         "stage": "Acquired",
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "year": 2021,
         "lead_investors": [
           "Substack"
@@ -8164,19 +8164,6 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Daniele Perito",
-        "linkedin": "https://www.linkedin.com/in/danieleperito/",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "UWaterloo alum. Co-Founder & Executive Chairman of depthfirst. Co-Founder of Faire. Former Director of Security & Risk Engineering at Square, founding team of Cash App.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Waterloo",
-        "canadian_city": "Waterloo, ON",
-        "canadian_institutions": [
-          "University of Waterloo"
-        ]
-      },
-      {
         "name": "Qasim Mithani",
         "linkedin": "https://www.linkedin.com/in/qasimmithani/",
         "wikipedia_url": "",
@@ -8252,7 +8239,8 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 120000000,
-    "capital_raised_display": "$120M"
+    "capital_raised_display": "$120M",
+    "founder_display": "Qasim Mithani"
   },
   {
     "id": "taplytics",
@@ -10071,19 +10059,6 @@
         ],
         "wikipedia_url": "",
         "x_url": ""
-      },
-      {
-        "name": "Daniele Perito",
-        "linkedin": "https://www.linkedin.com/in/danieleperito/",
-        "wikipedia_url": "",
-        "x_url": "https://x.com/DanielePerito",
-        "bio": "UWaterloo alum. Co-Founder & Chief Data Officer of Faire. PhD CS from INRIA, postdoc at UC Berkeley. Former Square security/risk engineering.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Waterloo",
-        "canadian_city": "Waterloo, ON",
-        "canadian_institutions": [
-          "University of Waterloo"
-        ]
       }
     ],
     "funding_rounds": [
@@ -12016,7 +11991,7 @@
         "date": "2025-02-12",
         "round": "Wind Down",
         "amount_usd": null,
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "valuation_usd": 0,
         "valuation_display": "Inactive",
         "lead_investors": [],
@@ -14852,11 +14827,11 @@
         "name": "James Bergstra",
         "linkedin": "https://www.linkedin.com/in/jamesbergstra",
         "role": "Co-Founder",
-        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Universit\u00e9 de Montr\u00e9al under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
+        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Université de Montréal under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
+        "canadian_institution": "Université de Montréal",
         "canadian_institutions": [
-          "Universit\u00e9 de Montr\u00e9al",
+          "Université de Montréal",
           "University of Waterloo"
         ],
         "wikipedia_url": "",
@@ -14934,7 +14909,7 @@
     ],
     "capital_raised_usd": 43000000,
     "capital_raised_display": "$43M",
-    "institution_display": "University of Toronto, Universit\u00e9 de Montr\u00e9al, University of British Columbia"
+    "institution_display": "University of Toronto, Université de Montréal, University of British Columbia"
   },
   {
     "id": 304,
@@ -21701,11 +21676,11 @@
         "linkedin_url": "https://www.linkedin.com/in/william-liam-fedus-26547811/",
         "x_url": "https://x.com/LiamFedus",
         "role": "Co-Founder & CEO",
-        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Universit\u00e9 de Montr\u00e9al. BS in Physics from MIT, MS from UC San Diego.",
+        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Université de Montréal. BS in Physics from MIT, MS from UC San Diego.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
+        "canadian_institution": "Université de Montréal",
         "canadian_institutions": [
-          "Universit\u00e9 de Montr\u00e9al"
+          "Université de Montréal"
         ],
         "wikipedia_url": ""
       }
@@ -21754,7 +21729,7 @@
       "valuation_source_url": "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/"
     },
     "founder_display": "Liam Fedus",
-    "institution_display": "Universit\u00e9 de Montr\u00e9al",
+    "institution_display": "Université de Montréal",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 300000000,
     "capital_raised_display": "$300M"
@@ -24879,7 +24854,7 @@
     "id": 346,
     "name": "Rosebud AI",
     "website": "https://rosebud.ai",
-    "description": "AI platform for creating games without coding \u2014 the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
+    "description": "AI platform for creating games without coding — the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -25140,7 +25115,7 @@
         "source_urls": [
           "https://techcrunch.com/2023/03/20/roundtable-raises-funding-round-on-roundtable/"
         ],
-        "notes": "\u20ac3M raised on own platform"
+        "notes": "€3M raised on own platform"
       }
     ],
     "metadata": {
@@ -25401,7 +25376,7 @@
         "linkedin_url": "https://www.linkedin.com/in/trevorkoverko/",
         "x_url": "https://x.com/trevorkoverko",
         "role": "Co-Founder",
-        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur \u2014 previously co-founded Polymath and Tokens.com.",
+        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur — previously co-founded Polymath and Tokens.com.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Western University",
         "canadian_institutions": [
@@ -25697,7 +25672,7 @@
     "id": "self-xyz",
     "name": "Self",
     "website": "https://self.xyz/",
-    "description": "Instant identity verification with privacy by default \u2014 verify age, residency, and human existence without storing personal data",
+    "description": "Instant identity verification with privacy by default — verify age, residency, and human existence without storing personal data",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -27243,7 +27218,7 @@
       },
       {
         "id": "enrique-moran",
-        "name": "Enrique Mor\u00e1n",
+        "name": "Enrique Morán",
         "linkedin": "",
         "role": "Co-Founder & CEO",
         "bio": "Co-Founder & CEO of Slate. BEng from University of British Columbia (2018-2023).",
@@ -27291,7 +27266,7 @@
       "last_verified": "2026-03-24T20:03:37Z",
       "import_notes": "alumni-discovery"
     },
-    "founder_display": "Sophie Berger, Enrique Mor\u00e1n, Callum Woznow",
+    "founder_display": "Sophie Berger, Enrique Morán, Callum Woznow",
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 840000,
@@ -27951,13 +27926,13 @@
         "date": "2025-11-01",
         "round": "Bankruptcy",
         "amount_usd": null,
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "valuation_usd": 0,
         "valuation_display": "Bankrupt",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Delisted November 2025 \u2014 Chapter 7 bankruptcy."
+        "notes": "Delisted November 2025 — Chapter 7 bankruptcy."
       }
     ],
     "metadata": {
@@ -27972,7 +27947,7 @@
       "valuation_confidence": "high",
       "total_funding_display": "$785M",
       "last_verified": "2026-04-14T00:00:00Z",
-      "valuation_source": "Delisted Nov 2025 \u2014 Chapter 7 bankruptcy"
+      "valuation_source": "Delisted Nov 2025 — Chapter 7 bankruptcy"
     },
     "institution_display": "McGill University",
     "ticker": "SOND",
@@ -30269,7 +30244,7 @@
     "id": 329,
     "name": "Tableau",
     "website": "https://www.tableau.com/",
-    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal \u2014 the largest acquisition in Salesforce's history at the time.",
+    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal — the largest acquisition in Salesforce's history at the time.",
     "hq_city": "Seattle",
     "hq_region": "WA",
     "hq_country": "US",
@@ -30902,7 +30877,7 @@
     "id": "terminal-use",
     "name": "Terminal Use",
     "website": "https://www.terminaluse.com/",
-    "description": "Agent hosting infrastructure \u2014 Vercel for background agents",
+    "description": "Agent hosting infrastructure — Vercel for background agents",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -31446,7 +31421,7 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Sacha L\u00e9vy",
+        "name": "Sacha Lévy",
         "linkedin": "",
         "wikipedia_url": "",
         "x_url": "",
@@ -33241,7 +33216,7 @@
     "id": "visibl-semiconductors",
     "name": "Visibl Semiconductors",
     "website": "https://visiblsemi.com/",
-    "description": "A faster, cheaper path to custom silicon \u2014 full-service ASIC development",
+    "description": "A faster, cheaper path to custom silicon — full-service ASIC development",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -34562,7 +34537,7 @@
           "Illuminate Financial",
           "Motive Partners",
           "Expanse Venture Partners",
-          "Entr\u00e9e Capital",
+          "Entrée Capital",
           "14Peaks Capital"
         ],
         "source_urls": [
@@ -34586,7 +34561,7 @@
     "id": "mintlify",
     "name": "Mintlify",
     "website": "https://www.mintlify.com/",
-    "description": "Knowledge infrastructure platform for AI \u2014 developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
+    "description": "Knowledge infrastructure platform for AI — developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -34711,7 +34686,7 @@
     "id": "sygaldry",
     "name": "Sygaldry Technologies",
     "website": "https://sygaldry.com/",
-    "description": "Building quantum computers purpose-built for AI workloads \u2014 superconducting quantum hardware for next-generation AI data centers.",
+    "description": "Building quantum computers purpose-built for AI workloads — superconducting quantum hardware for next-generation AI data centers.",
     "hq_city": "Ann Arbor",
     "hq_region": "MI",
     "hq_country": "US",
@@ -34807,7 +34782,7 @@
     "id": "protocole",
     "name": "Protocole",
     "website": "https://theprotocole.com/",
-    "description": "Modern clinical-grade peptide platform \u2014 physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
+    "description": "Modern clinical-grade peptide platform — physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -34821,7 +34796,7 @@
       {
         "name": "Delphine Le Grand",
         "linkedin": "https://www.linkedin.com/in/delphinelegrandofficial/",
-        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eud\u0113monia Summit). Leads GTM and partnerships at Protocole.",
+        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eudēmonia Summit). Leads GTM and partnerships at Protocole.",
         "canadian_connection_type": "education",
         "canadian_institution": "McGill University",
         "canadian_city": "Montreal",
@@ -35317,7 +35292,7 @@
     "id": 377,
     "name": "Minicor",
     "website": "https://www.minicor.com",
-    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs \u2014 on-premise, cloud, or Citrix. Formerly Laminar.",
+    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs — on-premise, cloud, or Citrix. Formerly Laminar.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -35750,7 +35725,7 @@
     "icon_url": "https://img.logo.dev/zeonsystems.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
-        "name": "Bront\u00eb Kolar",
+        "name": "Brontë Kolar",
         "linkedin": "https://www.linkedin.com/in/bronte-kolar",
         "role": "Co-Founder & CEO",
         "canadian_connection_type": "education",
@@ -35796,7 +35771,7 @@
       "valuation_display": "",
       "total_funding_display": "$500K"
     },
-    "founder_display": "Bront\u00eb Kolar",
+    "founder_display": "Brontë Kolar",
     "institution_display": "Pearson College UWC",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
@@ -36284,7 +36259,7 @@
   {
     "id": 388,
     "website": "https://freesolo.co",
-    "description": "Builds Product Native Models \u2014 custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
+    "description": "Builds Product Native Models — custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
     "hq_city": "San Francisco",
     "hq_region": "California",
     "hq_country": "US",
@@ -36657,7 +36632,7 @@
           {
             "institution": "University of Pennsylvania",
             "degree": "BSE & BS",
-            "field": "Computer Science (SEAS) & Finance (Wharton) \u2014 Jerome Fisher M&T",
+            "field": "Computer Science (SEAS) & Finance (Wharton) — Jerome Fisher M&T",
             "years": "2022-2026"
           }
         ],
