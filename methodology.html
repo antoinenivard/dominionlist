@@ -5,10 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Methodology · The Dominion List</title>
 <meta name="description" content="How companies are included, verified, and maintained in The Dominion List — a database of the most influential Canadian founders building companies in America.">
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23111'/></svg>">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -75,6 +71,11 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 .footer-btn{display:inline-flex;align-items:center;gap:4px;font-size:12px;padding:4px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--fg3);cursor:pointer;transition:background .1s,color .1s;text-decoration:none}
 .footer-btn:hover{background:var(--bg-muted);color:var(--fg);text-decoration:none}
 .footer-btn svg{width:14px;height:14px;fill:currentColor}
+@media(max-width:767px){
+  .footer{padding:12px 16px 80px;font-size:11px;flex-direction:column;gap:10px}
+  .footer-right{flex-wrap:wrap;gap:8px}
+  .footer-btn{font-size:11px;padding:3px 8px}
+}
 </style>
 </head>
 <body>
@@ -307,7 +308,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <hr class="divider">
 
   <h2>Changelog</h2>
-  <p>Major changes to the database are tracked here. For granular history, see the <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/commits/main">commit log</a>.</p>
+  <p>Major changes to the database are tracked here. For granular history, see the <a href="https://github.com/antoinenivard/dominionlist/commits/main">commit log</a>.</p>
   <table class="schema-table">
     <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
     <tr><td>v0.9.3</td><td>Apr 2026</td><td>430 companies. Added Granite Systems, Kealia. Updated market caps for public companies. Full methodology page rewrite.</td></tr>
@@ -321,8 +322,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <h2>Contributing</h2>
   <p>The Dominion List is open source. You can contribute by:</p>
   <ul>
-    <li>Submitting a new company via <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new">GitHub issue</a></li>
-    <li>Suggesting corrections or updates via <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new">GitHub issue</a></li>
+    <li>Submitting a new company via <a href="https://github.com/antoinenivard/dominionlist/issues/new">GitHub issue</a></li>
+    <li>Suggesting corrections or updates via <a href="https://github.com/antoinenivard/dominionlist/issues/new">GitHub issue</a></li>
     <li>Opening a pull request directly against <code>data/companies.json</code></li>
   </ul>
   <p>All submissions require at least one public source confirming the Canadian founder connection.</p>
@@ -332,20 +333,20 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <h2>Citation</h2>
   <p>If you use The Dominion List in research, journalism, or analysis, please cite it as:</p>
   <div class="example-box">
-    <div class="detail" style="font-family:SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.6">Nivard, A. (2026). <em>The Dominion List: A Database of Canadian-Founded US Technology Companies.</em> Available at <a href="https://cfddb.vercel.app">cfddb.vercel.app</a>. Source: <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db">github.com/antoinenivard/canadian-founder-diaspora-db</a>.</div>
+    <div class="detail" style="font-family:SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.6">Nivard, A. (2026). <em>The Dominion List: A Database of Canadian-Founded US Technology Companies.</em> Available at <a href="https://cfddb.vercel.app">cfddb.vercel.app</a>. Source: <a href="https://github.com/antoinenivard/dominionlist">github.com/antoinenivard/dominionlist</a>.</div>
   </div>
 
   <hr class="divider">
 
   <h2>License</h2>
-  <p>The source code for this project is released under the <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a>. The dataset (<code>data/companies.json</code> and related data files) is released under the same license. Both are free to use, modify, and redistribute with attribution.</p>
+  <p>The source code for this project is released under the <a href="https://github.com/antoinenivard/dominionlist/blob/main/LICENSE">MIT License</a>. The dataset (<code>data/companies.json</code> and related data files) is released under the same license. Both are free to use, modify, and redistribute with attribution.</p>
 
 </main>
 
 <footer class="footer">
   <div class="footer-left">
     <div id="footerVersion">Updated · The Dominion List</div>
-    <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a></div>
+    <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/dominionlist/blob/main/LICENSE">MIT License</a></div>
   </div>
   <div class="footer-right">
     <a href="index.html" class="footer-btn">← Database</a>

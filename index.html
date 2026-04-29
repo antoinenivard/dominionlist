@@ -6,10 +6,6 @@
 <title>The Dominion List · The most influential Canadian founders building companies in America</title>
 <meta name="description" content="The canonical open-source dataset of US-headquartered startups founded or co-founded by Canadians.">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
 <style>
 /* ═══════════════════════════════════════════════════════════
    The Dominion List Design System — matched to VCEMDB
@@ -478,7 +474,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
 
   /* Detail panel & footer */
   .detail-panel{width:100vw}
-  .footer{padding:12px 16px 40px;font-size:11px;flex-direction:column;gap:10px}
+  .footer{padding:12px 16px 80px;font-size:11px;flex-direction:column;gap:10px}
   .footer-right{flex-wrap:wrap;gap:8px}
   .footer-btn{font-size:11px;padding:3px 8px}
   .footer-btn.download-btn{display:none}
@@ -504,11 +500,11 @@ a:hover{color:var(--link-h);text-decoration:underline}
     </a>
   </div>
   <div class="header-right">
-    <a class="icon-btn" href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new?template=submit-company.md" target="_blank" aria-label="Submit a company">
+    <a class="icon-btn" href="https://github.com/antoinenivard/dominionlist/issues/new?template=submit-company.md" target="_blank" aria-label="Submit a company">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg>
       <span class="tooltip" role="tooltip">Submit a company</span>
     </a>
-    <a class="icon-btn hide-mobile" href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new?template=suggest-edit.md" target="_blank" aria-label="Suggest an edit">
+    <a class="icon-btn hide-mobile" href="https://github.com/antoinenivard/dominionlist/issues/new?template=suggest-edit.md" target="_blank" aria-label="Suggest an edit">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="m5.433 13.917 1.262-3.155A4 4 0 0 1 7.58 9.42l6.92-6.918a2.121 2.121 0 0 1 3 3l-6.92 6.918c-.383.383-.84.685-1.343.886l-3.154 1.262a.5.5 0 0 1-.65-.65Z"/><path d="M3.5 5.75c0-.69.56-1.25 1.25-1.25H10A.75.75 0 0 0 10 3H4.75A2.75 2.75 0 0 0 2 5.75v9.5A2.75 2.75 0 0 0 4.75 18h9.5A2.75 2.75 0 0 0 17 15.25V10a.75.75 0 0 0-1.5 0v5.25c0 .69-.56 1.25-1.25 1.25h-9.5c-.69 0-1.25-.56-1.25-1.25v-9.5Z"/></svg>
       <span class="tooltip" role="tooltip">Suggest an edit</span>
     </a>
@@ -639,7 +635,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
     <footer class="footer">
       <div class="footer-left">
         <div id="footerVersion">Dataset updated &middot; The Dominion List</div>
-        <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco &middot; <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a></div>
+        <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco &middot; <a href="https://github.com/antoinenivard/dominionlist/blob/main/LICENSE">MIT License</a></div>
       </div>
       <div class="footer-right">
         <a href="analytics.html" class="footer-btn" title="Analytics">
@@ -650,7 +646,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
           <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/></svg>
           <span class="btn-label">Methodology</span>
         </a>
-        <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db" target="_blank" class="footer-btn" title="GitHub">
+        <a href="https://github.com/antoinenivard/dominionlist" target="_blank" class="footer-btn" title="GitHub">
           <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
           <span class="btn-label">GitHub</span>
         </a>
