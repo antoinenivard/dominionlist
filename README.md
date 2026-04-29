@@ -27,8 +27,8 @@ See the [Methodology](https://cfddb.vercel.app/methodology.html) page for inclus
 This is a static site — no build step, no dependencies, no framework.
 
 ```bash
-git clone https://github.com/antoinenivard/the-dominion-list.git
-cd the-dominion-list
+git clone https://github.com/antoinenivard/dominion-list.git
+cd dominion-list
 
 # Serve locally (any static server works)
 python3 -m http.server 8000
@@ -41,7 +41,7 @@ Open `http://localhost:8000` in your browser.
 ## Project structure
 
 ```
-the-dominion-list/
+dominion-list/
   index.html          # Main database table with search, filter, sort
   analytics.html      # Interactive charts and data visualizations
   methodology.html    # How the database is built and maintained
@@ -57,8 +57,8 @@ the-dominion-list/
 
 We welcome contributions. The most common ways to help:
 
-- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/the-dominion-list/issues/new?template=submit-company.md) with the company details and a public source confirming the Canadian founder connection.
-- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/the-dominion-list/issues/new?template=suggest-edit.md) with the company name, what needs to change, and a source.
+- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=submit-company.md) with the company details and a public source confirming the Canadian founder connection.
+- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=suggest-edit.md) with the company name, what needs to change, and a source.
 - **Edit the data directly** — fork the repo, edit `data/companies.json`, and open a pull request.
 
 All submissions require at least one public source. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
@@ -67,7 +67,7 @@ All submissions require at least one public source. See [CONTRIBUTING.md](CONTRI
 
 If you use The Dominion List in research, journalism, or analysis:
 
-> Nivard, A. (2026). *The Dominion List: A Database of Canadian-Founded US Technology Companies.* Available at [cfddb.vercel.app](https://cfddb.vercel.app). Source: [github.com/antoinenivard/the-dominion-list](https://github.com/antoinenivard/the-dominion-list).
+> Nivard, A. (2026). *The Dominion List: A Database of Canadian-Founded US Technology Companies.* Available at [cfddb.vercel.app](https://cfddb.vercel.app). Source: [github.com/antoinenivard/dominion-list](https://github.com/antoinenivard/dominion-list).
 
 ## License
 
