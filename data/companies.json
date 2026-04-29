@@ -25781,7 +25781,7 @@
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "founding_year": 2022,
+    "founding_year": 2025,
     "industry": "Industrial",
     "stage": "Seed",
     "status": "Active",
@@ -25792,11 +25792,14 @@
         "name": "Cameron Rowe",
         "linkedin": "https://www.linkedin.com/in/camrrowe",
         "wikipedia_url": "",
-        "x_url": "",
+        "x_url": "https://x.com/camrrowe",
         "bio": "CEO of Sentradel, previously founded Hover drone delivery service in Toronto.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_city": "Toronto, ON"
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "Queen's University"
+        ]
       }
     ],
     "funding_rounds": [
@@ -25831,7 +25834,7 @@
       "total_funding_display": "",
       "last_verified": "2026-03-24T20:03:37Z"
     },
-    "institution_display": "",
+    "institution_display": "Queen's University",
     "total_raised": "$2.04M",
     "capital_raised_usd": 2040000,
     "capital_raised_display": "$2.04M"
