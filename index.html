@@ -1833,9 +1833,17 @@ function openDetail(c) {
     + '<div class="dp-section"><div class="dp-section-title">Funding History</div>' + fundingHtml + '</div>'
     + (sourcesHtml ? '<div class="dp-section"><div class="dp-section-title">Sources</div>' + sourcesHtml + '</div>' : '');
 
-  /* Verification section — uses global dbMeta timestamp (single source of truth) */
-  const verifiedTs = dbMeta.last_updated_datetime_display || '';
-  if (verifiedTs) {
+  /* Verification section — per-company timestamp (most recent of global or company-level) */
+  var globalTs = dbMeta.last_updated_at ? new Date(dbMeta.last_updated_at) : null;
+  var companyTs = c.metadata && c.metadata.last_verified ? new Date(c.metadata.last_verified) : null;
+  var bestDate = (globalTs && companyTs) ? (companyTs > globalTs ? companyTs : globalTs) : (companyTs || globalTs);
+  if (bestDate) {
+    var mo = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var h = bestDate.getHours(), mn = bestDate.getMinutes();
+    var ampm = h >= 12 ? 'PM' : 'AM';
+    var h12 = h % 12 || 12;
+    var tz = bestDate.toLocaleTimeString('en-US',{timeZoneName:'short'}).split(' ').pop();
+    var verifiedTs = mo[bestDate.getMonth()] + ' ' + bestDate.getDate() + ', ' + bestDate.getFullYear() + ' at ' + h12 + ':' + String(mn).padStart(2,'0') + ' ' + ampm + ' ' + tz;
     const srcCount = dedupedSources.length;
     const srcLine = srcCount > 0
       ? '<div class="dp-verified-detail">Verified from ' + srcCount + ' source' + (srcCount !== 1 ? 's' : '') + '</div>'
