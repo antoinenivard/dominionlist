@@ -1,0 +1,2794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analytics · The Dominion List</title>
+<meta name="description" content="Data-driven insights from the Canadian Founder Diaspora Database.">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="https://unpkg.com/three@0.133.1/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/globe.gl@2.27.4"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;
+  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;
+  --border:#e5e7eb;--accent:#dc2626;--link:#2563eb;--link-h:#1d4ed8;
+  --bar:#6b7280;--bar-ai:#111827;--bar-light:#d1d5db;
+  --radius:8px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --globe-bg:#0b1526;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;
+  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;
+  --border:#1f2937;--accent:#ef4444;--link:#60a5fa;--link-h:#93bbfd;
+  --bar:#9ca3af;--bar-ai:#f3f4f6;--bar-light:#4b5563;
+  --globe-bg:#0b1526;
+}}
+html{font-family:var(--font);font-size:15px;line-height:1.65;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+body{min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decoration:underline}
+
+.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:var(--bg);padding:16px 24px;gap:16px;flex-wrap:wrap}
+.header-left{display:flex;align-items:center;gap:12px}
+.header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
+.header-left a:hover{color:var(--fg2);text-decoration:none}
+.header-title{font-size:18px;font-weight:600;letter-spacing:-0.3px}
+.header-subtitle{font-size:12px;color:var(--fg3);margin-top:1px}
+.header-right{display:flex;align-items:center;gap:2px}
+.icon-btn{position:relative;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:var(--radius);color:var(--fg3);background:none;border:none;cursor:pointer;transition:background .15s,color .15s}
+.icon-btn:hover{background:var(--bg-muted);color:var(--fg)}
+.icon-btn svg{width:20px;height:20px;fill:currentColor}
+.icon-btn .tooltip{position:absolute;bottom:-30px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;padding:3px 8px;border-radius:4px;background:var(--fg);color:var(--bg);opacity:0;pointer-events:none;transition:opacity .15s;z-index:10}
+.icon-btn:hover .tooltip{opacity:1}
+
+.page{max-width:780px;margin:0 auto;padding:48px 28px 80px}
+.hero{text-align:center;margin-bottom:56px}
+.hero h1{font-size:28px;font-weight:700;letter-spacing:-0.5px;margin-bottom:8px}
+.hero .subtitle{color:var(--fg2);font-size:15px;margin-bottom:32px;max-width:540px;margin-left:auto;margin-right:auto}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:600px;margin:0 auto}
+@media(max-width:600px){.metrics{grid-template-columns:repeat(2,1fr)}}
+.metric{text-align:center}
+.metric-value{font-size:26px;font-weight:700;letter-spacing:-0.5px;line-height:1.2}
+.metric-label{font-size:12px;color:var(--fg3);margin-top:2px}
+
+.section{margin-bottom:0}
+/* Desktop separators between sections */
+.snap-frame + .snap-frame{border-top:1px solid var(--border);margin-top:48px;padding-top:48px}
+.snap-frame:has(> .s2-continued),
+.snap-frame:has(> .sMap-continued){border-top-color:var(--bg-muted);margin-top:32px;padding-top:32px}
+.snap-frame + .snap-frame.snap-end{border-top:none;margin-top:48px;padding-top:0}
+/* Hide repeated section titles on desktop (only shown on mobile snap frames) */
+.s2-continued > h2,.sMap-continued > h2{display:none}
+.section h2{font-size:20px;font-weight:700;letter-spacing:-0.3px;margin-bottom:6px}
+.section h3{font-size:14px;font-weight:600;letter-spacing:0;color:var(--fg);margin-top:32px;margin-bottom:6px}
+.section .insight{color:var(--fg2);font-size:14px;margin-bottom:20px;line-height:1.6}
+.section .footnote{color:var(--fg3);font-size:12px;margin-top:12px}
+
+/* Globe container */
+#globeWrap{width:100%;aspect-ratio:4/3;max-height:520px;position:relative;border-radius:var(--radius);overflow:hidden;background:var(--globe-bg);margin-bottom:4px;border:1px solid var(--border)}
+#globeViz{width:100%;height:100%}
+#globeViz canvas{display:block;width:100%!important;height:100%!important}
+#globeHoverCard{
+  position:absolute;top:10px;right:10px;z-index:5;
+  min-width:180px;max-width:240px;
+  padding:9px 11px;border-radius:8px;
+  background:rgba(11,21,38,0.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  border:1px solid rgba(180,210,240,0.15);
+  color:#e6eef8;font-size:11px;line-height:1.35;
+  opacity:0;transform:translateY(-4px);transition:opacity .18s ease,transform .18s ease;
+  pointer-events:none;
+}
+#globeHoverCard.show{opacity:1;transform:translateY(0)}
+#globeHoverCard .hc-title{font-size:11.5px;font-weight:600;color:#fff;margin-bottom:2px;letter-spacing:.01em}
+#globeHoverCard .hc-sub{font-size:10px;color:#9cb3cc;margin-bottom:7px}
+#globeHoverCard table{width:100%;border-collapse:collapse}
+#globeHoverCard td{padding:2px 0;font-variant-numeric:tabular-nums}
+#globeHoverCard td.n{text-align:right;color:#ffd4dc;font-weight:600;padding-left:8px}
+#globeHoverCard.dest td.n{color:#dff1ff}
+#globeHoverCard .hc-total{margin-top:6px;padding-top:5px;border-top:1px solid rgba(180,210,240,0.12);font-size:10px;color:#9cb3cc;display:flex;justify-content:space-between}
+#globeFallback{display:none;width:100%;height:100%;align-items:center;justify-content:center;color:var(--fg3);font-size:14px;background:var(--globe-bg)}
+#globeFullscreen{position:absolute;bottom:10px;right:10px;z-index:10;width:32px;height:32px;border:none;border-radius:6px;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,color .15s;backdrop-filter:blur(4px)}
+#globeFullscreen:hover{background:rgba(255,255,255,0.2);color:#fff}
+#globeWrap:fullscreen{max-height:none;aspect-ratio:auto;border-radius:0;border:none}
+#globeWrap:-webkit-full-screen{max-height:none;aspect-ratio:auto;border-radius:0;border:none}
+#globeWrap.globe-fs-active{position:fixed;top:0;left:0;width:100vw;height:100vh;max-height:none;aspect-ratio:auto;border-radius:0;border:none;z-index:10000;background:var(--globe-bg)}
+#globeSearch{position:absolute;bottom:10px;left:10px;z-index:10;width:32px;height:32px;border:none;border-radius:6px;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,color .15s;backdrop-filter:blur(4px)}
+#globeSearch:hover{background:rgba(255,255,255,0.2);color:#fff}
+#globeSearch.active{background:rgba(255,255,255,0.2);color:#fff}
+#globePanel{position:absolute;bottom:48px;left:10px;z-index:12;width:220px;max-height:280px;display:none;flex-direction:column;border-radius:8px;background:rgba(11,21,38,0.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(180,210,240,0.15);overflow:hidden}
+#globePanel.open{display:flex}
+#globePanel input{border:none;outline:none;background:rgba(255,255,255,0.06);color:#e6eef8;font-size:12px;padding:8px 10px;border-bottom:1px solid rgba(180,210,240,0.1);font-family:var(--font)}
+#globePanel input::placeholder{color:rgba(180,210,240,0.4)}
+#globePanelList{overflow-y:auto;flex:1;padding:4px 0}
+#globePanelList .gp-item{padding:5px 10px;font-size:11px;color:#c8d8e8;cursor:pointer;display:flex;justify-content:space-between;transition:background .1s}
+#globePanelList .gp-item:hover{background:rgba(255,255,255,0.08)}
+#globePanelList .gp-item.active{background:rgba(255,255,255,0.12);color:#fff}
+#globePanelList .gp-item .gp-count{color:#9cb3cc;font-variant-numeric:tabular-nums;margin-left:8px;flex-shrink:0}
+#globePanelList .gp-group{padding:6px 10px 3px;font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:rgba(180,210,240,0.45);font-weight:600}
+#globeChip{position:absolute;bottom:10px;left:48px;z-index:10;display:none;align-items:center;gap:5px;padding:5px 8px 5px 10px;border-radius:6px;background:rgba(255,255,255,0.12);backdrop-filter:blur(4px);color:rgba(255,255,255,0.9);font-size:11px;font-family:var(--font);white-space:nowrap;cursor:default;border:1px solid rgba(180,210,240,0.15)}
+#globeChip.show{display:flex}
+#globeChip .chip-x{width:16px;height:16px;border:none;background:none;color:rgba(255,255,255,0.5);cursor:pointer;display:flex;align-items:center;justify-content:center;border-radius:3px;font-size:13px;line-height:1;padding:0}
+#globeChip .chip-x:hover{color:#fff;background:rgba(255,255,255,0.1)}
+@media(max-width:600px){#globeWrap{aspect-ratio:1/1;max-height:400px}}
+
+/* Bar chart */
+.bar-chart-wrap{display:flex;gap:24px;align-items:flex-start}
+.bar-chart{display:flex;flex-direction:column;gap:8px;flex:1;min-width:0}
+.bar-row{display:flex;align-items:center;gap:10px;font-size:13px}
+.bar-label{width:110px;text-align:right;flex-shrink:0;color:var(--fg2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;height:24px;background:var(--bg-muted);border-radius:4px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;background:var(--bar);transition:width .6s ease}
+.bar-fill.highlight{background:var(--bar-ai)}
+.bar-value{width:80px;font-size:12px;color:var(--fg3);white-space:nowrap}
+.top5-panel{width:220px;flex-shrink:0;display:flex;flex-direction:column;gap:8px}
+.top5-row{display:flex;align-items:center;gap:6px;height:24px;font-size:12px;color:var(--fg2);opacity:0.35;transition:opacity .15s}
+.top5-row.active{opacity:1}
+.top5-logo{width:20px;height:20px;border-radius:4px;background:var(--bg-muted);overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.top5-logo img{width:100%;height:100%;object-fit:contain}
+.top5-logo .initials{font-size:8px;font-weight:700;color:var(--fg3);line-height:1}
+.top5-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top5-amt{margin-left:auto;color:var(--fg3);font-size:11px;white-space:nowrap}
+@media(max-width:600px){.bar-chart-wrap{flex-direction:column;align-items:stretch}.bar-chart{width:100%}.top5-panel{width:100%}}
+
+/* Histogram */
+.histogram{display:flex;align-items:flex-end;gap:2px;height:140px;padding-bottom:24px;position:relative}
+.hist-bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;position:relative}
+.hist-bar{width:100%;background:var(--bar);border-radius:2px 2px 0 0;transition:height .6s ease;min-width:4px}
+.hist-label{position:absolute;bottom:-20px;font-size:10px;color:var(--fg3);white-space:nowrap}
+
+/* Pareto */
+.pareto{display:flex;gap:24px;align-items:stretch}
+.pareto-block{flex:1;border-radius:var(--radius);padding:20px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.pareto-left{background:var(--fg);color:var(--bg)}
+.pareto-right{background:var(--bg-muted);color:var(--fg)}
+.pareto-pct{font-size:36px;font-weight:700;letter-spacing:-1px;line-height:1.1}
+.pareto-desc{font-size:13px;margin-top:6px;opacity:0.75}
+@media(max-width:500px){.pareto{flex-direction:column}}
+
+/* Scatter / efficiency table */
+.eff-table{width:100%;border-collapse:collapse;font-size:13px}
+.eff-table th{text-align:left;font-weight:600;padding:8px 12px;border-bottom:2px solid var(--border);font-size:12px;color:var(--fg3);text-transform:uppercase;letter-spacing:0.5px}
+.eff-table td{padding:8px 12px;border-bottom:1px solid var(--border)}
+.eff-table tr:last-child td{border-bottom:none}
+.eff-table .num{text-align:right;font-variant-numeric:tabular-nums}
+.eff-rank{color:var(--fg3);font-size:12px}
+
+/* Disclosure */
+.disclosure{border-top:1px solid var(--border);padding-top:32px;margin-top:56px}
+.disclosure h2{font-size:16px;font-weight:600;margin-bottom:8px;color:var(--fg3)}
+.disclosure p{color:var(--fg3);font-size:13px;line-height:1.6}
+
+/* Footer */
+.footer{border-top:1px solid var(--border);padding:12px 24px;font-size:12px;color:var(--fg3);display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;flex-shrink:0}
+.footer a{color:var(--fg3);text-decoration:none}
+.footer a:hover{color:var(--fg);text-decoration:underline}
+.footer-left{display:flex;flex-direction:column;gap:4px}
+.footer-right{display:flex;align-items:center;gap:12px}
+.footer-btn{display:inline-flex;align-items:center;gap:4px;font-size:12px;padding:4px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--fg3);cursor:pointer;transition:background .1s,color .1s;text-decoration:none}
+.footer-btn:hover{background:var(--bg-muted);color:var(--fg);text-decoration:none}
+.footer-btn svg{width:14px;height:14px;fill:currentColor}
+
+/* ── Mobile scroll-snap + responsive adjustments ── */
+@media(max-width:600px){
+  /* Pin header to top */
+  .header{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg)}
+  /* Scroll-snap container fills below header */
+  .page{
+    padding:0 16px;
+    position:fixed;
+    top:53px; /* JS will override with actual header height */
+    left:0;right:0;bottom:0;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    scroll-snap-type:y mandatory;
+    max-width:none;
+  }
+  .snap-frame{
+    scroll-snap-align:start;
+    min-height:100%; /* fills the .page container exactly */
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:16px 0 24px;
+    box-sizing:border-box;
+  }
+  .snap-frame + .snap-frame{border-top:none;margin-top:0;padding-top:16px}
+  .snap-frame > .section,
+  .snap-frame > .disclosure{
+    margin-bottom:0;
+  }
+  .snap-hero{
+    justify-content:flex-start;
+    padding:32px 0;
+  }
+  .snap-hero .hero{
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+  .snap-end{
+    min-height:100%;
+    scroll-snap-align:start;
+    padding:24px 0 16px;
+  }
+  .snap-end .disclosure{margin-top:0;padding-top:16px}
+  body{overflow:hidden}
+  .footer{display:none}
+  .mobile-footer{display:flex!important}
+
+  /* Typography */
+  .hero h1{font-size:22px}
+  .hero .subtitle{font-size:14px;margin-bottom:28px}
+  .metric-value{font-size:26px}
+  .metric-label{font-size:12px}
+  .metrics{grid-template-columns:repeat(2,1fr);gap:20px}
+  /* Swap Combined Value (3rd) before Median Founded (4th) → Capital Raised is above Combined Value */
+  .metric:nth-child(3){order:4}
+  .metric:nth-child(4){order:3}
+  .section h2{font-size:18px}
+  .section .insight{font-size:13px;line-height:1.7;margin-bottom:24px}
+  .section .footnote{font-size:11px}
+  .section{margin-bottom:0}
+
+  /* Histogram */
+  .histogram{height:400px;padding-bottom:20px}
+  /* Hide section-level caption on mobile when subsections are shown */
+  .s2-caption,.sMap-caption{display:none}
+  .s2-caption + h3,.sMap-caption + h3{margin-top:8px}
+  .hist-label{font-size:9px}
+
+  /* Bar chart */
+  .bar-chart{gap:6px!important}
+  .bar-row{gap:6px;font-size:12px}
+  .bar-label{width:70px!important;font-size:11px;flex-shrink:0!important}
+  .bar-track{flex:1 1 0%!important;height:20px;min-width:0}
+  .bar-value{width:48px!important;flex-shrink:0!important;font-size:11px;text-align:right}
+  .top5-panel{gap:5px!important}
+  .top5-row{height:22px;font-size:11px}
+
+  /* Scroll hint */
+  .scroll-hint{
+    display:flex!important;flex-direction:column;align-items:center;gap:4px;
+    margin-top:auto;padding-bottom:24px;
+    font-size:11px;color:var(--fg3);letter-spacing:0.5px;
+    animation:scrollFade 2.5s ease-in-out infinite;
+  }
+  .scroll-hint svg{width:16px;height:16px;stroke:var(--fg3);animation:scrollBounce 2.5s ease-in-out infinite}
+
+  /* Header */
+  .header{padding:12px 16px}
+  .header-title{font-size:16px}
+
+  /* Other */
+  .disclosure p{font-size:12px}
+  #sankeyChart{width:calc(100% + 32px)!important;margin-left:-16px!important}
+  .pareto-pct{font-size:28px}
+  .pareto-desc{font-size:12px}
+  .pareto-block{padding:14px}
+
+  /* Section continuations: match normal h2 style */
+  .s2-continued > h2,
+  .sMap-continued > h2{
+    display:block;
+    font-size:18px;
+    color:var(--fg);
+    font-weight:700;
+    letter-spacing:-0.3px;
+    margin-bottom:6px;
+  }
+  .s2-continued > h3,
+  .sMap-continued > h3{margin-top:4px}
+  .s2-continued .insight,
+  .sMap-continued .insight{margin-bottom:12px}
+}
+@keyframes scrollFade{0%,100%{opacity:0.4}50%{opacity:0.8}}
+@keyframes scrollBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+@keyframes hiBarRise{from{transform:scaleY(0)}}
+.hi-bar{transform-origin:center bottom}
+.hero-icon{margin-bottom:21px}
+.hero-icon svg{display:block;margin:0 auto}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <a href="index.html">
+      <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
+      <div>
+        <div class="header-title">The Dominion List</div>
+        <div class="header-subtitle">Analytics</div>
+      </div>
+    </a>
+  </div>
+  <div class="header-right"></div>
+</header>
+
+<div class="page">
+  <!-- FRAME 0: HERO -->
+  <div class="snap-frame snap-hero">
+    <div class="hero">
+      <div class="hero-icon">
+        <svg viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="42">
+          <rect class="hi-bar" x="6" y="36" width="6" height="6" rx="1.5" fill="var(--fg3)" opacity="0.25" style="animation:hiBarRise .6s ease-out .2s both"/>
+          <rect class="hi-bar" x="15" y="28" width="6" height="14" rx="1.5" fill="var(--fg3)" opacity="0.35" style="animation:hiBarRise .6s ease-out .35s both"/>
+          <rect class="hi-bar" x="24" y="21" width="6" height="21" rx="1.5" fill="var(--fg3)" opacity="0.45" style="animation:hiBarRise .6s ease-out .5s both"/>
+          <rect class="hi-bar" x="33" y="14" width="6" height="28" rx="1.5" fill="var(--bar-ai)" opacity="0.7" style="animation:hiBarRise .6s ease-out .65s both"/>
+        </svg>
+      </div>
+      <h1>The Dominion List: A Data View</h1>
+      <p class="subtitle">A quantitative look at the most influential Canadian founders building companies in America.</p>
+      <div class="metrics">
+        <div class="metric"><div class="metric-value" id="mTotal">—</div><div class="metric-label">Companies</div></div>
+        <div class="metric"><div class="metric-value" id="mRaised">—</div><div class="metric-label">Capital Raised</div></div>
+        <div class="metric"><div class="metric-value" id="mVal">—</div><div class="metric-label">Combined Value</div></div>
+        <div class="metric"><div class="metric-value" id="mMedian">—</div><div class="metric-label">Median Founded</div></div>
+      </div>
+    </div>
+    <div class="scroll-hint" style="display:none">
+      Scroll down
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </div>
+
+  <!-- FRAME 1: More capital, fewer companies -->
+  <div class="snap-frame">
+    <div class="section" id="s5">
+      <h2>More capital, fewer companies</h2>
+      <p class="insight" id="s5insight">—</p>
+      <div id="s5chart" style="width:100%;position:relative"></div>
+      <p class="footnote" id="s5footnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 2: The gap is widening -->
+  <div class="snap-frame">
+    <div class="section" id="s4">
+      <h2>The gap is widening</h2>
+      <p class="insight" id="s4insight">—</p>
+      <div id="s4chart" style="width:100%;position:relative"></div>
+      <p class="footnote" id="s4footnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 3: AI supercycle — A new wave of companies -->
+  <div class="snap-frame">
+    <div class="section" id="s2">
+      <h2>The AI supercycle</h2>
+      <p class="insight s2-caption" id="s2insight">—</p>
+      <h3>A new wave of companies</h3>
+      <p class="insight" id="s3insight">—</p>
+      <div class="histogram" id="s3chart"></div>
+      <p class="footnote" id="s3footnote" style="margin-bottom:8px"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 4: AI supercycle — Where the capital is going -->
+  <div class="snap-frame">
+    <div class="section s2-continued">
+      <h2>The AI supercycle</h2>
+      <h3>Where the capital is going</h3>
+      <p class="insight" id="s2subinsight">—</p>
+      <div class="bar-chart-wrap">
+        <div class="bar-chart" id="s2chart"></div>
+        <div class="top5-panel" id="s2top5"></div>
+      </div>
+      <p class="footnote" id="s2footnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 5: Power law at work -->
+  <div class="snap-frame">
+    <div class="section" id="s1">
+      <h2>The power law at work</h2>
+      <p class="insight" id="s1insight">—</p>
+      <div id="s1concentration" style="margin-bottom:20px"></div>
+      <div id="s1chart" style="width:100%;overflow-x:auto"></div>
+      <p class="footnote" id="s1footnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 6: The corridors — Globe -->
+  <div class="snap-frame">
+    <div class="section" id="sMap">
+      <h2>The corridors</h2>
+      <p class="insight sMap-caption" id="sMapInsight">—</p>
+      <h3>Mapping out founder talent density</h3>
+      <p class="insight" id="sMapGlobeInsight">—</p>
+      <div id="globeWrap">
+        <div id="globeViz"></div>
+        <div id="globeFallback">3D visualization requires WebGL</div>
+        <div id="globeHoverCard" aria-live="polite"></div>
+        <div id="globeChip"><span class="chip-label"></span><button class="chip-x" aria-label="Deselect">×</button></div>
+        <button id="globeSearch" title="Search corridors" aria-label="Search corridors">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg>
+        </button>
+        <div id="globePanel"><input type="text" placeholder="Search city or corridor…"><div id="globePanelList"></div></div>
+        <button id="globeFullscreen" title="Full screen" aria-label="Full screen">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M3 3h5v2H5v3H3V3zm9 0h5v5h-2V5h-3V3zM3 12h2v3h3v2H3v-5zm12 3h-3v2h5v-5h-2v3z"/></svg>
+        </button>
+      </div>
+      <p class="footnote" id="sMapFootnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 7: The corridors — Sankey -->
+  <div class="snap-frame">
+    <div class="section sMap-continued">
+      <h2>The corridors</h2>
+      <h3>Founders vote with their feet</h3>
+      <p class="insight" id="sMapSankeyInsight">—</p>
+      <div id="sankeyChart" style="width:calc(100% + 56px);margin-left:-28px;margin-top:32px;overflow-x:auto"></div>
+      <p class="footnote" id="sankeyFootnote"></p>
+    </div>
+  </div>
+
+  <!-- FRAME 8: Disclosure (remainder) -->
+  <div class="snap-frame snap-end">
+    <div class="disclosure">
+      <h2>Data Coverage</h2>
+      <p id="disclosureText">—</p>
+    </div>
+    <div class="mobile-footer" style="display:none;margin-top:auto;margin-left:-16px;margin-right:-16px;padding:12px 16px 16px;font-size:11px;color:var(--fg3);flex-direction:column;gap:6px;border-top:1px solid var(--border)">
+      <div id="footerVersionMobile" style="color:var(--fg3)">Updated · The Dominion List</div>
+      <div>Built by <a href="https://antoinenivard.com" target="_blank" style="color:var(--fg3)">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE" style="color:var(--fg3)">MIT License</a></div>
+      <div style="display:flex;gap:8px;margin-top:4px">
+        <a href="index.html" class="footer-btn">← Database</a>
+        <a href="methodology.html" class="footer-btn"><svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/></svg> Methodology</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-left">
+    <div id="footerVersion">Updated · The Dominion List</div>
+    <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a></div>
+  </div>
+  <div class="footer-right">
+    <a href="index.html" class="footer-btn">← Database</a>
+    <a href="methodology.html" class="footer-btn">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/></svg>
+      Methodology
+    </a>
+  </div>
+</footer>
+
+<script>
+/* ═══ Footer version from metadata ═══ */
+fetch('data/metadata.json').then(function(r){return r.json()}).then(function(m){
+  var txt='Updated '+m.last_updated_date_display+(m.db_version?' · The Dominion List '+m.db_version:'');
+  var fv=document.getElementById('footerVersion');
+  var fvm=document.getElementById('footerVersionMobile');
+  if(fv&&m.last_updated_date_display) fv.textContent=txt;
+  if(fvm&&m.last_updated_date_display) fvm.textContent=txt;
+}).catch(function(){});
+
+/* ═══ Load data ═══ */
+fetch('data/companies.json')
+.then(function(r){return r.json()})
+.then(function(data){
+
+/* ── Viewport detection ── */
+var isMobile = window.innerWidth < 600;
+
+/* ── Mobile: position .page below fixed header ── */
+if(isMobile){
+  var hdr=document.querySelector('.header');
+  var pg=document.querySelector('.page');
+  if(hdr&&pg){
+    pg.style.top=hdr.offsetHeight+'px';
+  }
+  /* Hide scroll hint on first scroll */
+  var scrollHint=document.querySelector('.scroll-hint');
+  if(scrollHint&&pg){
+    pg.addEventListener('scroll',function onScroll(){
+      scrollHint.style.transition='opacity 0.4s ease';
+      scrollHint.style.opacity='0';
+      setTimeout(function(){scrollHint.style.display='none'},400);
+      pg.removeEventListener('scroll',onScroll);
+    });
+  }
+}
+
+/* ── Helpers ── */
+function fmt(n){
+  if(n>=1e12)return'$'+Math.round(n/1e12*10)/10+'T';
+  if(n>=1e9)return'$'+Math.round(n/1e9*10)/10+'B';
+  if(n>=1e6)return'$'+Math.round(n/1e6)+'M';
+  if(n>=1e3)return'$'+Math.round(n/1e3)+'K';
+  return'$'+n;
+}
+function getVal(c){
+  var m=c.metadata||{};
+  if(m.valuation_usd&&m.valuation_usd>0)return m.valuation_usd;
+  var rounds=(c.funding_rounds||[]).slice().sort(function(a,b){return(b.date||'').localeCompare(a.date||'')});
+  for(var i=0;i<rounds.length;i++){if(rounds[i].valuation_usd&&rounds[i].valuation_usd>0)return rounds[i].valuation_usd}
+  return 0;
+}
+
+var INST_SHORT = {
+  'University of Waterloo':'Waterloo','University of Toronto':'Toronto',
+  'McGill University':'McGill','University of British Columbia':'UBC',
+  "Queen's University":"Queen's",'Western University':'Western',
+  'University of Alberta':'Alberta','University of Ottawa':'Ottawa',
+  'McMaster University':'McMaster','Carleton University':'Carleton',
+  'Concordia University':'Concordia','Wilfrid Laurier University':'Laurier',
+  'York University':'York','Simon Fraser University':'SFU',
+  'University of Manitoba':'Manitoba','University of Victoria':'UVic',
+  'Université de Montréal':'UdeM','University of Calgary':'Calgary',
+  'University of Guelph':'Guelph','Northern Alberta Institute of Technology':'NAIT',
+  'OCAD University':'OCAD','University of Saskatchewan':'Saskatchewan',
+  'University of Regina':'Regina'
+};
+
+/* ── HERO ── */
+var total = data.length;
+var totalRaised = data.reduce(function(s,c){return s+(c.capital_raised_usd||0)},0);
+var compWithVal = data.filter(function(c){return getVal(c)>0});
+var totalVal = compWithVal.reduce(function(s,c){return s+getVal(c)},0);
+var years = data.map(function(c){return c.founding_year}).filter(Boolean).sort(function(a,b){return a-b});
+var medianYear = years[Math.floor(years.length/2)];
+
+document.getElementById('mTotal').textContent = total;
+document.getElementById('mRaised').textContent = fmt(totalRaised);
+document.getElementById('mVal').textContent = fmt(totalVal);
+document.getElementById('mMedian').textContent = medianYear;
+
+/* ── MIGRATION MAP ── */
+initGlobe(data);
+
+/* ── SECTION 1: Power Law & Concentration (Interactive Sliding Lens) ── */
+var vals = data.map(function(c){return{name:c.name,val:getVal(c)}}).filter(function(v){return v.val>0}).sort(function(a,b){return b.val-a.val});
+var top10val = vals.slice(0,10).reduce(function(s,v){return s+v.val},0);
+var top10pct = Math.round(top10val/totalVal*100);
+
+(function(){
+  var n = vals.length;
+  if(n < 2) return;
+
+  // Precompute cumulative values
+  var cumVal = [];
+  var runSum = 0;
+  for(var ci=0;ci<n;ci++){ runSum += vals[ci].val; cumVal.push(runSum); }
+
+  var top1pct = Math.round(vals[0].val / totalVal * 100);
+  var medianVal = vals[Math.floor(n/2)].val;
+  var ratio = Math.round(vals[0].val / medianVal);
+
+  function fmtVal(v){
+    if(v >= 1e12) return '$'+(v/1e12).toFixed(v%1e12===0?0:1)+'T';
+    if(v >= 1e9) return '$'+(v/1e9).toFixed(v%1e9===0?0:1)+'B';
+    if(v >= 1e6) return '$'+Math.round(v/1e6)+'M';
+    return '$'+Math.round(v/1e3)+'K';
+  }
+  function fmtTick(v){
+    if(v === 0) return '$0';
+    if(v >= 1e12){ var t=v/1e12; return '$'+(t%1===0?t.toFixed(0):t.toFixed(1))+'T'; }
+    if(v >= 1e9) return '$'+Math.round(v/1e9)+'B';
+    if(v >= 1e6) return '$'+Math.round(v/1e6)+'M';
+    return '$'+Math.round(v/1e3)+'K';
+  }
+
+  document.getElementById('s1insight').textContent =
+    'The concentration is extreme: '+vals[0].name+' alone ('+fmtVal(vals[0].val)+') accounts for '+top1pct+'% of all value \u2014 '+
+    ratio.toLocaleString()+'\u00d7 the median company. A concentrated cohort, a high hit rate, and a handful of outcomes most immigrant founder communities would dream of producing.';
+
+  // Chart dimensions
+  var W = isMobile?400:720, H = isMobile?300:380, pad = {top:isMobile?24:30,right:isMobile?16:30,bottom:isMobile?44:60,left:isMobile?48:72};
+  var cw = W - pad.left - pad.right;
+  var ch = H - pad.top - pad.bottom;
+  var maxV = vals[0].val, minV = vals[n-1].val;
+
+  // Linear scale — trillion-dollar outliers dominate, sub-$100M barely visible
+  var yMax = 1.5e12; // cap axis at $1.5T
+  function yPos(v){ return pad.top + ch * (1 - Math.min(v, yMax) / yMax); }
+  function xPos(i){ return pad.left + (i / (n - 1)) * cw; }
+
+  // Build area paths for left (selected) and right (rest) — these will be updated dynamically
+  function buildAreaLeft(cutoff){
+    if(cutoff < 0) return '';
+    var pts = [];
+    for(var i=0;i<=cutoff && i<n;i++) pts.push(xPos(i)+','+yPos(vals[i].val));
+    var endX = xPos(cutoff);
+    return 'M'+pts.join('L')+'L'+endX+','+(pad.top+ch)+'L'+xPos(0)+','+(pad.top+ch)+'Z';
+  }
+  function buildAreaRight(cutoff){
+    if(cutoff >= n-1) return '';
+    var pts = [];
+    for(var i=cutoff;i<n;i++) pts.push(xPos(i)+','+yPos(vals[i].val));
+    return 'M'+pts.join('L')+'L'+xPos(n-1)+','+(pad.top+ch)+'L'+xPos(cutoff)+','+(pad.top+ch)+'Z';
+  }
+
+  var pathD = 'M' + vals.map(function(v,i){ return xPos(i)+','+yPos(v.val); }).join('L');
+
+  // Y axis ticks — fixed $500B increments up to $1.5T
+  var yTicks = [0, 500e9, 1e12, 1.5e12];
+
+  // X axis ticks
+  var xTicks = [0];
+  if(n > 10) xTicks.push(9);
+  if(n > 25) xTicks.push(24);
+  if(n > 50) xTicks.push(49);
+  if(xTicks.indexOf(n-1) === -1) xTicks.push(n-1);
+
+  // Default cutoff
+  var defaultCutoff = Math.min(9, n-1);
+
+  // Build SVG
+  var svg = '<svg id="plSvg" viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:var(--font);cursor:crosshair;user-select:none">';
+
+  // Two area fills: selected (dark) and rest (muted)
+  svg += '<path id="plAreaLeft" d="'+buildAreaLeft(defaultCutoff)+'" fill="var(--bar-ai)" opacity="0.18"/>';
+  svg += '<path id="plAreaRight" d="'+buildAreaRight(defaultCutoff)+'" fill="var(--fg3)" opacity="0.08"/>';
+
+  // Vertical divider line at cutoff
+  svg += '<line id="plDivider" x1="'+xPos(defaultCutoff)+'" y1="'+pad.top+'" x2="'+xPos(defaultCutoff)+'" y2="'+(pad.top+ch)+'" stroke="var(--bar-ai)" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>';
+
+  // Grid lines
+  yTicks.forEach(function(t){
+    var y = yPos(t);
+    svg += '<line x1="'+pad.left+'" y1="'+y+'" x2="'+(W-pad.right)+'" y2="'+y+'" stroke="var(--border)" stroke-width="0.5"/>';
+    svg += '<text x="'+(pad.left-8)+'" y="'+(y+4)+'" text-anchor="end" font-size="'+(isMobile?10:11)+'" fill="var(--fg3)">'+fmtTick(t)+'</text>';
+  });
+
+  // X axis labels
+  xTicks.forEach(function(i){
+    svg += '<text x="'+xPos(i)+'" y="'+(H-pad.bottom+22)+'" text-anchor="middle" font-size="'+(isMobile?10:11)+'" fill="var(--fg3)">#'+(i+1)+'</text>';
+  });
+  svg += '<text x="'+(pad.left+cw/2)+'" y="'+(H-6)+'" text-anchor="middle" font-size="'+(isMobile?10:11)+'" fill="var(--fg2)">Company rank</text>';
+
+  // Main curve
+  svg += '<path d="'+pathD+'" fill="none" stroke="var(--fg)" stroke-width="2" stroke-linejoin="round"/>';
+
+  // Small dots for each company
+  vals.forEach(function(v,i){
+    svg += '<circle cx="'+xPos(i)+'" cy="'+yPos(v.val)+'" r="2" fill="var(--fg)" opacity="0.25"/>';
+  });
+
+  // Full-area hit zone for mouse tracking (covers entire chart area)
+  svg += '<rect x="'+pad.left+'" y="'+pad.top+'" width="'+cw+'" height="'+ch+'" fill="transparent" id="plHitArea" style="pointer-events:fill"/>';
+
+  // Hover guides + dot + tooltip
+  svg += '<line id="plGuideX" x1="0" y1="'+pad.top+'" x2="0" y2="'+(pad.top+ch)+'" stroke="var(--bar-ai)" stroke-width="0.75" stroke-dasharray="3,3" opacity="0.4" style="display:none;pointer-events:none"/>';
+  svg += '<line id="plGuideY" x1="'+pad.left+'" y1="0" x2="'+(W-pad.right)+'" y2="0" stroke="var(--bar-ai)" stroke-width="0.75" stroke-dasharray="3,3" opacity="0.4" style="display:none;pointer-events:none"/>';
+  svg += '<circle id="plGlow" cx="0" cy="0" r="12" fill="var(--bar-ai)" opacity="0.12" style="display:none;pointer-events:none"/>';
+  svg += '<circle id="plDot" cx="0" cy="0" r="5" fill="var(--bar-ai)" stroke="var(--bg)" stroke-width="2" style="display:none;pointer-events:none"/>';
+  svg += '<g id="plTooltip" style="display:none;pointer-events:none">';
+  svg += '<rect id="plTipBg" rx="4" ry="4" fill="var(--fg)" opacity="0.92"/>';
+  svg += '<text id="plTipName" font-size="11" font-weight="600" fill="var(--bg)"></text>';
+  svg += '<text id="plTipVal" font-size="11" fill="var(--bg)" opacity="0.8"></text>';
+  svg += '</g>';
+  svg += '</svg>';
+
+  document.getElementById('s1chart').innerHTML = svg;
+
+  // Concentration display below chart
+  function buildConcentrationHTML(cutoffIdx){
+    var count = cutoffIdx + 1;
+    var selectedVal = cumVal[cutoffIdx];
+    var selectedPct = Math.round(selectedVal / cumVal[n-1] * 100);
+    var restPct = 100 - selectedPct;
+    var restCount = n - count;
+    var showRest = restPct >= 1 && restCount > 0;
+
+    var html = '<div style="display:flex;align-items:stretch;gap:0;border-radius:var(--radius);overflow:hidden;height:48px;font-family:var(--font)">';
+    html += '<div style="flex:'+selectedPct+';background:var(--bar-ai);display:flex;align-items:center;justify-content:center;padding:0 12px;transition:flex .15s ease;min-width:0">';
+    html += '<span style="color:var(--bg);font-size:14px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+selectedPct+'%<span style="font-weight:400;font-size:12px;opacity:0.85;margin-left:6px">in the top '+count+'</span></span>';
+    html += '</div>';
+    if(showRest){
+      html += '<div style="flex:'+restPct+';background:var(--bg-muted);display:flex;align-items:center;justify-content:center;padding:0 8px;transition:flex .15s ease;min-width:0;overflow:hidden">';
+      html += '<span style="color:var(--fg3);font-size:14px;font-weight:700;white-space:nowrap;flex-shrink:0">'+restPct+'%</span>';
+      html += '<span style="color:var(--fg3);font-weight:400;font-size:12px;opacity:0.85;margin-left:6px;white-space:nowrap;overflow:hidden;min-width:0">across the other '+restCount+'</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+    html += '<div style="display:flex;justify-content:space-between;margin-top:6px;font-size:12px;color:var(--fg3)">';
+    html += '<span>'+fmtVal(selectedVal)+' combined</span>';
+    if(showRest) html += '<span>'+fmtVal(cumVal[n-1] - selectedVal)+' combined</span>';
+    html += '</div>';
+    return html;
+  }
+
+  var concEl = document.getElementById('s1concentration');
+  concEl.innerHTML = buildConcentrationHTML(defaultCutoff);
+
+  // Hover logic
+  var svgEl = document.getElementById('plSvg');
+  var dot = document.getElementById('plDot');
+  var glow = document.getElementById('plGlow');
+  var guideX = document.getElementById('plGuideX');
+  var guideY = document.getElementById('plGuideY');
+  var tooltip = document.getElementById('plTooltip');
+  var tipBg = document.getElementById('plTipBg');
+  var tipName = document.getElementById('plTipName');
+  var tipVal = document.getElementById('plTipVal');
+  var areaLeft = document.getElementById('plAreaLeft');
+  var areaRight = document.getElementById('plAreaRight');
+  var divider = document.getElementById('plDivider');
+  var currentCutoff = defaultCutoff;
+
+  function ptToSvg(e){
+    var pt = svgEl.createSVGPoint();
+    pt.x = e.clientX; pt.y = e.clientY;
+    return pt.matrixTransform(svgEl.getScreenCTM().inverse());
+  }
+  function findClosest(sx){
+    var idx = Math.round((sx - pad.left) / cw * (n - 1));
+    return Math.max(0, Math.min(n - 1, idx));
+  }
+
+  function updateView(cutoffIdx, hoverIdx){
+    // Update area fills
+    if(cutoffIdx !== currentCutoff){
+      currentCutoff = cutoffIdx;
+      areaLeft.setAttribute('d', buildAreaLeft(cutoffIdx));
+      areaRight.setAttribute('d', buildAreaRight(cutoffIdx));
+      divider.setAttribute('x1', xPos(cutoffIdx));
+      divider.setAttribute('x2', xPos(cutoffIdx));
+      concEl.innerHTML = buildConcentrationHTML(cutoffIdx);
+    }
+
+    // Show hover guides, glow, dot + tooltip for hovered company
+    var v = vals[hoverIdx];
+    var cx = xPos(hoverIdx), cy = yPos(v.val);
+    guideX.setAttribute('x1', cx); guideX.setAttribute('x2', cx); guideX.style.display = '';
+    guideY.setAttribute('y1', cy); guideY.setAttribute('y2', cy); guideY.style.display = '';
+    glow.setAttribute('cx', cx); glow.setAttribute('cy', cy); glow.style.display = '';
+    dot.setAttribute('cx', cx); dot.setAttribute('cy', cy);
+    dot.style.display = '';
+
+    var label = '#'+(hoverIdx+1)+' '+v.name;
+    var valText = fmtVal(v.val);
+    tipName.textContent = label; tipVal.textContent = valText;
+    var tipW = Math.max(label.length * 7 + 16, valText.length * 6.5 + 16);
+    var tipH = 40;
+    var tx = cx + 10, ty = cy - tipH - 8;
+    if(tx + tipW > W - pad.right) tx = cx - tipW - 10;
+    if(ty < pad.top) ty = cy + 12;
+    tipBg.setAttribute('x', tx); tipBg.setAttribute('y', ty);
+    tipBg.setAttribute('width', tipW); tipBg.setAttribute('height', tipH);
+    tipName.setAttribute('x', tx + 8); tipName.setAttribute('y', ty + 16);
+    tipVal.setAttribute('x', tx + 8); tipVal.setAttribute('y', ty + 32);
+    tooltip.style.display = '';
+  }
+
+  function resetView(){
+    dot.style.display = 'none';
+    glow.style.display = 'none';
+    guideX.style.display = 'none';
+    guideY.style.display = 'none';
+    tooltip.style.display = 'none';
+    currentCutoff = defaultCutoff;
+    areaLeft.setAttribute('d', buildAreaLeft(defaultCutoff));
+    areaRight.setAttribute('d', buildAreaRight(defaultCutoff));
+    divider.setAttribute('x1', xPos(defaultCutoff));
+    divider.setAttribute('x2', xPos(defaultCutoff));
+    concEl.innerHTML = buildConcentrationHTML(defaultCutoff);
+  }
+
+  svgEl.addEventListener('mousemove', function(e){
+    var p = ptToSvg(e);
+    if(p.x < pad.left - 10 || p.x > W - pad.right + 10){ resetView(); return; }
+    var i = findClosest(p.x);
+    updateView(i, i);
+  });
+  svgEl.addEventListener('mouseleave', resetView);
+  svgEl.addEventListener('touchstart', function(e){ e.preventDefault(); var p=ptToSvg(e.touches[0]); if(p.x>=pad.left&&p.x<=W-pad.right){ var i=findClosest(p.x); updateView(i,i); } }, {passive:false});
+  svgEl.addEventListener('touchmove', function(e){ e.preventDefault(); var p=ptToSvg(e.touches[0]); if(p.x>=pad.left&&p.x<=W-pad.right){ var i=findClosest(p.x); updateView(i,i); } }, {passive:false});
+  svgEl.addEventListener('touchend', function(){ setTimeout(resetView, 2000); });
+
+  document.getElementById('s1footnote').textContent =
+    'Valuation data for '+n+' of '+total+' companies, plotted on a log scale. Public companies use market cap. Move along the curve to see how value concentrates at each cutoff.';
+})();
+
+/* ── SECTION 2: AI Dominance ── */
+var indRaised = {}, indCount = {};
+data.forEach(function(c){
+  var ind = c.industry || 'Other';
+  indRaised[ind] = (indRaised[ind]||0) + (c.capital_raised_usd||0);
+  indCount[ind] = (indCount[ind]||0) + 1;
+});
+var indEntries = Object.entries(indRaised).sort(function(a,b){return b[1]-a[1]});
+var maxInd = indEntries[0][1];
+var aiPct = Math.round((indRaised['AI']||0)/totalRaised*100);
+
+document.getElementById('s2insight').textContent =
+  'The AI supercycle is driving the gap. Canadian founders in AI have raised '+fmt(indRaised['AI']||0)+' \u2014 '+aiPct+'% of all capital \u2014 and are forming companies at an unprecedented rate.';
+
+var secondInd = indEntries.length > 1 ? indEntries[1] : null;
+document.getElementById('s2subinsight').textContent =
+  'Canadian diaspora founders are not merely participating in the AI wave — they are riding it aggressively. Funding clusters where they have the strongest technical advantage, and AI now accounts for '+aiPct+'% of all capital raised. The next largest sector'+(secondInd ? ', '+secondInd[0]+' at '+fmt(secondInd[1])+',' : '')+' trails by an order of magnitude.';
+
+/* Build top-5 companies per industry */
+var indTop5 = {};
+var LOGO_SKIP={'ssi.inc':1}; /* domains where Google favicon returns generic globe */
+function getDomain(url){if(!url)return'';try{return new URL(url).hostname.replace(/^www\./,'')}catch(e){return''}}
+function getInitials(n){return n.split(/\s+/).map(function(w){return w[0]}).join('').substring(0,2).toUpperCase()}
+indEntries.forEach(function(e){
+  var ind=e[0];
+  var cos=data.filter(function(c){return(c.industry||'Other')===ind}).sort(function(a,b){return(b.capital_raised_usd||0)-(a.capital_raised_usd||0)}).slice(0,5);
+  indTop5[ind]=cos.map(function(c){
+    var d=getDomain(c.website);
+    var ini=getInitials(c.name);
+    var logo;
+    if(c.icon_url){
+      logo='<img src="'+c.icon_url+'" alt="" class="top5-logo-img" data-fallback="'+ini+'">';
+    }else if(d&&!LOGO_SKIP[d]){
+      logo='<img src="https://www.google.com/s2/favicons?sz=128&domain='+d+'" alt="" class="top5-logo-img" data-fallback="'+ini+'">';
+    }else{
+      logo='<span class="initials">'+ini+'</span>';
+    }
+    return{name:c.name,raised:c.capital_raised_usd||0,logo:logo};
+  });
+});
+/* Fix logos that fail to load (same approach as main db) */
+function fixTop5Logos(){
+  setTimeout(function(){
+    document.querySelectorAll('.top5-logo-img[data-fallback]').forEach(function(img){
+      if(img.complete&&img.naturalWidth===0){
+        img.outerHTML='<span class="initials">'+img.getAttribute('data-fallback')+'</span>';
+      }else if(!img.complete){
+        img.onerror=function(){this.outerHTML='<span class="initials">'+this.getAttribute('data-fallback')+'</span>'};
+      }
+    });
+  },200);
+}
+fixTop5Logos();
+
+var s2html = '';
+indEntries.forEach(function(e){
+  var ind=e[0],raised=e[1];
+  var pct = raised/maxInd*100;
+  var hl = ind==='AI' ? ' highlight' : '';
+  var cnt = indCount[ind]||0;
+  s2html += '<div class="bar-row" data-ind="'+ind+'" data-count="'+cnt+'"><span class="bar-label">'+ind+'</span><div class="bar-track"><div class="bar-fill'+hl+'" style="width:'+pct+'%"></div></div><span class="bar-value">'+fmt(raised)+'</span></div>';
+});
+document.getElementById('s2chart').innerHTML = s2html;
+
+/* Build top5 panel — show first sector (AI) by default */
+var top5El = document.getElementById('s2top5');
+function showTop5(ind){
+  var cos = indTop5[ind]||[];
+  var h = '<div style="font-size:11px;font-weight:600;color:var(--fg3);margin-bottom:2px">Top companies · '+ind+'</div>';
+  cos.forEach(function(c){
+    h+='<div class="top5-row active"><div class="top5-logo">'+c.logo+'</div><span class="top5-name">'+c.name+'</span><span class="top5-amt">'+fmt(c.raised)+'</span></div>';
+  });
+  top5El.innerHTML=h;
+  fixTop5Logos();
+}
+showTop5(indEntries[0][0]);
+
+/* ── Bar chart hover: show company count + update top5 ── */
+(function(){
+  var chart = document.getElementById('s2chart');
+  var rows = chart.querySelectorAll('.bar-row');
+  var label = document.createElement('span');
+  var activeRow = null;
+
+  var aiFill = chart.querySelector('.bar-fill.highlight');
+
+  function highlight(row){
+    if(activeRow === row) return;
+    if(activeRow && label.parentNode) label.parentNode.removeChild(label);
+    /* Restore previous row */
+    if(activeRow){
+      activeRow.querySelector('.bar-fill').style.background = '';
+    }
+    activeRow = row;
+    if(!row){
+      /* Reset: clear all inline styles, CSS .highlight takes over for AI */
+      if(aiFill) aiFill.style.background = '';
+      showTop5(indEntries[0][0]);
+      return;
+    }
+    showTop5(row.dataset.ind);
+    var fill = row.querySelector('.bar-fill');
+    var isAI = fill.classList.contains('highlight');
+    /* Highlight the hovered bar; dim AI when hovering something else */
+    fill.style.background = 'var(--bar-ai)';
+    if(!isAI && aiFill) aiFill.style.background = 'var(--bar)';
+    label.textContent = row.dataset.count+' companies';
+    label.style.opacity = '0';
+    if(isAI || fill.offsetWidth > 80){
+      /* Label inside the bar */
+      label.style.cssText = 'position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:11px;font-weight:600;color:var(--bg);white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s';
+      fill.style.position = 'relative';
+      fill.appendChild(label);
+    } else {
+      /* Label outside the bar */
+      label.style.cssText = 'position:absolute;top:50%;transform:translateY(-50%);font-size:11px;font-weight:600;color:var(--fg2);white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s';
+      var track = row.querySelector('.bar-track');
+      track.style.position = 'relative';
+      label.style.left = (fill.offsetWidth + 8) + 'px';
+      track.appendChild(label);
+    }
+    label.offsetHeight;
+    label.style.opacity = '1';
+  }
+
+  rows.forEach(function(row){
+    row.addEventListener('mouseenter', function(){ highlight(row); });
+  });
+  chart.addEventListener('mouseleave', function(){ highlight(null); });
+})();
+
+var compWithRaised = data.filter(function(c){return(c.capital_raised_usd||0)>0}).length;
+document.getElementById('s2footnote').textContent =
+  'Capital raised data available for '+compWithRaised+' of '+total+' companies.';
+
+/* ── SECTION 3: Founding Year ── */
+var yrCounts = {};
+var startYr = 2005, endYr = 2026;
+for(var y=startYr;y<=endYr;y++)yrCounts[y]=0;
+data.forEach(function(c){var y=c.founding_year;if(y&&y>=startYr&&y<=endYr)yrCounts[y]++});
+var maxYr = Math.max.apply(null,Object.values(yrCounts));
+var recent = (yrCounts[2023]||0)+(yrCounts[2024]||0)+(yrCounts[2025]||0);
+var recentPct = Math.round(recent/total*100);
+
+document.getElementById('s3insight').textContent =
+  'The newest formation wave is overwhelmingly AI-native. '+recentPct+'% of companies were founded in 2023\u20132025, with formation peaking in 2024 at '+(yrCounts[2024]||0)+' new companies \u2014 nearly all AI-native.';
+
+var s3html = '';
+for(var y=startYr;y<=endYr;y++){
+  var h = yrCounts[y]/maxYr*100;
+  var showLabel = isMobile ? (y%4===0 || y===endYr) : (y%5===0 || y===endYr);
+  s3html += '<div class="hist-bar-wrap" data-yr="'+y+'" data-count="'+yrCounts[y]+'"><div class="hist-bar" style="height:'+h+'%"></div>'+(showLabel?'<span class="hist-label">'+y+'</span>':'')+'</div>';
+}
+document.getElementById('s3chart').innerHTML = s3html;
+
+/* ── Histogram hover interaction ── */
+(function(){
+  var chart = document.getElementById('s3chart');
+  var wraps = chart.querySelectorAll('.hist-bar-wrap');
+  var tip = document.createElement('div');
+  tip.style.cssText = 'position:absolute;top:-28px;left:50%;transform:translateX(-50%);background:var(--fg);color:var(--bg);font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5';
+  var activeWrap = null;
+
+  var hoverLabel = null;
+  function highlight(wrap){
+    if(activeWrap === wrap) return;
+    if(activeWrap){ activeWrap.querySelector('.hist-bar').style.background = ''; if(tip.parentNode) tip.parentNode.removeChild(tip); }
+    if(hoverLabel){ hoverLabel.parentNode.removeChild(hoverLabel); hoverLabel=null; }
+    activeWrap = wrap;
+    if(!wrap) return;
+    wrap.querySelector('.hist-bar').style.background = 'var(--bar-ai)';
+    tip.textContent = wrap.dataset.count+' companies';
+    wrap.appendChild(tip);
+    /* Show year label if not already visible */
+    if(!wrap.querySelector('.hist-label')){
+      hoverLabel = document.createElement('span');
+      hoverLabel.className = 'hist-label';
+      hoverLabel.textContent = wrap.dataset.yr;
+      hoverLabel.style.fontWeight = '600';
+      hoverLabel.style.color = 'var(--fg)';
+      wrap.appendChild(hoverLabel);
+    }
+    /* force reflow then show */
+    tip.offsetHeight;
+    tip.style.opacity = '1';
+  }
+
+  chart.addEventListener('mousemove', function(e){
+    var rect = chart.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var barW = rect.width / wraps.length;
+    var idx = Math.min(Math.max(Math.floor(x / barW), 0), wraps.length - 1);
+    highlight(wraps[idx]);
+  });
+  chart.addEventListener('mouseleave', function(){ highlight(null); });
+
+  /* Touch support */
+  chart.addEventListener('touchmove', function(e){
+    var touch = e.touches[0];
+    var rect = chart.getBoundingClientRect();
+    var x = touch.clientX - rect.left;
+    var barW = rect.width / wraps.length;
+    var idx = Math.min(Math.max(Math.floor(x / barW), 0), wraps.length - 1);
+    highlight(wraps[idx]);
+  });
+  chart.addEventListener('touchend', function(){ setTimeout(function(){ highlight(null); }, 1500); });
+})();
+
+/* ── SECTION 4: Capital Access Gap — US vs Canada ── */
+(function(){
+  var EXCL={'Acquired':1,'IPO':1,'Acquisition':1,'SPAC':1,'IPO (SPAC)':1,'Market Cap':1,'Direct Listing':1,'Post-IPO ATM':1,'Post-IPO Equity':1,'Post-IPO Debt':1,'Wind Down':1,'Bankruptcy':1};
+  function isExit(r){
+    if(EXCL[r.round])return true;
+    var n=(r.notes||'').toLowerCase();
+    return /\bacquir|acquis|\bipo\b|spac|merger|went public|listing|delisted/.test(n);
+  }
+  var startYr=2010, endYr=2025;
+
+  /* CVCA data: VC invested in Canadian companies (USD) */
+  var cvca={
+    2010:{deals:407,raised:1.107e9},2011:{deals:444,raised:1.517e9},
+    2012:{deals:443,raised:1.501e9},2013:{deals:452,raised:1.942e9},
+    2014:{deals:478,raised:1.856e9},2015:{deals:536,raised:1.799e9},
+    2016:{deals:530,raised:2.415e9},2017:{deals:592,raised:2.695e9},
+    2018:{deals:610,raised:2.856e9},2019:{deals:539,raised:4.673e9},
+    2020:{deals:532,raised:3.429e9},2021:{deals:752,raised:11.724e9},
+    2022:{deals:706,raised:7.685e9},2023:{deals:660,raised:5.112e9},
+    2024:{deals:426,raised:4.745e9},2025:{deals:515,raised:4.716e9} /* Q3 YTD × 4/3 estimate */
+  };
+
+  /* Dominion 5 outliers that skew averages heavily */
+  var BIG5={'OpenAI':1,'Anthropic':1,'xAI':1,'Tesla':1,'SpaceX':1};
+
+  /* Our data: Canadian founders incorporated in the US */
+  var us={}, usEx={}, topDeals={};
+  for(var y=startYr;y<=endYr;y++){us[y]={deals:0,raised:0};usEx[y]={deals:0,raised:0};topDeals[y]=[];}
+  data.forEach(function(co){
+    if(!co.funding_rounds)return;
+    var isBig=BIG5[co.name]||false;
+    co.funding_rounds.forEach(function(r){
+      if(!r.round||!r.date||isExit(r))return;
+      var yr=parseInt(r.date.substring(0,4));
+      if(isNaN(yr)||yr<startYr||yr>endYr)return;
+      var amt=r.amount_usd||0;
+      us[yr].deals++;
+      us[yr].raised+=amt;
+      if(!isBig){usEx[yr].deals++;usEx[yr].raised+=amt}
+      if(amt>0)topDeals[yr].push({name:co.name,round:r.round,amt:amt});
+    });
+  });
+  /* Keep only top 3 deals per year, sorted descending */
+  for(var y=startYr;y<=endYr;y++){
+    topDeals[y].sort(function(a,b){return b.amt-a.amt});
+    topDeals[y]=topDeals[y].slice(0,3);
+  }
+
+  var years=[];for(var y=startYr;y<=endYr;y++)years.push(y);
+
+  /* Totals */
+  var totUS={deals:0,raised:0},totEx={deals:0,raised:0},totCA={deals:0,raised:0};
+  years.forEach(function(y){
+    totUS.deals+=us[y].deals;totUS.raised+=us[y].raised;
+    totEx.deals+=usEx[y].deals;totEx.raised+=usEx[y].raised;
+    totCA.deals+=cvca[y].deals;totCA.raised+=cvca[y].raised;
+  });
+  var avgUS=totUS.raised/totUS.deals;
+  var avgEx=totEx.raised/totEx.deals;
+  var avgCA=totCA.raised/totCA.deals;
+  var multAll=Math.round(avgUS/avgCA);
+  var multEx=Math.round(avgEx/avgCA);
+
+  function fmtM(v){
+    if(v>=1e9)return'$'+(v/1e9).toFixed(1)+'B';
+    if(v>=1e6)return'$'+Math.round(v/1e6)+'M';
+    if(v>=1e3)return'$'+Math.round(v/1e3)+'K';
+    return'$'+v;
+  }
+
+  document.getElementById('s4insight').textContent=
+    'Where you incorporate shapes your access to capital — and the gap is accelerating. '+
+    'Even excluding the Dominion 5 (OpenAI, Anthropic, xAI, Tesla, SpaceX), Canadian founders in the US raise '+
+    multEx+'× more per deal ('+fmtM(avgEx)+' vs. '+fmtM(avgCA)+'). Including them, '+multAll+'×.';
+
+  /* ── Three curves with shaded gap + multiplier labels ── */
+  var W=isMobile?400:700,H=isMobile?380:520,padL=isMobile?36:48,padR=isMobile?10:14,padT=isMobile?10:28,padB=isMobile?24:32;
+  var chartW=W-padL-padR,chartH=H-padT-padB;
+  var xPos=function(i){return padL+i*(chartW/(years.length-1||1))};
+
+  /* Per-year avg deal sizes: all US, ex-Big5, Canada */
+  var avgData=years.map(function(y){
+    var uA=us[y].deals>0?us[y].raised/us[y].deals:0;
+    var exA=usEx[y].deals>0?usEx[y].raised/usEx[y].deals:0;
+    var cA=cvca[y].deals>0?cvca[y].raised/cvca[y].deals:0;
+    var mAll=cA>0&&uA>0?Math.round(uA/cA):0;
+    var mEx=cA>0&&exA>0?Math.round(exA/cA):0;
+    var top=topDeals[y]||[];
+    return{yr:y,usAvg:uA,exAvg:exA,caAvg:cA,mult:mAll,multEx:mEx,top:top};
+  });
+
+  /* Broken Y-axis: linear 0–$500M in bottom 80%, compressed $500M+ in top 20% */
+  var BREAK=500e6;
+  var breakFrac=0.8; /* bottom 80% of chart area for 0–$500M */
+  var yMaxAbove=0;
+  avgData.forEach(function(d){
+    if(d.usAvg>yMaxAbove)yMaxAbove=d.usAvg;
+    if(d.exAvg>yMaxAbove)yMaxAbove=d.exAvg;
+  });
+  if(yMaxAbove<=BREAK)yMaxAbove=BREAK*1.2;
+  var niceStepBelow=100e6;
+  var yLin=function(v){
+    v=Math.max(0,v);
+    if(v<=BREAK){
+      return padT+chartH*(1-v/BREAK*breakFrac);
+    }else{
+      var abovePct=(v-BREAK)/(yMaxAbove-BREAK);
+      return padT+chartH*(1-(breakFrac+abovePct*(1-breakFrac)));
+    }
+  };
+
+  /* Colors: US-all = blue, ex-Big5 = teal/green, CA = warm orange */
+  var colUS='var(--bar-ai)', colEx='#2fa87e', colCA='#d65f6e';
+
+  var svg='<svg id="s4Svg" viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:var(--font)">';
+
+  /* Grid lines — below break: every $100M up to $500M */
+  for(var gv=0;gv<=BREAK;gv+=niceStepBelow){
+    var gy=yLin(gv);
+    svg+='<line x1="'+padL+'" y1="'+gy+'" x2="'+(W-padR)+'" y2="'+gy+'" stroke="var(--border)" stroke-width="0.5" stroke-dasharray="3,3"/>';
+    svg+='<text x="'+(padL-6)+'" y="'+(gy+3)+'" text-anchor="end" font-size="'+(isMobile?10:9)+'" fill="var(--fg3)">'+fmtM(gv)+'</text>';
+  }
+  /* Above break: single label at $1B */
+  var gy1b=yLin(1e9);
+  svg+='<line x1="'+padL+'" y1="'+gy1b+'" x2="'+(W-padR)+'" y2="'+gy1b+'" stroke="var(--border)" stroke-width="0.5" stroke-dasharray="3,3"/>';
+  svg+='<text x="'+(padL-6)+'" y="'+(gy1b+3)+'" text-anchor="end" font-size="'+(isMobile?10:9)+'" fill="var(--fg3)">$1B</text>';
+  /* Break indicator: two small diagonal slashes on the Y-axis, above the $500M label */
+  var breakY=yLin(BREAK)-14;
+  var slashW=5,slashH=4;
+  svg+='<line x1="'+(padL-slashW)+'" y1="'+(breakY+slashH)+'" x2="'+(padL+slashW)+'" y2="'+(breakY-slashH)+'" stroke="var(--fg3)" stroke-width="1.5"/>';
+  svg+='<line x1="'+(padL-slashW)+'" y1="'+(breakY+slashH+6)+'" x2="'+(padL+slashW)+'" y2="'+(breakY-slashH+6)+'" stroke="var(--fg3)" stroke-width="1.5"/>';
+
+  /* CA line (bottom) */
+  var caPts=[];
+  avgData.forEach(function(d,i){caPts.push(xPos(i)+','+yLin(d.caAvg))});
+  svg+='<polyline points="'+caPts.join(' ')+'" fill="none" stroke="'+colCA+'" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>';
+  avgData.forEach(function(d,i){
+    svg+='<circle cx="'+xPos(i)+'" cy="'+yLin(d.caAvg)+'" r="2.5" fill="'+colCA+'" stroke="var(--bg)" stroke-width="1"/>';
+  });
+
+  /* Ex-Big5 line (middle) — dashed, subtle */
+  var exPts=[];
+  avgData.forEach(function(d,i){exPts.push(xPos(i)+','+yLin(d.exAvg))});
+  svg+='<polyline points="'+exPts.join(' ')+'" fill="none" stroke="'+colEx+'" stroke-width="1.5" stroke-dasharray="6,3" stroke-linejoin="round" stroke-linecap="round" opacity="0.5"/>';
+  avgData.forEach(function(d,i){
+    if(d.exAvg<=0)return;
+    svg+='<circle cx="'+xPos(i)+'" cy="'+yLin(d.exAvg)+'" r="2" fill="'+colEx+'" stroke="var(--bg)" stroke-width="1" opacity="0.5"/>';
+  });
+
+  /* US-all line — split at BREAK for correct geometry, all solid */
+  var usAllPts=[];
+  for(var si=0;si<avgData.length;si++){
+    var ay=avgData[si].usAvg;
+    if(si>0){
+      var prev=avgData[si-1].usAvg;
+      if((prev<BREAK&&ay>BREAK)||(prev>BREAK&&ay<BREAK)){
+        var t=(BREAK-prev)/(ay-prev);
+        var mx=xPos(si-1)+t*(xPos(si)-xPos(si-1));
+        usAllPts.push({x:mx,y:yLin(BREAK)});
+      }
+    }
+    usAllPts.push({x:xPos(si),y:yLin(ay)});
+  }
+  for(var pi=0;pi<usAllPts.length-1;pi++){
+    svg+='<line x1="'+usAllPts[pi].x+'" y1="'+usAllPts[pi].y+'" x2="'+usAllPts[pi+1].x+'" y2="'+usAllPts[pi+1].y+'" stroke="'+colUS+'" stroke-width="1.5" stroke-linecap="round"/>';
+  }
+  avgData.forEach(function(d,i){
+    if(d.usAvg<=0)return;
+    svg+='<circle cx="'+xPos(i)+'" cy="'+yLin(d.usAvg)+'" r="2.5" fill="'+colUS+'" stroke="var(--bg)" stroke-width="1"/>';
+  });
+
+  /* Multiplier labels: All US vs CA (above US line) */
+  avgData.forEach(function(d,i){
+    if(d.mult<=0||d.usAvg<=0)return;
+    if(isMobile&&i%2!==0&&i!==avgData.length-1)return;
+    var usY=yLin(d.usAvg);
+    var labelY=usY-10;
+    if(labelY<padT+10)labelY=padT+10;
+    svg+='<text x="'+xPos(i)+'" y="'+labelY+'" text-anchor="middle" font-size="'+(isMobile?9:10)+'" font-weight="700" fill="'+colUS+'" opacity="0.55">'+d.mult+'x</text>';
+  });
+
+  /* Multiplier labels: ex-Big5 vs CA (just below green dots) */
+  avgData.forEach(function(d,i){
+    if(d.multEx<=0||d.exAvg<=0)return;
+    if(isMobile)return; /* hide on mobile to avoid clutter */
+    var exY=yLin(d.exAvg);
+    var labelY=exY+16;
+    if(labelY>H-padB-4)labelY=exY-8;
+    svg+='<text x="'+xPos(i)+'" y="'+labelY+'" text-anchor="middle" font-size="10" font-weight="700" fill="'+colEx+'" opacity="0.55">'+d.multEx+'x</text>';
+  });
+
+  /* Year labels */
+  avgData.forEach(function(d,i){
+    if(isMobile&&i%2!==0&&i!==avgData.length-1)return;
+    svg+='<text x="'+xPos(i)+'" y="'+(H-padB+12)+'" text-anchor="middle" font-size="'+(isMobile?9:9)+'" fill="var(--fg3)">'+("'"+String(d.yr).slice(2))+'</text>';
+  });
+
+  /* Legend — 3 entries (inside chart top-left on mobile, inline on desktop) */
+  if(isMobile){
+    var ly=padT+21,lsp=13,lfs=9,lx=padL+6;
+    svg+='<line x1="'+lx+'" y1="'+ly+'" x2="'+(lx+14)+'" y2="'+ly+'" stroke="'+colUS+'" stroke-width="1.5"/>';
+    svg+='<circle cx="'+(lx+7)+'" cy="'+ly+'" r="2" fill="'+colUS+'"/>';
+    svg+='<text x="'+(lx+20)+'" y="'+(ly+3)+'" font-size="'+lfs+'" fill="var(--fg3)">All US (incl. Dominion 5)</text>';
+    ly+=lsp;
+    svg+='<line x1="'+lx+'" y1="'+ly+'" x2="'+(lx+14)+'" y2="'+ly+'" stroke="'+colEx+'" stroke-width="1.5" stroke-dasharray="6,3" opacity="0.5"/>';
+    svg+='<text x="'+(lx+20)+'" y="'+(ly+3)+'" font-size="'+lfs+'" fill="var(--fg3)">US excl. Dominion 5</text>';
+    ly+=lsp;
+    svg+='<line x1="'+lx+'" y1="'+ly+'" x2="'+(lx+14)+'" y2="'+ly+'" stroke="'+colCA+'" stroke-width="1.5"/>';
+    svg+='<circle cx="'+(lx+7)+'" cy="'+ly+'" r="2" fill="'+colCA+'"/>';
+    svg+='<text x="'+(lx+20)+'" y="'+(ly+3)+'" font-size="'+lfs+'" fill="var(--fg3)">Canada (CVCA)</text>';
+  }else{
+    svg+='<line x1="'+padL+'" y1="25" x2="'+(padL+16)+'" y2="25" stroke="'+colUS+'" stroke-width="1.5"/>';
+    svg+='<circle cx="'+(padL+8)+'" cy="25" r="2" fill="'+colUS+'"/>';
+    svg+='<text x="'+(padL+22)+'" y="28" font-size="9" fill="var(--fg3)">All US (incl. Dominion 5)</text>';
+    svg+='<line x1="'+(padL+155)+'" y1="25" x2="'+(padL+171)+'" y2="25" stroke="'+colEx+'" stroke-width="1.5" stroke-dasharray="6,3" opacity="0.5"/>';
+    svg+='<text x="'+(padL+177)+'" y="28" font-size="9" fill="var(--fg3)">US excl. Dominion 5</text>';
+    svg+='<line x1="'+(padL+280)+'" y1="25" x2="'+(padL+296)+'" y2="25" stroke="'+colCA+'" stroke-width="1.5"/>';
+    svg+='<circle cx="'+(padL+288)+'" cy="25" r="2" fill="'+colCA+'"/>';
+    svg+='<text x="'+(padL+302)+'" y="28" font-size="9" fill="var(--fg3)">Canada (CVCA)</text>';
+  }
+
+  /* Vertical hover guide line (hidden initially) */
+  svg+='<line id="s4Guide" x1="0" y1="'+padT+'" x2="0" y2="'+(H-padB)+'" stroke="var(--fg3)" stroke-width="0.5" stroke-dasharray="3,3" display="none"/>';
+
+  /* Hover dots for all three curves */
+  svg+='<circle id="s4DotUS" r="'+(isMobile?3.5:4.5)+'" fill="'+colUS+'" stroke="var(--bg)" stroke-width="'+(isMobile?1.5:2)+'" display="none"/>';
+  svg+='<circle id="s4DotEx" r="4" fill="'+colEx+'" stroke="var(--bg)" stroke-width="2" opacity="0.5" display="none"/>';
+  svg+='<circle id="s4DotCA" r="'+(isMobile?3.5:4.5)+'" fill="'+colCA+'" stroke="var(--bg)" stroke-width="'+(isMobile?1.5:2)+'" display="none"/>';
+
+  /* No SVG tooltip — using HTML overlay instead */
+
+  /* Drop shadow filter */
+  svg+='<defs><filter id="s4Shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/></filter></defs>';
+
+  svg+='</svg>';
+  document.getElementById('s4chart').innerHTML=svg;
+
+  /* ── Hover logic with HTML tooltip ── */
+  var s4SvgEl=document.getElementById('s4Svg');
+  var s4Guide=document.getElementById('s4Guide');
+  var s4DotUS=document.getElementById('s4DotUS');
+  var s4DotEx=document.getElementById('s4DotEx');
+  var s4DotCA=document.getElementById('s4DotCA');
+
+  /* HTML tooltip overlay */
+  var s4Container=document.getElementById('s4chart');
+  var s4Tip=document.createElement('div');
+  s4Tip.style.cssText='position:absolute;pointer-events:none;display:none;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-size:10px;line-height:1.5;box-shadow:0 2px 8px rgba(0,0,0,0.12);z-index:10;max-width:200px;white-space:nowrap';
+  s4Container.appendChild(s4Tip);
+
+  function s4PtToSvg(e){
+    var pt=s4SvgEl.createSVGPoint();
+    pt.x=e.clientX;pt.y=e.clientY;
+    return pt.matrixTransform(s4SvgEl.getScreenCTM().inverse());
+  }
+  function s4FindClosest(sx){
+    var idx=Math.round((sx-padL)/chartW*(years.length-1));
+    return Math.max(0,Math.min(years.length-1,idx));
+  }
+
+  function s4ShowHover(idx){
+    var d=avgData[idx];
+    var cx=xPos(idx);
+
+    s4Guide.setAttribute('x1',cx);s4Guide.setAttribute('x2',cx);
+    s4Guide.setAttribute('display','');
+
+    if(d.usAvg>0){
+      s4DotUS.setAttribute('cx',cx);s4DotUS.setAttribute('cy',yLin(d.usAvg));
+      s4DotUS.setAttribute('display','');
+    }else{s4DotUS.setAttribute('display','none')}
+    if(d.exAvg>0){
+      s4DotEx.setAttribute('cx',cx);s4DotEx.setAttribute('cy',yLin(d.exAvg));
+      s4DotEx.setAttribute('display','');
+    }else{s4DotEx.setAttribute('display','none')}
+    s4DotCA.setAttribute('cx',cx);s4DotCA.setAttribute('cy',yLin(d.caAvg));
+    s4DotCA.setAttribute('display','');
+
+    var usStr=d.usAvg>0?fmtM(d.usAvg)+'/deal':'\u2014';
+    var exStr=d.exAvg>0?fmtM(d.exAvg)+'/deal':'\u2014';
+    var caStr=fmtM(d.caAvg)+'/deal';
+    var h='<div style="font-weight:700;font-size:11px;margin-bottom:4px;color:var(--fg)">'+d.yr+'</div>';
+    h+='<div style="color:var(--fg)"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:'+colUS+';margin-right:5px;vertical-align:middle"></span>'+usStr+'</div>';
+    h+='<div style="color:var(--fg);opacity:0.55"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:'+colEx+';margin-right:5px;vertical-align:middle"></span>'+exStr+'</div>';
+    h+='<div style="color:var(--fg)"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:'+colCA+';margin-right:5px;vertical-align:middle"></span>'+caStr+'</div>';
+    if(d.top.length>0){
+      h+='<div style="border-top:1px solid var(--border);margin-top:5px;padding-top:4px;font-size:9px;color:var(--fg3)">';
+      h+='Largest deals:';
+      d.top.forEach(function(t){
+        h+='<div style="color:var(--fg2);margin-top:1px">'+t.name+' <span style="opacity:0.5">'+t.round+'</span> '+fmtM(t.amt)+'</div>';
+      });
+      h+='</div>';
+    }
+    s4Tip.innerHTML=h;
+    s4Tip.style.display='block';
+
+    /* Position relative to chart container */
+    var svgRect=s4SvgEl.getBoundingClientRect();
+    var contRect=s4Container.getBoundingClientRect();
+    var scale=svgRect.width/W;
+    var tipLeft=(cx*scale)+(svgRect.left-contRect.left)+14;
+    var anchorY=yLin(d.usAvg>0?d.usAvg:d.caAvg);
+    var tipTop=(anchorY*scale)+(svgRect.top-contRect.top)-s4Tip.offsetHeight/2;
+    if(tipLeft+s4Tip.offsetWidth>contRect.width)tipLeft=tipLeft-s4Tip.offsetWidth-28;
+    if(tipTop<0)tipTop=0;
+    if(tipTop+s4Tip.offsetHeight>contRect.height)tipTop=contRect.height-s4Tip.offsetHeight;
+    s4Tip.style.left=tipLeft+'px';
+    s4Tip.style.top=tipTop+'px';
+  }
+
+  function s4HideHover(){
+    s4Guide.setAttribute('display','none');
+    s4DotUS.setAttribute('display','none');
+    s4DotEx.setAttribute('display','none');
+    s4DotCA.setAttribute('display','none');
+    s4Tip.style.display='none';
+  }
+
+  s4SvgEl.addEventListener('mousemove',function(e){
+    var p=s4PtToSvg(e);
+    if(p.x<padL-10||p.x>W-padR+10){s4HideHover();return}
+    var idx=s4FindClosest(p.x);
+    s4ShowHover(idx);
+  });
+  s4SvgEl.addEventListener('mouseleave',s4HideHover);
+  s4SvgEl.addEventListener('touchstart',function(e){e.preventDefault();var p=s4PtToSvg(e.touches[0]);if(p.x>=padL&&p.x<=W-padR){s4ShowHover(s4FindClosest(p.x))}},{passive:false});
+  s4SvgEl.addEventListener('touchmove',function(e){e.preventDefault();var p=s4PtToSvg(e.touches[0]);if(p.x>=padL&&p.x<=W-padR){s4ShowHover(s4FindClosest(p.x))}},{passive:false});
+  s4SvgEl.addEventListener('touchend',function(){setTimeout(s4HideHover,2000)});
+
+  document.getElementById('s4footnote').textContent= isMobile?
+    'Avg deal size, 2010\u20132025. US: Dominion List ('+totUS.deals+' deals; '+totEx.deals+' excl. Dominion 5). Canada: CVCA ('+totCA.deals.toLocaleString()+' deals). Excl. exits & post-IPO. USD.':
+    'Average deal size, 2010\u20132025. US data: Dominion List ('+totUS.deals+' venture deals by Canadian-founded, US-incorporated companies; '+
+    totEx.deals+' excl. Dominion 5: OpenAI, Anthropic, xAI, Tesla, SpaceX). Excludes exits (acquisitions, IPOs, SPACs) and post-IPO rounds. '+
+    'Canada data: CVCA Market Overviews ('+totCA.deals.toLocaleString()+' deals, all VC into Canadian companies). '+
+    '2025 CVCA figure is a linear estimate (Q3 YTD \u00d7 4/3). Amounts in USD; CVCA figures converted at Bank of Canada annual avg FX.';
+})();
+
+/* ── SECTION 5: Scale of the US capital market ── */
+(function(){
+  var EXCL={'Acquired':1,'IPO':1,'Acquisition':1,'SPAC':1,'IPO (SPAC)':1,'Market Cap':1,'Direct Listing':1,'Post-IPO ATM':1,'Post-IPO Equity':1,'Post-IPO Debt':1,'Wind Down':1,'Bankruptcy':1};
+  function isExit(r){
+    if(EXCL[r.round])return true;
+    var n=(r.notes||'').toLowerCase();
+    return /\bacquir|acquis|\bipo\b|spac|merger|went public|listing|delisted/.test(n);
+  }
+  var startYr=2010, endYr=2025;
+
+  /* Count US-dataset companies and capital */
+  var usCos=new Set(), usRaised=0, usDeals=0;
+  data.forEach(function(co){
+    if(!co.funding_rounds)return;
+    co.funding_rounds.forEach(function(r){
+      if(!r.round||!r.date||isExit(r))return;
+      var yr=parseInt(r.date.substring(0,4));
+      if(yr<startYr||yr>endYr)return;
+      usCos.add(co.name);
+      usRaised+=(r.amount_usd||0);
+      usDeals++;
+    });
+  });
+
+  /* CVCA totals */
+  var cvcaDeals=8622, cvcaRaised=59.861e9; /* sum of CVCA data 2010-2025 */
+
+  var nCos=usCos.size;
+  var fewerX=Math.round(cvcaDeals/nCos);
+  var moreX=(usRaised/cvcaRaised).toFixed(1);
+
+  function fmtB(v){return'$'+(v/1e9).toFixed(0)+'B'}
+
+  document.getElementById('s5insight').textContent=
+    'Over the last 15 years, '+nCos+' Canadian-founded US companies raised '+fmtB(usRaised)+
+    ' — more than the entire Canadian VC ecosystem deployed across '+
+    cvcaDeals.toLocaleString()+' deals ('+fmtB(cvcaRaised)+'). '+
+    fewerX+'× fewer companies, '+moreX+'× more capital.';
+
+  /* Two side-by-side vertical bar charts */
+  var W=isMobile?400:700,H=isMobile?420:310,midGap=isMobile?36:80;
+  var chartW=(W-midGap)/2;
+  var padT=isMobile?61:64,padB=isMobile?52:50,barZone=H-padT-padB;
+  var barW=isMobile?52:80,barGap=isMobile?18:36;
+
+  var fs={title:isMobile?12:13,val:isMobile?12:13,lbl:10,mult:10};
+  var svg='<svg id="s5Svg" viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:var(--font)">';
+
+  var colUS='var(--bar-ai)', colCA='#d65f6e';
+
+  /* === LEFT CHART: Total Capital Raised === */
+  var lCx=chartW/2;
+  svg+='<text x="'+lCx+'" y="18" text-anchor="middle" font-size="'+fs.title+'" font-weight="600" fill="var(--fg)">Capital raised</text>';
+  svg+='<text x="'+lCx+'" y="32" text-anchor="middle" font-size="'+fs.mult+'" font-weight="700" fill="var(--fg3)">'+moreX+'× more capital</text>';
+
+  var maxCap=Math.max(usRaised,cvcaRaised);
+  var usBarH=barZone*(usRaised/maxCap);
+  var caBarH=barZone*(cvcaRaised/maxCap);
+  var lBar1X=lCx-barW-barGap/2;
+  var lBar2X=lCx+barGap/2;
+  var baseY=padT+barZone;
+
+  /* US bar */
+  svg+='<rect class="s5bar" data-pair="cap" data-side="us" x="'+lBar1X+'" y="'+(baseY-usBarH)+'" width="'+barW+'" height="'+usBarH+'" rx="4" fill="'+colUS+'" style="transition:all .15s ease"/>';
+  svg+='<text x="'+(lBar1X+barW/2)+'" y="'+(baseY-usBarH-8)+'" text-anchor="middle" font-size="'+fs.val+'" font-weight="700" fill="'+colUS+'">'+fmtB(usRaised)+'</text>';
+  svg+='<text x="'+(lBar1X+barW/2)+'" y="'+(baseY+14)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">Cdn founders</text>';
+  svg+='<text x="'+(lBar1X+barW/2)+'" y="'+(baseY+26)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">in the US</text>';
+
+  /* CA bar */
+  svg+='<rect class="s5bar" data-pair="cap" data-side="ca" x="'+lBar2X+'" y="'+(baseY-caBarH)+'" width="'+barW+'" height="'+caBarH+'" rx="4" fill="'+colCA+'" style="transition:all .15s ease"/>';
+  svg+='<text x="'+(lBar2X+barW/2)+'" y="'+(baseY-caBarH-8)+'" text-anchor="middle" font-size="'+fs.val+'" font-weight="700" fill="'+colCA+'">'+fmtB(cvcaRaised)+'</text>';
+  svg+='<text x="'+(lBar2X+barW/2)+'" y="'+(baseY+14)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">All Canadian</text>';
+  svg+='<text x="'+(lBar2X+barW/2)+'" y="'+(baseY+26)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">VC (CVCA)</text>';
+
+  /* === RIGHT CHART: Number of Deals === */
+  var rOff=chartW+midGap;
+  var rCx=rOff+chartW/2;
+  svg+='<text x="'+rCx+'" y="18" text-anchor="middle" font-size="'+fs.title+'" font-weight="600" fill="var(--fg)">Number of deals</text>';
+  svg+='<text x="'+rCx+'" y="32" text-anchor="middle" font-size="'+fs.mult+'" font-weight="700" fill="var(--fg3)">'+fewerX+'× fewer companies</text>';
+
+  var maxDeals=Math.max(usDeals,cvcaDeals);
+  var usDealH=barZone*(usDeals/maxDeals);
+  var caDealH=barZone*(cvcaDeals/maxDeals);
+  var rBar1X=rCx-barW-barGap/2;
+  var rBar2X=rCx+barGap/2;
+
+  /* US bar (tiny) */
+  svg+='<rect class="s5bar" data-pair="deals" data-side="us" x="'+rBar1X+'" y="'+(baseY-usDealH)+'" width="'+barW+'" height="'+Math.max(usDealH,2)+'" rx="4" fill="'+colUS+'" style="transition:all .15s ease"/>';
+  svg+='<text x="'+(rBar1X+barW/2)+'" y="'+(baseY-usDealH-8)+'" text-anchor="middle" font-size="'+fs.val+'" font-weight="700" fill="'+colUS+'">'+usDeals.toLocaleString()+'</text>';
+  svg+='<text x="'+(rBar1X+barW/2)+'" y="'+(baseY+14)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">Cdn founders</text>';
+  svg+='<text x="'+(rBar1X+barW/2)+'" y="'+(baseY+26)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">in the US</text>';
+
+  /* CA bar (tall) */
+  svg+='<rect class="s5bar" data-pair="deals" data-side="ca" x="'+rBar2X+'" y="'+(baseY-caDealH)+'" width="'+barW+'" height="'+caDealH+'" rx="4" fill="'+colCA+'" style="transition:all .15s ease"/>';
+  svg+='<text x="'+(rBar2X+barW/2)+'" y="'+(baseY-caDealH-8)+'" text-anchor="middle" font-size="'+fs.val+'" font-weight="700" fill="'+colCA+'">'+cvcaDeals.toLocaleString()+'</text>';
+  svg+='<text x="'+(rBar2X+barW/2)+'" y="'+(baseY+14)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">All Canadian</text>';
+  svg+='<text x="'+(rBar2X+barW/2)+'" y="'+(baseY+26)+'" text-anchor="middle" font-size="'+fs.lbl+'" fill="var(--fg3)">VC (CVCA)</text>';
+
+  svg+='</svg>';
+  document.getElementById('s5chart').innerHTML=svg;
+
+  /* ── S5 hover: subtle lift + glow on hovered bar ── */
+  (function(){
+    var svgEl=document.getElementById('s5Svg');
+    /* Add drop shadow filter */
+    var defs=document.createElementNS('http://www.w3.org/2000/svg','defs');
+    defs.innerHTML='<filter id="s5Glow" x="-20%" y="-10%" width="140%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.18"/></filter>';
+    svgEl.insertBefore(defs,svgEl.firstChild);
+    var bars=svgEl.querySelectorAll('.s5bar');
+    bars.forEach(function(bar){
+      bar.style.cursor='pointer';
+      var origX=parseFloat(bar.getAttribute('x'));
+      var origW=parseFloat(bar.getAttribute('width'));
+      var grow=isMobile?3:4;
+      bar.addEventListener('mouseenter',function(){
+        bar.setAttribute('x',origX-grow);
+        bar.setAttribute('width',origW+grow*2);
+        bar.setAttribute('filter','url(#s5Glow)');
+      });
+      bar.addEventListener('mouseleave',function(){
+        bar.setAttribute('x',origX);
+        bar.setAttribute('width',origW);
+        bar.removeAttribute('filter');
+      });
+    });
+  })();
+
+  document.getElementById('s5footnote').textContent=
+    'US data: Dominion List, 2010–2025 (excl. Acquired & IPO rounds). Canada data: CVCA Market Overviews, 2010–2025. '+
+    '2025 CVCA is a linear estimate (Q3 YTD × 4/3). Amounts in USD.';
+})();
+
+/* ── SANKEY: Origin City → HQ City flow (matches globe aggregation) ── */
+(function(){
+  // Destination city consolidation (same as globe)
+  var CITY_POOLS = {
+    'San Francisco':'Bay Area','Palo Alto':'Bay Area','Mountain View':'Bay Area','Santa Clara':'Bay Area',
+    'Redwood City':'Bay Area','San Jose':'Bay Area','Menlo Park':'Bay Area','San Mateo':'Bay Area',
+    'Burlingame':'Bay Area','Sunnyvale':'Bay Area','San Leandro':'Bay Area','Berkeley':'Bay Area',
+    'Cupertino':'Bay Area','Fremont':'Bay Area','Foster City':'Bay Area','South San Francisco':'Bay Area',
+    'San Carlos':'Bay Area','Emeryville':'Bay Area','Oakland':'Bay Area','Milpitas':'Bay Area',
+    'Hayward':'Bay Area','Alameda':'Bay Area',
+    'Brooklyn':'New York',
+    'Cambridge':'Boston','Somerville':'Boston',
+    'Santa Monica':'Los Angeles','Culver City':'Los Angeles',
+    'Bellevue':'Seattle','Kirkland':'Seattle','Edmonds':'Seattle'
+  };
+  function normCity(c){ return CITY_POOLS[c] || c; }
+
+  // Institution → Origin City mapping (same as globe I2C)
+  var I2C_SANKEY={
+    'University of Waterloo':'Waterloo','Wilfrid Laurier University':'Waterloo',
+    'University of Toronto':'Toronto','York University':'Toronto','OCAD University':'Toronto',
+    'McGill University':'Montreal','Concordia University':'Montreal','Universit\u00e9 de Montr\u00e9al':'Montreal',
+    'University of British Columbia':'Vancouver','Simon Fraser University':'Vancouver',
+    "Queen's University":'Kingston','Western University':'London',
+    'University of Ottawa':'Ottawa','Carleton University':'Ottawa',
+    'University of Alberta':'Edmonton','Northern Alberta Institute of Technology':'Edmonton',
+    'McMaster University':'Hamilton','University of Victoria':'Victoria',
+    'University of Manitoba':'Winnipeg','University of Saskatchewan':'Saskatoon',
+    'University of Regina':'Regina','University of Guelph':'Guelph','University of Calgary':'Calgary'
+  };
+
+  // Aggregate origin city → destination city flows (same logic as globe)
+  var originCounts = {};
+  var cityCounts = {};
+  var flowMap = {};
+  data.forEach(function(co){
+    var hq = co.hq_city; if(!hq) return;
+    var dest = normCity(hq);
+    cityCounts[dest] = (cityCounts[dest]||0)+1;
+    (co.founders||[]).forEach(function(f){
+      var ci = f.canadian_institution; if(!ci) return;
+      /* Find first matching institution → origin city (one flow per founder, same as globe) */
+      var parts = ci.split(',');
+      var originCity = null;
+      for(var pi=0;pi<parts.length;pi++){
+        var c = I2C_SANKEY[parts[pi].trim()];
+        if(c){ originCity = c; break; }
+      }
+      if(!originCity) return;
+      originCounts[originCity] = (originCounts[originCity]||0)+1;
+      var key = originCity+'|||'+dest;
+      flowMap[key] = (flowMap[key]||0)+1;
+    });
+  });
+
+  // Top origin cities and destination cities
+  var topOrigin = Object.entries(originCounts).sort(function(a,b){return b[1]-a[1]}).slice(0,10);
+  var topCityEntries = Object.entries(cityCounts).sort(function(a,b){return b[1]-a[1]});
+  var topCities = topCityEntries.slice(0,8);
+  var otherCityCount = topCityEntries.slice(8).reduce(function(s,e){return s+e[1]},0);
+  if(otherCityCount > 0) topCities.push(['Other', otherCityCount]);
+
+  var originNames = topOrigin.map(function(e){return e[0]});
+  var cityNames = topCities.map(function(e){return e[0]});
+  var topOriginSet = {};
+  originNames.forEach(function(n){topOriginSet[n]=true});
+  var topCitySet = {};
+  topCities.forEach(function(e){topCitySet[e[0]]=true});
+
+  // Build flow array between top origin cities and top/other dest cities
+  var flows = [];
+  Object.keys(flowMap).forEach(function(key){
+    var parts = key.split('|||');
+    var origin = parts[0], city = parts[1], count = flowMap[key];
+    if(!topOriginSet[origin]) return;
+    var destCity = topCitySet[city] ? city : 'Other';
+    // Find or create flow
+    var found = false;
+    for(var fi=0;fi<flows.length;fi++){
+      if(flows[fi].from === origin && flows[fi].to === destCity){
+        flows[fi].count += count; found = true; break;
+      }
+    }
+    if(!found) flows.push({from:origin, to:destCity, count:count});
+  });
+
+  // Compute actual flow volume per node (so bars match flows exactly)
+  var originFlowTotal = {};
+  var cityFlowTotal = {};
+  originNames.forEach(function(n){ originFlowTotal[n] = 0; });
+  cityNames.forEach(function(n){ cityFlowTotal[n] = 0; });
+  flows.forEach(function(f){
+    if(topOriginSet[f.from] && (topCitySet[f.to] || f.to === 'Other')){
+      originFlowTotal[f.from] = (originFlowTotal[f.from]||0) + f.count;
+      var dest = topCitySet[f.to] ? f.to : 'Other';
+      cityFlowTotal[dest] = (cityFlowTotal[dest]||0) + f.count;
+    }
+  });
+
+  // Layout — full width
+  var W = isMobile?460:880, H = Math.max(isMobile?420:420, Math.max(topOrigin.length, topCities.length) * (isMobile?38:44) + 40);
+  var nodeW = 16;
+  var padL = isMobile?62:100, padR = isMobile?62:120, padY = isMobile?22:30;
+  var colL = padL, colR = W - padR - nodeW;
+  var usableH = H - 2*padY;
+
+  // Compute node positions using flow volumes
+  var totalOriginFlow = originNames.reduce(function(s,n){return s+(originFlowTotal[n]||0)},0);
+  var totalCityFlow = cityNames.reduce(function(s,n){return s+(cityFlowTotal[n]||0)},0);
+
+  var originNodes = [], cityNodes = [];
+  var gapFrac = 0.1;
+  var originGapTotal = usableH * gapFrac;
+  var originBarTotal = usableH - originGapTotal;
+  var originGap = topOrigin.length > 1 ? originGapTotal / (topOrigin.length - 1) : 0;
+  var iy = padY;
+  topOrigin.forEach(function(e){
+    var flowVol = originFlowTotal[e[0]] || 1;
+    var h = Math.max(6, (flowVol/totalOriginFlow) * originBarTotal);
+    originNodes.push({name:e[0], count:flowVol, y:iy, h:h});
+    iy += h + originGap;
+  });
+
+  var cityGapTotal = usableH * gapFrac;
+  var cityBarTotal = usableH - cityGapTotal;
+  var cityGap = topCities.length > 1 ? cityGapTotal / (topCities.length - 1) : 0;
+  var cy2 = padY;
+  topCities.forEach(function(e){
+    var flowVol = cityFlowTotal[e[0]] || 1;
+    var h = Math.max(6, (flowVol/totalCityFlow) * cityBarTotal);
+    cityNodes.push({name:e[0], count:flowVol, y:cy2, h:h});
+    cy2 += h + cityGap;
+  });
+
+  // Track how much vertical space has been used on each node for flow stacking
+  var originUsed = originNodes.map(function(){return 0});
+  var cityUsed = cityNodes.map(function(){return 0});
+
+  // Sort flows largest first for better visual stacking
+  flows.sort(function(a,b){return b.count-a.count});
+
+  // Pre-compute flow path data
+  var flowPaths = [];
+  flows.forEach(function(f){
+    var fi = originNames.indexOf(f.from);
+    var ci = cityNames.indexOf(f.to);
+    if(fi < 0 || ci < 0) return;
+
+    var srcNode = originNodes[fi], dstNode = cityNodes[ci];
+    var flowH_src = (f.count / srcNode.count) * srcNode.h;
+    var flowH_dst = (f.count / dstNode.count) * dstNode.h;
+    var sy = srcNode.y + originUsed[fi];
+    var dy = dstNode.y + cityUsed[ci];
+    originUsed[fi] += flowH_src;
+    cityUsed[ci] += flowH_dst;
+
+    var x0 = colL + nodeW, x1 = colR;
+    var cpx = (x0 + x1) / 2;
+
+    var pathD = 'M'+x0+','+sy+
+      ' C'+cpx+','+sy+' '+cpx+','+dy+' '+x1+','+dy+
+      ' L'+x1+','+(dy+flowH_dst)+
+      ' C'+cpx+','+(dy+flowH_dst)+' '+cpx+','+(sy+flowH_src)+' '+x0+','+(sy+flowH_src)+' Z';
+
+    // Midpoint for label
+    var midX = (x0+x1)/2;
+    var midY = (sy+flowH_src/2 + dy+flowH_dst/2)/2;
+
+    // Store source and dest vertical bands for proximity detection
+    flowPaths.push({d:pathD, from:f.from, to:f.to, fi:fi, ci:ci, count:f.count,
+      midX:midX, midY:midY,
+      sy:sy, syH:flowH_src, dy:dy, dyH:flowH_dst,
+      x0:x0, x1:x1});
+  });
+
+  // Build SVG
+  var svg = '<svg id="sankeySvg" viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:var(--font);cursor:default">';
+
+  // Flow paths — all start very faint
+  flowPaths.forEach(function(fp, idx){
+    svg += '<path class="sk-flow" data-fi="'+fp.fi+'" data-ci="'+fp.ci+'" d="'+fp.d+'" fill="var(--bar)" opacity="0.06" style="transition:opacity .15s ease"/>';
+  });
+
+  // Flow count labels — hidden by default, shown on hover
+  flowPaths.forEach(function(fp, idx){
+    svg += '<text class="sk-flow-label" data-fi="'+fp.fi+'" data-ci="'+fp.ci+'" x="'+fp.midX+'" y="'+fp.midY+'" text-anchor="middle" font-size="'+(isMobile?9:10)+'" font-weight="600" fill="var(--fg)" opacity="0" style="pointer-events:none;transition:opacity .15s ease">'+fp.count+'</text>';
+  });
+
+  // Origin city nodes (left) — interactive hit areas
+  originNodes.forEach(function(node, idx){
+    svg += '<rect class="sk-node-inst" data-idx="'+idx+'" x="'+(colL-8)+'" y="'+node.y+'" width="'+(nodeW+16)+'" height="'+node.h+'" fill="transparent" style="cursor:pointer"/>';
+    svg += '<rect class="sk-bar-inst" data-idx="'+idx+'" x="'+colL+'" y="'+node.y+'" width="'+nodeW+'" height="'+node.h+'" fill="var(--bar-ai)" rx="2" opacity="0.4" style="pointer-events:none;transition:opacity .15s ease"/>';
+    svg += '<text data-idx="'+idx+'" class="sk-label-inst" x="'+(colL-8)+'" y="'+(node.y+node.h/2+3)+'" text-anchor="end" font-size="'+(isMobile?9:12)+'" fill="var(--fg3)" style="pointer-events:none;transition:fill .15s ease">'+node.name+'</text>';
+  });
+
+  // City nodes (right) — interactive hit areas
+  cityNodes.forEach(function(node, idx){
+    svg += '<rect class="sk-node-city" data-idx="'+idx+'" x="'+(colR-8)+'" y="'+node.y+'" width="'+(nodeW+16)+'" height="'+node.h+'" fill="transparent" style="cursor:pointer"/>';
+    svg += '<rect class="sk-bar-city" data-idx="'+idx+'" x="'+colR+'" y="'+node.y+'" width="'+nodeW+'" height="'+node.h+'" fill="var(--bar)" rx="2" opacity="0.4" style="pointer-events:none;transition:opacity .15s ease"/>';
+    svg += '<text data-idx="'+idx+'" class="sk-label-city" x="'+(colR+nodeW+8)+'" y="'+(node.y+node.h/2+3)+'" text-anchor="start" font-size="'+(isMobile?9:12)+'" fill="var(--fg3)" style="pointer-events:none;transition:fill .15s ease">'+node.name+'</text>';
+  });
+
+  // Column headers
+  svg += '<text x="'+(colL+nodeW/2)+'" y="14" text-anchor="middle" font-size="'+(isMobile?8:11)+'" font-weight="600" fill="var(--fg3)" letter-spacing="0.5">INSTITUTION CITY</text>';
+  svg += '<text x="'+(colR+nodeW/2)+'" y="14" text-anchor="middle" font-size="'+(isMobile?8:11)+'" font-weight="600" fill="var(--fg3)" letter-spacing="0.5">HQ CITY</text>';
+
+  svg += '</svg>';
+
+  document.getElementById('sankeyChart').innerHTML = svg;
+
+  // Interactive hover logic
+  var svgEl = document.getElementById('sankeySvg');
+  var allFlows = svgEl.querySelectorAll('.sk-flow');
+  var allFlowLabels = svgEl.querySelectorAll('.sk-flow-label');
+  var allInstBars = svgEl.querySelectorAll('.sk-bar-inst');
+  var allInstLabels = svgEl.querySelectorAll('.sk-label-inst');
+  var allCityBars = svgEl.querySelectorAll('.sk-bar-city');
+  var allCityLabels = svgEl.querySelectorAll('.sk-label-city');
+
+  function highlightInst(idx){
+    // Dim everything, then highlight connected
+    allFlows.forEach(function(el){ el.setAttribute('opacity', '0.03'); });
+    allFlowLabels.forEach(function(el){ el.setAttribute('opacity', '0'); });
+    allInstBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allInstLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    allCityBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allCityLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    // Highlight this institution
+    allInstBars[idx].setAttribute('opacity', '1');
+    allInstLabels[idx].setAttribute('fill', 'var(--fg)');
+    allInstLabels[idx].style.fontWeight = '600';
+    // Highlight connected flows and cities
+    allFlows.forEach(function(el){
+      if(parseInt(el.getAttribute('data-fi')) === idx){
+        el.setAttribute('opacity', '0.35');
+        var ci = parseInt(el.getAttribute('data-ci'));
+        allCityBars[ci].setAttribute('opacity', '1');
+        allCityLabels[ci].setAttribute('fill', 'var(--fg)');
+        allCityLabels[ci].style.fontWeight = '600';
+      }
+    });
+    allFlowLabels.forEach(function(el){
+      if(parseInt(el.getAttribute('data-fi')) === idx) el.setAttribute('opacity', '1');
+    });
+  }
+
+  function highlightCity(idx){
+    allFlows.forEach(function(el){ el.setAttribute('opacity', '0.03'); });
+    allFlowLabels.forEach(function(el){ el.setAttribute('opacity', '0'); });
+    allInstBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allInstLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    allCityBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allCityLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    allCityBars[idx].setAttribute('opacity', '1');
+    allCityLabels[idx].setAttribute('fill', 'var(--fg)');
+    allCityLabels[idx].style.fontWeight = '600';
+    allFlows.forEach(function(el){
+      if(parseInt(el.getAttribute('data-ci')) === idx){
+        el.setAttribute('opacity', '0.35');
+        var fi = parseInt(el.getAttribute('data-fi'));
+        allInstBars[fi].setAttribute('opacity', '1');
+        allInstLabels[fi].setAttribute('fill', 'var(--fg)');
+        allInstLabels[fi].style.fontWeight = '600';
+      }
+    });
+    allFlowLabels.forEach(function(el){
+      if(parseInt(el.getAttribute('data-ci')) === idx) el.setAttribute('opacity', '1');
+    });
+  }
+
+  function highlightFlow(fpIdx){
+    var fp = flowPaths[fpIdx];
+    // Dim everything
+    allFlows.forEach(function(el){ el.setAttribute('opacity', '0.03'); });
+    allFlowLabels.forEach(function(el){ el.setAttribute('opacity', '0'); });
+    allInstBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allInstLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    allCityBars.forEach(function(el){ el.setAttribute('opacity', '0.15'); });
+    allCityLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    // Highlight this single flow
+    allFlows[fpIdx].setAttribute('opacity', '0.45');
+    allFlowLabels[fpIdx].setAttribute('opacity', '1');
+    // Highlight its endpoints
+    allInstBars[fp.fi].setAttribute('opacity', '1');
+    allInstLabels[fp.fi].setAttribute('fill', 'var(--fg)');
+    allInstLabels[fp.fi].style.fontWeight = '600';
+    allCityBars[fp.ci].setAttribute('opacity', '1');
+    allCityLabels[fp.ci].setAttribute('fill', 'var(--fg)');
+    allCityLabels[fp.ci].style.fontWeight = '600';
+  }
+
+  function resetSankey(){
+    allFlows.forEach(function(el){ el.setAttribute('opacity', '0.06'); });
+    allFlowLabels.forEach(function(el){ el.setAttribute('opacity', '0'); });
+    allInstBars.forEach(function(el){ el.setAttribute('opacity', '0.4'); });
+    allInstLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    allCityBars.forEach(function(el){ el.setAttribute('opacity', '0.4'); });
+    allCityLabels.forEach(function(el){ el.setAttribute('fill', 'var(--fg3)'); el.style.fontWeight=''; });
+    _lastSankeyAction = null;
+  }
+
+  // Find closest flow to a point by sampling the bezier centerline
+  function findClosestFlow(mx, my){
+    var bestDist = Infinity, bestIdx = -1;
+    // Parametric t from x position
+    flowPaths.forEach(function(fp, idx){
+      if(mx < fp.x0 || mx > fp.x1) return;
+      var t = (mx - fp.x0) / (fp.x1 - fp.x0);
+      // Cubic bezier y-center at t: lerp between source and dest center
+      // Control points are at same y as endpoints (horizontal tangents)
+      var srcCy = fp.sy + fp.syH/2;
+      var dstCy = fp.dy + fp.dyH/2;
+      var u = 1-t;
+      var bezY = u*u*u*srcCy + 3*u*u*t*srcCy + 3*u*t*t*dstCy + t*t*t*dstCy;
+      var dist = Math.abs(my - bezY);
+      if(dist < bestDist){ bestDist = dist; bestIdx = idx; }
+    });
+    return bestIdx;
+  }
+
+  // Track what's currently highlighted to avoid redundant DOM updates
+  var _lastSankeyAction = null;
+
+  function skPtToSvg(e){
+    var pt = svgEl.createSVGPoint();
+    pt.x = e.clientX; pt.y = e.clientY;
+    return pt.matrixTransform(svgEl.getScreenCTM().inverse());
+  }
+
+  // Attach events — nodes still work, plus mousemove on the middle zone
+  svgEl.querySelectorAll('.sk-node-inst').forEach(function(el){
+    var idx = parseInt(el.getAttribute('data-idx'));
+    el.addEventListener('mouseenter', function(){ _lastSankeyAction = 'inst-'+idx; highlightInst(idx); });
+    el.addEventListener('touchstart', function(e){ e.preventDefault(); highlightInst(idx); }, {passive:false});
+  });
+  svgEl.querySelectorAll('.sk-node-city').forEach(function(el){
+    var idx = parseInt(el.getAttribute('data-idx'));
+    el.addEventListener('mouseenter', function(){ _lastSankeyAction = 'city-'+idx; highlightCity(idx); });
+    el.addEventListener('touchstart', function(e){ e.preventDefault(); highlightCity(idx); }, {passive:false});
+  });
+
+  svgEl.addEventListener('mousemove', function(e){
+    var p = skPtToSvg(e);
+    // Only do flow detection in the middle zone between the node columns
+    if(p.x <= colL + nodeW + 10 || p.x >= colR - 10) return;
+    var idx = findClosestFlow(p.x, p.y);
+    if(idx >= 0){
+      var key = 'flow-'+idx;
+      if(_lastSankeyAction !== key){
+        _lastSankeyAction = key;
+        highlightFlow(idx);
+      }
+    }
+  });
+
+  svgEl.addEventListener('mouseleave', resetSankey);
+  svgEl.addEventListener('touchend', function(){ setTimeout(resetSankey, 2000); });
+
+  // Sub-insight for sankey: where founders studied
+  var watPct = Math.round((originCounts['Waterloo']||0)/Object.values(originCounts).reduce(function(a,b){return a+b},0)*100);
+  var bayPct = Math.round((cityCounts['Bay Area']||0)/total*100);
+
+  document.getElementById('sMapSankeyInsight').textContent =
+    'Waterloo and Toronto are the dominant feeder nodes. The destination side is even more concentrated: the Bay Area alone captures '+bayPct+'% of founders — the clearest vote-with-your-feet signal in the dataset.';
+
+  document.getElementById('sankeyFootnote').textContent = isMobile?
+    'Top 10 origin cities × top 8 HQ cities. Flow width ∝ founder count.':
+    'Top 10 Canadian origin cities by founder count and top 8 U.S. headquarters cities. Institutions are mapped to their city (e.g. UW + Laurier = Waterloo). Flow width is proportional to founder count.';
+})();
+
+/* ── DISCLOSURE ── */
+document.getElementById('disclosureText').textContent =
+  'Capital raised data is available for '+compWithRaised+' of '+total+' companies. Valuation data is available for '+compWithVal.length+' of '+total+'. Public company valuations use market capitalization as of the most recent data point. The dataset is continuously improved \u2014 some companies have undisclosed or incomplete funding histories.';
+
+});
+</script>
+
+<!-- ═══ 3D Migration Globe (Stripe-inspired) ═══ -->
+<script>
+function initGlobe(data){
+  var wrap=document.getElementById('globeWrap');
+  var vizEl=document.getElementById('globeViz');
+  var fb=document.getElementById('globeFallback');
+  if(!vizEl||typeof Globe==='undefined'){if(fb)fb.style.display='flex';return}
+
+  /* ── Coordinate lookups ── */
+  var I2C={
+    'University of Waterloo':'Waterloo','Wilfrid Laurier University':'Waterloo',
+    'University of Toronto':'Toronto','York University':'Toronto','OCAD University':'Toronto',
+    'McGill University':'Montreal','Concordia University':'Montreal','Universit\u00e9 de Montr\u00e9al':'Montreal',
+    'University of British Columbia':'Vancouver','Simon Fraser University':'Vancouver',
+    "Queen's University":'Kingston','Western University':'London',
+    'University of Ottawa':'Ottawa','Carleton University':'Ottawa',
+    'University of Alberta':'Edmonton','Northern Alberta Institute of Technology':'Edmonton',
+    'McMaster University':'Hamilton','University of Victoria':'Victoria',
+    'University of Manitoba':'Winnipeg','University of Saskatchewan':'Saskatoon',
+    'University of Regina':'Regina','University of Guelph':'Guelph','University of Calgary':'Calgary'
+  };
+  var CA={
+    Waterloo:[43.47,-80.52],Toronto:[43.65,-79.38],Montreal:[45.50,-73.57],
+    Vancouver:[49.28,-123.12],Kingston:[44.23,-76.49],'London':[43.00,-81.25],
+    Ottawa:[45.42,-75.70],Edmonton:[53.55,-113.49],Hamilton:[43.26,-79.87],
+    Victoria:[48.43,-123.37],Winnipeg:[49.90,-97.14],Saskatoon:[52.13,-106.67],
+    Regina:[50.45,-104.62],Guelph:[43.54,-80.25],Calgary:[51.04,-114.07]
+  };
+  var US={
+    'San Francisco':[37.77,-122.42],'New York':[40.71,-74.01],
+    'Palo Alto':[37.44,-122.14],'Mountain View':[37.39,-122.08],
+    'Los Angeles':[34.05,-118.24],'Austin':[30.27,-97.74],
+    'Santa Clara':[37.35,-121.96],'Seattle':[47.61,-122.33],
+    'Redwood City':[37.49,-122.24],'Boston':[42.36,-71.06],
+    'Berkeley':[37.87,-122.27],'Cambridge':[42.37,-71.11],
+    'San Jose':[37.34,-121.89],'Menlo Park':[37.45,-122.18],
+    'Santa Monica':[34.02,-118.49],'Miami':[25.76,-80.19],
+    'San Mateo':[37.56,-122.33],'Wilmington':[39.74,-75.55],
+    'Burlingame':[37.58,-122.34],'Sunnyvale':[37.37,-122.04],
+    'San Leandro':[37.73,-122.16],'Chicago':[41.88,-87.63],
+    'Denver':[39.74,-104.99],'Portland':[45.52,-122.68],
+    'San Diego':[32.72,-117.16],'Washington':[38.91,-77.04],
+    'Houston':[29.76,-95.37],'Philadelphia':[39.95,-75.17],
+    'Cupertino':[37.32,-122.03],'Fremont':[37.55,-121.98],
+    'Salt Lake City':[40.76,-111.89],'Phoenix':[33.45,-112.07],
+    'Atlanta':[33.75,-84.39],'Dallas':[32.78,-96.80],
+    'Foster City':[37.56,-122.27],'South San Francisco':[37.65,-122.41],
+    'Redmond':[47.67,-122.12],'Irvine':[33.68,-117.83],
+    'Oakland':[37.80,-122.27],'Minneapolis':[44.98,-93.27],
+    'Emeryville':[37.83,-122.29],'Santa Barbara':[34.42,-119.70],
+    'Bellevue':[47.61,-122.20],'Reston':[38.97,-77.34],
+    'Scottsdale':[33.49,-111.93],'Nashville':[36.16,-86.78],
+    'San Carlos':[37.51,-122.26],'Waltham':[42.38,-71.24],
+    'Arlington':[38.88,-77.10],'Milpitas':[37.43,-121.90]
+  };
+
+  /* ── City consolidation (same pools as Sankey) ── */
+  var GLOBE_POOLS = {
+    'San Francisco':'Bay Area','Palo Alto':'Bay Area','Mountain View':'Bay Area','Santa Clara':'Bay Area',
+    'Redwood City':'Bay Area','San Jose':'Bay Area','Menlo Park':'Bay Area','San Mateo':'Bay Area',
+    'Burlingame':'Bay Area','Sunnyvale':'Bay Area','San Leandro':'Bay Area','Berkeley':'Bay Area',
+    'Cupertino':'Bay Area','Fremont':'Bay Area','Foster City':'Bay Area','South San Francisco':'Bay Area',
+    'San Carlos':'Bay Area','Emeryville':'Bay Area','Oakland':'Bay Area','Milpitas':'Bay Area',
+    'Hayward':'Bay Area','Alameda':'Bay Area',
+    'Brooklyn':'New York',
+    'Cambridge':'Boston','Somerville':'Boston',
+    'Santa Monica':'Los Angeles','Culver City':'Los Angeles',
+    'Bellevue':'Seattle','Kirkland':'Seattle','Edmonds':'Seattle'
+  };
+  US['Bay Area'] = [37.77,-122.42];
+
+  /* ── Aggregate flows ── */
+  var flows={};
+  data.forEach(function(co){
+    var hq=co.hq_city;if(!hq)return;
+    var dest = GLOBE_POOLS[hq] || hq;
+    if(!US[dest])return;
+    (co.founders||[]).forEach(function(f){
+      var inst=f.canadian_institution;if(!inst)return;
+      /* Find first matching institution → origin city (one flow per founder) */
+      var parts=inst.split(',');
+      var city=null;
+      for(var pi=0;pi<parts.length;pi++){
+        var c=I2C[parts[pi].trim()];
+        if(c&&CA[c]){city=c;break}
+      }
+      if(!city)return;
+      var k=city+'|'+dest;
+      flows[k]=(flows[k]||0)+1;
+    });
+  });
+  var flowArr=Object.keys(flows).map(function(k){
+    var p=k.split('|');
+    return{from:p[0],to:p[1],count:flows[k],fc:CA[p[0]],tc:US[p[1]]};
+  }).sort(function(a,b){return b.count-a.count}).slice(0,40);
+
+  var totalMigrants=flowArr.reduce(function(s,f){return s+f.count},0);
+  var top=flowArr[0];
+  var uniqueOrigins=[];var uniqueDests=[];
+  flowArr.forEach(function(f){if(uniqueOrigins.indexOf(f.from)<0)uniqueOrigins.push(f.from);if(uniqueDests.indexOf(f.to)<0)uniqueDests.push(f.to)});
+
+  document.getElementById('sMapInsight').textContent=
+    'Canadian founder talent does not diffuse randomly into the U.S. It flows through a small number of repeatable corridors. Waterloo and Toronto are the dominant Canadian origin nodes; the Bay Area is the dominant U.S. destination. The result is a visible talent bridge from Canadian technical density to Silicon Valley company formation.';
+  document.getElementById('sMapGlobeInsight').textContent=
+    'The destination map is ultimately a talent-density map. Canadian founders concentrate where venture-scale company formation is most advantaged \u2014 especially the Bay Area, where capital, talent, customers, and ambition compound in the same place.';
+  document.getElementById('sMapFootnote').textContent=
+    'Top 40 corridors by founder count. Each traveling dot represents one founder; busier corridors have proportionally more dots.';
+
+  /* ── Stripe-style arc color palette ── */
+  var ARC_PALETTE=[
+    {idle:'rgba(160,100,220,0.35)',glow:'rgba(180,120,255,0.9)'},  /* purple */
+    {idle:'rgba(240,160,50,0.35)', glow:'rgba(255,190,80,0.9)'},   /* amber */
+    {idle:'rgba(80,180,240,0.35)', glow:'rgba(100,200,255,0.9)'},   /* cyan */
+    {idle:'rgba(240,80,120,0.35)', glow:'rgba(255,100,140,0.9)'},   /* rose */
+    {idle:'rgba(100,220,160,0.35)',glow:'rgba(120,240,180,0.9)'},   /* green */
+    {idle:'rgba(220,180,80,0.35)', glow:'rgba(245,210,100,0.9)'},   /* gold */
+    {idle:'rgba(180,100,180,0.35)',glow:'rgba(210,130,220,0.9)'},   /* magenta */
+    {idle:'rgba(80,160,200,0.35)', glow:'rgba(100,190,240,0.9)'}    /* steel */
+  ];
+  /* Assign color per route — group by origin city */
+  var originColorMap={};var oci=0;
+  flowArr.forEach(function(f){
+    if(!(f.from in originColorMap)){originColorMap[f.from]=ARC_PALETTE[oci%ARC_PALETTE.length];oci++}
+  });
+
+  /* ── Orb system: clean single-dot travelers ── */
+  var ALT_SCALE=0.35;
+  var LOOP_MS=30000;
+  var TRAVEL_MS=3000;
+  var MAX_PER_ROUTE=10;
+
+  /* Allocate orbs: linear scale to cap, preserving proportions */
+  var maxCount=flowArr[0].count; /* flowArr is sorted desc */
+  var routeOrbs=flowArr.map(function(f){
+    return Math.max(1,Math.round(f.count/maxCount*MAX_PER_ROUTE));
+  });
+
+  /* Build launch schedule */
+  var seed=42;
+  function srand(){seed=(seed*16807)%2147483647;return(seed-1)/2147483646}
+  var launches=[];
+  flowArr.forEach(function(f,fi){
+    var n=routeOrbs[fi];
+    var phase=srand()*LOOP_MS; /* random offset per route */
+    for(var j=0;j<n;j++){
+      var base=(j+0.5)/n*LOOP_MS+phase;
+      var jitter=(srand()-0.5)*(LOOP_MS/n)*0.2;
+      launches.push({ri:fi,t:((base+jitter)%LOOP_MS+LOOP_MS)%LOOP_MS});
+    }
+  });
+
+  /* ── Arc curve math ── */
+  var GLOBE_R=100;
+  function p2c(lat,lng,alt){
+    var phi=(90-lat)*Math.PI/180,theta=(90-lng)*Math.PI/180;
+    var r=GLOBE_R*(1+(alt||0));
+    return new THREE.Vector3(r*Math.sin(phi)*Math.cos(theta),r*Math.cos(phi),r*Math.sin(phi)*Math.sin(theta));
+  }
+  function gcRad(a1,o1,a2,o2){
+    var P=Math.PI,p1=a1*P/180,p2=a2*P/180,dp=(a2-a1)*P/180,dl=(o2-o1)*P/180;
+    return 2*Math.asin(Math.min(1,Math.sqrt(Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2)));
+  }
+  function mkCurve(a1,o1,a2,o2){
+    var alt=ALT_SCALE*gcRad(a1,o1,a2,o2);
+    return new THREE.CubicBezierCurve3(p2c(a1,o1,0),p2c((a1*3+a2)/4,(o1*3+o2)/4,alt),p2c((a1+a2*3)/4,(o1+o2*3)/4,alt),p2c(a2,o2,0));
+  }
+  var routeCurves=flowArr.map(function(f){return mkCurve(f.fc[0],f.fc[1],f.tc[0],f.tc[1])});
+
+  /* ── Sprite textures: colored traveling dots ── */
+  function makeDotTex(r,g,b){
+    var cv=document.createElement('canvas');cv.width=cv.height=64;
+    var ctx=cv.getContext('2d');
+    var gd=ctx.createRadialGradient(32,32,0,32,32,32);
+    gd.addColorStop(0,'rgba(255,255,255,1)');
+    gd.addColorStop(0.12,'rgba('+r+','+g+','+b+',0.95)');
+    gd.addColorStop(0.35,'rgba('+r+','+g+','+b+',0.3)');
+    gd.addColorStop(1,'rgba('+r+','+g+','+b+',0)');
+    ctx.fillStyle=gd;ctx.fillRect(0,0,64,64);
+    return new THREE.CanvasTexture(cv);
+  }
+
+  /* Endpoint dot texture: small filled circle */
+  function makeEndpointDotTex(r,g,b){
+    var cv=document.createElement('canvas');cv.width=cv.height=64;
+    var ctx=cv.getContext('2d');
+    var gd=ctx.createRadialGradient(32,32,0,32,32,22);
+    gd.addColorStop(0,'rgba(255,255,255,1)');
+    gd.addColorStop(0.4,'rgba('+r+','+g+','+b+',0.95)');
+    gd.addColorStop(0.8,'rgba('+r+','+g+','+b+',0.5)');
+    gd.addColorStop(1,'rgba('+r+','+g+','+b+',0)');
+    ctx.fillStyle=gd;ctx.fillRect(0,0,64,64);
+    return new THREE.CanvasTexture(cv);
+  }
+
+  /* Endpoint ring texture: thin circle outline only, no fill */
+  function makeRippleTex(r,g,b){
+    var cv=document.createElement('canvas');cv.width=cv.height=128;
+    var ctx=cv.getContext('2d');
+    ctx.beginPath();ctx.arc(64,64,50,0,Math.PI*2);
+    ctx.strokeStyle='rgba('+r+','+g+','+b+',0.9)';
+    ctx.lineWidth=3;ctx.stroke();
+    return new THREE.CanvasTexture(cv);
+  }
+
+  /* Map palette colors to textures */
+  var orbTextures={};
+  var epDotTextures={};
+  var epRippleTextures={};
+  ARC_PALETTE.forEach(function(p){
+    var m=p.glow.match(/(\d+),(\d+),(\d+)/);
+    if(m){
+      orbTextures[p.glow]=makeDotTex(+m[1],+m[2],+m[3]);
+      epDotTextures[p.glow]=makeEndpointDotTex(+m[1],+m[2],+m[3]);
+      epRippleTextures[p.glow]=makeRippleTex(+m[1],+m[2],+m[3]);
+    }
+  });
+
+  var orbData=launches.map(function(l){
+    var pal=originColorMap[flowArr[l.ri].from];
+    return{ri:l.ri,t:l.t,curve:routeCurves[l.ri],color:pal.glow};
+  });
+  var _t0=performance.now();
+  var _orbs=[];
+
+  /* ── Route metadata for hover ── */
+  var arcMeta=flowArr.map(function(f){
+    var pal=originColorMap[f.from];
+    return{from:f.from,to:f.to,count:f.count,fc:f.fc,tc:f.tc,pal:pal};
+  });
+
+  /* ── Initialize globe (no built-in arcs — we draw our own) ── */
+  var W=wrap.clientWidth,H=wrap.clientHeight;
+  var globe=Globe()(vizEl)
+    .width(W).height(H)
+    .backgroundColor('#0b1526')
+    .showAtmosphere(true)
+    .atmosphereColor('#1a4a7a')
+    .atmosphereAltitude(0.15)
+    .showGlobe(true)
+    .globeImageUrl('')
+    /* Country polygons */
+    .polygonCapColor(function(){return'rgba(20,45,75,0.9)'})
+    .polygonSideColor(function(){return'rgba(20,45,75,0.4)'})
+    .polygonStrokeColor(function(){return'rgba(80,140,200,0.3)'})
+    .polygonAltitude(0.005)
+    /* Labels */
+    .labelsData([])
+    .labelLat(function(d){return d.lat})
+    .labelLng(function(d){return d.lng})
+    .labelText(function(d){return d.text})
+    .labelColor(function(d){return d.color})
+    .labelSize(function(d){return d.size})
+    .labelDotRadius(0)
+    .labelResolution(2)
+    .labelAltitude(0.015)
+    /* Traveling dot particles */
+    .customLayerData(orbData)
+    .customThreeObject(function(d){
+      var tex=orbTextures[d.color]||orbTextures[Object.keys(orbTextures)[0]];
+      var s=new THREE.Sprite(new THREE.SpriteMaterial({
+        map:tex,transparent:true,depthWrite:false,
+        blending:THREE.AdditiveBlending,opacity:0
+      }));
+      s.scale.set(1.6,1.6,1);
+      s.renderOrder=3;
+      s.material.depthTest=false;
+      s.visible=false;
+      s.userData={data:d};
+      _orbs.push(s);
+      return s;
+    })
+    .customThreeObjectUpdate(function(obj,d){obj.userData.data=d});
+
+  /* ── Custom Three.js arc lines (same bezier curves the orbs travel) ── */
+  var ARC_SEGMENTS=64;
+  var TRAIL_FADE_MS=2000; /* time for arc to erase after orb arrives */
+  var arcLines=[];
+  var arcGroup=new THREE.Group();
+  routeCurves.forEach(function(curve,i){
+    var pts=curve.getPoints(ARC_SEGMENTS);
+    var geom=new THREE.BufferGeometry().setFromPoints(pts);
+    var m=arcMeta[i];
+    /* Parse idle color rgba to THREE.Color */
+    var cm=m.pal.idle.match(/([\d.]+),([\d.]+),([\d.]+),([\d.]+)/);
+    var idleCol=new THREE.Color(+cm[1]/255,+cm[2]/255,+cm[3]/255);
+    var idleOp=+cm[4];
+    var gm2=m.pal.glow.match(/([\d.]+),([\d.]+),([\d.]+),([\d.]+)/);
+    var glowCol=new THREE.Color(+gm2[1]/255,+gm2[2]/255,+gm2[3]/255);
+    var glowOp=+gm2[4];
+    var mat=new THREE.LineBasicMaterial({color:idleCol,transparent:true,opacity:idleOp,linewidth:1,depthWrite:false,depthTest:false});
+    var line=new THREE.Line(geom,mat);
+    line.renderOrder=2;
+    line.visible=false;
+    line.userData={idx:i,meta:m,idleCol:idleCol,idleOp:idleOp,glowCol:glowCol,glowOp:glowOp};
+    arcLines.push(line);
+    arcGroup.add(line);
+  });
+  arcGroup.renderOrder=2;
+  globe.scene().add(arcGroup);
+
+  /* ── Surface-tangent endpoint dots + ripple rings ── */
+  var RIPPLE_MS=600;  /* ripple expand duration */
+  var DOT_SIZE=1.2;   /* base dot plane size */
+  var RIPPLE_MIN=1.0; /* ring starts at this scale relative to dot */
+  var RIPPLE_MAX=3.0; /* ring expands to this scale */
+  var _zUp=new THREE.Vector3(0,0,1);
+  var planeGeo=new THREE.PlaneGeometry(1,1);
+
+  function makeEndpoint(lat,lng,palGlow){
+    var pos=p2c(lat,lng,0.007);
+    var normal=pos.clone().normalize();
+    var quat=new THREE.Quaternion().setFromUnitVectors(_zUp,normal);
+    /* Dot mesh */
+    var dotTx=epDotTextures[palGlow]||epDotTextures[Object.keys(epDotTextures)[0]];
+    var dot=new THREE.Mesh(planeGeo,new THREE.MeshBasicMaterial({
+      map:dotTx,transparent:true,depthWrite:false,depthTest:false,
+      blending:THREE.AdditiveBlending,opacity:0,side:THREE.DoubleSide
+    }));
+    dot.position.copy(pos);
+    dot.quaternion.copy(quat);
+    dot.scale.set(DOT_SIZE,DOT_SIZE,1);
+    dot.renderOrder=4;
+    dot.visible=false;
+    /* Ripple ring mesh */
+    var ripTx=epRippleTextures[palGlow]||epRippleTextures[Object.keys(epRippleTextures)[0]];
+    var ring=new THREE.Mesh(planeGeo,new THREE.MeshBasicMaterial({
+      map:ripTx,transparent:true,depthWrite:false,depthTest:false,
+      blending:THREE.AdditiveBlending,opacity:0,side:THREE.DoubleSide
+    }));
+    ring.position.copy(pos);
+    ring.quaternion.copy(quat);
+    ring.scale.set(DOT_SIZE,DOT_SIZE,1);
+    ring.renderOrder=4;
+    ring.visible=false;
+    return{dot:dot,ring:ring,rippleT:-1};
+  }
+
+  var endpoints=[];  /* [{origin:{dot,ring,rippleT}, dest:{dot,ring,rippleT}}] */
+  var endpointGroup=new THREE.Group();
+  endpointGroup.renderOrder=4;
+  flowArr.forEach(function(f,i){
+    var pal=originColorMap[f.from];
+    var orig=makeEndpoint(f.fc[0],f.fc[1],pal.glow);
+    var dest=makeEndpoint(f.tc[0],f.tc[1],pal.glow);
+    endpointGroup.add(orig.dot);endpointGroup.add(orig.ring);
+    endpointGroup.add(dest.dot);endpointGroup.add(dest.ring);
+    endpoints.push({origin:orig,dest:dest});
+  });
+  globe.scene().add(endpointGroup);
+
+  /* Build orb→route index for fast per-route lookups */
+  var routeOrbIndices=flowArr.map(function(){return[]});
+  orbData.forEach(function(o,k){routeOrbIndices[o.ri].push(k)});
+
+  /* ── Hover: raycaster on custom arc lines ── */
+  var hoverCard=document.getElementById('globeHoverCard');
+  var _raycaster=new THREE.Raycaster();
+  _raycaster.params.Line={threshold:1.5};
+  var _mouse=new THREE.Vector2();
+  /* _hoverKey tracks current hover state: null, 'arc:3', 'origin:Toronto', 'dest:Bay Area' */
+  var _hoverKey=null;
+  /* _hoverArcs: array of arc indices currently highlighted */
+  var _hoverArcs=[];
+  /* Pinned selection (persists until clicked elsewhere) */
+  var _pinnedKey=null;
+  var _pinnedArcs=[];
+  var _pinnedLabel='';
+  var chip=document.getElementById('globeChip');
+  var chipLabel=chip?chip.querySelector('.chip-label'):null;
+  var chipX=chip?chip.querySelector('.chip-x'):null;
+
+  function pinCity(type,name){
+    _pinnedKey=type+':'+name;
+    _pinnedLabel=name;
+    var isOrigin=(type==='origin');
+    _pinnedArcs=(isOrigin?originRoutes[name]:destRoutes[name])||[];
+    highlightCity(type,name);
+    if(chip&&chipLabel){chipLabel.textContent=name;chip.classList.add('show')}
+  }
+  function unpin(){
+    _pinnedKey=null;_pinnedArcs=[];_pinnedLabel='';
+    if(chip)chip.classList.remove('show');
+    clearHover();
+  }
+  if(chipX)chipX.addEventListener('click',function(e){e.stopPropagation();unpin()});
+
+  /* Build city→route index maps */
+  var originRoutes={};  /* city → [arc indices] */
+  var destRoutes={};
+  flowArr.forEach(function(f,i){
+    if(!originRoutes[f.from])originRoutes[f.from]=[];
+    originRoutes[f.from].push(i);
+    if(!destRoutes[f.to])destRoutes[f.to]=[];
+    destRoutes[f.to].push(i);
+  });
+
+  /* Unique city positions for proximity detection */
+  var cityPoints=[];
+  var seenCities={};
+  flowArr.forEach(function(f,i){
+    if(!seenCities['O:'+f.from]){
+      seenCities['O:'+f.from]=1;
+      cityPoints.push({pos:p2c(f.fc[0],f.fc[1],0.007),type:'origin',name:f.from,lat:f.fc[0],lng:f.fc[1]});
+    }
+    if(!seenCities['D:'+f.to]){
+      seenCities['D:'+f.to]=1;
+      cityPoints.push({pos:p2c(f.tc[0],f.tc[1],0.007),type:'dest',name:f.to,lat:f.tc[0],lng:f.tc[1]});
+    }
+  });
+
+  function clearHover(){
+    if(_pinnedKey){
+      /* Restore pinned state — reset _hoverKey first so highlightCity re-renders */
+      _hoverKey=null;
+      _hoverArcs=[];
+      var parts=_pinnedKey.split(':');
+      highlightCity(parts[0],parts.slice(1).join(':'));
+    }else{
+      _hoverKey=null;
+      _hoverArcs=[];
+      globe.labelsData([]);
+      if(hoverCard){hoverCard.classList.remove('show','dest');hoverCard.innerHTML=''}
+    }
+    vizEl.style.cursor='';
+  }
+
+  function highlightSingle(idx){
+    var key='arc:'+idx;
+    if(key===_hoverKey)return;
+    _hoverKey=key;
+    _hoverArcs=[idx];
+    vizEl.style.cursor='pointer';
+    var m=arcLines[idx].userData.meta;
+    globe.labelsData([
+      {lat:m.fc[0],lng:m.fc[1],text:m.from,color:'rgba(255,255,255,0.9)',size:0.4},
+      {lat:m.tc[0],lng:m.tc[1],text:m.to,color:'rgba(255,255,255,0.9)',size:0.4}
+    ]);
+    if(hoverCard){
+      hoverCard.classList.remove('dest');
+      hoverCard.innerHTML=
+        '<div class="hc-title">'+m.from+' \u2192 '+m.to+'</div>'+
+        '<div class="hc-sub">'+m.count+' founder'+(m.count>1?'s':'')+' on this corridor</div>';
+      hoverCard.classList.add('show');
+    }
+  }
+
+  function highlightCity(type,name){
+    var key=type+':'+name;
+    if(key===_hoverKey)return;
+    _hoverKey=key;
+    var isOrigin=(type==='origin');
+    var indices=isOrigin?originRoutes[name]:destRoutes[name];
+    if(!indices||!indices.length)return;
+    _hoverArcs=indices;
+    vizEl.style.cursor='pointer';
+    /* Labels */
+    var labels=[];
+    var total=0;
+    var rows=indices.map(function(ri){
+      var m=arcMeta[ri];
+      total+=m.count;
+      labels.push({lat:m.fc[0],lng:m.fc[1],text:m.from,color:'rgba(255,255,255,0.9)',size:0.4});
+      labels.push({lat:m.tc[0],lng:m.tc[1],text:m.to,color:'rgba(255,255,255,0.9)',size:0.4});
+      var other=isOrigin?m.to:m.from;
+      return'<tr><td>'+other+'</td><td class="n">'+m.count+'</td></tr>';
+    }).join('');
+    globe.labelsData(labels);
+    if(hoverCard){
+      hoverCard.classList.remove('dest');
+      if(!isOrigin)hoverCard.classList.add('dest');
+      var arrow=isOrigin?(' \u2192 '+indices.length+' destination'+(indices.length>1?'s':''))
+                        :(indices.length+' origin'+(indices.length>1?'s':'')+' \u2192 ');
+      hoverCard.innerHTML=
+        '<div class="hc-title">'+name+'</div>'+
+        '<div class="hc-sub">'+arrow+'</div>'+
+        '<table>'+rows+'</table>'+
+        '<div class="hc-total"><span>'+indices.length+' corridor'+(indices.length===1?'':'s')+'</span><span>'+total+' founder'+(total===1?'':'s')+'</span></div>';
+      hoverCard.classList.add('show');
+    }
+  }
+
+  /* ── Static subtle city markers (always visible) ── */
+  var markerGroup=new THREE.Group();
+  markerGroup.renderOrder=1;
+  var markerGeo=new THREE.PlaneGeometry(1,1);
+  var markerTex=(function(){
+    var cv=document.createElement('canvas');cv.width=cv.height=32;
+    var ctx=cv.getContext('2d');
+    var g=ctx.createRadialGradient(16,16,0,16,16,12);
+    g.addColorStop(0,'rgba(180,210,240,0.5)');
+    g.addColorStop(0.5,'rgba(180,210,240,0.15)');
+    g.addColorStop(1,'rgba(180,210,240,0)');
+    ctx.fillStyle=g;ctx.fillRect(0,0,32,32);
+    return new THREE.CanvasTexture(cv);
+  })();
+  cityPoints.forEach(function(cp){
+    var m=new THREE.Mesh(markerGeo,new THREE.MeshBasicMaterial({
+      map:markerTex,transparent:true,depthWrite:false,depthTest:false,
+      blending:THREE.AdditiveBlending,opacity:1,side:THREE.DoubleSide
+    }));
+    m.position.copy(cp.pos);
+    m.quaternion.copy(new THREE.Quaternion().setFromUnitVectors(_zUp,cp.pos.clone().normalize()));
+    m.scale.set(0.8,0.8,1);
+    m.renderOrder=1;
+    markerGroup.add(m);
+  });
+  globe.scene().add(markerGroup);
+
+  var CITY_HIT_PX=18; /* screen-space proximity threshold in pixels */
+  var _projV=new THREE.Vector3();
+
+  vizEl.addEventListener('mousemove',function(e){
+    var rect=vizEl.getBoundingClientRect();
+    _mouse.x=((e.clientX-rect.left)/rect.width)*2-1;
+    _mouse.y=-((e.clientY-rect.top)/rect.height)*2+1;
+    var cam=globe.camera();
+    var mx=(e.clientX-rect.left);
+    var my=(e.clientY-rect.top);
+
+    /* 1. Check city proximity (screen-space) */
+    var bestCity=null,bestDist=CITY_HIT_PX;
+    for(var ci=0;ci<cityPoints.length;ci++){
+      var cp=cityPoints[ci];
+      _projV.copy(cp.pos).project(cam);
+      var sx=(_projV.x*0.5+0.5)*rect.width;
+      var sy=(-_projV.y*0.5+0.5)*rect.height;
+      /* Skip if behind camera */
+      if(_projV.z>1)continue;
+      var dx=mx-sx,dy=my-sy;
+      var dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist<bestDist){bestDist=dist;bestCity=cp}
+    }
+    if(bestCity){
+      highlightCity(bestCity.type,bestCity.name);
+      return;
+    }
+
+    /* 2. Check arc line hits */
+    _raycaster.setFromCamera(_mouse,cam);
+    var hits=_raycaster.intersectObjects(arcLines,false);
+    if(hits.length>0){
+      highlightSingle(hits[0].object.userData.idx);
+      return;
+    }
+
+    /* 3. Nothing hit */
+    if(_hoverKey)clearHover();
+  });
+  vizEl.addEventListener('mouseleave',function(){if(_hoverKey)clearHover()});
+
+  /* Click to pin/unpin a city */
+  var _clickStart={x:0,y:0};
+  vizEl.addEventListener('mousedown',function(e){_clickStart.x=e.clientX;_clickStart.y=e.clientY});
+  vizEl.addEventListener('mouseup',function(e){
+    /* Ignore drags */
+    var dx=e.clientX-_clickStart.x,dy=e.clientY-_clickStart.y;
+    if(dx*dx+dy*dy>25)return;
+    var rect=vizEl.getBoundingClientRect();
+    var mx=e.clientX-rect.left,my=e.clientY-rect.top;
+    var cam=globe.camera();
+    /* Check city proximity */
+    var bestCity=null,bestDist=CITY_HIT_PX;
+    for(var ci=0;ci<cityPoints.length;ci++){
+      var cp=cityPoints[ci];
+      _projV.copy(cp.pos).project(cam);
+      if(_projV.z>1)continue;
+      var sx=(_projV.x*0.5+0.5)*rect.width;
+      var sy=(-_projV.y*0.5+0.5)*rect.height;
+      var d=Math.sqrt((mx-sx)*(mx-sx)+(my-sy)*(my-sy));
+      if(d<bestDist){bestDist=d;bestCity=cp}
+    }
+    if(bestCity){
+      pinCity(bestCity.type,bestCity.name);
+    }else{
+      /* Clicked empty space — unpin */
+      if(_pinnedKey)unpin();
+    }
+  });
+
+  /* ── Globe material: deep navy ── */
+  var gm=globe.globeMaterial();
+  gm.color.set(0x0a1628);
+  gm.emissive.set(0x040b14);
+  gm.emissiveIntensity=0.4;
+  gm.shininess=5;
+
+  /* ── Elegant load sequence ── */
+  /* Start zoomed out, then animate in over 1.2s */
+  var INTRO_ZOOM_MS=1200;  /* zoom-in duration */
+  var INTRO_FADE_MS=800;   /* arc/orb fade-in after zoom */
+  var _introStart=performance.now();
+  var _introReady=false;   /* true once arcs/orbs should appear */
+
+  globe.pointOfView({lat:40,lng:-97,altitude:2.5},0);  /* start far */
+  /* Kick off animated zoom to final position */
+  setTimeout(function(){
+    globe.pointOfView({lat:40,lng:-97,altitude:0.65},INTRO_ZOOM_MS);
+  },50);
+
+  /* Hide all visual layers during intro */
+  arcGroup.visible=false;
+  endpointGroup.visible=false;
+  markerGroup.visible=false;
+  _orbs.forEach(function(s){s.visible=false});
+
+  var controls=globe.controls();
+  controls.autoRotate=false;
+  controls.enableDamping=true;
+  controls.dampingFactor=0.1;
+  controls.rotateSpeed=0.4;
+  controls.zoomSpeed=0.8;
+  controls.minDistance=101;
+  controls.maxDistance=500;
+  controls.minPolarAngle=0.4;
+  controls.maxPolarAngle=Math.PI-0.4;
+
+  /* ── Load country polygons ── */
+  fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
+  .then(function(r){return r.json()})
+  .then(function(topo){
+    var countries=topojson.feature(topo,topo.objects.countries);
+    globe.polygonsData(countries.features)
+      .polygonGeoJsonGeometry(function(d){return d.geometry});
+  })
+  .catch(function(e){console.warn('Could not load country data:',e)});
+
+  /* ── Endpoint animation helpers ── */
+  function showEP(ep,now,active,rippleTrigger,fade){
+    if(active){
+      ep.dot.visible=true;
+      ep.dot.material.opacity=0.9*(fade!==undefined?fade:1);
+      /* Trigger ripple on new orb launch/arrival */
+      if(rippleTrigger)ep.rippleT=now;
+    }else{
+      ep.dot.visible=false;
+      ep.dot.material.opacity=0;
+    }
+  }
+  function hideEP(ep){
+    ep.dot.visible=false;ep.dot.material.opacity=0;
+    ep.ring.visible=false;ep.ring.material.opacity=0;
+    ep.rippleT=-1;
+  }
+  function animateRipple(ep,now){
+    if(ep.rippleT<0){ep.ring.visible=false;return}
+    var elapsed=now-ep.rippleT;
+    if(elapsed>RIPPLE_MS){
+      ep.ring.visible=false;ep.ring.material.opacity=0;
+      return;
+    }
+    var t=elapsed/RIPPLE_MS;
+    /* Ease-out: fast start, slow end */
+    var ease=1-(1-t)*(1-t);
+    var s=DOT_SIZE*(RIPPLE_MIN+(RIPPLE_MAX-RIPPLE_MIN)*ease);
+    ep.ring.visible=true;
+    ep.ring.scale.set(s,s,1);
+    ep.ring.material.opacity=0.8*(1-t);
+  }
+
+  /* ── Per-frame animation: orbs + arc draw ranges ── */
+  var _tv=new THREE.Vector3();
+  function tick(){
+    var now=performance.now();
+    var introElapsed=now-_introStart;
+
+    /* Intro sequence: wait for zoom, then fade in layers */
+    if(!_introReady){
+      if(introElapsed<INTRO_ZOOM_MS+200){
+        /* Still zooming — keep everything hidden */
+        requestAnimationFrame(tick);return;
+      }
+      /* Reveal layers with a stagger */
+      _introReady=true;
+      _t0=now; /* reset orb clock so they start fresh */
+      markerGroup.visible=true;
+      /* Fade in markers */
+      markerGroup.children.forEach(function(m){m.material.opacity=0});
+      arcGroup.visible=true;
+      endpointGroup.visible=true;
+    }
+
+    /* Fade-in during INTRO_FADE_MS after reveal */
+    var fadeElapsed=now-(_introStart+INTRO_ZOOM_MS+200);
+    var introFade=Math.min(1,Math.max(0,fadeElapsed/INTRO_FADE_MS));
+    if(introFade<1){
+      markerGroup.children.forEach(function(m){m.material.opacity=introFade});
+    }
+
+    var cycle=(now-_t0)%LOOP_MS;
+
+    /* Reset per-route visible range: [tailV, headV] in vertex indices */
+    var rHead=new Array(flowArr.length);
+    var rTail=new Array(flowArr.length);
+    for(var r=0;r<flowArr.length;r++){rHead[r]=-1;rTail[r]=ARC_SEGMENTS+1}
+
+    /* Track ripple triggers per route */
+    var originRipple=new Array(flowArr.length);
+    var destRipple=new Array(flowArr.length);
+    for(var r=0;r<flowArr.length;r++){originRipple[r]=false;destRipple[r]=false}
+
+    /* Update orbs and compute per-route arc ranges */
+    for(var k=0;k<_orbs.length;k++){
+      var sp=_orbs[k];
+      var d=sp.userData.data;
+      if(!d||!d.curve){sp.visible=false;continue}
+      var lt=(cycle-d.t+LOOP_MS)%LOOP_MS;
+      var ri=d.ri;
+
+      if(lt<TRAVEL_MS){
+        /* Orb is traveling — arc draws behind it from origin */
+        sp.visible=true;
+        var t=lt/TRAVEL_MS;
+        d.curve.getPoint(t,_tv);
+        sp.position.copy(_tv);
+        var a=Math.min(1,t/0.06)*Math.min(1,(1-t)/0.06);
+        sp.material.opacity=a*0.85*introFade;
+        /* Arc: show 0 → headV */
+        var hv=Math.round(t*ARC_SEGMENTS);
+        if(hv>rHead[ri])rHead[ri]=hv;
+        if(0<rTail[ri])rTail[ri]=0;
+        /* Ripple at origin on launch */
+        if(lt<80)originRipple[ri]=true;
+      }else if(lt<TRAVEL_MS+TRAIL_FADE_MS){
+        /* Orb arrived — arc erases from origin to destination */
+        sp.visible=false;
+        var fade=(lt-TRAVEL_MS)/TRAIL_FADE_MS;
+        var tv=Math.round(fade*ARC_SEGMENTS);
+        if(ARC_SEGMENTS>rHead[ri])rHead[ri]=ARC_SEGMENTS;
+        if(tv<rTail[ri])rTail[ri]=tv;
+        /* Ripple at destination on arrival */
+        if(lt-TRAVEL_MS<80)destRipple[ri]=true;
+      }else{
+        sp.visible=false;
+      }
+    }
+
+    /* Apply draw ranges to arc lines + animated endpoint dots/ripples */
+    for(var r=0;r<arcLines.length;r++){
+      var line=arcLines[r];
+      var ep=endpoints[r];
+      var isHovered=_hoverArcs.indexOf(r)>=0;
+      var isActive=rHead[r]>=0&&rTail[r]<=ARC_SEGMENTS;
+
+      if(isHovered){
+        line.visible=true;
+        line.geometry.setDrawRange(0,ARC_SEGMENTS+1);
+        line.material.color.copy(line.userData.glowCol);
+        line.material.opacity=line.userData.glowOp*introFade;
+        showEP(ep.origin,now,true,true,introFade);
+        showEP(ep.dest,now,true,true,introFade);
+      }else if(isActive){
+        line.visible=true;
+        var start=rTail[r];
+        var count=Math.max(1,rHead[r]-start+1);
+        line.geometry.setDrawRange(start,count);
+        line.material.color.copy(line.userData.idleCol);
+        line.material.opacity=line.userData.idleOp*introFade;
+        showEP(ep.origin,now,rTail[r]<=2,originRipple[r],introFade);
+        showEP(ep.dest,now,rHead[r]>=ARC_SEGMENTS-2,destRipple[r],introFade);
+      }else{
+        line.visible=false;
+        hideEP(ep.origin);
+        hideEP(ep.dest);
+      }
+      animateRipple(ep.origin,now);
+      animateRipple(ep.dest,now);
+    }
+
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+
+  /* Resize */
+  var resizeTimer;
+  window.addEventListener('resize',function(){
+    clearTimeout(resizeTimer);
+    resizeTimer=setTimeout(function(){globe.width(wrap.clientWidth).height(wrap.clientHeight)},100);
+  });
+
+  /* Fullscreen toggle — CSS fallback for iOS Safari */
+  var fsBtn=document.getElementById('globeFullscreen');
+  if(fsBtn){
+    var useNativeFS=!!(wrap.requestFullscreen||wrap.webkitRequestFullscreen);
+    /* iOS Safari supports webkitRequestFullscreen only on <video>, so detect iOS */
+    var isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||
+      (navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+    if(isIOS) useNativeFS=false;
+
+    function isFullscreen(){
+      return document.fullscreenElement||document.webkitFullscreenElement||wrap.classList.contains('globe-fs-active');
+    }
+    function resizeGlobe(){
+      setTimeout(function(){globe.width(wrap.clientWidth).height(wrap.clientHeight)},60);
+    }
+    function enterFS(){
+      if(useNativeFS){
+        (wrap.requestFullscreen||wrap.webkitRequestFullscreen).call(wrap);
+      }else{
+        wrap.classList.add('globe-fs-active');
+        document.body.style.overflow='hidden';
+        fsBtn.title='Exit full screen';
+        fsBtn.setAttribute('aria-label','Exit full screen');
+        resizeGlobe();
+      }
+    }
+    function exitFS(){
+      if(useNativeFS&&(document.fullscreenElement||document.webkitFullscreenElement)){
+        (document.exitFullscreen||document.webkitExitFullscreen).call(document);
+      }else{
+        wrap.classList.remove('globe-fs-active');
+        document.body.style.overflow='';
+        fsBtn.title='Full screen';
+        fsBtn.setAttribute('aria-label','Full screen');
+        resizeGlobe();
+      }
+    }
+    fsBtn.addEventListener('click',function(){
+      if(isFullscreen()) exitFS(); else enterFS();
+    });
+    /* Also allow Escape key to exit CSS fullscreen */
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape'&&wrap.classList.contains('globe-fs-active')) exitFS();
+    });
+    /* Native fullscreen events */
+    document.addEventListener('fullscreenchange',resizeGlobe);
+    document.addEventListener('webkitfullscreenchange',resizeGlobe);
+  }
+
+  /* ── Search/pick panel ── */
+  var searchBtn=document.getElementById('globeSearch');
+  var panel=document.getElementById('globePanel');
+  var panelList=document.getElementById('globePanelList');
+  var panelInput=panel?panel.querySelector('input'):null;
+  if(searchBtn&&panel&&panelList&&panelInput){
+    /* Build items: origin cities + destination cities only */
+    var items=[];
+    Object.keys(originRoutes).sort().forEach(function(c){
+      var total=originRoutes[c].reduce(function(s,ri){return s+arcMeta[ri].count},0);
+      items.push({type:'origin',label:c,count:total});
+    });
+    Object.keys(destRoutes).sort().forEach(function(c){
+      var total=destRoutes[c].reduce(function(s,ri){return s+arcMeta[ri].count},0);
+      items.push({type:'dest',label:c,count:total});
+    });
+
+    function renderList(filter){
+      var q=filter.toLowerCase();
+      var html='';
+      var groups=[
+        {title:'Origin cities',items:items.filter(function(it){return it.type==='origin'})},
+        {title:'Destination cities',items:items.filter(function(it){return it.type==='dest'})}
+      ];
+      groups.forEach(function(g){
+        var filtered=q?g.items.filter(function(it){return it.label.toLowerCase().indexOf(q)>=0}):g.items;
+        if(!filtered.length)return;
+        html+='<div class="gp-group">'+g.title+'</div>';
+        filtered.forEach(function(it){
+          html+='<div class="gp-item" data-type="'+it.type+'" data-name="'+it.label+'">'+
+            '<span>'+it.label+'</span><span class="gp-count">'+it.count+'</span></div>';
+        });
+      });
+      panelList.innerHTML=html||'<div style="padding:12px 10px;color:rgba(180,210,240,0.4);font-size:11px">No matches</div>';
+    }
+
+    searchBtn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var open=panel.classList.toggle('open');
+      searchBtn.classList.toggle('active',open);
+      if(open){panelInput.value='';renderList('');panelInput.focus()}
+    });
+    panelInput.addEventListener('input',function(){renderList(this.value)});
+    panelInput.addEventListener('click',function(e){e.stopPropagation()});
+    panelList.addEventListener('click',function(e){
+      var el=e.target.closest('.gp-item');
+      if(!el)return;
+      var type=el.getAttribute('data-type');
+      var name=el.getAttribute('data-name');
+      pinCity(type,name);
+      panel.classList.remove('open');
+      searchBtn.classList.remove('active');
+    });
+    /* Close on outside click */
+    document.addEventListener('click',function(e){
+      if(!panel.contains(e.target)&&e.target!==searchBtn){
+        panel.classList.remove('open');
+        searchBtn.classList.remove('active');
+      }
+    });
+  }
+}
+/* ═══ Animated orb (matches index.html) ═══ */
+(function initOrb() {
+  const canvas = document.getElementById('orbLogo');
+  if (!canvas) return;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = 28 * dpr;
+  canvas.height = 28 * dpr;
+  const ctx = canvas.getContext('2d');
+  const size = 28 * dpr;
+  const BG = [8, 6, 8];
+  const C1 = [220, 25, 25];
+  const C2 = [245, 238, 232];
+  const GA = 0.85;
+  const DS = 0.0014;
+  const W = 0.70;
+  let last = 0;
+  const interval = 1000 / 12;
+
+  function sR(t, s) {
+    return Math.sin(t*0.8+s)*0.35 + Math.sin(t*1.4+s*2.3)*0.28 + Math.sin(t*0.45+s*4.1)*0.22 + Math.sin(t*2.3+s*0.7)*0.15;
+  }
+  function ss(e0, e1, x) {
+    const t = Math.max(0, Math.min(1, (x-e0)/(e1-e0)));
+    return t*t*(3-2*t);
+  }
+  function draw(ts) {
+    requestAnimationFrame(draw);
+    if (ts - last < interval) return;
+    last = ts;
+    const t = ts * DS;
+    const r = size/2;
+    const img = ctx.createImageData(size, size);
+    const d = img.data;
+    const bA = t*0.6 + Math.sin(t*0.31)*0.8 + Math.sin(t*0.17+2)*0.5;
+    const mC = Math.sin(t*0.23+1.4)*0.5 + Math.sin(t*0.11+3.7)*0.3 + Math.sin(t*0.41)*0.2;
+    const mG = Math.max(0, (mC-0.65)/0.35);
+    const sep = Math.PI*(1-mG*0.85);
+    const d1 = r*W*(0.65+Math.sin(t*0.43+0.5)*0.25+Math.sin(t*0.71+3.2)*0.10);
+    const d2 = r*W*(0.60+Math.sin(t*0.37+2.1)*0.25+Math.sin(t*0.83+5)*0.15);
+    const a1 = bA+Math.sin(t*0.53+1)*0.3, a2 = bA+sep+Math.sin(t*0.47+4)*0.3;
+    const ox1=r+Math.cos(a1)*d1, oy1=r+Math.sin(a1)*d1;
+    const ox2=r+Math.cos(a2)*d2, oy2=r+Math.sin(a2)*d2;
+    const r1=r*(0.62+sR(t,5)*0.06), r2=r*(0.58+sR(t,6.3)*0.06);
+    for(let y=0;y<size;y++){for(let x=0;x<size;x++){
+      const i=(y*size+x)*4;
+      const dx0=x-r,dy0=y-r,dfc=Math.sqrt(dx0*dx0+dy0*dy0);
+      const cm=1-ss(r-1.5*dpr,r+0.5*dpr,dfc);
+      if(cm<=0){d[i]=d[i+1]=d[i+2]=0;d[i+3]=0;continue;}
+      const ex1=x-ox1,ey1=y-oy1,dd1=Math.sqrt(ex1*ex1+ey1*ey1);
+      const ex2=x-ox2,ey2=y-oy2,dd2=Math.sqrt(ex2*ex2+ey2*ey2);
+      const i1=Math.exp(-(dd1*dd1)/(2*r1*r1))*GA;
+      const i2=Math.exp(-(dd2*dd2)/(2*r2*r2))*GA;
+      d[i]=Math.min(255,BG[0]+C1[0]*i1+C2[0]*i2)|0;
+      d[i+1]=Math.min(255,BG[1]+C1[1]*i1+C2[1]*i2)|0;
+      d[i+2]=Math.min(255,BG[2]+C1[2]*i1+C2[2]*i2)|0;
+      d[i+3]=(cm*255)|0;
+    }}
+    ctx.putImageData(img,0,0);
+  }
+  requestAnimationFrame(draw);
+})();
+</script>
+</body>
+</html>

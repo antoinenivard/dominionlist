@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dominion List · The most influential Canadian founders building companies in America</title>
+<meta name="description" content="The canonical open-source dataset of US-headquartered startups founded or co-founded by Canadians.">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<style>
+/* ═══════════════════════════════════════════════════════════
+   The Dominion List Design System — matched to VCEMDB
+   Color palette: Tailwind gray scale
+   ═══════════════════════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  color-scheme: light dark;
+  --bg:            #ffffff;
+  --bg-hover:      rgba(249,250,251,0.5);
+  --fg:            #111827;
+  --fg-secondary:  #374151;
+  --fg-muted:      #9ca3af;
+  --fg-faint:      #d1d5db;
+  --fg-very-faint: #e5e7eb;
+  --border:        #e5e7eb;
+  --border-light:  #f3f4f6;
+  --tag-bg:        #f3f4f6;
+  --tag-fg:        #4b5563;
+  --input-border:  #d1d5db;
+  --accent:        #374151;
+  --link:          #2563eb;
+  --link-h:        #1d4ed8;
+  --tooltip-bg:    #1f2937;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:            #030712;
+    --bg-hover:      rgba(17,24,39,0.5);
+    --fg:            #f3f4f6;
+    --fg-secondary:  #d1d5db;
+    --fg-muted:      #6b7280;
+    --fg-faint:      #4b5563;
+    --fg-very-faint: #374151;
+    --border:        #1f2937;
+    --border-light:  #1f2937;
+    --tag-bg:        #1f2937;
+    --tag-fg:        #9ca3af;
+    --input-border:  #374151;
+    --accent:        #9ca3af;
+    --link:          #60a5fa;
+    --link-h:        #93bbfd;
+    --tooltip-bg:    #1f2937;
+  }
+}
+
+html{font-family:var(--font);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{min-height:100vh;background:var(--bg);color:var(--fg);display:flex;flex-direction:column;height:100vh;overflow:hidden}
+a{color:var(--link);text-decoration:none}
+a:hover{color:var(--link-h);text-decoration:underline}
+
+/* ── Header ── */
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  background:var(--bg);
+  padding:16px 24px;
+  flex-shrink:0;z-index:50;
+}
+.header-left{display:flex;align-items:center;gap:12px}
+.header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
+.header-left a:hover{color:var(--fg-secondary);text-decoration:none}
+.header-title{font-size:18px;font-weight:600;color:var(--fg)}
+.header-subtitle{font-size:12px;color:var(--fg-muted);margin-top:1px}
+.header-subtitle .subtitle-copy:last-child{display:none}
+.header-right{display:flex;align-items:center;gap:4px}
+
+/* Tooltip icon buttons (VCEMDB TooltipIconLink) */
+.icon-btn{
+  position:relative;display:inline-flex;align-items:center;justify-content:center;
+  width:30px;height:30px;border-radius:6px;
+  color:var(--fg-muted);background:none;border:none;cursor:pointer;
+  transition:color .15s;text-decoration:none;
+}
+.icon-btn:hover{color:var(--fg-secondary);text-decoration:none}
+.icon-btn svg{width:18px;height:18px;fill:currentColor}
+.icon-btn .tooltip{
+  position:absolute;top:100%;margin-top:6px;left:50%;transform:translateX(-50%);
+  white-space:nowrap;font-size:11px;padding:2px 8px;border-radius:4px;
+  background:var(--tooltip-bg);color:#ffffff;opacity:0;pointer-events:none;
+  transition:opacity .15s;z-index:10;
+}
+.icon-btn:hover .tooltip,.icon-btn:focus .tooltip{opacity:1}
+
+/* ── Layout ── */
+.layout{display:flex;flex:1;overflow:hidden}
+
+/* ── Sidebar ── */
+.sidebar{
+  width:224px;min-width:224px;
+  border-right:1px solid var(--border);
+  background:var(--bg);
+  padding:20px 16px;
+  overflow-y:auto;flex-shrink:0;
+}
+@media(min-width:1024px){
+  .sidebar{width:240px;min-width:240px}
+}
+
+/* Sidebar header */
+.filter-panel-header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:20px;
+}
+.filter-panel-title{font-size:14px;font-weight:600;color:var(--fg)}
+.clear-all-btn{
+  font-size:12px;color:var(--fg-muted);cursor:pointer;border:none;
+  background:none;padding:0;display:none;
+}
+.clear-all-btn:hover{color:var(--fg-secondary);text-decoration:underline}
+
+/* Filter sections — fieldset pattern */
+.filter-section{margin-bottom:20px}
+.filter-section fieldset{border:none;padding:0;margin:0}
+.filter-section legend{
+  display:flex;align-items:center;justify-content:space-between;width:100%;
+  cursor:pointer;user-select:none;padding:0 0 6px 0;
+  font-size:12px;font-weight:500;text-transform:uppercase;
+  letter-spacing:0.05em;color:var(--fg-muted);
+}
+.filter-chevron{
+  width:12px;height:12px;fill:none;stroke:var(--fg-muted);stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;
+  transition:transform .15s;flex-shrink:0;
+  transform:rotate(90deg);
+}
+.filter-section.collapsed .filter-chevron{transform:rotate(0deg)}
+.filter-section.collapsed .filter-group{display:none}
+.filter-group{display:flex;flex-direction:column;gap:0;margin-top:2px}
+
+/* CheckboxRow / RadioRow — VCEMDB pattern */
+.filter-item{
+  display:flex;align-items:center;gap:8px;
+  cursor:pointer;padding:1px 0;
+  font-size:14px;color:var(--fg-secondary);
+}
+.filter-item:hover{color:var(--fg)}
+.filter-item input[type="checkbox"],
+.filter-item input[type="radio"]{
+  accent-color:var(--accent);width:14px;height:14px;cursor:pointer;flex-shrink:0;
+  border-radius:3px;
+}
+.filter-count{
+  margin-left:auto;font-size:12px;
+  font-variant-numeric:tabular-nums;
+  color:var(--fg-muted);
+}
+
+/* Nested / hierarchical filter rows */
+.filter-parent{
+  display:flex;align-items:center;gap:8px;
+  cursor:pointer;padding:1px 0;
+  font-size:14px;color:var(--fg-secondary);
+}
+.filter-parent:hover{color:var(--fg)}
+.filter-parent input[type="checkbox"]{
+  accent-color:var(--accent);width:14px;height:14px;cursor:pointer;flex-shrink:0;border-radius:3px;
+}
+.filter-parent-chevron{
+  width:10px;height:10px;fill:none;stroke:var(--fg-muted);stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;
+  transition:transform .15s;flex-shrink:0;cursor:pointer;
+}
+.filter-parent-chevron.expanded{transform:rotate(90deg)}
+.filter-children{display:none;flex-direction:column;gap:0;padding-left:22px}
+.filter-children.expanded{display:flex}
+
+/* ── Content area ── */
+.content{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ── Search bar (VCEMDB pattern) ── */
+.search-wrap{
+  padding:12px 16px;
+  display:flex;flex-direction:column;gap:8px;
+  flex-shrink:0;
+}
+@media(min-width:640px){
+  .search-wrap{flex-direction:row;align-items:center;justify-content:space-between}
+}
+.search-box{
+  padding:6px 12px;
+  border:1px solid var(--input-border);border-radius:6px;
+  font-size:14px;background:var(--bg);color:var(--fg);
+  outline:none;transition:border-color .15s;
+  width:100%;max-width:320px;
+}
+.search-box:focus{border-color:var(--fg-muted)}
+.search-box::placeholder{color:var(--fg-muted)}
+.search-right{display:flex;align-items:center;gap:12px}
+.result-count{font-size:13px;color:var(--fg-muted);white-space:nowrap}
+
+/* ── Table container ── */
+.company-list{flex:1;overflow:auto;position:relative}
+.company-table{width:100%;border-collapse:collapse;font-size:13px}
+.company-table thead{position:sticky;top:0;z-index:5}
+.company-table th{
+  text-align:left;padding:10px 14px;
+  font-size:11px;font-weight:500;text-transform:uppercase;
+  letter-spacing:0.04em;color:var(--fg-muted);
+  background:var(--tag-bg);border-bottom:1px solid var(--border);
+  white-space:nowrap;cursor:pointer;user-select:none;
+}
+.company-table th:hover{color:var(--fg)}
+.company-table th .sort-arrow{font-size:10px;margin-left:3px;opacity:0.5}
+.company-table th.sorted .sort-arrow{opacity:1;color:var(--fg)}
+.company-table td{
+  padding:10px 14px;border-bottom:1px solid var(--border-light);
+  vertical-align:middle;color:var(--fg);
+}
+.company-table tbody tr{transition:background .1s;cursor:pointer}
+.company-table tbody tr:hover{background:var(--bg-hover)}
+.company-table tbody tr.row-active{background:var(--bg-hover)}
+
+/* Company name cell */
+.cell-company{display:flex;align-items:center;gap:10px;min-width:160px}
+.company-logo{
+  width:28px;height:28px;border-radius:6px;
+  background:var(--tag-bg);
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:700;color:var(--fg-muted);
+  overflow:hidden;flex-shrink:0;border:1px solid var(--border);
+}
+.company-logo img{width:100%;height:100%;object-fit:cover;padding:2px}
+.company-name a{color:var(--fg);text-decoration:none;font-weight:600;font-size:13px}
+.company-name a:hover{color:var(--link);text-decoration:underline}
+.yc-batch-tag{font-weight:400;font-size:11px;color:#888;margin-left:4px;white-space:nowrap}
+.dp-yc-tag{font-size:14px;color:#999;font-weight:400}
+
+/* Tags */
+.tag{
+  display:inline-flex;align-items:center;
+  font-size:11px;padding:2px 8px;border-radius:9999px;
+  background:var(--tag-bg);color:var(--tag-fg);
+  font-weight:500;white-space:nowrap;
+}
+
+/* Founder cell */
+.founder-cell{display:flex;flex-direction:column;gap:4px}
+.founder-row{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.founder-avatar{
+  width:20px;height:20px;border-radius:50%;
+  background:var(--tag-bg);display:flex;align-items:center;justify-content:center;
+  font-size:8px;font-weight:600;color:var(--fg-muted);overflow:hidden;
+  border:1px solid var(--border);flex-shrink:0;
+}
+.founder-avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;transition:opacity .15s}
+.founder-row a{color:var(--fg);font-weight:500;text-decoration:none;font-size:12px}
+.founder-row a:hover{text-decoration:underline;color:var(--link)}
+.founder-row .li-icon{width:12px;height:12px;fill:var(--fg-muted);flex-shrink:0;opacity:0.6}
+.founder-row .li-icon:hover{opacity:1}
+.li-icon{width:14px;height:14px;fill:var(--fg-muted);vertical-align:middle;flex-shrink:0}
+
+/* Connection badge */
+.connection-badge{
+  display:inline-flex;align-items:center;gap:3px;
+  font-size:10px;padding:2px 7px;border-radius:9999px;
+  background:var(--tag-bg);color:var(--tag-fg);white-space:nowrap;
+}
+
+/* Institution cell */
+.institution-cell{font-size:12px;color:var(--fg-secondary)}
+.institution-row{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.institution-icon{width:16px;height:16px;border-radius:3px;flex-shrink:0;object-fit:contain}
+.company-logo img.logo-fallback-hide{display:none}
+
+/* Empty state */
+.empty-state{padding:60px 24px;text-align:center;color:var(--fg-muted)}
+.empty-state p{font-size:14px}
+
+/* ═══ Detail Panel ═══ */
+.detail-overlay{
+  display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+  background:rgba(0,0,0,0.2);z-index:100;
+}
+.detail-overlay.open{display:block}
+@media(prefers-color-scheme:dark){
+  .detail-overlay{background:rgba(0,0,0,0.5)}
+}
+
+.detail-panel{
+  position:fixed;top:0;right:0;
+  width:min(480px, 100vw - 40px);height:100vh;
+  background:var(--bg);border-left:1px solid var(--border);
+  z-index:101;overflow-y:auto;
+  transform:translateX(100%);transition:transform .25s ease;
+  box-shadow:-4px 0 24px rgba(0,0,0,0.08);
+}
+.detail-panel.open{transform:translateX(0)}
+@media(prefers-color-scheme:dark){
+  .detail-panel{box-shadow:-4px 0 24px rgba(0,0,0,0.3)}
+}
+
+.dp-close{
+  position:absolute;top:12px;right:12px;
+  width:32px;height:32px;border-radius:6px;
+  display:flex;align-items:center;justify-content:center;
+  background:none;border:none;cursor:pointer;color:var(--fg-muted);
+  font-size:18px;transition:background .15s,color .15s;
+}
+.dp-close:hover{background:var(--tag-bg);color:var(--fg)}
+
+.dp-header{padding:24px 24px 16px;border-bottom:1px solid var(--border)}
+.dp-logo{
+  width:48px;height:48px;border-radius:10px;
+  background:var(--tag-bg);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:16px;font-weight:700;color:var(--fg-muted);overflow:hidden;
+  margin-bottom:12px;
+}
+.dp-logo img{width:100%;height:100%;object-fit:cover;padding:4px}
+.dp-company-name{font-size:20px;font-weight:700;color:var(--fg);margin-bottom:4px}
+.dp-company-name a{color:var(--fg);text-decoration:none}
+.dp-company-name a:hover{color:var(--link);text-decoration:underline}
+.dp-one-liner{font-size:14px;color:var(--fg-secondary);margin-bottom:12px;line-height:1.5}
+.dp-meta{display:flex;flex-wrap:wrap;gap:6px}
+.dp-meta-tag{
+  display:inline-block;padding:2px 8px;border-radius:9999px;
+  background:var(--tag-bg);color:var(--tag-fg);font-size:12px;
+  white-space:nowrap;
+}
+
+.dp-section{padding:16px 24px;border-bottom:1px solid var(--border)}
+.dp-section:last-child{border-bottom:none}
+.dp-section-title{
+  font-size:12px;font-weight:500;text-transform:uppercase;
+  letter-spacing:0.05em;color:var(--fg-muted);margin-bottom:12px;
+}
+
+.dp-founder{display:flex;align-items:flex-start;gap:12px;padding:10px 0}
+.dp-founder+.dp-founder{border-top:1px solid var(--border-light)}
+.dp-founder-avatar{
+  width:36px;height:36px;border-radius:50%;
+  background:var(--tag-bg);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:600;color:var(--fg-muted);
+  overflow:hidden;flex-shrink:0;
+}
+.dp-founder-avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;transition:opacity .15s}
+.dp-founder-info{flex:1;min-width:0}
+.dp-founder-name{font-size:14px;font-weight:600;color:var(--fg);display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.dp-founder-name a{color:var(--fg);text-decoration:none;white-space:nowrap}
+.dp-founder-name a:hover{color:var(--link);text-decoration:underline}
+.dp-founder-detail{font-size:12px;color:var(--fg-secondary);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dp-founder-badges{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+
+.dp-funding-table{width:100%;font-size:12px;border-collapse:collapse}
+.dp-funding-table th{
+  text-align:left;padding:6px 8px;font-size:11px;font-weight:500;
+  text-transform:uppercase;letter-spacing:0.03em;color:var(--fg-muted);
+  border-bottom:1px solid var(--border);
+}
+.dp-funding-table td{padding:6px 8px;border-bottom:1px solid var(--border-light);color:var(--fg)}
+.dp-funding-table th:nth-child(-n+4),.dp-funding-table td:nth-child(-n+4){white-space:nowrap}
+.dp-funding-table td:nth-child(5){max-width:180px;overflow:hidden;text-overflow:ellipsis}
+.dp-funding-table tbody tr:last-child td{border-bottom:none}
+.dp-empty{font-size:14px;color:var(--fg-muted);padding:16px 0;text-align:center}
+
+.dp-sources{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 0;align-items:center}
+.dp-source-link{
+  font-size:12px;color:var(--fg-muted);text-decoration:none;
+  display:inline-flex;align-items:center;gap:4px;white-space:nowrap;
+}
+.dp-source-link:hover{color:var(--link);text-decoration:underline}
+
+.dp-verified{
+  font-size:12px;color:var(--fg-muted);
+  display:flex;flex-direction:column;gap:3px;
+}
+.dp-verified-line{display:flex;align-items:center;gap:5px}
+.dp-verified-check{color:#4caf50}
+.dp-verified-detail{font-size:11px;color:var(--fg-muted);opacity:0.7;padding-left:18px}
+
+/* ── Footer ── */
+.footer{
+  padding:12px 24px;
+  border-top:1px solid var(--border);
+  font-size:12px;color:var(--fg-muted);
+  display:flex;align-items:flex-start;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;
+  flex-shrink:0;
+}
+.footer a{color:var(--fg-muted);text-decoration:none}
+.footer a:hover{color:var(--fg);text-decoration:underline}
+.footer-left{display:flex;flex-direction:column;gap:4px}
+.footer-right{display:flex;align-items:center;gap:12px}
+.footer-btn{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:12px;padding:4px 10px;
+  border:1px solid var(--border);border-radius:6px;
+  background:var(--bg);color:var(--fg-secondary);cursor:pointer;
+  transition:background .1s,color .1s;text-decoration:none;
+}
+.footer-btn:hover{background:var(--tag-bg);color:var(--fg);text-decoration:none}
+.footer-btn svg{width:14px;height:14px;fill:currentColor}
+
+/* ── Mobile ── */
+.mobile-toggle{
+  display:none;align-items:center;gap:4px;
+  font-size:13px;padding:5px 10px;
+  border:1px solid var(--input-border);border-radius:6px;
+  background:var(--bg);color:var(--fg-secondary);cursor:pointer;
+  white-space:nowrap;flex-shrink:0;
+}
+.close-sidebar{
+  display:none;position:absolute;top:16px;right:16px;
+  font-size:14px;background:none;border:none;cursor:pointer;color:var(--fg);
+}
+.hide-mobile{display:inline-flex}
+
+@media(max-width:767px){
+  /* Header: compact single row */
+  .header{padding:10px 12px}
+  .header-left{gap:8px}
+  .header-title{font-size:15px;line-height:1.15}
+  .header-subtitle{font-size:9.5px;line-height:1.2;margin-top:1px;opacity:0.75;
+    white-space:nowrap;overflow:hidden;max-width:62vw}
+  .header-subtitle .subtitle-track{
+    display:inline-flex;
+    animation:subtitle-marquee 18s linear infinite;
+    will-change:transform;
+  }
+  .header-subtitle .subtitle-copy{padding-right:3em}
+  .header-subtitle .subtitle-copy:last-child{display:inline}
+  @keyframes subtitle-marquee{
+    from{transform:translateX(0)}
+    to  {transform:translateX(-50%)}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .header-subtitle .subtitle-track{animation:none}
+    .header-subtitle .subtitle-copy:last-child{display:none}
+    .header-subtitle{text-overflow:ellipsis}
+  }
+  .header-right{gap:2px}
+  .icon-btn{width:28px;height:28px}
+  .icon-btn svg{width:16px;height:16px}
+  .hide-mobile{display:none !important}
+
+  /* Sidebar overlay */
+  .sidebar{display:none}
+  .mobile-toggle{display:flex !important}
+  .sidebar.open{
+    display:block;position:fixed;top:0;left:0;
+    width:100%;height:100%;z-index:100;
+    padding:20px 16px;padding-top:56px;background:var(--bg);
+  }
+  .sidebar.open .close-sidebar{display:block}
+
+  /* Search & controls: search full-width, filters+count row below */
+  .search-wrap{
+    padding:8px 12px;gap:6px;
+    flex-direction:column;
+  }
+  .search-box{max-width:100%}
+  .search-right{
+    display:flex;align-items:center;justify-content:space-between;width:100%;
+  }
+  .result-count{font-size:12px;color:var(--fg-muted)}
+
+  /* Table: tighter, lighter header */
+  .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
+  .company-table td{padding:7px 10px;font-size:12px}
+  .col-hide-mobile{display:none}
+
+  /* Detail panel & footer */
+  .detail-panel{width:100vw}
+  .footer{padding:12px 16px 40px;font-size:11px;flex-direction:column;gap:10px}
+  .footer-right{flex-wrap:wrap;gap:8px}
+  .footer-btn{font-size:11px;padding:3px 8px}
+  .footer-btn.download-btn{display:none}
+}
+
+/* Focus states */
+:focus-visible{outline:2px solid var(--link);outline-offset:2px;border-radius:2px}
+/* ── Accessibility: hidden labels ── */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style>
+</head>
+<body>
+
+<!-- ═══ Header ═══ -->
+<header class="header">
+  <div class="header-left">
+    <a href="index.html">
+      <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
+      <div>
+        <div class="header-title">The Dominion List</div>
+        <div class="header-subtitle"><span class="subtitle-track"><span class="subtitle-copy">The most influential Canadian founders building companies in America.</span><span class="subtitle-copy" aria-hidden="true">The most influential Canadian founders building companies in America.</span></span></div>
+      </div>
+    </a>
+  </div>
+  <div class="header-right">
+    <a class="icon-btn" href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new?template=submit-company.md" target="_blank" aria-label="Submit a company">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg>
+      <span class="tooltip" role="tooltip">Submit a company</span>
+    </a>
+    <a class="icon-btn hide-mobile" href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new?template=suggest-edit.md" target="_blank" aria-label="Suggest an edit">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="m5.433 13.917 1.262-3.155A4 4 0 0 1 7.58 9.42l6.92-6.918a2.121 2.121 0 0 1 3 3l-6.92 6.918c-.383.383-.84.685-1.343.886l-3.154 1.262a.5.5 0 0 1-.65-.65Z"/><path d="M3.5 5.75c0-.69.56-1.25 1.25-1.25H10A.75.75 0 0 0 10 3H4.75A2.75 2.75 0 0 0 2 5.75v9.5A2.75 2.75 0 0 0 4.75 18h9.5A2.75 2.75 0 0 0 17 15.25V10a.75.75 0 0 0-1.5 0v5.25c0 .69-.56 1.25-1.25 1.25h-9.5c-.69 0-1.25-.56-1.25-1.25v-9.5Z"/></svg>
+      <span class="tooltip" role="tooltip">Suggest an edit</span>
+    </a>
+  </div>
+</header>
+
+<!-- ═══ Layout ═══ -->
+<div class="layout">
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar" id="sidebar" aria-label="Filters">
+    <button class="close-sidebar" onclick="toggleMobileSidebar()">Close &#x2715;</button>
+
+    <div class="filter-panel-header">
+      <span class="filter-panel-title">Filters</span>
+      <button class="clear-all-btn" id="clearBtn" onclick="clearFilters()">Clear all</button>
+    </div>
+
+    <div class="filter-section" id="sectionStage">
+      <fieldset>
+        <legend onclick="toggleSection('sectionStage')">
+          <span>Stage</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterStage"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionHQ">
+      <fieldset>
+        <legend onclick="toggleSection('sectionHQ')">
+          <span>HQ</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterCity"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionConnection">
+      <fieldset>
+        <legend onclick="toggleSection('sectionConnection')">
+          <span>Connection Type</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterConnection"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionInstitution">
+      <fieldset>
+        <legend onclick="toggleSection('sectionInstitution')">
+          <span>Canadian Institution</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterInstitution"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionIndustry">
+      <fieldset>
+        <legend onclick="toggleSection('sectionIndustry')">
+          <span>Sector</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterIndustry"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionYear">
+      <fieldset>
+        <legend onclick="toggleSection('sectionYear')">
+          <span>Founding Year</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterYear"></div>
+      </fieldset>
+    </div>
+
+    <div class="filter-section" id="sectionBatch">
+      <fieldset>
+        <legend onclick="toggleSection('sectionBatch')">
+          <span>YC Batch</span>
+          <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
+        </legend>
+        <div class="filter-group" id="filterBatch"></div>
+      </fieldset>
+    </div>
+  </aside>
+
+  <!-- ── Content ── -->
+  <main class="content">
+    <div class="search-wrap">
+      <label for="searchBox" class="sr-only">Search companies</label>
+      <input type="text" class="search-box" id="searchBox" placeholder="Search companies, founders, institutions…" oninput="applyFilters()">
+      <div class="search-right">
+        <button class="mobile-toggle" onclick="toggleMobileSidebar()">
+          <svg viewBox="0 0 20 20" fill="currentColor" style="width:14px;height:14px"><path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm0 10.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 2 10Z" clip-rule="evenodd"/></svg>
+          Filters
+        </button>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+    </div>
+
+    <div class="company-list" id="tableScroll">
+      <table class="company-table">
+        <thead>
+          <tr>
+            <th style="width:40px;text-align:center;cursor:default">#</th>
+            <th onclick="sortBy('companyName')">Company <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('industry')">Sector <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('hqDisplay')" class="col-hide-mobile">HQ <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('foundingYear')" class="col-hide-mobile">Founded <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('stage')" class="col-hide-mobile">Stage <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('capitalRaisedUsd')" class="col-hide-mobile">Raised <span class="sort-arrow">&#x25B2;</span></th>
+            <th onclick="sortBy('valuationUsd')" class="col-hide-mobile">Valuation <span class="sort-arrow">&#x25B2;</span></th>
+            <th>Founders</th>
+            <th class="col-hide-mobile">Institution</th>
+          </tr>
+        </thead>
+        <tbody id="companyList"></tbody>
+      </table>
+    </div>
+
+    <div class="empty-state" id="emptyState" style="display:none">
+      <p>No companies match your filters.</p>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <div id="footerVersion">Dataset updated &middot; The Dominion List</div>
+        <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco &middot; <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a></div>
+      </div>
+      <div class="footer-right">
+        <a href="analytics.html" class="footer-btn" title="Analytics">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z"/></svg>
+          <span class="btn-label">Analytics</span>
+        </a>
+        <a href="methodology.html" class="footer-btn" title="Methodology">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd"/></svg>
+          <span class="btn-label">Methodology</span>
+        </a>
+        <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db" target="_blank" class="footer-btn" title="GitHub">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span class="btn-label">GitHub</span>
+        </a>
+        <button class="footer-btn download-btn" onclick="downloadJSON()" title="Download JSON">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z"/><path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z"/></svg>
+          <span class="btn-label">JSON</span>
+        </button>
+        <button class="footer-btn download-btn" onclick="downloadCSV()" title="Download CSV">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z"/><path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z"/></svg>
+          <span class="btn-label">CSV</span>
+        </button>
+      </div>
+    </footer>
+  </main>
+</div>
+
+<!-- ═══ Detail Panel ═══ -->
+<div class="detail-overlay" id="detailOverlay" onclick="closeDetail()"></div>
+<div class="detail-panel" id="detailPanel">
+  <button class="dp-close" onclick="closeDetail()" aria-label="Close">&times;</button>
+  <div id="detailContent"></div>
+</div>
+
+<script>
+/* ═══ State ═══ */
+let companies = [];
+let filtered = [];
+let selectedSlug = null;
+const activeFilters = { year: new Set(), city: new Set(), industry: new Set(), institution: new Set(), connection: new Set(), stage: new Set(), batch: new Set() };
+const expandedGroups = new Set(); /* tracks expanded parent groups: 'stage-Private', 'location-CA', etc. */
+
+/* ═══ Theme (follows system preference) ═══ */
+function isDark() {
+  return window.matchMedia('(prefers-color-scheme:dark)').matches;
+}
+
+/* ═══ Mobile sidebar ═══ */
+function toggleMobileSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+/* ═══ Collapsible sections ═══ */
+function toggleSection(id) {
+  document.getElementById(id).classList.toggle('collapsed');
+}
+
+/* ═══ Load data ═══ */
+let dbMeta = {};
+let investorAliasMap = {};
+async function loadData() {
+  try {
+    const [compRes, metaRes, aliasRes] = await Promise.all([
+      fetch('data/companies.json'),
+      fetch('data/metadata.json'),
+      fetch('data/investor-alias-map.json')
+    ]);
+    companies = await compRes.json();
+    dbMeta = await metaRes.json();
+    investorAliasMap = await aliasRes.json();
+    delete investorAliasMap._comment;
+  } catch { companies = []; dbMeta = {}; investorAliasMap = {}; }
+
+  /* Populate footer from metadata */
+  const fv = document.getElementById('footerVersion');
+  if (fv && dbMeta.last_updated_date_display) {
+    fv.textContent = 'Updated ' + dbMeta.last_updated_date_display
+      + (dbMeta.db_version ? ' \u00B7 The Dominion List ' + dbMeta.db_version : '');
+  }
+
+  /* Schema compatibility layer: canonical snake_case → UI camelCase */
+  companies.forEach(c => {
+    if (!c.companyName)    c.companyName    = c.name || '';
+    if (!c.companyWebsite) c.companyWebsite = c.website || '';
+    if (!c.hqCity)         c.hqCity         = c.hq_city || '';
+    if (!c.hqState)        c.hqState        = c.hq_region || '';
+    if (!c.hqCountry)      c.hqCountry      = c.hq_country || '';
+    if (!c.foundingYear)   c.foundingYear   = c.founding_year || null;
+    if (!c.companyStatus)  c.companyStatus  = c.status || 'Private';
+    if (!c.stage)          c.stage          = c.stage || 'Unknown';
+    if (!c.ycBatch)        c.ycBatch        = c.yc_batch || null;
+    if (!c.capitalRaisedUsd)     c.capitalRaisedUsd     = c.capital_raised_usd || null;
+    if (!c.capitalRaisedDisplay) c.capitalRaisedDisplay = c.capital_raised_display || '';
+    if (!c.ycSlug)         c.ycSlug         = (typeof c.id === 'number') ? slugify(c.name || c.companyName || '') : (c.id || '');
+    if (!c.iconUrl)        c.iconUrl        = c.icon_url || '';
+    /* Sources: pull from metadata.sources */
+    if (!c.sourceUrls && c.metadata && c.metadata.sources && c.metadata.sources.length) c.sourceUrls = c.metadata.sources;
+    if (!c.valuationSourceUrl && c.metadata && c.metadata.valuation_source_url) c.valuationSourceUrl = c.metadata.valuation_source_url;
+    if (!c.valuationSourceType && c.metadata && c.metadata.valuation_source) c.valuationSourceType = c.metadata.valuation_source;
+    if (!c.fundingRounds && c.funding_rounds) c.fundingRounds = c.funding_rounds;
+
+    (c.fundingRounds || c.funding_rounds || []).forEach(r => {
+      if (!r.stage)            r.stage            = r.round || r.round_name || r.stage || '';
+      if (!r.year && r.date)   r.year             = parseInt(r.date) || r.date;
+      if (!r.amountDisplay)    r.amountDisplay    = r.amount_display || (r.amount_usd ? ('$' + (r.amount_usd >= 1e9 ? (r.amount_usd / 1e9).toFixed(1) + 'B' : r.amount_usd >= 1e6 ? Math.round(r.amount_usd / 1e6) + 'M' : Math.round(r.amount_usd / 1e3) + 'K')) : '');
+      if (!r.leadInvestors)    r.leadInvestors    = r.lead_investors || r.investors || [];
+      if (!r.valuationDisplay) r.valuationDisplay = r.valuation_display || '';
+    });
+
+    /* Valuation: SINGLE SOURCE OF TRUTH — derive from the STRICT latest
+       funding event by date. If that event has a valuation, use it; otherwise
+       show no valuation. No walking backward to older rounds — the latest
+       event is the source of truth (e.g. an undisclosed acquisition wipes
+       any stale pre-acquisition number, bankruptcy/wind-down rounds with 0
+       supersede peak historical valuations, etc.).
+       Only fall back to metadata if there are zero funding rounds at all. */
+    const rounds = c.fundingRounds || c.funding_rounds || [];
+    const dateKey = r => r.date || (r.year ? String(r.year) : '');
+    const sortedRounds = [...rounds].sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
+    const latestRound = sortedRounds[0];
+    if (latestRound) {
+      const hasVal = latestRound.valuationDisplay || latestRound.valuation_display
+        || latestRound.valuation_usd != null;
+      if (hasVal) {
+        c.valuationDisplay = latestRound.valuationDisplay || latestRound.valuation_display || '';
+        c.valuationUsd = latestRound.valuation_usd != null ? latestRound.valuation_usd
+          : (latestRound.valuationUsd != null ? latestRound.valuationUsd : null);
+      } else {
+        c.valuationDisplay = '';
+        c.valuationUsd = null;
+      }
+    } else {
+      /* No funding rounds at all — fall back to metadata */
+      if (!c.valuationUsd && c.metadata && c.metadata.valuation_usd) c.valuationUsd = c.metadata.valuation_usd;
+      if (!c.valuationDisplay && c.metadata && c.metadata.valuation_display) c.valuationDisplay = c.metadata.valuation_display;
+    }
+
+    (c.founders || []).forEach(f => {
+      if (!f.canadianInstitution)    f.canadianInstitution    = f.canadian_institution || '';
+      if (!f.canadianConnectionType) f.canadianConnectionType = f.canadian_connection_type || '';
+      if (!f.canadianConnection)     f.canadianConnection     = f.canadian_connection_type || '';
+      if (!f.canadianCity)           f.canadianCity           = f.canadian_city || '';
+      if (!f.linkedinUrl)            f.linkedinUrl            = f.linkedin || f.linkedin_url || '';
+      if (!f.linkedin)               f.linkedin               = f.linkedinUrl || '';
+      if (!f.wikipediaUrl)           f.wikipediaUrl           = f.wikipedia_url || '';
+      if (!f.xUrl)                   f.xUrl                   = f.x_url || '';
+      if (f.canadian_institutions && f.canadian_institutions.length > 0 && !f.canadianInstitution) {
+        f.canadianInstitution = f.canadian_institutions[0];
+      }
+      /* Resolve photo URL: explicit photo_url > GitHub avatar > initials fallback.
+         unavatar.io removed — returned corrupted/garbled images for many handles. */
+      if (!f.photoUrl) {
+        if (f.photo_url) {
+          f.photoUrl = f.photo_url;
+        } else if (f.github_username) {
+          f.photoUrl = 'https://avatars.githubusercontent.com/' + f.github_username + '?s=200';
+        }
+        /* No more unavatar.io — was producing corrupted placeholder images */
+      }
+    });
+  });
+
+  /* Sector validation: only allow canonical sector names */
+  const VALID_SECTORS = new Set(['AI','Enterprise','Health','Fintech','Crypto','Consumer','Industrial']);
+  companies.forEach(c => {
+    if (c.industry && !VALID_SECTORS.has(c.industry)) {
+      console.warn('[DominionList] Unknown sector "' + c.industry + '" on company "' + (c.name || c.companyName) + '" — flagged for review');
+      c._sectorFlagged = true;
+    }
+  });
+
+  /* Compute display fields */
+  companies.forEach(c => {
+    c.hqDisplay = c.hqCity || c.hq_display || '';
+    const insts = [], seen = new Set();
+    (c.founders || []).forEach(f => {
+      const inst = (f.canadianInstitution || '').trim();
+      if (inst && !seen.has(inst)) { seen.add(inst); insts.push(inst); }
+    });
+    c._institutionDisplay = insts;
+    const conns = [], seenC = new Set();
+    (c.founders || []).forEach(f => {
+      const ct = (f.canadianConnectionType || '').trim();
+      if (ct && !seenC.has(ct)) { seenC.add(ct); conns.push(ct); }
+    });
+    c._connectionDisplay = conns;
+  });
+
+  buildFilters();
+  applyFilters();
+
+  /* Deep link */
+  const params = new URLSearchParams(window.location.search);
+  const co = params.get('company');
+  if (co) {
+    const match = companies.find(c => (c.ycSlug || slugify(c.companyName)) === co);
+    if (match) openDetail(match);
+  }
+}
+
+function slugify(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+/* ═══ Institution normalization ═══ */
+const INSTITUTION_ALIASES = {
+  /* Waterloo */ 'UWaterloo': 'University of Waterloo', 'Waterloo': 'University of Waterloo', 'U of Waterloo': 'University of Waterloo',
+  /* Toronto */ 'UofT': 'University of Toronto', 'U of T': 'University of Toronto', 'UToronto': 'University of Toronto', 'University of Toronto Scarborough': 'University of Toronto', 'University of Toronto (dropped out)': 'University of Toronto',
+  /* UBC */ 'UBC': 'University of British Columbia',
+  /* Queen's */ 'Queens': "Queen's University", "Queen's": "Queen's University", 'Queens University': "Queen's University",
+  /* Western */ 'Ivey Business School, Western University': 'Western University', 'Ivey Business School': 'Western University', 'Western University (UWO)': 'Western University',
+  /* York */ 'York University - Schulich School of Business': 'York University',
+  /* SFU */ 'SFU': 'Simon Fraser University',
+  /* UVic */ 'UVic': 'University of Victoria',
+  /* UdeM */ 'UdeM': 'Université de Montréal', 'MILA': 'Université de Montréal',
+  /* NAIT */ 'NAIT': 'Northern Alberta Institute of Technology',
+  /* OCAD */ 'OCAD': 'OCAD University',
+};
+function normalizeInstitution(name) { return INSTITUTION_ALIASES[name] || name; }
+
+/* Sidebar-only short labels for institution filter */
+const INSTITUTION_SHORT_LABELS = {
+  'University of Waterloo': 'Waterloo',
+  'University of Toronto': 'Toronto',
+  'McGill University': 'McGill',
+  'University of British Columbia': 'UBC',
+  "Queen's University": "Queen's",
+  'Western University': 'Western',
+  'University of Alberta': 'Alberta',
+  'University of Ottawa': 'Ottawa',
+  'McMaster University': 'McMaster',
+  'Carleton University': 'Carleton',
+  'Concordia University': 'Concordia',
+  'Wilfrid Laurier University': 'Laurier',
+  'York University': 'York',
+  'Simon Fraser University': 'SFU',
+  'University of Manitoba': 'Manitoba',
+  'University of Victoria': 'UVic',
+  'Université de Montréal': 'UdeM',
+  'University of Calgary': 'Calgary',
+  'University of Guelph': 'Guelph',
+  'Northern Alberta Institute of Technology': 'NAIT',
+  'OCAD University': 'OCAD',
+  'University of Saskatchewan': 'Saskatchewan',
+  'University of Regina': 'Regina',
+};
+function instShortLabel(canonical) { return INSTITUTION_SHORT_LABELS[canonical] || canonical; }
+
+/* Connection signal normalization: raw values → clean signal set */
+const CONNECTION_SIGNAL_MAP = {
+  'education':             ['Education'],
+  'birthplace':            ['Birthplace'],
+  'citizenship':           ['Citizenship'],
+  'birthplace_education':  ['Birthplace', 'Education'],
+  'education_citizenship': ['Education', 'Citizenship'],
+  /* Legacy raw values (defensive, should not appear after normalization) */
+  'educated':              ['Education'],
+  'born':                  ['Birthplace'],
+  'raised':                ['Birthplace'],
+  'born_and_raised':       ['Birthplace'],
+  'born_and_educated':     ['Birthplace', 'Education'],
+  'lived-worked':          ['Birthplace'],
+  'multiple':              ['Birthplace', 'Education'],
+};
+const CONNECTION_SIGNALS = ['Education', 'Birthplace', 'Citizenship'];
+function normalizeConnectionSignals(raw) {
+  return CONNECTION_SIGNAL_MAP[raw] || (raw ? [raw.charAt(0).toUpperCase() + raw.slice(1)] : []);
+}
+
+/* ═══ Build sidebar filters ═══ */
+
+/* Private sub-stages in fixed order */
+const PRIVATE_STAGES = ['Pre-Seed','Seed','Series A','Series B','Series C+','Growth'];
+const STAGE_ORDER = [...PRIVATE_STAGES, 'Public', 'Acquired', 'Inactive'];
+
+/* US state abbreviation → full name */
+const STATE_NAMES = {
+  'AL':'Alabama','AK':'Alaska','AZ':'Arizona','AR':'Arkansas','CA':'California',
+  'CO':'Colorado','CT':'Connecticut','DE':'Delaware','FL':'Florida','GA':'Georgia',
+  'HI':'Hawaii','ID':'Idaho','IL':'Illinois','IN':'Indiana','IA':'Iowa','KS':'Kansas',
+  'KY':'Kentucky','LA':'Louisiana','ME':'Maine','MD':'Maryland','MA':'Massachusetts',
+  'MI':'Michigan','MN':'Minnesota','MS':'Mississippi','MO':'Missouri','MT':'Montana',
+  'NE':'Nebraska','NV':'Nevada','NH':'New Hampshire','NJ':'New Jersey','NM':'New Mexico',
+  'NY':'New York','NC':'North Carolina','ND':'North Dakota','OH':'Ohio','OK':'Oklahoma',
+  'OR':'Oregon','PA':'Pennsylvania','RI':'Rhode Island','SC':'South Carolina',
+  'SD':'South Dakota','TN':'Tennessee','TX':'Texas','UT':'Utah','VT':'Vermont',
+  'VA':'Virginia','WA':'Washington','WV':'West Virginia','WI':'Wisconsin','WY':'Wyoming',
+  'DC':'District of Columbia','ON':'Ontario','BC':'British Columbia','QC':'Quebec','AB':'Alberta'
+};
+function stateName(abbr) { return STATE_NAMES[abbr] || abbr; }
+
+function buildFilters() {
+  computeAndRenderFilters();
+}
+
+function computeFilterCounts(sourceList) {
+  const maps = { year: new Map(), city: new Map(), state: new Map(), stateCity: new Map(), industry: new Map(), stage: new Map(), batch: new Map(), institution: new Map(), connection: new Map() };
+  sourceList.forEach(c => {
+    if (c.foundingYear)  maps.year.set(String(c.foundingYear), (maps.year.get(String(c.foundingYear)) || 0) + 1);
+    if (c.industry)      maps.industry.set(c.industry, (maps.industry.get(c.industry) || 0) + 1);
+    if (c.stage)         maps.stage.set(c.stage, (maps.stage.get(c.stage) || 0) + 1);
+    if (c.ycBatch)       maps.batch.set(c.ycBatch, (maps.batch.get(c.ycBatch) || 0) + 1);
+    /* Location: group by state */
+    const st = c.hqState || '';
+    const city = c.hqCity || '';
+    if (st) {
+      maps.state.set(st, (maps.state.get(st) || 0) + 1);
+      if (city) {
+        const key = st + '|' + city;
+        maps.stateCity.set(key, (maps.stateCity.get(key) || 0) + 1);
+      }
+    } else if (city) {
+      /* No state — group under city directly */
+      maps.state.set(city, (maps.state.get(city) || 0) + 1);
+    }
+    (c.founders || []).forEach(f => {
+      if (f.canadianInstitution) {
+        const norm = normalizeInstitution(f.canadianInstitution);
+        maps.institution.set(norm, (maps.institution.get(norm) || 0) + 1);
+      }
+      if (f.canadianConnectionType) {
+        normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
+          maps.connection.set(sig, (maps.connection.get(sig) || 0) + 1);
+        });
+      }
+    });
+  });
+  return maps;
+}
+
+/* Sort by descending count then alphabetical */
+function sortByCount(entries) {
+  return entries.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function computeAndRenderFilters() {
+  const source = filtered.length > 0 || Object.values(activeFilters).some(s => s.size) ? filtered : companies;
+  const maps = computeFilterCounts(source);
+
+  renderFlatGroup('filterIndustry', maps.industry, 'industry');
+  renderStageFilter('filterStage', maps.stage);
+  renderLocationFilter('filterCity', maps.state, maps.stateCity);
+  renderInstitutionFilter('filterInstitution', maps.institution);
+  renderConnectionFilter('filterConnection', maps.connection);
+  renderYearFilter('filterYear', maps.year);
+  renderBatchFilter('filterBatch', maps.batch);
+}
+
+/* ── Flat checkbox group (sector, institution, connection) ── */
+function renderFlatGroup(id, map, key) {
+  const el = document.getElementById(id);
+  let entries = sortByCount([...map.entries()]);
+  /* Preserve checked options with 0 count */
+  const existing = new Set(entries.map(e => e[0]));
+  activeFilters[key].forEach(val => { if (!existing.has(val)) entries.push([val, 0]); });
+
+  el.innerHTML = entries.map(([val, count]) => {
+    const checked = activeFilters[key].has(val) ? ' checked' : '';
+    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'' + key + '\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + val + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  }).join('');
+}
+
+/* ── Connection type filter: 3 clean signal-based options ── */
+function renderConnectionFilter(id, connMap) {
+  const el = document.getElementById(id);
+  el.innerHTML = CONNECTION_SIGNALS.map(sig => {
+    const count = connMap.get(sig) || 0;
+    const checked = activeFilters.connection.has(sig) ? ' checked' : '';
+    const escaped = sig.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'connection\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + sig + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  }).join('');
+}
+
+/* ── Institution filter: short labels + "Other institutions" bucket ── */
+function renderInstitutionFilter(id, instMap) {
+  const el = document.getElementById(id);
+  const chevronSvg = '<svg class="filter-parent-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>';
+  const MIN_COUNT = 2;
+
+  let entries = sortByCount([...instMap.entries()]);
+  /* Preserve checked options with 0 count */
+  const existing = new Set(entries.map(e => e[0]));
+  activeFilters.institution.forEach(val => { if (!existing.has(val)) entries.push([val, 0]); });
+  entries = sortByCount(entries);
+
+  const topLevel = entries.filter(([, count]) => count >= MIN_COUNT);
+  const otherItems = entries.filter(([, count]) => count < MIN_COUNT);
+  /* Sort others: desc count, then alpha by short label */
+  otherItems.sort((a, b) => b[1] - a[1] || instShortLabel(a[0]).localeCompare(instShortLabel(b[0])));
+
+  let html = '';
+  /* Top-level institutions */
+  topLevel.forEach(([val, count]) => {
+    const checked = activeFilters.institution.has(val) ? ' checked' : '';
+    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    html += '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'institution\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + instShortLabel(val) + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  });
+
+  /* "Other institutions" bucket */
+  if (otherItems.length > 0) {
+    const otherTotal = otherItems.reduce((s, e) => s + e[1], 0);
+    const groupKey = 'inst-other';
+    const isExpanded = expandedGroups.has(groupKey);
+    const expandedClass = isExpanded ? ' expanded' : '';
+
+    const otherCanonicals = otherItems.map(e => e[0]);
+    const childChecked = otherCanonicals.filter(v => activeFilters.institution.has(v));
+    const allChecked = childChecked.length === otherCanonicals.length && otherCanonicals.length > 0;
+    const someChecked = childChecked.length > 0 && !allChecked;
+    const parentChecked = allChecked ? ' checked' : '';
+
+    html += '<div class="filter-parent">'
+      + '<input type="checkbox" id="instOtherParent"' + parentChecked + ' onchange="toggleInstOtherParent(this.checked)">'
+      + '<span onclick="toggleGroupExpand(\'' + groupKey + '\')" style="display:inline-flex;align-items:center;cursor:pointer">'
+      + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
+      + '<span style="flex:1">Other institutions</span>'
+      + '<span class="filter-count">' + otherTotal + '</span>'
+      + '</div>';
+    html += '<div class="filter-children' + expandedClass + '">';
+    otherItems.forEach(([val, count]) => {
+      const checked = activeFilters.institution.has(val) ? ' checked' : '';
+      const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      html += '<label class="filter-item">'
+        + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleInstOtherChild(\'' + escaped + '\',this.checked)">'
+        + '<span>' + instShortLabel(val) + '</span>'
+        + '<span class="filter-count">' + count + '</span>'
+        + '</label>';
+    });
+    html += '</div>';
+
+    setTimeout(() => {
+      const cb = document.getElementById('instOtherParent');
+      if (cb) cb.indeterminate = someChecked;
+    }, 0);
+  }
+
+  el.innerHTML = html;
+}
+
+/* Other institutions parent/child toggle helpers */
+function toggleInstOtherParent(checked) {
+  /* Get current other items from the last computed filter counts */
+  const source = filtered.length > 0 || Object.values(activeFilters).some(s => s.size) ? filtered : companies;
+  const counts = new Map();
+  source.forEach(c => {
+    (c.founders || []).forEach(f => {
+      if (f.canadianInstitution) {
+        const norm = normalizeInstitution(f.canadianInstitution);
+        counts.set(norm, (counts.get(norm) || 0) + 1);
+      }
+    });
+  });
+  counts.forEach((count, inst) => {
+    if (count < 2) {
+      if (checked) activeFilters.institution.add(inst);
+      else activeFilters.institution.delete(inst);
+    }
+  });
+  /* Also handle checked items with 0 count in current filter */
+  activeFilters.institution.forEach(inst => {
+    if (!counts.has(inst) || counts.get(inst) < 2) {
+      if (!checked) activeFilters.institution.delete(inst);
+    }
+  });
+  applyFilters();
+}
+
+function toggleInstOtherChild(val, checked) {
+  if (checked) activeFilters.institution.add(val);
+  else activeFilters.institution.delete(val);
+  applyFilters();
+}
+
+/* ── Stage filter: hierarchical with Private parent ── */
+function renderStageFilter(id, stageMap) {
+  const el = document.getElementById(id);
+  const chevronSvg = '<svg class="filter-parent-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>';
+
+  /* Private group */
+  let privateCount = 0;
+  PRIVATE_STAGES.forEach(s => { privateCount += (stageMap.get(s) || 0); });
+  const isExpanded = expandedGroups.has('stage-Private');
+  const expandedClass = isExpanded ? ' expanded' : '';
+
+  /* Determine parent checkbox state */
+  const childChecked = PRIVATE_STAGES.filter(s => activeFilters.stage.has(s));
+  const allChecked = childChecked.length === PRIVATE_STAGES.length;
+  const someChecked = childChecked.length > 0 && !allChecked;
+  const parentChecked = allChecked ? ' checked' : '';
+
+  let html = '<div class="filter-parent" onclick="toggleStageParent(event)">'
+    + '<input type="checkbox" id="stagePrivateParent"' + parentChecked + ' onchange="togglePrivateParent(this.checked)">'
+    + '<span onclick="event.stopPropagation();toggleGroupExpand(\'stage-Private\')" style="display:inline-flex;align-items:center">'
+    + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
+    + '<span style="flex:1">Private</span>'
+    + '<span class="filter-count">' + privateCount + '</span>'
+    + '</div>';
+  html += '<div class="filter-children' + expandedClass + '">';
+  PRIVATE_STAGES.forEach(s => {
+    const count = stageMap.get(s) || 0;
+    const checked = activeFilters.stage.has(s) ? ' checked' : '';
+    const escaped = s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    html += '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleStageChild(\'' + escaped + '\',this.checked)">'
+      + '<span>' + s + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  });
+  html += '</div>';
+
+  /* Top-level stages: Public, Acquired, Inactive */
+  ['Public','Acquired','Inactive'].forEach(s => {
+    const count = stageMap.get(s) || 0;
+    const checked = activeFilters.stage.has(s) ? ' checked' : '';
+    const escaped = s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    html += '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'stage\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + s + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  });
+
+  el.innerHTML = html;
+
+  /* Set indeterminate state */
+  const parentCb = document.getElementById('stagePrivateParent');
+  if (parentCb) parentCb.indeterminate = someChecked;
+}
+
+function toggleStageParent(e) {
+  if (e.target.tagName === 'INPUT') return; /* let checkbox handle itself */
+}
+
+function togglePrivateParent(checked) {
+  PRIVATE_STAGES.forEach(s => {
+    if (checked) activeFilters.stage.add(s);
+    else activeFilters.stage.delete(s);
+  });
+  applyFilters();
+}
+
+function toggleStageChild(val, checked) {
+  if (checked) activeFilters.stage.add(val);
+  else activeFilters.stage.delete(val);
+  applyFilters();
+}
+
+/* ── Location filter: hierarchical state → city with "Other" grouping ── */
+function renderLocationFilter(id, stateMap, stateCityMap) {
+  const el = document.getElementById(id);
+  const chevronSvg = '<svg class="filter-parent-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>';
+  const MIN_STATE_COUNT = 2;
+
+  /* Sort states by count desc, then alpha */
+  const states = sortByCount([...stateMap.entries()]);
+
+  /* Partition into major (>=MIN_STATE_COUNT) and minor (<MIN_STATE_COUNT) */
+  const majorStates = [];
+  const minorStates = [];
+  states.forEach(([st, stCount]) => {
+    if (stCount >= MIN_STATE_COUNT) majorStates.push([st, stCount]);
+    else minorStates.push([st, stCount]);
+  });
+
+  let html = '';
+
+  /* Helper: render a normal state parent group */
+  function renderStateGroup(st, stCount) {
+    const cities = [];
+    stateCityMap.forEach((count, key) => {
+      const [s, city] = key.split('|');
+      if (s === st) cities.push([city, count]);
+    });
+    sortByCount(cities);
+
+    const groupKey = 'location-' + st;
+    const isExpanded = expandedGroups.has(groupKey);
+    const expandedClass = isExpanded ? ' expanded' : '';
+    const stLabel = stateName(st);
+
+    if (cities.length > 0) {
+      const cityValues = cities.map(c => st + ', ' + c[0]);
+      const childChecked = cityValues.filter(v => activeFilters.city.has(v));
+      const allChecked = childChecked.length === cityValues.length && cityValues.length > 0;
+      const someChecked = childChecked.length > 0 && !allChecked;
+      const parentChecked = allChecked ? ' checked' : '';
+      const escapedSt = st.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
+      html += '<div class="filter-parent">'
+        + '<input type="checkbox" id="loc-' + st + '"' + parentChecked + ' onchange="toggleStateParent(\'' + escapedSt + '\',this.checked)">'
+        + '<span onclick="toggleGroupExpand(\'' + groupKey + '\')" style="display:inline-flex;align-items:center;cursor:pointer">'
+        + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
+        + '<span style="flex:1">' + stLabel + '</span>'
+        + '<span class="filter-count">' + stCount + '</span>'
+        + '</div>';
+      html += '<div class="filter-children' + expandedClass + '">';
+      cities.forEach(([city, count]) => {
+        const val = st + ', ' + city;
+        const checked = activeFilters.city.has(val) ? ' checked' : '';
+        const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        html += '<label class="filter-item">'
+          + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleCityChild(\'' + escapedSt + '\',\'' + escaped + '\',this.checked)">'
+          + '<span>' + city + '</span>'
+          + '<span class="filter-count">' + count + '</span>'
+          + '</label>';
+      });
+      html += '</div>';
+
+      setTimeout(() => {
+        const cb = document.getElementById('loc-' + st);
+        if (cb) cb.indeterminate = someChecked;
+      }, 0);
+    } else {
+      const val = st;
+      const checked = activeFilters.city.has(val) ? ' checked' : '';
+      const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      html += '<label class="filter-item">'
+        + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'city\',\'' + escaped + '\',this.checked)">'
+        + '<span>' + stLabel + '</span>'
+        + '<span class="filter-count">' + stCount + '</span>'
+        + '</label>';
+    }
+  }
+
+  /* Render major states */
+  majorStates.forEach(([st, stCount]) => renderStateGroup(st, stCount));
+
+  /* Render "Other" group for minor states */
+  if (minorStates.length > 0) {
+    const otherCount = minorStates.reduce((sum, [, c]) => sum + c, 0);
+    const groupKey = 'location-__other__';
+    const isExpanded = expandedGroups.has(groupKey);
+    const expandedClass = isExpanded ? ' expanded' : '';
+
+    /* Collect all cities from minor states as "City, ST" entries */
+    const otherCities = [];
+    minorStates.forEach(([st]) => {
+      stateCityMap.forEach((count, key) => {
+        const [s, city] = key.split('|');
+        if (s === st) otherCities.push({ city, st, count, val: st + ', ' + city, label: city + ', ' + st });
+      });
+      /* If state has no city breakdown, treat state itself as entry */
+      const hasCities = [...stateCityMap.keys()].some(k => k.startsWith(st + '|'));
+      if (!hasCities) {
+        const cnt = stateMap.get(st) || 0;
+        otherCities.push({ city: stateName(st), st, count: cnt, val: st, label: stateName(st) + ', ' + st });
+      }
+    });
+    /* Sort by count desc, then label alpha */
+    otherCities.sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+
+    /* Parent checkbox state */
+    const otherValues = otherCities.map(c => c.val);
+    const otherChecked = otherValues.filter(v => activeFilters.city.has(v));
+    const allChecked = otherChecked.length === otherValues.length && otherValues.length > 0;
+    const someChecked = otherChecked.length > 0 && !allChecked;
+    const parentChecked = allChecked ? ' checked' : '';
+
+    html += '<div class="filter-parent">'
+      + '<input type="checkbox" id="loc-__other__"' + parentChecked + ' onchange="toggleOtherParent(this.checked)">'
+      + '<span onclick="toggleGroupExpand(\'' + groupKey + '\')" style="display:inline-flex;align-items:center;cursor:pointer">'
+      + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
+      + '<span style="flex:1">Other</span>'
+      + '<span class="filter-count">' + otherCount + '</span>'
+      + '</div>';
+    html += '<div class="filter-children' + expandedClass + '">';
+    otherCities.forEach(entry => {
+      const checked = activeFilters.city.has(entry.val) ? ' checked' : '';
+      const escaped = entry.val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      html += '<label class="filter-item">'
+        + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleOtherChild(\'' + escaped + '\',this.checked)">'
+        + '<span>' + entry.label + '</span>'
+        + '<span class="filter-count">' + entry.count + '</span>'
+        + '</label>';
+    });
+    html += '</div>';
+
+    setTimeout(() => {
+      const cb = document.getElementById('loc-__other__');
+      if (cb) cb.indeterminate = someChecked;
+    }, 0);
+  }
+
+  el.innerHTML = html;
+}
+
+function toggleStateParent(st, checked) {
+  /* Find all city values for this state */
+  const source = filtered.length > 0 || Object.values(activeFilters).some(s => s.size) ? filtered : companies;
+  const cities = new Set();
+  source.forEach(c => {
+    if (c.hqState === st && c.hqCity) cities.add(st + ', ' + c.hqCity);
+  });
+  cities.forEach(v => {
+    if (checked) activeFilters.city.add(v);
+    else activeFilters.city.delete(v);
+  });
+  applyFilters();
+}
+
+function toggleCityChild(st, val, checked) {
+  if (checked) activeFilters.city.add(val);
+  else activeFilters.city.delete(val);
+  applyFilters();
+}
+
+function toggleOtherParent(checked) {
+  /* Collect all minor-state city values by re-computing from current data */
+  const MIN_STATE_COUNT = 2;
+  const source = filtered.length > 0 || Object.values(activeFilters).some(s => s.size) ? filtered : companies;
+  const stateCount = {};
+  source.forEach(c => { if (c.hqState) stateCount[c.hqState] = (stateCount[c.hqState] || 0) + 1; });
+  const minorStates = new Set(Object.entries(stateCount).filter(([, c]) => c < MIN_STATE_COUNT).map(([s]) => s));
+  source.forEach(c => {
+    if (c.hqState && minorStates.has(c.hqState)) {
+      const val = c.hqCity ? c.hqState + ', ' + c.hqCity : c.hqState;
+      if (checked) activeFilters.city.add(val);
+      else activeFilters.city.delete(val);
+    }
+  });
+  applyFilters();
+}
+
+function toggleOtherChild(val, checked) {
+  if (checked) activeFilters.city.add(val);
+  else activeFilters.city.delete(val);
+  applyFilters();
+}
+
+/* ── Year filter: reverse chronological ── */
+function renderYearFilter(id, yearMap) {
+  const el = document.getElementById(id);
+  let entries = [...yearMap.entries()].sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
+  const existing = new Set(entries.map(e => e[0]));
+  activeFilters.year.forEach(val => { if (!existing.has(val)) entries.push([val, 0]); });
+
+  el.innerHTML = entries.map(([val, count]) => {
+    const checked = activeFilters.year.has(val) ? ' checked' : '';
+    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'year\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + val + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  }).join('');
+}
+
+/* ── YC Batch filter: reverse chronological (parse season+year) ── */
+/* Canonical format: L'YY where L ∈ {W,P,S,F}. Within a year: W(Jan) < P(Apr) < S(Jun) < F(Sep). */
+function batchSortKey(b) {
+  const m = b.match(/^([WPSF])'(\d{2})$/);
+  if (!m) return 0;
+  let year = parseInt(m[2]);
+  if (year < 50) year += 2000; else year += 1900;
+  /* Higher = more recent. F(3) > S(2) > P(1) > W(0) within same year */
+  const seasonOrder = { 'W': 0, 'P': 1, 'S': 2, 'F': 3 };
+  return year * 10 + (seasonOrder[m[1]] || 0);
+}
+
+function renderBatchFilter(id, batchMap) {
+  const el = document.getElementById(id);
+  let entries = [...batchMap.entries()].sort((a, b) => batchSortKey(b[0]) - batchSortKey(a[0]));
+  const existing = new Set(entries.map(e => e[0]));
+  activeFilters.batch.forEach(val => { if (!existing.has(val)) entries.push([val, 0]); });
+
+  el.innerHTML = entries.map(([val, count]) => {
+    const checked = activeFilters.batch.has(val) ? ' checked' : '';
+    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'batch\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + val + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
+  }).join('');
+}
+
+/* ── Shared filter helpers ── */
+function toggleGroupExpand(key) {
+  if (expandedGroups.has(key)) expandedGroups.delete(key);
+  else expandedGroups.add(key);
+  computeAndRenderFilters();
+}
+
+function toggleFilter(key, val, checked) {
+  if (checked) activeFilters[key].add(val);
+  else activeFilters[key].delete(val);
+  applyFilters();
+}
+
+function clearFilters() {
+  Object.values(activeFilters).forEach(s => s.clear());
+  document.getElementById('searchBox').value = '';
+  applyFilters();
+}
+
+/* ═══ Filter + Search ═══ */
+function applyFilters() {
+  const q = document.getElementById('searchBox').value.toLowerCase().trim();
+
+  filtered = companies.filter(c => {
+    if (q) {
+      const hay = [c.companyName, c.industry, c.hqDisplay, c.stage, c.ycBatch || '',
+        ...c.founders.map(f => f.name),
+        ...c.founders.map(f => f.canadianInstitution || ''),
+        ...c.founders.map(f => f.canadianConnectionType || '')
+      ].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (activeFilters.year.size && !activeFilters.year.has(String(c.foundingYear))) return false;
+    if (activeFilters.city.size) {
+      /* City values are stored as "STATE, City" — match against hqState+hqCity */
+      const cityMatch = [...activeFilters.city].some(v => {
+        const parts = v.split(', ');
+        if (parts.length === 2) return c.hqState === parts[0] && c.hqCity === parts[1];
+        return c.hqState === v || c.hqCity === v;
+      });
+      if (!cityMatch) return false;
+    }
+    if (activeFilters.industry.size && !activeFilters.industry.has(c.industry)) return false;
+    if (activeFilters.stage.size && !activeFilters.stage.has(c.stage)) return false;
+    if (activeFilters.batch.size && !activeFilters.batch.has(c.ycBatch || '')) return false;
+    if (activeFilters.institution.size) {
+      if (!c.founders.some(f => f.canadianInstitution && activeFilters.institution.has(normalizeInstitution(f.canadianInstitution)))) return false;
+    }
+    if (activeFilters.connection.size) {
+      if (!c.founders.some(f => {
+        const signals = normalizeConnectionSignals(f.canadianConnectionType);
+        return signals.some(sig => activeFilters.connection.has(sig));
+      })) return false;
+    }
+    return true;
+  });
+
+  const hasFilters = q || Object.values(activeFilters).some(s => s.size > 0);
+  document.getElementById('clearBtn').style.display = hasFilters ? 'inline' : 'none';
+
+  /* Update dynamic counts */
+  computeAndRenderFilters();
+
+  render();
+}
+
+/* ═══ Sort ═══ */
+let sortCol = 'valuationUsd';
+let sortAsc = false;
+
+function sortBy(col) {
+  if (sortCol === col) sortAsc = !sortAsc;
+  else { sortCol = col; sortAsc = true; }
+  document.querySelectorAll('.company-table th').forEach(th => th.classList.remove('sorted'));
+  applyFilters();
+}
+
+function sortFiltered() {
+  filtered.sort((a, b) => {
+    let va = a[sortCol], vb = b[sortCol];
+    if (va == null && vb == null) {
+      /* Secondary sort: when both lack the primary column,
+         sort by capitalRaisedUsd desc, then no-data last */
+      if (sortCol === 'valuationUsd' && !sortAsc) {
+        const ra = a.capitalRaisedUsd, rb = b.capitalRaisedUsd;
+        if (ra == null && rb == null) return 0;
+        if (ra == null) return 1;
+        if (rb == null) return -1;
+        return rb - ra;
+      }
+      return 0;
+    }
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    if (typeof va === 'string') va = va.toLowerCase();
+    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return 0;
+  });
+}
+
+/* ═══ Render ═══ */
+function getInitials(name) {
+  return name.split(/\s+/).map(w => w[0]).filter(Boolean).join('').slice(0, 2).toUpperCase();
+}
+
+/* Robust founder avatar image validation.
+   Handles: load failures, corrupted images, tiny placeholders, bad unavatar responses.
+   Called via onload/onerror attributes on founder avatar <img> tags. */
+function founderImgError(img) {
+  /* Replace image with initials fallback */
+  const fallback = img.getAttribute('data-fallback') || '?';
+  img.parentNode.textContent = fallback;
+}
+function founderImgLoad(img) {
+  /* Validate loaded image: reject tiny/corrupted placeholders */
+  const w = img.naturalWidth, h = img.naturalHeight;
+  if (w < 10 || h < 10) { founderImgError(img); return; }
+  /* Reject 1x1 tracking pixels or obvious non-portraits */
+  if (w === 1 && h === 1) { founderImgError(img); return; }
+  /* Passed validation — show the image */
+  img.style.opacity = '1';
+}
+
+function getDomain(url) {
+  try { return new URL(url).hostname.replace('www.', ''); } catch { return ''; }
+}
+
+/* Normalize investor name → canonical short alias, deduplicate a list */
+function normalizeInvestor(name) {
+  if (!name) return name;
+  if (investorAliasMap[name]) return investorAliasMap[name];
+  /* Fallback: strip common suffixes */
+  return name.replace(/\s+(Venture Partners|Ventures|Capital|Partners|Management|Fund)$/i, '').trim() || name;
+}
+function normalizeInvestorList(list) {
+  if (!list || !list.length) return [];
+  const seen = new Set();
+  return list.map(normalizeInvestor).filter(n => {
+    if (seen.has(n)) return false;
+    seen.add(n);
+    return true;
+  });
+}
+
+/* Truncate long investor lists: show first N, then "+X more" */
+function formatInvestors(list, max) {
+  if (!list || !list.length) return '\u2014';
+  const normed = normalizeInvestorList(list);
+  max = max || 2;
+  if (normed.length <= max) return normed.join(', ');
+  const shown = normed.slice(0, max).join(', ');
+  const rest = normed.length - max;
+  return shown + ' <span style="color:var(--fg-muted);white-space:nowrap">+' + rest + ' more</span>';
+}
+
+const liSvg = '<svg class="li-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>';
+const wikiSvg = '<svg class="li-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.09 13.119c-.936 1.932-2.217 4.548-2.853 5.728-.616 1.074-1.127.931-1.532.029-1.406-3.321-4.293-9.144-5.651-12.409-.251-.601-.441-.987-.619-1.139-.181-.15-.554-.264-1.122-.343C.103 4.96 0 4.823 0 4.66V4.2c0-.163.026-.27.16-.27.498 0 1.593.038 2.357.038.94 0 1.762-.038 2.47-.038.134 0 .16.107.16.27v.461c0 .163-.079.297-.29.322-.634.075-.975.183-.975.477 0 .203.065.442.222.796l3.832 8.131 1.723-3.532-1.478-3.1C7.584 6.456 7.142 5.58 6.845 5.191c-.218-.287-.583-.426-1.104-.513-.227-.038-.33-.172-.33-.347V3.87c0-.163.053-.27.188-.27.514 0 1.343.038 1.927.038.682 0 1.478-.038 2.07-.038.134 0 .16.107.16.27v.461c0 .175-.079.309-.265.335-.476.066-.674.187-.674.442 0 .176.09.428.29.82l.983 1.93 1.017-1.974c.215-.422.335-.716.335-.923 0-.289-.279-.441-.811-.518-.196-.029-.314-.164-.314-.339V3.87c0-.163.08-.27.214-.27.492 0 1.22.038 1.584.038.755 0 1.41-.038 1.955-.038.134 0 .185.107.185.27v.461c0 .175-.107.283-.361.322-.469.073-.84.306-1.15.7-.597.765-1.593 2.877-2.128 3.97l1.6 3.298 3.654-7.965c.186-.411.276-.697.276-.878 0-.268-.276-.4-.807-.477-.214-.031-.322-.171-.322-.346V3.87c0-.163.027-.27.161-.27.458 0 1.25.038 1.724.038.727 0 1.371-.038 1.855-.038.134 0 .16.107.16.27v.461c0 .175-.08.297-.263.322-.537.076-.889.319-1.182.86C19.245 8.27 16.186 14.358 14.504 17.841c-.396.817-.863.966-1.394.066-.555-.942-1.835-3.556-2.02-4.788z"/></svg>';
+const xSvg = '<svg class="li-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+
+/* Build founder profile icons: Wikipedia → LinkedIn → X */
+function founderIcons(f, stopProp) {
+  const sp = stopProp ? ' onclick="event.stopPropagation()"' : '';
+  let html = '';
+  if (f.wikipediaUrl) html += '<a href="' + f.wikipediaUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="Wikipedia">' + wikiSvg + '</a>';
+  if (f.linkedinUrl) html += '<a href="' + f.linkedinUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="LinkedIn">' + liSvg + '</a>';
+  if (f.xUrl) html += '<a href="' + f.xUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="X">' + xSvg + '</a>';
+  return html;
+}
+
+const gradCapSvg = '<svg class="institution-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--fg-muted)"><path d="m2 10 10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>';
+
+const uniDomains = {
+  'University of Toronto': 'utoronto.ca', 'University of Waterloo': 'uwaterloo.ca',
+  'McGill University': 'mcgill.ca', 'University of British Columbia': 'ubc.ca',
+  'University of Alberta': 'ualberta.ca', 'University of Calgary': 'ucalgary.ca',
+  'University of Victoria': 'uvic.ca', "Queen's University": 'queensu.ca',
+  'Western University': 'uwo.ca', 'Simon Fraser University': 'sfu.ca',
+  'University of Ottawa': 'uottawa.ca', 'Dalhousie University': 'dal.ca',
+  'Concordia University': 'concordia.ca', "Universit\u00e9 de Montr\u00e9al": 'umontreal.ca',
+  'York University': 'yorku.ca', 'Carleton University': 'carleton.ca',
+  'McMaster University': 'mcmaster.ca', 'Ryerson University': 'torontomu.ca',
+  'Wilfrid Laurier University': 'wlu.ca', 'Trinity College School': 'tcs.on.ca',
+  'Vector Institute': 'vectorinstitute.ai',
+};
+
+function render() {
+  const list = document.getElementById('companyList');
+  const empty = document.getElementById('emptyState');
+  const count = document.getElementById('resultCount');
+
+  sortFiltered();
+  count.textContent = filtered.length + ' of ' + companies.length + ' companies';
+
+  if (filtered.length === 0) {
+    list.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  /* Build valuation rank map — dense ranking: ties share a rank, no gaps */
+  const ranked = [...companies].filter(c => c.valuationUsd != null).sort((a, b) => b.valuationUsd - a.valuationUsd);
+  const rankMap = new Map();
+  let currentRank = 0;
+  ranked.forEach((c, i) => {
+    if (i === 0 || c.valuationUsd !== ranked[i - 1].valuationUsd) {
+      currentRank++;
+    }
+    rankMap.set(c.companyName, currentRank);
+  });
+
+  list.innerHTML = filtered.map(c => {
+    const domain = getDomain(c.companyWebsite);
+    const initials = getInitials(c.companyName);
+    const logo = c.iconUrl
+      ? '<img src="' + c.iconUrl + '" alt="' + c.companyName + '" data-fallback="' + initials + '">'
+      : domain
+        ? '<img src="https://www.google.com/s2/favicons?sz=128&domain=' + domain + '" alt="' + c.companyName + '" data-fallback="' + initials + '">'
+        : initials;
+
+    const ycTag = c.ycBatch ? ' <span class="yc-batch-tag">(YC ' + c.ycBatch + ')</span>' : '';
+    const companyLink = c.companyWebsite
+      ? '<span class="company-name"><a href="' + c.companyWebsite + '" target="_blank" onclick="event.stopPropagation()">' + c.companyName + '</a>' + ycTag + '</span>'
+      : '<span class="company-name">' + c.companyName + ycTag + '</span>';
+
+    const rank = rankMap.get(c.companyName) || '\u2014';
+
+    const founders = c.founders.map(f => {
+      const fInit = getInitials(f.name);
+      const avatar = f.photoUrl
+        ? '<img src="' + f.photoUrl + '" alt="' + f.name + '" data-fallback="' + fInit.replace(/"/g, '&quot;') + '" style="opacity:0" onload="founderImgLoad(this)" onerror="founderImgError(this)" loading="lazy">'
+        : fInit;
+      const nameLink = f.linkedinUrl
+        ? '<a href="' + f.linkedinUrl + '" target="_blank" onclick="event.stopPropagation()">' + f.name + '</a>'
+        : '<span>' + f.name + '</span>';
+      const icons = founderIcons(f, true);
+      return '<div class="founder-row"><span class="founder-avatar">' + avatar + '</span>' + nameLink + icons + '</div>';
+    }).join('');
+
+    /* Institution display */
+    const institutions = (c._institutionDisplay || []).map(inst => {
+      const uniDomain = uniDomains[inst];
+      const icon = uniDomain
+        ? '<img class="institution-icon" src="https://www.google.com/s2/favicons?domain=' + uniDomain + '&sz=32" alt="" onerror="this.outerHTML=gradCapSvg">'
+        : gradCapSvg;
+      return '<div class="institution-row">' + icon + ' ' + inst + '</div>';
+    }).join('') || '<div class="institution-row">\u2014</div>';
+
+    const valDisplay = c.valuationDisplay || '\u2014';
+    const valLink = c.valuationSourceUrl
+      ? '<a href="' + c.valuationSourceUrl + '" target="_blank" style="color:var(--fg);text-decoration:none" title="Source: ' + (c.valuationSourceType || 'N/A') + '" onclick="event.stopPropagation()">' + valDisplay + '</a>'
+      : valDisplay;
+
+    const hqDisplay = c.hqDisplay || '\u2014';
+    const founded = c.foundingYear || '\u2014';
+    const stage = c.stage || 'Unknown';
+    const slug = c.ycSlug || slugify(c.companyName);
+    const isActive = selectedSlug === slug ? ' row-active' : '';
+
+    return '<tr data-slug="' + slug + '" class="' + isActive + '" onclick="openDetailBySlug(\'' + slug + '\')" tabindex="0" onkeydown="if(event.key===\'Enter\')openDetailBySlug(\'' + slug + '\')">'
+      + '<td style="text-align:center;color:var(--fg-muted);font-size:12px;font-variant-numeric:tabular-nums">' + rank + '</td>'
+      + '<td><div class="cell-company"><div class="company-logo">' + logo + '</div><div>' + companyLink + '</div></div></td>'
+      + '<td><span class="tag">' + (c.industry || '\u2014') + '</span></td>'
+      + '<td class="col-hide-mobile" style="white-space:nowrap">' + hqDisplay + '</td>'
+      + '<td class="col-hide-mobile">' + founded + '</td>'
+      + '<td class="col-hide-mobile"><span class="tag">' + stage + '</span></td>'
+      + '<td class="col-hide-mobile" style="font-variant-numeric:tabular-nums;white-space:nowrap">' + (c.capitalRaisedDisplay || '\u2014') + '</td>'
+      + '<td class="col-hide-mobile" style="font-variant-numeric:tabular-nums;white-space:nowrap">' + valLink + '</td>'
+      + '<td><div class="founder-cell">' + founders + '</div></td>'
+      + '<td class="col-hide-mobile institution-cell">' + institutions + '</td>'
+      + '</tr>';
+  }).join('');
+
+  setTimeout(fixLogos, 200);
+}
+
+/* Fix logo images that fail to load */
+function fixLogos() {
+  document.querySelectorAll('.company-logo img[data-fallback]').forEach(img => {
+    if (img.complete && img.naturalWidth === 0) {
+      replaceFallback(img);
+    } else {
+      img.onerror = () => replaceFallback(img);
+    }
+  });
+}
+function replaceFallback(img) {
+  const fallback = img.getAttribute('data-fallback') || '?';
+  const span = document.createElement('span');
+  span.style.cssText = 'display:flex;width:100%;height:100%;align-items:center;justify-content:center';
+  span.textContent = fallback;
+  img.parentElement.replaceChild(span, img);
+}
+
+/* ═══ Detail Panel ═══ */
+function openDetailBySlug(slug) {
+  const c = companies.find(x => (x.ycSlug || slugify(x.companyName)) === slug);
+  if (c) openDetail(c);
+}
+
+function openDetail(c) {
+  const slug = c.ycSlug || slugify(c.companyName);
+  selectedSlug = slug;
+
+  const url = new URL(window.location);
+  url.searchParams.set('company', slug);
+  history.replaceState(null, '', url);
+
+  document.querySelectorAll('.company-table tbody tr').forEach(tr => {
+    tr.classList.toggle('row-active', tr.dataset.slug === slug);
+  });
+
+  const domain = getDomain(c.companyWebsite);
+  const initials = getInitials(c.companyName);
+  const logo = c.iconUrl
+    ? '<img src="' + c.iconUrl + '" alt="' + c.companyName + '" onerror="this.style.display=\'none\'">'
+    : domain
+      ? '<img src="https://www.google.com/s2/favicons?sz=128&domain=' + domain + '" alt="' + c.companyName + '" onerror="this.style.display=\'none\'">'
+      : '<span style="font-size:16px;font-weight:700;color:var(--fg-muted)">' + initials + '</span>';
+
+  /* ── Top metadata tiles: strict set, fixed order ── */
+  /* 1. Founded  2. HQ  3. Stage  4. Sector — nothing else */
+  const metaTags = [];
+  if (c.foundingYear) metaTags.push('<span class="dp-meta-tag">Founded in ' + c.foundingYear + '</span>');
+  if (c.hqDisplay) metaTags.push('<span class="dp-meta-tag">' + c.hqDisplay + '</span>');
+  if (c.stage) metaTags.push('<span class="dp-meta-tag">' + c.stage + '</span>');
+  if (c.industry) metaTags.push('<span class="dp-meta-tag">' + c.industry + '</span>');
+
+  const foundersHtml = (c.founders || []).map(f => {
+    const fInitials = getInitials(f.name);
+    const fAvatar = f.photoUrl
+      ? '<img src="' + f.photoUrl + '" alt="' + f.name + '" data-fallback="' + fInitials.replace(/"/g, '&quot;') + '" style="opacity:0" onload="founderImgLoad(this)" onerror="founderImgError(this)" loading="lazy">'
+      : fInitials;
+    const nameHtml = f.linkedinUrl
+      ? '<a href="' + f.linkedinUrl + '" target="_blank">' + f.name + '</a>'
+      : f.name;
+    const details = [];
+    if (f.canadianInstitution) details.push(f.canadianInstitution);
+    const badges = [];
+    if (f.canadianConnectionType) {
+      normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
+        badges.push('<span class="dp-meta-tag" style="font-size:11px">' + sig + '</span>');
+      });
+    }
+
+    return '<div class="dp-founder"><div class="dp-founder-avatar">' + fAvatar + '</div>'
+      + '<div class="dp-founder-info">'
+      + '<div class="dp-founder-name">' + nameHtml + ' ' + founderIcons(f, false) + '</div>'
+      + (details.length ? '<div class="dp-founder-detail">' + details.join(' \u00B7 ') + '</div>' : '')
+      + (badges.length ? '<div class="dp-founder-badges">' + badges.join('') + '</div>' : '')
+      + '</div></div>';
+  }).join('');
+
+  const rounds = c.fundingRounds || c.funding_rounds || [];
+  let fundingHtml = '';
+  const fundingSources = [];
+  if (rounds.length > 0) {
+    const stageOrder = s => /^market\s*cap$/i.test(s) ? 2 : /^ipo$/i.test(s) ? 1 : 0;
+    const dateKey = r => r.date || (r.year ? String(r.year) : '');
+    const sorted = rounds.sort((a, b) => dateKey(b).localeCompare(dateKey(a)) || stageOrder(b.stage || '') - stageOrder(a.stage || ''));
+    sorted.forEach(r => {
+      const src = r.sourceUrl || r.source_url;
+      if (src) fundingSources.push(src);
+    });
+    const rows = sorted.map(r => {
+      return '<tr>'
+        + '<td>' + (r.year || r.date || '\u2014') + '</td>'
+        + '<td>' + (r.stage || 'Unknown') + '</td>'
+        + '<td style="font-variant-numeric:tabular-nums">' + (r.amountDisplay || r.amount_display || '\u2014') + '</td>'
+        + '<td style="font-variant-numeric:tabular-nums">' + (r.valuationDisplay || r.valuation_display || '\u2014') + '</td>'
+        + '<td>' + formatInvestors(r.leadInvestors || r.lead_investors || []) + '</td>'
+        + '</tr>';
+    }).join('');
+    fundingHtml = '<table class="dp-funding-table"><thead><tr><th>Year</th><th>Round</th><th>Amount</th><th>Valuation</th><th>Lead</th></tr></thead><tbody>' + rows + '</tbody></table>';
+  } else {
+    fundingHtml = '<div class="dp-empty">No public funding history found</div>';
+  }
+
+  /* Collect all sources: company-level + valuation source + funding round sources */
+  const compSources = [...(c.sourceUrls || [])];
+  if (c.valuationSourceUrl) compSources.push(c.valuationSourceUrl);
+  const allSources = [...new Set([...compSources, ...fundingSources])].filter(Boolean);
+  /* Deduplicate sources by domain — keep first URL per domain */
+  const seenDomains = new Set();
+  const dedupedSources = allSources.filter(u => {
+    const d = getDomain(u);
+    if (!d || seenDomains.has(d)) return false;
+    seenDomains.add(d);
+    return true;
+  });
+  const sourcesHtml = dedupedSources.length > 0
+    ? '<div class="dp-sources">' + dedupedSources.map(u => '<a class="dp-source-link" href="' + u + '" target="_blank">' + getDomain(u) + '</a>').join(' \u00B7 ') + '</div>'
+    : '';
+
+  const desc = c.description || c.oneLiner || '';
+
+  let html = '<div class="dp-header">'
+    + '<div class="dp-logo">' + logo + '</div>'
+    + '<div class="dp-company-name">' + (c.companyWebsite ? '<a href="' + c.companyWebsite + '" target="_blank">' + c.companyName + '</a>' : c.companyName) + (c.ycBatch ? ' <span class="yc-batch-tag dp-yc-tag">(YC ' + c.ycBatch + ')</span>' : '') + '</div>'
+    + (desc ? '<div class="dp-one-liner">' + desc + '</div>' : '')
+    + '<div class="dp-meta">' + metaTags.join('') + '</div>'
+    + '</div>'
+    + (foundersHtml ? '<div class="dp-section"><div class="dp-section-title">Founders</div>' + foundersHtml + '</div>' : '')
+    + '<div class="dp-section"><div class="dp-section-title">Funding History</div>' + fundingHtml + '</div>'
+    + (sourcesHtml ? '<div class="dp-section"><div class="dp-section-title">Sources</div>' + sourcesHtml + '</div>' : '');
+
+  /* Verification section — uses global dbMeta timestamp (single source of truth) */
+  const verifiedTs = dbMeta.last_updated_datetime_display || '';
+  if (verifiedTs) {
+    const srcCount = dedupedSources.length;
+    const srcLine = srcCount > 0
+      ? '<div class="dp-verified-detail">Verified from ' + srcCount + ' source' + (srcCount !== 1 ? 's' : '') + '</div>'
+      : '';
+    html += '<div class="dp-section"><div class="dp-section-title">Verification</div>'
+      + '<div class="dp-verified"><div class="dp-verified-line"><span class="dp-verified-check">&#10003;</span> Verified \u00B7 ' + verifiedTs + '</div>' + srcLine + '</div>'
+      + '</div>';
+  }
+
+  document.getElementById('detailContent').innerHTML = html;
+  document.getElementById('detailOverlay').classList.add('open');
+  document.getElementById('detailPanel').classList.add('open');
+}
+
+function closeDetail() {
+  selectedSlug = null;
+  document.getElementById('detailOverlay').classList.remove('open');
+  document.getElementById('detailPanel').classList.remove('open');
+  document.querySelectorAll('.company-table tbody tr.row-active').forEach(tr => tr.classList.remove('row-active'));
+  const url = new URL(window.location);
+  url.searchParams.delete('company');
+  history.replaceState(null, '', url);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && selectedSlug) closeDetail();
+});
+
+/* ═══ Downloads ═══ */
+function downloadJSON() {
+  const blob = new Blob([JSON.stringify(companies, null, 2)], { type: 'application/json' });
+  downloadBlob(blob, 'dominion-list.json');
+}
+
+function downloadCSV() {
+  const headers = ['companyName','companyWebsite','hqCity','hqState','foundingYear','industry','stage','companyStatus','capitalRaisedUsd','capitalRaisedDisplay','valuationUsd','valuationDisplay','valuationAsOfDate','ycBatch','verificationStatus','founderName','founderLinkedIn','canadianConnectionType','canadianInstitution','canadianCity'];
+  const rows = [];
+  companies.forEach(c => {
+    c.founders.forEach(f => {
+      rows.push([c.companyName, c.companyWebsite, c.hqCity, c.hqState, c.foundingYear, c.industry, c.stage, c.companyStatus || '', c.capitalRaisedUsd || '', c.capitalRaisedDisplay || '', c.valuationUsd || '', c.valuationDisplay || '', c.valuationAsOfDate || '', c.ycBatch || '', c.verificationStatus || '', f.name, f.linkedinUrl || '', f.canadianConnectionType || '', f.canadianInstitution || '', f.canadianCity || ''].map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(','));
+    });
+  });
+  const csv = headers.join(',') + '\n' + rows.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  downloadBlob(blob, 'dominion-list.csv');
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+/* ═══ Animated orb (VCEMDB: teal + amber on near-black) ═══ */
+(function initOrb() {
+  const canvas = document.getElementById('orbLogo');
+  if (!canvas) return;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = 28 * dpr;
+  canvas.height = 28 * dpr;
+  const ctx = canvas.getContext('2d');
+  const size = 28 * dpr;
+  const BG = [8, 6, 8];
+  const C1 = [220, 25, 25];    /* red */
+  const C2 = [245, 238, 232];  /* white */
+  const GA = 0.85;
+  const DS = 0.0014;
+  const W = 0.70;
+  let last = 0;
+  const interval = 1000 / 12; /* ~12fps */
+
+  function sR(t, s) {
+    return Math.sin(t*0.8+s)*0.35 + Math.sin(t*1.4+s*2.3)*0.28 + Math.sin(t*0.45+s*4.1)*0.22 + Math.sin(t*2.3+s*0.7)*0.15;
+  }
+  function ss(e0, e1, x) {
+    const t = Math.max(0, Math.min(1, (x-e0)/(e1-e0)));
+    return t*t*(3-2*t);
+  }
+  function draw(ts) {
+    requestAnimationFrame(draw);
+    if (ts - last < interval) return;
+    last = ts;
+    const t = ts * DS;
+    const r = size/2;
+    const img = ctx.createImageData(size, size);
+    const d = img.data;
+    const bA = t*0.6 + Math.sin(t*0.31)*0.8 + Math.sin(t*0.17+2)*0.5;
+    const mC = Math.sin(t*0.23+1.4)*0.5 + Math.sin(t*0.11+3.7)*0.3 + Math.sin(t*0.41)*0.2;
+    const mG = Math.max(0, (mC-0.65)/0.35);
+    const sep = Math.PI*(1-mG*0.85);
+    const d1 = r*W*(0.65+Math.sin(t*0.43+0.5)*0.25+Math.sin(t*0.71+3.2)*0.10);
+    const d2 = r*W*(0.60+Math.sin(t*0.37+2.1)*0.25+Math.sin(t*0.83+5)*0.15);
+    const a1 = bA+Math.sin(t*0.53+1)*0.3, a2 = bA+sep+Math.sin(t*0.47+4)*0.3;
+    const ox1=r+Math.cos(a1)*d1, oy1=r+Math.sin(a1)*d1;
+    const ox2=r+Math.cos(a2)*d2, oy2=r+Math.sin(a2)*d2;
+    const r1=r*(0.62+sR(t,5)*0.06), r2=r*(0.58+sR(t,6.3)*0.06);
+    for(let y=0;y<size;y++){for(let x=0;x<size;x++){
+      const i=(y*size+x)*4;
+      const dx0=x-r,dy0=y-r,dfc=Math.sqrt(dx0*dx0+dy0*dy0);
+      const cm=1-ss(r-1.5*dpr,r+0.5*dpr,dfc);
+      if(cm<=0){d[i]=d[i+1]=d[i+2]=0;d[i+3]=0;continue;}
+      const ex1=x-ox1,ey1=y-oy1,dd1=Math.sqrt(ex1*ex1+ey1*ey1);
+      const ex2=x-ox2,ey2=y-oy2,dd2=Math.sqrt(ex2*ex2+ey2*ey2);
+      const i1=Math.exp(-(dd1*dd1)/(2*r1*r1))*GA;
+      const i2=Math.exp(-(dd2*dd2)/(2*r2*r2))*GA;
+      d[i]=Math.min(255,BG[0]+C1[0]*i1+C2[0]*i2)|0;
+      d[i+1]=Math.min(255,BG[1]+C1[1]*i1+C2[1]*i2)|0;
+      d[i+2]=Math.min(255,BG[2]+C1[2]*i1+C2[2]*i2)|0;
+      d[i+3]=(cm*255)|0;
+    }}
+    ctx.putImageData(img,0,0);
+  }
+  requestAnimationFrame(draw);
+})();
+
+/* ═══ Init ═══ */
+loadData();
+</script>
+</body>
+</html>

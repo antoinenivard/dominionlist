@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology · The Dominion List</title>
+<meta name="description" content="How companies are included, verified, and maintained in The Dominion List — a database of the most influential Canadian founders building companies in America.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23111'/></svg>">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;
+  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;
+  --border:#e5e7eb;--accent:#dc2626;--link:#2563eb;--link-h:#1d4ed8;
+  --bar-ai:#4f6df5;
+  --radius:6px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;
+  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;
+  --border:#1f2937;--accent:#ef4444;--link:#60a5fa;--link-h:#93bbfd;
+  --bar-ai:#6d8afb;
+}}
+html{font-family:var(--font);font-size:15px;line-height:1.65;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
+body{min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decoration:underline}
+
+/* Header */
+.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:var(--bg);padding:12px 24px;gap:16px;flex-wrap:wrap}
+.header-left{display:flex;align-items:center;gap:12px}
+.header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
+.header-left a:hover{color:var(--fg2);text-decoration:none}
+.header-title{font-size:18px;font-weight:600;letter-spacing:-0.3px}
+.header-subtitle{font-size:12px;color:var(--fg3);margin-top:1px}
+.header-right{display:flex;align-items:center;gap:2px}
+
+/* Page content */
+.page{max-width:720px;margin:0 auto;padding:48px 28px 80px;flex:1}
+.page h2{font-size:22px;font-weight:700;letter-spacing:-0.3px;margin-bottom:8px;margin-top:48px}
+.page h2:first-child{margin-top:0}
+.page h3{font-size:16px;font-weight:600;margin-top:28px;margin-bottom:6px}
+.page p{color:var(--fg2);margin-bottom:14px}
+.page ul{list-style:none;padding:0;margin-bottom:14px}
+.page li{position:relative;padding-left:20px;margin-bottom:6px;color:var(--fg2)}
+.page li::before{content:"•";position:absolute;left:4px;color:var(--accent);font-weight:bold}
+.page code{background:var(--bg-muted);padding:2px 6px;border-radius:3px;font-size:13px}
+.page .example-box{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;margin:16px 0}
+.page .example-box .label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;color:var(--fg3);margin-bottom:6px}
+.page .example-box .company{font-weight:600;color:var(--fg)}
+.page .example-box .detail{font-size:13px;color:var(--fg2)}
+.badge-yes{display:inline-block;background:#dcfce7;color:#166534;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600}
+.badge-no{display:inline-block;background:#fee2e2;color:#991b1b;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600}
+@media(prefers-color-scheme:dark){
+.badge-yes{background:#14532d;color:#86efac}
+.badge-no{background:#450a0a;color:#fca5a5}
+}
+.divider{border:none;border-top:1px solid var(--border);margin:40px 0}
+.schema-table{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:13px}
+.schema-table th{text-align:left;font-weight:600;color:var(--fg);padding:8px 12px;border-bottom:2px solid var(--border);font-size:12px;text-transform:uppercase;letter-spacing:0.3px}
+.schema-table td{padding:8px 12px;border-bottom:1px solid var(--border);color:var(--fg2);vertical-align:top}
+.schema-table td:first-child{font-family:SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--fg);white-space:nowrap}
+.tag{display:inline-block;background:var(--bg-muted);border:1px solid var(--border);padding:2px 8px;border-radius:10px;font-size:12px;color:var(--fg2);margin:2px 2px}
+
+/* Footer */
+.footer{padding:12px 24px;border-top:1px solid var(--border);font-size:12px;color:var(--fg3);display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;flex-shrink:0}
+.footer a{color:var(--fg3);text-decoration:none}
+.footer a:hover{color:var(--fg);text-decoration:underline}
+.footer-left{display:flex;flex-direction:column;gap:4px}
+.footer-right{display:flex;align-items:center;gap:12px}
+.footer-btn{display:inline-flex;align-items:center;gap:4px;font-size:12px;padding:4px 10px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--fg3);cursor:pointer;transition:background .1s,color .1s;text-decoration:none}
+.footer-btn:hover{background:var(--bg-muted);color:var(--fg);text-decoration:none}
+.footer-btn svg{width:14px;height:14px;fill:currentColor}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-left">
+    <a href="index.html">
+      <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
+      <div>
+        <div class="header-title">The Dominion List</div>
+        <div class="header-subtitle">Methodology</div>
+      </div>
+    </a>
+  </div>
+  <div class="header-right"></div>
+</header>
+
+<main class="page">
+
+  <h2>Methodology</h2>
+  <p>The Dominion List is an open-source database of US-incorporated companies founded or co-founded by people with significant Canadian roots. It tracks <strong id="methCount">430</strong> companies that have collectively raised <strong id="methRaised">$347B</strong> in venture capital. This page documents how the database is built, maintained, and verified.</p>
+
+  <hr class="divider">
+
+  <h2>Inclusion Criteria</h2>
+  <p>A company qualifies for The Dominion List if it meets all of the following conditions:</p>
+
+  <h3>Founder connection</h3>
+  <p>At least one founder or co-founder must have a meaningful Canadian connection, defined as one of the following:</p>
+  <ul>
+    <li><strong>Birthplace</strong> — born in Canada or raised there through formative years</li>
+    <li><strong>Education</strong> — attended a Canadian university, college, or secondary school</li>
+    <li><strong>Citizenship</strong> — Canadian citizen or permanent resident</li>
+    <li><strong>Birthplace + Education</strong> — born in Canada and educated at a Canadian institution</li>
+    <li><strong>Education + Citizenship</strong> — educated in Canada and holds Canadian citizenship</li>
+  </ul>
+  <p>Brief visits, conference attendance, or short-term work stints do not qualify. The connection must be substantive enough to have shaped the founder's trajectory.</p>
+
+  <h3>Company requirements</h3>
+  <ul>
+    <li>Must be incorporated or headquartered in the United States</li>
+    <li>Must have raised venture capital, achieved meaningful revenue scale, or reached a significant valuation</li>
+    <li>Must be a technology company or venture-backed startup — traditional businesses, franchises, and lifestyle businesses are excluded</li>
+  </ul>
+
+  <hr class="divider">
+
+  <h2>Examples</h2>
+
+  <div class="example-box">
+    <div class="label"><span class="badge-yes">Qualifies</span></div>
+    <div class="company">Databricks</div>
+    <div class="detail">Co-founder Reynold Xin holds a degree from the University of Toronto. The company is headquartered in San Francisco.</div>
+  </div>
+
+  <div class="example-box">
+    <div class="label"><span class="badge-yes">Qualifies</span></div>
+    <div class="company">Uber</div>
+    <div class="detail">Co-founder Garrett Camp was born in Calgary, Alberta and earned degrees from the University of Calgary. Headquartered in San Francisco.</div>
+  </div>
+
+  <div class="example-box">
+    <div class="label"><span class="badge-no">Does not qualify</span></div>
+    <div class="company">Shopify</div>
+    <div class="detail">Although founded by a Canadian-raised entrepreneur, Shopify is headquartered in Ottawa, Canada — not in the United States.</div>
+  </div>
+
+  <hr class="divider">
+
+  <h2>Taxonomy</h2>
+
+  <h3>Industry categories</h3>
+  <p>Each company is assigned one primary industry:</p>
+  <div style="margin-bottom:14px">
+    <span class="tag">AI</span>
+    <span class="tag">Consumer</span>
+    <span class="tag">Crypto</span>
+    <span class="tag">Enterprise</span>
+    <span class="tag">Fintech</span>
+    <span class="tag">Health</span>
+    <span class="tag">Industrial</span>
+  </div>
+
+  <h3>Company stages</h3>
+  <p>Stages reflect the most recent known funding round or company status:</p>
+  <div style="margin-bottom:14px">
+    <span class="tag">Pre-Seed</span>
+    <span class="tag">Seed</span>
+    <span class="tag">Series A</span>
+    <span class="tag">Series B</span>
+    <span class="tag">Series C</span>
+    <span class="tag">Series C+</span>
+    <span class="tag">Growth</span>
+    <span class="tag">Private</span>
+    <span class="tag">Private (PE)</span>
+    <span class="tag">Public</span>
+    <span class="tag">Acquired</span>
+  </div>
+
+  <h3>Canadian institutions</h3>
+  <p>The database tracks 29 Canadian institutions, including universities, colleges, and select secondary schools. The most represented are:</p>
+  <div style="margin-bottom:14px">
+    <span class="tag">University of Toronto</span>
+    <span class="tag">University of Waterloo</span>
+    <span class="tag">McGill University</span>
+    <span class="tag">University of British Columbia</span>
+    <span class="tag">Queen's University</span>
+    <span class="tag">Western University</span>
+    <span class="tag">Université de Montréal</span>
+    <span class="tag">University of Alberta</span>
+    <span class="tag">Simon Fraser University</span>
+  </div>
+  <p>Other tracked institutions include Carleton, Concordia, McMaster, University of Calgary, University of Ottawa, Wilfrid Laurier, York, and select feeder schools like Upper Canada College, St. George's School, and Shawnigan Lake School.</p>
+
+  <hr class="divider">
+
+  <h2>Data Pipeline</h2>
+  <p>The database is built through a multi-stage process combining manual research, automated enrichment, and cross-referencing against external data sources.</p>
+
+  <h3>1. Discovery</h3>
+  <p>Companies are identified through founder network research, venture capital database screening, university alumni records, community submissions via GitHub, and cross-referencing with public datasets such as the CVCA (Canadian Venture Capital Association) and Y Combinator alumni lists.</p>
+
+  <h3>2. Verification</h3>
+  <p>Each company's Canadian founder connection is verified against public sources: professional profiles, university alumni records, Wikipedia biographies, press coverage, and corporate filings. Companies remain unverified until the Canadian connection can be confirmed through at least one reliable source.</p>
+
+  <h3>3. Enrichment</h3>
+  <p>Once verified, each entry is enriched with structured data:</p>
+  <ul>
+    <li><strong>Funding history</strong> — full round-by-round data sourced from venture databases, SEC filings, and press releases. Round types are normalized to a standard taxonomy (Seed, Series A–G, Growth, etc.) and exit events (IPO, Acquisition, SPAC) are tagged separately.</li>
+    <li><strong>Valuations</strong> — post-money valuations from funding rounds where disclosed. Public companies use market capitalization as of the most recent data point.</li>
+    <li><strong>Founder profiles</strong> — professional profile URLs, X/Twitter handles, Wikipedia links, biographical summaries, and headshot images sourced from company websites and public profiles.</li>
+    <li><strong>Institutional mapping</strong> — each founder's Canadian institution(s) are mapped to their city for geographic analysis (e.g., University of Waterloo and Wilfrid Laurier both map to Waterloo, ON).</li>
+  </ul>
+
+  <h3>4. Normalization</h3>
+  <p>Funding amounts are standardized to USD. Canadian-dollar figures (primarily from CVCA data used in comparative analytics) are converted at Bank of Canada annual average exchange rates. Round types are normalized from source-specific labels (e.g., "Venture Round - Series B" becomes "Series B"). Amounts are deduplicated to avoid double-counting when multiple sources report the same round.</p>
+
+  <h3>5. Ongoing maintenance</h3>
+  <p>The database is updated continuously as new rounds close, companies are acquired or go public, and new qualifying startups are discovered. Version history and update dates are tracked in metadata.</p>
+
+  <hr class="divider">
+
+  <h2>Data Schema</h2>
+  <p>Each company in <code>data/companies.json</code> is a structured object. Key fields:</p>
+
+  <h3>Company fields</h3>
+  <table class="schema-table">
+    <tr><th>Field</th><th>Description</th></tr>
+    <tr><td>name</td><td>Official company name</td></tr>
+    <tr><td>website</td><td>Primary company URL</td></tr>
+    <tr><td>description</td><td>One-line company description</td></tr>
+    <tr><td>hq_city, hq_region</td><td>US headquarters (city and state)</td></tr>
+    <tr><td>founding_year</td><td>Year the company was founded</td></tr>
+    <tr><td>industry</td><td>Primary industry category</td></tr>
+    <tr><td>stage</td><td>Current company stage</td></tr>
+    <tr><td>status</td><td>Active, Public, Acquired, Inactive, or Defunct</td></tr>
+    <tr><td>yc_batch</td><td>Y Combinator batch, if applicable</td></tr>
+    <tr><td>capital_raised_usd</td><td>Total capital raised in USD (computed)</td></tr>
+  </table>
+
+  <h3>Founder fields</h3>
+  <table class="schema-table">
+    <tr><th>Field</th><th>Description</th></tr>
+    <tr><td>name</td><td>Full name</td></tr>
+    <tr><td>role</td><td>Title (e.g., Co-Founder & CEO)</td></tr>
+    <tr><td>linkedin</td><td>LinkedIn profile URL</td></tr>
+    <tr><td>x_url</td><td>X / Twitter profile URL</td></tr>
+    <tr><td>wikipedia_url</td><td>Wikipedia page, if notable</td></tr>
+    <tr><td>bio</td><td>Brief biographical summary</td></tr>
+    <tr><td>canadian_connection_type</td><td>birthplace, education, citizenship, or compound</td></tr>
+    <tr><td>canadian_institution</td><td>Primary Canadian institution</td></tr>
+    <tr><td>canadian_institutions</td><td>Array of all Canadian institutions attended</td></tr>
+  </table>
+
+  <h3>Funding round fields</h3>
+  <table class="schema-table">
+    <tr><th>Field</th><th>Description</th></tr>
+    <tr><td>date</td><td>Round close date (YYYY-MM-DD)</td></tr>
+    <tr><td>round</td><td>Normalized round type (Seed, Series A, etc.)</td></tr>
+    <tr><td>amount_usd</td><td>Amount raised in USD</td></tr>
+    <tr><td>valuation_usd</td><td>Post-money valuation, if known</td></tr>
+    <tr><td>lead_investors</td><td>Array of lead investor names</td></tr>
+    <tr><td>other_investors</td><td>Array of participating investors</td></tr>
+    <tr><td>source_urls</td><td>Array of source URLs for the round</td></tr>
+  </table>
+
+  <hr class="divider">
+
+  <h2>Analytics Methodology</h2>
+  <p>The <a href="analytics.html">Analytics</a> page presents several computed views of the data. Key methodological notes:</p>
+  <ul>
+    <li><strong>Combined value</strong> uses the best available valuation for each company: last funding round post-money valuation for private companies, market capitalization for public companies. This is a point-in-time estimate, not a sum of capital raised.</li>
+    <li><strong>Capital raised</strong> sums all venture funding rounds. Exit events (IPO proceeds, acquisition prices) and post-IPO rounds are excluded from the total.</li>
+    <li><strong>US vs. Canada comparisons</strong> (the "gap is widening" and "more capital, fewer companies" charts) use CVCA Market Overview data for the Canadian side and Dominion List data for the US side. The comparison window is 2010–2025. CVCA 2025 figures are linear estimates based on Q3 YTD data. All amounts are in USD, with CVCA figures converted at Bank of Canada annual average FX rates.</li>
+    <li><strong>The "Dominion 5"</strong> (OpenAI, Anthropic, xAI, Tesla, SpaceX) are flagged separately in deal-size analysis because their scale distorts averages. Analytics show both inclusive and exclusive views.</li>
+    <li><strong>Institution-to-city mapping</strong> in the Sankey diagram maps each institution to its physical city (e.g., University of Waterloo and Wilfrid Laurier both appear as "Waterloo").</li>
+  </ul>
+
+  <hr class="divider">
+
+  <h2>Data Quality</h2>
+  <p>Each entry carries implicit quality signals based on how it was sourced and verified.</p>
+
+  <h3>Verification status</h3>
+  <p>A company is considered <em>verified</em> when its Canadian founder connection has been confirmed against at least one independent public source. As of the latest update, <strong id="methVerified">375</strong> of <strong id="methCount2">430</strong> entries are verified. Unverified entries remain in the database but should be treated with appropriate caution.</p>
+
+  <h3>Valuation confidence</h3>
+  <p>Valuations are tagged with a confidence level where available:</p>
+  <ul>
+    <li><strong>High</strong> — public market capitalization or disclosed acquisition price</li>
+    <li><strong>Medium</strong> — post-money valuation from a reported funding round with a credible source</li>
+    <li><strong>Low / None</strong> — estimated from round size, comparable companies, or undisclosed. The majority of private companies fall into this category</li>
+  </ul>
+  <p>The <code>valuation_confidence</code> field in each company's metadata object reflects this tier. Aggregated valuation figures (like combined enterprise value) should be understood as order-of-magnitude estimates, not precise sums.</p>
+
+  <hr class="divider">
+
+  <h2>Limitations &amp; Known Biases</h2>
+  <ul>
+    <li><strong>Coverage is not exhaustive.</strong> The database captures companies discoverable through public records, founder networks, and community submissions. Stealth-mode companies and founders who don't publicly identify their Canadian roots are likely underrepresented.</li>
+    <li><strong>VC-funding bias.</strong> Inclusion requires venture capital, significant revenue, or meaningful valuation. This systematically excludes bootstrapped companies, even successful ones, and skews the dataset toward the venture-backed ecosystem.</li>
+    <li><strong>Geographic skew.</strong> Discovery methods favor companies in major tech hubs (San Francisco, New York, Seattle). Canadian founders building companies in smaller US cities may be underrepresented.</li>
+    <li><strong>Recency bias.</strong> Post-2010 companies are better covered than earlier ones. Companies founded before 2000 are likely underrepresented, particularly those that were acquired or shut down before the current era of public startup databases.</li>
+    <li><strong>Valuation data is incomplete.</strong> Valuations are available for a subset of companies. Private company valuations are based on last known funding rounds and may not reflect current fair market value.</li>
+    <li><strong>Industry classification is subjective.</strong> Many companies span multiple sectors. Each is assigned a single primary industry based on its core product and revenue model.</li>
+    <li><strong>Founding year ambiguity.</strong> Some companies report different founding dates across sources. The database uses the earliest credible date.</li>
+    <li><strong>Survivorship bias in analytics.</strong> The analytics page reflects companies that have raised capital and reached some scale. It does not capture the full universe of Canadian-founded US startups, many of which failed before reaching visibility.</li>
+  </ul>
+
+  <hr class="divider">
+
+  <h2>Changelog</h2>
+  <p>Major changes to the database are tracked here. For granular history, see the <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/commits/main">commit log</a>.</p>
+  <table class="schema-table">
+    <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
+    <tr><td>v0.9.3</td><td>Apr 2026</td><td>430 companies. Added Granite Systems, Kealia. Updated market caps for public companies. Full methodology page rewrite.</td></tr>
+    <tr><td>v0.9.2</td><td>Mar 2026</td><td>428 companies. Added analytics page with 7 interactive charts. Normalized all funding round types. Added CVCA comparison data.</td></tr>
+    <tr><td>v0.9.1</td><td>Mar 2026</td><td>415 companies. Added founder bios, X/Twitter handles, Wikipedia links. Expanded institutional mapping to 29 schools.</td></tr>
+    <tr><td>v0.9.0</td><td>Feb 2026</td><td>Initial public release. 400 companies with core schema: funding rounds, valuations, founder connections, industry taxonomy.</td></tr>
+  </table>
+
+  <hr class="divider">
+
+  <h2>Contributing</h2>
+  <p>The Dominion List is open source. You can contribute by:</p>
+  <ul>
+    <li>Submitting a new company via <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new">GitHub issue</a></li>
+    <li>Suggesting corrections or updates via <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/issues/new">GitHub issue</a></li>
+    <li>Opening a pull request directly against <code>data/companies.json</code></li>
+  </ul>
+  <p>All submissions require at least one public source confirming the Canadian founder connection.</p>
+
+  <hr class="divider">
+
+  <h2>Citation</h2>
+  <p>If you use The Dominion List in research, journalism, or analysis, please cite it as:</p>
+  <div class="example-box">
+    <div class="detail" style="font-family:SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.6">Nivard, A. (2026). <em>The Dominion List: A Database of Canadian-Founded US Technology Companies.</em> Available at <a href="https://cfddb.vercel.app">cfddb.vercel.app</a>. Source: <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db">github.com/antoinenivard/canadian-founder-diaspora-db</a>.</div>
+  </div>
+
+  <hr class="divider">
+
+  <h2>License</h2>
+  <p>The source code for this project is released under the <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a>. The dataset (<code>data/companies.json</code> and related data files) is released under the same license. Both are free to use, modify, and redistribute with attribution.</p>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-left">
+    <div id="footerVersion">Updated · The Dominion List</div>
+    <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/canadian-founder-diaspora-db/blob/main/LICENSE">MIT License</a></div>
+  </div>
+  <div class="footer-right">
+    <a href="index.html" class="footer-btn">← Database</a>
+    <a href="analytics.html" class="footer-btn">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z"/></svg>
+      Analytics
+    </a>
+  </div>
+</footer>
+
+<script>
+/* ═══ Footer version from metadata ═══ */
+fetch('data/metadata.json').then(function(r){return r.json()}).then(function(m){
+  var fv=document.getElementById('footerVersion');
+  if(fv&&m.last_updated_date_display) fv.textContent='Updated '+m.last_updated_date_display+(m.db_version?' · The Dominion List '+m.db_version:'');
+}).catch(function(){});
+
+/* ═══ Live stats from companies.json ═══ */
+fetch('data/companies.json').then(function(r){return r.json()}).then(function(companies){
+  var n=companies.length;
+  var raised=0, verified=0;
+  companies.forEach(function(c){
+    raised+=(c.capital_raised_usd||0);
+    if(c.metadata&&c.metadata.last_verified) verified++;
+  });
+  var raisedStr=raised>=1e12?'$'+(raised/1e12).toFixed(1)+'T':'$'+Math.round(raised/1e9)+'B';
+  var els={methCount:n,methCount2:n,methRaised:raisedStr,methVerified:verified};
+  Object.keys(els).forEach(function(id){
+    var el=document.getElementById(id);
+    if(el) el.textContent=els[id];
+  });
+}).catch(function(){});
+
+/* ═══ Orb Logo ═══ */
+(function(){
+  const canvas = document.getElementById('orbLogo');
+  if (!canvas) return;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = 28 * dpr;
+  canvas.height = 28 * dpr;
+  const ctx = canvas.getContext('2d');
+  const size = 28 * dpr;
+  const BG = [8, 6, 8];
+  const C1 = [220, 25, 25];
+  const C2 = [245, 238, 232];
+  const GA = 0.85;
+  const DS = 0.0014;
+  const W = 0.70;
+  let last = 0;
+  const interval = 1000 / 12;
+
+  function sR(t, s) {
+    return Math.sin(t*0.8+s)*0.35 + Math.sin(t*1.4+s*2.3)*0.28 + Math.sin(t*0.45+s*4.1)*0.22 + Math.sin(t*2.3+s*0.7)*0.15;
+  }
+  function ss(e0, e1, x) {
+    const t = Math.max(0, Math.min(1, (x-e0)/(e1-e0)));
+    return t*t*(3-2*t);
+  }
+  function draw(ts) {
+    requestAnimationFrame(draw);
+    if (ts - last < interval) return;
+    last = ts;
+    const t = ts * DS;
+    const r = size/2;
+    const img = ctx.createImageData(size, size);
+    const d = img.data;
+    const bA = t*0.6 + Math.sin(t*0.31)*0.8 + Math.sin(t*0.17+2)*0.5;
+    const mC = Math.sin(t*0.23+1.4)*0.5 + Math.sin(t*0.11+3.7)*0.3 + Math.sin(t*0.41)*0.2;
+    const mG = Math.max(0, (mC-0.65)/0.35);
+    const sep = Math.PI*(1-mG*0.85);
+    const d1 = r*W*(0.65+Math.sin(t*0.43+0.5)*0.25+Math.sin(t*0.71+3.2)*0.10);
+    const d2 = r*W*(0.60+Math.sin(t*0.37+2.1)*0.25+Math.sin(t*0.83+5)*0.15);
+    const a1 = bA+Math.sin(t*0.53+1)*0.3, a2 = bA+sep+Math.sin(t*0.47+4)*0.3;
+    const ox1=r+Math.cos(a1)*d1, oy1=r+Math.sin(a1)*d1;
+    const ox2=r+Math.cos(a2)*d2, oy2=r+Math.sin(a2)*d2;
+    const r1=r*(0.62+sR(t,5)*0.06), r2=r*(0.58+sR(t,6.3)*0.06);
+    for(let y=0;y<size;y++){for(let x=0;x<size;x++){
+      const i=(y*size+x)*4;
+      const dx0=x-r,dy0=y-r,dfc=Math.sqrt(dx0*dx0+dy0*dy0);
+      const cm=1-ss(r-1.5*dpr,r+0.5*dpr,dfc);
+      if(cm<=0){d[i]=d[i+1]=d[i+2]=0;d[i+3]=0;continue;}
+      const ex1=x-ox1,ey1=y-oy1,dd1=Math.sqrt(ex1*ex1+ey1*ey1);
+      const ex2=x-ox2,ey2=y-oy2,dd2=Math.sqrt(ex2*ex2+ey2*ey2);
+      const i1=Math.exp(-(dd1*dd1)/(2*r1*r1))*GA;
+      const i2=Math.exp(-(dd2*dd2)/(2*r2*r2))*GA;
+      d[i]=Math.min(255,BG[0]+C1[0]*i1+C2[0]*i2)|0;
+      d[i+1]=Math.min(255,BG[1]+C1[1]*i1+C2[1]*i2)|0;
+      d[i+2]=Math.min(255,BG[2]+C1[2]*i1+C2[2]*i2)|0;
+      d[i+3]=(cm*255)|0;
+    }}
+    ctx.putImageData(img,0,0);
+  }
+  requestAnimationFrame(draw);
+})();
+</script>
+
+</body>
+</html>
