@@ -14909,7 +14909,8 @@
     ],
     "capital_raised_usd": 43000000,
     "capital_raised_display": "$43M",
-    "institution_display": "University of Toronto, Université de Montréal, University of British Columbia"
+    "institution_display": "University of Toronto, Université de Montréal, University of British Columbia",
+    "icon_url": "https://kindred.ai/favicon.ico"
   },
   {
     "id": 304,
