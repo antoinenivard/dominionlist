@@ -37060,5 +37060,75 @@
     "capital_raised_usd": 0,
     "capital_raised_display": "$0",
     "founder_display": "Yasser Elsaid"
+  },
+  {
+    "id": 397,
+    "name": "Meroka",
+    "website": "https://www.meroka.com",
+    "description": "Healthcare platform combining employee ownership with all-in-one SaaS for independent physician practices, covering billing, staffing, compliance, and recruiting.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": null,
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Alex Barrett",
+        "linkedin": "https://www.linkedin.com/in/alexbarrettmeroka/",
+        "wikipedia_url": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Meroka. McGill University (Desautels Faculty of Management, BCom). MSc Finance & Accounting from LSE. Previously at Inovia Capital and RenoRun.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-05-01",
+        "round": "Seed",
+        "amount_usd": 6000000,
+        "amount_display": "$6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Better Tomorrow Ventures",
+          "Slow Ventures"
+        ],
+        "other_investors": [
+          "8VC"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20250903351274/en/Meroka-Launches-with-6M-Seed-Round-to-Restore-Humanity-in-Healthcare"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://www.meroka.com",
+        "https://www.businesswire.com/news/home/20250903351274/en/Meroka-Launches-with-6M-Seed-Round-to-Restore-Humanity-in-Healthcare",
+        "https://www.crainsnewyork.com/health-pulse/meroka-raises-seed-round-led-better-tomorrow-ventures-slow-ventures"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "",
+      "last_verified": "2026-04-30T15:17:00-07:00"
+    },
+    "institution_display": "McGill University",
+    "capital_raised_usd": 6000000,
+    "capital_raised_display": "$6M",
+    "founder_display": "Alex Barrett"
   }
 ]
