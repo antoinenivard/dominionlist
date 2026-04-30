@@ -1489,7 +1489,7 @@
     "stage": "Inactive",
     "status": "Inactive",
     "yc_batch": null,
-    "icon_url": "",
+    "icon_url": "https://cdn.theorg.com/1c461d06-554a-48b1-80e1-da5afa6568c9_medium.jpg",
     "founders": [
       {
         "name": "Trevor Blackwell",
@@ -10645,7 +10645,8 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
-    "capital_raised_display": "$625K"
+    "capital_raised_display": "$625K",
+    "icon_url": "https://www.finic.ai/favicon.ico"
   },
   {
     "id": "finni-health",
@@ -14352,7 +14353,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'24",
-    "icon_url": "https://img.logo.dev/askjo.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://askjo.ai/favicon.ico",
     "founders": [
       {
         "name": "Kevin Li",
@@ -26730,8 +26731,8 @@
   },
   {
     "id": 321,
-    "name": "Skidatl",
-    "website": "https://skidatl.com",
+    "name": "Skidattle",
+    "website": "https://www.skidattl.com",
     "description": "Spatial computing platform merging AI, AR, and location-based technologies to create dynamic virtual beacons for real-world physical spaces, venues, and events.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
@@ -26741,7 +26742,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://www.skidattl.com/favicon.ico",
     "founders": [
       {
         "id": "randy-marsden",
@@ -35175,7 +35176,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/goldenanalytics.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://goldenanalytics.com/favicon.ico",
     "founders": [
       {
         "name": "Francois Ajenstat",
@@ -35727,7 +35728,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "X25",
-    "icon_url": "https://img.logo.dev/zeonsystems.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://www.zeonsystems.ai/favicon.ico",
     "founders": [
       {
         "name": "Brontë Kolar",
@@ -36357,7 +36358,7 @@
     "name": "FreeSolo",
     "founding_year": 2025,
     "industry": "AI",
-    "icon_url": "https://img.logo.dev/freesolo.co?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://freesolo.co/favicon.ico",
     "stage": "Seed",
     "yc_batch": "X'25"
   },
