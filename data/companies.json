@@ -37010,5 +37010,54 @@
     "capital_raised_display": "N/A",
     "valuation_usd": 90000000,
     "valuation_display": "$90M"
+  },
+  {
+    "id": 396,
+    "name": "Chatbase",
+    "website": "https://chatbase.co",
+    "description": "AI chatbot platform that lets businesses build custom GPT-powered chatbots trained on their own data and embed them on their websites.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "AI",
+    "stage": "Bootstrapped",
+    "status": "Active",
+    "yc_batch": null,
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Yasser Elsaid",
+        "linkedin": "https://ca.linkedin.com/in/yasserelsaid",
+        "wikipedia_url": "",
+        "x_url": "https://x.com/yasser_elsaid_",
+        "bio": "Founder & CEO of Chatbase. York University (Lassonde School of Engineering). Previously interned at Meta, Tesla, and BlackBerry. Moved to SF on O-1 visa.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "York University",
+        "canadian_institutions": [
+          "York University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "metadata": {
+      "sources": [
+        "https://chatbase.co",
+        "https://x.com/yasser_elsaid_/status/1907097282455146700"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "",
+      "last_verified": "2026-04-29T17:00:00-07:00"
+    },
+    "institution_display": "York University",
+    "capital_raised_usd": 0,
+    "capital_raised_display": "$0",
+    "founder_display": "Yasser Elsaid"
   }
 ]
