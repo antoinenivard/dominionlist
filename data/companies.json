@@ -37270,8 +37270,8 @@
     "hq_country": "US",
     "founding_year": 2008,
     "stage": "Growth",
-    "valuation_usd": null,
-    "valuation_display": "",
+    "valuation_usd": 525000000,
+    "valuation_display": "$525M",
     "funding_rounds": [
       {
         "date": "2010-08",
@@ -37285,12 +37285,32 @@
         ],
         "other_investors": [
           "SV Angel",
-          "Lightbank"
+          "Lightbank",
+          "Drew Houston"
         ],
         "source_urls": [
           "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
         ],
         "notes": "YC S10 batch, as E la Carte"
+      },
+      {
+        "date": "2011-08",
+        "round": "Series A",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": 19470000,
+        "valuation_display": "$19.5M",
+        "lead_investors": [
+          "Lightbank"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Gabor Cselle"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/52711-21"
+        ],
+        "notes": "Pre-money valuation $19.47M per PitchBook"
       },
       {
         "date": "2013-06",
@@ -37306,7 +37326,7 @@
           "Romulus Capital"
         ],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
+          "https://www.ycombinator.com/blog/e-la-carte-yc-s10-raises-13-dollars-dot-5m-series-b-from-intel-capital-for-user-friendly-restaurant-tablets/"
         ],
         "notes": ""
       },
@@ -37325,13 +37345,13 @@
           "Sam Altman"
         ],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
+          "https://globalventuring.com/e-la-carte-serves-up-35m-c-round/"
         ],
         "notes": ""
       },
       {
         "date": "2019-02",
-        "round": "Growth",
+        "round": "Series D",
         "amount_usd": 30000000,
         "amount_display": "$30M",
         "valuation_usd": null,
@@ -37351,6 +37371,28 @@
         "notes": ""
       },
       {
+        "date": "2022-09",
+        "round": "SPAC",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 525000000,
+        "valuation_display": "$525M",
+        "lead_investors": [
+          "Cleveland Avenue"
+        ],
+        "other_investors": [
+          "Ventoux CCM Acquisition Corp",
+          "Sam Altman",
+          "Max Altman",
+          "Remus Capital"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20220921005924/en/",
+          "https://www.restaurantbusinessonline.com/technology/tech-supplier-presto-reworks-spac-deal-lowers-valuation"
+        ],
+        "notes": "Merged with Ventoux CCM; traded as PRST on Nasdaq. $60M PIPE led by Cleveland Avenue + $40M other sources. Valuation cut from initial $800M to $525M."
+      },
+      {
         "date": "2024-12",
         "round": "Restructuring",
         "amount_usd": 18000000,
@@ -37368,6 +37410,25 @@
           "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
         ],
         "notes": "Asset acquisition from Presto Automation; reincorporated as Presto Phoenix, Inc."
+      },
+      {
+        "date": "2026-01",
+        "round": "Growth",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Metropolitan Partners Group"
+        ],
+        "other_investors": [
+          "Remus Capital",
+          "Link Ventures"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260108472215/en/"
+        ],
+        "notes": "Strategic angels include CEO of ElevenLabs"
       }
     ],
     "founders": [
@@ -37393,8 +37454,8 @@
     "metadata": {
       "last_verified": "2026-05-01T11:37:00-07:00"
     },
-    "capital_raised_usd": 96500000,
-    "capital_raised_display": "$96.5M",
+    "capital_raised_usd": 110500000,
+    "capital_raised_display": "$110.5M",
     "yc_batch": "S'10",
     "hq_region": "CA",
     "status": "Active"
