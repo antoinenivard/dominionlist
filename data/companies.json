@@ -10646,7 +10646,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
-    "icon_url": "https://www.finic.ai/favicon.ico"
+    "icon_url": ""
   },
   {
     "id": "finni-health",
@@ -14353,7 +14353,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'24",
-    "icon_url": "https://askjo.ai/favicon.ico",
+    "icon_url": "",
     "founders": [
       {
         "name": "Kevin Li",
@@ -14730,7 +14730,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "icon_url": "https://www.getkerrigan.com/assets/favicon.ico",
+    "icon_url": "",
     "institution_display": "University of Toronto"
   },
   {
@@ -14911,7 +14911,7 @@
     "capital_raised_usd": 43000000,
     "capital_raised_display": "$43M",
     "institution_display": "University of Toronto, Université de Montréal, University of British Columbia",
-    "icon_url": "https://kindred.ai/favicon.ico"
+    "icon_url": ""
   },
   {
     "id": 304,
@@ -21233,7 +21233,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "W'11",
-    "icon_url": "https://repebble.com/favicon.ico?favicon.a46603c0.ico",
+    "icon_url": "",
     "founders": [
       {
         "name": "Eric Migicovsky",
@@ -23837,7 +23837,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "S'25",
-    "icon_url": "https://www.rellingsystems.com/favicon.ico",
+    "icon_url": "",
     "founders": [
       {
         "name": "Jai Relan",
@@ -23986,7 +23986,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "icon_url": "https://rennahealth.ai/favicon.ico",
+    "icon_url": "",
     "institution_display": "University of Toronto"
   },
   {
@@ -26742,7 +26742,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "https://www.skidattl.com/favicon.ico",
+    "icon_url": "",
     "founders": [
       {
         "id": "randy-marsden",
@@ -35176,7 +35176,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://goldenanalytics.com/favicon.ico",
+    "icon_url": "",
     "founders": [
       {
         "name": "Francois Ajenstat",
@@ -35728,7 +35728,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "X25",
-    "icon_url": "https://www.zeonsystems.ai/favicon.ico",
+    "icon_url": "",
     "founders": [
       {
         "name": "Brontë Kolar",
@@ -36358,7 +36358,7 @@
     "name": "FreeSolo",
     "founding_year": 2025,
     "industry": "AI",
-    "icon_url": "https://freesolo.co/favicon.ico",
+    "icon_url": "",
     "stage": "Seed",
     "yc_batch": "X'25"
   },
