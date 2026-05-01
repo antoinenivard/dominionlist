@@ -12215,13 +12215,14 @@
         "date": "2023-05",
         "round": "Seed",
         "amount_usd": 3500000,
-        "amount_display": "$4M",
+        "amount_display": "$3.5M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "Uncork Capital"
+        "lead_investors": [
+          "Uncork Capital",
+          "Neo"
         ],
+        "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/gptzero"
         ],
@@ -12234,9 +12235,14 @@
         "amount_display": "$10M",
         "valuation_usd": 40000000,
         "valuation_display": "$40M",
-        "lead_investors": [],
-        "other_investors": [
+        "lead_investors": [
           "Footwork VC"
+        ],
+        "other_investors": [
+          "Reach Capital",
+          "Alt Capital",
+          "Uncork Capital",
+          "Neo"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/gptzero"
