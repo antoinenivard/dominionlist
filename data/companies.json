@@ -37131,5 +37131,126 @@
     "capital_raised_usd": 6000000,
     "capital_raised_display": "$6M",
     "founder_display": "Alex Barrett"
+  },
+  {
+    "id": 398,
+    "name": "Railway",
+    "website": "https://railway.com",
+    "description": "Cloud infrastructure and deployment platform that automates provisioning, scaling, and deployment for developers. Runs its own data centers and serves 2M+ users.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2020,
+    "industry": "Enterprise",
+    "stage": "Series B",
+    "status": "Active",
+    "yc_batch": null,
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Jake Cooper",
+        "linkedin": "https://www.linkedin.com/in/thejakecooper",
+        "wikipedia_url": "",
+        "x_url": "https://x.com/JustJake",
+        "bio": "Founder & CEO of Railway. University of Victoria (Software Engineering). Previously worked remotely for Wolfram Alpha during university.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Victoria",
+        "canadian_institutions": [
+          "University of Victoria"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2020-01-01",
+        "round": "Pre-Seed",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Lachy Groom"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2021-01-01",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Unusual Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2022-05-31",
+        "round": "Series A",
+        "amount_usd": 20000000,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Redpoint Ventures"
+        ],
+        "other_investors": [
+          "Unusual Ventures",
+          "Guillermo Rauch",
+          "Tom Preston-Werner"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2022/05/31/railway-snags-20m-to-streamline-the-process-of-deploying-apps-and-services/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2026-01-22",
+        "round": "Series B",
+        "amount_usd": 100000000,
+        "amount_display": "$100M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "TQ Ventures"
+        ],
+        "other_investors": [
+          "FPV Ventures",
+          "Redpoint Ventures",
+          "Unusual Ventures",
+          "Guillermo Rauch",
+          "Tom Preston-Werner"
+        ],
+        "source_urls": [
+          "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://railway.com",
+        "https://techcrunch.com/2022/05/31/railway-snags-20m-to-streamline-the-process-of-deploying-apps-and-services/",
+        "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "",
+      "last_verified": "2026-04-30T16:00:00-07:00"
+    },
+    "institution_display": "University of Victoria",
+    "capital_raised_usd": 124000000,
+    "capital_raised_display": "$124M",
+    "founder_display": "Jake Cooper"
   }
 ]
