@@ -37261,21 +37261,17 @@
   },
   {
     "id": "399",
-    "name": "Presto Phoenix",
+    "name": "Presto",
     "website": "https://presto.com",
     "icon_url": "",
     "description": "AI-powered drive-thru voice automation platform for restaurant chains. Originally founded as E la Carte in 2008, rebranded to Presto in 2018, went public via SPAC in 2022, restructured as Presto Phoenix in 2024.",
     "industry": "AI",
-    "sub_industry": "Voice AI / Restaurant Technology",
     "hq_city": "San Carlos",
-    "hq_state": "CA",
     "hq_country": "US",
     "founding_year": 2008,
     "stage": "Growth",
     "valuation_usd": null,
     "valuation_display": "",
-    "total_raised_usd": 96500000,
-    "total_raised_display": "$96.5M",
     "funding_rounds": [
       {
         "date": "2010-08",
@@ -37395,7 +37391,12 @@
       "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
     ],
     "metadata": {
-      "last_verified": "2026-05-01T10:00:00-07:00"
-    }
+      "last_verified": "2026-05-01T11:37:00-07:00"
+    },
+    "capital_raised_usd": 96500000,
+    "capital_raised_display": "$96.5M",
+    "yc_batch": "S'10",
+    "hq_region": "CA",
+    "status": "Active"
   }
 ]
