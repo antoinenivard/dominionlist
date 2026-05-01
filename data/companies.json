@@ -37258,5 +37258,144 @@
     "capital_raised_usd": 124000000,
     "capital_raised_display": "$124M",
     "founder_display": "Jake Cooper"
+  },
+  {
+    "id": "399",
+    "name": "Presto Phoenix",
+    "website": "https://presto.com",
+    "icon_url": "",
+    "description": "AI-powered drive-thru voice automation platform for restaurant chains. Originally founded as E la Carte in 2008, rebranded to Presto in 2018, went public via SPAC in 2022, restructured as Presto Phoenix in 2024.",
+    "industry": "AI",
+    "sub_industry": "Voice AI / Restaurant Technology",
+    "hq_city": "San Carlos",
+    "hq_state": "CA",
+    "hq_country": "US",
+    "founding_year": 2008,
+    "stage": "Growth",
+    "valuation_usd": null,
+    "valuation_display": "",
+    "total_raised_usd": 96500000,
+    "total_raised_display": "$96.5M",
+    "funding_rounds": [
+      {
+        "date": "2010-08",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "SV Angel",
+          "Lightbank"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
+        ],
+        "notes": "YC S10 batch, as E la Carte"
+      },
+      {
+        "date": "2013-06",
+        "round": "Series B",
+        "amount_usd": 13500000,
+        "amount_display": "$13.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Intel Capital"
+        ],
+        "other_investors": [
+          "Romulus Capital"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2016",
+        "round": "Series C",
+        "amount_usd": 35000000,
+        "amount_display": "$35M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Intel Capital",
+          "Romulus Capital",
+          "TriplePoint Capital",
+          "Sam Altman"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2019-02",
+        "round": "Growth",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Recruit Holdings",
+          "Romulus Capital"
+        ],
+        "other_investors": [
+          "I2BF Global Ventures",
+          "EG Capital",
+          "Brainchild Holdings"
+        ],
+        "source_urls": [
+          "https://globalventuring.com/blog/2019/02/28/presto-dishes-up-30m-round/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2024-12",
+        "round": "Restructuring",
+        "amount_usd": 18000000,
+        "amount_display": "$18M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Remus Capital"
+        ],
+        "other_investors": [
+          "Link Ventures",
+          "Metropolitan Partners Group"
+        ],
+        "source_urls": [
+          "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
+        ],
+        "notes": "Asset acquisition from Presto Automation; reincorporated as Presto Phoenix, Inc."
+      }
+    ],
+    "founders": [
+      {
+        "name": "Rajat Suri",
+        "linkedin": "https://www.linkedin.com/in/rajatsuri",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rajat_Suri",
+        "x_url": "https://x.com/rajatsuri",
+        "bio": "Canadian-American entrepreneur. Co-founded Zimride (became Lyft). UWaterloo BASc in Chemical Engineering & Economics. Dropped out of MIT PhD/MBA to found E la Carte (now Presto Phoenix).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)",
+      "https://en.wikipedia.org/wiki/Rajat_Suri",
+      "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
+    ],
+    "metadata": {
+      "last_verified": "2026-05-01T10:00:00-07:00"
+    }
   }
 ]
