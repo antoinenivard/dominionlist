@@ -10646,7 +10646,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
-    "icon_url": ""
+    "icon_url": "https://www.finic.ai/icon.svg"
   },
   {
     "id": "finni-health",
