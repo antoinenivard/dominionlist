@@ -38898,5 +38898,365 @@
     "metadata": {
       "last_verified": "2026-05-04T14:00:00-07:00"
     }
+  },
+  {
+    "name": "HomeFig",
+    "website": "https://homefig.com",
+    "description": "3D home design tool — designing your home should feel like Sims. Sketch-to-render in 2 minutes using real products from retailers. Starting with kitchens. Uses procedural modelling and ThreeJS/WebGPU.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "PropTech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Nikolai Stakheiko",
+        "linkedin": "https://www.linkedin.com/in/nikolai-stakheiko-47592b121",
+        "bio": "Founder. BASc Electrical Engineering from Queen's University (2015-2019). Previously Senior SWE at Vizcom, Founding Engineer at Rogo.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Kingston, ON",
+        "canadian_institutions": [
+          "Queen's University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "430"
+  },
+  {
+    "name": "Capsule AI",
+    "website": "https://capsuleai.ai",
+    "description": "Social shopping app — snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2022,
+    "industry": "E-commerce",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "S'22",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Billy Wang",
+        "linkedin": "https://www.linkedin.com/in/wbilly",
+        "bio": "Co-Founder. BSc Chemical Engineering from University of Alberta (Co-op). MS Chemical Engineering from MIT (David H. Koch Fellow). Previously at Exelixis, Charles River Associates.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Alberta",
+        "canadian_city": "Edmonton, AB",
+        "canadian_institutions": [
+          "University of Alberta"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC S22 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "431"
+  },
+  {
+    "name": "CrateOS",
+    "website": "https://crateos.ai",
+    "description": "AI-native, agent-driven operations platform for warehouses. Connects warehouse signals to people and systems that act on them. Detects execution failures early, routes exceptions, and automates corrective actions.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2026,
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Matthew Kim",
+        "linkedin": "https://www.linkedin.com/in/matthew-kim-272316",
+        "bio": "Co-Founder & CEO/CTO. BEng Electrical Engineering from McMaster University. MIT MASc Supply Chain Management (5.0 GPA). Previously at Wayfair (Principal PM).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McMaster University",
+        "canadian_city": "Hamilton, ON",
+        "canadian_institutions": [
+          "McMaster University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "432"
+  },
+  {
+    "name": "Moss",
+    "website": "https://moss.dev",
+    "description": "High-performance runtime for real-time semantic search. Sub-10ms semantic lookups, instant index updates, zero infra overhead. Built in Rust + WASM. Designed for conversational AI, voice agents, and copilots.",
+    "hq_city": "San Mateo",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "F'25",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Sri Raghu Malireddi",
+        "linkedin": "https://www.linkedin.com/in/r4ghu",
+        "bio": "Co-Founder & CEO. University of Victoria. Previously ML Lead at Grammarly and Microsoft. Shipped LLMs for Office, Bing. Published at ACL, holds multiple ML patents.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Victoria",
+        "canadian_city": "Victoria, BC",
+        "canadian_institutions": [
+          "University of Victoria"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC F25 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "433"
+  },
+  {
+    "name": "Sentiero",
+    "website": "https://sentierohealth.com",
+    "description": "The intelligence layer for clinical operations. AI-powered document automation, referral triage, and clinical intelligence for clinics. Reads and sorts referrals, labs, imaging, discharge summaries with intent extraction.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "HealthTech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Adi Arora",
+        "linkedin": "https://www.linkedin.com/in/adiarora710",
+        "bio": "Co-Founder. BSc Computer Science from University of Victoria. Previously Founding Engineer at a stealth startup. TEDxBoston speaker on AI inference accessibility.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Victoria",
+        "canadian_city": "Victoria, BC",
+        "canadian_institutions": [
+          "University of Victoria"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "434"
+  },
+  {
+    "name": "Accro",
+    "website": "https://accro.ai",
+    "description": "Automates ASC 606 Revenue Recognition for software companies. Turns complex contracts and revenue policy into audit-ready schedules and journal entries. Contract analysis, policy learning, revenue scheduling, and audit trails.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Ash Rahman",
+        "linkedin": "https://www.linkedin.com/in/ashrafurr",
+        "bio": "Co-Founder. BA Accounting & Business from Concordia University. CPA, CMA (Canada). Previously Senior PM at Airbase, Director of Finance at OneLocal (Toronto).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Concordia University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "Concordia University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "435"
+  },
+  {
+    "name": "Hilt",
+    "website": "https://hilt.ai",
+    "description": "Behavioral data governance and exfiltration prevention. Kernel-level telemetry and anomaly detection for environments where traditional security tools fall short. Governs data behavior in real time.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Cybersecurity",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "William Cielen",
+        "linkedin": "https://www.linkedin.com/in/williamcielen",
+        "bio": "CEO. Software Engineering at Concordia University (on leave). Previously at Champlain College Saint-Lambert. 18 years old, from Quebec. PearX W26, Z Fellows.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Concordia University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "Concordia University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Pear VC"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "PearX W26 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "436"
+  },
+  {
+    "name": "Reflex",
+    "website": "https://tryreflex.ai",
+    "description": "Datacenter-scale inference for autonomous systems. The inference layer for physical AI — every robot controlled by a single API call. No onboard GPUs, no expensive clusters. ~90x cheaper, ~100x faster. Stream observations, execute actions via WebSocket.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2026,
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Lucas Miranda",
+        "linkedin": "https://www.linkedin.com/in/cielofinsoen",
+        "bio": "Founder. BS in CS, Math & Finance at Concordia University. From Quebec. 15x hackathon winner. Previously Quantitative Developer at a hedge fund. HF0 residency. Founded Quarcc at Concordia.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Concordia University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "Concordia University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "437"
+  },
+  {
+    "name": "Leafra",
+    "website": "https://leafra.ai",
+    "description": "Jasemin — the Operational Intelligence Assistant for Senior Care. AI platform for senior care communities providing proactive care, incident detection and reduction, operations optimization. Focuses on fall prevention and early trend detection.",
+    "hq_city": "San Jose",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "HealthTech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Arif Dikici",
+        "linkedin": "https://www.linkedin.com/in/arifdikici",
+        "bio": "Co-Founder & CEO. MBA from Wilfrid Laurier University. Worked at Evertz in Waterloo, ON. Ex-Google (Tech Lead Manager), ex-Apple, ex-Amazon. AI ASIC and ML compiler expertise.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Wilfrid Laurier University",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "Wilfrid Laurier University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T15:00:00-07:00"
+    },
+    "id": "438"
   }
 ]
