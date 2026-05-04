@@ -30065,13 +30065,13 @@
   {
     "id": 188,
     "name": "Syncere",
-    "website": "https://f.inc/portfolio/syncere",
-    "description": "Consumer robotics startup creating intelligent home robots for everyday household tasks.",
-    "hq_city": "San Francisco",
+    "website": "https://syncere.com",
+    "description": "Home robotics company. Flagship product is Lume, a robotic floor lamp that folds laundry using robotic arms and a camera, then returns to lamp form. Priced at $1,499 with 1,000+ preorders.",
+    "hq_city": "Palo Alto",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Consumer",
+    "industry": "Robotics",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -30079,10 +30079,10 @@
     "founders": [
       {
         "name": "Angus Fung",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/angus-fung-phd",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "PhD from University of Toronto, building intelligent home robotics.",
+        "bio": "Co-Founder. BASc 2019 & PhD 2024 from University of Toronto Robotics Institute.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -30095,7 +30095,7 @@
         "linkedin": "",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "UofT Engineering PhD graduate.",
+        "bio": "Co-Founder & CEO. University of Toronto Engineering alumnus.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -30134,7 +30134,7 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z"
+      "last_verified": "2026-05-04T11:00:00-07:00"
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": null,
@@ -37759,52 +37759,6 @@
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
     "id": "404"
-  },
-  {
-    "name": "Syncere",
-    "website": "https://syncere.com",
-    "description": "Home robotics company. Flagship product is Lume, a robotic floor lamp that folds laundry using robotic arms and a camera, then returns to lamp form. Priced at $1,499 with 1,000+ preorders.",
-    "hq_city": "Palo Alto",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2025,
-    "industry": "Robotics",
-    "stage": "Seed",
-    "status": "Active",
-    "yc_batch": "",
-    "icon_url": "",
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founders": [
-      {
-        "name": "Angus Fung",
-        "linkedin": "https://www.linkedin.com/in/angus-fung-phd",
-        "bio": "Co-Founder. BASc 2019 & PhD 2024 from University of Toronto Robotics Institute.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_city": "Toronto, ON",
-        "canadian_institutions": [
-          "University of Toronto"
-        ]
-      },
-      {
-        "name": "Aaron Tan",
-        "linkedin": "",
-        "bio": "Co-Founder & CEO. University of Toronto Engineering alumnus.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_city": "Toronto, ON",
-        "canadian_institutions": [
-          "University of Toronto"
-        ]
-      }
-    ],
-    "funding_rounds": [],
-    "source_urls": [],
-    "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
-    },
-    "id": "405"
   },
   {
     "name": "Fern",
