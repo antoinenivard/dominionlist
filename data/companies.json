@@ -38839,5 +38839,64 @@
     "metadata": {
       "last_verified": "2026-05-04T13:30:00-07:00"
     }
+  },
+  {
+    "id": "429",
+    "name": "Clerk Chat",
+    "website": "https://clerk.chat",
+    "description": "AI-powered conversational messaging platform — the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2019,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 7000000,
+    "capital_raised_display": "$7M",
+    "founders": [
+      {
+        "name": "Alexander Haque",
+        "linkedin": "https://www.linkedin.com/in/alexanderhaque",
+        "bio": "Co-Founder & CEO. BA from University of Toronto, graduate degree in Management & Computer Science from McGill University. Previously founded and sold Retinad VR, then worked in partnerships/innovation at Samsung and Netflix.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto",
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-10",
+        "round": "Seed",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Race Capital"
+        ],
+        "other_investors": [
+          "HF0",
+          "Mento VC",
+          "Altair VC"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20241017292794/en/"
+        ],
+        "notes": ""
+      }
+    ],
+    "source_urls": [
+      "https://clerk.chat/blog/seed-funding/"
+    ],
+    "metadata": {
+      "last_verified": "2026-05-04T14:00:00-07:00"
+    }
   }
 ]
