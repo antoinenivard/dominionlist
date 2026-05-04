@@ -38697,5 +38697,110 @@
       "last_verified": "2026-05-04T12:00:00-07:00"
     },
     "id": "425"
+  },
+  {
+    "id": "426",
+    "name": "Vega",
+    "website": "https://vegaclaims.com",
+    "description": "AI-powered claims TPA for the insurance industry. Modernizing the $250B global claims market with AI-native workflows, delivering 50% faster resolution times. Handling claims for 30K+ vehicles in 48 states.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Talha Zubair",
+        "linkedin": "https://www.linkedin.com/in/talhazubair",
+        "bio": "Co-Founder & CEO. HBA from Ivey Business School at Western University (graduated with distinction). Previously Senior Director at TheGuarantors (PE exit to Warburg Pincus), Director at MetLife, Capital One, Kearney.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Western University",
+        "canadian_city": "London, ON",
+        "canadian_institutions": [
+          "Western University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "General Catalyst",
+          "Valor"
+        ],
+        "source_urls": [],
+        "notes": "Backed by General Catalyst and Valor per LinkedIn"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T13:00:00-07:00"
+    }
+  },
+  {
+    "id": "427",
+    "name": "Dialogue AI",
+    "website": "https://dialogueai.com",
+    "description": "AI-native customer research platform that automates study design, participant recruitment, AI-moderated interviews, and real-time synthesis. Customers include Wayfair, Square, Nextdoor, and Suno.",
+    "hq_city": "Los Angeles",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 6000000,
+    "capital_raised_display": "$6M",
+    "founders": [
+      {
+        "name": "Justin Hoang",
+        "linkedin": "https://www.linkedin.com/in/justinhoang",
+        "bio": "Co-Founder & CPO. BESc Software Engineering from Western University (Dean's Honour List, with distinction). Founded Twitter Shopping, led Shopping Ads at Reddit, Head of Core Product at Nextdoor. 6+ years in Toronto.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Western University",
+        "canadian_city": "London, ON",
+        "canadian_institutions": [
+          "Western University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-10",
+        "round": "Seed",
+        "amount_usd": 6000000,
+        "amount_display": "$6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Lightspeed Venture Partners"
+        ],
+        "other_investors": [
+          "Seven Stars",
+          "Uncommon Projects",
+          "Tornante Company"
+        ],
+        "source_urls": [],
+        "notes": "Angels include CPO of Discord, former CPO of Nextdoor, former CTO of Match Group"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T13:00:00-07:00"
+    }
   }
 ]
