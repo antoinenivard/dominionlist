@@ -37650,20 +37650,20 @@
     "id": "402"
   },
   {
-    "name": "Bezel",
-    "website": "https://bezel.ai",
-    "description": "Digital AI humans that model clothes for e-commerce brands. Generates customized virtual fashion models to showcase product inventories online.",
+    "name": "BezelFi",
+    "website": "https://bezelfi.com",
+    "description": "Subscription tracking and cancellation app that finds hidden charges and provides step-by-step cancellation instructions. Claims $420/year average savings.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "AI",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'25",
     "icon_url": "",
-    "capital_raised_usd": 8000000,
-    "capital_raised_display": "$8M",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
     "founders": [
       {
         "name": "Kashyap Achar",
@@ -37679,23 +37679,18 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025",
+        "date": "2024",
         "round": "Seed",
-        "amount_usd": 8000000,
-        "amount_display": "$8M",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "Greylock"
+          "Y Combinator"
         ],
-        "other_investors": [
-          "Innovation Endeavors",
-          "TQ Ventures",
-          "Pantera Capital",
-          "John Legend"
-        ],
+        "other_investors": [],
         "source_urls": [],
-        "notes": "$6.2M raised 6 weeks into YC W25"
+        "notes": "YC W25 batch"
       }
     ],
     "source_urls": [],
@@ -37919,11 +37914,13 @@
       {
         "name": "Tom Daemers",
         "linkedin": "https://www.linkedin.com/in/tom-daemers-b83a50b9",
-        "bio": "CFO. Building software for construction.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_city": "",
-        "canadian_institutions": []
+        "bio": "CFO. BCom General Management from McGill University (Accounting, Strategy, Marketing concentrations). 2014-2018.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
       }
     ],
     "funding_rounds": [
@@ -38578,5 +38575,173 @@
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
     "id": "422"
+  },
+  {
+    "name": "IntuigenceAI",
+    "website": "https://intuigence.ai",
+    "description": "Synthetic AI engineers for industrial operations — process manufacturing, refining, petrochemicals, steel, automotive. AI agents achieved 81% first-time pass rate on Professional Engineering exams. Serves Fortune 100 customers.",
+    "hq_city": "Berkeley",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 10000000,
+    "capital_raised_display": "$10M",
+    "founders": [
+      {
+        "name": "Moe Tanabian",
+        "linkedin": "https://www.linkedin.com/in/mtanabian",
+        "bio": "Founder & CEO. MBA from Queen's University, Master's from Carleton University. Former Global VP at Microsoft, Amazon, and Samsung.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Kingston, ON",
+        "canadian_institutions": [
+          "Queen's University",
+          "Carleton University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-07",
+        "round": "Seed",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Innovation Endeavors"
+        ],
+        "other_investors": [
+          "Recursive Ventures",
+          "Think+"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T12:00:00-07:00"
+    },
+    "id": "423"
+  },
+  {
+    "name": "DisputeNinja",
+    "website": "https://disputeninja.ai",
+    "description": "AI-powered chargeback automation platform for software and AI startups. Generates tailored dispute responses and evaluates evidence against chargeback reason codes. Helps 200+ Stripe merchants recover revenue.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "S'23",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Bowen Xue",
+        "linkedin": "https://www.linkedin.com/in/bowenxue",
+        "bio": "Co-Founder. University of Waterloo. Previously at Together (YC S19) and Paper. Also co-founded Trench (open-source fraud prevention).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T12:00:00-07:00"
+    },
+    "id": "424"
+  },
+  {
+    "name": "DataLane",
+    "website": "https://datalane.com",
+    "description": "The first highly accurate identity graph for every local business in America — LinkedIn for the offline economy. Maps 2B+ real-time data points to verified owner info and operational details for 20M+ local businesses. Customers include DoorDash, Square, Paychex.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 27000000,
+    "capital_raised_display": "$27M",
+    "founders": [
+      {
+        "name": "David Patterson-Cole",
+        "linkedin": "https://www.linkedin.com/in/davidpattersoncole",
+        "bio": "Co-Founder & CEO. BCom with CS minor from Queen's University (2014-2018). CEO of Queen's University Investment Counsel. Previously PM at Facebook (AI team), Consultant at Bain.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Kingston, ON",
+        "canadian_institutions": [
+          "Queen's University"
+        ]
+      },
+      {
+        "name": "Ganesh Thirumurthi",
+        "linkedin": "https://www.linkedin.com/in/ganeshthi",
+        "bio": "Co-Founder & CTO. Queen's University. Previously SWE II at Microsoft. Cansbridge Fellow.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Kingston, ON",
+        "canadian_institutions": [
+          "Queen's University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 4500000,
+        "amount_display": "$4.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Basis Set Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025-12",
+        "round": "Series A",
+        "amount_usd": 22500000,
+        "amount_display": "$22.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Amplify Partners"
+        ],
+        "other_investors": [
+          "Harry Stebbings (20VC)",
+          "Basis Set Ventures",
+          "Mischief Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T12:00:00-07:00"
+    },
+    "id": "425"
   }
 ]
