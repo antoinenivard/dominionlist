@@ -38802,5 +38802,42 @@
     "metadata": {
       "last_verified": "2026-05-04T13:00:00-07:00"
     }
+  },
+  {
+    "id": "428",
+    "name": "Agentbase",
+    "website": "https://agentbase.sh",
+    "description": "Serverless agent platform for developers. Ship production AI agents with one API call. Infrastructure for building, deploying, and managing custom AI agents at scale.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Thomas Schlossmacher",
+        "linkedin": "https://www.linkedin.com/in/thomas-schlossmacher",
+        "bio": "Co-Founder & CEO. University of Ottawa (BA 2012-2016). Two-time founder; previously built a VC-backed enterprise billing platform.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Ottawa",
+        "canadian_city": "Ottawa, ON",
+        "canadian_institutions": [
+          "University of Ottawa"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [
+      "https://www.agentbase.sh/blog/introducing-agentbase"
+    ],
+    "metadata": {
+      "last_verified": "2026-05-04T13:30:00-07:00"
+    }
   }
 ]
