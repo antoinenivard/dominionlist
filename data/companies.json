@@ -37459,5 +37459,1124 @@
     "yc_batch": "S'10",
     "hq_region": "CA",
     "status": "Active"
+  },
+  {
+    "name": "Quo",
+    "website": "https://quo.com",
+    "description": "AI-driven business communication platform (formerly OpenPhone). Virtual phone system for SMBs featuring the Sona voice agent. Trusted by 90,000+ businesses.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2018,
+    "industry": "SaaS",
+    "stage": "Series C",
+    "status": "Active",
+    "yc_batch": "S'18",
+    "icon_url": "",
+    "capital_raised_usd": 161000000,
+    "capital_raised_display": "$161M",
+    "founders": [
+      {
+        "name": "Mahyar Raissi",
+        "linkedin": "https://www.linkedin.com/in/mahyarr",
+        "bio": "Co-Founder & CEO. Canadian-Iranian. BSc Software Engineering from University of Waterloo.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Daryna Kulya",
+        "linkedin": "https://www.linkedin.com/in/darynakulya",
+        "bio": "Co-Founder & COO. Ukrainian-Canadian.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2018-07",
+        "round": "Seed",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Garage Capital",
+          "Slow Ventures"
+        ],
+        "other_investors": [
+          "Y Combinator"
+        ],
+        "source_urls": [],
+        "notes": "YC S18 batch"
+      },
+      {
+        "date": "2020-11",
+        "round": "Series A",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Craft Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2022-04",
+        "round": "Series B",
+        "amount_usd": 40000000,
+        "amount_display": "$40M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025-09",
+        "round": "Series C",
+        "amount_usd": 105000000,
+        "amount_display": "$105M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "General Catalyst"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "$96M from General Catalyst CVF + $9M from existing investors"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "400"
+  },
+  {
+    "name": "Hyperic",
+    "website": "https://hyperic.tech",
+    "description": "Generalized autonomous drones that take natural-language commands, execute missions autonomously, and coordinate as adaptive swarms. Full-stack: airframes, flight computers, charging infrastructure, and autonomy layer.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "Defense",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Ayush Garg",
+        "linkedin": "https://www.linkedin.com/in/lazeash",
+        "bio": "Co-Founder. Software Engineering at University of Waterloo. Organized JAMHacks hackathon.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "401"
+  },
+  {
+    "name": "TinyFish",
+    "website": "https://tinyfish.io",
+    "description": "Enterprise Web Agents platform — AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
+    "hq_city": "Palo Alto",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 47000000,
+    "capital_raised_display": "$47M",
+    "founders": [
+      {
+        "name": "Keith Zhai",
+        "linkedin": "https://www.linkedin.com/in/keith-zhai",
+        "bio": "Co-Founder & COO. Master of Journalism & BSc Mass Communication from Carleton University. Former WSJ senior correspondent.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Carleton University",
+        "canadian_city": "Ottawa, ON",
+        "canadian_institutions": [
+          "Carleton University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Series A",
+        "amount_usd": 47000000,
+        "amount_display": "$47M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "ICONIQ"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "402"
+  },
+  {
+    "name": "Bezel",
+    "website": "https://bezel.ai",
+    "description": "Digital AI humans that model clothes for e-commerce brands. Generates customized virtual fashion models to showcase product inventories online.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'25",
+    "icon_url": "",
+    "capital_raised_usd": 8000000,
+    "capital_raised_display": "$8M",
+    "founders": [
+      {
+        "name": "Kashyap Achar",
+        "linkedin": "https://www.linkedin.com/in/kashyapachar",
+        "bio": "Co-Founder & CEO. BSc Computer Science from Carleton University. Previously at Bilt and Clearco.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Carleton University",
+        "canadian_city": "Ottawa, ON",
+        "canadian_institutions": [
+          "Carleton University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 8000000,
+        "amount_display": "$8M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Greylock"
+        ],
+        "other_investors": [
+          "Innovation Endeavors",
+          "TQ Ventures",
+          "Pantera Capital",
+          "John Legend"
+        ],
+        "source_urls": [],
+        "notes": "$6.2M raised 6 weeks into YC W25"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "403"
+  },
+  {
+    "name": "Outlit",
+    "website": "https://outlit.ai",
+    "description": "AI Agents for Enterprise Deal Creation. Helps Deal Desk and Revenue teams close deals faster by leveraging historical terms, pricing, clauses, and redlines.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'25",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Josh Earle",
+        "linkedin": "https://www.linkedin.com/in/joshearle",
+        "bio": "Co-Founder & CEO. Carleton University, Ottawa.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Carleton University",
+        "canadian_city": "Ottawa, ON",
+        "canadian_institutions": [
+          "Carleton University"
+        ]
+      },
+      {
+        "name": "Leo Paz",
+        "linkedin": "https://www.linkedin.com/in/leo-paz",
+        "bio": "Co-Founder & CTO. Carleton University, Ottawa. Met Josh Earle at Carleton.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Carleton University",
+        "canadian_city": "Ottawa, ON",
+        "canadian_institutions": [
+          "Carleton University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC W25 standard deal"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "404"
+  },
+  {
+    "name": "Syncere",
+    "website": "https://syncere.com",
+    "description": "Home robotics company. Flagship product is Lume, a robotic floor lamp that folds laundry using robotic arms and a camera, then returns to lamp form. Priced at $1,499 with 1,000+ preorders.",
+    "hq_city": "Palo Alto",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Robotics",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Angus Fung",
+        "linkedin": "https://www.linkedin.com/in/angus-fung-phd",
+        "bio": "Co-Founder. BASc 2019 & PhD 2024 from University of Toronto Robotics Institute.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      },
+      {
+        "name": "Aaron Tan",
+        "linkedin": "",
+        "bio": "Co-Founder & CEO. University of Toronto Engineering alumnus.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "405"
+  },
+  {
+    "name": "Fern",
+    "website": "https://fern.bot",
+    "description": "Realtime AI sales copilot and intelligence platform that joins meetings as either an invisible copilot or active participant, proactively coaching people through conversations.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'26",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Robert Xu",
+        "linkedin": "https://www.linkedin.com/in/robert-xu",
+        "bio": "Co-Founder & CTO. University of Waterloo CS co-op. Previously at Meta Reality Labs (Orion AR glasses), Citadel Securities, Square.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/fern-bot"
+        ],
+        "notes": "YC W26 batch"
+      }
+    ],
+    "source_urls": [
+      "https://www.ycombinator.com/companies/fern-bot"
+    ],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "406"
+  },
+  {
+    "name": "Confidential AI",
+    "website": "https://confidential.ai",
+    "description": "AI confidential compute platform that runs AI workloads (inference, training, agents) inside hardware-encrypted Trusted Execution Environments (TEEs). Data and code stay private while being processed.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Amean Asad",
+        "linkedin": "https://www.linkedin.com/in/ameanasad",
+        "bio": "Co-Founder & CTO. University of Waterloo, Computing and Financial Management. Previously at Protocol Labs. Patent holder in machine learning.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "407"
+  },
+  {
+    "name": "Stonn",
+    "website": "https://stonn.ai",
+    "description": "Construction progress monitoring platform. 360-degree snapshots tied to floor plans with AI-powered documentation for tracking construction progress remotely.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Construction Tech",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "P'26",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Tom Daemers",
+        "linkedin": "https://www.linkedin.com/in/tom-daemers-b83a50b9",
+        "bio": "CFO. Building software for construction.",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_city": "",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC P26 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "408"
+  },
+  {
+    "name": "Persana AI",
+    "website": "https://persana.ai",
+    "description": "AI-powered sales intelligence and GTM platform that unifies fragmented B2B data sources and deploys intelligent agents to automate go-to-market workflows. 100+ data sources.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'23",
+    "icon_url": "",
+    "capital_raised_usd": 2800000,
+    "capital_raised_display": "$2.8M",
+    "founders": [
+      {
+        "name": "Rusheel Shahani",
+        "linkedin": "https://www.linkedin.com/in/rusheelshahani",
+        "bio": "Co-Founder & CTO. BSc Computer Science from University of Waterloo (with distinction). Previously at LinkedIn, Shopify, Element AI.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-04",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2023",
+        "round": "Seed",
+        "amount_usd": 2300000,
+        "amount_display": "$2.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Race Capital",
+          "Stage 2 Capital"
+        ],
+        "other_investors": [
+          "Dharmesh Shah",
+          "Y Combinator"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "409"
+  },
+  {
+    "name": "Moneta Health",
+    "website": "https://moneta.health",
+    "description": "Brain health company revolutionizing cognitive rehabilitation therapy through telehealth, using voice AI and licensed therapists for individuals with mild cognitive impairment and dementia.",
+    "hq_city": "Tampa",
+    "hq_region": "FL",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "HealthTech",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 6700000,
+    "capital_raised_display": "$6.7M",
+    "founders": [
+      {
+        "name": "Jennifer Flexman",
+        "linkedin": "https://www.linkedin.com/in/jenniferflexman",
+        "bio": "Co-Founder & COO. BEng Electrical Engineering from McGill University. NSERC fellow. Previously at UBC and University of Toronto.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-03",
+        "round": "Pre-Seed",
+        "amount_usd": 2200000,
+        "amount_display": "$2.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "True Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025-09",
+        "round": "Seed",
+        "amount_usd": 4500000,
+        "amount_display": "$4.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "True Ventures",
+          "Health2047",
+          "Impact America Fund",
+          "Ontario Teachers' Pension Plan",
+          "CABHI"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "410"
+  },
+  {
+    "name": "Datost",
+    "website": "https://datost.com",
+    "description": "AI data analyst that teams @mention in Slack. Maintains a semantic layer of business definitions so it understands questions before writing SQL. Scores 75.2% on BIRD-Interact benchmark.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "P'26",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Jason Wang",
+        "linkedin": "https://www.linkedin.com/in/jasonhy-wang",
+        "bio": "Co-Founder. BSc Computer Engineering from University of Toronto. Previously at Traba.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC P26 batch"
+      }
+    ],
+    "source_urls": [
+      "https://www.datost.com"
+    ],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "411"
+  },
+  {
+    "name": "Gradient Robotics",
+    "website": "https://gradientrobotics.ai",
+    "description": "Building autonomous robots for industry — data centers, factories, warehouses. Owns its models, builds the operating system, designs and manufactures hardware.",
+    "hq_city": "Menlo Park",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Robotics",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Jingxiang Mo",
+        "linkedin": "https://www.linkedin.com/in/jingxiangmo",
+        "bio": "Co-Founder & CEO. McGill University. Grew up in Vancouver. Previously at K-Scale Labs (YC W24).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "412"
+  },
+  {
+    "name": "Runner",
+    "website": "https://runner.now",
+    "description": "Desktop AI assistant for workflow automation that connects to Gmail, Calendar, Slack, Drive, GitHub, Notion, and local files.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Charlie Feng",
+        "linkedin": "https://www.linkedin.com/in/charliecf",
+        "bio": "Co-Founder & CEO. McGill University. Previously co-founded Clearco (Canadian fintech). Based between Toronto and San Francisco.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "413"
+  },
+  {
+    "name": "Mesoware",
+    "website": "https://mesoware.com",
+    "description": "Robotics company advancing next-generation robotic automation.",
+    "hq_city": "Boston",
+    "hq_region": "MA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "Robotics",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Joe Mattekatt",
+        "linkedin": "https://www.linkedin.com/in/joe-mattekatt",
+        "bio": "Co-Founder & CEO. University of Waterloo Mechatronics Engineering. MBA and MS from Harvard. Previously led products at Splunk and Uber.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Pei Liang Guo",
+        "linkedin": "https://www.linkedin.com/in/plguo",
+        "bio": "Co-Founder. University of Waterloo Mechatronics Engineering. Ex-NVIDIA.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "414"
+  },
+  {
+    "name": "Strand AI",
+    "website": "https://strandai.com",
+    "description": "Multimodal foundation models that predict missing patient biology (gene expression, proteomics, spatial transcriptomics) from routinely collected samples. Pharma companies use it to select better patients for drug trials.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'26",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Yue Dai",
+        "linkedin": "https://www.linkedin.com/in/yued",
+        "bio": "Co-Founder. BSc Computer Science & Biology from McGill University. Previously at Element AI, Microsoft Research, Tempus AI.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-01",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC W26 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "415"
+  },
+  {
+    "name": "Antigma Labs",
+    "website": "https://antigma.ai",
+    "description": "Building the substrate for self-organizing intelligence where AI and crypto converge. Develops self-contained agents that self-organize. Agent 'Ante' ranks #1 on Terminal Bench.",
+    "hq_city": "Menlo Park",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Mohan Zhang",
+        "linkedin": "https://www.linkedin.com/in/mohan-zhang-09b46a2a",
+        "bio": "Founder. University of Waterloo. Previously at Amazon, Mysten Labs, Meta.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "416"
+  },
+  {
+    "name": "Voluntas",
+    "website": "https://voluntas.io",
+    "description": "Enterprise data and execution platform for prediction markets.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2022,
+    "industry": "Fintech",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Calder White",
+        "linkedin": "https://www.linkedin.com/in/calderwhite",
+        "bio": "Founder. University of Waterloo.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "417"
+  },
+  {
+    "name": "Dome Systems",
+    "website": "https://domesystems.ai",
+    "description": "Enterprise AI agent infrastructure platform — the operational control plane for the agentic enterprise. One system of control across every agent, every runtime, every cloud.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 14000000,
+    "capital_raised_display": "$14M",
+    "founders": [
+      {
+        "name": "Dave McJannet",
+        "linkedin": "https://www.linkedin.com/in/dmcjannet",
+        "bio": "Co-Founder & CEO. BA Economics from McGill University. Also studied at UBC. Previously CEO of HashiCorp (took it from early-stage to IPO and IBM acquisition).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University",
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Redpoint Ventures",
+          "Bessemer Venture Partners"
+        ],
+        "other_investors": [
+          "Mango"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "418"
+  },
+  {
+    "name": "Fluid Inference",
+    "website": "https://fluidinference.com",
+    "description": "Applied AI research lab building ambient intelligence and on-device AI. Frontier CoreML audio models including TTS, STT, voice activity detection, and speaker diarization in Swift.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Brandon Weng",
+        "linkedin": "https://www.linkedin.com/in/brandonweng",
+        "bio": "Co-Founder & CEO.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "419"
+  },
+  {
+    "name": "3E8",
+    "website": "https://blueprint.am",
+    "description": "Two products: (1) 3E8 Robotics — fully autonomous delivery robots for hotels, apartments, and office buildings. (2) Blueprint.am — AI hardware design tool that generates wiring diagrams, BOMs, and assembly guides from a single prompt.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Robotics",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Sajeel Purewal",
+        "linkedin": "https://www.linkedin.com/in/sajeelpurewal",
+        "bio": "Co-Founder & COO. Queen's University Commerce. Started company in Toronto before moving to SF.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University",
+        "canadian_city": "Kingston, ON",
+        "canadian_institutions": [
+          "Queen's University"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "420"
+  },
+  {
+    "name": "Trellis",
+    "website": "https://trellistech.com",
+    "description": "AI agents that run operations for short-term rental property managers. Unifies communications, tasks, workforce, smart homes, bookings, accounting, and revenue management.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2026,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "X'26",
+    "icon_url": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "founders": [
+      {
+        "name": "Jan Sahagun Escosa",
+        "linkedin": "https://www.linkedin.com/in/jan-sahagun-escosa",
+        "bio": "Co-Founder. McGill University. Led early sales at multiple AI tools for property managers, built STR Tech Report.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Carya Venture Partners"
+        ],
+        "source_urls": [],
+        "notes": "YC X26 batch"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "421"
+  },
+  {
+    "name": "Sluicebox",
+    "website": "https://sluicebox.ai",
+    "description": "AI-driven platform that automates and scales life cycle assessments (LCAs) for electronic products. Instant, scientifically-vetted carbon intelligence data for millions of electronic components via API.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "Climate Tech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Sarah Tang",
+        "linkedin": "https://www.linkedin.com/in/sarahtang12",
+        "bio": "Co-Founder & President. MES Sustainability Management from University of Waterloo.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T11:00:00-07:00"
+    },
+    "id": "422"
   }
 ]
