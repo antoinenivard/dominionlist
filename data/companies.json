@@ -39258,5 +39258,72 @@
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
     "id": "438"
+  },
+  {
+    "id": "439",
+    "name": "Dippy AI",
+    "website": "https://dippy.ai",
+    "description": "AI companion platform that allows users to create censorship-free, proactive AI companion characters. 8M+ users. Founded by the team behind WOMBO (150M+ users).",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2023,
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 4100000,
+    "capital_raised_display": "$4.1M",
+    "founders": [
+      {
+        "name": "Akshat Jagga",
+        "linkedin": "https://www.linkedin.com/in/akshat-jagga-580331183",
+        "bio": "Co-Founder & CEO. University of Toronto (CS/Engineering). Previously co-founded WOMBO (150M+ users). Serial entrepreneur — sold first business at 17. Z Fellow.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      },
+      {
+        "name": "Angad Singh Arneja",
+        "linkedin": "https://www.linkedin.com/in/angad-arneja-8999b31b5",
+        "bio": "Co-Founder & COO. University of Toronto (2018-2022). Previously co-founded WOMBO. Z Fellow.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Pre-Seed",
+        "amount_usd": 4100000,
+        "amount_display": "$4.1M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Drive Capital"
+        ],
+        "other_investors": [
+          "Carya VC",
+          "Z Fellows",
+          "Hustle Fund",
+          "Pareto20",
+          "Digital Currency Group"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:00:00-07:00"
+    }
   }
 ]
