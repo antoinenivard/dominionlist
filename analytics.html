@@ -931,7 +931,7 @@ document.getElementById('s2footnote').textContent =
 
 /* ── SECTION 3: Founding Year ── */
 var yrCounts = {};
-var startYr = 2005, endYr = 2026;
+var startYr = 1993, endYr = 2026;
 for(var y=startYr;y<=endYr;y++)yrCounts[y]=0;
 data.forEach(function(c){var y=c.founding_year;if(y&&y>=startYr&&y<=endYr)yrCounts[y]++});
 var maxYr = Math.max.apply(null,Object.values(yrCounts));
