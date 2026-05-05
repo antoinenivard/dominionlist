@@ -8,7 +8,7 @@
     "hq_region": "TX",
     "hq_country": "US",
     "founding_year": 2022,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series B",
     "status": "Active",
     "yc_batch": null,
@@ -106,8 +106,7 @@
     "institution_display": "",
     "capital_raised_usd": 133260000,
     "capital_raised_display": "$133M",
-    "founder_display": "Matt Loszak",
-    "founded_year": 2022
+    "founder_display": "Matt Loszak"
   },
   {
     "id": "accord",
@@ -202,8 +201,7 @@
     "institution_display": "University of Victoria",
     "hq_display": "San Francisco",
     "capital_raised_usd": 17000000,
-    "capital_raised_display": "$17M",
-    "founded_year": 2020
+    "capital_raised_display": "$17M"
   },
   {
     "id": 165,
@@ -285,8 +283,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 29700000,
-    "capital_raised_display": "$29.7M",
-    "founded_year": 2021
+    "capital_raised_display": "$29.7M"
   },
   {
     "id": 301,
@@ -355,8 +352,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 50000,
-    "capital_raised_display": "$50K",
-    "founded_year": 2022
+    "capital_raised_display": "$50K"
   },
   {
     "id": "aemon",
@@ -418,8 +414,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": 264,
@@ -533,8 +528,7 @@
     },
     "institution_display": "University of Toronto, University of Waterloo",
     "capital_raised_usd": 15520000,
-    "capital_raised_display": "$15.5M",
-    "founded_year": 2010
+    "capital_raised_display": "$15.5M"
   },
   {
     "id": "afterquery",
@@ -584,8 +578,7 @@
     "capital_raised_usd": 30500000,
     "capital_raised_display": "$30.5M",
     "founder_display": "Carlos Georgescu",
-    "institution_display": "University of British Columbia",
-    "founded_year": 2023
+    "institution_display": "University of British Columbia"
   },
   {
     "id": "agentops",
@@ -641,8 +634,7 @@
     "institution_display": "Western University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2600000,
-    "capital_raised_display": "$2.6M",
-    "founded_year": 2023
+    "capital_raised_display": "$2.6M"
   },
   {
     "id": "agora",
@@ -653,7 +645,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2022,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
@@ -726,8 +718,7 @@
     "institution_display": "McGill University, University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2023
+    "capital_raised_display": "$5M"
   },
   {
     "id": "agribody-technologies",
@@ -803,8 +794,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Great Falls, MT",
     "capital_raised_usd": 100000,
-    "capital_raised_display": "$100K",
-    "founded_year": 2021
+    "capital_raised_display": "$100K"
   },
   {
     "id": "airalo",
@@ -815,7 +805,7 @@
     "hq_region": "DE",
     "hq_country": "United States",
     "founding_year": 2019,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Private",
     "yc_batch": null,
@@ -934,8 +924,7 @@
     "institution_display": "University of Ottawa",
     "hq_display": "Wilmington, DE",
     "capital_raised_usd": 287300000,
-    "capital_raised_display": "$287M",
-    "founded_year": 2019
+    "capital_raised_display": "$287M"
   },
   {
     "id": "aivita-biomedical",
@@ -1021,8 +1010,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "Irvine, CA",
     "capital_raised_usd": 42000000,
-    "capital_raised_display": "$42M",
-    "founded_year": 2016
+    "capital_raised_display": "$42M"
   },
   {
     "id": 231,
@@ -1087,8 +1075,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 65000000,
-    "capital_raised_display": "$65M",
-    "founded_year": 2020
+    "capital_raised_display": "$65M"
   },
   {
     "id": "alterion-ai",
@@ -1122,8 +1109,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2024
+    "institution_display": "University of Toronto"
   },
   {
     "id": "amigo",
@@ -1193,8 +1179,7 @@
     "institution_display": "Queen's University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 17000000,
-    "capital_raised_display": "$17M",
-    "founded_year": 2024
+    "capital_raised_display": "$17M"
   },
   {
     "id": 166,
@@ -1489,8 +1474,7 @@
     "founder_display": "Chris Olah",
     "institution_display": "University of Toronto",
     "capital_raised_usd": 58704000000,
-    "capital_raised_display": "$58.7B",
-    "founded_year": 2021
+    "capital_raised_display": "$58.7B"
   },
   {
     "id": 270,
@@ -1501,9 +1485,9 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2001,
-    "industry": "Industrial",
-    "stage": "Inactive",
-    "status": "Inactive",
+    "industry": "Enterprise",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "icon_url": "https://cdn.theorg.com/1c461d06-554a-48b1-80e1-da5afa6568c9_medium.jpg",
     "founders": [
@@ -1542,8 +1526,7 @@
     },
     "institution_display": "Carleton University",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2001
+    "capital_raised_display": ""
   },
   {
     "id": "appdirect",
@@ -1763,8 +1746,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 610750000,
-    "capital_raised_display": "$611M",
-    "founded_year": 2009
+    "capital_raised_display": "$611M"
   },
   {
     "id": 310,
@@ -1850,8 +1832,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "arctic-wolf",
@@ -2016,8 +1997,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Eden Prairie, MN",
     "capital_raised_usd": 482200000,
-    "capital_raised_display": "$482M",
-    "founded_year": 2012
+    "capital_raised_display": "$482M"
   },
   {
     "id": "arga-labs",
@@ -2080,8 +2060,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of British Columbia",
-    "founded_year": 2026
+    "institution_display": "University of British Columbia"
   },
   {
     "id": "arista-networks",
@@ -2170,8 +2149,7 @@
     "capital_raised_usd": 10000000,
     "capital_raised_display": "$10M",
     "valuation_usd": 172000000000,
-    "valuation_display": "$172B",
-    "founded_year": 2004
+    "valuation_display": "$172B"
   },
   {
     "id": 317,
@@ -2245,8 +2223,7 @@
     },
     "institution_display": "University of Manitoba",
     "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
-    "founded_year": 2023
+    "capital_raised_display": "$3M"
   },
   {
     "id": 240,
@@ -2364,8 +2341,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 50700000,
-    "capital_raised_display": "$50.7M",
-    "founded_year": 2012
+    "capital_raised_display": "$50.7M"
   },
   {
     "id": "atlasgrid",
@@ -2442,8 +2418,7 @@
     "hq_display": "Mountain View, CA",
     "icon_url": "https://img.logo.dev/atlasgrid.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": 273,
@@ -2454,7 +2429,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2019,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "W'20",
@@ -2535,8 +2510,7 @@
     },
     "institution_display": "University of Toronto, University of Waterloo",
     "capital_raised_usd": 17750000,
-    "capital_raised_display": "$17.8M",
-    "founded_year": 2019
+    "capital_raised_display": "$17.8M"
   },
   {
     "id": "attunement",
@@ -2598,8 +2572,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": 201,
@@ -2664,10 +2637,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Toronto",
-    "total_raised": "$252M",
     "capital_raised_usd": 252000000,
-    "capital_raised_display": "$252M",
-    "founded_year": 2022
+    "capital_raised_display": "$252M"
   },
   {
     "id": 167,
@@ -2678,7 +2649,7 @@
     "hq_region": "PA",
     "hq_country": "US",
     "founding_year": 2017,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Public",
     "status": "Public",
     "yc_batch": null,
@@ -2771,8 +2742,7 @@
     "capital_raised_usd": 620000000,
     "capital_raised_display": "$620M",
     "valuation_usd": 8000000000,
-    "valuation_display": "$8.0B",
-    "founded_year": 2017
+    "valuation_display": "$8.0B"
   },
   {
     "id": "autocode",
@@ -2828,8 +2798,7 @@
     "institution_display": "Western University",
     "hq_display": "San Francisco",
     "capital_raised_usd": 2000000,
-    "capital_raised_display": "$2M",
-    "founded_year": 2016
+    "capital_raised_display": "$2M"
   },
   {
     "id": 335,
@@ -2840,7 +2809,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2016,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
@@ -2928,8 +2897,7 @@
     "institution_display": "University of Ottawa, University of Waterloo",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 10760000,
-    "capital_raised_display": "$10.8M",
-    "founded_year": 2016
+    "capital_raised_display": "$10.8M"
   },
   {
     "id": "autounify",
@@ -2985,8 +2953,7 @@
     "institution_display": "Queen's University",
     "hq_display": "Santa Monica, CA",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2024
+    "capital_raised_display": "$5M"
   },
   {
     "id": "autumn-labs",
@@ -3064,8 +3031,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": "aven",
@@ -3162,8 +3128,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 252000000,
-    "capital_raised_display": "$252M",
-    "founded_year": 2018
+    "capital_raised_display": "$252M"
   },
   {
     "id": 355,
@@ -3224,8 +3189,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 530000,
-    "capital_raised_display": "$530K",
-    "founded_year": 2024
+    "capital_raised_display": "$530K"
   },
   {
     "id": "bamboo-health",
@@ -3317,10 +3281,8 @@
     "founder_display": "Nishi Rawat",
     "institution_display": "McGill University",
     "hq_display": "Louisville, KY",
-    "total_raised": "$103M+",
     "capital_raised_usd": 60000000,
-    "capital_raised_display": "$60M",
-    "founded_year": 2020
+    "capital_raised_display": "$60M"
   },
   {
     "id": "basalt",
@@ -3382,8 +3344,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2023
+    "capital_raised_display": "$4M"
   },
   {
     "id": "baselane",
@@ -3493,8 +3454,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "New York, NY",
     "capital_raised_usd": 42300000,
-    "capital_raised_display": "$42.3M",
-    "founded_year": 2020
+    "capital_raised_display": "$42.3M"
   },
   {
     "id": 332,
@@ -3581,8 +3541,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Boston, MA",
     "capital_raised_usd": 19100000,
-    "capital_raised_display": "$19.1M",
-    "founded_year": 2020
+    "capital_raised_display": "$19.1M"
   },
   {
     "id": 168,
@@ -3670,8 +3629,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 8125000,
-    "capital_raised_display": "$8.12M",
-    "founded_year": 2020
+    "capital_raised_display": "$8.12M"
   },
   {
     "id": 257,
@@ -3755,8 +3713,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2022
+    "capital_raised_display": "$20M"
   },
   {
     "id": "bigid",
@@ -3906,8 +3863,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 224000000,
-    "capital_raised_display": "$224M",
-    "founded_year": 2016
+    "capital_raised_display": "$224M"
   },
   {
     "id": "bild-ai",
@@ -3918,7 +3874,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "W'25",
@@ -3969,8 +3925,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3600000,
-    "capital_raised_display": "$3.6M",
-    "founded_year": 2024
+    "capital_raised_display": "$3.6M"
   },
   {
     "id": 369,
@@ -4110,8 +4065,7 @@
     "capital_raised_usd": 283000000,
     "capital_raised_display": "$283M",
     "valuation_usd": 717000000,
-    "valuation_display": "$717M",
-    "founded_year": 2015
+    "valuation_display": "$717M"
   },
   {
     "id": "blacksmith",
@@ -4225,8 +4179,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 14000000,
-    "capital_raised_display": "$14M",
-    "founded_year": 2023
+    "capital_raised_display": "$14M"
   },
   {
     "id": 327,
@@ -4274,8 +4227,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2022
+    "capital_raised_display": ""
   },
   {
     "id": "blend",
@@ -4412,8 +4364,7 @@
     "capital_raised_usd": 1005000000,
     "capital_raised_display": "$1.0B",
     "valuation_usd": 382000000,
-    "valuation_display": "$382M",
-    "founded_year": 2012
+    "valuation_display": "$382M"
   },
   {
     "id": 191,
@@ -4476,8 +4427,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2020
+    "capital_raised_display": "$5M"
   },
   {
     "id": 213,
@@ -4488,7 +4438,7 @@
     "hq_region": "FL",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -4542,8 +4492,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2022
+    "capital_raised_display": "$4M"
   },
   {
     "id": "bluerock-therapeutics",
@@ -4612,8 +4561,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Cambridge, MA",
     "capital_raised_usd": 225000000,
-    "capital_raised_display": "$225M",
-    "founded_year": 2016
+    "capital_raised_display": "$225M"
   },
   {
     "id": "bluma",
@@ -4690,8 +4638,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": "boardy",
@@ -4771,8 +4718,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 11000000,
-    "capital_raised_display": "$11M",
-    "founded_year": 2023
+    "capital_raised_display": "$11M"
   },
   {
     "id": "bodyport",
@@ -4845,8 +4791,7 @@
     "institution_display": "McMaster University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 11325000,
-    "capital_raised_display": "$11.32M",
-    "founded_year": 2015
+    "capital_raised_display": "$11.32M"
   },
   {
     "id": "bonsai-health",
@@ -4902,8 +4847,7 @@
     "institution_display": "Wilfrid Laurier University",
     "hq_display": "Los Angeles, CA",
     "capital_raised_usd": 7000000,
-    "capital_raised_display": "$7M",
-    "founded_year": 2024
+    "capital_raised_display": "$7M"
   },
   {
     "id": "brain-jar-games",
@@ -4959,8 +4903,7 @@
     "institution_display": "Carleton University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 6700000,
-    "capital_raised_display": "$6.7M",
-    "founded_year": 2024
+    "capital_raised_display": "$6.7M"
   },
   {
     "id": "branch-energy",
@@ -4971,7 +4914,7 @@
     "hq_region": "TX",
     "hq_country": "United States",
     "founding_year": 2021,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
@@ -5044,8 +4987,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Houston, TX",
     "capital_raised_usd": 15300000,
-    "capital_raised_display": "$15.3M",
-    "founded_year": 2021
+    "capital_raised_display": "$15.3M"
   },
   {
     "id": 293,
@@ -5095,8 +5037,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "greenlite",
@@ -5199,8 +5140,7 @@
     "institution_display": "University of British Columbia, Queen's University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 90000000,
-    "capital_raised_display": "$90M",
-    "founded_year": 2025
+    "capital_raised_display": "$90M"
   },
   {
     "id": "canopy-connect",
@@ -5261,8 +5201,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Beaverton, OR",
     "capital_raised_usd": 6500000,
-    "capital_raised_display": "$6.5M",
-    "founded_year": 2020
+    "capital_raised_display": "$6.5M"
   },
   {
     "id": 243,
@@ -5344,8 +5283,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 2000000,
-    "capital_raised_display": "$2M",
-    "founded_year": 2016
+    "capital_raised_display": "$2M"
   },
   {
     "id": "carecycle",
@@ -5407,8 +5345,7 @@
     "institution_display": "University of Victoria",
     "hq_display": "San Mateo, CA",
     "capital_raised_usd": 2500000,
-    "capital_raised_display": "$2.5M",
-    "founded_year": 2024
+    "capital_raised_display": "$2.5M"
   },
   {
     "id": 217,
@@ -5470,10 +5407,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Saskatchewan",
-    "total_raised": "$3.7M",
     "capital_raised_usd": 3700000,
-    "capital_raised_display": "$3.7M",
-    "founded_year": 2022
+    "capital_raised_display": "$3.7M"
   },
   {
     "id": 250,
@@ -5551,8 +5486,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 3300000,
-    "capital_raised_display": "$3.3M",
-    "founded_year": 2023
+    "capital_raised_display": "$3.3M"
   },
   {
     "id": 263,
@@ -5621,8 +5555,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 6000000,
-    "capital_raised_display": "$6M",
-    "founded_year": 2019
+    "capital_raised_display": "$6M"
   },
   {
     "id": "cenote",
@@ -5684,8 +5617,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": 169,
@@ -5786,8 +5718,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 76000000,
-    "capital_raised_display": "$76M",
-    "founded_year": 2018
+    "capital_raised_display": "$76M"
   },
   {
     "id": "cerebelly",
@@ -5843,8 +5774,7 @@
     "institution_display": "Queen's University",
     "hq_display": "Erie, CO",
     "capital_raised_usd": 6700000,
-    "capital_raised_display": "$6.7M",
-    "founded_year": 2019
+    "capital_raised_display": "$6.7M"
   },
   {
     "id": 170,
@@ -5906,10 +5836,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of British Columbia",
-    "total_raised": "$10M",
     "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M",
-    "founded_year": 2023
+    "capital_raised_display": "$10M"
   },
   {
     "id": "chasi",
@@ -5971,22 +5899,13 @@
     "institution_display": "University of Waterloo",
     "hq_display": "New York, NY",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2025
+    "capital_raised_display": "$1M"
   },
   {
     "id": 371,
     "name": "Chemix",
-    "slug": "chemix",
     "description": "AI-powered battery developer designing next-generation EV batteries using generative AI and proprietary experimental datasets.",
-    "logo": "https://img.logo.dev/chemix.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&size=200&format=png",
     "website": "https://www.chemix.ai",
-    "location": {
-      "city": "Sunnyvale",
-      "state": "CA",
-      "country": "US"
-    },
-    "founded_year": 2021,
     "status": "Active",
     "stage": "Series A",
     "founders": [
@@ -6039,29 +5958,12 @@
         "notes": ""
       }
     ],
-    "total_raised": "$20.1M",
-    "tags": [
-      "ai",
-      "cleantech",
-      "batteries",
-      "ev"
-    ],
-    "investors_notable": [
-      "Ibex Investors",
-      "Radical Ventures",
-      "Porsche Ventures",
-      "Mayfield Fund",
-      "BNP Paribas SIVF",
-      "KDDI CVC"
-    ],
-    "source_links": [
-      "https://www.finsmes.com/2024/04/chemix-closes-20m-series-a-funding.html"
-    ],
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "capital_raised_usd": 20100000,
     "capital_raised_display": "$20.1M",
     "founder_display": "Kaixiang Lin",
-    "institution_display": "University of Toronto"
+    "institution_display": "University of Toronto",
+    "founding_year": 2021
   },
   {
     "id": "circleback",
@@ -6138,8 +6040,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
-    "founded_year": 2023
+    "capital_raised_display": "$3M"
   },
   {
     "id": "clabs",
@@ -6150,7 +6051,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2017,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
@@ -6226,8 +6127,7 @@
     ],
     "capital_raised_usd": 36500000,
     "capital_raised_display": "$36.5M",
-    "institution_display": "University of Toronto",
-    "founded_year": 2017
+    "institution_display": "University of Toronto"
   },
   {
     "id": "clado-ai",
@@ -6271,8 +6171,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "",
-    "founded_year": 2024
+    "institution_display": ""
   },
   {
     "id": "clarum",
@@ -6348,8 +6247,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2023
+    "capital_raised_display": "$1M"
   },
   {
     "id": 209,
@@ -6427,8 +6325,7 @@
     },
     "institution_display": "University of Ottawa",
     "capital_raised_usd": 1500000,
-    "capital_raised_display": "$1.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$1.5M"
   },
   {
     "id": "clay",
@@ -6570,8 +6467,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 156000000,
-    "capital_raised_display": "$156M",
-    "founded_year": 2023
+    "capital_raised_display": "$156M"
   },
   {
     "id": "cloudflare",
@@ -6728,8 +6624,7 @@
     "capital_raised_usd": 332100000,
     "capital_raised_display": "$332.1M",
     "valuation_usd": 75800000000,
-    "valuation_display": "$75.8B",
-    "founded_year": 2009
+    "valuation_display": "$75.8B"
   },
   {
     "id": "cocoon",
@@ -6775,7 +6670,7 @@
       },
       {
         "stage": "Acquired",
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "year": 2021,
         "lead_investors": [
           "Substack"
@@ -6824,8 +6719,7 @@
     "hq_display": "San Francisco",
     "icon_url": "https://img.logo.dev/ourcocoon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "capital_raised_usd": 3125000,
-    "capital_raised_display": "$3.12M",
-    "founded_year": 2019
+    "capital_raised_display": "$3.12M"
   },
   {
     "id": "compound-foods",
@@ -6881,8 +6775,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4500000,
-    "capital_raised_display": "$4.5M",
-    "founded_year": 2019
+    "capital_raised_display": "$4.5M"
   },
   {
     "id": 239,
@@ -6944,10 +6837,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$5M",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2020
+    "capital_raised_display": "$5M"
   },
   {
     "id": "consul",
@@ -6958,7 +6849,7 @@
     "hq_region": "NY",
     "hq_country": "United States",
     "founding_year": 2023,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "W'24",
@@ -6996,8 +6887,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2024
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "convelo",
@@ -7098,8 +6988,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Cleveland, OH",
     "capital_raised_usd": 20620000,
-    "capital_raised_display": "$20.6M",
-    "founded_year": 2017
+    "capital_raised_display": "$20.6M"
   },
   {
     "id": 324,
@@ -7220,8 +7109,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 27600000,
-    "capital_raised_display": "$27.6M",
-    "founded_year": 2006
+    "capital_raised_display": "$27.6M"
   },
   {
     "id": 171,
@@ -7322,8 +7210,7 @@
     },
     "institution_display": "Queen's University, University of Toronto",
     "capital_raised_usd": 61600000,
-    "capital_raised_display": "$61.6M",
-    "founded_year": 2017
+    "capital_raised_display": "$61.6M"
   },
   {
     "id": 348,
@@ -7384,8 +7271,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "New York, NY",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": 313,
@@ -7491,8 +7377,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 39000000,
-    "capital_raised_display": "$39M",
-    "founded_year": 2015
+    "capital_raised_display": "$39M"
   },
   {
     "id": "daasity",
@@ -7556,8 +7441,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Diego, CA",
     "capital_raised_usd": 15000000,
-    "capital_raised_display": "$15M",
-    "founded_year": 2019
+    "capital_raised_display": "$15M"
   },
   {
     "id": "databricks",
@@ -7838,8 +7722,7 @@
     "institution_display": "University of Toronto, University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13996900000,
-    "capital_raised_display": "$14.0B",
-    "founded_year": 2013
+    "capital_raised_display": "$14.0B"
   },
   {
     "id": "datacurve",
@@ -7919,8 +7802,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 18200000,
-    "capital_raised_display": "$18.2M",
-    "founded_year": 2024
+    "capital_raised_display": "$18.2M"
   },
   {
     "id": "de-ice",
@@ -7983,8 +7865,7 @@
     "institution_display": "McGill University",
     "hq_display": "Somerville, MA",
     "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M",
-    "founded_year": 2017
+    "capital_raised_display": "$18M"
   },
   {
     "id": "decipher-ai",
@@ -8047,8 +7928,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "decoda-health",
@@ -8135,8 +8015,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5500000,
-    "capital_raised_display": "$5.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$5.5M"
   },
   {
     "id": 336,
@@ -8237,8 +8116,7 @@
     "institution_display": "University of Ottawa",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20630000,
-    "capital_raised_display": "$20.6M",
-    "founded_year": 2020
+    "capital_raised_display": "$20.6M"
   },
   {
     "id": 272,
@@ -8332,8 +8210,7 @@
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 120000000,
     "capital_raised_display": "$120M",
-    "founder_display": "Qasim Mithani",
-    "founded_year": 2023
+    "founder_display": "Qasim Mithani"
   },
   {
     "id": "taplytics",
@@ -8449,8 +8326,7 @@
     "institution_display": "Queen's University, University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2525000,
-    "capital_raised_display": "$2.52M",
-    "founded_year": 2013
+    "capital_raised_display": "$2.52M"
   },
   {
     "id": 211,
@@ -8515,8 +8391,7 @@
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": 6000000,
-    "capital_raised_display": "$6M",
-    "founded_year": 2022
+    "capital_raised_display": "$6M"
   },
   {
     "id": 303,
@@ -8585,8 +8460,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": 290,
@@ -8655,8 +8529,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": 352,
@@ -8717,8 +8590,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Wilmington, DE",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": 247,
@@ -8784,8 +8656,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 3900000,
-    "capital_raised_display": "$3.9M",
-    "founded_year": 2022
+    "capital_raised_display": "$3.9M"
   },
   {
     "id": "draftaid",
@@ -8847,8 +8718,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2023
+    "capital_raised_display": "$1M"
   },
   {
     "id": 218,
@@ -8911,8 +8781,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 2620000,
-    "capital_raised_display": "$2.62M",
-    "founded_year": 2022
+    "capital_raised_display": "$2.62M"
   },
   {
     "id": 319,
@@ -8982,8 +8851,7 @@
     },
     "institution_display": "University of Alberta",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "ebay",
@@ -9061,8 +8929,7 @@
     "capital_raised_display": "$6.7M",
     "valuation_usd": 39400000000,
     "valuation_display": "$39.4B",
-    "institution_display": "University of Toronto",
-    "founded_year": 1995
+    "institution_display": "University of Toronto"
   },
   {
     "id": 345,
@@ -9124,8 +8991,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": "ego",
@@ -9187,8 +9053,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 7200000,
-    "capital_raised_display": "$7.2M",
-    "founded_year": 2023
+    "capital_raised_display": "$7.2M"
   },
   {
     "id": 232,
@@ -9199,7 +9064,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2016,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "W'16",
@@ -9314,8 +9179,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 47125000,
-    "capital_raised_display": "$47.12M",
-    "founded_year": 2016
+    "capital_raised_display": "$47.12M"
   },
   {
     "id": 314,
@@ -9405,8 +9269,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 1200000,
-    "capital_raised_display": "$1.2M",
-    "founded_year": 2013
+    "capital_raised_display": "$1.2M"
   },
   {
     "id": "enfabrica",
@@ -9511,8 +9374,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 290000000,
-    "capital_raised_display": "$290M",
-    "founded_year": 2020
+    "capital_raised_display": "$290M"
   },
   {
     "id": 172,
@@ -9631,8 +9493,7 @@
     },
     "institution_display": "Carleton University",
     "capital_raised_usd": 269000000,
-    "capital_raised_display": "$269M",
-    "founded_year": 2013
+    "capital_raised_display": "$269M"
   },
   {
     "id": "epoch",
@@ -9688,8 +9549,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3600000,
-    "capital_raised_display": "$3.6M",
-    "founded_year": 2020
+    "capital_raised_display": "$3.6M"
   },
   {
     "id": "ergeon",
@@ -9751,8 +9611,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 40000000,
-    "capital_raised_display": "$40M",
-    "founded_year": 2017
+    "capital_raised_display": "$40M"
   },
   {
     "id": "evenup",
@@ -9915,8 +9774,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 370500000,
-    "capital_raised_display": "$370M",
-    "founded_year": 2019
+    "capital_raised_display": "$370M"
   },
   {
     "id": 351,
@@ -9977,8 +9835,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Bellevue, WA",
     "capital_raised_usd": 2500000,
-    "capital_raised_display": "$2.5M",
-    "founded_year": 2024
+    "capital_raised_display": "$2.5M"
   },
   {
     "id": 173,
@@ -10059,8 +9916,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 31000000,
-    "capital_raised_display": "$31M",
-    "founded_year": 2023
+    "capital_raised_display": "$31M"
   },
   {
     "id": "fable-therapeutics",
@@ -10144,8 +10000,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "Cambridge, MA",
     "capital_raised_usd": 53500000,
-    "capital_raised_display": "$53.5M",
-    "founded_year": 2022
+    "capital_raised_display": "$53.5M"
   },
   {
     "id": "faire",
@@ -10392,8 +10247,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1095400000,
-    "capital_raised_display": "$1.1B",
-    "founded_year": 2017
+    "capital_raised_display": "$1.1B"
   },
   {
     "id": 233,
@@ -10475,8 +10329,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 4100000,
-    "capital_raised_display": "$4.1M",
-    "founded_year": 2020
+    "capital_raised_display": "$4.1M"
   },
   {
     "id": 236,
@@ -10558,8 +10411,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 12825000,
-    "capital_raised_display": "$12.82M",
-    "founded_year": 2016
+    "capital_raised_display": "$12.82M"
   },
   {
     "id": 274,
@@ -10638,8 +10490,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 21700000,
-    "capital_raised_display": "$21.7M",
-    "founded_year": 2014
+    "capital_raised_display": "$21.7M"
   },
   {
     "id": 343,
@@ -10702,8 +10553,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": "finic",
@@ -10766,8 +10616,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
-    "icon_url": "https://www.finic.ai/icon.svg",
-    "founded_year": 2022
+    "icon_url": "https://www.finic.ai/icon.svg"
   },
   {
     "id": "finni-health",
@@ -10824,8 +10673,7 @@
     "institution_display": "McMaster University",
     "hq_display": "San Francisco",
     "capital_raised_usd": 3700000,
-    "capital_raised_display": "$3.7M",
-    "founded_year": 2022
+    "capital_raised_display": "$3.7M"
   },
   {
     "id": 214,
@@ -10932,8 +10780,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 21300000,
-    "capital_raised_display": "$21.3M",
-    "founded_year": 2022
+    "capital_raised_display": "$21.3M"
   },
   {
     "id": "finsurf",
@@ -10967,8 +10814,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2025
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 305,
@@ -11041,8 +10887,7 @@
     "capital_raised_usd": 2000000,
     "capital_raised_display": "$2M",
     "founder_display": "Andy Wang",
-    "hq_display": "San Francisco",
-    "founded_year": 2020
+    "hq_display": "San Francisco"
   },
   {
     "id": 347,
@@ -11104,8 +10949,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": 193,
@@ -11189,8 +11033,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 85000000,
-    "capital_raised_display": "$85M",
-    "founded_year": 2018
+    "capital_raised_display": "$85M"
   },
   {
     "id": "flexpa",
@@ -11257,8 +11100,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 8500000,
-    "capital_raised_display": "$8.5M",
-    "founded_year": 2022
+    "capital_raised_display": "$8.5M"
   },
   {
     "id": 306,
@@ -11330,8 +11172,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M",
-    "founded_year": 2015
+    "capital_raised_display": "$10M"
   },
   {
     "id": 254,
@@ -11417,8 +11258,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 3150000,
-    "capital_raised_display": "$3.15M",
-    "founded_year": 2019
+    "capital_raised_display": "$3.15M"
   },
   {
     "id": "forethought",
@@ -11564,8 +11404,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 116000000,
-    "capital_raised_display": "$116M",
-    "founded_year": 2018
+    "capital_raised_display": "$116M"
   },
   {
     "id": 271,
@@ -11635,8 +11474,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 26400000,
-    "capital_raised_display": "$26.4M",
-    "founded_year": 2021
+    "capital_raised_display": "$26.4M"
   },
   {
     "id": "functional-neuromodulation",
@@ -11711,10 +11549,8 @@
     "founder_display": "Dr. Andres M. Lozano",
     "institution_display": "University of Toronto",
     "hq_display": "Minneapolis, MN",
-    "total_raised": "$14.5M",
     "capital_raised_usd": 14500000,
-    "capital_raised_display": "$14.5M",
-    "founded_year": 2009
+    "capital_raised_display": "$14.5M"
   },
   {
     "id": "gale",
@@ -11804,8 +11640,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3200000,
-    "capital_raised_display": "$3.2M",
-    "founded_year": 2024
+    "capital_raised_display": "$3.2M"
   },
   {
     "id": 326,
@@ -11891,10 +11726,8 @@
     "founder_display": "Mayank Mehta",
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
-    "total_raised": "$76M",
     "capital_raised_usd": 76000000,
-    "capital_raised_display": "$76M",
-    "founded_year": 2020
+    "capital_raised_display": "$76M"
   },
   {
     "id": "gdi",
@@ -11950,8 +11783,7 @@
     "institution_display": "McGill University",
     "hq_display": "Rochester, NY",
     "capital_raised_usd": 11500000,
-    "capital_raised_display": "$11.5M",
-    "founded_year": 2009
+    "capital_raised_display": "$11.5M"
   },
   {
     "id": 210,
@@ -12128,7 +11960,7 @@
         "date": "2025-02-12",
         "round": "Wind Down",
         "amount_usd": null,
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "valuation_usd": 0,
         "valuation_display": "Inactive",
         "lead_investors": [],
@@ -12159,8 +11991,7 @@
     },
     "institution_display": "Carleton University, Queen's University",
     "capital_raised_usd": 754300000,
-    "capital_raised_display": "$754.3M",
-    "founded_year": 2009
+    "capital_raised_display": "$754.3M"
   },
   {
     "id": 368,
@@ -12171,7 +12002,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2021,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
@@ -12238,8 +12069,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 22000000,
-    "capital_raised_display": "$22M",
-    "founded_year": 2022
+    "capital_raised_display": "$22M"
   },
   {
     "id": "goodkind",
@@ -12317,8 +12147,7 @@
     "institution_display": "Queen's University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 125000,
-    "capital_raised_display": "$125K",
-    "founded_year": 2021
+    "capital_raised_display": "$125K"
   },
   {
     "id": "gptzero",
@@ -12410,8 +12239,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13500000,
-    "capital_raised_display": "$13.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$13.5M"
   },
   {
     "id": 251,
@@ -12478,8 +12306,7 @@
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": 3560000,
-    "capital_raised_display": "$3.56M",
-    "founded_year": 2023
+    "capital_raised_display": "$3.56M"
   },
   {
     "id": "grepr",
@@ -12535,8 +12362,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 9000000,
-    "capital_raised_display": "$9M",
-    "founded_year": 2023
+    "capital_raised_display": "$9M"
   },
   {
     "id": 256,
@@ -12616,8 +12442,7 @@
     },
     "institution_display": "University of Waterloo, York University",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 361,
@@ -12628,7 +12453,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
@@ -12682,8 +12507,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Leandro, CA",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2026
+    "capital_raised_display": "$20M"
   },
   {
     "id": 312,
@@ -12772,8 +12596,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 2400000,
-    "capital_raised_display": "$2.4M",
-    "founded_year": 2016
+    "capital_raised_display": "$2.4M"
   },
   {
     "id": 219,
@@ -12936,8 +12759,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 1814300000,
-    "capital_raised_display": "$1.8B",
-    "founded_year": 2016
+    "capital_raised_display": "$1.8B"
   },
   {
     "id": "gumloop",
@@ -13058,8 +12880,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 70100000,
-    "capital_raised_display": "$70.1M",
-    "founded_year": 2023
+    "capital_raised_display": "$70.1M"
   },
   {
     "id": 253,
@@ -13127,8 +12948,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 3800000,
-    "capital_raised_display": "$3.8M",
-    "founded_year": 2023
+    "capital_raised_display": "$3.8M"
   },
   {
     "id": 202,
@@ -13139,7 +12959,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2022,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series A",
     "status": "Active",
     "yc_batch": "S'22",
@@ -13203,10 +13023,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$12.5M+",
     "capital_raised_usd": 13000000,
-    "capital_raised_display": "$13M",
-    "founded_year": 2022
+    "capital_raised_display": "$13M"
   },
   {
     "id": "helios",
@@ -13262,8 +13080,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": 308,
@@ -13334,8 +13151,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2019
+    "capital_raised_display": "$500K"
   },
   {
     "id": 341,
@@ -13398,8 +13214,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Seattle, WA",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2024
+    "capital_raised_display": "$4M"
   },
   {
     "id": "highbeam",
@@ -13503,8 +13318,7 @@
     ],
     "capital_raised_usd": 47000000,
     "capital_raised_display": "$47M",
-    "institution_display": "Western University, University of Waterloo",
-    "founded_year": 2022
+    "institution_display": "Western University, University of Waterloo"
   },
   {
     "id": "hotbox",
@@ -13553,8 +13367,7 @@
     ],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of British Columbia",
-    "founded_year": 2023
+    "institution_display": "University of British Columbia"
   },
   {
     "id": 322,
@@ -13604,8 +13417,7 @@
     },
     "institution_display": "University of Alberta",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2019
+    "capital_raised_display": ""
   },
   {
     "id": 275,
@@ -13719,8 +13531,7 @@
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": 30000000,
-    "capital_raised_display": "$30M",
-    "founded_year": 2013
+    "capital_raised_display": "$30M"
   },
   {
     "id": 276,
@@ -13782,8 +13593,7 @@
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 291,
@@ -13858,8 +13668,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 6300000,
-    "capital_raised_display": "$6.3M",
-    "founded_year": 2023
+    "capital_raised_display": "$6.3M"
   },
   {
     "id": "iex-exchange",
@@ -13941,8 +13750,7 @@
     "institution_display": "Wilfrid Laurier University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 25900000,
-    "capital_raised_display": "$25.9M",
-    "founded_year": 2012
+    "capital_raised_display": "$25.9M"
   },
   {
     "id": "in-diagnostics",
@@ -13998,8 +13806,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Carlsbad, CA",
     "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
-    "founded_year": 2018
+    "capital_raised_display": "$3M"
   },
   {
     "id": "inferact",
@@ -14049,8 +13856,7 @@
     ],
     "capital_raised_usd": 150000000,
     "capital_raised_display": "$150M",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2026
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 212,
@@ -14124,8 +13930,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2023
+    "capital_raised_display": "$4M"
   },
   {
     "id": "instacart",
@@ -14286,8 +14091,7 @@
     "capital_raised_usd": 2164800000,
     "capital_raised_display": "$2.2B",
     "valuation_usd": 9000000000,
-    "valuation_display": "$9.0B",
-    "founded_year": 2012
+    "valuation_display": "$9.0B"
   },
   {
     "id": 354,
@@ -14346,8 +14150,7 @@
     "institution_display": "",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2025
+    "capital_raised_display": "$4M"
   },
   {
     "id": "internet-backyard",
@@ -14399,8 +14202,7 @@
     ],
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M",
-    "institution_display": "Simon Fraser University",
-    "founded_year": 2025
+    "institution_display": "Simon Fraser University"
   },
   {
     "id": 192,
@@ -14509,8 +14311,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 107000000,
-    "capital_raised_display": "$107M",
-    "founded_year": 2021
+    "capital_raised_display": "$107M"
   },
   {
     "id": 237,
@@ -14586,8 +14387,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Menlo Park, CA",
     "capital_raised_usd": 4500000,
-    "capital_raised_display": "$4.5M",
-    "founded_year": 2022
+    "capital_raised_display": "$4.5M"
   },
   {
     "id": 350,
@@ -14648,8 +14448,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": "julius-ai",
@@ -14738,8 +14537,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 10500000,
-    "capital_raised_display": "$10.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$10.5M"
   },
   {
     "id": 362,
@@ -14815,8 +14613,7 @@
     "institution_display": "University of British Columbia, University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2025
+    "capital_raised_display": ""
   },
   {
     "id": "kai-cyber",
@@ -14872,8 +14669,7 @@
     "institution_display": "York University",
     "hq_display": "San Jose, CA",
     "capital_raised_usd": 125000000,
-    "capital_raised_display": "$125M",
-    "founded_year": 2025
+    "capital_raised_display": "$125M"
   },
   {
     "id": "kerrigan",
@@ -14908,8 +14704,7 @@
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2023
+    "institution_display": "University of Toronto"
   },
   {
     "id": "keye",
@@ -14971,8 +14766,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "New York, NY",
     "capital_raised_usd": 5500000,
-    "capital_raised_display": "$5.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$5.5M"
   },
   {
     "id": "kindred",
@@ -15007,11 +14801,11 @@
         "name": "James Bergstra",
         "linkedin": "https://www.linkedin.com/in/jamesbergstra",
         "role": "Co-Founder",
-        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Universit\u00e9 de Montr\u00e9al under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
+        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Université de Montréal under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
+        "canadian_institution": "Université de Montréal",
         "canadian_institutions": [
-          "Universit\u00e9 de Montr\u00e9al",
+          "Université de Montréal",
           "University of Waterloo"
         ],
         "wikipedia_url": "",
@@ -15089,9 +14883,8 @@
     ],
     "capital_raised_usd": 43000000,
     "capital_raised_display": "$43M",
-    "institution_display": "University of Toronto, Universit\u00e9 de Montr\u00e9al, University of British Columbia",
-    "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbHMCtVSDScHVpXmhZIRUywHp0dKar07wsQ&s",
-    "founded_year": 2014
+    "institution_display": "University of Toronto, Université de Montréal, University of British Columbia",
+    "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbHMCtVSDScHVpXmhZIRUywHp0dKar07wsQ&s"
   },
   {
     "id": 304,
@@ -15102,7 +14895,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Series A",
     "status": "Active",
     "yc_batch": "",
@@ -15165,8 +14958,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M",
-    "founded_year": 2023
+    "capital_raised_display": "$18M"
   },
   {
     "id": 197,
@@ -15275,10 +15067,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$94M+",
     "capital_raised_usd": 94000000,
-    "capital_raised_display": "$94M",
-    "founded_year": 2018
+    "capital_raised_display": "$94M"
   },
   {
     "id": "kx-systems",
@@ -15341,8 +15131,7 @@
     "institution_display": "University of Alberta",
     "hq_display": "New York, NY",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 1993
+    "capital_raised_display": ""
   },
   {
     "id": 174,
@@ -15408,8 +15197,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 12500000,
-    "capital_raised_display": "$12.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$12.5M"
   },
   {
     "id": "landed",
@@ -15487,8 +15275,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 38625000,
-    "capital_raised_display": "$38.62M",
-    "founded_year": 2015
+    "capital_raised_display": "$38.62M"
   },
   {
     "id": "letter-ai",
@@ -15566,8 +15353,7 @@
     "institution_display": "Concordia University",
     "hq_display": "Chicago, IL",
     "capital_raised_usd": 50600000,
-    "capital_raised_display": "$50.6M",
-    "founded_year": 2020
+    "capital_raised_display": "$50.6M"
   },
   {
     "id": 190,
@@ -15650,8 +15436,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 69000000,
-    "capital_raised_display": "$69M",
-    "founded_year": 2023
+    "capital_raised_display": "$69M"
   },
   {
     "id": 258,
@@ -15718,8 +15503,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 224,
@@ -15783,8 +15567,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2021
+    "capital_raised_display": ""
   },
   {
     "id": "locu",
@@ -15854,8 +15637,7 @@
     "icon_url": "https://cdn.prod.website-files.com/63179e8148d09425c400fbab/639b79b70b61a47762313d6d_ShEXUrftY0gF5Ic_6xhqsN3kQtNB_DPlvisTcmnUlSs.png",
     "capital_raised_usd": 4600000,
     "capital_raised_display": "$4.6M",
-    "institution_display": "University of Toronto",
-    "founded_year": 2011
+    "institution_display": "University of Toronto"
   },
   {
     "id": 242,
@@ -15949,8 +15731,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M",
-    "founded_year": 2012
+    "capital_raised_display": "$10M"
   },
   {
     "id": 289,
@@ -16000,8 +15781,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "lunavo",
@@ -16050,8 +15830,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2025
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 175,
@@ -16214,8 +15993,7 @@
     "capital_raised_usd": 4772200000,
     "capital_raised_display": "$4.8B",
     "valuation_usd": 5500000000,
-    "valuation_display": "$5.5B",
-    "founded_year": 2012
+    "valuation_display": "$5.5B"
   },
   {
     "id": "machina-labs",
@@ -16226,7 +16004,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2019,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Private",
     "yc_batch": null,
@@ -16308,8 +16086,7 @@
     ],
     "capital_raised_usd": 170000000,
     "capital_raised_display": "$170M",
-    "institution_display": "University of British Columbia",
-    "founded_year": 2019
+    "institution_display": "University of British Columbia"
   },
   {
     "id": 221,
@@ -16320,7 +16097,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2018,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Series A",
     "status": "Active",
     "yc_batch": null,
@@ -16391,8 +16168,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 79000000,
-    "capital_raised_display": "$79M",
-    "founded_year": 2018
+    "capital_raised_display": "$79M"
   },
   {
     "id": "magical",
@@ -16484,8 +16260,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 41000000,
-    "capital_raised_display": "$41M",
-    "founded_year": 2017
+    "capital_raised_display": "$41M"
   },
   {
     "id": "maintainx",
@@ -16610,8 +16385,7 @@
     "institution_display": "McGill University",
     "hq_display": "Miami, FL",
     "capital_raised_usd": 103800000,
-    "capital_raised_display": "$104M",
-    "founded_year": 2018
+    "capital_raised_display": "$104M"
   },
   {
     "id": "marble",
@@ -16666,8 +16440,7 @@
     "capital_raised_usd": 9000000,
     "capital_raised_display": "$9M",
     "icon_url": "https://cdn.prod.website-files.com/68d4441a98522ff37145a0d3/691fc8bbb1fd879407a5bc57_ico.png",
-    "institution_display": "University of Toronto",
-    "founded_year": 2025
+    "institution_display": "University of Toronto"
   },
   {
     "id": 234,
@@ -16755,8 +16528,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 70000000,
-    "capital_raised_display": "$70M",
-    "founded_year": 2011
+    "capital_raised_display": "$70M"
   },
   {
     "id": "melrok",
@@ -16812,8 +16584,7 @@
     "institution_display": "McGill University",
     "hq_display": "Reno, NV",
     "capital_raised_usd": 2840000,
-    "capital_raised_display": "$2.8M",
-    "founded_year": 2013
+    "capital_raised_display": "$2.8M"
   },
   {
     "id": 265,
@@ -16903,8 +16674,7 @@
     },
     "institution_display": "University of British Columbia, York University",
     "capital_raised_usd": 3500000,
-    "capital_raised_display": "$3.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$3.5M"
   },
   {
     "id": 176,
@@ -16971,8 +16741,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 8000000,
-    "capital_raised_display": "$8M",
-    "founded_year": 2018
+    "capital_raised_display": "$8M"
   },
   {
     "id": 222,
@@ -17066,8 +16835,7 @@
     },
     "institution_display": "Concordia University",
     "capital_raised_usd": 22000000,
-    "capital_raised_display": "$22M",
-    "founded_year": 2023
+    "capital_raised_display": "$22M"
   },
   {
     "id": 331,
@@ -17168,8 +16936,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Boston, MA",
     "capital_raised_usd": 22325000,
-    "capital_raised_display": "$22.32M",
-    "founded_year": 2021
+    "capital_raised_display": "$22.32M"
   },
   {
     "id": "metriport",
@@ -17252,8 +17019,7 @@
     "institution_display": "",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3400000,
-    "capital_raised_display": "$3.4M",
-    "founded_year": 2022
+    "capital_raised_display": "$3.4M"
   },
   {
     "id": 349,
@@ -17316,8 +17082,7 @@
     "institution_display": "",
     "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": "minds-ai",
@@ -17380,8 +17145,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": 5300000,
-    "capital_raised_display": "$5.3M",
-    "founded_year": 2016
+    "capital_raised_display": "$5.3M"
   },
   {
     "id": 223,
@@ -17444,8 +17208,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 12625000,
-    "capital_raised_display": "$12.62M",
-    "founded_year": 2019
+    "capital_raised_display": "$12.62M"
   },
   {
     "id": 262,
@@ -17526,10 +17289,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Waterloo",
-    "total_raised": "$7.5M",
     "capital_raised_usd": 8000000,
-    "capital_raised_display": "$8M",
-    "founded_year": 2023
+    "capital_raised_display": "$8M"
   },
   {
     "id": "moderna",
@@ -17669,8 +17430,7 @@
     "capital_raised_usd": 2795000000,
     "capital_raised_display": "$2.8B",
     "valuation_usd": 20100000000,
-    "valuation_display": "$20.1B",
-    "founded_year": 2010
+    "valuation_display": "$20.1B"
   },
   {
     "id": 357,
@@ -17731,8 +17491,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": 358,
@@ -17743,7 +17502,7 @@
     "hq_region": "NY",
     "hq_country": "United States",
     "founding_year": 2021,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
@@ -17792,8 +17551,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "New York, NY",
     "capital_raised_usd": 5350000,
-    "capital_raised_display": "$5.35M",
-    "founded_year": 2022
+    "capital_raised_display": "$5.35M"
   },
   {
     "id": "momentic",
@@ -17869,8 +17627,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 19200000,
-    "capital_raised_display": "$19.2M",
-    "founded_year": 2023
+    "capital_raised_display": "$19.2M"
   },
   {
     "id": "momentum",
@@ -17970,8 +17727,7 @@
     "institution_display": "",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M",
-    "founded_year": 2018
+    "capital_raised_display": "$18M"
   },
   {
     "id": 286,
@@ -18055,8 +17811,7 @@
     },
     "institution_display": "University of Waterloo, Western University",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "movellus",
@@ -18141,8 +17896,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 29000000,
-    "capital_raised_display": "$29M",
-    "founded_year": 2014
+    "capital_raised_display": "$29M"
   },
   {
     "id": "nantomics",
@@ -18217,8 +17971,7 @@
     "hq_display": "Culver City, CA",
     "icon_url": "https://nantomics.com/wp-content/uploads/2018/12/cropped-favicon-180x180.png",
     "capital_raised_usd": 150000000,
-    "capital_raised_display": "$150M",
-    "founded_year": 2015
+    "capital_raised_display": "$150M"
   },
   {
     "id": "nationgraph",
@@ -18301,8 +18054,7 @@
     ],
     "capital_raised_usd": 22500000,
     "capital_raised_display": "$22.5M",
-    "institution_display": "University of Victoria, University of British Columbia",
-    "founded_year": 2023
+    "institution_display": "University of Victoria, University of British Columbia"
   },
   {
     "id": 255,
@@ -18369,8 +18121,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 339,
@@ -18476,8 +18227,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 7000000,
-    "capital_raised_display": "$7M",
-    "founded_year": 2006
+    "capital_raised_display": "$7M"
   },
   {
     "id": "netskope",
@@ -18624,8 +18374,7 @@
     "capital_raised_usd": 1947700000,
     "capital_raised_display": "$1.9B",
     "valuation_usd": 4800000000,
-    "valuation_display": "$4.8B",
-    "founded_year": 2012
+    "valuation_display": "$4.8B"
   },
   {
     "id": "neuralink",
@@ -18722,8 +18471,7 @@
     "institution_display": "Queen's University",
     "hq_display": "Fremont, CA",
     "capital_raised_usd": 973000000,
-    "capital_raised_display": "$973M",
-    "founded_year": 2016
+    "capital_raised_display": "$973M"
   },
   {
     "id": "new-relic",
@@ -18887,8 +18635,7 @@
     "institution_display": "",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 199500000,
-    "capital_raised_display": "$200M",
-    "founded_year": 2008
+    "capital_raised_display": "$200M"
   },
   {
     "id": 311,
@@ -18974,8 +18721,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2019
+    "capital_raised_display": "$5M"
   },
   {
     "id": 196,
@@ -18986,7 +18732,7 @@
     "hq_region": "DE",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Series A",
     "status": "Active",
     "yc_batch": null,
@@ -19041,8 +18787,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M",
-    "founded_year": 2022
+    "capital_raised_display": "$18M"
   },
   {
     "id": 344,
@@ -19122,8 +18867,7 @@
     "institution_display": "McGill University",
     "hq_display": "Santa Monica, CA",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2024
+    "capital_raised_display": "$4M"
   },
   {
     "id": "normal",
@@ -19201,8 +18945,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": "notion",
@@ -19327,8 +19070,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 337000000,
-    "capital_raised_display": "$337M",
-    "founded_year": 2013
+    "capital_raised_display": "$337M"
   },
   {
     "id": "atomwise",
@@ -19502,8 +19244,7 @@
     "hq_display": "San Francisco, CA",
     "icon_url": "https://numerionlabs.ai/wp-content/uploads/2025/11/nl-logomark-512x512-1-300x300.png",
     "capital_raised_usd": 318790000,
-    "capital_raised_display": "$319M",
-    "founded_year": 2015
+    "capital_raised_display": "$319M"
   },
   {
     "id": 337,
@@ -19579,8 +19320,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Troy, NY",
     "capital_raised_usd": 925000,
-    "capital_raised_display": "$925K",
-    "founded_year": 2021
+    "capital_raised_display": "$925K"
   },
   {
     "id": 288,
@@ -19651,8 +19391,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 323,
@@ -19791,8 +19530,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 131900000,
-    "capital_raised_display": "$132M",
-    "founded_year": 2019
+    "capital_raised_display": "$132M"
   },
   {
     "id": 177,
@@ -19858,8 +19596,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 5200000,
-    "capital_raised_display": "$5.2M",
-    "founded_year": 2023
+    "capital_raised_display": "$5.2M"
   },
   {
     "id": 353,
@@ -19918,8 +19655,7 @@
     "institution_display": "",
     "hq_display": "New York, NY",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": 178,
@@ -19984,8 +19720,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 625000,
-    "capital_raised_display": "$625K",
-    "founded_year": 2023
+    "capital_raised_display": "$625K"
   },
   {
     "id": "onc-ai",
@@ -20055,8 +19790,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 31000000,
-    "capital_raised_display": "$31M",
-    "founded_year": 2020
+    "capital_raised_display": "$31M"
   },
   {
     "id": "openai",
@@ -20284,8 +20018,7 @@
     "institution_display": "University of Toronto, Queen's University, Carleton University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 167900000000,
-    "capital_raised_display": "$167.9B",
-    "founded_year": 2015
+    "capital_raised_display": "$167.9B"
   },
   {
     "id": "openbuilder",
@@ -20348,8 +20081,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "icon_url": "https://api.typedream.com/v0/document/public/929dfde1-a7c7-4ebf-bd78-6ab3608c36c4/3553kpZhSIP8hfuvUL7Qr8JSpEi_openbuilder_logo_white_on_black.png",
-    "founded_year": 2025
+    "icon_url": "https://api.typedream.com/v0/document/public/929dfde1-a7c7-4ebf-bd78-6ab3608c36c4/3553kpZhSIP8hfuvUL7Qr8JSpEi_openbuilder_logo_white_on_black.png"
   },
   {
     "id": 179,
@@ -20453,8 +20185,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 56000000,
-    "capital_raised_display": "$56M",
-    "founded_year": 2018
+    "capital_raised_display": "$56M"
   },
   {
     "id": "opusense-ai",
@@ -20503,8 +20234,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2025
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 249,
@@ -20569,8 +20299,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "ossifi",
@@ -20624,8 +20353,7 @@
     "institution_display": "",
     "hq_display": "Overland Park, KS",
     "capital_raised_usd": 1950000,
-    "capital_raised_display": "$1.9M",
-    "founded_year": 2006
+    "capital_raised_display": "$1.9M"
   },
   {
     "id": "outerport",
@@ -20701,8 +20429,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": 316,
@@ -20794,8 +20521,7 @@
     },
     "institution_display": "University of Manitoba",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2010
+    "capital_raised_display": "$5M"
   },
   {
     "id": "pactima",
@@ -20871,8 +20597,7 @@
     "institution_display": "University of Ottawa",
     "hq_display": "New York, NY",
     "capital_raised_usd": 1125000,
-    "capital_raised_display": "$1.12M",
-    "founded_year": 2020
+    "capital_raised_display": "$1.12M"
   },
   {
     "id": "pagerduty",
@@ -21033,8 +20758,7 @@
     "capital_raised_usd": 173600000,
     "capital_raised_display": "$174M",
     "valuation_usd": 585000000,
-    "valuation_display": "$585M",
-    "founded_year": 2009
+    "valuation_display": "$585M"
   },
   {
     "id": "pap",
@@ -21096,8 +20820,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Berkeley, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": 180,
@@ -21108,7 +20831,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2020,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series B",
     "status": "Active",
     "yc_batch": null,
@@ -21201,8 +20924,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 80250000,
-    "capital_raised_display": "$80.2M",
-    "founded_year": 2020
+    "capital_raised_display": "$80.2M"
   },
   {
     "id": "patlytics",
@@ -21319,8 +21041,7 @@
     ],
     "capital_raised_usd": 58500000,
     "capital_raised_display": "$58.5M",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2023
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 280,
@@ -21468,8 +21189,7 @@
     "capital_raised_usd": 217500000,
     "capital_raised_display": "$217.5M",
     "valuation_usd": 41000000000,
-    "valuation_display": "$41.0B",
-    "founded_year": 1998
+    "valuation_display": "$41.0B"
   },
   {
     "id": 181,
@@ -21557,8 +21277,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 10391845,
-    "capital_raised_display": "$10.39M",
-    "founded_year": 2012
+    "capital_raised_display": "$10.39M"
   },
   {
     "id": "penguin-ai",
@@ -21607,8 +21326,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2022
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 284,
@@ -21752,8 +21470,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 197450000,
-    "capital_raised_display": "$197M",
-    "founded_year": 2016
+    "capital_raised_display": "$197M"
   },
   {
     "id": "pepper",
@@ -21854,8 +21571,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "New York, NY",
     "capital_raised_usd": 96000000,
-    "capital_raised_display": "$96M",
-    "founded_year": 2023
+    "capital_raised_display": "$96M"
   },
   {
     "id": "percepta",
@@ -21911,8 +21627,7 @@
     "institution_display": "Queen's University",
     "hq_display": "Edmonds, WA",
     "capital_raised_usd": 5580000,
-    "capital_raised_display": "$5.6M",
-    "founded_year": 2015
+    "capital_raised_display": "$5.6M"
   },
   {
     "id": "periodic-labs",
@@ -21934,11 +21649,11 @@
         "linkedin_url": "https://www.linkedin.com/in/william-liam-fedus-26547811/",
         "x_url": "https://x.com/LiamFedus",
         "role": "Co-Founder & CEO",
-        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Universit\u00e9 de Montr\u00e9al. BS in Physics from MIT, MS from UC San Diego.",
+        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Université de Montréal. BS in Physics from MIT, MS from UC San Diego.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
+        "canadian_institution": "Université de Montréal",
         "canadian_institutions": [
-          "Universit\u00e9 de Montr\u00e9al"
+          "Université de Montréal"
         ],
         "wikipedia_url": ""
       }
@@ -21987,11 +21702,10 @@
       "valuation_source_url": "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/"
     },
     "founder_display": "Liam Fedus",
-    "institution_display": "Universit\u00e9 de Montr\u00e9al",
+    "institution_display": "Université de Montréal",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 300000000,
-    "capital_raised_display": "$300M",
-    "founded_year": 2023
+    "capital_raised_display": "$300M"
   },
   {
     "id": "perl-street",
@@ -22050,8 +21764,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Austin, TX",
     "capital_raised_usd": 125000,
-    "capital_raised_display": "$125K",
-    "founded_year": 2021
+    "capital_raised_display": "$125K"
   },
   {
     "id": 238,
@@ -22168,8 +21881,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 11500000,
-    "capital_raised_display": "$11.5M",
-    "founded_year": 2016
+    "capital_raised_display": "$11.5M"
   },
   {
     "id": "phonic",
@@ -22276,8 +21988,7 @@
     "hq_display": "San Francisco, CA",
     "icon_url": "https://bookface-images.s3.amazonaws.com/small_logos/accc040e6e05d59906b58dd5cbcb069fe6d2cfc0.png",
     "capital_raised_usd": 2350000,
-    "capital_raised_display": "$2.4M",
-    "founded_year": 2019
+    "capital_raised_display": "$2.4M"
   },
   {
     "id": 245,
@@ -22381,8 +22092,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 35000000,
-    "capital_raised_display": "$35M",
-    "founded_year": 2019
+    "capital_raised_display": "$35M"
   },
   {
     "id": 206,
@@ -22444,8 +22154,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": 248,
@@ -22508,8 +22217,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": "pique-ai",
@@ -22543,8 +22251,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2022
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "piris-labs",
@@ -22593,8 +22300,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Toronto",
-    "founded_year": 2026
+    "institution_display": "University of Toronto"
   },
   {
     "id": 216,
@@ -22689,8 +22395,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 22000000,
-    "capital_raised_display": "$22M",
-    "founded_year": 2018
+    "capital_raised_display": "$22M"
   },
   {
     "id": 309,
@@ -22741,8 +22446,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 182,
@@ -22805,8 +22509,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 4000000,
-    "capital_raised_display": "$4M",
-    "founded_year": 2019
+    "capital_raised_display": "$4M"
   },
   {
     "id": 266,
@@ -22923,8 +22626,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 5145000,
-    "capital_raised_display": "$5.14M",
-    "founded_year": 2008
+    "capital_raised_display": "$5.14M"
   },
   {
     "id": 183,
@@ -23020,8 +22722,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 19000000,
-    "capital_raised_display": "$19M",
-    "founded_year": 2019
+    "capital_raised_display": "$19M"
   },
   {
     "id": 225,
@@ -23085,8 +22786,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 12000000,
-    "capital_raised_display": "$12M",
-    "founded_year": 2017
+    "capital_raised_display": "$12M"
   },
   {
     "id": "process-street",
@@ -23185,8 +22885,7 @@
     "institution_display": "Queen's University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13920000,
-    "capital_raised_display": "$13.9M",
-    "founded_year": 2014
+    "capital_raised_display": "$13.9M"
   },
   {
     "id": "proximal-ai",
@@ -23220,8 +22919,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2024
+    "institution_display": "University of Toronto"
   },
   {
     "id": 325,
@@ -23319,8 +23017,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 10500000,
-    "capital_raised_display": "$10.5M",
-    "founded_year": 2014
+    "capital_raised_display": "$10.5M"
   },
   {
     "id": "qbdvision",
@@ -23390,8 +23087,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Austin, TX",
     "capital_raised_usd": 28000000,
-    "capital_raised_display": "$28M",
-    "founded_year": 2016
+    "capital_raised_display": "$28M"
   },
   {
     "id": 338,
@@ -23495,8 +23191,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 1999
+    "capital_raised_display": ""
   },
   {
     "id": 184,
@@ -23507,7 +23202,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2021,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -23559,8 +23254,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M",
-    "founded_year": 2018
+    "capital_raised_display": "$10M"
   },
   {
     "id": "rainbow",
@@ -23650,8 +23344,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2023
+    "capital_raised_display": "$20M"
   },
   {
     "id": 207,
@@ -23712,8 +23405,7 @@
     },
     "institution_display": "Queen's University, University of Toronto",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2021
+    "capital_raised_display": ""
   },
   {
     "id": "recast-systems",
@@ -23724,7 +23416,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2025,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": null,
@@ -23747,8 +23439,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2024
+    "institution_display": "University of Toronto"
   },
   {
     "id": "recipeui",
@@ -23811,8 +23502,7 @@
     "hq_display": "New York, NY",
     "icon_url": "https://img.logo.dev/recipeui.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "redirect-health",
@@ -23867,10 +23557,8 @@
     "founder_display": "Dr. David Berg",
     "institution_display": "University of Toronto",
     "hq_display": "Scottsdale, AZ",
-    "total_raised": "$1.44M",
     "capital_raised_usd": 1440000,
-    "capital_raised_display": "$1.44M",
-    "founded_year": 2012
+    "capital_raised_display": "$1.44M"
   },
   {
     "id": "reflexion",
@@ -24037,8 +23725,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Hayward, CA",
     "capital_raised_usd": 444600000,
-    "capital_raised_display": "$445M",
-    "founded_year": 2015
+    "capital_raised_display": "$445M"
   },
   {
     "id": 269,
@@ -24105,8 +23792,7 @@
     },
     "institution_display": "Western University",
     "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M",
-    "founded_year": 2023
+    "capital_raised_display": "$10M"
   },
   {
     "id": 363,
@@ -24180,8 +23866,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": "reload",
@@ -24237,8 +23922,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2275000,
-    "capital_raised_display": "$2.3M",
-    "founded_year": 2024
+    "capital_raised_display": "$2.3M"
   },
   {
     "id": "renna-health",
@@ -24273,8 +23957,7 @@
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2024
+    "institution_display": "University of Toronto"
   },
   {
     "id": "replicas",
@@ -24323,8 +24006,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2026
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "repurpose",
@@ -24394,8 +24076,7 @@
     "institution_display": "McGill University",
     "hq_display": "Los Angeles, CA",
     "capital_raised_usd": 1255000,
-    "capital_raised_display": "$1.3M",
-    "founded_year": 2023
+    "capital_raised_display": "$1.3M"
   },
   {
     "id": "resemble-ai",
@@ -24504,8 +24185,7 @@
     ],
     "capital_raised_usd": 23000000,
     "capital_raised_display": "$23M",
-    "institution_display": "University of Toronto, McMaster University",
-    "founded_year": 2019
+    "institution_display": "University of Toronto, McMaster University"
   },
   {
     "id": "rev1",
@@ -24554,8 +24234,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Toronto",
-    "founded_year": 2026
+    "institution_display": "University of Toronto"
   },
   {
     "id": 185,
@@ -24617,8 +24296,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 1600000,
-    "capital_raised_display": "$1.6M",
-    "founded_year": 2023
+    "capital_raised_display": "$1.6M"
   },
   {
     "id": "reworkd",
@@ -24694,8 +24372,7 @@
     "institution_display": "Simon Fraser University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4500000,
-    "capital_raised_display": "$4.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$4.5M"
   },
   {
     "id": 366,
@@ -24706,7 +24383,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2013,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Public",
     "status": "Public",
     "yc_batch": "S'14",
@@ -24915,8 +24592,7 @@
     "capital_raised_usd": 907250000,
     "capital_raised_display": "$907M",
     "valuation_usd": 5000000000,
-    "valuation_display": "$5.0B",
-    "founded_year": 2013
+    "valuation_display": "$5.0B"
   },
   {
     "id": "roblox",
@@ -25058,22 +24734,13 @@
     "capital_raised_usd": 845000000,
     "capital_raised_display": "$845M",
     "valuation_usd": 40300000000,
-    "valuation_display": "$40.3B",
-    "founded_year": 2004
+    "valuation_display": "$40.3B"
   },
   {
     "id": 370,
     "name": "Roboto Games",
-    "slug": "roboto-games",
     "description": "AI-powered game studio building multiplayer online games combining Web2 and Web3 elements.",
-    "logo": "https://img.logo.dev/robotogames.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&size=200&format=png",
     "website": "https://www.robotogames.com",
-    "location": {
-      "city": "Mountain View",
-      "state": "CA",
-      "country": "US"
-    },
-    "founded_year": 2013,
     "status": "Active",
     "stage": "Series A",
     "founders": [
@@ -25126,32 +24793,18 @@
         "notes": ""
       }
     ],
-    "total_raised": "$19.5M",
-    "tags": [
-      "gaming",
-      "ai",
-      "web3"
-    ],
-    "investors_notable": [
-      "a16z",
-      "Animoca Brands",
-      "Harrison Metal Capital",
-      "Makers Fund"
-    ],
-    "source_links": [
-      "https://www.coindesk.com/business/2022/11/29/a16z-leads-15m-round-for-game-studio-roboto-games"
-    ],
     "industry": "Consumer",
     "capital_raised_usd": 19500000,
     "capital_raised_display": "$19.5M",
     "founder_display": "Curt Bererton",
-    "institution_display": "University of Alberta"
+    "institution_display": "University of Alberta",
+    "founding_year": 2013
   },
   {
     "id": 346,
     "name": "Rosebud AI",
     "website": "https://rosebud.ai",
-    "description": "AI platform for creating games without coding \u2014 the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
+    "description": "AI platform for creating games without coding — the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -25211,8 +24864,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 9105000,
-    "capital_raised_display": "$9.11M",
-    "founded_year": 2018
+    "capital_raised_display": "$9.11M"
   },
   {
     "id": "ross-intelligence",
@@ -25302,8 +24954,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13000000,
-    "capital_raised_display": "$13M",
-    "founded_year": 2014
+    "capital_raised_display": "$13M"
   },
   {
     "id": 342,
@@ -25314,7 +24965,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2025,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": null,
@@ -25367,8 +25018,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2025
+    "capital_raised_display": "$1M"
   },
   {
     "id": "roundtable",
@@ -25415,7 +25065,7 @@
         "source_urls": [
           "https://techcrunch.com/2023/03/20/roundtable-raises-funding-round-on-roundtable/"
         ],
-        "notes": "\u20ac3M raised on own platform"
+        "notes": "€3M raised on own platform"
       }
     ],
     "metadata": {
@@ -25431,8 +25081,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3700000,
-    "capital_raised_display": "$3.7M",
-    "founded_year": 2023
+    "capital_raised_display": "$3.7M"
   },
   {
     "id": "ruta-health",
@@ -25496,8 +25145,7 @@
     ],
     "capital_raised_usd": 125000,
     "capital_raised_display": "$125K",
-    "institution_display": "OCAD University, University of Waterloo",
-    "founded_year": 2021
+    "institution_display": "OCAD University, University of Waterloo"
   },
   {
     "id": "safe-superintelligence",
@@ -25600,8 +25248,7 @@
     "hq_display": "Palo Alto, CA",
     "icon_url": "https://cdn.theorg.com/665d9726-6c85-4202-852f-89707e2f5df3_thumb.jpg",
     "capital_raised_usd": 3000000000,
-    "capital_raised_display": "$3B",
-    "founded_year": 2024
+    "capital_raised_display": "$3B"
   },
   {
     "id": "sandgarden",
@@ -25657,8 +25304,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 4500000,
-    "capital_raised_display": "$4.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$4.5M"
   },
   {
     "id": "sapien",
@@ -25680,7 +25326,7 @@
         "linkedin_url": "https://www.linkedin.com/in/trevorkoverko/",
         "x_url": "https://x.com/trevorkoverko",
         "role": "Co-Founder",
-        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur \u2014 previously co-founded Polymath and Tokens.com.",
+        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur — previously co-founded Polymath and Tokens.com.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Western University",
         "canadian_institutions": [
@@ -25755,8 +25401,7 @@
     "institution_display": "Western University, University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 15500000,
-    "capital_raised_display": "$15.5M",
-    "founded_year": 2018
+    "capital_raised_display": "$15.5M"
   },
   {
     "id": "secoda",
@@ -25874,8 +25519,7 @@
     "institution_display": "University of Waterloo, Wilfrid Laurier University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 16100000,
-    "capital_raised_display": "$16.1M",
-    "founded_year": 2021
+    "capital_raised_display": "$16.1M"
   },
   {
     "id": "select-star",
@@ -25972,19 +25616,18 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 17500000,
-    "capital_raised_display": "$17.5M",
-    "founded_year": 2018
+    "capital_raised_display": "$17.5M"
   },
   {
     "id": "self-xyz",
     "name": "Self",
     "website": "https://self.xyz/",
-    "description": "Instant identity verification with privacy by default \u2014 verify age, residency, and human existence without storing personal data",
+    "description": "Instant identity verification with privacy by default — verify age, residency, and human existence without storing personal data",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2024,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
@@ -26029,8 +25672,7 @@
     ],
     "capital_raised_usd": 9000000,
     "capital_raised_display": "$9M",
-    "institution_display": "University of Toronto",
-    "founded_year": 2025
+    "institution_display": "University of Toronto"
   },
   {
     "id": "sentra-app",
@@ -26079,8 +25721,7 @@
     ],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "Western University",
-    "founded_year": 2026
+    "institution_display": "Western University"
   },
   {
     "id": 198,
@@ -26091,7 +25732,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -26145,10 +25786,8 @@
       "last_verified": "2026-04-29T16:44:00-07:00"
     },
     "institution_display": "Queen's University",
-    "total_raised": "$2.04M",
     "capital_raised_usd": 2040000,
-    "capital_raised_display": "$2.04M",
-    "founded_year": 2023
+    "capital_raised_display": "$2.04M"
   },
   {
     "id": "sequence-markets",
@@ -26159,7 +25798,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2026,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "W'26",
@@ -26209,8 +25848,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2026
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "serve",
@@ -26244,8 +25882,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2024
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "serve-robotics",
@@ -26341,8 +25978,7 @@
     "capital_raised_usd": 70000000,
     "capital_raised_display": "$70M",
     "valuation_usd": 795000000,
-    "valuation_display": "$795M",
-    "founded_year": 2017
+    "valuation_display": "$795M"
   },
   {
     "id": 208,
@@ -26421,10 +26057,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$8.6M",
     "capital_raised_usd": 8600000,
-    "capital_raised_display": "$8.6M",
-    "founded_year": 2022
+    "capital_raised_display": "$8.6M"
   },
   {
     "id": 203,
@@ -26531,8 +26165,7 @@
     },
     "institution_display": "McMaster University",
     "capital_raised_usd": 61650000,
-    "capital_raised_display": "$61.6M",
-    "founded_year": 2020
+    "capital_raised_display": "$61.6M"
   },
   {
     "id": 356,
@@ -26607,8 +26240,7 @@
     "institution_display": "University of Alberta, Northern Alberta Institute of Technology",
     "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": 296,
@@ -26677,8 +26309,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "side",
@@ -26821,8 +26452,7 @@
     "institution_display": "York University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 243730000,
-    "capital_raised_display": "$244M",
-    "founded_year": 2017
+    "capital_raised_display": "$244M"
   },
   {
     "id": 297,
@@ -26892,8 +26522,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": 277,
@@ -26954,8 +26583,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 100000000,
-    "capital_raised_display": "$100M",
-    "founded_year": 2022
+    "capital_raised_display": "$100M"
   },
   {
     "id": 294,
@@ -27045,8 +26673,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 4350000,
-    "capital_raised_display": "$4.4M",
-    "founded_year": 2020
+    "capital_raised_display": "$4.4M"
   },
   {
     "id": 321,
@@ -27117,8 +26744,7 @@
     },
     "institution_display": "University of Alberta",
     "capital_raised_usd": 2150000,
-    "capital_raised_display": "$2.15M",
-    "founded_year": 2023
+    "capital_raised_display": "$2.15M"
   },
   {
     "id": 285,
@@ -27168,8 +26794,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "slack",
@@ -27409,8 +27034,7 @@
     "institution_display": "University of Victoria",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1206250000,
-    "capital_raised_display": "$1.2B",
-    "founded_year": 2009
+    "capital_raised_display": "$1.2B"
   },
   {
     "id": 334,
@@ -27514,8 +27138,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 160600000,
-    "capital_raised_display": "$160.6M",
-    "founded_year": 2021
+    "capital_raised_display": "$160.6M"
   },
   {
     "id": "slate",
@@ -27547,7 +27170,7 @@
       },
       {
         "id": "enrique-moran",
-        "name": "Enrique Mor\u00e1n",
+        "name": "Enrique Morán",
         "linkedin": "",
         "role": "Co-Founder & CEO",
         "bio": "Co-Founder & CEO of Slate. BEng from University of British Columbia (2018-2023).",
@@ -27595,12 +27218,11 @@
       "last_verified": "2026-03-24T20:03:37Z",
       "import_notes": "alumni-discovery"
     },
-    "founder_display": "Sophie Berger, Enrique Mor\u00e1n, Callum Woznow",
+    "founder_display": "Sophie Berger, Enrique Morán, Callum Woznow",
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 840000,
-    "capital_raised_display": "$840K",
-    "founded_year": 2023
+    "capital_raised_display": "$840K"
   },
   {
     "id": "sleek",
@@ -27690,8 +27312,7 @@
     "institution_display": "Queen's University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 1825000,
-    "capital_raised_display": "$1.82M",
-    "founded_year": 2024
+    "capital_raised_display": "$1.82M"
   },
   {
     "id": "slesh-ai",
@@ -27723,8 +27344,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "",
-    "founded_year": 2024
+    "institution_display": ""
   },
   {
     "id": "slice-labs",
@@ -27794,8 +27414,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 23900000,
-    "capital_raised_display": "$23.9M",
-    "founded_year": 2015
+    "capital_raised_display": "$23.9M"
   },
   {
     "id": 228,
@@ -27891,8 +27510,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 2300000,
-    "capital_raised_display": "$2.3M",
-    "founded_year": 2021
+    "capital_raised_display": "$2.3M"
   },
   {
     "id": 260,
@@ -27903,7 +27521,7 @@
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2022,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
@@ -27975,8 +27593,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2022
+    "capital_raised_display": ""
   },
   {
     "id": 204,
@@ -27987,7 +27604,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -28042,8 +27659,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
-    "founded_year": 2023
+    "capital_raised_display": "$3M"
   },
   {
     "id": "solomomo",
@@ -28119,8 +27735,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Kirkland, WA",
     "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
-    "founded_year": 2025
+    "capital_raised_display": "$3M"
   },
   {
     "id": 267,
@@ -28263,13 +27878,13 @@
         "date": "2025-11-01",
         "round": "Bankruptcy",
         "amount_usd": null,
-        "amount_display": "\u2014",
+        "amount_display": "—",
         "valuation_usd": 0,
         "valuation_display": "Bankrupt",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Delisted November 2025 \u2014 Chapter 7 bankruptcy."
+        "notes": "Delisted November 2025 — Chapter 7 bankruptcy."
       }
     ],
     "metadata": {
@@ -28284,13 +27899,12 @@
       "valuation_confidence": "high",
       "total_funding_display": "$785M",
       "last_verified": "2026-04-14T00:00:00Z",
-      "valuation_source": "Delisted Nov 2025 \u2014 Chapter 7 bankruptcy"
+      "valuation_source": "Delisted Nov 2025 — Chapter 7 bankruptcy"
     },
     "institution_display": "McGill University",
     "ticker": "SOND",
     "capital_raised_usd": 491050000,
-    "capital_raised_display": "$491M",
-    "founded_year": 2012
+    "capital_raised_display": "$491M"
   },
   {
     "id": "sonibel-instruments",
@@ -28372,8 +27986,7 @@
     ],
     "capital_raised_usd": 1600000,
     "capital_raised_display": "$1.6M",
-    "institution_display": "University of British Columbia",
-    "founded_year": 2025
+    "institution_display": "University of British Columbia"
   },
   {
     "id": 367,
@@ -28612,8 +28225,7 @@
     "capital_raised_usd": 700000000,
     "capital_raised_display": "$700M",
     "valuation_usd": 2700000000,
-    "valuation_display": "$2.7B",
-    "founded_year": 2005
+    "valuation_display": "$2.7B"
   },
   {
     "id": "sourcebot",
@@ -28675,8 +28287,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": "spacex",
@@ -28687,7 +28298,7 @@
     "hq_region": "TX",
     "hq_country": "United States",
     "founding_year": 2002,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series L",
     "status": "Private",
     "yc_batch": null,
@@ -28916,8 +28527,7 @@
     "institution_display": "Queen's University",
     "hq_display": "Hawthorne, CA",
     "capital_raised_usd": 6312700000,
-    "capital_raised_display": "$6.3B",
-    "founded_year": 2002
+    "capital_raised_display": "$6.3B"
   },
   {
     "id": "spade",
@@ -29019,8 +28629,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "New York, NY",
     "capital_raised_usd": 55000000,
-    "capital_raised_display": "$55M",
-    "founded_year": 2022
+    "capital_raised_display": "$55M"
   },
   {
     "id": 194,
@@ -29120,8 +28729,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 47000000,
-    "capital_raised_display": "$47M",
-    "founded_year": 2016
+    "capital_raised_display": "$47M"
   },
   {
     "id": "spine-ai",
@@ -29183,8 +28791,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2023
+    "capital_raised_display": "$1M"
   },
   {
     "id": 235,
@@ -29230,8 +28837,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2012
+    "capital_raised_display": ""
   },
   {
     "id": 261,
@@ -29293,10 +28899,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Waterloo",
-    "total_raised": "$500K",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "spyro-aero",
@@ -29307,7 +28911,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2025,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": null,
@@ -29330,8 +28934,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "University of Toronto",
-    "founded_year": 2024
+    "institution_display": "University of Toronto"
   },
   {
     "id": 283,
@@ -29342,7 +28945,7 @@
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2016,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Active",
     "yc_batch": "",
@@ -29449,8 +29052,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 46390000,
-    "capital_raised_display": "$46.4M",
-    "founded_year": 2015
+    "capital_raised_display": "$46.4M"
   },
   {
     "id": 186,
@@ -29461,7 +29063,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'25",
@@ -29527,10 +29129,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Waterloo",
-    "total_raised": "$500K",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2022
+    "capital_raised_display": "$500K"
   },
   {
     "id": 187,
@@ -29578,8 +29178,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": "strada",
@@ -29652,8 +29251,7 @@
     "institution_display": "Wilfrid Laurier University, University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": 241,
@@ -29731,8 +29329,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 2025000,
-    "capital_raised_display": "$2.02M",
-    "founded_year": 2011
+    "capital_raised_display": "$2.02M"
   },
   {
     "id": "substack",
@@ -29871,8 +29468,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 180425000,
-    "capital_raised_display": "$180M",
-    "founded_year": 2017
+    "capital_raised_display": "$180M"
   },
   {
     "id": "subtrace",
@@ -29934,8 +29530,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2023
+    "capital_raised_display": "$1M"
   },
   {
     "id": "superhuman",
@@ -30057,8 +29652,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 108000000,
-    "capital_raised_display": "$108M",
-    "founded_year": 2014
+    "capital_raised_display": "$108M"
   },
   {
     "id": "sweep",
@@ -30120,8 +29714,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2500000,
-    "capital_raised_display": "$2.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$2.5M"
   },
   {
     "id": "swerve",
@@ -30183,8 +29776,7 @@
     "institution_display": "Concordia University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2025
+    "capital_raised_display": "$1M"
   },
   {
     "id": 320,
@@ -30322,8 +29914,7 @@
     },
     "institution_display": "University of Alberta",
     "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M",
-    "founded_year": 2023
+    "capital_raised_display": "$18M"
   },
   {
     "id": 220,
@@ -30407,8 +29998,7 @@
     },
     "institution_display": "",
     "capital_raised_usd": 12000000,
-    "capital_raised_display": "$12M",
-    "founded_year": 2020
+    "capital_raised_display": "$12M"
   },
   {
     "id": 188,
@@ -30419,7 +30009,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Robotics",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -30486,8 +30076,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2023
+    "capital_raised_display": ""
   },
   {
     "id": 226,
@@ -30536,8 +30125,7 @@
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2020
+    "capital_raised_display": ""
   },
   {
     "id": 199,
@@ -30598,16 +30186,14 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$500K",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2024
+    "capital_raised_display": "$500K"
   },
   {
     "id": 329,
     "name": "Tableau",
     "website": "https://www.tableau.com/",
-    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal \u2014 the largest acquisition in Salesforce's history at the time.",
+    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal — the largest acquisition in Salesforce's history at the time.",
     "hq_city": "Seattle",
     "hq_region": "WA",
     "hq_country": "US",
@@ -30724,8 +30310,7 @@
     "institution_display": "Simon Fraser University",
     "hq_display": "Seattle, WA",
     "capital_raised_usd": 47000000,
-    "capital_raised_display": "$47M",
-    "founded_year": 2003
+    "capital_raised_display": "$47M"
   },
   {
     "id": "talking-computers-ai",
@@ -30788,8 +30373,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2026
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 340,
@@ -30900,8 +30484,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Cambridge, MA",
     "capital_raised_usd": 26000000,
-    "capital_raised_display": "$26M",
-    "founded_year": 2012
+    "capital_raised_display": "$26M"
   },
   {
     "id": 244,
@@ -31037,8 +30620,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 155000000,
-    "capital_raised_display": "$155M",
-    "founded_year": 2019
+    "capital_raised_display": "$155M"
   },
   {
     "id": "tensorcom",
@@ -31099,8 +30681,7 @@
     "hq_display": "Carlsbad, CA",
     "capital_raised_usd": 23600000,
     "capital_raised_display": "$23.6M",
-    "icon_url": "https://tensorcom.com/wp-content/uploads/2021/09/favicon.png",
-    "founded_year": 2006
+    "icon_url": "https://tensorcom.com/wp-content/uploads/2021/09/favicon.png"
   },
   {
     "id": "tenstorrent",
@@ -31239,14 +30820,13 @@
     "institution_display": "University of Toronto",
     "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 926200000,
-    "capital_raised_display": "$926M",
-    "founded_year": 2016
+    "capital_raised_display": "$926M"
   },
   {
     "id": "terminal-use",
     "name": "Terminal Use",
     "website": "https://www.terminaluse.com/",
-    "description": "Agent hosting infrastructure \u2014 Vercel for background agents",
+    "description": "Agent hosting infrastructure — Vercel for background agents",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -31290,8 +30870,7 @@
     "icon_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/29236a77f7b93d9d3cebf3b5833a54532e9d4506.png",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Toronto",
-    "founded_year": 2026
+    "institution_display": "University of Toronto"
   },
   {
     "id": "terranox-ai",
@@ -31340,8 +30919,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Toronto",
-    "founded_year": 2026
+    "institution_display": "University of Toronto"
   },
   {
     "id": 279,
@@ -31352,7 +30930,7 @@
     "hq_region": "TX",
     "hq_country": "US",
     "founding_year": 2003,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Public",
     "status": "Public",
     "yc_batch": "",
@@ -31527,8 +31105,7 @@
     "capital_raised_usd": 278000000,
     "capital_raised_display": "$278M",
     "valuation_usd": 1430000000000,
-    "valuation_display": "$1.43T",
-    "founded_year": 2003
+    "valuation_display": "$1.43T"
   },
   {
     "id": "tetrix",
@@ -31584,8 +31161,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York, NY",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2023
+    "capital_raised_display": "$5M"
   },
   {
     "id": 281,
@@ -31596,7 +31172,7 @@
     "hq_region": "TX",
     "hq_country": "US",
     "founding_year": 2016,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Active",
     "yc_batch": "",
@@ -31691,8 +31267,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 908000000,
-    "capital_raised_display": "$908M",
-    "founded_year": 2016
+    "capital_raised_display": "$908M"
   },
   {
     "id": 229,
@@ -31777,8 +31352,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 40000000,
-    "capital_raised_display": "$40M",
-    "founded_year": 2021
+    "capital_raised_display": "$40M"
   },
   {
     "id": 189,
@@ -31789,14 +31363,14 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "S'24",
     "icon_url": "",
     "founders": [
       {
-        "name": "Sacha L\u00e9vy",
+        "name": "Sacha Lévy",
         "linkedin": "",
         "wikipedia_url": "",
         "x_url": "",
@@ -31858,10 +31432,8 @@
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "",
-    "total_raised": "$4.8M",
     "capital_raised_usd": 4800000,
-    "capital_raised_display": "$4.8M",
-    "founded_year": 2023
+    "capital_raised_display": "$4.8M"
   },
   {
     "id": "tilelabs",
@@ -31896,8 +31468,7 @@
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": "https://tilelabs.dev/logo/L.png",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2024
+    "institution_display": "University of Waterloo"
   },
   {
     "id": 307,
@@ -31966,8 +31537,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2019
+    "capital_raised_display": ""
   },
   {
     "id": 195,
@@ -32033,8 +31603,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 7100000,
-    "capital_raised_display": "$7.1M",
-    "founded_year": 2012
+    "capital_raised_display": "$7.1M"
   },
   {
     "id": "tonal",
@@ -32194,8 +31763,7 @@
     "institution_display": "McMaster University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 450000000,
-    "capital_raised_display": "$450M",
-    "founded_year": 2015
+    "capital_raised_display": "$450M"
   },
   {
     "id": "totalis",
@@ -32206,7 +31774,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2026,
-    "industry": "Crypto",
+    "industry": "Fintech",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "P'26",
@@ -32244,8 +31812,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo",
-    "founded_year": 2026
+    "institution_display": "University of Waterloo"
   },
   {
     "id": "tower",
@@ -32322,8 +31889,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2024
+    "capital_raised_display": "$1M"
   },
   {
     "id": "transcend",
@@ -32423,8 +31989,7 @@
     "institution_display": "",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 68950000,
-    "capital_raised_display": "$68M",
-    "founded_year": 2017
+    "capital_raised_display": "$68M"
   },
   {
     "id": 287,
@@ -32493,8 +32058,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2023
+    "capital_raised_display": "$500K"
   },
   {
     "id": "triagingx",
@@ -32555,8 +32119,7 @@
     "institution_display": "University of Guelph",
     "hq_display": "San Jose, CA",
     "capital_raised_usd": 2500000,
-    "capital_raised_display": "$2.5M",
-    "founded_year": 2018
+    "capital_raised_display": "$2.5M"
   },
   {
     "id": "truelynk",
@@ -32567,7 +32130,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
@@ -32598,8 +32161,7 @@
     "hq_display": "San Francisco, CA",
     "icon_url": "https://img.logo.dev/truelynk.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2024
+    "capital_raised_display": ""
   },
   {
     "id": "twin-health",
@@ -32706,8 +32268,7 @@
     "institution_display": "Concordia University",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 243000000,
-    "capital_raised_display": "$243M",
-    "founded_year": 2018
+    "capital_raised_display": "$243M"
   },
   {
     "id": "uber",
@@ -32867,8 +32428,7 @@
     "capital_raised_usd": 15256000000,
     "capital_raised_display": "$15.3B",
     "valuation_usd": 145000000000,
-    "valuation_display": "$145B",
-    "founded_year": 2009
+    "valuation_display": "$145B"
   },
   {
     "id": 315,
@@ -32942,8 +32502,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 2350000,
-    "capital_raised_display": "$2.35M",
-    "founded_year": 2018
+    "capital_raised_display": "$2.35M"
   },
   {
     "id": 227,
@@ -33035,8 +32594,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 1000000,
-    "capital_raised_display": "$1M",
-    "founded_year": 2021
+    "capital_raised_display": "$1M"
   },
   {
     "id": "underflow",
@@ -33084,8 +32642,7 @@
     "funding_rounds": [],
     "capital_raised_usd": null,
     "capital_raised_display": "",
-    "institution_display": "McGill University, University of Toronto",
-    "founded_year": 2024
+    "institution_display": "McGill University, University of Toronto"
   },
   {
     "id": 259,
@@ -33147,8 +32704,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
-    "founded_year": 2022
+    "capital_raised_display": ""
   },
   {
     "id": "univfy",
@@ -33219,8 +32775,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 12000000,
-    "capital_raised_display": "$12M",
-    "founded_year": 2014
+    "capital_raised_display": "$12M"
   },
   {
     "id": "unruly-splats",
@@ -33284,8 +32839,7 @@
     "institution_display": "McGill University",
     "hq_display": "Boston, MA",
     "capital_raised_usd": 8880000,
-    "capital_raised_display": "$8.9M",
-    "founded_year": 2015
+    "capital_raised_display": "$8.9M"
   },
   {
     "id": 328,
@@ -33371,8 +32925,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2018
+    "capital_raised_display": "$20M"
   },
   {
     "id": 205,
@@ -33383,7 +32936,7 @@
     "hq_region": "TX",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
@@ -33435,8 +32988,7 @@
     },
     "institution_display": "Western University",
     "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
-    "founded_year": 2023
+    "capital_raised_display": "$5M"
   },
   {
     "id": "vapi",
@@ -33528,8 +33080,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 22100000,
-    "capital_raised_display": "$22.1M",
-    "founded_year": 2023
+    "capital_raised_display": "$22.1M"
   },
   {
     "id": "veem",
@@ -33607,19 +33158,18 @@
     "institution_display": "University of Ottawa",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 55000000,
-    "capital_raised_display": "$55M",
-    "founded_year": 2014
+    "capital_raised_display": "$55M"
   },
   {
     "id": "visibl-semiconductors",
     "name": "Visibl Semiconductors",
     "website": "https://visiblsemi.com/",
-    "description": "A faster, cheaper path to custom silicon \u2014 full-service ASIC development",
+    "description": "A faster, cheaper path to custom silicon — full-service ASIC development",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "W'26",
@@ -33657,8 +33207,7 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "Western University",
-    "founded_year": 2026
+    "institution_display": "Western University"
   },
   {
     "id": 300,
@@ -33776,8 +33325,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 184000000,
-    "capital_raised_display": "$184M",
-    "founded_year": 2019
+    "capital_raised_display": "$184M"
   },
   {
     "id": 230,
@@ -33859,8 +33407,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 35000000,
-    "capital_raised_display": "$35M",
-    "founded_year": 2017
+    "capital_raised_display": "$35M"
   },
   {
     "id": 318,
@@ -33946,8 +33493,7 @@
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
-    "founder_display": "Darin Tay",
-    "founded_year": 2011
+    "founder_display": "Darin Tay"
   },
   {
     "id": "wild-moose",
@@ -34007,8 +33553,7 @@
     "institution_display": "",
     "hq_display": "New York, NY",
     "capital_raised_usd": 7500000,
-    "capital_raised_display": "$7.5M",
-    "founded_year": 2023
+    "capital_raised_display": "$7.5M"
   },
   {
     "id": 200,
@@ -34096,8 +33641,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 5200000,
-    "capital_raised_display": "$5.2M",
-    "founded_year": 2023
+    "capital_raised_display": "$5.2M"
   },
   {
     "id": "wish",
@@ -34250,8 +33794,7 @@
     "capital_raised_usd": 1370700000,
     "capital_raised_display": "$1.4B",
     "valuation_usd": 367000000,
-    "valuation_display": "$367M",
-    "founded_year": 2010
+    "valuation_display": "$367M"
   },
   {
     "id": 246,
@@ -34375,8 +33918,7 @@
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 150600000,
-    "capital_raised_display": "$151M",
-    "founded_year": 2018
+    "capital_raised_display": "$151M"
   },
   {
     "id": "xai",
@@ -34559,8 +34101,7 @@
     "institution_display": "Queen's University, University of Toronto",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 42134700000,
-    "capital_raised_display": "$42.1B",
-    "founded_year": 2023
+    "capital_raised_display": "$42.1B"
   },
   {
     "id": 333,
@@ -34571,7 +34112,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2019,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Private",
     "yc_batch": null,
@@ -34634,8 +34175,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Mateo, CA",
     "capital_raised_usd": 189000000,
-    "capital_raised_display": "$189M",
-    "founded_year": 2019
+    "capital_raised_display": "$189M"
   },
   {
     "id": "zelos-energy",
@@ -34646,7 +34186,7 @@
     "hq_region": "CA",
     "hq_country": "United States",
     "founding_year": 2003,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Growth",
     "status": "Private",
     "yc_batch": null,
@@ -34693,8 +34233,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Leandro, CA",
     "capital_raised_usd": 3650000,
-    "capital_raised_display": "$3.7M",
-    "founded_year": 2020
+    "capital_raised_display": "$3.7M"
   },
   {
     "id": "zenlytic",
@@ -34778,8 +34317,7 @@
     "institution_display": "University of Alberta",
     "hq_display": "New York, NY",
     "capital_raised_usd": 14400000,
-    "capital_raised_display": "$14.4M",
-    "founded_year": 2021
+    "capital_raised_display": "$14.4M"
   },
   {
     "id": 282,
@@ -34886,8 +34424,7 @@
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 3600000,
-    "capital_raised_display": "$3.6M",
-    "founded_year": 1995
+    "capital_raised_display": "$3.6M"
   },
   {
     "id": "zocks",
@@ -34948,7 +34485,7 @@
           "Illuminate Financial",
           "Motive Partners",
           "Expanse Venture Partners",
-          "Entr\u00e9e Capital",
+          "Entrée Capital",
           "14Peaks Capital"
         ],
         "source_urls": [
@@ -34966,14 +34503,13 @@
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 58800000,
-    "capital_raised_display": "$58.8M",
-    "founded_year": 2025
+    "capital_raised_display": "$58.8M"
   },
   {
     "id": "mintlify",
     "name": "Mintlify",
     "website": "https://www.mintlify.com/",
-    "description": "Knowledge infrastructure platform for AI \u2014 developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
+    "description": "Knowledge infrastructure platform for AI — developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -35092,19 +34628,18 @@
     "institution_display": "",
     "hq_display": "San Francisco",
     "capital_raised_usd": 67000000,
-    "capital_raised_display": "$67M",
-    "founded_year": 2022
+    "capital_raised_display": "$67M"
   },
   {
     "id": "sygaldry",
     "name": "Sygaldry Technologies",
     "website": "https://sygaldry.com/",
-    "description": "Building quantum computers purpose-built for AI workloads \u2014 superconducting quantum hardware for next-generation AI data centers.",
+    "description": "Building quantum computers purpose-built for AI workloads — superconducting quantum hardware for next-generation AI data centers.",
     "hq_city": "Ann Arbor",
     "hq_region": "MI",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Industrial",
+    "industry": "Enterprise",
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "S'25",
@@ -35189,14 +34724,13 @@
     "institution_display": "University of Regina",
     "hq_display": "Ann Arbor",
     "capital_raised_usd": 139000000,
-    "capital_raised_display": "$139M",
-    "founded_year": 2024
+    "capital_raised_display": "$139M"
   },
   {
     "id": "protocole",
     "name": "Protocole",
     "website": "https://theprotocole.com/",
-    "description": "Modern clinical-grade peptide platform \u2014 physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
+    "description": "Modern clinical-grade peptide platform — physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -35210,7 +34744,7 @@
       {
         "name": "Delphine Le Grand",
         "linkedin": "https://www.linkedin.com/in/delphinelegrandofficial/",
-        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eud\u0113monia Summit). Leads GTM and partnerships at Protocole.",
+        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eudēmonia Summit). Leads GTM and partnerships at Protocole.",
         "canadian_connection_type": "education",
         "canadian_institution": "McGill University",
         "canadian_city": "Montreal",
@@ -35255,8 +34789,7 @@
     "institution_display": "McGill University",
     "hq_display": "New York",
     "capital_raised_usd": 6000000,
-    "capital_raised_display": "$6M",
-    "founded_year": 2026
+    "capital_raised_display": "$6M"
   },
   {
     "id": "superblocks",
@@ -35346,8 +34879,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "New York",
     "capital_raised_usd": 60000000,
-    "capital_raised_display": "$60M",
-    "founded_year": 2020
+    "capital_raised_display": "$60M"
   },
   {
     "id": 372,
@@ -35429,8 +34961,7 @@
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3520000,
-    "capital_raised_display": "$3.5M",
-    "founded_year": 2015
+    "capital_raised_display": "$3.5M"
   },
   {
     "id": 373,
@@ -35502,8 +35033,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 4500000,
-    "capital_raised_display": "$4.5M",
-    "founded_year": 2026
+    "capital_raised_display": "$4.5M"
   },
   {
     "id": 374,
@@ -35573,8 +35103,7 @@
     "institution_display": "",
     "hq_display": "New York, NY",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2020
+    "capital_raised_display": "$20M"
   },
   {
     "id": 375,
@@ -35643,8 +35172,7 @@
     "institution_display": "University of Ottawa",
     "hq_display": "Seattle, WA",
     "capital_raised_usd": 7000000,
-    "capital_raised_display": "$7M",
-    "founded_year": 2026
+    "capital_raised_display": "$7M"
   },
   {
     "id": 376,
@@ -35706,14 +35234,13 @@
     "institution_display": "University of Ottawa",
     "hq_display": "New York, NY",
     "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
-    "founded_year": 2026
+    "capital_raised_display": "Undisclosed"
   },
   {
     "id": 377,
     "name": "Minicor",
     "website": "https://www.minicor.com",
-    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs \u2014 on-premise, cloud, or Citrix. Formerly Laminar.",
+    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs — on-premise, cloud, or Citrix. Formerly Laminar.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -35801,8 +35328,7 @@
     "institution_display": "University of Ottawa",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K+",
-    "founded_year": 2025
+    "capital_raised_display": "$500K+"
   },
   {
     "id": 378,
@@ -35872,8 +35398,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3500000,
-    "capital_raised_display": "$3.5M",
-    "founded_year": 2025
+    "capital_raised_display": "$3.5M"
   },
   {
     "id": 379,
@@ -35961,8 +35486,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "founded_year": 2019
+    "capital_raised_display": "$20M"
   },
   {
     "id": 380,
@@ -36035,8 +35559,7 @@
     "institution_display": "University of Toronto",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 8600000,
-    "capital_raised_display": "$8.6M",
-    "founded_year": 2025
+    "capital_raised_display": "$8.6M"
   },
   {
     "id": 381,
@@ -36132,8 +35655,7 @@
     "institution_display": "University of Western Ontario",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 15600000,
-    "capital_raised_display": "$15.6M",
-    "founded_year": 2007
+    "capital_raised_display": "$15.6M"
   },
   {
     "id": 382,
@@ -36151,7 +35673,7 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Bront\u00eb Kolar",
+        "name": "Brontë Kolar",
         "linkedin": "https://www.linkedin.com/in/bronte-kolar",
         "role": "Co-Founder & CEO",
         "canadian_connection_type": "education",
@@ -36197,12 +35719,11 @@
       "valuation_display": "",
       "total_funding_display": "$500K"
     },
-    "founder_display": "Bront\u00eb Kolar",
+    "founder_display": "Brontë Kolar",
     "institution_display": "Pearson College UWC",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": 383,
@@ -36282,8 +35803,7 @@
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": 384,
@@ -36350,8 +35870,7 @@
     "institution_display": "St. George's School",
     "hq_display": "New York, NY",
     "capital_raised_usd": 12300000,
-    "capital_raised_display": "$12.3M",
-    "founded_year": 2025
+    "capital_raised_display": "$12.3M"
   },
   {
     "id": 385,
@@ -36453,8 +35972,7 @@
     "industry": "Enterprise",
     "icon_url": "https://img.logo.dev/taloflow.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Seed",
-    "yc_batch": "W'21",
-    "founded_year": 2020
+    "yc_batch": "W'21"
   },
   {
     "id": 386,
@@ -36552,8 +36070,7 @@
     "industry": "Enterprise",
     "icon_url": "https://img.logo.dev/macro.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Series A",
-    "yc_batch": "",
-    "founded_year": 2021
+    "yc_batch": ""
   },
   {
     "id": 387,
@@ -36685,13 +36202,12 @@
     "industry": "AI",
     "icon_url": "https://img.logo.dev/madeinventive.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Seed",
-    "yc_batch": "",
-    "founded_year": 2024
+    "yc_batch": ""
   },
   {
     "id": 388,
     "website": "https://freesolo.co",
-    "description": "Builds Product Native Models \u2014 custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
+    "description": "Builds Product Native Models — custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
     "hq_city": "San Francisco",
     "hq_region": "California",
     "hq_country": "US",
@@ -36786,8 +36302,7 @@
     "industry": "AI",
     "icon_url": "",
     "stage": "Seed",
-    "yc_batch": "P'25",
-    "founded_year": 2025
+    "yc_batch": "P'25"
   },
   {
     "id": 389,
@@ -36879,8 +36394,7 @@
     "industry": "Health",
     "icon_url": "https://img.logo.dev/fuseinsight.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Seed",
-    "yc_batch": "S'24",
-    "founded_year": 2024
+    "yc_batch": "S'24"
   },
   {
     "id": 390,
@@ -37036,8 +36550,7 @@
     "industry": "Fintech",
     "icon_url": "https://img.logo.dev/joinarc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Series A",
-    "yc_batch": "W'22",
-    "founded_year": 2021
+    "yc_batch": "W'22"
   },
   {
     "id": 391,
@@ -37067,7 +36580,7 @@
           {
             "institution": "University of Pennsylvania",
             "degree": "BSE & BS",
-            "field": "Computer Science (SEAS) & Finance (Wharton) \u2014 Jerome Fisher M&T",
+            "field": "Computer Science (SEAS) & Finance (Wharton) — Jerome Fisher M&T",
             "years": "2022-2026"
           }
         ],
@@ -37129,8 +36642,7 @@
     "industry": "AI",
     "icon_url": "https://img.logo.dev/meetlucy.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "Pre-Seed",
-    "yc_batch": "",
-    "founded_year": 2025
+    "yc_batch": ""
   },
   {
     "id": 392,
@@ -37235,8 +36747,7 @@
     "institution_display": "University of Toronto / Western University",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "founded_year": 2025
+    "capital_raised_display": "$500K"
   },
   {
     "id": 393,
@@ -37306,8 +36817,7 @@
     "institution_display": "University of Waterloo",
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 100000000,
-    "capital_raised_display": "$100M",
-    "founded_year": 2025
+    "capital_raised_display": "$100M"
   },
   {
     "id": 394,
@@ -37375,8 +36885,7 @@
     "capital_raised_usd": 0,
     "capital_raised_display": "N/A",
     "valuation_usd": 220000000,
-    "valuation_display": "$220M",
-    "founded_year": 1995
+    "valuation_display": "$220M"
   },
   {
     "id": 395,
@@ -37444,8 +36953,7 @@
     "capital_raised_usd": 0,
     "capital_raised_display": "N/A",
     "valuation_usd": 90000000,
-    "valuation_display": "$90M",
-    "founded_year": 2001
+    "valuation_display": "$90M"
   },
   {
     "id": 396,
@@ -37494,8 +37002,7 @@
     "institution_display": "York University",
     "capital_raised_usd": 0,
     "capital_raised_display": "$0",
-    "founder_display": "Yasser Elsaid",
-    "founded_year": 2023
+    "founder_display": "Yasser Elsaid"
   },
   {
     "id": 397,
@@ -37565,8 +37072,7 @@
     "institution_display": "McGill University",
     "capital_raised_usd": 6000000,
     "capital_raised_display": "$6M",
-    "founder_display": "Alex Barrett",
-    "founded_year": 2024
+    "founder_display": "Alex Barrett"
   },
   {
     "id": 398,
@@ -37687,8 +37193,7 @@
     "institution_display": "University of Victoria",
     "capital_raised_usd": 124000000,
     "capital_raised_display": "$124M",
-    "founder_display": "Jake Cooper",
-    "founded_year": 2020
+    "founder_display": "Jake Cooper"
   },
   {
     "id": "399",
@@ -37889,8 +37394,7 @@
     "capital_raised_display": "$110.5M",
     "yc_batch": "S'10",
     "hq_region": "CA",
-    "status": "Active",
-    "founded_year": 2018
+    "status": "Active"
   },
   {
     "name": "Quo",
@@ -37900,7 +37404,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2018,
-    "industry": "SaaS",
+    "industry": "Enterprise",
     "stage": "Series C",
     "status": "Active",
     "yc_batch": "S'18",
@@ -37994,8 +37498,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "400",
-    "founded_year": 2017
+    "id": "400"
   },
   {
     "name": "Hyperic",
@@ -38005,7 +37508,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Defense",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38030,13 +37533,12 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "401",
-    "founded_year": 2024
+    "id": "401"
   },
   {
     "name": "TinyFish",
     "website": "https://tinyfish.io",
-    "description": "Enterprise Web Agents platform \u2014 AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
+    "description": "Enterprise Web Agents platform — AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
     "hq_city": "Palo Alto",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38081,8 +37583,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "402",
-    "founded_year": 2025
+    "id": "402"
   },
   {
     "name": "BezelFi",
@@ -38132,8 +37633,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "403",
-    "founded_year": 2024
+    "id": "403"
   },
   {
     "name": "Outlit",
@@ -38194,8 +37694,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "404",
-    "founded_year": 2024
+    "id": "404"
   },
   {
     "name": "Fern",
@@ -38249,8 +37748,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "406",
-    "founded_year": 2025
+    "id": "406"
   },
   {
     "name": "Confidential AI",
@@ -38285,8 +37783,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "407",
-    "founded_year": 2024
+    "id": "407"
   },
   {
     "name": "Stonn",
@@ -38296,7 +37793,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Construction Tech",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "P'26",
@@ -38336,8 +37833,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "408",
-    "founded_year": 2025
+    "id": "408"
   },
   {
     "name": "Persana AI",
@@ -38403,8 +37899,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "409",
-    "founded_year": 2023
+    "id": "409"
   },
   {
     "name": "Moneta Health",
@@ -38414,7 +37909,7 @@
     "hq_region": "FL",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "HealthTech",
+    "industry": "Health",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38472,8 +37967,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "410",
-    "founded_year": 2022
+    "id": "410"
   },
   {
     "name": "Datost",
@@ -38525,18 +38019,17 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "411",
-    "founded_year": 2025
+    "id": "411"
   },
   {
     "name": "Gradient Robotics",
     "website": "https://gradientrobotics.ai",
-    "description": "Building autonomous robots for industry \u2014 data centers, factories, warehouses. Owns its models, builds the operating system, designs and manufactures hardware.",
+    "description": "Building autonomous robots for industry — data centers, factories, warehouses. Owns its models, builds the operating system, designs and manufactures hardware.",
     "hq_city": "Menlo Park",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Robotics",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38561,8 +38054,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "412",
-    "founded_year": 2025
+    "id": "412"
   },
   {
     "name": "Runner",
@@ -38597,8 +38089,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "413",
-    "founded_year": 2024
+    "id": "413"
   },
   {
     "name": "Mesoware",
@@ -38608,7 +38099,7 @@
     "hq_region": "MA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Robotics",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38644,8 +38135,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "414",
-    "founded_year": 2025
+    "id": "414"
   },
   {
     "name": "Strand AI",
@@ -38695,8 +38185,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "415",
-    "founded_year": 2026
+    "id": "415"
   },
   {
     "name": "Antigma Labs",
@@ -38731,8 +38220,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "416",
-    "founded_year": 2024
+    "id": "416"
   },
   {
     "name": "Voluntas",
@@ -38767,13 +38255,12 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "417",
-    "founded_year": 2024
+    "id": "417"
   },
   {
     "name": "Dome Systems",
     "website": "https://domesystems.ai",
-    "description": "Enterprise AI agent infrastructure platform \u2014 the operational control plane for the agentic enterprise. One system of control across every agent, every runtime, every cloud.",
+    "description": "Enterprise AI agent infrastructure platform — the operational control plane for the agentic enterprise. One system of control across every agent, every runtime, every cloud.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38822,8 +38309,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "418",
-    "founded_year": 2026
+    "id": "418"
   },
   {
     "name": "Fluid Inference",
@@ -38856,18 +38342,17 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "419",
-    "founded_year": 2025
+    "id": "419"
   },
   {
     "name": "3E8",
     "website": "https://blueprint.am",
-    "description": "Two products: (1) 3E8 Robotics \u2014 fully autonomous delivery robots for hotels, apartments, and office buildings. (2) Blueprint.am \u2014 AI hardware design tool that generates wiring diagrams, BOMs, and assembly guides from a single prompt.",
+    "description": "Two products: (1) 3E8 Robotics — fully autonomous delivery robots for hotels, apartments, and office buildings. (2) Blueprint.am — AI hardware design tool that generates wiring diagrams, BOMs, and assembly guides from a single prompt.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Robotics",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38892,8 +38377,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "420",
-    "founded_year": 2025
+    "id": "420"
   },
   {
     "name": "Trellis",
@@ -38945,8 +38429,7 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "421",
-    "founded_year": 2026
+    "id": "421"
   },
   {
     "name": "Sluicebox",
@@ -38956,7 +38439,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
-    "industry": "Climate Tech",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -38981,13 +38464,12 @@
     "metadata": {
       "last_verified": "2026-05-04T11:00:00-07:00"
     },
-    "id": "422",
-    "founded_year": 2024
+    "id": "422"
   },
   {
     "name": "IntuigenceAI",
     "website": "https://intuigence.ai",
-    "description": "Synthetic AI engineers for industrial operations \u2014 process manufacturing, refining, petrochemicals, steel, automotive. AI agents achieved 81% first-time pass rate on Professional Engineering exams. Serves Fortune 100 customers.",
+    "description": "Synthetic AI engineers for industrial operations — process manufacturing, refining, petrochemicals, steel, automotive. AI agents achieved 81% first-time pass rate on Professional Engineering exams. Serves Fortune 100 customers.",
     "hq_city": "Berkeley",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39036,8 +38518,7 @@
     "metadata": {
       "last_verified": "2026-05-04T12:00:00-07:00"
     },
-    "id": "423",
-    "founded_year": 2025
+    "id": "423"
   },
   {
     "name": "DisputeNinja",
@@ -39072,13 +38553,12 @@
     "metadata": {
       "last_verified": "2026-05-04T12:00:00-07:00"
     },
-    "id": "424",
-    "founded_year": 2023
+    "id": "424"
   },
   {
     "name": "DataLane",
     "website": "https://datalane.com",
-    "description": "The first highly accurate identity graph for every local business in America \u2014 LinkedIn for the offline economy. Maps 2B+ real-time data points to verified owner info and operational details for 20M+ local businesses. Customers include DoorDash, Square, Paychex.",
+    "description": "The first highly accurate identity graph for every local business in America — LinkedIn for the offline economy. Maps 2B+ real-time data points to verified owner info and operational details for 20M+ local businesses. Customers include DoorDash, Square, Paychex.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -39152,8 +38632,7 @@
     "metadata": {
       "last_verified": "2026-05-04T12:00:00-07:00"
     },
-    "id": "425",
-    "founded_year": 2024
+    "id": "425"
   },
   {
     "id": "426",
@@ -39204,8 +38683,7 @@
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-04T13:00:00-07:00"
-    },
-    "founded_year": 2025
+    }
   },
   {
     "id": "427",
@@ -39259,8 +38737,7 @@
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-04T13:00:00-07:00"
-    },
-    "founded_year": 2025
+    }
   },
   {
     "id": "428",
@@ -39297,14 +38774,13 @@
     ],
     "metadata": {
       "last_verified": "2026-05-04T13:30:00-07:00"
-    },
-    "founded_year": 2025
+    }
   },
   {
     "id": "429",
     "name": "Clerk Chat",
     "website": "https://clerk.chat",
-    "description": "AI-powered conversational messaging platform \u2014 the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
+    "description": "AI-powered conversational messaging platform — the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39357,18 +38833,17 @@
     ],
     "metadata": {
       "last_verified": "2026-05-04T14:00:00-07:00"
-    },
-    "founded_year": 2023
+    }
   },
   {
     "name": "HomeFig",
     "website": "https://homefig.com",
-    "description": "3D home design tool \u2014 designing your home should feel like Sims. Sketch-to-render in 2 minutes using real products from retailers. Starting with kitchens. Uses procedural modelling and ThreeJS/WebGPU.",
+    "description": "3D home design tool — designing your home should feel like Sims. Sketch-to-render in 2 minutes using real products from retailers. Starting with kitchens. Uses procedural modelling and ThreeJS/WebGPU.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "PropTech",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -39393,18 +38868,17 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "430",
-    "founded_year": 2025
+    "id": "430"
   },
   {
     "name": "Capsule AI",
     "website": "https://capsuleai.ai",
-    "description": "Social shopping app \u2014 snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
+    "description": "Social shopping app — snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2022,
-    "industry": "E-commerce",
+    "industry": "Consumer",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "S'22",
@@ -39444,8 +38918,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "431",
-    "founded_year": 2022
+    "id": "431"
   },
   {
     "name": "CrateOS",
@@ -39480,8 +38953,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "432",
-    "founded_year": 2024
+    "id": "432"
   },
   {
     "name": "Moss",
@@ -39531,8 +39003,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "433",
-    "founded_year": 2024
+    "id": "433"
   },
   {
     "name": "Sentiero",
@@ -39542,7 +39013,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "HealthTech",
+    "industry": "Health",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -39567,8 +39038,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "434",
-    "founded_year": 2024
+    "id": "434"
   },
   {
     "name": "Accro",
@@ -39603,8 +39073,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "435",
-    "founded_year": 2025
+    "id": "435"
   },
   {
     "name": "Hilt",
@@ -39614,7 +39083,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Cybersecurity",
+    "industry": "Enterprise",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -39654,13 +39123,12 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "436",
-    "founded_year": 2026
+    "id": "436"
   },
   {
     "name": "Reflex",
     "website": "https://tryreflex.ai",
-    "description": "Datacenter-scale inference for autonomous systems. The inference layer for physical AI \u2014 every robot controlled by a single API call. No onboard GPUs, no expensive clusters. ~90x cheaper, ~100x faster. Stream observations, execute actions via WebSocket.",
+    "description": "Datacenter-scale inference for autonomous systems. The inference layer for physical AI — every robot controlled by a single API call. No onboard GPUs, no expensive clusters. ~90x cheaper, ~100x faster. Stream observations, execute actions via WebSocket.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39690,18 +39158,17 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "437",
-    "founded_year": 2024
+    "id": "437"
   },
   {
     "name": "Leafra",
     "website": "https://leafra.ai",
-    "description": "Jasemin \u2014 the Operational Intelligence Assistant for Senior Care. AI platform for senior care communities providing proactive care, incident detection and reduction, operations optimization. Focuses on fall prevention and early trend detection.",
+    "description": "Jasemin — the Operational Intelligence Assistant for Senior Care. AI platform for senior care communities providing proactive care, incident detection and reduction, operations optimization. Focuses on fall prevention and early trend detection.",
     "hq_city": "San Jose",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "HealthTech",
+    "industry": "Health",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -39726,8 +39193,7 @@
     "metadata": {
       "last_verified": "2026-05-04T15:00:00-07:00"
     },
-    "id": "438",
-    "founded_year": 2024
+    "id": "438"
   },
   {
     "id": "439",
@@ -39749,7 +39215,7 @@
       {
         "name": "Akshat Jagga",
         "linkedin": "https://www.linkedin.com/in/akshat-jagga-580331183",
-        "bio": "Co-Founder & CEO. University of Toronto (CS/Engineering). Previously co-founded WOMBO (150M+ users). Serial entrepreneur \u2014 sold first business at 17. Z Fellow.",
+        "bio": "Co-Founder & CEO. University of Toronto (CS/Engineering). Previously co-founded WOMBO (150M+ users). Serial entrepreneur — sold first business at 17. Z Fellow.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -39794,8 +39260,7 @@
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-04T16:00:00-07:00"
-    },
-    "founded_year": 2023
+    }
   },
   {
     "name": "Outpost Bio",
@@ -39805,7 +39270,7 @@
     "hq_region": "MA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Biotech",
+    "industry": "Health",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -39849,8 +39314,7 @@
     "metadata": {
       "last_verified": "2026-05-04T16:30:00-07:00"
     },
-    "id": "440",
-    "founded_year": 2026
+    "id": "440"
   },
   {
     "name": "Kanu AI",
@@ -39905,8 +39369,7 @@
     "metadata": {
       "last_verified": "2026-05-04T16:30:00-07:00"
     },
-    "id": "441",
-    "founded_year": 2025
+    "id": "441"
   },
   {
     "name": "Architect Labs",
@@ -39916,7 +39379,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Semiconductor",
+    "industry": "Enterprise",
     "stage": "Early Stage",
     "status": "Active",
     "yc_batch": "",
@@ -39941,8 +39404,7 @@
     "metadata": {
       "last_verified": "2026-05-04T16:30:00-07:00"
     },
-    "id": "442",
-    "founded_year": 2024
+    "id": "442"
   },
   {
     "name": "Hephaes",
@@ -39977,8 +39439,7 @@
     "metadata": {
       "last_verified": "2026-05-04T16:30:00-07:00"
     },
-    "id": "443",
-    "founded_year": 2024
+    "id": "443"
   },
   {
     "name": "Kazuo",
@@ -40013,8 +39474,7 @@
     "metadata": {
       "last_verified": "2026-05-04T16:30:00-07:00"
     },
-    "id": "444",
-    "founded_year": 2024
+    "id": "444"
   },
   {
     "name": "Buildcheck",
@@ -40024,7 +39484,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2023,
-    "industry": "Construction Tech",
+    "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
@@ -40067,8 +39527,7 @@
     "metadata": {
       "last_verified": "2026-05-04T17:00:00-07:00"
     },
-    "id": "445",
-    "founded_year": 2025
+    "id": "445"
   },
   {
     "name": "Rapidfolio",
@@ -40089,7 +39548,7 @@
       {
         "name": "Naveen Qureshi",
         "linkedin": "https://www.linkedin.com/in/naveen-qureshi",
-        "bio": "Co-Founder. BA Economics from University of Toronto (with distinction). MBA from Columbia Business School. Serial fintech founder \u2014 previously co-founded Sable (YC S19, acquired by Snap Finance). SVP Growth at Snap Finance.",
+        "bio": "Co-Founder. BA Economics from University of Toronto (with distinction). MBA from Columbia Business School. Serial fintech founder — previously co-founded Sable (YC S19, acquired by Snap Finance). SVP Growth at Snap Finance.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -40118,13 +39577,12 @@
     "metadata": {
       "last_verified": "2026-05-04T17:00:00-07:00"
     },
-    "id": "446",
-    "founded_year": 2026
+    "id": "446"
   },
   {
     "name": "Sprites",
     "website": "https://sprites.ai",
-    "description": "AI marketing agent that automates customer acquisition \u2014 manages SEO, paid ad campaigns (Meta Ads, Google Ads), content marketing, and influencer outreach. Pivoted from Campfire (AI game agent builder with 5M+ YouTube/TikTok views).",
+    "description": "AI marketing agent that automates customer acquisition — manages SEO, paid ad campaigns (Meta Ads, Google Ads), content marketing, and influencer outreach. Pivoted from Campfire (AI game agent builder with 5M+ YouTube/TikTok views).",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -40172,18 +39630,17 @@
     "metadata": {
       "last_verified": "2026-05-04T17:00:00-07:00"
     },
-    "id": "447",
-    "founded_year": 2022
+    "id": "447"
   },
   {
     "name": "Foundational Bio",
     "website": "https://foundational.bio",
-    "description": "Building a self-driving lab \u2014 fully automated laboratory replacing manual wet lab workflows with AI-driven robotics for large-scale discovery in life sciences. Applications in human health, agriculture, and synthetic biology.",
+    "description": "Building a self-driving lab — fully automated laboratory replacing manual wet lab workflows with AI-driven robotics for large-scale discovery in life sciences. Applications in human health, agriculture, and synthetic biology.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2025,
-    "industry": "Biotech",
+    "industry": "Health",
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
@@ -40208,20 +39665,17 @@
     "metadata": {
       "last_verified": "2026-05-04T17:00:00-07:00"
     },
-    "id": "448",
-    "founded_year": 2024
+    "id": "448"
   },
   {
     "id": "449",
     "name": "eggPlan",
     "website": "https://www.eggplan.co/",
     "description": "First platform to offer a money-back guarantee on egg freezing, combining high-quality clinic partnerships with flexible financing for modern fertility planning.",
-    "founded_year": 2025,
     "hq_city": "Cambridge",
     "hq_region": "MA",
     "hq_country": "US",
-    "industry": "Health Tech",
-    "sub_industry": "Fertility",
+    "industry": "Health",
     "founders": [
       {
         "name": "Abhi Waud",
@@ -40237,19 +39691,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "MIT delta v 2025. Also ran Nada grocery store in Greater Vancouver (2017-2023). MIT Sloan MBA."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "450",
     "name": "Get Regular",
     "website": "https://www.getregular.com/",
     "description": "AI-powered digestive health platform that analyzes stool form, color, and frequency to assess gut function, identify root causes of symptoms, and build personalized care plans.",
-    "founded_year": 2025,
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
-    "industry": "Health Tech",
-    "sub_industry": "Digital Health",
+    "industry": "Health",
     "founders": [
       {
         "name": "Athina Vandame",
@@ -40265,19 +39718,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Ex-Amazon. Co-founder Adrianna Atiles."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "451",
     "name": "Port Markets",
     "website": "https://portmarkets.com/",
     "description": "Building stablecoin-native infrastructure for global trade finance, modernizing the experience for MSME suppliers and buyers to connect, access financing, and facilitate payments and FX.",
-    "founded_year": 2025,
     "hq_city": null,
     "hq_region": null,
     "hq_country": "US",
     "industry": "Fintech",
-    "sub_industry": "Trade Finance",
     "founders": [
       {
         "name": "Anmol Arora",
@@ -40293,19 +39745,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founder Alexander Narvaez-Duckworth. Family runs agri-commodities import business."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "452",
     "name": "Watt Data",
     "website": "https://wattdata.ai/",
     "description": "AI data platform that unifies 25,000+ data sources into a single petabyte-scale model, helping companies find high-intent customers by connecting real-world behaviors into actionable insights.",
-    "founded_year": 2025,
     "hq_city": "Nashville",
     "hq_region": "TN",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Data Platform",
     "founders": [
       {
         "name": "John Zila",
@@ -40321,19 +39772,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founders Jared Parker (CEO, repeat founder, sold Rasgo after raising $25M+) and Mike Audi (CTO)."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "453",
     "name": "Agents2Agents",
     "website": "https://www.agents2agents.ai/",
     "description": "Building foundation models trained on physics, not just pixels, and a closed loop of AI agents that build, deploy, and improve them automatically. First product 'ata' is an open-source AI agent for researchers and engineers.",
-    "founded_year": 2025,
     "hq_city": null,
     "hq_region": null,
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Foundation Models",
     "founders": [
       {
         "name": "Nima Sadri",
@@ -40349,19 +39799,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "2022 Pasupalak CS Capstone Award from UWaterloo. Previously ML Research Engineer at Apple."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "454",
     "name": "Tacit Machines",
     "website": "https://tacitmachines.com/",
     "description": "Building the data and compute infrastructure that moves biology from wet lab to GPU cluster, creating the compute substrate for biological research and development.",
-    "founded_year": 2025,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "industry": "Bio / AI",
-    "sub_industry": "Computational Biology",
+    "industry": "Health",
     "founders": [
       {
         "name": "Muhammad Usman Farooq",
@@ -40377,19 +39826,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founder Jasmin Kaur (CEO). Entrepreneurs First alumnus. Previously Lead ML Researcher at Bilby AI (Hong Kong). B.Sc. Computing Mathematics from City University of Hong Kong."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "455",
     "name": "BuildLayer",
     "website": "https://www.buildlayer.ai/",
     "description": "AI-powered platform for building software for markets, leveraging insights from founder's experience at Google and Meta.",
-    "founded_year": 2025,
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Software",
     "founders": [
       {
         "name": "Omar Ahmed",
@@ -40405,19 +39853,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Ex-Google, Ex-Meta. Founded Dec 2025."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "456",
     "name": "yAI",
     "website": "https://www.whyaitech.com/",
     "description": "AI platform for finance that makes every model output traceable, explainable, and compliant with the strictest regulations. Turns filings, decks, and research notes into analyst-ready insights with one-click, line-level citations, all within the firm's firewall.",
-    "founded_year": 2025,
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Fintech / Compliance",
     "founders": [
       {
         "name": "Yassin Hafid",
@@ -40433,19 +39880,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Rice University CS (Magna Cum Laude, 2021-2025). RBC Capital Markets intern. EducationUSA mentor."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "457",
     "name": "Supernova AI",
     "website": "https://supernova.ai/",
     "description": "Collaborative data exploration and BI tool for startups that enables anyone to analyze real-time data without SQL or code, making it easy to set up and use for modern business teams.",
-    "founded_year": 2022,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Business Intelligence",
     "founders": [
       {
         "name": "Dhaman Rakhra",
@@ -40468,19 +39914,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Formerly known as Canvas. Backed by Sequoia Capital (Konstantine Buhler), Abstract Ventures, SV Angel. Dhaman also a Next 36 alumnus."
-    }
+    },
+    "founding_year": 2022
   },
   {
     "id": "458",
     "name": "Raya Power",
     "website": "https://rayapower.com/",
     "description": "Plug-and-play solar-plus-battery system designed to be accessible and easy to install, targeting renters and low-to-moderate income households who previously couldn't access solar energy.",
-    "founded_year": 2025,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "industry": "Climate Tech",
-    "sub_industry": "Solar Energy",
+    "industry": "Enterprise",
     "founders": [
       {
         "name": "Meghan Wood",
@@ -40503,19 +39948,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founder Nicole Gonzalez (CTO). Also backed by Parallel 18, Endeavor Puerto Rico, Stanford EcoSif. Stanford GSB MBA/MS '23. Previously Bain Toronto (3 yrs)."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "459",
     "name": "FuseAI",
     "website": "https://tryfuse.ai/",
     "description": "AI-native sales platform for modern revenue teams, consolidating data enrichment, multi-channel automation, real-time buying signals, and AI-driven execution into one seamless outbound sales system.",
-    "founded_year": 2024,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Sales Tech",
     "founders": [
       {
         "name": "Saurav Bubber",
@@ -40538,19 +39982,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founder Imogen Low (prev co-founded Nwo.ai, acquired by Growth Protocol). Saurav previously at Deel (3rd hire on GTM team, scaled $50M->$600M+ ARR) and Deloitte Toronto."
-    }
+    },
+    "founding_year": 2024
   },
   {
     "id": "460",
     "name": "Eddie AI",
     "website": "https://www.heyeddie.ai/",
     "description": "AI assistant video editor built for professional editors. Parses interviews from B-roll, syncs multicams, logs footage, and builds rough cuts ready to open in Premiere, Resolve, or FCP.",
-    "founded_year": 2023,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Video / Creative Tools",
     "founders": [
       {
         "name": "Shamir Allibhai",
@@ -40566,19 +40009,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Co-founder Alex Terekhov. Backed by Offline Ventures, Ashton Kutcher's Sound Ventures, Google Gradient, The Production Board. Won Best Product of the Year at NAB 2026. Previously founded Simon Says (acquired) and was PM at Meta (Video Infra). Harvard MA MidEast Politics."
-    }
+    },
+    "founding_year": 2023
   },
   {
     "id": "461",
     "name": "Aucto",
     "website": "https://aucto.com/",
     "description": "Enterprise platform and online marketplace for surplus industrial assets, helping organizations manage, recover capital from, and sustainably redistribute equipment and machinery.",
-    "founded_year": 2019,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "industry": "Marketplace",
-    "sub_industry": "Industrial Supply Chain",
+    "industry": "Consumer",
     "founders": [
       {
         "name": "Jamil Rahman",
@@ -40601,19 +40043,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Also backed by Motivate Venture Capital. COO Lucas Flosi (former Meta, Clutter). HQ also in Toronto."
-    }
+    },
+    "founding_year": 2019
   },
   {
     "id": "462",
     "name": "DealOps",
     "website": "https://www.dealops.com/",
     "description": "AI-powered deal pricing and quoting platform for revenue operations and sales teams. Enables companies to deploy, test, and scale dynamic pricing models.",
-    "founded_year": 2024,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Revenue Operations",
     "founders": [
       {
         "name": "Spyri Karasavva",
@@ -40640,19 +40081,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "CEO Spyri Karasavva prev at Stripe, CPP Investments. CTO Fay Wu prev at Notion, Stripe. Processes $1B+ in revenue. Clients include Plaid, Airwallex."
-    }
+    },
+    "founding_year": 2024
   },
   {
     "id": "463",
     "name": "1PL",
     "website": "https://1pl.co/",
     "description": "Redefining standard operations in the physical world through supply chain autonomy. AI-powered logistics and operations platform.",
-    "founded_year": 2025,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "Supply Chain / Logistics",
     "founders": [
       {
         "name": "Benjamin Ye",
@@ -40677,19 +40117,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Still in stealth mode (coming soon). Benjamin Ye prev ML Engineer at Georgian (Toronto). Mohit Raj dropped out of Western University. Office in Dogpatch, SF."
-    }
+    },
+    "founding_year": 2025
   },
   {
     "id": "464",
     "name": "Shimmer",
     "website": "https://www.shimmer.care/",
     "description": "AI-enhanced 1:1 ADHD coaching platform that is 5-10x more affordable than traditional alternatives. Partners adults with ADHD coaches using science-backed methods.",
-    "founded_year": 2021,
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "industry": "Health Tech",
-    "sub_industry": "Digital Health / Mental Health",
+    "industry": "Health",
     "founders": [
       {
         "name": "Christal Wang",
@@ -40718,19 +40157,18 @@
     "metadata": {
       "last_verified": "2026-05-05",
       "notes": "Forbes 30 Under 30. 80,000+ coaching sessions facilitated. Science-backed methods in partnership with NYU, UC Berkeley, UCSF. CEO Christal Wang prev at Bain, Berkeley MBA/MPH."
-    }
+    },
+    "founding_year": 2021
   },
   {
     "id": "465",
     "name": "ContextAI",
     "website": "https://www.contexthq.ai/",
     "description": "AI systems for hiring and talent management. Custom AI built around a company's hiring DNA, best practices, and talent ontology with a Holistic Fit Engine for candidate matching.",
-    "founded_year": 2025,
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "industry": "AI",
-    "sub_industry": "HR Tech / Talent Management",
     "founders": [
       {
         "name": "Carlos Chiu",
@@ -40749,7 +40187,8 @@
     "status": "Active",
     "metadata": {
       "last_verified": "2026-05-05",
-      "notes": "Both co-founders ex-Soci\u00e9t\u00e9 G\u00e9n\u00e9rale. Carlos Chiu also ex-Citi. Kevin Ho was VP at SG leading $10B+ infrastructure transactions. Very early stage (founded ~April 2025)."
-    }
+      "notes": "Both co-founders ex-Société Générale. Carlos Chiu also ex-Citi. Kevin Ho was VP at SG leading $10B+ infrastructure transactions. Very early stage (founded ~April 2025)."
+    },
+    "founding_year": 2025
   }
 ]
