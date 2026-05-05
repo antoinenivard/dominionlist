@@ -40122,5 +40122,122 @@
       "last_verified": "2026-05-05",
       "notes": "Also backed by Motivate Venture Capital. COO Lucas Flosi (former Meta, Clutter). HQ also in Toronto."
     }
+  },
+  {
+    "id": "462",
+    "name": "DealOps",
+    "website": "https://www.dealops.com/",
+    "description": "AI-powered deal pricing and quoting platform for revenue operations and sales teams. Enables companies to deploy, test, and scale dynamic pricing models.",
+    "founded_year": 2024,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Revenue Operations",
+    "founders": [
+      {
+        "name": "Spyri Karasavva",
+        "linkedin": "https://www.linkedin.com/in/skarasavva/",
+        "canadian_connection": "Ivey Business School at Western University"
+      },
+      {
+        "name": "Fay Wu",
+        "linkedin": "https://www.linkedin.com/in/mfaywu",
+        "canadian_connection": "N/A"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 7000000,
+        "lead_investor": "Pear VC, General Catalyst",
+        "date": "2025-08"
+      }
+    ],
+    "capital_raised_usd": 7000000,
+    "capital_raised_display": "$7M",
+    "status": "Active",
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "CEO Spyri Karasavva prev at Stripe, CPP Investments. CTO Fay Wu prev at Notion, Stripe. Processes $1B+ in revenue. Clients include Plaid, Airwallex."
+    }
+  },
+  {
+    "id": "463",
+    "name": "1PL",
+    "website": "https://1pl.co/",
+    "description": "Redefining standard operations in the physical world through supply chain autonomy. AI-powered logistics and operations platform.",
+    "founded_year": 2025,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Supply Chain / Logistics",
+    "founders": [
+      {
+        "name": "Benjamin Ye",
+        "linkedin": "https://www.linkedin.com/in/benjaminye/",
+        "canadian_connection": "Ivey Business School at Western University (HBA, 2017-2019), Western University (Financial Economics, 2015-2017)"
+      },
+      {
+        "name": "Mohit Raj",
+        "linkedin": "https://www.linkedin.com/in/mohit2raj/",
+        "canadian_connection": "Western University (BSc Actuarial Sciences)"
+      },
+      {
+        "name": "Rishu Basin",
+        "linkedin": "",
+        "canadian_connection": "Unknown"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "status": "Active",
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Still in stealth mode (coming soon). Benjamin Ye prev ML Engineer at Georgian (Toronto). Mohit Raj dropped out of Western University. Office in Dogpatch, SF."
+    }
+  },
+  {
+    "id": "464",
+    "name": "Shimmer",
+    "website": "https://www.shimmer.care/",
+    "description": "AI-enhanced 1:1 ADHD coaching platform that is 5-10x more affordable than traditional alternatives. Partners adults with ADHD coaches using science-backed methods.",
+    "founded_year": 2021,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health Tech",
+    "sub_industry": "Digital Health / Mental Health",
+    "founders": [
+      {
+        "name": "Christal Wang",
+        "linkedin": "https://www.linkedin.com/in/wangchristal/",
+        "canadian_connection": "Ivey Business School at Western University (HBA '15)"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Pre-Seed",
+        "amount_usd": 1300000,
+        "lead_investor": "",
+        "date": "2022"
+      },
+      {
+        "round_type": "Seed",
+        "amount_usd": 2200000,
+        "lead_investor": "Worklife Ventures, SeedtoB Capital",
+        "date": "2024-01"
+      }
+    ],
+    "capital_raised_usd": 3500000,
+    "capital_raised_display": "$3.5M",
+    "status": "Active",
+    "yc_batch": "S'21",
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Forbes 30 Under 30. 80,000+ coaching sessions facilitated. Science-backed methods in partnership with NYU, UC Berkeley, UCSF. CEO Christal Wang prev at Bain, Berkeley MBA/MPH."
+    }
   }
 ]
