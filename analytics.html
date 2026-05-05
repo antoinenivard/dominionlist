@@ -142,19 +142,12 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 .top5-amt{margin-left:auto;color:var(--fg3);font-size:11px;white-space:nowrap}
 @media(max-width:600px){.bar-chart-wrap{flex-direction:column;align-items:stretch}.bar-chart{width:100%}.top5-panel{width:100%}}
 
-/* Histogram (legacy) */
+/* Histogram */
+.histogram{display:flex;align-items:flex-end;gap:2px;height:140px;padding-bottom:24px;position:relative}
+@media(min-width:601px){.histogram{height:280px;margin-top:32px}}
+.hist-bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;position:relative}
+.hist-bar{width:100%;background:var(--bar);border-radius:2px 2px 0 0;transition:height .6s ease;min-width:4px}
 .hist-label{position:absolute;bottom:-20px;font-size:10px;color:var(--fg3);white-space:nowrap}
-/* Curve chart */
-.curve-chart{position:relative;height:160px;padding-bottom:28px}
-@media(min-width:601px){.curve-chart{height:300px;margin-top:32px}}
-.curve-chart svg{width:100%;height:100%;overflow:visible}
-.curve-line{fill:none;stroke:var(--bar);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
-.curve-area{fill:var(--bar);opacity:0.08}
-.curve-dot{fill:var(--bg);stroke:var(--bar);stroke-width:2;r:4;cursor:pointer;transition:r .12s,fill .12s}
-.curve-dot:hover,.curve-dot.active{fill:var(--bar-ai);stroke:var(--bar-ai);r:6}
-.curve-label{font-size:10px;fill:var(--fg3);text-anchor:middle;dominant-baseline:hanging}
-.curve-gridline{stroke:var(--border);stroke-width:1;stroke-dasharray:3,3}
-.curve-tooltip{position:absolute;background:var(--fg);color:var(--bg);font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;white-space:nowrap;pointer-events:none;transform:translateX(-50%);z-index:5;opacity:0;transition:opacity .12s}
 
 /* Pareto */
 .pareto{display:flex;gap:24px;align-items:stretch}
@@ -250,7 +243,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .section{margin-bottom:0}
 
   /* Histogram */
-  .curve-chart{height:200px;padding-bottom:20px}
+  .histogram{height:400px;padding-bottom:20px}
   /* Hide section-level caption on mobile when subsections are shown */
   .s2-caption,.sMap-caption{display:none}
   .s2-caption + h3,.sMap-caption + h3{margin-top:8px}
@@ -377,7 +370,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       <p class="insight s2-caption" id="s2insight">—</p>
       <h3>A new wave of companies</h3>
       <p class="insight" id="s3insight">—</p>
-      <div class="curve-chart" id="s3chart"></div>
+      <div class="histogram" id="s3chart"></div>
       <p class="footnote" id="s3footnote" style="margin-bottom:8px"></p>
     </div>
   </div>
@@ -948,126 +941,65 @@ var recentPct = Math.round(recent/total*100);
 document.getElementById('s3insight').textContent =
   'The newest formation wave is overwhelmingly AI-native. '+recentPct+'% of companies were founded in 2023\u20132025, with formation peaking in 2024 at '+(yrCounts[2024]||0)+' new companies \u2014 nearly all AI-native.';
 
-/* Build SVG curve chart */
+var s3html = '';
+for(var y=startYr;y<=endYr;y++){
+  var h = yrCounts[y]/maxYr*100;
+  var showLabel = isMobile ? (y%4===0 || y===endYr) : (y%5===0 || y===endYr);
+  s3html += '<div class="hist-bar-wrap" data-yr="'+y+'" data-count="'+yrCounts[y]+'"><div class="hist-bar" style="height:'+h+'%"></div>'+(showLabel?'<span class="hist-label">'+y+'</span>':'')+'</div>';
+}
+document.getElementById('s3chart').innerHTML = s3html;
+
+/* ── Histogram hover interaction ── */
 (function(){
   var chart = document.getElementById('s3chart');
-  var years = [], counts = [];
-  for(var y=startYr;y<=endYr;y++){ years.push(y); counts.push(yrCounts[y]); }
-  var n = years.length;
-  var padL=30, padR=10, padT=20, padB=28;
+  var wraps = chart.querySelectorAll('.hist-bar-wrap');
+  var tip = document.createElement('div');
+  tip.style.cssText = 'position:absolute;top:-28px;left:50%;transform:translateX(-50%);background:var(--fg);color:var(--bg);font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5';
+  var activeWrap = null;
 
-  function render(){
-    var W = chart.clientWidth, H = chart.clientHeight;
-    var cW = W-padL-padR, cH = H-padT-padB;
-    var xs = years.map(function(_,i){ return padL + i/(n-1)*cW; });
-    var ys = counts.map(function(c){ return padT + (1 - c/maxYr)*cH; });
-
-    /* Smooth curve using cardinal spline */
-    function cardinalPoints(pts, tension){
-      tension = tension || 0.3;
-      var res = [];
-      for(var i=0;i<pts.length;i++){
-        var p0 = pts[Math.max(i-1,0)];
-        var p1 = pts[i];
-        var p2 = pts[Math.min(i+1,pts.length-1)];
-        var p3 = pts[Math.min(i+2,pts.length-1)];
-        if(i>0){
-          var cp1x = p1[0]+(p2[0]-p0[0])*tension/3;
-          var cp1y = p1[1]+(p2[1]-p0[1])*tension/3;
-          var cp2x = p2[0]-(p3[0]-p1[0])*tension/3;
-          var cp2y = p2[1]-(p3[1]-p1[1])*tension/3;
-          res.push('C'+cp1x.toFixed(1)+','+cp1y.toFixed(1)+' '+cp2x.toFixed(1)+','+cp2y.toFixed(1)+' '+p2[0].toFixed(1)+','+p2[1].toFixed(1));
-        } else {
-          res.push('M'+p1[0].toFixed(1)+','+p1[1].toFixed(1));
-        }
-      }
-      return res.join(' ');
+  var hoverLabel = null;
+  function highlight(wrap){
+    if(activeWrap === wrap) return;
+    if(activeWrap){ activeWrap.querySelector('.hist-bar').style.background = ''; if(tip.parentNode) tip.parentNode.removeChild(tip); }
+    if(hoverLabel){ hoverLabel.parentNode.removeChild(hoverLabel); hoverLabel=null; }
+    activeWrap = wrap;
+    if(!wrap) return;
+    wrap.querySelector('.hist-bar').style.background = 'var(--bar-ai)';
+    tip.textContent = wrap.dataset.count+' companies';
+    wrap.appendChild(tip);
+    /* Show year label if not already visible */
+    if(!wrap.querySelector('.hist-label')){
+      hoverLabel = document.createElement('span');
+      hoverLabel.className = 'hist-label';
+      hoverLabel.textContent = wrap.dataset.yr;
+      hoverLabel.style.fontWeight = '600';
+      hoverLabel.style.color = 'var(--fg)';
+      wrap.appendChild(hoverLabel);
     }
-
-    var pts = xs.map(function(x,i){ return [x, ys[i]]; });
-    var linePath = cardinalPoints(pts, 0.4);
-    var areaPath = linePath + ' L'+xs[n-1].toFixed(1)+','+(padT+cH)+' L'+xs[0].toFixed(1)+','+(padT+cH)+' Z';
-
-    /* Grid lines */
-    var gridSteps = [0, 0.25, 0.5, 0.75, 1];
-    var gridSvg = gridSteps.map(function(f){
-      var gy = padT + (1-f)*cH;
-      var val = Math.round(f*maxYr);
-      return '<line x1="'+padL+'" y1="'+gy.toFixed(1)+'" x2="'+(W-padR)+'" y2="'+gy.toFixed(1)+'" class="curve-gridline"/>'
-        + '<text x="'+(padL-4)+'" y="'+gy.toFixed(1)+'" font-size="9" fill="var(--fg3)" text-anchor="end" dominant-baseline="middle">'+val+'</text>';
-    }).join('');
-
-    /* Year labels */
-    var labelSvg = '';
-    for(var i=0;i<n;i++){
-      var showLabel = isMobile ? (years[i]%4===0 || i===n-1) : (years[i]%5===0 || i===n-1);
-      if(showLabel) labelSvg += '<text x="'+xs[i].toFixed(1)+'" y="'+(H-4)+'" class="curve-label">'+years[i]+'</text>';
-    }
-
-    /* Dots */
-    var dotsSvg = '';
-    for(var i=0;i<n;i++){
-      dotsSvg += '<circle cx="'+xs[i].toFixed(1)+'" cy="'+ys[i].toFixed(1)+'" class="curve-dot" data-idx="'+i+'"/>';
-    }
-
-    var svg = '<svg viewBox="0 0 '+W+' '+H+'" xmlns="http://www.w3.org/2000/svg">'
-      + gridSvg
-      + '<path d="'+areaPath+'" class="curve-area"/>'
-      + '<path d="'+linePath+'" class="curve-line"/>'
-      + dotsSvg
-      + labelSvg
-      + '</svg>';
-
-    chart.innerHTML = svg;
-
-    /* Tooltip */
-    var tip = document.createElement('div');
-    tip.className = 'curve-tooltip';
-    chart.appendChild(tip);
-    var activeDot = null;
-
-    function highlightDot(idx){
-      if(activeDot !== null){
-        chart.querySelector('.curve-dot[data-idx="'+activeDot+'"]').classList.remove('active');
-      }
-      if(idx === null){ tip.style.opacity='0'; activeDot=null; return; }
-      activeDot = idx;
-      var dot = chart.querySelector('.curve-dot[data-idx="'+idx+'"]');
-      dot.classList.add('active');
-      tip.textContent = years[idx]+': '+counts[idx]+' companies';
-      tip.style.left = xs[idx]+'px';
-      tip.style.top = (ys[idx]-32)+'px';
-      tip.style.opacity = '1';
-    }
-
-    chart.addEventListener('mousemove', function(e){
-      var rect = chart.getBoundingClientRect();
-      var mx = e.clientX - rect.left;
-      var closest = 0, minDist = Infinity;
-      for(var i=0;i<n;i++){
-        var d = Math.abs(mx - xs[i]);
-        if(d < minDist){ minDist = d; closest = i; }
-      }
-      highlightDot(closest);
-    });
-    chart.addEventListener('mouseleave', function(){ highlightDot(null); });
-    chart.addEventListener('touchmove', function(e){
-      var touch = e.touches[0];
-      var rect = chart.getBoundingClientRect();
-      var mx = touch.clientX - rect.left;
-      var closest = 0, minDist = Infinity;
-      for(var i=0;i<n;i++){
-        var d = Math.abs(mx - xs[i]);
-        if(d < minDist){ minDist = d; closest = i; }
-      }
-      highlightDot(closest);
-    });
-    chart.addEventListener('touchend', function(){ setTimeout(function(){ highlightDot(null); }, 1500); });
+    /* force reflow then show */
+    tip.offsetHeight;
+    tip.style.opacity = '1';
   }
 
-  render();
-  var resizeTimer;
-  window.addEventListener('resize', function(){ clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 150); });
+  chart.addEventListener('mousemove', function(e){
+    var rect = chart.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var barW = rect.width / wraps.length;
+    var idx = Math.min(Math.max(Math.floor(x / barW), 0), wraps.length - 1);
+    highlight(wraps[idx]);
+  });
+  chart.addEventListener('mouseleave', function(){ highlight(null); });
+
+  /* Touch support */
+  chart.addEventListener('touchmove', function(e){
+    var touch = e.touches[0];
+    var rect = chart.getBoundingClientRect();
+    var x = touch.clientX - rect.left;
+    var barW = rect.width / wraps.length;
+    var idx = Math.min(Math.max(Math.floor(x / barW), 0), wraps.length - 1);
+    highlight(wraps[idx]);
+  });
+  chart.addEventListener('touchend', function(){ setTimeout(function(){ highlight(null); }, 1500); });
 })();
 
 /* ── SECTION 4: Capital Access Gap — US vs Canada ── */
