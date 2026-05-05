@@ -6699,7 +6699,7 @@
       },
       {
         "stage": "Acquired",
-        "amount_display": "—",
+        "amount_display": "\u2014",
         "year": 2021,
         "lead_investors": [
           "Substack"
@@ -11992,7 +11992,7 @@
         "date": "2025-02-12",
         "round": "Wind Down",
         "amount_usd": null,
-        "amount_display": "—",
+        "amount_display": "\u2014",
         "valuation_usd": 0,
         "valuation_display": "Inactive",
         "lead_investors": [],
@@ -14834,11 +14834,11 @@
         "name": "James Bergstra",
         "linkedin": "https://www.linkedin.com/in/jamesbergstra",
         "role": "Co-Founder",
-        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Université de Montréal under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
+        "bio": "Co-Founder of Kindred. PhD and M.Sc. in Computer Science from Universit\u00e9 de Montr\u00e9al under Yoshua Bengio. NSERC Banting Fellow at University of Waterloo.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Université de Montréal",
+        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
         "canadian_institutions": [
-          "Université de Montréal",
+          "Universit\u00e9 de Montr\u00e9al",
           "University of Waterloo"
         ],
         "wikipedia_url": "",
@@ -14916,7 +14916,7 @@
     ],
     "capital_raised_usd": 43000000,
     "capital_raised_display": "$43M",
-    "institution_display": "University of Toronto, Université de Montréal, University of British Columbia",
+    "institution_display": "University of Toronto, Universit\u00e9 de Montr\u00e9al, University of British Columbia",
     "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbHMCtVSDScHVpXmhZIRUywHp0dKar07wsQ&s"
   },
   {
@@ -21684,11 +21684,11 @@
         "linkedin_url": "https://www.linkedin.com/in/william-liam-fedus-26547811/",
         "x_url": "https://x.com/LiamFedus",
         "role": "Co-Founder & CEO",
-        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Université de Montréal. BS in Physics from MIT, MS from UC San Diego.",
+        "bio": "Former VP of Post-Training Research at OpenAI. Led the team behind ChatGPT and Operator. PhD from MILA / Universit\u00e9 de Montr\u00e9al. BS in Physics from MIT, MS from UC San Diego.",
         "canadian_connection_type": "education",
-        "canadian_institution": "Université de Montréal",
+        "canadian_institution": "Universit\u00e9 de Montr\u00e9al",
         "canadian_institutions": [
-          "Université de Montréal"
+          "Universit\u00e9 de Montr\u00e9al"
         ],
         "wikipedia_url": ""
       }
@@ -21737,7 +21737,7 @@
       "valuation_source_url": "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/"
     },
     "founder_display": "Liam Fedus",
-    "institution_display": "Université de Montréal",
+    "institution_display": "Universit\u00e9 de Montr\u00e9al",
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 300000000,
     "capital_raised_display": "$300M"
@@ -24862,7 +24862,7 @@
     "id": 346,
     "name": "Rosebud AI",
     "website": "https://rosebud.ai",
-    "description": "AI platform for creating games without coding — the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
+    "description": "AI platform for creating games without coding \u2014 the Figma/Canva for game makers. Uses generative AI for interactive journaling and game creation.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -25123,7 +25123,7 @@
         "source_urls": [
           "https://techcrunch.com/2023/03/20/roundtable-raises-funding-round-on-roundtable/"
         ],
-        "notes": "€3M raised on own platform"
+        "notes": "\u20ac3M raised on own platform"
       }
     ],
     "metadata": {
@@ -25384,7 +25384,7 @@
         "linkedin_url": "https://www.linkedin.com/in/trevorkoverko/",
         "x_url": "https://x.com/trevorkoverko",
         "role": "Co-Founder",
-        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur — previously co-founded Polymath and Tokens.com.",
+        "bio": "Former NHL draft pick (NY Rangers). Serial entrepreneur \u2014 previously co-founded Polymath and Tokens.com.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Western University",
         "canadian_institutions": [
@@ -25680,7 +25680,7 @@
     "id": "self-xyz",
     "name": "Self",
     "website": "https://self.xyz/",
-    "description": "Instant identity verification with privacy by default — verify age, residency, and human existence without storing personal data",
+    "description": "Instant identity verification with privacy by default \u2014 verify age, residency, and human existence without storing personal data",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -27230,7 +27230,7 @@
       },
       {
         "id": "enrique-moran",
-        "name": "Enrique Morán",
+        "name": "Enrique Mor\u00e1n",
         "linkedin": "",
         "role": "Co-Founder & CEO",
         "bio": "Co-Founder & CEO of Slate. BEng from University of British Columbia (2018-2023).",
@@ -27278,7 +27278,7 @@
       "last_verified": "2026-03-24T20:03:37Z",
       "import_notes": "alumni-discovery"
     },
-    "founder_display": "Sophie Berger, Enrique Morán, Callum Woznow",
+    "founder_display": "Sophie Berger, Enrique Mor\u00e1n, Callum Woznow",
     "institution_display": "University of British Columbia",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 840000,
@@ -27938,13 +27938,13 @@
         "date": "2025-11-01",
         "round": "Bankruptcy",
         "amount_usd": null,
-        "amount_display": "—",
+        "amount_display": "\u2014",
         "valuation_usd": 0,
         "valuation_display": "Bankrupt",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Delisted November 2025 — Chapter 7 bankruptcy."
+        "notes": "Delisted November 2025 \u2014 Chapter 7 bankruptcy."
       }
     ],
     "metadata": {
@@ -27959,7 +27959,7 @@
       "valuation_confidence": "high",
       "total_funding_display": "$785M",
       "last_verified": "2026-04-14T00:00:00Z",
-      "valuation_source": "Delisted Nov 2025 — Chapter 7 bankruptcy"
+      "valuation_source": "Delisted Nov 2025 \u2014 Chapter 7 bankruptcy"
     },
     "institution_display": "McGill University",
     "ticker": "SOND",
@@ -30256,7 +30256,7 @@
     "id": 329,
     "name": "Tableau",
     "website": "https://www.tableau.com/",
-    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal — the largest acquisition in Salesforce's history at the time.",
+    "description": "Interactive data visualization and business intelligence platform built on VizQL, enabling drag-and-drop dashboard creation and exploratory data analysis. Founded at Stanford by the creators of the Polaris visualization system. IPO'd on NYSE in May 2013 at a $3B valuation. Acquired by Salesforce in August 2019 for $15.7B in an all-stock deal \u2014 the largest acquisition in Salesforce's history at the time.",
     "hq_city": "Seattle",
     "hq_region": "WA",
     "hq_country": "US",
@@ -30889,7 +30889,7 @@
     "id": "terminal-use",
     "name": "Terminal Use",
     "website": "https://www.terminaluse.com/",
-    "description": "Agent hosting infrastructure — Vercel for background agents",
+    "description": "Agent hosting infrastructure \u2014 Vercel for background agents",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -31433,7 +31433,7 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Sacha Lévy",
+        "name": "Sacha L\u00e9vy",
         "linkedin": "",
         "wikipedia_url": "",
         "x_url": "",
@@ -33228,7 +33228,7 @@
     "id": "visibl-semiconductors",
     "name": "Visibl Semiconductors",
     "website": "https://visiblsemi.com/",
-    "description": "A faster, cheaper path to custom silicon — full-service ASIC development",
+    "description": "A faster, cheaper path to custom silicon \u2014 full-service ASIC development",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -34549,7 +34549,7 @@
           "Illuminate Financial",
           "Motive Partners",
           "Expanse Venture Partners",
-          "Entrée Capital",
+          "Entr\u00e9e Capital",
           "14Peaks Capital"
         ],
         "source_urls": [
@@ -34573,7 +34573,7 @@
     "id": "mintlify",
     "name": "Mintlify",
     "website": "https://www.mintlify.com/",
-    "description": "Knowledge infrastructure platform for AI — developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
+    "description": "Knowledge infrastructure platform for AI \u2014 developer-first documentation, MCP support, and AI agent workflows. Powers docs for 20,000+ companies.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -34698,7 +34698,7 @@
     "id": "sygaldry",
     "name": "Sygaldry Technologies",
     "website": "https://sygaldry.com/",
-    "description": "Building quantum computers purpose-built for AI workloads — superconducting quantum hardware for next-generation AI data centers.",
+    "description": "Building quantum computers purpose-built for AI workloads \u2014 superconducting quantum hardware for next-generation AI data centers.",
     "hq_city": "Ann Arbor",
     "hq_region": "MI",
     "hq_country": "US",
@@ -34794,7 +34794,7 @@
     "id": "protocole",
     "name": "Protocole",
     "website": "https://theprotocole.com/",
-    "description": "Modern clinical-grade peptide platform — physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
+    "description": "Modern clinical-grade peptide platform \u2014 physician-guided access, personalized protocols, and regulated pharmacy fulfillment for longevity, performance, and metabolic health.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -34808,7 +34808,7 @@
       {
         "name": "Delphine Le Grand",
         "linkedin": "https://www.linkedin.com/in/delphinelegrandofficial/",
-        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eudēmonia Summit). Leads GTM and partnerships at Protocole.",
+        "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eud\u0113monia Summit). Leads GTM and partnerships at Protocole.",
         "canadian_connection_type": "education",
         "canadian_institution": "McGill University",
         "canadian_city": "Montreal",
@@ -35304,7 +35304,7 @@
     "id": 377,
     "name": "Minicor",
     "website": "https://www.minicor.com",
-    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs — on-premise, cloud, or Citrix. Formerly Laminar.",
+    "description": "Platform for building and running self-healing desktop automations at scale using AI computer-use agents. One API call triggers full desktop workflows on Windows VMs \u2014 on-premise, cloud, or Citrix. Formerly Laminar.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -35737,7 +35737,7 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Brontë Kolar",
+        "name": "Bront\u00eb Kolar",
         "linkedin": "https://www.linkedin.com/in/bronte-kolar",
         "role": "Co-Founder & CEO",
         "canadian_connection_type": "education",
@@ -35783,7 +35783,7 @@
       "valuation_display": "",
       "total_funding_display": "$500K"
     },
-    "founder_display": "Brontë Kolar",
+    "founder_display": "Bront\u00eb Kolar",
     "institution_display": "Pearson College UWC",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
@@ -36271,7 +36271,7 @@
   {
     "id": 388,
     "website": "https://freesolo.co",
-    "description": "Builds Product Native Models — custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
+    "description": "Builds Product Native Models \u2014 custom AI models trained on user-trajectory knowledge that outperform general-purpose models at lower latency and cost. YC X25.",
     "hq_city": "San Francisco",
     "hq_region": "California",
     "hq_country": "US",
@@ -36644,7 +36644,7 @@
           {
             "institution": "University of Pennsylvania",
             "degree": "BSE & BS",
-            "field": "Computer Science (SEAS) & Finance (Wharton) — Jerome Fisher M&T",
+            "field": "Computer Science (SEAS) & Finance (Wharton) \u2014 Jerome Fisher M&T",
             "years": "2022-2026"
           }
         ],
@@ -37602,7 +37602,7 @@
   {
     "name": "TinyFish",
     "website": "https://tinyfish.io",
-    "description": "Enterprise Web Agents platform — AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
+    "description": "Enterprise Web Agents platform \u2014 AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
     "hq_city": "Palo Alto",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38088,7 +38088,7 @@
   {
     "name": "Gradient Robotics",
     "website": "https://gradientrobotics.ai",
-    "description": "Building autonomous robots for industry — data centers, factories, warehouses. Owns its models, builds the operating system, designs and manufactures hardware.",
+    "description": "Building autonomous robots for industry \u2014 data centers, factories, warehouses. Owns its models, builds the operating system, designs and manufactures hardware.",
     "hq_city": "Menlo Park",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38324,7 +38324,7 @@
   {
     "name": "Dome Systems",
     "website": "https://domesystems.ai",
-    "description": "Enterprise AI agent infrastructure platform — the operational control plane for the agentic enterprise. One system of control across every agent, every runtime, every cloud.",
+    "description": "Enterprise AI agent infrastructure platform \u2014 the operational control plane for the agentic enterprise. One system of control across every agent, every runtime, every cloud.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38411,7 +38411,7 @@
   {
     "name": "3E8",
     "website": "https://blueprint.am",
-    "description": "Two products: (1) 3E8 Robotics — fully autonomous delivery robots for hotels, apartments, and office buildings. (2) Blueprint.am — AI hardware design tool that generates wiring diagrams, BOMs, and assembly guides from a single prompt.",
+    "description": "Two products: (1) 3E8 Robotics \u2014 fully autonomous delivery robots for hotels, apartments, and office buildings. (2) Blueprint.am \u2014 AI hardware design tool that generates wiring diagrams, BOMs, and assembly guides from a single prompt.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38533,7 +38533,7 @@
   {
     "name": "IntuigenceAI",
     "website": "https://intuigence.ai",
-    "description": "Synthetic AI engineers for industrial operations — process manufacturing, refining, petrochemicals, steel, automotive. AI agents achieved 81% first-time pass rate on Professional Engineering exams. Serves Fortune 100 customers.",
+    "description": "Synthetic AI engineers for industrial operations \u2014 process manufacturing, refining, petrochemicals, steel, automotive. AI agents achieved 81% first-time pass rate on Professional Engineering exams. Serves Fortune 100 customers.",
     "hq_city": "Berkeley",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38622,7 +38622,7 @@
   {
     "name": "DataLane",
     "website": "https://datalane.com",
-    "description": "The first highly accurate identity graph for every local business in America — LinkedIn for the offline economy. Maps 2B+ real-time data points to verified owner info and operational details for 20M+ local businesses. Customers include DoorDash, Square, Paychex.",
+    "description": "The first highly accurate identity graph for every local business in America \u2014 LinkedIn for the offline economy. Maps 2B+ real-time data points to verified owner info and operational details for 20M+ local businesses. Customers include DoorDash, Square, Paychex.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -38844,7 +38844,7 @@
     "id": "429",
     "name": "Clerk Chat",
     "website": "https://clerk.chat",
-    "description": "AI-powered conversational messaging platform — the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
+    "description": "AI-powered conversational messaging platform \u2014 the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -38902,7 +38902,7 @@
   {
     "name": "HomeFig",
     "website": "https://homefig.com",
-    "description": "3D home design tool — designing your home should feel like Sims. Sketch-to-render in 2 minutes using real products from retailers. Starting with kitchens. Uses procedural modelling and ThreeJS/WebGPU.",
+    "description": "3D home design tool \u2014 designing your home should feel like Sims. Sketch-to-render in 2 minutes using real products from retailers. Starting with kitchens. Uses procedural modelling and ThreeJS/WebGPU.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -38937,7 +38937,7 @@
   {
     "name": "Capsule AI",
     "website": "https://capsuleai.ai",
-    "description": "Social shopping app — snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
+    "description": "Social shopping app \u2014 snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39192,7 +39192,7 @@
   {
     "name": "Reflex",
     "website": "https://tryreflex.ai",
-    "description": "Datacenter-scale inference for autonomous systems. The inference layer for physical AI — every robot controlled by a single API call. No onboard GPUs, no expensive clusters. ~90x cheaper, ~100x faster. Stream observations, execute actions via WebSocket.",
+    "description": "Datacenter-scale inference for autonomous systems. The inference layer for physical AI \u2014 every robot controlled by a single API call. No onboard GPUs, no expensive clusters. ~90x cheaper, ~100x faster. Stream observations, execute actions via WebSocket.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39227,7 +39227,7 @@
   {
     "name": "Leafra",
     "website": "https://leafra.ai",
-    "description": "Jasemin — the Operational Intelligence Assistant for Senior Care. AI platform for senior care communities providing proactive care, incident detection and reduction, operations optimization. Focuses on fall prevention and early trend detection.",
+    "description": "Jasemin \u2014 the Operational Intelligence Assistant for Senior Care. AI platform for senior care communities providing proactive care, incident detection and reduction, operations optimization. Focuses on fall prevention and early trend detection.",
     "hq_city": "San Jose",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39279,7 +39279,7 @@
       {
         "name": "Akshat Jagga",
         "linkedin": "https://www.linkedin.com/in/akshat-jagga-580331183",
-        "bio": "Co-Founder & CEO. University of Toronto (CS/Engineering). Previously co-founded WOMBO (150M+ users). Serial entrepreneur — sold first business at 17. Z Fellow.",
+        "bio": "Co-Founder & CEO. University of Toronto (CS/Engineering). Previously co-founded WOMBO (150M+ users). Serial entrepreneur \u2014 sold first business at 17. Z Fellow.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -39612,7 +39612,7 @@
       {
         "name": "Naveen Qureshi",
         "linkedin": "https://www.linkedin.com/in/naveen-qureshi",
-        "bio": "Co-Founder. BA Economics from University of Toronto (with distinction). MBA from Columbia Business School. Serial fintech founder — previously co-founded Sable (YC S19, acquired by Snap Finance). SVP Growth at Snap Finance.",
+        "bio": "Co-Founder. BA Economics from University of Toronto (with distinction). MBA from Columbia Business School. Serial fintech founder \u2014 previously co-founded Sable (YC S19, acquired by Snap Finance). SVP Growth at Snap Finance.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Toronto, ON",
@@ -39646,7 +39646,7 @@
   {
     "name": "Sprites",
     "website": "https://sprites.ai",
-    "description": "AI marketing agent that automates customer acquisition — manages SEO, paid ad campaigns (Meta Ads, Google Ads), content marketing, and influencer outreach. Pivoted from Campfire (AI game agent builder with 5M+ YouTube/TikTok views).",
+    "description": "AI marketing agent that automates customer acquisition \u2014 manages SEO, paid ad campaigns (Meta Ads, Google Ads), content marketing, and influencer outreach. Pivoted from Campfire (AI game agent builder with 5M+ YouTube/TikTok views).",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -39699,7 +39699,7 @@
   {
     "name": "Foundational Bio",
     "website": "https://foundational.bio",
-    "description": "Building a self-driving lab — fully automated laboratory replacing manual wet lab workflows with AI-driven robotics for large-scale discovery in life sciences. Applications in human health, agriculture, and synthetic biology.",
+    "description": "Building a self-driving lab \u2014 fully automated laboratory replacing manual wet lab workflows with AI-driven robotics for large-scale discovery in life sciences. Applications in human health, agriculture, and synthetic biology.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -39730,5 +39730,201 @@
       "last_verified": "2026-05-04T17:00:00-07:00"
     },
     "id": "448"
+  },
+  {
+    "id": "449",
+    "name": "eggPlan",
+    "website": "https://www.eggplan.co/",
+    "description": "First platform to offer a money-back guarantee on egg freezing, combining high-quality clinic partnerships with flexible financing for modern fertility planning.",
+    "founded_year": 2025,
+    "hq_city": "Cambridge",
+    "hq_region": "MA",
+    "hq_country": "US",
+    "industry": "Health Tech",
+    "sub_industry": "Fertility",
+    "founders": [
+      {
+        "name": "Abhi Waud",
+        "linkedin": "https://www.linkedin.com/in/abhiwaud/",
+        "canadian_connection": "University of Waterloo (B.A.Sc. Civil Engineering, 1997-2002)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "MIT delta v 2025. Also ran Nada grocery store in Greater Vancouver (2017-2023). MIT Sloan MBA."
+    }
+  },
+  {
+    "id": "450",
+    "name": "Get Regular",
+    "website": "https://www.getregular.com/",
+    "description": "AI-powered digestive health platform that analyzes stool form, color, and frequency to assess gut function, identify root causes of symptoms, and build personalized care plans.",
+    "founded_year": 2025,
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Health Tech",
+    "sub_industry": "Digital Health",
+    "founders": [
+      {
+        "name": "Athina Vandame",
+        "linkedin": "https://www.linkedin.com/in/athinavandame/",
+        "canadian_connection": "University of Waterloo (Computer Science)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Ex-Amazon. Co-founder Adrianna Atiles."
+    }
+  },
+  {
+    "id": "451",
+    "name": "Port Markets",
+    "website": "https://portmarkets.com/",
+    "description": "Building stablecoin-native infrastructure for global trade finance, modernizing the experience for MSME suppliers and buyers to connect, access financing, and facilitate payments and FX.",
+    "founded_year": 2025,
+    "hq_city": null,
+    "hq_region": null,
+    "hq_country": "US",
+    "industry": "Fintech",
+    "sub_industry": "Trade Finance",
+    "founders": [
+      {
+        "name": "Anmol Arora",
+        "linkedin": "https://www.linkedin.com/in/arora97/",
+        "canadian_connection": "University of Waterloo"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founder Alexander Narvaez-Duckworth. Family runs agri-commodities import business."
+    }
+  },
+  {
+    "id": "452",
+    "name": "Watt Data",
+    "website": "https://wattdata.ai/",
+    "description": "AI data platform that unifies 25,000+ data sources into a single petabyte-scale model, helping companies find high-intent customers by connecting real-world behaviors into actionable insights.",
+    "founded_year": 2025,
+    "hq_city": "Nashville",
+    "hq_region": "TN",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Data Platform",
+    "founders": [
+      {
+        "name": "John Zila",
+        "linkedin": "https://www.linkedin.com/in/jzila/",
+        "canadian_connection": "University of Waterloo"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founders Jared Parker (CEO, repeat founder, sold Rasgo after raising $25M+) and Mike Audi (CTO)."
+    }
+  },
+  {
+    "id": "453",
+    "name": "Agents2Agents",
+    "website": "https://www.agents2agents.ai/",
+    "description": "Building foundation models trained on physics, not just pixels, and a closed loop of AI agents that build, deploy, and improve them automatically. First product 'ata' is an open-source AI agent for researchers and engineers.",
+    "founded_year": 2025,
+    "hq_city": null,
+    "hq_region": null,
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Foundation Models",
+    "founders": [
+      {
+        "name": "Nima Sadri",
+        "linkedin": "https://www.linkedin.com/in/nimasadri/",
+        "canadian_connection": "University of Waterloo (NLP Research under Prof. Jimmy Lin and Prof. Gordon Cormack, 2021-2022)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "2022 Pasupalak CS Capstone Award from UWaterloo. Previously ML Research Engineer at Apple."
+    }
+  },
+  {
+    "id": "454",
+    "name": "Tacit Machines",
+    "website": "https://tacitmachines.com/",
+    "description": "Building the data and compute infrastructure that moves biology from wet lab to GPU cluster, creating the compute substrate for biological research and development.",
+    "founded_year": 2025,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Bio / AI",
+    "sub_industry": "Computational Biology",
+    "founders": [
+      {
+        "name": "Muhammad Usman Farooq",
+        "linkedin": "https://www.linkedin.com/in/munarausmanfarooq/",
+        "canadian_connection": "University of Waterloo (Exchange Semester, 2021-2022)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founder Jasmin Kaur (CEO). Entrepreneurs First alumnus. Previously Lead ML Researcher at Bilby AI (Hong Kong). B.Sc. Computing Mathematics from City University of Hong Kong."
+    }
+  },
+  {
+    "id": "455",
+    "name": "BuildLayer",
+    "website": "https://www.buildlayer.ai/",
+    "description": "AI-powered platform for building software for markets, leveraging insights from founder's experience at Google and Meta.",
+    "founded_year": 2025,
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Software",
+    "founders": [
+      {
+        "name": "Omar Ahmed",
+        "linkedin": "https://www.linkedin.com/in/omar-ahmed-8b62aa3a3/",
+        "canadian_connection": "University of Waterloo"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Ex-Google, Ex-Meta. Founded Dec 2025."
+    }
   }
 ]
