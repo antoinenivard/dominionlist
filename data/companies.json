@@ -39954,5 +39954,40 @@
       "last_verified": "2026-05-05",
       "notes": "Rice University CS (Magna Cum Laude, 2021-2025). RBC Capital Markets intern. EducationUSA mentor."
     }
+  },
+  {
+    "id": "457",
+    "name": "Supernova AI",
+    "website": "https://supernova.ai/",
+    "description": "Collaborative data exploration and BI tool for startups that enables anyone to analyze real-time data without SQL or code, making it easy to set up and use for modern business teams.",
+    "founded_year": 2022,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Business Intelligence",
+    "founders": [
+      {
+        "name": "Dhaman Rakhra",
+        "linkedin": "https://www.linkedin.com/in/dhamanrakhra/",
+        "canadian_connection": "York University, Schulich School of Business (iBBA, 2010-2014)"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 4260000,
+        "lead_investor": "Sequoia Capital",
+        "date": "2022"
+      }
+    ],
+    "capital_raised_usd": 4260000,
+    "capital_raised_display": "$4.3M",
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Formerly known as Canvas. Backed by Sequoia Capital (Konstantine Buhler), Abstract Ventures, SV Angel. Dhaman also a Next 36 alumnus."
+    }
   }
 ]
