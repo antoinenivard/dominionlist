@@ -39926,5 +39926,33 @@
       "last_verified": "2026-05-05",
       "notes": "Ex-Google, Ex-Meta. Founded Dec 2025."
     }
+  },
+  {
+    "id": "456",
+    "name": "yAI",
+    "website": "https://www.whyaitech.com/",
+    "description": "AI platform for finance that makes every model output traceable, explainable, and compliant with the strictest regulations. Turns filings, decks, and research notes into analyst-ready insights with one-click, line-level citations, all within the firm's firewall.",
+    "founded_year": 2025,
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Fintech / Compliance",
+    "founders": [
+      {
+        "name": "Yassin Hafid",
+        "linkedin": "https://www.linkedin.com/in/yassin-hafid/",
+        "canadian_connection": "Colonel By Secondary School, Ottawa, Ontario (Valedictorian, 2017-2021)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Rice University CS (Magna Cum Laude, 2021-2025). RBC Capital Markets intern. EducationUSA mentor."
+    }
   }
 ]
