@@ -808,7 +808,7 @@ async function loadData() {
   });
 
   /* Sector validation: only allow canonical sector names */
-  const VALID_SECTORS = new Set(['AI','Enterprise','Health','Fintech','Consumer']);
+  const VALID_SECTORS = new Set(['AI','Enterprise','Health','Fintech','Consumer','Industrial','Crypto']);
   companies.forEach(c => {
     if (c.industry && !VALID_SECTORS.has(c.industry)) {
       console.warn('[DominionList] Unknown sector "' + c.industry + '" on company "' + (c.name || c.companyName) + '" — flagged for review');
