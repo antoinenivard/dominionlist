@@ -39325,5 +39325,219 @@
     "metadata": {
       "last_verified": "2026-05-04T16:00:00-07:00"
     }
+  },
+  {
+    "name": "Outpost Bio",
+    "website": "https://outpost.bio",
+    "description": "AI-powered biotech building frontier models for human microbiology. Lab-in-the-Loop platform pairs automated wet lab experimentation with ML to decode how microbial interactions impact drug efficacy and personalized medicine.",
+    "hq_city": "Boston",
+    "hq_region": "MA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Biotech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": 3500000,
+    "capital_raised_display": "$3.5M",
+    "founders": [
+      {
+        "name": "Jenny Yang",
+        "linkedin": "https://www.linkedin.com/in/jennyyang259",
+        "bio": "Co-Founder & CEO. BSc (Chancellor's Scholar) and MSc Bioinformatics from UBC. DPhil Engineering Science from Oxford (Marie Curie Fellow). CCSF Scholar, Flag Bearer for Canada. 10 first-authored publications in Nature MI, Nature Comms.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-03",
+        "round": "Pre-Seed",
+        "amount_usd": 3500000,
+        "amount_display": "$3.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Seedcamp",
+          "Merantix Capital"
+        ],
+        "other_investors": [
+          "OpenSeed VC",
+          "Defined Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:30:00-07:00"
+    },
+    "id": "440"
+  },
+  {
+    "name": "Kanu AI",
+    "website": "https://getkanu.com",
+    "description": "AI Cloud Engineer that automates cloud deployments, infrastructure provisioning, and validation inside AWS accounts. 250+ validation checks, enabling a single engineer to oversee 10+ projects at once.",
+    "hq_city": "Seattle",
+    "hq_region": "WA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Karan Grover",
+        "linkedin": "https://www.linkedin.com/in/kgrover1",
+        "bio": "Co-Founder & CEO. Born/raised near Vancouver. BSc CS (Software Engineering) from UBC. Three-time founder. Won Ericsson Innovation Awards (beat MIT, 843 teams). Previously Senior ML Engineer at Amazon AGI, SWE at DoorDash. YC W22 alum (Trueplace). a16z Speedrun.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "other_investors": [
+          "Berkeley Frontier Fund",
+          "Better Angle",
+          "Essentia Ventures",
+          "Team Ignite Ventures"
+        ],
+        "source_urls": [],
+        "notes": "a16z Speedrun"
+      }
+    ],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:30:00-07:00"
+    },
+    "id": "441"
+  },
+  {
+    "name": "Architect Labs",
+    "website": "https://architectlabs.com",
+    "description": "Foundational AI lab reimagining the chip design stack. Builds AI models that discover new chip architectures and generate end-to-end verified designs for modern ML workloads. Partners with TSMC, GlobalFoundries, Samsung for real tapeouts. 60+ unique tapeouts across founding team.",
+    "hq_city": "Palo Alto",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Semiconductor",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Ebrahim Hussain",
+        "linkedin": "https://www.linkedin.com/in/ebhussain",
+        "bio": "Co-Founder. BASc Engineering Physics from UBC (early admission age 15 via University Transition Program). 91% cumulative avg, Trek Excellence Scholarship (top 5%). Interned at Apple (ASIC design), Tesla Autopilot Hardware, Stanford (visiting researcher).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:30:00-07:00"
+    },
+    "id": "442"
+  },
+  {
+    "name": "Hephaes",
+    "website": "https://hephaes.ai",
+    "description": "Collaborative version control and auditing platform for robot training data. Teams can track dataset changes over time, compare versions, and trace every training run back to the exact data that produced it.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2026,
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Fleming Yip",
+        "linkedin": "https://www.linkedin.com/in/flemingyip",
+        "bio": "Co-Founder. BSc Computer Science from UBC (2023-2027). Chiu Lin and Grace Ho Memorial Scholarship. ML research at UBC in embodied AI/RL/robotics. Ex-AWS SDE. Published on RL-based log investigation agents.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:30:00-07:00"
+    },
+    "id": "443"
+  },
+  {
+    "name": "Kazuo",
+    "website": "https://kazuocorporation.com",
+    "description": "The first viral app factory. Builds mobile apps and drives viral distribution via TikTok (150M+ views/month). Products include AscendMax (facial analysis app). Newsletter with 200K+ subscribers. 500M TikTok views total.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Consumer",
+    "stage": "Early Stage",
+    "status": "Active",
+    "yc_batch": "",
+    "icon_url": "",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "founders": [
+      {
+        "name": "Kaz Tahara-Edmonds",
+        "linkedin": "https://www.linkedin.com/in/kaz-te",
+        "bio": "Founder. BCom (CS + Business) from UBC Sauder (2021-2025). Previously based in Vancouver. Co-founded Intern Insider (100K+ users) and KJC Technologies (multi-six-figure revenue). Entrepreneur First. Started making games at age 12.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "source_urls": [],
+    "metadata": {
+      "last_verified": "2026-05-04T16:30:00-07:00"
+    },
+    "id": "444"
   }
 ]
