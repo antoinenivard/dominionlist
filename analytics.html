@@ -938,8 +938,9 @@ var maxYr = Math.max.apply(null,Object.values(yrCounts));
 var recent = (yrCounts[2023]||0)+(yrCounts[2024]||0)+(yrCounts[2025]||0);
 var recentPct = Math.round(recent/total*100);
 
+var jump = yrCounts[2022] ? Math.round(((yrCounts[2023]||0)-(yrCounts[2022]||0))/(yrCounts[2022]||1)*100) : 0;
 document.getElementById('s3insight').textContent =
-  'The newest formation wave is overwhelmingly AI-native. '+recentPct+'% of companies were founded in 2023\u20132025, with formation peaking in 2024 at '+(yrCounts[2024]||0)+' new companies \u2014 nearly all AI-native.';
+  'Something broke open in 2023. Company formation nearly tripled year-over-year \u2014 from '+(yrCounts[2022]||0)+' to '+(yrCounts[2023]||0)+' new companies, a '+jump+'% jump \u2014 marking the start of a Canadian-founder AI wave. '+recentPct+'% of the entire database was founded in 2023 or later. Note: 2025\u20132026 figures are incomplete as many companies remain in stealth.';
 
 var s3html = '';
 for(var y=startYr;y<=endYr;y++){
