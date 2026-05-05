@@ -39989,5 +39989,138 @@
       "last_verified": "2026-05-05",
       "notes": "Formerly known as Canvas. Backed by Sequoia Capital (Konstantine Buhler), Abstract Ventures, SV Angel. Dhaman also a Next 36 alumnus."
     }
+  },
+  {
+    "id": "458",
+    "name": "Raya Power",
+    "website": "https://rayapower.com/",
+    "description": "Plug-and-play solar-plus-battery system designed to be accessible and easy to install, targeting renters and low-to-moderate income households who previously couldn't access solar energy.",
+    "founded_year": 2025,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Climate Tech",
+    "sub_industry": "Solar Energy",
+    "founders": [
+      {
+        "name": "Meghan Wood",
+        "linkedin": "https://www.linkedin.com/in/woodmeghan/",
+        "canadian_connection": "Queen's University, Smith School of Business (BCom). Canada's Outstanding CEO of the Year Futures Fund Scholarship recipient."
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Pre-Seed",
+        "amount_usd": 1000000,
+        "lead_investor": "Popular Impact Fund",
+        "date": "2025-01"
+      }
+    ],
+    "capital_raised_usd": 1000000,
+    "capital_raised_display": "$1M",
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founder Nicole Gonzalez (CTO). Also backed by Parallel 18, Endeavor Puerto Rico, Stanford EcoSif. Stanford GSB MBA/MS '23. Previously Bain Toronto (3 yrs)."
+    }
+  },
+  {
+    "id": "459",
+    "name": "FuseAI",
+    "website": "https://tryfuse.ai/",
+    "description": "AI-native sales platform for modern revenue teams, consolidating data enrichment, multi-channel automation, real-time buying signals, and AI-driven execution into one seamless outbound sales system.",
+    "founded_year": 2024,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Sales Tech",
+    "founders": [
+      {
+        "name": "Saurav Bubber",
+        "linkedin": "https://www.linkedin.com/in/sauravbubber/",
+        "canadian_connection": "Ivey Business School at Western University (HBA, Dean's Honor's List, Graduated with Distinction)"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Pre-Seed",
+        "amount_usd": 2150000,
+        "lead_investor": "Y Combinator",
+        "date": "2025"
+      }
+    ],
+    "capital_raised_usd": 2150000,
+    "capital_raised_display": "$2.2M",
+    "status": "Active",
+    "yc_batch": "W'25",
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founder Imogen Low (prev co-founded Nwo.ai, acquired by Growth Protocol). Saurav previously at Deel (3rd hire on GTM team, scaled $50M->$600M+ ARR) and Deloitte Toronto."
+    }
+  },
+  {
+    "id": "460",
+    "name": "Eddie AI",
+    "website": "https://www.heyeddie.ai/",
+    "description": "AI assistant video editor built for professional editors. Parses interviews from B-roll, syncs multicams, logs footage, and builds rough cuts ready to open in Premiere, Resolve, or FCP.",
+    "founded_year": 2023,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "Video / Creative Tools",
+    "founders": [
+      {
+        "name": "Shamir Allibhai",
+        "linkedin": "https://www.linkedin.com/in/shamirallibhai/",
+        "canadian_connection": "Ivey Business School at Western University (HBA, General Management, 2000-2002)"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": null,
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Co-founder Alex Terekhov. Backed by Offline Ventures, Ashton Kutcher's Sound Ventures, Google Gradient, The Production Board. Won Best Product of the Year at NAB 2026. Previously founded Simon Says (acquired) and was PM at Meta (Video Infra). Harvard MA MidEast Politics."
+    }
+  },
+  {
+    "id": "461",
+    "name": "Aucto",
+    "website": "https://aucto.com/",
+    "description": "Enterprise platform and online marketplace for surplus industrial assets, helping organizations manage, recover capital from, and sustainably redistribute equipment and machinery.",
+    "founded_year": 2019,
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Marketplace",
+    "sub_industry": "Industrial Supply Chain",
+    "founders": [
+      {
+        "name": "Jamil Rahman",
+        "linkedin": "https://www.linkedin.com/in/jamil-rahman-a96b9339/",
+        "canadian_connection": "York University, Schulich School of Business"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "round_type": "Seed",
+        "amount_usd": 3700000,
+        "lead_investor": "NFX",
+        "date": "2021"
+      }
+    ],
+    "capital_raised_usd": 3700000,
+    "capital_raised_display": "$3.7M",
+    "status": "Active",
+    "yc_batch": null,
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Also backed by Motivate Venture Capital. COO Lucas Flosi (former Meta, Clutter). HQ also in Toronto."
+    }
   }
 ]
