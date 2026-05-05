@@ -144,6 +144,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 
 /* Histogram */
 .histogram{display:flex;align-items:flex-end;gap:2px;height:140px;padding-bottom:24px;position:relative}
+@media(min-width:601px){.histogram{height:280px}}
 .hist-bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;position:relative}
 .hist-bar{width:100%;background:var(--bar);border-radius:2px 2px 0 0;transition:height .6s ease;min-width:4px}
 .hist-label{position:absolute;bottom:-20px;font-size:10px;color:var(--fg3);white-space:nowrap}
@@ -242,7 +243,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .section{margin-bottom:0}
 
   /* Histogram */
-  .histogram{height:800px;padding-bottom:20px}
+  .histogram{height:140px;padding-bottom:20px}
   /* Hide section-level caption on mobile when subsections are shown */
   .s2-caption,.sMap-caption{display:none}
   .s2-caption + h3,.sMap-caption + h3{margin-top:8px}
