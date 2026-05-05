@@ -732,7 +732,7 @@ async function loadData() {
     if (!c.hqCity)         c.hqCity         = c.hq_city || '';
     if (!c.hqState)        c.hqState        = c.hq_region || '';
     if (!c.hqCountry)      c.hqCountry      = c.hq_country || '';
-    if (!c.foundingYear)   c.foundingYear   = c.founding_year || null;
+    if (!c.foundingYear)   c.foundingYear   = c.founding_year || c.founded_year || null;
     if (!c.companyStatus)  c.companyStatus  = c.status || 'Private';
     if (!c.stage)          c.stage          = c.stage || 'Unknown';
     if (!c.ycBatch)        c.ycBatch        = c.yc_batch || null;
