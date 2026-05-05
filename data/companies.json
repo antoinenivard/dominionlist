@@ -40239,5 +40239,37 @@
       "last_verified": "2026-05-05",
       "notes": "Forbes 30 Under 30. 80,000+ coaching sessions facilitated. Science-backed methods in partnership with NYU, UC Berkeley, UCSF. CEO Christal Wang prev at Bain, Berkeley MBA/MPH."
     }
+  },
+  {
+    "id": "465",
+    "name": "ContextAI",
+    "website": "https://www.contexthq.ai/",
+    "description": "AI systems for hiring and talent management. Custom AI built around a company's hiring DNA, best practices, and talent ontology with a Holistic Fit Engine for candidate matching.",
+    "founded_year": 2025,
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "sub_industry": "HR Tech / Talent Management",
+    "founders": [
+      {
+        "name": "Carlos Chiu",
+        "linkedin": "https://www.linkedin.com/in/carloschiu/",
+        "canadian_connection": "UBC Sauder School of Business (BComm, Finance, 2003-2007)"
+      },
+      {
+        "name": "Kevin Ho",
+        "linkedin": "",
+        "canadian_connection": "N/A"
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "status": "Active",
+    "metadata": {
+      "last_verified": "2026-05-05",
+      "notes": "Both co-founders ex-Soci\u00e9t\u00e9 G\u00e9n\u00e9rale. Carlos Chiu also ex-Citi. Kevin Ho was VP at SG leading $10B+ infrastructure transactions. Very early stage (founded ~April 2025)."
+    }
   }
 ]
