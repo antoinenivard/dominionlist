@@ -850,12 +850,18 @@ function slugify(name) {
 }
 
 /* ═══ Institution normalization ═══ */
+/* High schools — excluded from the institution filter (universities only) */
+const HIGH_SCHOOLS = new Set([
+  'Olympiads School', 'Pearson College UWC', 'Shawnigan Lake School',
+  'St. George\'s School', 'University of Toronto Schools', 'Upper Canada College'
+]);
+
 const INSTITUTION_ALIASES = {
   /* Waterloo */ 'UWaterloo': 'University of Waterloo', 'Waterloo': 'University of Waterloo', 'U of Waterloo': 'University of Waterloo',
   /* Toronto */ 'UofT': 'University of Toronto', 'U of T': 'University of Toronto', 'UToronto': 'University of Toronto', 'University of Toronto Scarborough': 'University of Toronto', 'University of Toronto (dropped out)': 'University of Toronto',
   /* UBC */ 'UBC': 'University of British Columbia',
   /* Queen's */ 'Queens': "Queen's University", "Queen's": "Queen's University", 'Queens University': "Queen's University",
-  /* Western */ 'Ivey Business School, Western University': 'Western University', 'Ivey Business School': 'Western University', 'Western University (UWO)': 'Western University',
+  /* Western */ 'University of Western Ontario': 'Western University', 'Ivey Business School, Western University': 'Western University', 'Ivey Business School': 'Western University', 'Western University (UWO)': 'Western University',
   /* York */ 'York University - Schulich School of Business': 'York University',
   /* SFU */ 'SFU': 'Simon Fraser University',
   /* UVic */ 'UVic': 'University of Victoria',
@@ -963,7 +969,7 @@ function computeFilterCounts(sourceList) {
     (c.founders || []).forEach(f => {
       if (f.canadianInstitution) {
         const norm = normalizeInstitution(f.canadianInstitution);
-        maps.institution.set(norm, (maps.institution.get(norm) || 0) + 1);
+        if (!HIGH_SCHOOLS.has(norm)) maps.institution.set(norm, (maps.institution.get(norm) || 0) + 1);
       }
       if (f.canadianConnectionType) {
         normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
@@ -1106,7 +1112,7 @@ function toggleInstOtherParent(checked) {
     (c.founders || []).forEach(f => {
       if (f.canadianInstitution) {
         const norm = normalizeInstitution(f.canadianInstitution);
-        counts.set(norm, (counts.get(norm) || 0) + 1);
+        if (!HIGH_SCHOOLS.has(norm)) counts.set(norm, (counts.get(norm) || 0) + 1);
       }
     });
   });
