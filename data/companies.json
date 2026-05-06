@@ -30,7 +30,7 @@
     "capital_raised_display": "Undisclosed",
     "status": "Active",
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Still in stealth mode (coming soon). Benjamin Ye prev ML Engineer at Georgian (Toronto). Mohit Raj dropped out of Western University. Office in Dogpatch, SF."
     },
     "founding_year": 2025
@@ -66,7 +66,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "420"
   },
@@ -375,7 +375,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "435"
   },
@@ -790,7 +790,7 @@
       "https://www.agentbase.sh/blog/introducing-agentbase"
     ],
     "metadata": {
-      "last_verified": "2026-05-04T13:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     }
   },
   {
@@ -871,7 +871,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "2022 Pasupalak CS Capstone Award from UWaterloo. Previously ML Research Engineer at Apple."
     },
     "founding_year": 2025
@@ -1829,7 +1829,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "416"
   },
@@ -2378,7 +2378,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "442"
   },
@@ -3151,7 +3151,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Also backed by Motivate Venture Capital. COO Lucas Flosi (former Meta, Clutter). HQ also in Toronto."
     },
     "founding_year": 2019
@@ -4343,7 +4343,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "403"
   },
@@ -5823,7 +5823,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T17:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "445"
   },
@@ -5849,7 +5849,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Ex-Google, Ex-Meta. Founded Dec 2025."
     },
     "founding_year": 2025
@@ -5961,7 +5961,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "431"
   },
@@ -7336,7 +7336,7 @@
       "https://clerk.chat/blog/seed-funding/"
     ],
     "metadata": {
-      "last_verified": "2026-05-04T14:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     }
   },
   {
@@ -7678,7 +7678,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "407"
   },
@@ -7820,7 +7820,7 @@
     "capital_raised_display": "Undisclosed",
     "status": "Active",
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Both co-founders ex-Soci\u00e9t\u00e9 G\u00e9n\u00e9rale. Carlos Chiu also ex-Citi. Kevin Ho was VP at SG leading $10B+ infrastructure transactions. Very early stage (founded ~April 2025)."
     },
     "founding_year": 2025
@@ -8252,7 +8252,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "432"
   },
@@ -8923,7 +8923,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T12:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "425"
   },
@@ -8975,7 +8975,7 @@
       "https://www.datost.com"
     ],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "411"
   },
@@ -9075,7 +9075,7 @@
     "capital_raised_display": "$7M",
     "status": "Active",
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "CEO Spyri Karasavva prev at Stripe, CPP Investments. CTO Fay Wu prev at Notion, Stripe. Processes $1B+ in revenue. Clients include Plaid, Airwallex."
     },
     "founding_year": 2024
@@ -9657,7 +9657,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T13:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     }
   },
   {
@@ -9793,7 +9793,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     }
   },
   {
@@ -9827,7 +9827,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T12:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "424"
   },
@@ -9950,7 +9950,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "418"
   },
@@ -10438,7 +10438,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founder Alex Terekhov. Backed by Offline Ventures, Ashton Kutcher's Sound Ventures, Google Gradient, The Production Board. Won Best Product of the Year at NAB 2026. Previously founded Simon Says (acquired) and was PM at Meta (Video Infra). Harvard MA MidEast Politics."
     },
     "founding_year": 2023
@@ -10465,7 +10465,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "MIT delta v 2025. Also ran Nada grocery store in Greater Vancouver (2017-2023). MIT Sloan MBA."
     },
     "founding_year": 2025
@@ -12082,7 +12082,7 @@
       "https://www.ycombinator.com/companies/fern-bot"
     ],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "406"
   },
@@ -12864,7 +12864,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "419"
   },
@@ -13045,7 +13045,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T17:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "448"
   },
@@ -13416,7 +13416,7 @@
     "status": "Active",
     "yc_batch": "W'25",
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founder Imogen Low (prev co-founded Nwo.ai, acquired by Growth Protocol). Saurav previously at Deel (3rd hire on GTM team, scaled $50M->$600M+ ARR) and Deloitte Toronto."
     },
     "founding_year": 2024
@@ -13676,7 +13676,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Ex-Amazon. Co-founder Adrianna Atiles."
     },
     "founding_year": 2025
@@ -14237,7 +14237,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "412"
   },
@@ -15181,7 +15181,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "443"
   },
@@ -15469,7 +15469,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "436"
   },
@@ -15504,7 +15504,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "430"
   },
@@ -15889,7 +15889,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "401"
   },
@@ -16582,7 +16582,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T12:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "423"
   },
@@ -17236,7 +17236,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "441"
   },
@@ -17271,7 +17271,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "444"
   },
@@ -17980,7 +17980,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "438"
   },
@@ -19890,7 +19890,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "414"
   },
@@ -21069,7 +21069,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "410"
   },
@@ -21203,7 +21203,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "433"
   },
@@ -23962,7 +23962,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "404"
   },
@@ -24016,7 +24016,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T16:30:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "440"
   },
@@ -25534,7 +25534,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "409"
   },
@@ -26260,7 +26260,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founder Alexander Narvaez-Duckworth. Family runs agri-commodities import business."
     },
     "founding_year": 2025
@@ -27313,7 +27313,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "400"
   },
@@ -27637,7 +27637,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T17:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "446"
   },
@@ -27670,7 +27670,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founder Nicole Gonzalez (CTO). Also backed by Parallel 18, Endeavor Puerto Rico, Stanford EcoSif. Stanford GSB MBA/MS '23. Previously Bain Toronto (3 yrs)."
     },
     "founding_year": 2025
@@ -27920,7 +27920,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "437"
   },
@@ -29545,7 +29545,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "413"
   },
@@ -30303,7 +30303,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T15:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "434"
   },
@@ -30835,7 +30835,7 @@
     "status": "Active",
     "yc_batch": "S'21",
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Forbes 30 Under 30. 80,000+ coaching sessions facilitated. Science-backed methods in partnership with NYU, UC Berkeley, UCSF. CEO Christal Wang prev at Bain, Berkeley MBA/MPH."
     },
     "founding_year": 2021
@@ -32120,7 +32120,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "422"
   },
@@ -33659,7 +33659,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T17:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "447"
   },
@@ -33987,7 +33987,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "408"
   },
@@ -34110,7 +34110,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "415"
   },
@@ -34634,7 +34634,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Formerly known as Canvas. Backed by Sequoia Capital (Konstantine Buhler), Abstract Ventures, SV Angel. Dhaman also a Next 36 alumnus."
     },
     "founding_year": 2022
@@ -35415,7 +35415,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founder Jasmin Kaur (CEO). Entrepreneurs First alumnus. Previously Lead ML Researcher at Bilby AI (Hong Kong). B.Sc. Computing Mathematics from City University of Hong Kong."
     },
     "founding_year": 2025
@@ -36949,7 +36949,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "402"
   },
@@ -37456,7 +37456,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "421"
   },
@@ -38774,7 +38774,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T13:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     }
   },
   {
@@ -38899,7 +38899,7 @@
     "funding_rounds": [],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-04T11:00:00-07:00"
+      "last_verified": "2026-05-05T17:26:00-08:00"
     },
     "id": "417"
   },
@@ -39043,7 +39043,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Co-founders Jared Parker (CEO, repeat founder, sold Rasgo after raising $25M+) and Mike Audi (CTO)."
     },
     "founding_year": 2025
@@ -39920,7 +39920,7 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05",
+      "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Rice University CS (Magna Cum Laude, 2021-2025). RBC Capital Markets intern. EducationUSA mentor."
     },
     "founding_year": 2025
