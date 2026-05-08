@@ -40391,5 +40391,245 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 0,
     "capital_raised_display": ""
+  },
+  {
+    "id": "super-com",
+    "name": "Super.com",
+    "website": "https://www.super.com",
+    "description": "Savings super app for everyday Americans. Offers discount hotel bookings, a credit-building debit card (SuperCard), and cashback browser extension. Originally founded as Snapcommerce in Toronto, rebranded to Super.com. Over $200M annual revenue.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2016,
+    "industry": "Consumer",
+    "stage": "Series C",
+    "status": "Private",
+    "yc_batch": "",
+    "founders": [
+      {
+        "id": "hussein-fazal",
+        "name": "Hussein Fazal",
+        "linkedin": "https://www.linkedin.com/in/husseinfazal",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Super.com. Canadian-born American serial entrepreneur. Computer Science from the University of Waterloo (co-op). Previously founded AdParlor (acquired by AdKnowledge). Forbes 30 Under 30.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hussein_Fazal",
+        "x_url": ""
+      },
+      {
+        "id": "henry-shi",
+        "name": "Henry Shi",
+        "linkedin": "https://www.linkedin.com/in/henrythe9th",
+        "role": "Co-Founder",
+        "bio": "Co-Founder of Super.com. Honours Bachelor of Computer Science and Honours Economics from the University of Waterloo. Former Google software engineer. Forbes 30 Under 30. EY Entrepreneur of the Year.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Shi",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Series C",
+        "amount_usd": 85000000,
+        "amount_display": "$85M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Inovia Capital"
+        ],
+        "other_investors": [
+          "Lion Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2021",
+        "round": "Series B",
+        "amount_usd": 85000000,
+        "amount_display": "$85M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Inovia Capital"
+        ],
+        "other_investors": [
+          "Lion Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://www.super.com",
+        "https://en.wikipedia.org/wiki/Super.com",
+        "https://www.linkedin.com/in/husseinfazal"
+      ],
+      "last_verified": "2026-05-07T10:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Hussein Fazal, Henry Shi",
+    "institution_display": "University of Waterloo",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": 200000000,
+    "capital_raised_display": "$200M+"
+  },
+  {
+    "id": "kiva-systems",
+    "name": "Kiva Systems",
+    "website": "",
+    "description": "Pioneered autonomous mobile robotic fulfillment systems for warehouse automation. Robots moved shelves to workers, revolutionizing e-commerce logistics. Acquired by Amazon in 2012 for $775M, now operates as Amazon Robotics.",
+    "hq_city": "North Reading",
+    "hq_region": "MA",
+    "hq_country": "United States",
+    "founding_year": 2003,
+    "industry": "Industrial",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "yc_batch": "",
+    "founders": [
+      {
+        "id": "raffaello-dandrea",
+        "name": "Raffaello D'Andrea",
+        "linkedin": "https://www.linkedin.com/in/raffaello-d-andrea",
+        "role": "Co-Founder & Co-CTO",
+        "bio": "Co-Founder of Kiva Systems. Born in Italy, raised in Canada from age 9. BASc Engineering Science from the University of Toronto (1991, Wilson Medal as top graduating student). PhD Electrical Engineering from Caltech (1997). Professor at ETH Zurich. National Inventors Hall of Fame inductee. Also co-founded Verity Studios.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Raffaello_D%27Andrea",
+        "x_url": ""
+      },
+      {
+        "id": "mick-mountz",
+        "name": "Mick Mountz",
+        "linkedin": "",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Kiva Systems. National Inventors Hall of Fame inductee.",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      },
+      {
+        "id": "peter-wurman",
+        "name": "Peter Wurman",
+        "linkedin": "",
+        "role": "Co-Founder & Co-CTO",
+        "bio": "Co-Founder & Co-CTO of Kiva Systems. National Inventors Hall of Fame inductee.",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2012-03",
+        "round": "Acquisition",
+        "amount_usd": 775000000,
+        "amount_display": "$775M",
+        "valuation_usd": 775000000,
+        "valuation_display": "$775M",
+        "lead_investors": [
+          "Amazon"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://press.aboutamazon.com/2012/3/amazon-com-to-acquire-kiva-systems-inc"
+        ],
+        "notes": "All-cash acquisition. Now operates as Amazon Robotics."
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amazon_Robotics",
+        "https://en.wikipedia.org/wiki/Raffaello_D%27Andrea"
+      ],
+      "last_verified": "2026-05-07T10:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Raffaello D'Andrea, Mick Mountz, Peter Wurman",
+    "institution_display": "University of Toronto",
+    "hq_display": "North Reading, MA",
+    "capital_raised_usd": 775000000,
+    "capital_raised_display": "$775M (acquisition)"
+  },
+  {
+    "id": "consensys",
+    "name": "ConsenSys",
+    "website": "https://consensys.io",
+    "description": "Leading Ethereum software company. Builds infrastructure for the decentralized web including MetaMask (crypto wallet with 30M+ users), Infura (Ethereum API), and Linea (L2 rollup). Co-founded by Ethereum co-founder Joe Lubin.",
+    "hq_city": "Fort Worth",
+    "hq_region": "TX",
+    "hq_country": "United States",
+    "founding_year": 2014,
+    "industry": "Crypto",
+    "stage": "Series D",
+    "status": "Private",
+    "yc_batch": "",
+    "founders": [
+      {
+        "id": "joe-lubin",
+        "name": "Joe Lubin",
+        "linkedin": "https://www.linkedin.com/in/joseph-lubin-48406489",
+        "role": "Founder & CEO",
+        "bio": "Founder & CEO of ConsenSys. Co-Founder of Ethereum. Born and raised in Toronto, Canada. BS Electrical Engineering & Computer Science from Princeton University. Previously worked in software engineering, hedge fund management, and robotics.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur)",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022",
+        "round": "Series D",
+        "amount_usd": 450000000,
+        "amount_display": "$450M",
+        "valuation_usd": 7000000000,
+        "valuation_display": "$7B",
+        "lead_investors": [
+          "ParaFi Capital"
+        ],
+        "other_investors": [
+          "Microsoft",
+          "SoftBank",
+          "Coinbase",
+          "HSBC"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://consensys.io",
+        "https://en.wikipedia.org/wiki/Consensys",
+        "https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur)"
+      ],
+      "last_verified": "2026-05-07T10:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Joe Lubin",
+    "institution_display": "",
+    "hq_display": "Fort Worth, TX",
+    "capital_raised_usd": 725000000,
+    "capital_raised_display": "$725M"
   }
 ]
