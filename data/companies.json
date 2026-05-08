@@ -40860,10 +40860,10 @@
       {
         "date": "2020-09",
         "round": "Acquisition",
-        "amount_usd": 14000000,
-        "amount_display": "$14M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 14000000,
+        "valuation_display": "$14M",
         "lead_investors": [
           "WELL Health Technologies"
         ],
