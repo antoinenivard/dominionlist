@@ -40653,17 +40653,36 @@
       {
         "id": "george-favvas",
         "name": "George Favvas",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/georgefavvas",
         "role": "Co-Founder & CEO",
-        "bio": "Co-Founder & CEO of Clara (YC P26). Born and raised in Montreal, Canada. Previously co-founded Circle Medical (YC S15) and grew it to $100M revenue. Fellow Montrealer Jean-Sebastien Boulanger was also a Circle Medical co-founder.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_institutions": [],
+        "bio": "Co-Founder & CEO of Clara (YC P26). Born and raised in Montreal, Canada. Attended Vanier College (CEGEP). Previously co-founded Circle Medical (YC S15) and grew it to $100M revenue. Serial entrepreneur with 20+ years experience.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Vanier College",
+        "canadian_institutions": [
+          "Vanier College"
+        ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "https://x.com/georgefavvas"
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-04",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/clara-2"
+        ],
+        "notes": "Standard YC P'26 deal"
+      }
+    ],
     "metadata": {
       "sources": [
         "https://www.ycombinator.com/companies/clara-2",
@@ -40674,10 +40693,10 @@
       "import_notes": "manual-add"
     },
     "founder_display": "George Favvas",
-    "institution_display": "",
+    "institution_display": "Vanier College",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": ""
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K"
   },
   {
     "id": "sentra",
@@ -40755,5 +40774,120 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5000000,
     "capital_raised_display": "$5M"
+  },
+  {
+    "id": "circle-medical",
+    "name": "Circle Medical",
+    "website": "https://www.circlemedical.com",
+    "description": "Technology-driven primary care provider offering telehealth and in-person visits. Proprietary AI platform scales patient experience and lowers operating costs. Operates across 35+ states, in-network with major US insurance carriers.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2015,
+    "industry": "Health",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "yc_batch": "S'15",
+    "founders": [
+      {
+        "id": "george-favvas",
+        "name": "George Favvas",
+        "linkedin": "https://www.linkedin.com/in/georgefavvas",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Circle Medical. Born and raised in Montreal, Canada. Attended Vanier College (CEGEP). Serial entrepreneur with 20+ years experience. Also co-founded Clara (YC P26).",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Vanier College",
+        "canadian_institutions": [
+          "Vanier College"
+        ],
+        "wikipedia_url": "",
+        "x_url": "https://x.com/georgefavvas"
+      },
+      {
+        "id": "jean-sebastien-boulanger",
+        "name": "Jean-Sebastien Boulanger",
+        "linkedin": "",
+        "role": "Co-Founder & CTO",
+        "bio": "Co-Founder & CTO of Circle Medical. Originally from Montreal, Quebec, Canada.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2015-11",
+        "round": "Seed",
+        "amount_usd": 2900000,
+        "amount_display": "$2.9M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Collaborative Fund"
+        ],
+        "other_investors": [
+          "Tencent",
+          "Real Ventures",
+          "Kima Ventures"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2015/08/17/circle-medical-brings-a-full-service-medical-practice-to-you/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2018-11",
+        "round": "Series A",
+        "amount_usd": 3500000,
+        "amount_display": "$3.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "A.Capital Ventures"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "WELL Health Technologies",
+          "Collaborative Fund"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20181102005112/en/Y-Combinator-Backed-Circle-Medical-Raises-3.5M-Led-by-A.Capital-to-Scale-Tech-Driven-Healthcare-Practice"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2020-09",
+        "round": "Acquisition",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "WELL Health Technologies"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://news-releases.well.company/news-releases/well-health-enters-us-market-with-completion-of-majority-stake-acquisition-of-circle-medical-technologies/"
+        ],
+        "notes": "Majority stake acquisition by WELL Health Technologies (TSX: WELL)"
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://www.circlemedical.com",
+        "https://www.ycombinator.com/companies/circle-medical",
+        "https://www.crunchbase.com/organization/circle-medical-2",
+        "https://betakit.com/canadian-founded-circle-medical-raises-3-5-million/"
+      ],
+      "last_verified": "2026-05-08T09:16:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "George Favvas, Jean-Sebastien Boulanger",
+    "institution_display": "Vanier College",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": 6400000,
+    "capital_raised_display": "$6.4M"
   }
 ]
