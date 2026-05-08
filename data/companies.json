@@ -40631,5 +40631,87 @@
     "hq_display": "Fort Worth, TX",
     "capital_raised_usd": 725000000,
     "capital_raised_display": "$725M"
+  },
+  {
+    "id": "multiverse",
+    "name": "Multiverse",
+    "website": "https://store.playmultiverse.com",
+    "description": "Web-based tabletop RPG game creation platform and artist marketplace. Lets users create and play tabletop role-playing games in-browser with digital tools. Raised $17.6M. Also known as One More Multiverse.",
+    "hq_city": "Boston",
+    "hq_region": "MA",
+    "hq_country": "United States",
+    "founding_year": 2019,
+    "industry": "Consumer",
+    "stage": "Series A",
+    "status": "Inactive",
+    "yc_batch": "S'20",
+    "founders": [
+      {
+        "id": "thariq-shihipar",
+        "name": "Thariq Shihipar",
+        "linkedin": "https://www.linkedin.com/in/thariqshihipar",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Multiverse (YC S20). BASc Electrical & Computer Engineering from the University of Toronto. Previously co-founded Chime (acquired by HubSpot) as a UofT undergrad. Now Member of Technical Staff at Anthropic.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "",
+        "x_url": "https://x.com/trq__"
+      },
+      {
+        "id": "hisham-bedri",
+        "name": "Hisham Bedri",
+        "linkedin": "",
+        "role": "Co-Founder & CTO",
+        "bio": "Co-Founder & CTO of Multiverse. Serial inventor. MIT.",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      },
+      {
+        "id": "sara-alfageeh",
+        "name": "Sara Alfageeh",
+        "linkedin": "https://www.linkedin.com/in/sara-alfa",
+        "role": "Co-Founder & Creative Director",
+        "bio": "Co-Founder & Creative Director of Multiverse. Illustrator of comics and children's books.",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021",
+        "round": "Series A",
+        "amount_usd": 17600000,
+        "amount_display": "$17.6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Total funding across 2 rounds."
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://www.ycombinator.com/companies/multiverse",
+        "https://store.playmultiverse.com",
+        "https://www.crunchbase.com/organization/multiverse-adb5"
+      ],
+      "last_verified": "2026-05-07T10:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Thariq Shihipar, Hisham Bedri, Sara Alfageeh",
+    "institution_display": "University of Toronto",
+    "hq_display": "Boston, MA",
+    "capital_raised_usd": 17600000,
+    "capital_raised_display": "$17.6M"
   }
 ]
