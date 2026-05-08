@@ -40437,7 +40437,77 @@
     ],
     "funding_rounds": [
       {
-        "date": "2023",
+        "date": "2016-07",
+        "round": "Seed",
+        "amount_usd": 1200000,
+        "amount_display": "$1.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Lightbank",
+          "Bee Partners",
+          "Hedgewood",
+          "Peter Kern"
+        ],
+        "source_urls": [
+          "https://skift.com/2016/07/14/weswap-snaptravel-and-more-in-travel-startup-funding-this-week/"
+        ],
+        "notes": "Operating as SnapTravel."
+      },
+      {
+        "date": "2017-07",
+        "round": "Series A",
+        "amount_usd": 8000000,
+        "amount_display": "$8M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Inovia Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2017/07/24/snaptravel-raises-8-million-for-a-hotel-booking-service-that-works-over-chat/"
+        ],
+        "notes": "First close of Series A."
+      },
+      {
+        "date": "2018-12",
+        "round": "Series A Extension",
+        "amount_usd": 13200000,
+        "amount_display": "$13.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Telstra Ventures"
+        ],
+        "other_investors": [
+          "Stephen Curry"
+        ],
+        "source_urls": [
+          "https://www.globenewswire.com/news-release/2018/12/04/1661658/0/en/SnapTravel-Raises-New-Investment-Closes-Series-A-at-21-2-Million.html"
+        ],
+        "notes": "Series A total closed at $21.2M (CAD $28M)."
+      },
+      {
+        "date": "2021-03",
+        "round": "Series B",
+        "amount_usd": 85000000,
+        "amount_display": "$85M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Inovia Capital",
+          "Lion Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20210304005296/en/Snapcommerce-Message-Driven-Mobile-Commerce-Platform-Raises-85M-USD-in-Funding-Led-by-Inovia-Capital-and-Lion-Capital"
+        ],
+        "notes": "Operating as Snapcommerce."
+      },
+      {
+        "date": "2023-04",
         "round": "Series C",
         "amount_usd": 85000000,
         "amount_display": "$85M",
@@ -40447,26 +40517,20 @@
           "Inovia Capital"
         ],
         "other_investors": [
-          "Lion Capital"
+          "Telstra Ventures",
+          "Hyphen Capital",
+          "EDC",
+          "Plaza Ventures",
+          "Acrew",
+          "Lion Capital",
+          "Full In Partners",
+          "Stephen Curry",
+          "Harley Finkelstein"
         ],
-        "source_urls": [],
-        "notes": ""
-      },
-      {
-        "date": "2021",
-        "round": "Series B",
-        "amount_usd": 85000000,
-        "amount_display": "$85M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Inovia Capital"
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/supercom-raises-85m-series-c-to-grow-savings-super-app-for-everyday-americans-301805477.html"
         ],
-        "other_investors": [
-          "Lion Capital"
-        ],
-        "source_urls": [],
-        "notes": ""
+        "notes": "$60M equity + $25M credit facility. Operating as Super.com."
       }
     ],
     "metadata": {
@@ -40476,13 +40540,14 @@
         "https://www.linkedin.com/in/husseinfazal"
       ],
       "last_verified": "2026-05-07T10:00:00-08:00",
-      "import_notes": "manual-add"
+      "import_notes": "manual-add",
+      "total_funding_display": "$192.4M"
     },
     "founder_display": "Hussein Fazal, Henry Shi",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 200000000,
-    "capital_raised_display": "$200M+"
+    "capital_raised_usd": 192400000,
+    "capital_raised_display": "$192.4M"
   },
   {
     "id": "kiva-systems",
