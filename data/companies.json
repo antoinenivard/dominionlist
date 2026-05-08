@@ -40625,5 +40625,170 @@
     "hq_display": "Boston, MA",
     "capital_raised_usd": 17600000,
     "capital_raised_display": "$17.6M"
+  },
+  {
+    "id": "arga-labs",
+    "name": "Arga Labs",
+    "website": "https://arga.dev",
+    "description": "Validation infrastructure for AI agents. Spins up production-like staging sandboxes per PR with 'twins' for integrations (Stripe, Slack, GSuite). Generates and runs tests automatically so agents can fix what broke before a human reviews.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "yc_batch": "P'26",
+    "founders": [
+      {
+        "id": "akira-tong",
+        "name": "Akira Tong",
+        "linkedin": "https://www.linkedin.com/in/akira-tong",
+        "role": "Co-Founder & CTO",
+        "bio": "Co-Founder & CTO of Arga Labs (YC P26). CS & Business at UBC. Previously interned at Stripe. Met co-founder Phillip Li in first-year calculus at UBC at age 14. Canadian Junior National Fencing Team.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "wikipedia_url": "",
+        "x_url": ""
+      },
+      {
+        "id": "phillip-li",
+        "name": "Phillip Li",
+        "linkedin": "https://www.linkedin.com/in/phillip-li-a28a84217",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Arga Labs (YC P26). Studied neuroscience at UBC before pivoting to tech. Previously interned at Amazon where he built a dev tool saving 10 weeks/year of engineering hours.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [],
+    "metadata": {
+      "sources": [
+        "https://www.ycombinator.com/companies/arga-labs",
+        "https://www.linkedin.com/in/akira-tong",
+        "https://www.linkedin.com/in/phillip-li-a28a84217"
+      ],
+      "last_verified": "2026-05-07T12:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Akira Tong, Phillip Li",
+    "institution_display": "University of British Columbia",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": 0,
+    "capital_raised_display": ""
+  },
+  {
+    "id": "clara-health",
+    "name": "Clara",
+    "website": "https://askclara.com",
+    "description": "AI-powered primary care and longevity practice. Mission to add one billion years of healthspan to humanity. Built by the team that founded Circle Medical (YC S15) and grew it to $100M in revenue.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2025,
+    "industry": "Health",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "yc_batch": "P'26",
+    "founders": [
+      {
+        "id": "george-favvas",
+        "name": "George Favvas",
+        "linkedin": "",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Clara (YC P26). Born and raised in Montreal, Canada. Previously co-founded Circle Medical (YC S15) and grew it to $100M revenue. Fellow Montrealer Jean-Sebastien Boulanger was also a Circle Medical co-founder.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [],
+    "metadata": {
+      "sources": [
+        "https://www.ycombinator.com/companies/clara-2",
+        "https://askclara.com",
+        "https://www.crunchbase.com/person/george-favvas"
+      ],
+      "last_verified": "2026-05-07T12:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "George Favvas",
+    "institution_display": "",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": 0,
+    "capital_raised_display": ""
+  },
+  {
+    "id": "sentra",
+    "name": "Sentra",
+    "website": "https://sentra.app",
+    "description": "AI teammate that builds persistent company memory. Continuously creates a living knowledge layer that unifies data, conversations, and context across teams and timelines. Automates status reporting, meeting decision capture, and onboarding.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2025,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "yc_batch": "",
+    "founders": [
+      {
+        "id": "jae-gwan-park",
+        "name": "Jae Gwan Park",
+        "linkedin": "https://www.linkedin.com/in/jaegpark",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Sentra. Computer Engineering at the University of Toronto. 3 years in research (focused ultrasound, climate forecasting, computational modelling, ML). Previously founded Starpark (data analytics for defense). Hummingbird Ventures Fellow.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-01",
+        "round": "Seed",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "a16z Speedrun",
+          "Together Fund"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/sentraapp-raises-5m-to-build-the-collective-mind-for-next-generation-enterprises-302671875.html"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://sentra.app",
+        "https://www.linkedin.com/in/jaegpark",
+        "https://www.jaegwanpark.ca/about"
+      ],
+      "last_verified": "2026-05-07T12:00:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Jae Gwan Park",
+    "institution_display": "University of Toronto",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": 5000000,
+    "capital_raised_display": "$5M"
   }
 ]
