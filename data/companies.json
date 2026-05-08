@@ -40904,5 +40904,94 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 6400000,
     "capital_raised_display": "$6.4M"
+  },
+  {
+    "id": "espa-ai",
+    "name": "Espa",
+    "website": "https://espa.ai",
+    "description": "AI-native executive assistant that manages work and personal life logistics. Unlike AI tools that only draft and suggest, Espa executes: sends emails, books meetings, tracks follow-ups, and surfaces what you've missed. Built for founders, executives, and families.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "United States",
+    "founding_year": 2026,
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "yc_batch": null,
+    "founders": [
+      {
+        "id": "deon-nicholas",
+        "name": "Deon Nicholas",
+        "linkedin": "https://www.linkedin.com/in/deon-nicholas",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Espa. Grew up in inner-city Toronto. BMath from University of Waterloo. Two-time ACM ICPC World Finalist (13th, 2015). Forbes 30 Under 30 (2019). Previously co-founded Forethought (TechCrunch Battlefield 2018 winner, acquired by Zendesk in 2026). Built products at Facebook, Palantir, Dropbox, and Pure Storage.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "wikipedia_url": "",
+        "x_url": "https://x.com/dojideon"
+      },
+      {
+        "id": "volodymyr-lyubinets",
+        "name": "Volodymyr Lyubinets",
+        "linkedin": "https://www.linkedin.com/in/lyubinets",
+        "role": "Co-Founder & CTO",
+        "bio": "Co-Founder & CTO of Espa. University of Waterloo graduate. ACM ICPC World Finalist (13th place, 2015 \u2014 same Waterloo Black team as Deon Nicholas). IEEExtreme grand 1st place (2017). Google Hash Code top 10. Engineer #1 at Forethought, architected platform powering 1B+ monthly interactions.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-05-07",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Zapier",
+          "Harlem Capital",
+          "Axiom Partners"
+        ],
+        "other_investors": [
+          "Village Global",
+          "SV Angel",
+          "Neo",
+          "Henry Shi",
+          "Adam D'Angelo",
+          "Tekedra Mawakana",
+          "Scott Wu",
+          "Anu Bharadwaj",
+          "James Todd Smith"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260507803803/en/"
+        ],
+        "notes": "Angel investors include Adam D'Angelo (Quora CEO), Scott Wu (Cognition CEO), Tekedra Mawakana (Waymo Co-CEO), Anu Bharadwaj (fmr Atlassian President), James Todd Smith (LL Cool J)"
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://espa.ai",
+        "https://www.businesswire.com/news/home/20260507803803/en/",
+        "https://www.linkedin.com/in/deon-nicholas",
+        "https://www.linkedin.com/in/lyubinets"
+      ],
+      "last_verified": "2026-05-08T09:16:00-08:00",
+      "import_notes": "manual-add"
+    },
+    "founder_display": "Deon Nicholas, Volodymyr Lyubinets",
+    "institution_display": "University of Waterloo",
+    "hq_display": "San Francisco, CA",
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed"
   }
 ]
