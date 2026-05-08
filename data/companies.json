@@ -40604,6 +40604,68 @@
     ],
     "funding_rounds": [
       {
+        "date": "2003",
+        "round": "Series A",
+        "amount_usd": 1600000,
+        "amount_display": "$1.6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Estimated based on total funding minus later rounds."
+      },
+      {
+        "date": "2005-03",
+        "round": "Series B",
+        "amount_usd": 6500000,
+        "amount_display": "$6.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.crunchbase.com/funding_round/kiva-systems-series-b--f2fcd6b9"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2006-05",
+        "round": "Series C",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Bain Capital Ventures",
+          "Meakem Becker Venture Capital",
+          "Gold Hill Capital"
+        ],
+        "source_urls": [
+          "https://www.crunchbase.com/funding_round/kiva-systems-series-c--f0771791"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2008",
+        "round": "Series D",
+        "amount_usd": 16250000,
+        "amount_display": "$16.25M",
+        "valuation_usd": 192000000,
+        "valuation_display": "$192M",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://pitchbook.com/news/articles/ma-flashback-amazon-announces-775m-kiva-systems-acquisition"
+        ],
+        "notes": "Last private round before Amazon acquisition."
+      },
+      {
         "date": "2012-03",
         "round": "Acquisition",
         "amount_usd": 775000000,
@@ -40631,8 +40693,8 @@
     "founder_display": "Raffaello D'Andrea, Mick Mountz, Peter Wurman",
     "institution_display": "University of Toronto",
     "hq_display": "North Reading, MA",
-    "capital_raised_usd": 775000000,
-    "capital_raised_display": "$775M (acquisition)"
+    "capital_raised_usd": 34350000,
+    "capital_raised_display": "$34.4M"
   },
   {
     "id": "consensys",
