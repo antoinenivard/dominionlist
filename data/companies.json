@@ -40576,30 +40576,6 @@
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Raffaello_D%27Andrea",
         "x_url": ""
-      },
-      {
-        "id": "mick-mountz",
-        "name": "Mick Mountz",
-        "linkedin": "",
-        "role": "Co-Founder & CEO",
-        "bio": "Co-Founder & CEO of Kiva Systems. National Inventors Hall of Fame inductee.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
-      },
-      {
-        "id": "peter-wurman",
-        "name": "Peter Wurman",
-        "linkedin": "",
-        "role": "Co-Founder & Co-CTO",
-        "bio": "Co-Founder & Co-CTO of Kiva Systems. National Inventors Hall of Fame inductee.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
       }
     ],
     "funding_rounds": [
@@ -40690,11 +40666,12 @@
       "last_verified": "2026-05-07T10:00:00-08:00",
       "import_notes": "manual-add"
     },
-    "founder_display": "Raffaello D'Andrea, Mick Mountz, Peter Wurman",
+    "founder_display": "Raffaello D'Andrea",
     "institution_display": "University of Toronto",
     "hq_display": "North Reading, MA",
     "capital_raised_usd": 34350000,
-    "capital_raised_display": "$34.4M"
+    "capital_raised_display": "$34.4M",
+    "icon_url": "https://www.facebook.com/p/Kiva-Systems-Inc-100068952635297/"
   },
   {
     "id": "consensys",
