@@ -2230,56 +2230,6 @@
           }
         ],
         "notable": "UCC Class President (Class of 2009). Previously at Credit Suisse (M&A) and AEA Investors (PE)."
-      },
-      {
-        "name": "Don Muir",
-        "role": "Co-Founder & CEO",
-        "linkedin": "",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [
-          {
-            "institution": "Cornell University",
-            "degree": "BA",
-            "field": "",
-            "years": ""
-          },
-          {
-            "institution": "Stanford Graduate School of Business",
-            "degree": "MBA",
-            "field": "",
-            "years": ""
-          }
-        ],
-        "notable": "Merrill Presidential Scholar (Cornell). Now also CEO of F2 (spun out of Arc). Previously at BCG, Onex Partners, Apollo."
-      },
-      {
-        "name": "Raven Jiang",
-        "role": "Co-Founder & CTO",
-        "linkedin": "",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [
-          {
-            "institution": "Stanford University",
-            "degree": "BS",
-            "field": "Computer Science",
-            "years": ""
-          },
-          {
-            "institution": "Stanford Graduate School of Business",
-            "degree": "MBA",
-            "field": "",
-            "years": ""
-          }
-        ],
-        "notable": "From Singapore. Previously at Dropbox, Facebook, Tesla."
       }
     ],
     "funding_rounds": [
@@ -7808,11 +7758,6 @@
         "name": "Carlos Chiu",
         "linkedin": "https://www.linkedin.com/in/carloschiu/",
         "canadian_connection": "UBC Sauder School of Business (BComm, Finance, 2003-2007)"
-      },
-      {
-        "name": "Kevin Ho",
-        "linkedin": "",
-        "canadian_connection": "N/A"
       }
     ],
     "funding_rounds": [],
@@ -7823,7 +7768,8 @@
       "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "Both co-founders ex-Société Générale. Carlos Chiu also ex-Citi. Kevin Ho was VP at SG leading $10B+ infrastructure transactions. Very early stage (founded ~April 2025)."
     },
-    "founding_year": 2025
+    "founding_year": 2025,
+    "founder_display": "Carlos Chiu"
   },
   {
     "id": "convelo",
@@ -9056,11 +9002,6 @@
         "name": "Spyri Karasavva",
         "linkedin": "https://www.linkedin.com/in/skarasavva/",
         "canadian_connection": "Ivey Business School at Western University"
-      },
-      {
-        "name": "Fay Wu",
-        "linkedin": "https://www.linkedin.com/in/mfaywu",
-        "canadian_connection": "N/A"
       }
     ],
     "funding_rounds": [
@@ -9078,7 +9019,8 @@
       "last_verified": "2026-05-05T17:26:00-08:00",
       "notes": "CEO Spyri Karasavva prev at Stripe, CPP Investments. CTO Fay Wu prev at Notion, Stripe. Processes $1B+ in revenue. Clients include Plaid, Airwallex."
     },
-    "founding_year": 2024
+    "founding_year": 2024,
+    "founder_display": "Spyri Karasavva"
   },
   {
     "id": "decipher-ai",
@@ -13328,25 +13270,6 @@
           }
         ],
         "notable": "Born in Japan. Previously co-founded Pave (credit-building fintech). Former McKinsey consultant."
-      },
-      {
-        "name": "Oscar Wilsby",
-        "role": "CTO & Co-Founder",
-        "linkedin": "https://www.linkedin.com/in/oscar-wilsby-71020931",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [
-          {
-            "institution": "University of Cambridge",
-            "degree": "MEng & PhD",
-            "field": "Engineering / Machine Learning",
-            "years": ""
-          }
-        ],
-        "notable": "Previously at McLaren F1 and Dyson research divisions. Co-founded Pave with Sho."
       }
     ],
     "funding_rounds": [
@@ -16650,31 +16573,6 @@
           }
         ],
         "notable": "UCC class of 2006. Previously at Meta, Schrodinger, Microsoft."
-      },
-      {
-        "name": "Kavita Shah",
-        "role": "Head of Product & Co-Founder",
-        "linkedin": "https://www.linkedin.com/in/kavitashah2",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [
-          {
-            "institution": "Stanford University",
-            "degree": "BA",
-            "field": "International Relations",
-            "years": ""
-          },
-          {
-            "institution": "MIT Sloan School of Management",
-            "degree": "MBA",
-            "field": "",
-            "years": ""
-          }
-        ],
-        "notable": "Previously at YouTube/Google and People.ai."
       }
     ],
     "funding_rounds": [
@@ -16854,17 +16752,6 @@
         "canadian_institutions": [
           "University of Waterloo"
         ]
-      },
-      {
-        "name": "Pradeep Elankumaran",
-        "linkedin": "https://www.linkedin.com/in/pradeepelankumaran",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "Co-Founder & CEO of Jo. University of Maryland (BS Physics & Astronomy). Previously at Yahoo, Lyft, co-founded Kicksend (YC S11) and Farmstead (YC S16).",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_city": "",
-        "canadian_institutions": []
       }
     ],
     "funding_rounds": [
@@ -16897,7 +16784,7 @@
       "total_funding_display": "$4.5M",
       "last_verified": "2026-03-24T20:03:37Z"
     },
-    "founder_display": "Kevin Li, Pradeep Elankumaran",
+    "founder_display": "Kevin Li",
     "institution_display": "University of Waterloo",
     "hq_display": "Menlo Park, CA",
     "capital_raised_usd": 4500000,
@@ -18517,25 +18404,6 @@
           }
         ],
         "notable": "From Ontario, Canada. Pyraminx Canadian National Record holder. 2024 Pyraminx North American Champion. Ontario Lieutenant Governor recognition."
-      },
-      {
-        "name": "John Hopcroft",
-        "role": "Co-Founder",
-        "linkedin": "https://www.linkedin.com/in/john-hopcroft",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [
-          {
-            "institution": "University of Pennsylvania",
-            "degree": "BSE & BS",
-            "field": "Jerome Fisher M&T (Wharton + SEAS)",
-            "years": "2022-2026"
-          }
-        ],
-        "notable": "From Palmerston North, New Zealand. Founded The Cosmos Championship (11,400+ registrations, 126 countries). OSV Grant 2024 winner."
       }
     ],
     "funding_rounds": [
@@ -18964,18 +18832,6 @@
           }
         ],
         "notable": "Jerome Fisher M&T Program (dual degree). a16z Scout."
-      },
-      {
-        "name": "Lev Breydo",
-        "role": "Co-Founder",
-        "linkedin": "",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [],
-        "notable": ""
       }
     ],
     "funding_rounds": [
@@ -35516,18 +35372,6 @@
           }
         ],
         "notable": "Forbes 30 Under 30 All-Star. Previously co-founded Wiivv ($15M raised)."
-      },
-      {
-        "name": "Jason Kim",
-        "role": "CTO & Co-Founder",
-        "linkedin": "",
-        "is_canadian_connected": false,
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institution_city": "",
-        "canadian_institution_province": "",
-        "education": [],
-        "notable": ""
       }
     ],
     "funding_rounds": [
@@ -40362,18 +40206,6 @@
         ],
         "wikipedia_url": "",
         "x_url": "https://x.com/BrandonWaselnuk"
-      },
-      {
-        "id": "karl-clement",
-        "name": "Karl Clement",
-        "linkedin": "",
-        "role": "Co-Founder & COO",
-        "bio": "Technical Co-Founder and COO of Squire AI (YC S21). Based in San Francisco.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
       }
     ],
     "funding_rounds": [],
@@ -40386,7 +40218,7 @@
       "last_verified": "2026-05-07T10:00:00-08:00",
       "import_notes": "manual-add"
     },
-    "founder_display": "Saumil Patel, Brandon Waselnuk, Karl Clement",
+    "founder_display": "Saumil Patel, Brandon Waselnuk",
     "institution_display": "Algonquin College",
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 0,
@@ -40763,30 +40595,6 @@
         ],
         "wikipedia_url": "",
         "x_url": "https://x.com/trq__"
-      },
-      {
-        "id": "hisham-bedri",
-        "name": "Hisham Bedri",
-        "linkedin": "",
-        "role": "Co-Founder & CTO",
-        "bio": "Co-Founder & CTO of Multiverse. Serial inventor. MIT.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
-      },
-      {
-        "id": "sara-alfageeh",
-        "name": "Sara Alfageeh",
-        "linkedin": "https://www.linkedin.com/in/sara-alfa",
-        "role": "Co-Founder & Creative Director",
-        "bio": "Co-Founder & Creative Director of Multiverse. Illustrator of comics and children's books.",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
       }
     ],
     "funding_rounds": [
@@ -40812,7 +40620,7 @@
       "last_verified": "2026-05-07T10:00:00-08:00",
       "import_notes": "manual-add"
     },
-    "founder_display": "Thariq Shihipar, Hisham Bedri, Sara Alfageeh",
+    "founder_display": "Thariq Shihipar",
     "institution_display": "University of Toronto",
     "hq_display": "Boston, MA",
     "capital_raised_usd": 17600000,
