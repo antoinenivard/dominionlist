@@ -2611,17 +2611,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 172000000000,
-        "valuation_display": "$172B",
+        "valuation_usd": 185000000000,
+        "valuation_display": "$185B",
         "source_url": "https://finance.yahoo.com/quote/ANET",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -3239,17 +3240,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 8000000000,
-        "valuation_display": "$8.0B",
+        "valuation_usd": 11500000000,
+        "valuation_display": "$11.5B",
         "source_url": "https://finance.yahoo.com/quote/AUR",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -4622,15 +4624,16 @@
         "notes": "IPO September 2024"
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "round": "Market Cap",
         "stage": "Market Cap",
         "amount_usd": null,
         "amount_display": null,
-        "valuation_usd": 717000000,
-        "valuation_display": "$717M",
+        "valuation_usd": 750000000,
+        "valuation_display": "$750M",
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -4909,17 +4912,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 382000000,
-        "valuation_display": "$382M",
+        "valuation_usd": 368000000,
+        "valuation_display": "$368M",
         "source_url": "https://finance.yahoo.com/quote/BLND",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -7408,15 +7412,15 @@
       },
       {
         "round": "Market Cap",
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "amount_usd": null,
         "amount_display": "",
-        "valuation_usd": 75800000000,
-        "valuation_display": "$75.8B",
+        "valuation_usd": 67000000000,
+        "valuation_display": "$67B",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": ""
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -10279,15 +10283,16 @@
         "notes": "NASDAQ: EBAY. IPO price $18/share, opened above $54."
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "round": "Market Cap",
         "stage": "Market Cap",
         "amount_usd": null,
         "amount_display": null,
-        "valuation_usd": 39400000000,
-        "valuation_display": "$39.4B",
+        "valuation_usd": 42700000000,
+        "valuation_display": "$42.7B",
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "capital_raised_usd": 6700000,
@@ -16304,17 +16309,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 9000000000,
-        "valuation_display": "$9.0B",
+        "valuation_usd": 10000000000,
+        "valuation_display": "$10B",
         "source_url": "https://finance.yahoo.com/quote/CART",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -18667,17 +18673,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 5500000000,
-        "valuation_display": "$5.5B",
+        "valuation_usd": 5400000000,
+        "valuation_display": "$5.4B",
         "source_url": "https://finance.yahoo.com/quote/LYFT",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -20524,17 +20531,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 20100000000,
-        "valuation_display": "$20.1B",
+        "valuation_usd": 19700000000,
+        "valuation_display": "$19.7B",
         "source_url": "https://finance.yahoo.com/quote/MRNA",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -21587,17 +21595,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 4800000000,
-        "valuation_display": "$4.8B",
+        "valuation_usd": 4000000000,
+        "valuation_display": "$4B",
         "source_url": "https://finance.yahoo.com/quote/NTSK",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -24165,17 +24174,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 585000000,
-        "valuation_display": "$585M",
+        "valuation_usd": 535000000,
+        "valuation_display": "$535M",
         "source_url": "https://finance.yahoo.com/quote/PD",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -24603,15 +24613,15 @@
       },
       {
         "round": "Market Cap",
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "amount_usd": null,
         "amount_display": "",
-        "valuation_usd": 42000000000,
-        "valuation_display": "$42B",
+        "valuation_usd": 41500000000,
+        "valuation_display": "$41.5B",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": ""
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -28848,15 +28858,16 @@
         "notes": "At-the-market equity offering; brought total cash to ~$575M with no debt"
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "round": "Market Cap",
         "stage": "Market Cap",
         "amount_usd": null,
         "amount_display": null,
-        "valuation_usd": 5000000000,
-        "valuation_display": "$5.0B",
+        "valuation_usd": 5300000000,
+        "valuation_display": "$5.3B",
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -28986,15 +28997,15 @@
       },
       {
         "round": "Market Cap",
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "amount_usd": null,
         "amount_display": "",
-        "valuation_usd": 40300000000,
-        "valuation_display": "$40.3B",
+        "valuation_usd": 39600000000,
+        "valuation_display": "$39.6B",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": ""
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -30382,17 +30393,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 795000000,
-        "valuation_display": "$795M",
+        "valuation_usd": 700000000,
+        "valuation_display": "$700M",
         "source_url": "https://finance.yahoo.com/quote/SERV",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -32711,15 +32723,16 @@
         "notes": "At-the-market equity offering program for up to $120M"
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "round": "Market Cap",
         "stage": "Market Cap",
         "amount_usd": null,
         "amount_display": null,
-        "valuation_usd": 2700000000,
-        "valuation_display": "$2.7B",
+        "valuation_usd": 3300000000,
+        "valuation_display": "$3.3B",
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -36167,15 +36180,15 @@
       },
       {
         "round": "Market Cap",
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "amount_usd": null,
         "amount_display": "",
-        "valuation_usd": 1440000000000,
-        "valuation_display": "$1.44T",
+        "valuation_usd": 1220000000000,
+        "valuation_display": "$1.22T",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": ""
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -37584,17 +37597,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 145000000000,
-        "valuation_display": "$145B",
+        "valuation_usd": 153000000000,
+        "valuation_display": "$153B",
         "source_url": "https://finance.yahoo.com/quote/UBER",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
@@ -39273,17 +39287,18 @@
       {
         "stage": "Market Cap",
         "amount_usd": null,
-        "date": "2026-03-31",
+        "date": "2026-04-30",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 367000000,
-        "valuation_display": "$367M",
+        "valuation_usd": 216000000,
+        "valuation_display": "$216M",
         "source_url": "https://finance.yahoo.com/quote/WISH",
         "source_type": "public_market_data",
         "round": "Market Cap",
         "amount_display": null,
         "lead_investor": null,
-        "as_of": "2026-03-31"
+        "as_of": "2026-03-31",
+        "notes": "Market cap as of April 30, 2026"
       }
     ],
     "metadata": {
