@@ -28250,6 +28250,18 @@
         ],
         "wikipedia_url": "",
         "x_url": ""
+      },
+      {
+        "id": "saai-arora",
+        "name": "Saai Arora",
+        "linkedin": "https://www.linkedin.com/in/saaiarora",
+        "role": "Co-Founder",
+        "bio": "",
+        "canadian_connection_type": "",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
       }
     ],
     "funding_rounds": [
@@ -28270,7 +28282,8 @@
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of Waterloo"
+    "institution_display": "University of Waterloo",
+    "founder_display": "Connor Loi, Saai Arora"
   },
   {
     "id": "repurpose",
