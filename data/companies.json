@@ -33467,18 +33467,18 @@
   {
     "name": "Sprites",
     "website": "https://sprites.ai",
-    "description": "AI marketing agent that automates customer acquisition \u2014 manages SEO, paid ad campaigns (Meta Ads, Google Ads), content marketing, and influencer outreach. Pivoted from Campfire (AI game agent builder with 5M+ YouTube/TikTok views).",
+    "description": "AI marketing agent that automates customer acquisition \u2014 manages SEO, paid ads (Meta, Google, LinkedIn), content marketing, and influencer outreach. Originally founded as Campfire (YC W22), a remote team social platform, then pivoted to AI game engine (2023-2025) before becoming Sprites AI (2025).",
     "hq_city": "San Francisco",
     "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2025,
+    "hq_country": "United States",
+    "founding_year": 2021,
     "industry": "AI",
     "stage": "Seed",
-    "status": "Active",
+    "status": "Private",
     "yc_batch": "W'22",
     "icon_url": "",
     "capital_raised_usd": 4450000,
-    "capital_raised_display": "$4.5M",
+    "capital_raised_display": "$4.45M",
     "founders": [
       {
         "name": "Siamak Freydoonnejad",
@@ -33490,32 +33490,71 @@
         "canadian_institutions": [
           "University of Toronto"
         ]
+      },
+      {
+        "name": "Sina Zargaran",
+        "linkedin": "",
+        "wikipedia_url": "",
+        "x_url": "",
+        "bio": "Co-Founder of Sprites AI (fka Campfire). University of Toronto. Previously Growth PM at League (SaaS unicorn). Met Siamak at university.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_city": "",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
       }
     ],
     "funding_rounds": [
       {
-        "date": "2022",
-        "round": "Seed",
-        "amount_usd": 4450000,
-        "amount_display": "$4.5M",
+        "date": "2022-03",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "Cathexis Ventures"
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC W'22 standard deal (as Campfire)"
+      },
+      {
+        "date": "2024-09",
+        "round": "Seed",
+        "amount_usd": 3950000,
+        "amount_display": "$3.95M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
         ],
         "other_investors": [
           "FundersClub",
-          "Y Combinator"
+          "Immad Akhund",
+          "Juha Paananen",
+          "Chris Ye"
         ],
-        "source_urls": [],
-        "notes": "Originally as Campfire (YC W22), pivoted to Sprites Sep 2025"
+        "source_urls": [
+          "https://www.globenewswire.com/news-release/2024/09/12/2945335/0/en/Campfire-Raises-Seed-Round-to-Transform-Gaming-Entertainment-with-AI-Native-Life-Simulation-Games-the-Biggest-Advancement-in-Gaming-Since-the-Move-to-3D.html"
+        ],
+        "notes": "Raised as Campfire for AI gaming pivot. Immad Akhund is Mercury founder, Chris Ye is Uken Games founder."
       }
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00"
+      "sources": [
+        "https://sprites.ai",
+        "https://www.ycombinator.com/companies/sprites",
+        "https://www.crunchbase.com/organization/campfire-expeditions",
+        "https://www.linkedin.com/in/siamakf"
+      ],
+      "last_verified": "2026-05-08T09:16:00-08:00",
+      "import_notes": "Originally Campfire (YC W22), rebranded to Sprites AI April 2025"
     },
-    "id": "447"
+    "id": "447",
+    "founder_display": "Siamak Freydoonnejad, Sina Zargaran"
   },
   {
     "id": "spyro-aero",
