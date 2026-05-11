@@ -710,23 +710,23 @@
     "id": "afterquery",
     "name": "AfterQuery",
     "website": "https://afterquery.com",
-    "description": "Applied research lab curating data solutions for frontier foundation model development.",
+    "description": "Applied research lab curating high-quality, human-generated datasets for frontier foundation model development. Works with ~100K verified professionals across finance, engineering, medicine, and law. Clients include every leading AI lab. Hit $100M ARR by April 2026.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
-    "hq_country": "US",
+    "hq_country": "United States",
     "founding_year": 2025,
     "industry": "AI",
     "stage": "Series A",
-    "status": "Active",
+    "status": "Private",
     "yc_batch": "W'25",
     "icon_url": "",
     "founders": [
       {
         "name": "Carlos Georgescu",
-        "linkedin": "https://www.linkedin.com/in/carlos-georgescu",
+        "linkedin": "https://www.linkedin.com/in/carlossgg",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Co-founder and CTO of AfterQuery. UBC Computer Science graduate.",
+        "bio": "Co-Founder & CTO of AfterQuery (YC W25). BSc Computer Science from University of British Columbia. Previously Software Engineer at Citadel Securities (2023-2024) and Meta. Won the largest possible academic scholarship in Canada.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of British Columbia",
         "canadian_institutions": [
@@ -737,24 +737,61 @@
     ],
     "funding_rounds": [
       {
+        "date": "2025-03",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "BoxGroup"
+        ],
+        "source_urls": [
+          "https://www.crunchbase.com/funding_round/afterquery-pre-seed--696021d4"
+        ],
+        "notes": "YC W'25 standard deal"
+      },
+      {
         "date": "2026-04-09",
         "round": "Series A",
         "amount_usd": 30000000,
         "amount_display": "$30M",
         "valuation_usd": 300000000,
         "valuation_display": "$300M",
-        "lead_investors": [],
-        "other_investors": [
-          "Y Combinator"
+        "lead_investors": [
+          "Altos Ventures"
         ],
-        "source_urls": [],
-        "notes": ""
+        "other_investors": [
+          "The Raine Group",
+          "Y Combinator",
+          "BoxGroup",
+          "Latitude Capital",
+          "Failup Ventures"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation"
+        ],
+        "notes": "Hit $100M ARR at time of raise. Angels from Google DeepMind, OpenAI, Anthropic, Meta Superintelligence Labs, Microsoft AI."
       }
     ],
     "capital_raised_usd": 30500000,
     "capital_raised_display": "$30.5M",
     "founder_display": "Carlos Georgescu",
-    "institution_display": "University of British Columbia"
+    "institution_display": "University of British Columbia",
+    "hq_display": "San Francisco, CA",
+    "metadata": {
+      "sources": [
+        "https://afterquery.com",
+        "https://www.ycombinator.com/companies/afterquery",
+        "https://www.businesswire.com/news/home/20260409469482/en/",
+        "https://www.crunchbase.com/organization/afterquery"
+      ],
+      "last_verified": "2026-05-08T09:16:00-08:00",
+      "import_notes": "updated-funding"
+    }
   },
   {
     "id": "428",
