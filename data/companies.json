@@ -28257,9 +28257,11 @@
         "linkedin": "https://www.linkedin.com/in/saaiarora",
         "role": "Co-Founder",
         "bio": "",
-        "canadian_connection_type": "",
-        "canadian_institution": "",
-        "canadian_institutions": [],
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
         "wikipedia_url": "",
         "x_url": ""
       }
