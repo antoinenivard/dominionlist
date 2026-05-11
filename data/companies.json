@@ -20352,15 +20352,15 @@
   {
     "id": 262,
     "name": "Moda",
-    "website": "https://usemoda.ai/",
-    "description": "Reliability and monitoring layer for AI agents. Detects agent failures including hallucinations, tool call errors, prompt injections, and behavioral failures. Provides analytics on user frustration, retention, and churn.",
+    "website": "https://moda.dev",
+    "description": "Monitoring and reliability platform for AI agents. Turns agent conversations and tool traces into actionable signals, detecting hallucinations, tool-call failures, prompt injections, and user frustration. Datadog for agent workflows.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
-    "hq_country": "US",
+    "hq_country": "United States",
     "founding_year": 2026,
     "industry": "AI",
     "stage": "Seed",
-    "status": "Active",
+    "status": "Private",
     "yc_batch": "W'26",
     "icon_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/c13160f07175dfeea3fd2fceed6ab453ddaa6756.png",
     "founders": [
@@ -20393,29 +20393,26 @@
     ],
     "funding_rounds": [
       {
-        "date": "2026-03-24",
-        "round": "Seed",
-        "amount_usd": 7500000,
-        "amount_display": "$7.5M",
+        "date": "2026-01",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "General Catalyst"
+          "Y Combinator"
         ],
-        "other_investors": [
-          "Y Combinator",
-          "Pear VC",
-          "WndrCo"
-        ],
+        "other_investors": [],
         "source_urls": [
-          "https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/Moda-Raises-7-5M-to-give-every-professional-a-design-agent.html"
+          "https://www.ycombinator.com/companies/moda"
         ],
-        "notes": "AI design platform."
+        "notes": "Standard YC W'26 deal"
       }
     ],
     "metadata": {
       "sources": [
-        "https://usemoda.ai/"
+        "https://moda.dev",
+        "https://www.ycombinator.com/companies/moda"
       ],
       "valuation_usd": null,
       "valuation_display": "",
@@ -20424,12 +20421,12 @@
       "valuation_type": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "total_funding_display": "$8M",
+      "total_funding_display": "$500K",
       "last_verified": "2026-03-24T20:03:37Z"
     },
     "institution_display": "University of Waterloo",
-    "capital_raised_usd": 8000000,
-    "capital_raised_display": "$8M"
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K"
   },
   {
     "id": "moderna",
