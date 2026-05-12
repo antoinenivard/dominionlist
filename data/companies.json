@@ -38463,7 +38463,7 @@
     "hq_country": "United States",
     "founding_year": 2023,
     "industry": "Enterprise",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "yc_batch": "W'21",
     "founders": [
@@ -38522,6 +38522,27 @@
           "https://techcrunch.com/2024/06/20/vapi-the-platform-for-building-voice-ai-agents/"
         ],
         "notes": "Post-money valuation $130M per multiple sources"
+      },
+      {
+        "date": "2026-05-12",
+        "round": "Series B",
+        "amount_usd": 50000000,
+        "amount_display": "$50M",
+        "valuation_usd": 500000000,
+        "valuation_display": "$500M",
+        "lead_investors": [
+          "Peak XV Partners"
+        ],
+        "other_investors": [
+          "M12 (Microsoft)",
+          "Kleiner Perkins",
+          "Bessemer Venture Partners"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+          "https://www.globenewswire.com/news-release/2026/05/12/3292882/0/en/vapi-raises-50m-series-b-as-it-reaches-1-billion-calls-powering-the-next-generation-of-enterprise-voice-ai.html"
+        ],
+        "notes": "1B+ calls handled, 1M+ developers, Amazon Ring routes 100% of inbound calls through Vapi"
       }
     ],
     "metadata": {
@@ -38529,21 +38550,21 @@
         "https://techcrunch.com/2024/06/20/vapi-the-platform-for-building-voice-ai-agents/",
         "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-05-12T09:16:00-08:00",
       "import_notes": "friend-csv-full-pass; corrected valuation from $500M to $130M, added seed round and co-founder Nikhil Gupta",
-      "valuation_usd": 130000000,
-      "valuation_display": "$130M",
-      "valuation_source": "Series A 2024",
+      "valuation_usd": 500000000,
+      "valuation_display": "$500M",
+      "valuation_source": "Series B 2026",
       "valuation_type": "funding_post_money",
       "valuation_confidence": "high",
       "valuation_source_url": "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A",
-      "total_funding_display": "$22.1M"
+      "total_funding_display": "$72.1M"
     },
     "founder_display": "Jordan Dearsley",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 22100000,
-    "capital_raised_display": "$22.1M"
+    "capital_raised_usd": 72100000,
+    "capital_raised_display": "$72.1M"
   },
   {
     "id": "veem",
