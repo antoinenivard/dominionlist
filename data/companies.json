@@ -13264,10 +13264,10 @@
     ],
     "funding_rounds": [
       {
-        "date": "2020-03-01",
-        "round": "Pre-Seed",
-        "amount_usd": 125000,
-        "amount_display": "$125K",
+        "date": "2020-04-01",
+        "round": "Seed",
+        "amount_usd": 3500000,
+        "amount_display": "$3.5M",
         "valuation_usd": 0,
         "valuation_display": "",
         "lead_investor": "Y Combinator",
@@ -13281,7 +13281,7 @@
         "valuation_usd": 0,
         "valuation_display": "",
         "lead_investor": "Intel Capital",
-        "notable_investors": ""
+        "notable_investors": "Nick Washburn (Intel Capital) joined board"
       },
       {
         "date": "2022-07-28",
@@ -13291,7 +13291,7 @@
         "valuation_usd": 0,
         "valuation_display": "",
         "lead_investor": "Andreessen Horowitz",
-        "notable_investors": "Intel Capital, Dell"
+        "notable_investors": "Dell Technologies Capital, Initialized Capital, Sam Lambert (PlanetScale CEO)"
       },
       {
         "date": "2023-06-28",
@@ -13301,11 +13301,11 @@
         "valuation_usd": 467000000,
         "valuation_display": "$467M",
         "lead_investor": "EQT Ventures",
-        "notable_investors": "Andreessen Horowitz, Intel Capital, Dell Capital"
+        "notable_investors": "Andreessen Horowitz, Dell Technologies Capital, Intel Capital"
       }
     ],
-    "capital_raised_usd": 107125000,
-    "capital_raised_display": "$107.1M",
+    "capital_raised_usd": 110500000,
+    "capital_raised_display": "$110.5M",
     "metadata": {
       "valuation_usd": 467000000,
       "valuation_display": "$467M",
