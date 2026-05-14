@@ -41102,5 +41102,78 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "Undisclosed"
+  },
+  {
+    "id": "nox-metals",
+    "name": "Nox Metals",
+    "website": "https://noxmetals.co",
+    "description": "AI-powered metals supplier building vertically integrated, automated factories. Provides instant quotes and fast lead times for aluminum plate (with steel, tube, and sheet on the roadmap), serving American manufacturers, OEMs, and aerospace/defense.",
+    "hq_city": "Detroit",
+    "hq_region": "MI",
+    "hq_country": "US",
+    "founding_year": 2025,
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "yc_batch": "S'25",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Zane Hengsperger",
+        "linkedin": "https://www.linkedin.com/in/zanehh",
+        "wikipedia_url": "",
+        "x_url": "https://x.com/zanehengsperger",
+        "bio": "Founder & CEO of Nox Metals (YC S25). From Windsor, Ontario, Canada; University of Michigan graduate (2022). Previously founded Blymp, a podcast advertising marketplace.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "Windsor, ON",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-09",
+        "round": "Pre-Seed",
+        "amount_usd": 4600000,
+        "amount_display": "$4.6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Y Combinator",
+          "Anorak Ventures",
+          "Mana Ventures",
+          "Precursor Ventures",
+          "Behind Genius",
+          "Detroit Venture Partners"
+        ],
+        "source_urls": [
+          "https://enjoyer.com/detroits-youngest-new-industrialist/",
+          "https://www.fondo.com/blog/nox-metals-launches",
+          "https://www.ycombinator.com/companies/nox-metals"
+        ],
+        "notes": "Pre-seed announced September 2025"
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://noxmetals.co",
+        "https://www.ycombinator.com/companies/nox-metals",
+        "https://enjoyer.com/detroits-youngest-new-industrialist/",
+        "https://www.fondo.com/blog/nox-metals-launches"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "$4.6M",
+      "last_verified": "2026-05-13T00:00:00Z"
+    },
+    "institution_display": "",
+    "capital_raised_usd": 4600000,
+    "capital_raised_display": "$4.6M"
   }
 ]
