@@ -36117,7 +36117,18 @@
         ]
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-05-14",
+        "round": "Seed",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": 0,
+        "valuation_display": "",
+        "lead_investor": "Khosla Ventures",
+        "notable_investors": "Basis Set Ventures, Tobias Lütke (Shopify CEO)"
+      }
+    ],
     "metadata": {
       "sources": [
         "https://www.linkedin.com/in/iwcrosby",
@@ -36131,11 +36142,12 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z"
+      "last_verified": "2026-05-14T08:20:00-07:00",
+      "notes": "Ian Crosby previously co-founded Bench Accounting (shut down Dec 2024) and Teal (acquired by Mercury). Product is fully autonomous AI bookkeeper for software/AI startups, still in design phase."
     },
     "institution_display": "University of British Columbia",
-    "capital_raised_usd": null,
-    "capital_raised_display": ""
+    "capital_raised_usd": 10000000,
+    "capital_raised_display": "$10M"
   },
   {
     "id": 199,
