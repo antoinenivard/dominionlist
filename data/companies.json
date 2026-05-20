@@ -8308,50 +8308,6 @@
     "capital_raised_display": "$8.6M"
   },
   {
-    "id": "conway-ai",
-    "name": "Conway",
-    "website": "https://www.conway.ai",
-    "description": "AI-powered financial crime detection platform that turns disparate data into structured, classified events for risk teams at F500 companies, banks, exchanges, and marketplaces.",
-    "hq_city": "San Francisco",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "industry": "AI",
-    "stage": "Seed",
-    "status": "Active",
-    "founding_year": 2025,
-    "yc_batch": "",
-    "icon_url": "",
-    "founders": [
-      {
-        "name": "Sigil Wen",
-        "linkedin": "https://www.linkedin.com/in/sigil",
-        "x": "https://x.com/0xSigil",
-        "canadian_connection": "Richmond Hill High School, Richmond Hill, Ontario. Born and raised in Richmond Hill, ON.",
-        "canadian_connection_type": "birthplace_education"
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2026-01-12",
-        "round": "Seed",
-        "amount_usd": 7000000,
-        "amount_display": "$7M",
-        "valuation_usd": 0,
-        "valuation_display": "",
-        "lead_investor": "Kleiner Perkins",
-        "notable_investors": "First Round Capital, BoxGroup, Roar Ventures"
-      }
-    ],
-    "capital_raised_usd": 7000000,
-    "capital_raised_display": "$7M",
-    "metadata": {
-      "valuation_usd": 0,
-      "valuation_display": "",
-      "last_verified": "2026-05-14T00:00:00-08:00",
-      "notes": "Sigil Wen is a Thiel Fellow (2025 class). Accepted to UPenn M&T but opted out. Previously founded Extraordinary.com (O-1 visa platform). Conway serves FDIC-insured banks, CFTC-regulated exchanges, card processors, and marketplaces."
-    }
-  },
-  {
     "id": 324,
     "name": "Cooliris",
     "website": "https://www.cooliris.com",
