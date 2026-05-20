@@ -4829,6 +4829,74 @@
     "capital_raised_display": "$14M"
   },
   {
+    "id": "blank-bio",
+    "name": "Blank Bio",
+    "website": "https://blank.bio",
+    "description": "RNA foundation models for precision oncology. Develops AI-powered tools to design RNA-based therapeutics, starting with cancer applications.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Biotech",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "S'25",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Jonathan Hsu",
+        "linkedin": "https://ca.linkedin.com/in/jonathanhsuuw",
+        "x": "",
+        "canadian_connection": "University of Waterloo",
+        "canadian_connection_type": "education"
+      },
+      {
+        "name": "Philip Fradkin",
+        "linkedin": "https://linkedin.com/in/philip-fradkin-330a417b",
+        "x": "",
+        "canadian_connection": "University of Toronto (PhD)",
+        "canadian_connection_type": "education"
+      },
+      {
+        "name": "Ruian Shi",
+        "linkedin": "https://linkedin.com/in/ruian-shi-4b5215b9",
+        "x": "",
+        "canadian_connection": "University of Toronto (PhD)",
+        "canadian_connection_type": "education"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-01-01",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": 0,
+        "valuation_display": "",
+        "lead_investor": "Y Combinator",
+        "notable_investors": ""
+      },
+      {
+        "date": "2026-05-14",
+        "round": "Seed",
+        "amount_usd": 7200000,
+        "amount_display": "$7.2M",
+        "valuation_usd": 0,
+        "valuation_display": "",
+        "lead_investor": "Define Ventures",
+        "notable_investors": "Leonis Capital, Nova Threshold, Ripple Ventures, SignalFire, Y Combinator"
+      }
+    ],
+    "capital_raised_usd": 7700000,
+    "capital_raised_display": "$7.7M",
+    "metadata": {
+      "valuation_usd": 0,
+      "valuation_display": "",
+      "last_verified": "2026-05-20T10:00:00-08:00",
+      "notes": "All 3 co-founders Canadian-educated. Strategic collaboration with PacBio (PACB). Ex-Deep Genomics, Recursion/Valence Discovery."
+    }
+  },
+  {
     "id": 327,
     "name": "Bleat",
     "website": "https://www.bleatinc.com",
