@@ -2622,6 +2622,57 @@
     "capital_raised_display": ""
   },
   {
+    "id": "argos-research",
+    "name": "Argos Research",
+    "website": "https://www.argosresearch.com",
+    "description": "AI lab building neural network architectures capable of continual learning for generalized, out-of-distribution intelligence. Focused on autonomous systems including self-driving and naval vehicles.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Hassan Ismail",
+        "linkedin": "https://www.linkedin.com/in/hassanshakerismail/",
+        "x": "https://x.com/HassanRIsmail",
+        "canadian_connection": "University of Waterloo",
+        "canadian_connection_type": "education"
+      },
+      {
+        "name": "Hadi Alsibassi",
+        "linkedin": "https://www.linkedin.com/in/hadi-alsibassi/",
+        "x": "",
+        "canadian_connection": "University of Toronto",
+        "canadian_connection_type": "education"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-01-01",
+        "round": "Pre-Seed",
+        "amount_usd": 1600000,
+        "amount_display": "$1.6M",
+        "valuation_usd": 0,
+        "valuation_display": "",
+        "lead_investor": "Outlander VC",
+        "notable_investors": "Paige Craig, Charlie Yuan, Matthew Eggertson"
+      }
+    ],
+    "capital_raised_usd": 1600000,
+    "capital_raised_display": "$1.6M",
+    "metadata": {
+      "valuation_usd": 0,
+      "valuation_display": "",
+      "last_verified": "2026-05-20T10:30:00-08:00",
+      "notes": "Operating as Foratus, Inc. Both founders Canadian-educated physicists (UWaterloo, UofT). Stealth-mode AI lab focused on continual learning."
+    }
+  },
+  {
     "id": "arista-networks",
     "name": "Arista Networks",
     "website": "https://www.arista.com",
