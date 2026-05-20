@@ -2253,7 +2253,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Series A",
@@ -2273,7 +2274,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -2634,7 +2636,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://www.argosresearch.com/argos_logo.svg",
     "founders": [
       {
         "name": "Hassan Ismail",
@@ -2657,10 +2659,20 @@
         "round": "Pre-Seed",
         "amount_usd": 1600000,
         "amount_display": "$1.6M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Outlander VC",
-        "notable_investors": "Paige Craig, Charlie Yuan, Matthew Eggertson"
+        "lead_investors": [
+          "Outlander VC"
+        ],
+        "other_investors": [
+          "Paige Craig",
+          "Charlie Yuan",
+          "Matthew Eggertson"
+        ],
+        "source_urls": [
+          "https://x.com/HassanRIsmail/status/2053487832702857309"
+        ],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 1600000,
@@ -2709,7 +2721,9 @@
         "date": "2005-01",
         "investors": [
           "Sequoia Capital"
-        ]
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -2718,7 +2732,9 @@
         "investors": [],
         "valuation_display": "$2.75B",
         "valuation_usd": 2750000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -2734,7 +2750,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -3206,8 +3223,12 @@
       {
         "round_type": "Seed",
         "amount_usd": 3700000,
-        "lead_investor": "NFX",
-        "date": "2021"
+        "date": "2021",
+        "lead_investors": [
+          "NFX"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 3700000,
@@ -3328,7 +3349,9 @@
           "Greylock",
           "Index Ventures"
         ],
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -3339,7 +3362,9 @@
         ],
         "valuation_display": "$2.5B",
         "valuation_usd": 2500000000,
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "SPAC",
@@ -3348,7 +3373,9 @@
         "investors": [],
         "valuation_display": "$13B",
         "valuation_usd": 13000000000,
-        "round": "SPAC"
+        "round": "SPAC",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -3364,7 +3391,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -3431,7 +3459,9 @@
         "year": 2017,
         "lead_investors": [],
         "source_url": "https://techcrunch.com/2017/06/27/stdlib-just-raised-2-million-to-connect-businesses-via-apis/",
-        "amount_usd": 2000000
+        "amount_usd": 2000000,
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -4139,11 +4169,15 @@
         "date": "2022-03",
         "amount_usd": 6000000,
         "amount_display": "$6M",
-        "lead_investor": "Dell Technologies Capital",
         "source_url": "https://www.businesswire.com/news/home/20220302005477/en/BastionZero-Raises-%246m-to-Lock-Down-Remote-Access-to-Backend-Infrastructure-With-Unique-Security-Model",
         "valuation_usd": null,
         "valuation_display": "",
-        "round": "Seed"
+        "round": "Seed",
+        "lead_investors": [
+          "Dell Technologies Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_type": "Acquisition",
@@ -4154,7 +4188,9 @@
         "source_url": "https://www.cloudflare.com/press/press-releases/2024/cloudflare-acquires-bastionzero-to-add-zero-trust-infrastructure-access/",
         "valuation_usd": 13100000,
         "valuation_display": "$13.1M",
-        "round": "Acquisition"
+        "round": "Acquisition",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2025-01-01",
@@ -4744,9 +4780,10 @@
         "amount_display": null,
         "valuation_usd": 750000000,
         "valuation_display": "$750M",
-        "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "lead_investors": [],
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -4922,20 +4959,36 @@
         "round": "Pre-Seed",
         "amount_usd": 500000,
         "amount_display": "$500K",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Y Combinator",
-        "notable_investors": ""
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'25 deal"
       },
       {
         "date": "2026-05-14",
         "round": "Seed",
         "amount_usd": 7200000,
         "amount_display": "$7.2M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Define Ventures",
-        "notable_investors": "Leonis Capital, Nova Threshold, Ripple Ventures, SignalFire, Y Combinator"
+        "lead_investors": [
+          "Define Ventures"
+        ],
+        "other_investors": [
+          "Leonis Capital",
+          "Nova Threshold",
+          "Ripple Ventures",
+          "SignalFire",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://www.blank.bio/seed-announcement"
+        ],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 7700000,
@@ -5033,7 +5086,9 @@
         "investors": [
           "Founders Fund"
         ],
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -5044,7 +5099,9 @@
         ],
         "valuation_display": "$500M",
         "valuation_usd": 500000000,
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
@@ -5056,7 +5113,9 @@
         ],
         "valuation_display": "$1B",
         "valuation_usd": 1000000000,
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -5067,7 +5126,9 @@
         ],
         "valuation_display": "$1.7B",
         "valuation_usd": 1700000000,
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series G",
@@ -5079,7 +5140,9 @@
         ],
         "valuation_display": "$3.3B",
         "valuation_usd": 3300000000,
-        "round": "Series G"
+        "round": "Series G",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -5088,7 +5151,9 @@
         "investors": [],
         "valuation_display": "$4B",
         "valuation_usd": 4000000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -5104,7 +5169,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -6941,20 +7007,36 @@
         "round": "Series A",
         "amount_usd": 18000000,
         "amount_display": "$18M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Eclipse Ventures",
-        "notable_investors": "Foundation Capital, WhiteStar Capital, Forerunner Ventures, Index Ventures, Thrive Capital"
+        "lead_investors": [
+          "Eclipse Ventures"
+        ],
+        "other_investors": [
+          "Foundation Capital",
+          "WhiteStar Capital",
+          "Forerunner Ventures",
+          "Index Ventures",
+          "Thrive Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2023-01-18",
         "round": "Series A Extension",
         "amount_usd": 15000000,
         "amount_display": "$15M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Bright Pixel Capital",
-        "notable_investors": "Eclipse Ventures"
+        "lead_investors": [
+          "Bright Pixel Capital"
+        ],
+        "other_investors": [
+          "Eclipse Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 33000000,
@@ -7903,7 +7985,9 @@
         "amount_usd": 3000000,
         "other_investors": [
           "Y Combinator"
-        ]
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Acquired",
@@ -7912,7 +7996,9 @@
         "lead_investors": [
           "Substack"
         ],
-        "source_url": "https://techcrunch.com/2021/08/24/substack-acqui-hires-team-behind-subscription-social-app-cocoon/"
+        "source_url": "https://techcrunch.com/2021/08/24/substack-acqui-hires-team-behind-subscription-social-app-cocoon/",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Acquired",
@@ -7922,7 +8008,9 @@
         "valuation_display": "",
         "lead_investors": [
           "Substack"
-        ]
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2022-01-01",
@@ -9490,8 +9578,12 @@
       {
         "round_type": "Seed",
         "amount_usd": 7000000,
-        "lead_investor": "Pear VC, General Catalyst",
-        "date": "2025-08"
+        "date": "2025-08",
+        "lead_investors": [
+          "Pear VC, General Catalyst"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 7000000,
@@ -10768,9 +10860,10 @@
         "amount_display": null,
         "valuation_usd": 42700000000,
         "valuation_display": "$42.7B",
-        "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "lead_investors": [],
+        "source_urls": []
       }
     ],
     "capital_raised_usd": 6700000,
@@ -11960,7 +12053,9 @@
         ],
         "source_url": "https://moleculargenetics.utoronto.ca/news/start-founded-philip-kims-research-raises-535m-ai-driven-obesity-solutions",
         "source_type": "press",
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2022,
@@ -11978,7 +12073,9 @@
         ],
         "source_url": "",
         "source_type": "",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -12749,7 +12846,9 @@
         "amount_usd": 3200000,
         "other_investors": [
           "Y Combinator"
-        ]
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -13413,30 +13512,48 @@
         "round": "Seed",
         "amount_usd": 3500000,
         "amount_display": "$3.5M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Y Combinator",
-        "notable_investors": ""
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2021-08-01",
         "round": "Series A",
         "amount_usd": 12000000,
         "amount_display": "$12M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Intel Capital",
-        "notable_investors": "Nick Washburn (Intel Capital) joined board"
+        "lead_investors": [
+          "Intel Capital"
+        ],
+        "other_investors": [
+          "Nick Washburn (Intel Capital) joined board"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2022-07-28",
         "round": "Series B",
         "amount_usd": 25000000,
         "amount_display": "$25M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Andreessen Horowitz",
-        "notable_investors": "Dell Technologies Capital, Initialized Capital, Sam Lambert (PlanetScale CEO)"
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "other_investors": [
+          "Dell Technologies Capital",
+          "Initialized Capital",
+          "Sam Lambert (PlanetScale CEO)"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2023-06-28",
@@ -13445,8 +13562,16 @@
         "amount_display": "$70M",
         "valuation_usd": 467000000,
         "valuation_display": "$467M",
-        "lead_investor": "EQT Ventures",
-        "notable_investors": "Andreessen Horowitz, Dell Technologies Capital, Intel Capital"
+        "lead_investors": [
+          "EQT Ventures"
+        ],
+        "other_investors": [
+          "Andreessen Horowitz",
+          "Dell Technologies Capital",
+          "Intel Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 110500000,
@@ -13769,7 +13894,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Seed",
@@ -13782,7 +13908,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -13932,7 +14059,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -13979,8 +14107,12 @@
       {
         "round_type": "Pre-Seed",
         "amount_usd": 2150000,
-        "lead_investor": "Y Combinator",
-        "date": "2025"
+        "date": "2025",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 2150000,
@@ -14430,7 +14562,7 @@
         "round": "Wind Down",
         "amount_usd": null,
         "amount_display": "—",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "Inactive",
         "lead_investors": [],
         "other_investors": [],
@@ -14858,7 +14990,8 @@
         "other_investors": [],
         "source_urls": [
           "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1996/m09/cisco-systems-completes-acquisition-of-granite-systems.html"
-        ]
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -16688,7 +16821,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -16874,7 +17008,9 @@
         "other_investors": [
           "Y Combinator"
         ],
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series A",
@@ -16885,7 +17021,9 @@
         ],
         "valuation_display": "$25M",
         "valuation_usd": 25000000,
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -16896,7 +17034,9 @@
         ],
         "valuation_display": "$380M",
         "valuation_usd": 380000000,
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -16907,7 +17047,9 @@
         ],
         "valuation_display": "$2B",
         "valuation_usd": 2000000000,
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -16918,7 +17060,9 @@
         ],
         "valuation_display": "$3.4B",
         "valuation_usd": 3400000000,
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
@@ -16929,7 +17073,9 @@
         ],
         "valuation_display": "$7.6B",
         "valuation_usd": 7600000000,
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -16940,7 +17086,9 @@
         ],
         "valuation_display": "$13.7B",
         "valuation_usd": 13700000000,
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -16949,7 +17097,9 @@
         "investors": [],
         "valuation_display": "$9.9B",
         "valuation_usd": 9900000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -16965,7 +17115,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -17240,7 +17391,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -17857,7 +18009,8 @@
         "other_investors": [],
         "source_urls": [
           "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
-        ]
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -19193,7 +19346,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -19355,7 +19509,9 @@
         "investors": [
           "FLOODGATE"
         ],
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series A",
@@ -19364,7 +19520,9 @@
         "investors": [
           "Mayfield Fund"
         ],
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -19373,7 +19531,9 @@
         "investors": [
           "Founders Fund"
         ],
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -19384,7 +19544,9 @@
         ],
         "valuation_display": "$700M",
         "valuation_usd": 700000000,
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -19395,7 +19557,9 @@
         ],
         "valuation_display": "$2.5B",
         "valuation_usd": 2500000000,
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
@@ -19406,7 +19570,9 @@
         ],
         "valuation_display": "$5.5B",
         "valuation_usd": 5500000000,
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -19417,7 +19583,9 @@
         ],
         "valuation_display": "$11B",
         "valuation_usd": 11000000000,
-        "round": "Series H"
+        "round": "Series H",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series G",
@@ -19428,7 +19596,9 @@
         ],
         "valuation_display": "$15B",
         "valuation_usd": 15000000000,
-        "round": "Series I"
+        "round": "Series I",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -19437,7 +19607,9 @@
         "investors": [],
         "valuation_display": "$24B",
         "valuation_usd": 24000000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -19453,7 +19625,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -19622,7 +19795,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Series A",
@@ -19635,7 +19809,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -20562,25 +20737,33 @@
         "date": "2023-01-10",
         "amount_usd": 8400000,
         "amount_display": "$8.4M",
-        "lead_investor": "Khosla Ventures",
         "source_url": "",
         "valuation_usd": null,
         "valuation_display": "",
         "other_investors": [
           "Y Combinator"
         ],
-        "round": "Venture"
+        "round": "Venture",
+        "lead_investors": [
+          "Khosla Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_type": "Series A",
         "date": "2024-03-05",
         "amount_usd": 13800000,
         "amount_display": "$13.8M",
-        "lead_investor": "Felicis Ventures",
         "source_url": "https://www.prnewswire.com/news-releases/metaplane-announces-13-8m-series-a-led-by-felicis-on-heels-of-rapid-growth-302079081.html",
         "valuation_usd": null,
         "valuation_display": "",
-        "round": "Series A"
+        "round": "Series A",
+        "lead_investors": [
+          "Felicis Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_type": "Acquisition",
@@ -20590,7 +20773,9 @@
         "amount_display": "",
         "source_url": "https://techcrunch.com/2025/04/23/datadog-acquires-ai-powered-observability-startup-metaplane/",
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2026-01-01",
@@ -20820,7 +21005,9 @@
         ],
         "source_url": "https://www.prnewswire.com/news-releases/mindsai-raises-seed-funding-to-optimize-semiconductor-manufacturing-operations-301951778.html",
         "source_type": "press",
-        "round": "Series 2"
+        "round": "Series 2",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -21238,14 +21425,18 @@
         "investors": [
           "Flagship Pioneering"
         ],
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
         "amount_usd": 110000000,
         "date": "2013-11",
         "investors": [],
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -21256,14 +21447,18 @@
         ],
         "valuation_display": "$3.1B",
         "valuation_usd": 3100000000,
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
         "amount_usd": 600000000,
         "date": "2016-08",
         "investors": [],
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -21272,7 +21467,9 @@
         "investors": [
           "AstraZeneca"
         ],
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series G",
@@ -21283,7 +21480,9 @@
         ],
         "valuation_display": "$7B",
         "valuation_usd": 7000000000,
-        "round": "Series G"
+        "round": "Series G",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -21292,7 +21491,9 @@
         "investors": [],
         "valuation_display": "$7.5B",
         "valuation_usd": 7500000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -21308,7 +21509,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -21578,7 +21780,9 @@
         ],
         "other_investors": [],
         "source_url": "https://www.crunchbase.com/organization/momentum-f2e6",
-        "source_type": "crunchbase"
+        "source_type": "crunchbase",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2024,
@@ -21598,7 +21802,9 @@
           "Inovia Capital"
         ],
         "source_url": "https://www.momentum.io/blog/announcing-our-13m-series-a-led-by-firstmark-capital-and-stage-2-capital",
-        "source_type": "company blog"
+        "source_type": "company blog",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2026-03",
@@ -22349,7 +22555,9 @@
           "Social Capital",
           "Lightspeed Venture Partners"
         ],
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -22358,7 +22566,9 @@
         "investors": [
           "Accel"
         ],
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -22367,7 +22577,9 @@
         "investors": [
           "ICONIQ Capital"
         ],
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
@@ -22376,7 +22588,9 @@
         "investors": [
           "Lightspeed Venture Partners"
         ],
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -22385,7 +22599,9 @@
         "investors": [
           "Lightspeed Venture Partners"
         ],
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series G",
@@ -22394,7 +22610,9 @@
         "investors": [
           "Sequoia Capital Global Equities"
         ],
-        "round": "Series G"
+        "round": "Series G",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series H",
@@ -22405,7 +22623,9 @@
         ],
         "valuation_display": "$7.5B",
         "valuation_usd": 7500000000,
-        "round": "Series H"
+        "round": "Series H",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -22414,7 +22634,9 @@
         "investors": [],
         "valuation_display": "$7.3B",
         "valuation_usd": 7300000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -22430,7 +22652,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -22517,7 +22740,9 @@
         ],
         "source_url": "https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/",
         "source_type": "press",
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2023,
@@ -22533,7 +22758,9 @@
         "other_investors": [],
         "source_url": "",
         "source_type": "press",
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -24051,7 +24278,9 @@
         "other_investors": [],
         "source_url": "https://openai.com/index/openai-lp/",
         "source_type": "press",
-        "round": "Corporate"
+        "round": "Corporate",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2023,
@@ -24067,7 +24296,9 @@
         "other_investors": [],
         "source_url": "https://techcrunch.com/2023/01/23/microsoft-invests-billions-more-dollars-in-openai-extends-partnership/",
         "source_type": "press",
-        "round": "Corporate"
+        "round": "Corporate",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2023,
@@ -24088,7 +24319,9 @@
         ],
         "source_url": "https://techcrunch.com/2023/04/28/openai-funding-valuation-chatgpt/",
         "source_type": "press",
-        "round": "Venture"
+        "round": "Venture",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2024,
@@ -24112,7 +24345,9 @@
         ],
         "source_url": "https://techcrunch.com/2024/10/02/openai-raises-6-6b-and-is-now-valued-at-157b/",
         "source_type": "press",
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2025,
@@ -24133,7 +24368,9 @@
         ],
         "source_url": "https://techcrunch.com/2025/03/31/openai-raises-40b-at-300b-post-money-valuation/",
         "source_type": "press",
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2026,
@@ -24150,7 +24387,9 @@
         ],
         "other_investors": [],
         "source_url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-        "source_type": "press"
+        "source_type": "press",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -24516,7 +24755,8 @@
           "https://www.ycombinator.com/companies/orthogonal"
         ],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -25018,7 +25258,9 @@
         "other_investors": [
           "Y Combinator"
         ],
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series A",
@@ -25027,7 +25269,9 @@
         "investors": [
           "Andreessen Horowitz"
         ],
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -25038,7 +25282,9 @@
         ],
         "valuation_display": "$207M",
         "valuation_usd": 207000000,
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -25047,7 +25293,9 @@
         "investors": [
           "Accel"
         ],
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -25057,7 +25305,9 @@
           "T. Rowe Price",
           "Wellington Management"
         ],
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -25066,7 +25316,9 @@
         "investors": [],
         "valuation_display": "$1.8B",
         "valuation_usd": 1800000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -25082,7 +25334,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -26035,7 +26288,9 @@
         ],
         "source_url": "https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/",
         "source_type": "press",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -26342,7 +26597,9 @@
         "lead_investors": [],
         "other_investors": [],
         "source_url": "",
-        "source_type": ""
+        "source_type": "",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2021,
@@ -26362,7 +26619,9 @@
           "Remus Capital"
         ],
         "source_url": "https://betakit.com/hooked-on-phonics-platform-investors-back-voice-based-surveys/",
-        "source_type": "betakit"
+        "source_type": "betakit",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Acquired",
@@ -26372,7 +26631,9 @@
         "valuation_display": "",
         "lead_investors": [
           "Infillion"
-        ]
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2024-01-01",
@@ -28426,8 +28687,12 @@
       {
         "round_type": "Pre-Seed",
         "amount_usd": 1000000,
-        "lead_investor": "Popular Impact Fund",
-        "date": "2025-01"
+        "date": "2025-01",
+        "lead_investors": [
+          "Popular Impact Fund"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 1000000,
@@ -29427,7 +29692,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -29779,9 +30045,10 @@
         "amount_display": null,
         "valuation_usd": 5300000000,
         "valuation_display": "$5.3B",
-        "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "lead_investors": [],
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -30613,7 +30880,9 @@
         ],
         "source_url": "https://www.coindesk.com/business/2024/10/30/ai-data-collection-startup-sapien-raises-105m-seed-funding-led-by-variant",
         "source_type": "news",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2024,
@@ -30633,7 +30902,9 @@
         ],
         "source_url": "",
         "source_type": "",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -31363,14 +31634,18 @@
         "investors": [
           "Uber"
         ],
-        "round": "Spin-Off"
+        "round": "Spin-Off",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series A",
         "amount_usd": 30000000,
         "date": "2023-08",
         "investors": [],
-        "round": "SPAC"
+        "round": "SPAC",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -31379,7 +31654,9 @@
         "investors": [],
         "valuation_display": "$247M",
         "valuation_usd": 247000000,
-        "round": "Secondary Public Offering"
+        "round": "Secondary Public Offering",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -31395,7 +31672,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -31631,14 +31909,20 @@
       {
         "round_type": "Pre-Seed",
         "amount_usd": 1300000,
-        "lead_investor": "",
-        "date": "2022"
+        "date": "2022",
+        "lead_investors": [],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_type": "Seed",
         "amount_usd": 2200000,
-        "lead_investor": "Worklife Ventures, SeedtoB Capital",
-        "date": "2024-01"
+        "date": "2024-01",
+        "lead_investors": [
+          "Worklife Ventures, SeedtoB Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 3500000,
@@ -33398,7 +33682,7 @@
         "round": "Bankruptcy",
         "amount_usd": null,
         "amount_display": "—",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "Bankrupt",
         "lead_investors": [],
         "other_investors": [],
@@ -33722,9 +34006,10 @@
         "amount_display": null,
         "valuation_usd": 3300000000,
         "valuation_display": "$3.3B",
-        "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "lead_investors": [],
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -34095,7 +34380,9 @@
         ],
         "source_url": "https://blog.spade.com/spade-raises-5m-in-seed-funding-led-by-a16z/",
         "source_type": "company_blog",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2024,
@@ -34113,7 +34400,9 @@
         ],
         "source_url": "",
         "source_type": "",
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2026,
@@ -34134,7 +34423,9 @@
           "Y Combinator"
         ],
         "source_url": "https://www.businesswire.com/news/home/20260324472369/en/Spade-Announces-$40m-Series-B-Raise-to-Build-The-Data-and-AI-Platform-for-Modern-Finance",
-        "source_type": "press"
+        "source_type": "press",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -34992,7 +35283,9 @@
         ],
         "other_investors": [],
         "source_url": "https://www.ycombinator.com/companies/strada",
-        "source_type": ""
+        "source_type": "",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -35727,8 +36020,12 @@
       {
         "round_type": "Seed",
         "amount_usd": 4260000,
-        "lead_investor": "Sequoia Capital",
-        "date": "2022"
+        "date": "2022",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 4260000,
@@ -36296,10 +36593,25 @@
         "round": "Seed",
         "amount_usd": 10000000,
         "amount_display": "$10M",
-        "valuation_usd": 0,
+        "valuation_usd": null,
         "valuation_display": "",
-        "lead_investor": "Khosla Ventures",
-        "notable_investors": "Basis Set Ventures, Tobias Lütke (Shopify CEO), Kaz Nejatian (Opendoor CEO, ex-Shopify COO), Zach Abrams (Bridge co-founder, acq. by Stripe for $1.1B), Cosmin Nicolaescu (Accrual CEO, ex-Brex CTO), Michael Tannenbaum (Figure CEO, ex-Brex COO)"
+        "lead_investors": [
+          "Khosla Ventures"
+        ],
+        "other_investors": [
+          "Basis Set Ventures",
+          "Tobias Lütke (Shopify CEO)",
+          "Kaz Nejatian (Opendoor CEO",
+          "ex-Shopify COO)",
+          "Zach Abrams (Bridge co-founder",
+          "acq. by Stripe for $1.1B)",
+          "Cosmin Nicolaescu (Accrual CEO",
+          "ex-Brex CTO)",
+          "Michael Tannenbaum (Figure CEO",
+          "ex-Brex COO)"
+        ],
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -36645,7 +36957,8 @@
         "other_investors": [],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Seed",
@@ -36662,7 +36975,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -38390,7 +38704,9 @@
         ],
         "source_url": "https://transcend.io/blog/transcend-series-b",
         "source_type": "company_blog",
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2020,
@@ -38409,7 +38725,9 @@
         ],
         "source_url": "https://www.businesswire.com/news/home/20200610005207/en/Transcend-Raises-%2425M-to-Power-Data-Privacy-Inside-Every-Company",
         "source_type": "news",
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "year": 2019,
@@ -38425,7 +38743,9 @@
         "other_investors": [],
         "source_url": "",
         "source_type": "",
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -38816,7 +39136,9 @@
         ],
         "valuation_display": "$60M",
         "valuation_usd": 60000000,
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -38827,7 +39149,9 @@
         ],
         "valuation_display": "$330M",
         "valuation_usd": 330000000,
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
@@ -38838,7 +39162,9 @@
         ],
         "valuation_display": "$3.5B",
         "valuation_usd": 3500000000,
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -38849,7 +39175,9 @@
         ],
         "valuation_display": "$17B",
         "valuation_usd": 17000000000,
-        "round": "Series D"
+        "round": "Series D",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series E",
@@ -38858,7 +39186,9 @@
         "investors": [],
         "valuation_display": "$40B",
         "valuation_usd": 40000000000,
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
@@ -38867,7 +39197,9 @@
         "investors": [],
         "valuation_display": "$51B",
         "valuation_usd": 51000000000,
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series G",
@@ -38878,7 +39210,9 @@
         ],
         "valuation_display": "$68B",
         "valuation_usd": 68000000000,
-        "round": "Series G"
+        "round": "Series G",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -38887,7 +39221,9 @@
         "investors": [],
         "valuation_display": "$82.4B",
         "valuation_usd": 82400000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -38903,7 +39239,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -39459,7 +39796,8 @@
         ],
         "source_urls": [],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Series A",
@@ -39477,7 +39815,8 @@
           "https://venturebeat.com/2008/09/17/uptake-travel-search-engine-takes-in-10m/"
         ],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       },
       {
         "round": "Acquired",
@@ -39491,7 +39830,8 @@
           "https://allthingsd.com/20120228/groupon-acquires-travel-search-company-uptake/"
         ],
         "valuation_usd": 15000000,
-        "valuation_display": "~$15M"
+        "valuation_display": "~$15M",
+        "notes": ""
       }
     ],
     "metadata": {
@@ -39547,11 +39887,15 @@
         "date": "2021-07-27",
         "amount_usd": 20000000,
         "amount_display": "$20M",
-        "lead_investor": "Andreessen Horowitz (a16z)",
         "source_url": "https://www.coindesk.com/business/2021/07/27/a16z-leads-20m-bet-that-celos-valora-becomes-a-global-gateway-to-crypto",
         "valuation_usd": null,
         "valuation_display": "",
-        "round": "Series A"
+        "round": "Series A",
+        "lead_investors": [
+          "Andreessen Horowitz (a16z)"
+        ],
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_type": "Acquisition",
@@ -39561,7 +39905,9 @@
         "amount_display": "",
         "source_url": "https://www.coindesk.com/business/2025/12/10/stripe-acqui-hires-crypto-payments-startup-valora-venturing-further-into-stablecoins",
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "date": "2026-01-01",
@@ -40446,7 +40792,9 @@
         "other_investors": [
           "Y Combinator"
         ],
-        "round": "Pre-Seed"
+        "round": "Pre-Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Seed",
@@ -40468,7 +40816,9 @@
           "Adam Guild",
           "Max Mullen"
         ],
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -40538,7 +40888,9 @@
         "amount_usd": 1700000,
         "date": "2010-09",
         "investors": [],
-        "round": "Seed"
+        "round": "Seed",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series A",
@@ -40547,7 +40899,9 @@
         "investors": [
           "Formation 8"
         ],
-        "round": "Series A"
+        "round": "Series A",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series B",
@@ -40556,14 +40910,18 @@
         "investors": [
           "GGV Capital"
         ],
-        "round": "Series B"
+        "round": "Series B",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series C",
         "amount_usd": 50000000,
         "date": "2014-06",
         "investors": [],
-        "round": "Series C"
+        "round": "Series C",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series D",
@@ -40572,14 +40930,18 @@
         "investors": [],
         "valuation_display": "$1.5B",
         "valuation_usd": 1500000000,
-        "round": "Series E"
+        "round": "Series E",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series F",
         "amount_usd": 500000000,
         "date": "2017-05",
         "investors": [],
-        "round": "Series F"
+        "round": "Series F",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "Series H",
@@ -40590,7 +40952,9 @@
         ],
         "valuation_display": "$11.2B",
         "valuation_usd": 11200000000,
-        "round": "Series H"
+        "round": "Series H",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "round_name": "IPO",
@@ -40599,7 +40963,9 @@
         "investors": [],
         "valuation_display": "$14B",
         "valuation_usd": 14000000000,
-        "round": "IPO"
+        "round": "IPO",
+        "source_urls": [],
+        "notes": ""
       },
       {
         "stage": "Market Cap",
@@ -40615,7 +40981,8 @@
         "amount_display": null,
         "lead_investor": null,
         "as_of": "2026-03-31",
-        "notes": "Market cap as of April 30, 2026"
+        "notes": "Market cap as of April 30, 2026",
+        "source_urls": []
       }
     ],
     "metadata": {
@@ -41243,7 +41610,8 @@
           "https://www.ycombinator.com/companies/zeon-systems"
         ],
         "valuation_usd": null,
-        "valuation_display": ""
+        "valuation_display": "",
+        "notes": ""
       }
     ],
     "metadata": {
