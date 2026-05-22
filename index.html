@@ -852,6 +852,7 @@ function slugify(name) {
 /* ═══ Institution normalization ═══ */
 /* High schools — excluded from the institution filter (universities only) */
 const HIGH_SCHOOLS = new Set([
+  'Colonel By Secondary School', 'Cégep Édouard-Montpetit',
   'Olympiads School', 'Pearson College UWC', 'Shawnigan Lake School',
   'St. George\'s School', 'University of Toronto Schools', 'Upper Canada College'
 ]);
@@ -861,8 +862,9 @@ const INSTITUTION_ALIASES = {
   /* Toronto */ 'UofT': 'University of Toronto', 'U of T': 'University of Toronto', 'UToronto': 'University of Toronto', 'University of Toronto Scarborough': 'University of Toronto', 'University of Toronto (dropped out)': 'University of Toronto',
   /* UBC */ 'UBC': 'University of British Columbia',
   /* Queen's */ 'Queens': "Queen's University", "Queen's": "Queen's University", 'Queens University': "Queen's University",
-  /* Western */ 'University of Western Ontario': 'Western University', 'Ivey Business School, Western University': 'Western University', 'Ivey Business School': 'Western University', 'Western University (UWO)': 'Western University',
-  /* York */ 'York University - Schulich School of Business': 'York University',
+  /* Western */ 'University of Western Ontario': 'Western University', 'Ivey Business School, Western University': 'Western University', 'Ivey Business School': 'Western University', 'Ivey Business School at Western University': 'Western University', 'Western University (UWO)': 'Western University',
+  /* York */ 'York University - Schulich School of Business': 'York University', 'York University, Schulich School of Business': 'York University',
+  /* UBC */ 'UBC Sauder School of Business': 'University of British Columbia',
   /* SFU */ 'SFU': 'Simon Fraser University',
   /* UVic */ 'UVic': 'University of Victoria',
   /* UdeM */ 'UdeM': 'Université de Montréal', 'MILA': 'Université de Montréal',
@@ -896,6 +898,8 @@ const INSTITUTION_SHORT_LABELS = {
   'OCAD University': 'OCAD',
   'University of Saskatchewan': 'Saskatchewan',
   'University of Regina': 'Regina',
+  'Algonquin College': 'Algonquin',
+  'Vanier College': 'Vanier',
 };
 function instShortLabel(canonical) { return INSTITUTION_SHORT_LABELS[canonical] || canonical; }
 
