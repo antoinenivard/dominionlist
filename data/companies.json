@@ -864,7 +864,8 @@
         "name": "Nima Sadri",
         "linkedin": "https://www.linkedin.com/in/nimasadri/",
         "canadian_connection": "University of Waterloo (NLP Research under Prof. Jimmy Lin and Prof. Gordon Cormack, 2021-2022)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -2643,14 +2644,16 @@
         "linkedin": "https://www.linkedin.com/in/hassanshakerismail/",
         "x": "https://x.com/HassanRIsmail",
         "canadian_connection": "University of Waterloo",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       },
       {
         "name": "Hadi Alsibassi",
         "linkedin": "https://www.linkedin.com/in/hadi-alsibassi/",
         "x": "",
         "canadian_connection": "University of Toronto",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto"
       }
     ],
     "funding_rounds": [
@@ -3216,7 +3219,8 @@
         "name": "Jamil Rahman",
         "linkedin": "https://www.linkedin.com/in/jamil-rahman-a96b9339/",
         "canadian_connection": "York University, Schulich School of Business",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "York University"
       }
     ],
     "funding_rounds": [
@@ -4936,21 +4940,24 @@
         "linkedin": "https://ca.linkedin.com/in/jonathanhsuuw",
         "x": "",
         "canadian_connection": "University of Waterloo",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       },
       {
         "name": "Philip Fradkin",
         "linkedin": "https://linkedin.com/in/philip-fradkin-330a417b",
         "x": "",
         "canadian_connection": "University of Toronto (PhD)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto"
       },
       {
         "name": "Ruian Shi",
         "linkedin": "https://linkedin.com/in/ruian-shi-4b5215b9",
         "x": "",
         "canadian_connection": "University of Toronto (PhD)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto"
       }
     ],
     "funding_rounds": [
@@ -6042,7 +6049,8 @@
         "name": "Omar Ahmed",
         "linkedin": "https://www.linkedin.com/in/omar-ahmed-8b62aa3a3/",
         "canadian_connection": "University of Waterloo",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -6998,7 +7006,8 @@
         "linkedin": "https://www.linkedin.com/in/bryanmahoney",
         "x": "",
         "canadian_connection": "McGill University (Bachelor's, Finance & Entrepreneurship). Born and raised in Montreal, QC. Founded Dynamo digital studio in Montreal.",
-        "canadian_connection_type": "birthplace_education"
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "McGill University"
       }
     ],
     "funding_rounds": [
@@ -8326,7 +8335,8 @@
         "name": "Carlos Chiu",
         "linkedin": "https://www.linkedin.com/in/carloschiu/",
         "canadian_connection": "UBC Sauder School of Business (BComm, Finance, 2003-2007)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "UBC Sauder School of Business"
       }
     ],
     "funding_rounds": [],
@@ -9571,7 +9581,8 @@
         "name": "Spyri Karasavva",
         "linkedin": "https://www.linkedin.com/in/skarasavva/",
         "canadian_connection": "Ivey Business School at Western University",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ivey Business School at Western University"
       }
     ],
     "funding_rounds": [
@@ -10948,7 +10959,8 @@
         "name": "Shamir Allibhai",
         "linkedin": "https://www.linkedin.com/in/shamirallibhai/",
         "canadian_connection": "Ivey Business School at Western University (HBA, General Management, 2000-2002)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ivey Business School at Western University"
       }
     ],
     "funding_rounds": [],
@@ -10976,7 +10988,8 @@
         "name": "Abhi Waud",
         "linkedin": "https://www.linkedin.com/in/abhiwaud/",
         "canadian_connection": "University of Waterloo (B.A.Sc. Civil Engineering, 1997-2002)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -13503,7 +13516,8 @@
         "linkedin": "https://www.linkedin.com/in/jeromegn/",
         "x": "https://x.com/jeromegn",
         "canadian_connection": "Cégep Édouard-Montpetit (Quebec). Based in Montreal, QC.",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Cégep Édouard-Montpetit"
       }
     ],
     "funding_rounds": [
@@ -14100,7 +14114,8 @@
         "name": "Saurav Bubber",
         "linkedin": "https://www.linkedin.com/in/sauravbubber/",
         "canadian_connection": "Ivey Business School at Western University (HBA, Dean's Honor's List, Graduated with Distinction)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ivey Business School at Western University"
       }
     ],
     "funding_rounds": [
@@ -14372,7 +14387,8 @@
         "name": "Athina Vandame",
         "linkedin": "https://www.linkedin.com/in/athinavandame/",
         "canadian_connection": "University of Waterloo (Computer Science)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -27276,7 +27292,8 @@
         "name": "Anmol Arora",
         "linkedin": "https://www.linkedin.com/in/arora97/",
         "canadian_connection": "University of Waterloo",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -28680,7 +28697,8 @@
         "name": "Meghan Wood",
         "linkedin": "https://www.linkedin.com/in/woodmeghan/",
         "canadian_connection": "Queen's University, Smith School of Business (BCom). Canada's Outstanding CEO of the Year Futures Fund Scholarship recipient.",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Queen's University"
       }
     ],
     "funding_rounds": [
@@ -31902,7 +31920,8 @@
         "name": "Christal Wang",
         "linkedin": "https://www.linkedin.com/in/wangchristal/",
         "canadian_connection": "Ivey Business School at Western University (HBA '15)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ivey Business School at Western University"
       }
     ],
     "funding_rounds": [
@@ -35030,13 +35049,15 @@
         "name": "Benjamin Ye",
         "linkedin": "https://www.linkedin.com/in/benjaminye/",
         "canadian_connection": "Ivey Business School at Western University (HBA, 2017-2019), Western University (Financial Economics, 2015-2017)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ivey Business School at Western University"
       },
       {
         "name": "Mohit Raj",
         "linkedin": "https://www.linkedin.com/in/mohit2raj/",
         "canadian_connection": "Western University (BSc Actuarial Sciences)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Western University"
       }
     ],
     "funding_rounds": [],
@@ -36013,7 +36034,8 @@
         "name": "Dhaman Rakhra",
         "linkedin": "https://www.linkedin.com/in/dhamanrakhra/",
         "canadian_connection": "York University, Schulich School of Business (iBBA, 2010-2014)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "York University"
       }
     ],
     "funding_rounds": [
@@ -36833,7 +36855,8 @@
         "name": "Muhammad Usman Farooq",
         "linkedin": "https://www.linkedin.com/in/munarausmanfarooq/",
         "canadian_connection": "University of Waterloo (Exchange Semester, 2021-2022)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -40506,7 +40529,8 @@
         "name": "John Zila",
         "linkedin": "https://www.linkedin.com/in/jzila/",
         "canadian_connection": "University of Waterloo",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo"
       }
     ],
     "funding_rounds": [],
@@ -41406,7 +41430,8 @@
         "name": "Yassin Hafid",
         "linkedin": "https://www.linkedin.com/in/yassin-hafid/",
         "canadian_connection": "Colonel By Secondary School, Ottawa, Ontario (Valedictorian, 2017-2021)",
-        "canadian_connection_type": "education"
+        "canadian_connection_type": "education",
+        "canadian_institution": "Colonel By Secondary School"
       }
     ],
     "funding_rounds": [],
