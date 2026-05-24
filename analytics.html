@@ -512,6 +512,9 @@ function fmt(n){
   return'$'+n;
 }
 function getVal(c){
+  /* Skip inactive/shutdown companies — bankrupt or wound down = $0 */
+  var st=c.status||'';
+  if(st==='Inactive'||st==='Shutdown')return 0;
   var m=c.metadata||{};
   if(m.valuation_usd&&m.valuation_usd>0)return m.valuation_usd;
   var rounds=(c.funding_rounds||[]).slice().sort(function(a,b){return(b.date||'').localeCompare(a.date||'')});
