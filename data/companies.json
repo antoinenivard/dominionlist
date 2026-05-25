@@ -8619,7 +8619,7 @@
     "stage": "Pre-Seed",
     "status": "Active",
     "founding_year": 2025,
-    "yc_batch": "",
+    "yc_batch": "S'26",
     "icon_url": "https://codag.ai/codag-logo-icon.svg",
     "founders": [
       {
@@ -8636,14 +8636,31 @@
         ]
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "",
+    "funding_rounds": [
+      {
+        "date": "2026-05-01",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/codag"
+        ],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-05-25T10:00:00-08:00",
-      "notes": "Solo founder, ex-Shopify. Open source on GitHub (michaelzixizhou/codag). Free product, no known funding yet."
+      "notes": "YC S'26. Solo founder, ex-Shopify. Open source on GitHub (michaelzixizhou/codag)."
     }
   },
   {
