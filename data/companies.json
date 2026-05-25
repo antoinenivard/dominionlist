@@ -4063,6 +4063,151 @@
     "capital_raised_display": "$530K"
   },
   {
+    "id": 284,
+    "name": "Backstory",
+    "website": "https://www.backstory.ai",
+    "description": "AI platform that automates revenue intelligence by capturing sales activity data and providing actionable insights for go-to-market teams. Formerly known as People.ai.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2016,
+    "industry": "Enterprise",
+    "stage": "Series D",
+    "status": "Active",
+    "yc_batch": "S'16",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "oleg-rogynskyy",
+        "name": "Oleg Rogynskyy",
+        "linkedin": "https://www.linkedin.com/in/olegrogynskyy",
+        "role": "Founder & CEO",
+        "bio": "Founder & CEO of Backstory (fka People.ai). Born in Ukraine, Canadian citizen. Previously worked at Nstein Technologies in Montreal. Boston University graduate.",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_city": "",
+        "canadian_institutions": [],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2016-05-23",
+        "round": "Seed",
+        "amount_usd": 450000,
+        "amount_display": "$450K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.crunchbase.com/organization/people-ai"
+        ],
+        "notes": "YC S16"
+      },
+      {
+        "date": "2017-05-30",
+        "round": "Series A",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Lightspeed Venture Partners"
+        ],
+        "other_investors": [
+          "Index Ventures",
+          "Shasta Ventures"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2017/05/30/people-ai-raises-7m-to-automate-sales-ops-for-the-enterprise/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2018-10-23",
+        "round": "Series B",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "other_investors": [
+          "Lightspeed",
+          "GGV Capital"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/peopleai-the-ai-platform-for-sales-marketing--customer-success-raises-30m-led-by-andreessen-horowitz-300735399.html"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2019-05-21",
+        "round": "Series C",
+        "amount_usd": 60000000,
+        "amount_display": "$60M",
+        "valuation_usd": 500000000,
+        "valuation_display": "$500M",
+        "lead_investors": [
+          "ICONIQ Capital"
+        ],
+        "other_investors": [
+          "Andreessen Horowitz",
+          "Lightspeed",
+          "GGV Capital"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2019/05/21/people-ai-the-predictive-sales-startup-raises-60m-at-around-500m-valuation/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2021-08-11",
+        "round": "Series D",
+        "amount_usd": 100000000,
+        "amount_display": "$100M",
+        "valuation_usd": 1100000000,
+        "valuation_display": "$1.1B",
+        "lead_investors": [
+          "Akkadian Ventures",
+          "Mubadala Capital"
+        ],
+        "other_investors": [
+          "ICONIQ Capital",
+          "Lightspeed"
+        ],
+        "source_urls": [
+          "https://www.people.ai/newsroom/people-ai-raises-100-million-series-d"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://www.people.ai",
+        "https://www.people.ai/blog/oleg-rogynskyy-on-an-intentional-approach-to-life-and-ai"
+      ],
+      "valuation_usd": 1100000000,
+      "valuation_display": "$1.1B",
+      "valuation_source_url": "",
+      "valuation_source_type": "post_money",
+      "valuation_type": "post_money",
+      "valuation_confidence": "medium",
+      "valuation_as_of": "2022-02",
+      "total_funding_display": "$297M",
+      "last_verified": "2026-03-25T00:00:00Z",
+      "notes": ""
+    },
+    "institution_display": "",
+    "capital_raised_usd": 197450000,
+    "capital_raised_display": "$197M"
+  },
+  {
     "id": "bamboo-health",
     "name": "Bamboo Health",
     "website": "https://www.bamboohealth.com",
@@ -8461,6 +8606,45 @@
     "icon_url": "https://img.logo.dev/ourcocoon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "capital_raised_usd": 3125000,
     "capital_raised_display": "$3.12M"
+  },
+  {
+    "id": "codag",
+    "name": "Codag",
+    "website": "https://codag.ai",
+    "description": "Log compression for AI agents. Compresses millions of infrastructure log lines into structured incident capsules that fit in an LLM context window.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Developer Tools",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://codag.ai/codag-logo-icon.svg",
+    "founders": [
+      {
+        "name": "Michael Zhou",
+        "role": "Founder",
+        "linkedin": "https://ca.linkedin.com/in/mzxzhou",
+        "x_url": "",
+        "bio": "Solo founder of Codag. Ex-SWE at Shopify. University of Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-05-25T10:00:00-08:00",
+      "notes": "Solo founder, ex-Shopify. Open source on GitHub (michaelzixizhou/codag). Free product, no known funding yet."
+    }
   },
   {
     "id": "compound-foods",
@@ -27207,151 +27391,6 @@
     }
   },
   {
-    "id": 284,
-    "name": "Backstory",
-    "website": "https://www.backstory.ai",
-    "description": "AI platform that automates revenue intelligence by capturing sales activity data and providing actionable insights for go-to-market teams. Formerly known as People.ai.",
-    "hq_city": "San Francisco",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2016,
-    "industry": "Enterprise",
-    "stage": "Series D",
-    "status": "Active",
-    "yc_batch": "S'16",
-    "icon_url": "",
-    "founders": [
-      {
-        "id": "oleg-rogynskyy",
-        "name": "Oleg Rogynskyy",
-        "linkedin": "https://www.linkedin.com/in/olegrogynskyy",
-        "role": "Founder & CEO",
-        "bio": "Founder & CEO of Backstory (fka People.ai). Born in Ukraine, Canadian citizen. Previously worked at Nstein Technologies in Montreal. Boston University graduate.",
-        "canadian_connection_type": "citizenship",
-        "canadian_institution": "",
-        "canadian_city": "",
-        "canadian_institutions": [],
-        "wikipedia_url": "",
-        "x_url": ""
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2016-05-23",
-        "round": "Seed",
-        "amount_usd": 450000,
-        "amount_display": "$450K",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Y Combinator"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/people-ai"
-        ],
-        "notes": "YC S16"
-      },
-      {
-        "date": "2017-05-30",
-        "round": "Series A",
-        "amount_usd": 7000000,
-        "amount_display": "$7M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Lightspeed Venture Partners"
-        ],
-        "other_investors": [
-          "Index Ventures",
-          "Shasta Ventures"
-        ],
-        "source_urls": [
-          "https://techcrunch.com/2017/05/30/people-ai-raises-7m-to-automate-sales-ops-for-the-enterprise/"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2018-10-23",
-        "round": "Series B",
-        "amount_usd": 30000000,
-        "amount_display": "$30M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Andreessen Horowitz"
-        ],
-        "other_investors": [
-          "Lightspeed",
-          "GGV Capital"
-        ],
-        "source_urls": [
-          "https://www.prnewswire.com/news-releases/peopleai-the-ai-platform-for-sales-marketing--customer-success-raises-30m-led-by-andreessen-horowitz-300735399.html"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2019-05-21",
-        "round": "Series C",
-        "amount_usd": 60000000,
-        "amount_display": "$60M",
-        "valuation_usd": 500000000,
-        "valuation_display": "$500M",
-        "lead_investors": [
-          "ICONIQ Capital"
-        ],
-        "other_investors": [
-          "Andreessen Horowitz",
-          "Lightspeed",
-          "GGV Capital"
-        ],
-        "source_urls": [
-          "https://techcrunch.com/2019/05/21/people-ai-the-predictive-sales-startup-raises-60m-at-around-500m-valuation/"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2021-08-11",
-        "round": "Series D",
-        "amount_usd": 100000000,
-        "amount_display": "$100M",
-        "valuation_usd": 1100000000,
-        "valuation_display": "$1.1B",
-        "lead_investors": [
-          "Akkadian Ventures",
-          "Mubadala Capital"
-        ],
-        "other_investors": [
-          "ICONIQ Capital",
-          "Lightspeed"
-        ],
-        "source_urls": [
-          "https://www.people.ai/newsroom/people-ai-raises-100-million-series-d"
-        ],
-        "notes": ""
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://www.people.ai",
-        "https://www.people.ai/blog/oleg-rogynskyy-on-an-intentional-approach-to-life-and-ai"
-      ],
-      "valuation_usd": 1100000000,
-      "valuation_display": "$1.1B",
-      "valuation_source_url": "",
-      "valuation_source_type": "post_money",
-      "valuation_type": "post_money",
-      "valuation_confidence": "medium",
-      "valuation_as_of": "2022-02",
-      "total_funding_display": "$297M",
-      "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
-    },
-    "institution_display": "",
-    "capital_raised_usd": 197450000,
-    "capital_raised_display": "$197M"
-  },
-  {
     "id": "pepper",
     "name": "Pepper",
     "website": "https://www.usepepper.com",
@@ -32435,6 +32474,91 @@
     "capital_raised_usd": 15500000,
     "capital_raised_display": "$15.5M",
     "icon_url": ""
+  },
+  {
+    "id": "saris-ai",
+    "name": "Saris AI",
+    "website": "https://saris.ai",
+    "description": "AI workflow agents for banks and credit unions. Automates consumer, mortgage, and commercial lending, quality control, and operations workflows.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "S'16",
+    "icon_url": "https://saris.ai/assets/v2/saris-logo.svg",
+    "founders": [
+      {
+        "name": "Danial Jameel",
+        "role": "CEO",
+        "linkedin": "https://ca.linkedin.com/in/danialj",
+        "x_url": "https://x.com/danialj",
+        "bio": "Founder & CEO of Saris AI. Previously co-founded Ready Education (YC S'16). Forbes 30 Under 30.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      },
+      {
+        "name": "James Dang",
+        "role": "CTO",
+        "linkedin": "https://ca.linkedin.com/in/james-dang-4ab61b26",
+        "x_url": "",
+        "bio": "Co-Founder of Saris AI. Previously co-founded Ready Education as CTO. University of Toronto - Trinity College.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      },
+      {
+        "name": "Alice Dinu",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/alice-dinu-b214011b/",
+        "x_url": "",
+        "bio": "Co-Founder of Saris AI. Previously co-founded Ready Education. McGill University. Forbes 30 Under 30.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-10-05",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Liquid 2 Ventures"
+        ],
+        "other_investors": [
+          "Homebrew",
+          "Foreword",
+          "Essence VC",
+          "Audacious Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-05-25T10:00:00-08:00",
+      "notes": "All 3 co-founders previously built Ready Education together (YC S'16). YC batch listed is from Ready Education, not Saris directly."
+    }
   },
   {
     "id": 374,
