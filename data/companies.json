@@ -30419,6 +30419,19 @@
         "x_url": "",
         "wikipedia_url": "",
         "role": ""
+      },
+      {
+        "name": "Arnaud Denis-Remillard",
+        "role": "",
+        "linkedin": "https://www.linkedin.com/in/arnaud-denis-remillard-25b3a8296/",
+        "x_url": "",
+        "bio": "Co-Founder of Reflex. Université de Montréal. Previously interned at Canadian Space Agency.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université de Montréal",
+        "canadian_institutions": [
+          "Université de Montréal"
+        ]
       }
     ],
     "funding_rounds": [],
