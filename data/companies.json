@@ -18659,6 +18659,96 @@
     "capital_raised_display": "$107M"
   },
   {
+    "id": "jamsocket",
+    "name": "Jamsocket",
+    "website": "https://jamsocket.com",
+    "description": "Session backends for real-time and AI-powered web applications. Spun up isolated compute sessions per user via a single API call. Formerly known as Drifting in Space. Acquired by Modal Labs in 2025.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Developer Tools",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "founding_year": 2021,
+    "yc_batch": "W'22",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Paul Butler",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/paulgb/",
+        "x_url": "",
+        "bio": "Co-Founder of Jamsocket (acquired by Modal Labs). University of Waterloo (B.Math, Math & CS). From Halifax, Canada. Ex-Google (Search), ex-Two Sigma.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-01-01",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC W'22 deal"
+      },
+      {
+        "date": "2022-08-11",
+        "round": "Seed",
+        "amount_usd": 2500000,
+        "amount_display": "$2.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Garage Capital"
+        ],
+        "other_investors": [
+          "Soma Capital",
+          "Abstraction Capital",
+          "Rogue Capital",
+          "Wayfinder"
+        ],
+        "source_urls": [
+          "https://jamsocket.com/blog/seed-funding-announcement"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2025-01-01",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://jamsocket.com/blog/jamsocket-is-joining-modal"
+        ],
+        "notes": "",
+        "acquirer": "Modal Labs"
+      }
+    ],
+    "capital_raised_usd": 3000000,
+    "capital_raised_display": "$3M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-05-27T10:00:00-08:00",
+      "notes": "Acquired by Modal Labs in 2025. Paul Butler now leads Agent Runtime at Modal. Fka Drifting in Space."
+    }
+  },
+  {
     "id": 237,
     "name": "Jo",
     "website": "https://askjo.ai/",
