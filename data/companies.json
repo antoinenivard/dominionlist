@@ -1597,7 +1597,7 @@
     "hq_country": "US",
     "founding_year": 2021,
     "industry": "AI",
-    "stage": "Series G",
+    "stage": "Series H",
     "status": "Active",
     "yc_batch": null,
     "icon_url": "",
@@ -1858,6 +1858,41 @@
           "https://www.bloomberg.com/news/articles/2026-02-12/anthropic-finalizes-30-billion-funding-at-380-billion-value"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-05-28",
+        "round": "Series H",
+        "amount_usd": 65000000000,
+        "amount_display": "$65B",
+        "valuation_usd": 965000000000,
+        "valuation_display": "$965B",
+        "lead_investors": [
+          "Altimeter Capital",
+          "Dragoneer",
+          "Greenoaks",
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "Capital Group",
+          "Coatue",
+          "D1 Capital Partners",
+          "GIC",
+          "ICONIQ",
+          "XN",
+          "Baillie Gifford",
+          "Blackstone",
+          "Fidelity",
+          "General Catalyst",
+          "Insight Partners",
+          "Lightspeed Venture Partners",
+          "T. Rowe Price",
+          "Temasek",
+          "Amazon"
+        ],
+        "source_urls": [
+          "https://www.anthropic.com/news/series-h"
+        ],
+        "notes": "Includes $15B previously committed from hyperscalers ($5B from Amazon). Run-rate revenue crossed $47B."
       }
     ],
     "metadata": {
@@ -1868,21 +1903,21 @@
         "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
         "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
       ],
-      "valuation_usd": 380000000000,
-      "valuation_display": "$380B",
+      "valuation_usd": 965000000000,
+      "valuation_display": "$965B",
       "valuation_source_url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
       "valuation_source_type": "company announcement",
       "valuation_type": "post-money",
       "valuation_confidence": "high",
       "valuation_as_of": "2026-02",
       "total_funding_display": "$56.7B+",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-05-28T10:00:00-08:00",
       "notes": ""
     },
     "founder_display": "Chris Olah",
     "institution_display": "University of Toronto",
-    "capital_raised_usd": 58704000000,
-    "capital_raised_display": "$58.7B"
+    "capital_raised_usd": 123700000000,
+    "capital_raised_display": "$123.7B"
   },
   {
     "name": "Antigma Labs",
