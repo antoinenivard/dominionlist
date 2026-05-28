@@ -2648,50 +2648,49 @@
   {
     "id": "arga-labs",
     "name": "Arga Labs",
-    "website": "https://argalabs.com/",
-    "description": "The validation infrastructure for AI agents",
+    "website": "https://arga.dev",
+    "description": "Validation infrastructure for AI agents. Spins up production-like staging sandboxes per PR with 'twins' for integrations (Stripe, Slack, GSuite). Generates and runs tests automatically so agents can fix what broke before a human reviews.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
-    "hq_country": "United States",
-    "founding_year": 2025,
+    "hq_country": "US",
     "industry": "AI",
-    "stage": "Seed",
-    "status": "Private",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
     "yc_batch": "P'26",
+    "icon_url": "",
     "founders": [
       {
-        "id": "phillip-li",
         "name": "Phillip Li",
-        "linkedin": "https://www.linkedin.com/in/phillip-li-a28a84217/",
         "role": "Co-Founder & CEO",
-        "bio": "Attended the University of British Columbia (dropped out). Canadian National Team fencer. Previously built internal dev tools at Amazon.",
+        "linkedin": "https://www.linkedin.com/in/phillip-li-a28a84217",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Arga Labs (YC P26). Studied neuroscience at UBC before pivoting to tech. Canadian National Team fencer. Previously interned at Amazon where he built a dev tool saving 10 weeks/year of engineering hours.",
+        "wikipedia_url": "",
         "canadian_connection_type": "education",
         "canadian_institution": "University of British Columbia",
         "canadian_institutions": [
           "University of British Columbia"
-        ],
-        "wikipedia_url": "",
-        "x_url": ""
+        ]
       },
       {
-        "id": "akira-tong",
         "name": "Akira Tong",
-        "linkedin": "https://www.linkedin.com/in/akira-tong/",
         "role": "Co-Founder & CTO",
-        "bio": "Studied at the University of British Columbia. Previously SDE at Stripe and quant at Goldman Sachs.",
+        "linkedin": "https://www.linkedin.com/in/akira-tong",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Arga Labs (YC P26). CS & Business at UBC. Previously interned at Stripe and was a quant at Goldman Sachs. Met co-founder Phillip Li in first-year calculus at UBC at age 14. Canadian Junior National Fencing Team.",
+        "wikipedia_url": "",
         "canadian_connection_type": "education",
         "canadian_institution": "University of British Columbia",
         "canadian_institutions": [
           "University of British Columbia"
-        ],
-        "wikipedia_url": "",
-        "x_url": ""
+        ]
       }
     ],
     "funding_rounds": [
       {
         "date": "2026-03",
-        "round": "Seed",
+        "round": "Pre-Seed",
         "amount_usd": 500000,
         "amount_display": "$500K",
         "valuation_usd": null,
@@ -2700,83 +2699,20 @@
           "Y Combinator"
         ],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "YC P'26 standard deal."
+        "source_urls": [
+          "https://www.ycombinator.com/companies/arga-labs"
+        ],
+        "notes": "Standard YC P'26 deal"
       }
     ],
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "institution_display": "University of British Columbia",
-    "icon_url": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-05-08T09:16:00-08:00",
       "notes": ""
     }
-  },
-  {
-    "id": "arga-labs",
-    "name": "Arga Labs",
-    "website": "https://arga.dev",
-    "description": "Validation infrastructure for AI agents. Spins up production-like staging sandboxes per PR with 'twins' for integrations (Stripe, Slack, GSuite). Generates and runs tests automatically so agents can fix what broke before a human reviews.",
-    "hq_city": "San Francisco",
-    "hq_region": "CA",
-    "hq_country": "United States",
-    "founding_year": 2025,
-    "industry": "AI",
-    "stage": "Pre-Seed",
-    "status": "Private",
-    "yc_batch": "P'26",
-    "founders": [
-      {
-        "id": "akira-tong",
-        "name": "Akira Tong",
-        "linkedin": "https://www.linkedin.com/in/akira-tong",
-        "role": "Co-Founder & CTO",
-        "bio": "Co-Founder & CTO of Arga Labs (YC P26). CS & Business at UBC. Previously interned at Stripe. Met co-founder Phillip Li in first-year calculus at UBC at age 14. Canadian Junior National Fencing Team.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of British Columbia",
-        "canadian_institutions": [
-          "University of British Columbia"
-        ],
-        "wikipedia_url": "",
-        "x_url": ""
-      },
-      {
-        "id": "phillip-li",
-        "name": "Phillip Li",
-        "linkedin": "https://www.linkedin.com/in/phillip-li-a28a84217",
-        "role": "Co-Founder & CEO",
-        "bio": "Co-Founder & CEO of Arga Labs (YC P26). Studied neuroscience at UBC before pivoting to tech. Previously interned at Amazon where he built a dev tool saving 10 weeks/year of engineering hours.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of British Columbia",
-        "canadian_institutions": [
-          "University of British Columbia"
-        ],
-        "wikipedia_url": "",
-        "x_url": ""
-      }
-    ],
-    "funding_rounds": [],
-    "metadata": {
-      "sources": [
-        "https://www.ycombinator.com/companies/arga-labs",
-        "https://www.linkedin.com/in/akira-tong",
-        "https://www.linkedin.com/in/phillip-li-a28a84217"
-      ],
-      "last_verified": "2026-05-08T09:16:00-08:00",
-      "import_notes": "manual-add",
-      "valuation_usd": null,
-      "valuation_display": "",
-      "notes": ""
-    },
-    "founder_display": "Akira Tong, Phillip Li",
-    "institution_display": "University of British Columbia",
-    "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "",
-    "icon_url": ""
   },
   {
     "id": "argos-research",
@@ -11468,72 +11404,6 @@
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
-  },
-  {
-    "id": 218,
-    "name": "Drifting in Space",
-    "website": "https://driftingin.space",
-    "description": "Server infrastructure platform (Jamsocket) for building compute-intensive browser-based applications with session-lived backends.",
-    "hq_city": "New York",
-    "hq_region": "NY",
-    "hq_country": "US",
-    "founding_year": 2022,
-    "industry": "Enterprise",
-    "stage": "Seed",
-    "status": "Active",
-    "yc_batch": "W'22",
-    "icon_url": "",
-    "founders": [
-      {
-        "name": "Paul Butler",
-        "linkedin": "",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "Software engineer from Halifax, Canada, previously at Google and Two Sigma.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_city": "Halifax, NS",
-        "role": "",
-        "canadian_institutions": []
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2022",
-        "round": "Seed",
-        "amount_usd": 2620000,
-        "amount_display": "$3M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "Y Combinator",
-          "Garage Capital"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/drifting-in-space"
-        ],
-        "notes": ""
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://driftingin.space"
-      ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "$2.6M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
-    },
-    "institution_display": "",
-    "capital_raised_usd": 2620000,
-    "capital_raised_display": "$2.62M"
   },
   {
     "id": 319,
