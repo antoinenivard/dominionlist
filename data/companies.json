@@ -21277,8 +21277,8 @@
     "hq_country": "United States",
     "founding_year": 2018,
     "industry": "Enterprise",
-    "stage": "Series D",
-    "status": "Private",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "founders": [
       {
@@ -21366,6 +21366,45 @@
           "https://venturebeat.com/data-infrastructure/san-francisco-startup-maintainx-raises-50-million-to-bring-a-i-to-industrial-operations"
         ],
         "notes": "Unicorn milestone"
+      },
+      {
+        "date": "2025-07-09",
+        "round": "Series D",
+        "amount_usd": 150000000,
+        "amount_display": "$150M",
+        "valuation_usd": 2500000000,
+        "valuation_display": "$2.5B",
+        "lead_investors": [
+          "Bessemer Venture Partners",
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [
+          "D.E. Shaw Ventures",
+          "Amity Ventures",
+          "August Capital",
+          "Founders Circle Capital",
+          "Sozo Ventures",
+          "Fifth Down Capital"
+        ],
+        "source_urls": [
+          "https://www.getmaintainx.com/newsroom/maintainx-raises-150m"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2026-05-28",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 3600000000,
+        "valuation_display": "$3.6B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://adsknews.autodesk.com/en/news/autodesk-to-acquire-maintainx-advancing-unified-platform-in-operations/"
+        ],
+        "notes": "All-cash deal. Largest acquisition in Autodesk history. MaintainX ARR >$135M in 2026.",
+        "acquirer": "Autodesk"
       }
     ],
     "metadata": {
@@ -21375,23 +21414,23 @@
         "https://giving.mcgill.ca/all-stories/made-world-class-education-and-network",
         "https://www.businesswire.com/news/home/20231206379674/en/MaintainX-Makes-Equipment-and-Regulatory-Downtime-a-Thing-of-the-Past"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-05-29T10:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 2500000000,
-      "valuation_display": "$2.5B",
+      "valuation_usd": 3600000000,
+      "valuation_display": "$3.6B",
       "valuation_source": "Series D 2024",
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://techcrunch.com/2024/03/14/maintainx-raises-series-d/",
       "total_funding_display": "$243M",
       "valuation_as_of": "2025-03",
-      "notes": ""
+      "notes": "Acquired by Autodesk for $3.6B all-cash (announced May 28, 2026), largest acquisition in Autodesk history. Founder Chris Turlica (McGill)."
     },
     "founder_display": "Chris Turlica",
     "institution_display": "McGill University",
     "hq_display": "Miami, FL",
-    "capital_raised_usd": 103800000,
-    "capital_raised_display": "$104M",
+    "capital_raised_usd": 253800000,
+    "capital_raised_display": "$254M",
     "icon_url": ""
   },
   {
