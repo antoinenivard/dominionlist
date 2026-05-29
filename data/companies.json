@@ -35219,74 +35219,6 @@
     "capital_raised_display": ""
   },
   {
-    "id": 204,
-    "name": "Solcoa Industries",
-    "website": "https://www.solcoaindustries.com",
-    "description": "Industrial metals company producing zero-carbon, American-made rare earth metals using sustainable refining processes.",
-    "hq_city": "Alameda",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2023,
-    "industry": "Industrial",
-    "stage": "Seed",
-    "status": "Active",
-    "yc_batch": null,
-    "icon_url": "",
-    "founders": [
-      {
-        "name": "Hooman Reza Nezhad",
-        "linkedin": "https://www.linkedin.com/in/hooman-nezhad",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "CEO and co-founder, 2025 Thiel Fellow, University of Toronto, from Waterloo, Canada.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "University of Toronto",
-        "canadian_city": "Waterloo, ON",
-        "canadian_institutions": [
-          "University of Toronto"
-        ],
-        "role": ""
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2024",
-        "round": "Seed",
-        "amount_usd": 3000000,
-        "amount_display": "$3M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "Felicis Ventures",
-          "Gigascale Capital"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/solcoa-industries"
-        ],
-        "notes": ""
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://www.solcoaindustries.com"
-      ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "$3M+",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
-    },
-    "institution_display": "University of Toronto",
-    "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M"
-  },
-  {
     "id": "solcoa-industries",
     "name": "Solcoa Industries",
     "website": "https://www.solcoaindustries.com",
@@ -35297,7 +35229,7 @@
     "industry": "Industrial",
     "stage": "Seed",
     "status": "Active",
-    "founding_year": 2024,
+    "founding_year": 2023,
     "yc_batch": "",
     "icon_url": "",
     "founders": [
@@ -35306,10 +35238,11 @@
         "role": "Co-Founder & CEO",
         "linkedin": "https://www.linkedin.com/in/hooman-nezhad/",
         "x_url": "",
-        "bio": "Co-Founder & CEO of Solcoa. Thiel Fellow. University of Toronto; research at University of Waterloo on Mars in-situ resource utilization. Canadian secondary education.",
+        "bio": "Co-Founder & CEO of Solcoa. 2025 Thiel Fellow. From Waterloo, Ontario. University of Toronto; research at University of Waterloo on Mars in-situ resource utilization.",
         "wikipedia_url": "",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Toronto",
+        "canadian_city": "Waterloo, ON",
         "canadian_institutions": [
           "University of Toronto",
           "University of Waterloo"
@@ -35318,10 +35251,10 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025-01-01",
+        "date": "2024",
         "round": "Seed",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
+        "amount_usd": 3000000,
+        "amount_display": "$3M",
         "valuation_usd": 100000000,
         "valuation_display": "$100M",
         "lead_investors": [
@@ -35335,18 +35268,19 @@
           "1517 Fund"
         ],
         "source_urls": [
+          "https://www.crunchbase.com/organization/solcoa-industries",
           "https://www.solcoaindustries.com/"
         ],
-        "notes": "Amount undisclosed; $100M valuation per secondary reporting."
+        "notes": "$100M valuation per secondary reporting."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": 3000000,
+    "capital_raised_display": "$3M",
     "metadata": {
       "valuation_usd": 100000000,
       "valuation_display": "$100M",
       "last_verified": "2026-05-29T10:00:00-08:00",
-      "notes": "Only CEO Hooman Reza Nezhad is Canadian (UofT/Waterloo). CTO Artem Iurkovskyi is Ukrainian-American (Worcester Polytechnic), not included. 31,000 sq ft facility in Alameda, CA."
+      "notes": "Only CEO Hooman Reza Nezhad is Canadian (born Waterloo ON, UofT/Waterloo). CTO Artem Iurkovskyi is Ukrainian-American (Worcester Polytechnic), not included. 31,000 sq ft facility in Alameda, CA."
     }
   },
   {
