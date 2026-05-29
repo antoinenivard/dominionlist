@@ -35248,6 +35248,69 @@
     "capital_raised_display": "$3M"
   },
   {
+    "id": "solcoa-industries",
+    "name": "Solcoa Industries",
+    "website": "https://www.solcoaindustries.com",
+    "description": "American rare earth metals production. Converts scrap magnets and magnet waste directly into magnet-ready rare earth alloys (NdPr metal) with zero toxic waste and zero emissions, bypassing the conventional China-dependent supply chain.",
+    "hq_city": "Alameda",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Hooman Reza Nezhad",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/hooman-nezhad/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Solcoa. Thiel Fellow. University of Toronto; research at University of Waterloo on Mars in-situ resource utilization. Canadian secondary education.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto",
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-01-01",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": 100000000,
+        "valuation_display": "$100M",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [
+          "Felicis",
+          "Gigascale Capital",
+          "8090 Industries",
+          "Long Journey Ventures",
+          "1517 Fund"
+        ],
+        "source_urls": [
+          "https://www.solcoaindustries.com/"
+        ],
+        "notes": "Amount undisclosed; $100M valuation per secondary reporting."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": 100000000,
+      "valuation_display": "$100M",
+      "last_verified": "2026-05-29T10:00:00-08:00",
+      "notes": "Only CEO Hooman Reza Nezhad is Canadian (UofT/Waterloo). CTO Artem Iurkovskyi is Ukrainian-American (Worcester Polytechnic), not included. 31,000 sq ft facility in Alameda, CA."
+    }
+  },
+  {
     "id": "solomomo",
     "name": "Solomomo",
     "website": "https://www.solomomo.com",
