@@ -28482,6 +28482,62 @@
     "capital_raised_display": "$22M"
   },
   {
+    "id": "plena-health",
+    "name": "Plena Health",
+    "website": "https://www.plena.health",
+    "description": "AI operating system for specialty medical practices. Automates administrative workflows — referrals, fax intake, scheduling, procedure compliance, and collections — end to end across the systems a clinic already uses.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Healthcare",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "P'26",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Eyad Abdalla",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/eyadabd/",
+        "x_url": "https://x.com/eebadaeebada",
+        "bio": "Co-Founder & CEO of Plena. Doctor's son, engineer by trade. University of Waterloo, then Datadog and Shopify.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/plena-health"
+        ],
+        "notes": "Standard YC P'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-01T10:00:00-08:00",
+      "notes": "Eyad Abdalla (CEO) confirmed Canadian (Waterloo). Co-founder/CTO Ahmed Al Mudarris has a ca.linkedin profile but no verified Canadian institution; not included pending confirmation. Grew 17x in 10 months, 7-figure committed ARR across 6 specialties."
+    }
+  },
+  {
     "id": 309,
     "name": "Polarity Labs",
     "website": "https://www.polarity.so",
