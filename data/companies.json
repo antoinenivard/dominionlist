@@ -28508,6 +28508,19 @@
         "canadian_institutions": [
           "University of Waterloo"
         ]
+      },
+      {
+        "name": "Ahmed Al Mudarris",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://ca.linkedin.com/in/ahmed-al-mudarris-11a5381bb",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Plena. CS degree from McMaster University. Started at a nuclear engineering startup, then built tier-zero infrastructure at AWS. Doctor's son who took the MCAT before deciding to build for medicine.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McMaster University",
+        "canadian_institutions": [
+          "McMaster University"
+        ]
       }
     ],
     "funding_rounds": [
@@ -28534,7 +28547,7 @@
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-06-01T10:00:00-08:00",
-      "notes": "Eyad Abdalla (CEO) confirmed Canadian (Waterloo). Co-founder/CTO Ahmed Al Mudarris has a ca.linkedin profile but no verified Canadian institution; not included pending confirmation. Grew 17x in 10 months, 7-figure committed ARR across 6 specialties."
+      "notes": "Both founders Canadian: Eyad Abdalla (CEO, Waterloo) and Ahmed Al Mudarris (CTO, McMaster CS). Grew 17x in 10 months, 7-figure committed ARR across 6 specialties."
     }
   },
   {
