@@ -43124,8 +43124,8 @@
     "hq_country": "United States",
     "founding_year": 2010,
     "industry": "Consumer",
-    "stage": "Public",
-    "status": "Public",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "founders": [
       {
@@ -43261,18 +43261,19 @@
         "amount_display": ""
       },
       {
-        "amount_usd": null,
-        "date": "2026-04-30",
+        "date": "2024-04-19",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 173000000,
+        "valuation_display": "$173M",
         "lead_investors": [],
         "other_investors": [],
-        "valuation_usd": 216000000,
-        "valuation_display": "$216M",
-        "round": "Market Cap",
-        "amount_display": null,
-        "notes": "Market cap as of April 30, 2026",
         "source_urls": [
-          "https://finance.yahoo.com/quote/WISH"
-        ]
+          "https://www.sec.gov/Archives/edgar/data/0001822250/000095017024055714/wish-ex99_1.htm"
+        ],
+        "notes": "Wish marketplace assets sold to Qoo10 for ~$173M cash (~$161M after adjustments), closed Apr 19, 2024. Public shell continued as ContextLogic (LOGC), a different business.",
+        "acquirer": "Qoo10"
       }
     ],
     "metadata": {
@@ -43281,22 +43282,22 @@
         "https://www.crunchbase.com/organization/wish",
         "https://en.wikipedia.org/wiki/Wish_(company)"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-05-31T20:58:00-08:00",
       "import_notes": "",
-      "valuation_usd": 216000000,
-      "valuation_display": "$367M",
+      "valuation_usd": 173000000,
+      "valuation_display": "$173M",
       "valuation_source": "public_market_data",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-03-24",
+      "valuation_as_of": "2024-04-19",
       "valuation_source_url": "https://finance.yahoo.com/quote/WISH",
       "total_funding_display": "$1.9B",
-      "notes": ""
+      "notes": "Wish marketplace acquired by Qoo10 (Apr 2024, ~$173M). Founders Peter Szulczewski (Waterloo) & Danny Zhang. The public shell pivoted to ContextLogic (US Salt business); that entity is not tracked here."
     },
     "founder_display": "Peter Szulczewski",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "ticker": "WISH",
+    "ticker": "",
     "capital_raised_usd": 1370700000,
     "capital_raised_display": "$1.4B",
     "icon_url": ""
