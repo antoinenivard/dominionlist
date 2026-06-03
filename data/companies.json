@@ -25381,8 +25381,8 @@
       {
         "date": "2026",
         "round": "Seed",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
+        "amount_usd": 6000000,
+        "amount_display": "$6M",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
@@ -25392,11 +25392,11 @@
         "source_urls": [
           "https://skift.com/2026/06/02/after-sonders-collapse-francis-davidson-returns-with-an-ai-travel-agent/"
         ],
-        "notes": "Seed led by Sequoia; amount undisclosed. Team of 8 in SF."
+        "notes": "Seed led by Sequoia. Team of 8 in SF."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": 6000000,
+    "capital_raised_display": "$6M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
