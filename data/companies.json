@@ -25348,6 +25348,63 @@
     "capital_raised_display": "$132M"
   },
   {
+    "id": "odessia",
+    "name": "Odessia",
+    "website": "https://odessia.com",
+    "description": "AI travel agent. AI-powered trip planning and booking tool built on GPT-5.5 that integrates with major travel platforms for a personalized, visually rich planning experience. Commission-based model.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Francis Davidson",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/francisdavidson/",
+        "x_url": "https://x.com/francisdavidson",
+        "bio": "Founder & CEO of Odessia. Previously co-founded Sonder in Montreal at age 19 as 'Flatbook', grew it to a NASDAQ IPO ($1.9B valuation), stepped down June 2025. McGill University Honours Philosophy & Economics grad.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://skift.com/2026/06/02/after-sonders-collapse-francis-davidson-returns-with-an-ai-travel-agent/"
+        ],
+        "notes": "Seed led by Sequoia; amount undisclosed. Team of 8 in SF."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-02T10:00:00-08:00",
+      "notes": "Francis Davidson's second company after Sonder. Seeded by Sequoia."
+    }
+  },
+  {
     "id": 177,
     "name": "OffDeal",
     "website": "https://offdeal.io",
