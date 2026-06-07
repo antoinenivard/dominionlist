@@ -14094,6 +14094,65 @@
     "icon_url": ""
   },
   {
+    "id": "flourish-labs",
+    "name": "Flourish",
+    "website": "https://flourishlabs.ai",
+    "description": "Neuro-AI company building Cortex AI — a brain-inspired synthetic intelligence designed to match the human brain's power efficiency and continuous learning, running on ~50 watts. Combines AI researchers with neuroscientists doing original wet-lab connectomics research.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Rob Williams",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/robwilliamsamzn/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Flourish. University of Waterloo, Computer Engineering (1988). Previously VP of Device Software at Amazon (2013-2025) on the S-team, running Alexa, Echo, Fire, and Kindle software.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": 500000000,
+        "amount_display": "$500M",
+        "valuation_usd": 2500000000,
+        "valuation_display": "$2.5B",
+        "lead_investors": [
+          "Jeff Bezos"
+        ],
+        "other_investors": [
+          "Lux Capital",
+          "Google Ventures"
+        ],
+        "source_urls": [
+          "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/"
+        ],
+        "notes": "Inaugural raise. Bezos contributed ~$100M; round also included Lux Capital and GV."
+      }
+    ],
+    "capital_raised_usd": 500000000,
+    "capital_raised_display": "$500M",
+    "metadata": {
+      "valuation_usd": 2500000000,
+      "valuation_display": "$2.5B",
+      "last_verified": "2026-06-06T10:00:00-08:00",
+      "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos."
+    }
+  },
+  {
     "id": 306,
     "name": "Flowcast",
     "website": "https://www.flowcast.ai",
