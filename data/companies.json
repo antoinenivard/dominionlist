@@ -26198,6 +26198,76 @@
     }
   },
   {
+    "id": "orbital",
+    "name": "Orbital",
+    "website": "",
+    "description": "Space-based data centers for AI inference. Building satellites with GPU payloads that run compute in orbit, leveraging uninterrupted solar power and radiative cooling. Plans a constellation of 10,000 satellites for a distributed gigawatt of compute, with a first demo flight (an Nvidia Blackwell payload) ahead of a 2027 Pathfinder mission.",
+    "hq_city": "Los Angeles",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "Euwyn Poon",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/euwyn/",
+        "x_url": "https://twitter.com/euwyn",
+        "bio": "Founder & CEO of Orbital. Grew up in Vancouver from age 10. Previously co-founded Spin (e-scooters, acquired by Ford in 2018). Cornell BS/JD.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Euwyn_Poon",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "Vancouver, BC",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-06-09",
+        "round": "Pre-Seed",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "a16z Speedrun"
+        ],
+        "other_investors": [
+          "Basis Set Ventures",
+          "Human Element",
+          "Wayfinder",
+          "Antler",
+          "Anti Fund",
+          "Ascent",
+          "Rubik",
+          "Zero Knowledge Ventures",
+          "LYVC",
+          "Feld Ventures",
+          "New Legacy",
+          "FNDR",
+          "UpHonest",
+          "Asterisk"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/"
+        ],
+        "notes": "Oversubscribed $5M round; emerged from a16z Speedrun in May 2026."
+      }
+    ],
+    "capital_raised_usd": 5000000,
+    "capital_raised_display": "$5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-09T10:00:00-08:00",
+      "notes": "Founder Euwyn Poon (Vancouver, ex-Spin). ~12-person team in LA with experience from Amazon LEO, SpaceX, Northrop Grumman. Official website not yet identified."
+    }
+  },
+  {
     "id": 249,
     "name": "Orbiter",
     "website": "https://www.getorbiter.com/",
