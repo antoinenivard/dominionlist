@@ -15584,6 +15584,25 @@
           "https://www.prnewswire.com/news-releases/golden-analytics-debuts-with-7m-seed-funding-from-nea-and-madrona-to-build-ai-native-business-intelligence-302735519.html"
         ],
         "notes": "Emerged from stealth April 2026. NEA previously invested in Tableau."
+      },
+      {
+        "date": "2026-06-09",
+        "round": "Seed Extension",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Insight Partners"
+        ],
+        "other_investors": [
+          "NEA",
+          "Madrona"
+        ],
+        "source_urls": [
+          "https://www.geekwire.com/2026/golden-analytics-lands-14m-seed-extension-and-opens-ai-platform-to-public-beta/"
+        ],
+        "notes": "Brings total seed funding to $21M. Insight MD Ganesh Bell joins board. Public beta launched."
       }
     ],
     "metadata": {
@@ -15593,7 +15612,7 @@
         "https://www.geekwire.com/2026/former-tableau-product-chief-launches-golden-analytics-using-ai-to-challenge-the-bi-old-guard/",
         "https://www.linkedin.com/in/francoisajenstat/"
       ],
-      "last_verified": "2026-04-16T00:00:00Z",
+      "last_verified": "2026-06-09T16:50:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "$7M",
@@ -15602,8 +15621,8 @@
     "founder_display": "Francois Ajenstat",
     "institution_display": "University of Ottawa",
     "hq_display": "Seattle, WA",
-    "capital_raised_usd": 7000000,
-    "capital_raised_display": "$7M"
+    "capital_raised_usd": 21000000,
+    "capital_raised_display": "$21M"
   },
   {
     "id": 368,
@@ -26200,7 +26219,7 @@
   {
     "id": "orbital",
     "name": "Orbital",
-    "website": "",
+    "website": "https://orbital.inc",
     "description": "Space-based data centers for AI inference. Building satellites with GPU payloads that run compute in orbit, leveraging uninterrupted solar power and radiative cooling. Plans a constellation of 10,000 satellites for a distributed gigawatt of compute, with a first demo flight (an Nvidia Blackwell payload) ahead of a 2027 Pathfinder mission.",
     "hq_city": "Los Angeles",
     "hq_region": "CA",
@@ -26210,7 +26229,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://orbital.inc/favicon.ico",
     "founders": [
       {
         "name": "Euwyn Poon",
@@ -26264,7 +26283,7 @@
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-06-09T10:00:00-08:00",
-      "notes": "Founder Euwyn Poon (Vancouver, ex-Spin). ~12-person team in LA with experience from Amazon LEO, SpaceX, Northrop Grumman. Official website not yet identified."
+      "notes": "Founder Euwyn Poon (Vancouver, ex-Spin). ~12-person team in LA with experience from Amazon LEO, SpaceX, Northrop Grumman."
     }
   },
   {
