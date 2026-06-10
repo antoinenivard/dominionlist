@@ -38310,6 +38310,82 @@
     "icon_url": ""
   },
   {
+    "id": "swarm-technologies",
+    "name": "Swarm Technologies",
+    "website": "https://swarm.space",
+    "description": "Satellite IoT connectivity. Built a low-cost, low-power network of small satellites (SpaceBEEs) for two-way data communication with IoT and remote devices worldwide. Acquired by SpaceX in 2021.",
+    "hq_city": "Mountain View",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "founding_year": 2016,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/swarm.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Sara Spangelo",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/sara-spangelo-188a6a44/",
+        "x_url": "https://x.com/sara_spangelo",
+        "bio": "Co-Founder & CEO of Swarm Technologies (acquired by SpaceX, 2021). Born and raised in Winnipeg; mechanical engineering at the University of Manitoba, PhD at Michigan. Top-32 Canadian astronaut candidate (2017). Ex-Google X, NASA JPL. Later co-founded Ambrosia Energy.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Manitoba",
+        "canadian_city": "Winnipeg, MB",
+        "canadian_institutions": [
+          "University of Manitoba"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2019-01-23",
+        "round": "Series A",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Craft Ventures"
+        ],
+        "other_investors": [
+          "Social Capital",
+          "Pear VC"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Swarm_Technologies"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2021-11-03",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 524000000,
+        "valuation_display": "$524M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/Swarm_Technologies",
+          "https://techcrunch.com/2021/08/09/spacex-to-acquire-satellite-connectivity-startup-swarm-technologies/"
+        ],
+        "notes": "Acquired by SpaceX. $524M figure per reported/Wikipedia; SpaceX did not officially disclose terms.",
+        "acquirer": "SpaceX"
+      }
+    ],
+    "capital_raised_usd": 25000000,
+    "capital_raised_display": "$25M",
+    "metadata": {
+      "valuation_usd": 524000000,
+      "valuation_display": "$524M",
+      "last_verified": "2026-06-10T09:33:00-08:00",
+      "notes": "Acquired by SpaceX (announced Aug 2021, closed Nov 2021). Canadian co-founder Sara Spangelo (Winnipeg, U Manitoba); co-founder/CTO Ben Longmier (U Michigan) is American, not included. Both later co-founded Ambrosia Energy."
+    }
+  },
+  {
     "id": "sweep",
     "name": "Sweep",
     "website": "https://sweep.dev",
