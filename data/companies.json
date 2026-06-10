@@ -1514,6 +1514,63 @@
     }
   },
   {
+    "id": "ambrosia-energy",
+    "name": "Ambrosia Energy",
+    "website": "https://ambrosia.energy",
+    "description": "Vertically integrated solar + battery power plants supplying continuous off-grid renewable power at ~$100/MWh with 99.9% uptime. Builds plants in under 12 months using a proprietary 12x-faster solar install method, targeting gigawatt scale for data centers and industrial customers in West Texas.",
+    "hq_city": "Austin",
+    "hq_region": "TX",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/ambrosia.energy?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Sara Spangelo",
+        "role": "Co-Founder & President",
+        "linkedin": "https://www.linkedin.com/in/sara-spangelo-188a6a44/",
+        "x_url": "https://x.com/sara_spangelo",
+        "bio": "Co-Founder & President/COO of Ambrosia Energy. Born and raised in Winnipeg; mechanical engineering at the University of Manitoba, PhD at Michigan. Top-32 Canadian astronaut candidate (2017). Previously co-founded and was CEO of Swarm Technologies (acquired by SpaceX, 2021); ex-Google X, NASA JPL.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Manitoba",
+        "canadian_city": "Winnipeg, MB",
+        "canadian_institutions": [
+          "University of Manitoba"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "DFJ Growth"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2026/06/10/why-two-spacex-alumni-are-betting-on-solar-and-batteries-to-power-the-ai-craze/"
+        ],
+        "notes": "Initially self-funded by the founders; took an undisclosed investment from DFJ Growth."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-10T10:00:00-08:00",
+      "notes": "Canadian co-founder Sara Spangelo (Winnipeg, U Manitoba). CEO/co-founder Ben Longmier (U Michigan) is American, not included. Incorporated Dec 2025; pilot operating in West Texas. Both founders ex-Swarm Technologies / SpaceX Starlink."
+    }
+  },
+  {
     "id": "amigo",
     "name": "Amigo",
     "website": "https://www.amigo.ai",
