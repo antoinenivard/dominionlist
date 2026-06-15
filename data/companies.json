@@ -10221,6 +10221,81 @@
     "id": "411"
   },
   {
+    "id": "daydream-seo",
+    "name": "Daydream",
+    "website": "https://www.withdaydream.com",
+    "description": "AI-native agency for SEO and AEO. Uses AI agents to automate end-to-end programmatic SEO — content strategy, production, and optimization — for high-intent organic growth.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/withdaydream.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Thenuka Karunaratne",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/thenuka/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Daydream. B.Comm in Finance from the University of British Columbia (2015-2019). Previously bootstrapped Flixed, a programmatic-SEO streaming search business.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-11",
+        "round": "Pre-Seed",
+        "amount_usd": 2500000,
+        "amount_display": "$2.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "First Round Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.linkedin.com/posts/thenuka_announcing-our-25m-pre-seed-activity-7140038969924255744-SEFR"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2026",
+        "round": "Series A",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "WndrCo"
+        ],
+        "other_investors": [
+          "First Round Capital",
+          "Basis Set Ventures"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/daydream-raises-15m-series-a-to-build-the-worlds-best-ai-native-agency-for-seo-302732302.html"
+        ],
+        "notes": "Brings total funding to $21M."
+      }
+    ],
+    "capital_raised_usd": 21000000,
+    "capital_raised_display": "$21M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-10T09:33:00-08:00",
+      "notes": "Canadian co-founder Thenuka Karunaratne (CEO, UBC). Co-founder/CTO Shravan Rajinikanth not verified Canadian. Total raised $21M across pre-seed, seed, and Series A."
+    }
+  },
+  {
     "id": "de-ice",
     "name": "De-Ice",
     "website": "https://www.deice.com",
