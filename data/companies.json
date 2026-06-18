@@ -17106,6 +17106,95 @@
     "capital_raised_display": "$500K"
   },
   {
+    "id": "heymilo",
+    "name": "HeyMilo",
+    "website": "https://www.heymilo.ai",
+    "description": "AI recruiter for high-volume hiring. Generative-AI voice and video agents that source, pre-screen, and interview candidates end-to-end, with cheat detection and analytics, integrated into existing ATS/recruiting stacks.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/heymilo.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Sabashan Ragavan",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/sabashanragavan/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of HeyMilo. University of Waterloo. Previously held roles at Instagram, Microsoft, and Salesforce; earlier co-founded a job-referral startup with Ramie Raufdeen.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Ramie Raufdeen",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/ramieraufdeen/",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of HeyMilo. University of Waterloo. Previously held engineering roles at major tech companies; earlier co-founded a job-referral startup with Sabashan Ragavan.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 2200000,
+        "amount_display": "$2.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "ERA"
+        ],
+        "source_urls": [
+          "https://www.heymilo.ai/blog/heymilo-secures-2-2-million-to-interview-and-evaluate-candidates-at-scale-with-ai-agents"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2026-06",
+        "round": "Seed Extension",
+        "amount_usd": 3800000,
+        "amount_display": "$3.8M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Category Ventures"
+        ],
+        "other_investors": [
+          "Canaan Partners",
+          "Alumni Ventures",
+          "ERA"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/heymilo-ai-raises-additional-capital-and-expands-ai-recruiting-agents-302800456.html"
+        ],
+        "notes": "Brings total funding to $6M."
+      }
+    ],
+    "capital_raised_usd": 6000000,
+    "capital_raised_display": "$6M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-11T10:00:00-08:00",
+      "notes": "Both co-founders Canadian (University of Waterloo). Legal entity Redsnack Technologies. $6M total raised; >1M candidates screened in production."
+    }
+  },
+  {
     "id": 341,
     "name": "Hiddenweights",
     "website": "https://www.hiddenweights.com",
@@ -29710,6 +29799,45 @@
     "capital_raised_usd": 13920000,
     "capital_raised_display": "$13.9M",
     "icon_url": ""
+  },
+  {
+    "id": "protobloc",
+    "name": "Protobloc",
+    "website": "https://protobloc.com",
+    "description": "Cryptographic trust layer for professional identity. Lets individuals cultivate a portable, provable professional identity over time, with peers attesting to what is real.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/protobloc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Matt Connors",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/conrs/",
+        "x_url": "",
+        "bio": "Founder of Protobloc. B.Sc. in Computer Science from the University of Manitoba (2007-2012). Previously Senior Principal Engineer at Truepill; shipped Credit Karma Savings and built platform infrastructure at LiveRamp.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Manitoba",
+        "canadian_institutions": [
+          "University of Manitoba"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-11T10:00:00-08:00",
+      "notes": "Canadian founder Matt Connors (University of Manitoba). Co-founder Erik Juhl appears Danish, not included. Early stage — waitlist, no announced funding yet."
+    }
   },
   {
     "id": "protocole",
