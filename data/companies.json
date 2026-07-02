@@ -43269,6 +43269,64 @@
     "icon_url": ""
   },
   {
+    "id": "weave-dev",
+    "name": "Weave",
+    "website": "https://workweave.dev",
+    "description": "Engineering intelligence platform for the AI era. Combines LLMs and domain-specific ML to normalize engineering work into a single unit and attribute human vs. AI contributions across every PR, review, and deploy — measuring output, code quality, and AI ROI.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Developer Tools",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "W'25",
+    "icon_url": "https://img.logo.dev/workweave.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Adam Cohen",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/adam-b-cohen/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Weave. Grew up in Toronto (North York), Ontario. Previously ran sales and customer success at Causal, where he met co-founder Andrew Churchill.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "Toronto, ON",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 4200000,
+        "amount_display": "$4.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Moonfire Ventures"
+        ],
+        "other_investors": [
+          "Burst Capital",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/weave-3"
+        ],
+        "notes": "YC W25."
+      }
+    ],
+    "capital_raised_usd": 4200000,
+    "capital_raised_display": "$4.2M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-17T19:43:00-08:00",
+      "notes": "Canadian co-founder Adam Cohen (CEO, raised in Toronto). Co-founder/CTO Andrew Churchill (MIT) is American, not included."
+    }
+  },
+  {
     "id": 230,
     "name": "Whisper AI",
     "website": "https://whisper.ai",
