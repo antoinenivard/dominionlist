@@ -16854,6 +16854,66 @@
     "capital_raised_display": "$3.8M"
   },
   {
+    "id": "hardline",
+    "name": "Hardline",
+    "website": "https://www.hardlineapp.com",
+    "description": "AI voice tool (VoiceOps) for construction. Turns phone calls, site walks, and meetings into daily logs, RFIs, tasks, punch lists, and meeting minutes automatically, with no training. Syncs with Procore, Autodesk, and Fieldwire.",
+    "hq_city": "Santa Monica",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/hardlineapp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Karly Heffernan",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://ca.linkedin.com/in/karly-lynn-heffernan",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Hardline. From Alberta, Canada; played for Team Canada (won back-to-back IIHF U18 World Championships). Harvard '19 (womens ice hockey). Forbes 30 Under 30 (Manufacturing & Industry). Grew up around a family construction business.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "Sherwood Park, AB",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-05-17",
+        "round": "Pre-Seed",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Mucker Capital"
+        ],
+        "other_investors": [
+          "StandUp Ventures",
+          "Suffolk Technologies",
+          "Alumni Ventures",
+          "Nirman.VC"
+        ],
+        "source_urls": [
+          "https://www.finsmes.com/2026/05/hardline-raises-2m-pre-seed-funding.html"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 2000000,
+    "capital_raised_display": "$2M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-06-17T19:43:00-08:00",
+      "notes": "Canadian co-founder Karly Heffernan (CEO, from Alberta; Team Canada hockey). Co-founder Alena Tuttle (Brigham Young University) is American, not included."
+    }
+  },
+  {
     "id": 202,
     "name": "Hedgehog",
     "website": "https://hedgehogfoods.com",
