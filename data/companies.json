@@ -14793,15 +14793,29 @@
     "founding_year": 2026,
     "yc_batch": "",
     "icon_url": "https://img.logo.dev/fractalresearch.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
-    "founders": [],
+    "founders": [
+      {
+        "name": "Zachary Yu",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/zacharyyu/",
+        "x_url": "",
+        "bio": "Founder & CEO of Fractal Machine Research. University of Waterloo (Honours Computer Science + Co-op, on leave). YC alum. Previously co-founded Traverse (YC W26, selling RL environments to frontier labs), SWE at Mercor, and a founding engineer working on long-horizon agent memory.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
     "funding_rounds": [],
     "capital_raised_usd": 0,
     "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-06-17T19:43:00-08:00",
-      "notes": "Team of researchers and repeat founders. Canadian founder to be confirmed and added. Stealth, incorporated 2026 in SF."
+      "last_verified": "2026-06-18T10:00:00-08:00",
+      "notes": "Founder Zachary Yu (University of Waterloo). Repeat founder (ex-Traverse YC W26, Mercor). Stealth, incorporated 2026 in SF."
     }
   },
   {
