@@ -25946,7 +25946,7 @@
     "hq_country": "US",
     "founding_year": 2023,
     "industry": "AI",
-    "stage": "Seed",
+    "stage": "Series B",
     "status": "Active",
     "yc_batch": "W'21",
     "icon_url": "",
@@ -25982,6 +25982,46 @@
           "https://www.crunchbase.com/organization/ollama"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025",
+        "round": "Series A",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Benchmark"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        ],
+        "notes": "Led by Peter Fenton (Benchmark), who joined the board."
+      },
+      {
+        "date": "2026-07-09",
+        "round": "Series B",
+        "amount_usd": 65000000,
+        "amount_display": "$65M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Theory Ventures"
+        ],
+        "other_investors": [
+          "Benchmark",
+          "8VC",
+          "Y Combinator",
+          "Pace Capital",
+          "49 Palms",
+          "GTMFund"
+        ],
+        "source_urls": [
+          "https://www.finsmes.com/2026/07/ollama-raises-65m-in-series-b-funding.html",
+          "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/"
+        ],
+        "notes": "Brings total raised to $88M. 8.9M monthly developers, in 85% of the Fortune 500, 14 employees."
       }
     ],
     "metadata": {
@@ -25996,12 +26036,12 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$625K",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": "Palo Alto. Founders Jeffrey Morgan & Michael Chiang (Waterloo). Total $88M raised (Series A $15M Benchmark, Series B $65M Theory Ventures + early/undisclosed rounds). Valuation not disclosed."
     },
     "institution_display": "University of Waterloo",
-    "capital_raised_usd": 625000,
-    "capital_raised_display": "$625K"
+    "capital_raised_usd": 88000000,
+    "capital_raised_display": "$88M"
   },
   {
     "id": "onc-ai",
