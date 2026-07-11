@@ -25952,6 +25952,19 @@
     "icon_url": "",
     "founders": [
       {
+        "name": "Jeffrey Morgan",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://ca.linkedin.com/in/jmorganca",
+        "x_url": "https://x.com/jmorgan",
+        "bio": "Co-Founder & CEO of Ollama. University of Waterloo (B.Software Engineering, 2008-2013). Previously co-founded Kitematic (acquired by Docker in 2015); ex-Docker, Twitter, Google.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
         "name": "Michael Chiang",
         "linkedin": "https://www.linkedin.com/in/mchiang0610",
         "wikipedia_url": "",
