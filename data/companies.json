@@ -11342,6 +11342,60 @@
     "id": "418"
   },
   {
+    "id": "donkey",
+    "name": "Donkey",
+    "website": "https://donkey.trade",
+    "description": "AI-native trading company. Buys factory-direct from Chinese manufacturers and sells delivered to US importers at one duty-paid price, using public customs data and on-the-ground inspectors to cut out trading-company markups.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/donkey.trade?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Benjamin Martindale",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/benjamin-martindale",
+        "x_url": "",
+        "bio": "Co-Founder of Donkey. Finance at Rotman Commerce, University of Toronto. Previously founded Prelude OS (China factory sourcing) and ran a Toronto marketing company. Fluent Mandarin.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
+  },
+  {
     "id": 352,
     "name": "Double Dusk",
     "website": "",
@@ -15707,6 +15761,60 @@
     "capital_raised_display": "$754.3M"
   },
   {
+    "id": "glen",
+    "name": "Glen",
+    "website": "https://www.tryglen.com",
+    "description": "Unified organizational context for AI agents and humans. Reads from where work lives — code, PRs, issues, docs, meetings — reconciles it, and gives agents the full picture, then distills work into reusable skills.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/tryglen.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Nikos Dritsakos",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/nikos-dritsakos",
+        "x_url": "",
+        "bio": "Founder of Glen. CS from Brock University (Ontario). Previously bootstrapped SalesBop to a $500K acquisition; VP of Technology at FliteHouse.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Brock University",
+        "canadian_institutions": [
+          "Brock University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
+  },
+  {
     "id": 375,
     "name": "Golden Analytics",
     "website": "https://goldenanalytics.com",
@@ -17467,6 +17575,60 @@
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "",
+      "notes": ""
+    }
+  },
+  {
+    "id": "hiloop",
+    "name": "hiloop",
+    "website": "https://hiloop.ai",
+    "description": "Infrastructure for recursive self-improvement. Runs autoresearch campaigns across data, post-training, continual learning, prompts, tools, and harnesses to return the best verified improvement for a given model or agent, hosted or in your cloud.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/hiloop.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Karan Brar",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/brarkaran/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of hiloop. University of Toronto (HBSc, CS & Math). Previously ML at Reducto, Head of ML Infra at DynamoAI, and at BMO.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
       "notes": ""
     }
   },
@@ -22983,6 +23145,60 @@
     "capital_raised_display": "$67M"
   },
   {
+    "id": "mireye",
+    "name": "Mireye",
+    "website": "https://www.mireye.com",
+    "description": "Infrastructure for physical-world AI agents. One API and MCP that connect agents to accurate real-world data — land, utilities, census, policy, risk — across 300+ fields, so agents can screen sites, underwrite property, and act in the physical world.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/mireye.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Ansh Chokshi",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/ansh-chokshi",
+        "x_url": "",
+        "bio": "Founder & CEO of Mireye. University of Toronto (CS, Math & Economics). Previously led AI/ML engineering at Seismic; earlier co-founded and sold Poker Pit.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
+  },
+  {
     "id": 223,
     "name": "Mobot",
     "website": "https://www.mobot.io",
@@ -25873,6 +26089,60 @@
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 5200000,
     "capital_raised_display": "$5.2M"
+  },
+  {
+    "id": "olam-labs",
+    "name": "Olam Labs",
+    "website": "https://olamlabs.ai",
+    "description": "Multi-agent simulations for AI model evals and training. Runs Multi-Agent Arena, where humans compete against frontier models in social strategy games, generating datasets and benchmarks on agentic performance.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/olamlabs.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Shreshth Sharma",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/shreshth-sharma",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Olam Labs. CS and Business double degree at the University of Waterloo (dropped out for YC). Previously a Data Scientist at RBC.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
   },
   {
     "id": 353,
@@ -37756,6 +38026,60 @@
     "capital_raised_display": ""
   },
   {
+    "id": "stoa",
+    "name": "Stoa",
+    "website": "https://www.stoaexchange.com",
+    "description": "Pricing and trading infrastructure for AI hardware. An RFQ marketplace where companies buy and sell GPUs through vetted dealers in real time, building settled-trade price history the market can mark, finance, and hedge against.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/stoaexchange.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Berat Celik",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/berat-celik",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Stoa. UBC (computer science and economics); Cornell M.Eng. Repeat founder who left xAI to build Stoa.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
+  },
+  {
     "name": "Stonn",
     "website": "https://stonn.ai",
     "description": "Construction progress monitoring platform. 360-degree snapshots tied to floor plans with AI-powered documentation for tracking construction progress remotely.",
@@ -37944,6 +38268,60 @@
       "notes": ""
     },
     "id": "415"
+  },
+  {
+    "id": "stratum-industries",
+    "name": "Stratum Industries",
+    "website": "https://stratumindustries.co",
+    "description": "AI agents that clear the US government adjudication backlog. A reviewer drops in a permit, license, patent, drug approval, or benefits claim, selects a rubric, and agents plan, execute, and review the file end-to-end with a human in the loop.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/stratumindustries.co?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Vihaan Jagiasi",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/vihaan-jagiasi",
+        "x_url": "",
+        "bio": "Co-Founder of Stratum Industries. Dropped out of the University of Waterloo to build Stratum; previously founding engineer #3 at Cadastral (acquired by Legora).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
   },
   {
     "id": 241,
@@ -41760,6 +42138,130 @@
     "capital_raised_usd": 2500000,
     "capital_raised_display": "$2.5M",
     "icon_url": ""
+  },
+  {
+    "id": "trident-security",
+    "name": "Trident",
+    "website": "https://tridentsecurity.io",
+    "description": "Continuous agentic AI pentester. Chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs, and returns fixes.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/tridentsecurity.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Junaid Mahmood",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/junaidmahmood-/",
+        "x_url": "",
+        "bio": "Co-Founder of Trident. From Toronto; studied CS at the University of Waterloo. Previously at Wealthsimple and Tesla.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
+  },
+  {
+    "id": "trope",
+    "name": "Trope",
+    "website": "https://trope.ai",
+    "description": "AI-native ERP system integrator. Deploys AI agents for fixed-fee ERP implementation that keep running and improving core business operations after go-live, replacing months of hourly consulting work.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/trope.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Matthew Chow",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/matthew-chow",
+        "x_url": "",
+        "bio": "Co-Founder of Trope. Grew up in Vancouver; UBC computer engineering. Built manufacturing software at Generac, Zipline, Schneider Electric.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      },
+      {
+        "name": "Victor Vannara",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/victor-vannara",
+        "x_url": "",
+        "bio": "Co-Founder of Trope. Grew up in Vancouver; UBC computer science. Deployed AI agents for operations at Amazon.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-07-09T12:00:00-08:00",
+      "notes": ""
+    }
   },
   {
     "id": "truelynk",
