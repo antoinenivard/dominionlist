@@ -834,6 +834,7 @@ async function loadData() {
   });
 
   buildFilters();
+  readFiltersFromUrl();
   applyFilters();
 
   /* Deep link */
@@ -1508,6 +1509,62 @@ function applyFilters() {
   computeAndRenderFilters();
 
   render();
+  writeFiltersToUrl();
+}
+
+/* ═══ Shareable filter URLs ═══ */
+/* activeFilters key -> URL param name (friendly), and the reverse */
+const FILTER_URL_KEYS = { institution: 'school', industry: 'sector', city: 'location', year: 'year', stage: 'stage', batch: 'batch', connection: 'connection' };
+const URL_FILTER_KEYS = { school: 'institution', sector: 'industry', location: 'city', year: 'year', stage: 'stage', batch: 'batch', connection: 'connection' };
+const CONNECTION_CANON = { education: 'Education', birthplace: 'Birthplace', citizenship: 'Citizenship' };
+
+/* Resolve a school value from the URL (short label, alias, or canonical, case-insensitive) to its canonical institution name */
+let _instResolver = null;
+function resolveInstitution(v) {
+  if (!_instResolver) {
+    _instResolver = {};
+    const add = (k, canon) => { if (k) _instResolver[String(k).toLowerCase()] = canon; };
+    companies.forEach(c => (c.founders || []).forEach(f => {
+      if (f.canadianInstitution) { const canon = normalizeInstitution(f.canadianInstitution); add(canon, canon); }
+    }));
+    Object.keys(INSTITUTION_ALIASES).forEach(a => add(a, INSTITUTION_ALIASES[a]));
+    Object.keys(INSTITUTION_SHORT_LABELS).forEach(canon => add(INSTITUTION_SHORT_LABELS[canon], canon));
+  }
+  return _instResolver[String(v).toLowerCase()] || v;
+}
+
+/* Serialize current filters + search into the URL (no history spam — replaceState). Preserves ?company= */
+function writeFiltersToUrl() {
+  const url = new URL(window.location);
+  const p = url.searchParams;
+  ['q', 'school', 'sector', 'location', 'year', 'stage', 'batch', 'connection'].forEach(k => p.delete(k));
+  const q = (document.getElementById('searchBox').value || '').trim();
+  if (q) p.set('q', q);
+  Object.keys(activeFilters).forEach(key => {
+    const pk = FILTER_URL_KEYS[key];
+    if (!pk) return;
+    activeFilters[key].forEach(v => {
+      const out = (key === 'institution') ? (INSTITUTION_SHORT_LABELS[v] || v) : v;
+      p.append(pk, out);
+    });
+  });
+  history.replaceState(null, '', url);
+}
+
+/* Read filters + search from the URL and populate activeFilters (called once on load, before applyFilters) */
+function readFiltersFromUrl() {
+  const p = new URLSearchParams(window.location.search);
+  const q = p.get('q');
+  if (q) document.getElementById('searchBox').value = q;
+  Object.keys(URL_FILTER_KEYS).forEach(pk => {
+    const key = URL_FILTER_KEYS[pk];
+    p.getAll(pk).forEach(v => {
+      let val = v;
+      if (key === 'institution') val = resolveInstitution(v);
+      else if (key === 'connection') val = CONNECTION_CANON[String(v).toLowerCase()] || v;
+      activeFilters[key].add(val);
+    });
+  });
 }
 
 /* ═══ Sort ═══ */
