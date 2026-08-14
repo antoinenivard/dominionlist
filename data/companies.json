@@ -31239,15 +31239,15 @@
     "id": "recall-ai",
     "name": "Recall.ai",
     "website": "https://www.recall.ai",
-    "description": "Universal API for meeting bots and conversation data. Lets developers capture recordings, transcripts, and metadata from any video platform (Zoom, Google Meet, Microsoft Teams, Slack Huddles, and more) through a single integration.",
+    "description": "Universal API for meeting bots and conversation data. Lets developers capture recordings, transcripts, and metadata from any video platform (Zoom, Google Meet, Microsoft Teams, Slack Huddles, and more) through a single integration. Founded in 2020 as Perfect Recall (perfectrecall.app), rebranded to Recall.ai in 2022.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "Enterprise",
     "stage": "Series B",
     "status": "Active",
-    "founding_year": 2022,
-    "yc_batch": "W'22",
+    "founding_year": 2020,
+    "yc_batch": "W'20",
     "icon_url": "https://img.logo.dev/recall.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
@@ -31279,7 +31279,7 @@
     ],
     "funding_rounds": [
       {
-        "date": "2022",
+        "date": "2020",
         "round": "Seed",
         "amount_usd": 3000000,
         "amount_display": "$3M",
@@ -31290,7 +31290,7 @@
         ],
         "other_investors": [],
         "source_urls": [],
-        "notes": "YC W22."
+        "notes": "YC W20 (as Perfect Recall)."
       },
       {
         "date": "2024-05-16",
@@ -31334,7 +31334,7 @@
       "valuation_usd": 250000000,
       "valuation_display": "$250M",
       "last_verified": "2026-08-13T11:10:00-08:00",
-      "notes": "Both co-founders University of Waterloo (David Gu, Amanda Zhu). 1,000+ AI developers on the platform."
+      "notes": "Both co-founders University of Waterloo (David Gu, Amanda Zhu). Founded 2020 as Perfect Recall (YC W20); rebranded to Recall.ai in Feb 2022."
     }
   },
   {
