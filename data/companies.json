@@ -3684,6 +3684,64 @@
     "icon_url": ""
   },
   {
+    "id": "automax",
+    "name": "Automax",
+    "website": "https://automax.ai",
+    "description": "AI-native real-estate appraisal. A mobile app uses LiDAR and computer vision to capture 150+ property attributes, and AI agents generate a Fannie Mae/Freddie Mac-compliant appraisal report (signed by a licensed appraiser) in under 20 minutes.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "F'25",
+    "icon_url": "https://img.logo.dev/automax.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Humza Ahmed",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/h4ahmed/",
+        "x_url": "",
+        "bio": "Founder & CEO of Automax. University of Waterloo (Software Engineering, dropped out; Velocity incubator). Third-generation appraiser; ex-ML researcher at Huawei.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Bessemer Venture Partners",
+          "Afore Capital",
+          "Pioneer Fund"
+        ],
+        "source_urls": [],
+        "notes": "Amount aggregator-sourced; unconfirmed."
+      }
+    ],
+    "capital_raised_usd": 4000000,
+    "capital_raised_display": "$4M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Founder Humza Ahmed (Waterloo). YC F25. AI real-estate appraisal."
+    }
+  },
+  {
     "id": 335,
     "name": "Autonomic",
     "website": "https://autonomic.ai",
@@ -6869,6 +6927,63 @@
     "institution_display": "University of Saskatchewan",
     "capital_raised_usd": 3700000,
     "capital_raised_display": "$3.7M"
+  },
+  {
+    "id": "careforce",
+    "name": "Careforce",
+    "website": "https://careforce.ai",
+    "description": "Autonomous AI workers for healthcare organizations. Agents find, call, text, and schedule patients across EMR, scheduling, and payer portals without integrations. Legal entity Helpcare AI.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "F'24",
+    "icon_url": "https://img.logo.dev/careforce.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Huzaifa Sial",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/hsial/",
+        "x_url": "",
+        "bio": "Founder & CEO of Careforce (Helpcare AI). Wilfrid Laurier University and University of Waterloo (both Waterloo, ON); Northwestern master’s. Previously AI lead at UnitedHealth/Optum.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Wilfrid Laurier University",
+        "canadian_institutions": [
+          "Wilfrid Laurier University",
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 2680000,
+        "amount_display": "$2.68M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "CRV"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; round labeled Pre-Seed (Crunchbase) / Seed (Tracxn)."
+      }
+    ],
+    "capital_raised_usd": 2680000,
+    "capital_raised_display": "$2.68M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Founder Huzaifa Sial (Wilfrid Laurier/Waterloo). Co-founder Ayush Tomar (Minnesota, departed) not Canadian."
+    }
   },
   {
     "id": 250,
@@ -10574,6 +10689,73 @@
     "capital_raised_usd": 5500000,
     "capital_raised_display": "$5.5M",
     "icon_url": ""
+  },
+  {
+    "id": "definite-ai",
+    "name": "Definite",
+    "website": "https://usedefinite.com",
+    "description": "AI agents that automate back-office finance and regulatory reporting for banks. Plugs read-only into ERP, ledger, payroll, and payments systems to build one live model of the books.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/usedefinite.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Gurshabd Singh Varaich",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/gvaraich/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Definite. Computer Science, University of Waterloo. Previously interned at BitGo.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Farhan Ur Rehman",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/farhan-ur-rehman/",
+        "x_url": "",
+        "bio": "Co-Founder of Definite. Statistics, University of Waterloo. Previously a software engineer at Meta.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC S'26 deal"
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Founders met in first-year CS at Waterloo. Third co-founder Mazin Al-Ani (also Waterloo CS) not yet listed."
+    }
   },
   {
     "id": 336,
@@ -17239,78 +17421,6 @@
       "notes": ""
     },
     "id": "443"
-  },
-  {
-    "id": 308,
-    "name": "Hex Security",
-    "website": "https://hex.co",
-    "description": "AI agents that run continuous penetration tests against apps and infrastructure to find and verify critical vulnerabilities.",
-    "hq_city": "San Francisco",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2026,
-    "industry": "Enterprise",
-    "stage": "Seed",
-    "status": "Active",
-    "yc_batch": "W'26",
-    "icon_url": "https://framerusercontent.com/images/TCF58l5HG1nqjAx6LM8GxnqWPQU.png",
-    "founders": [
-      {
-        "id": "ahmad-khan-hex",
-        "name": "Ahmad Khan",
-        "linkedin": "https://www.linkedin.com/in/ahmad-khan-b6584b225",
-        "role": "Co-Founder",
-        "bio": "Co-founder of Hex Security (formerly Anytool). University of Waterloo (Math). Previously built robots researching World Models.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Waterloo",
-        "canadian_city": "Waterloo, ON",
-        "canadian_institutions": [
-          "University of Waterloo"
-        ],
-        "wikipedia_url": "",
-        "x_url": ""
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2026-01",
-        "round": "Seed",
-        "amount_usd": 500000,
-        "amount_display": "$500K",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Y Combinator"
-        ],
-        "other_investors": [
-          "Y Combinator"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/hex-security"
-        ],
-        "notes": ""
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://hex.co",
-        "https://www.ycombinator.com/companies/hex-security",
-        "https://www.ycombinator.com/companies/anytool"
-      ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "$500K",
-      "last_verified": "2026-04-02T00:00:00Z",
-      "notes": ""
-    },
-    "institution_display": "University of Waterloo",
-    "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K"
   },
   {
     "id": "heymilo",
@@ -27787,6 +27897,78 @@
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
+  },
+  {
+    "id": 308,
+    "name": "Parameter",
+    "website": "https://parameter.ai",
+    "description": "Agentic offensive security. AI agents run continuous 24/7 penetration tests against apps and infrastructure to find and verify critical vulnerabilities before attackers do. Formerly Hex Security (and earlier Anytool).",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2026,
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Active",
+    "yc_batch": "W'26",
+    "icon_url": "https://img.logo.dev/parameter.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "id": "ahmad-khan-hex",
+        "name": "Ahmad Khan",
+        "linkedin": "https://www.linkedin.com/in/ahmad-khan-b6584b225",
+        "role": "Co-Founder",
+        "bio": "Co-founder of Hex Security (formerly Anytool). University of Waterloo (Math). Previously built robots researching World Models.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "Waterloo, ON",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "wikipedia_url": "",
+        "x_url": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-01",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://www.crunchbase.com/organization/hex-security"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://hex.co",
+        "https://www.ycombinator.com/companies/hex-security",
+        "https://www.ycombinator.com/companies/anytool"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "$500K",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Renamed from Hex Security to Parameter (YC page: \"Parameter (fka Hex Security)\"). Canadian co-founder Ahmad Khan (Waterloo). Other co-founders Prama Yudhistira (Georgia Tech) and Huzaifa Ahmad are not Canadian."
+    },
+    "institution_display": "University of Waterloo",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K"
   },
   {
     "id": 180,
