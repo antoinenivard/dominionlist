@@ -7306,8 +7306,8 @@
     "hq_country": "US",
     "founding_year": 2018,
     "industry": "Enterprise",
-    "stage": "Series B",
-    "status": "Active",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "icon_url": "",
     "founders": [
@@ -7377,6 +7377,21 @@
           "https://www.techtarget.com/searchdatamanagement/news/252513213/Reverse-ETL-vendor-Census-raises-60M"
         ],
         "notes": "Acquired by Fivetran May 2025"
+      },
+      {
+        "date": "2025-05-01",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2025/05/01/fivetran-acquires-census-to-become-end-to-end-data-movement-platform/"
+        ],
+        "notes": "Terms undisclosed. getcensus.com now redirects to fivetran.com.",
+        "acquirer": "Fivetran"
       }
     ],
     "metadata": {
@@ -7393,7 +7408,7 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$80M",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": ""
     },
     "institution_display": "University of Waterloo",
@@ -8538,6 +8553,22 @@
           "https://techcrunch.com/2025/08/05/clay-confirms-it-closed-100m-round-at-3-1b-valuation/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-01-28",
+        "round": "Secondary",
+        "amount_usd": 55000000,
+        "amount_display": "$55M",
+        "valuation_usd": 5000000000,
+        "valuation_display": "$5B",
+        "lead_investors": [
+          "DST Global"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.clay.com/blog/tender-offer-2026"
+        ],
+        "notes": "Employee tender offer — secondary, not primary capital."
       }
     ],
     "metadata": {
@@ -8546,10 +8577,10 @@
         "https://www.builtinnyc.com/articles/clay-raises-46m-in-series-b-20240628",
         "https://techcrunch.com/2024/04/24/clay-is-building-an-ai-powered-contacts-management-tool/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 3100000000,
-      "valuation_display": "$3.1B",
+      "valuation_usd": 5000000000,
+      "valuation_display": "$5B",
       "valuation_source": "Series B 2024",
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
@@ -9596,8 +9627,8 @@
     "hq_country": "US",
     "founding_year": 2016,
     "industry": "Fintech",
-    "stage": "Series B",
-    "status": "Active",
+    "stage": "Inactive",
+    "status": "Inactive",
     "yc_batch": "W'16",
     "icon_url": "https://img.logo.dev/cover.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
@@ -9683,8 +9714,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$72M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "YC lists Cover (W16) as Inactive; cover.com now operated by an unrelated entity. Founder Karn Saroya now CEO of Re."
     },
     "institution_display": "Queen's University, University of Toronto",
     "capital_raised_usd": 61600000,
@@ -14481,9 +14512,9 @@
   },
   {
     "id": 193,
-    "name": "Flatfile",
-    "website": "https://flatfile.com",
-    "description": "AI-powered data onboarding platform, rebranding to Obvious with AI agent products.",
+    "name": "Obvious",
+    "website": "https://obvious.ai",
+    "description": "Data onboarding and file-import infrastructure. Formerly Flatfile (retained as the product name).",
     "hq_city": "Denver",
     "hq_region": "CO",
     "hq_country": "US",
@@ -14559,8 +14590,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$87M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Renamed from Flatfile to Obvious (obvious.ai)."
     },
     "institution_display": "",
     "capital_raised_usd": 85000000,
@@ -14905,7 +14936,7 @@
     "hq_region": "IL",
     "hq_country": "US",
     "industry": "Enterprise",
-    "stage": "Series C",
+    "stage": "Series D",
     "status": "Active",
     "founding_year": 2017,
     "yc_batch": "W'20",
@@ -14991,14 +15022,31 @@
         ],
         "source_urls": [],
         "notes": ""
+      },
+      {
+        "date": "2026-08-03",
+        "round": "Series D",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Dell Technologies Capital",
+          "Intel Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.finsmes.com/2026/08/fly-io-raises-25m-in-series-d-funding.html"
+        ],
+        "notes": "New CEO Scott Johnston (ex-Docker)."
       }
     ],
-    "capital_raised_usd": 110500000,
-    "capital_raised_display": "$110.5M",
+    "capital_raised_usd": 135500000,
+    "capital_raised_display": "$135.5M",
     "metadata": {
       "valuation_usd": 467000000,
       "valuation_display": "$467M",
-      "last_verified": "2026-05-14T00:00:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Global app hosting platform (YC W'20). Other co-founders (non-Canadian): Kurt Mackey (CEO, Chicago), Michael Dwan (Colorado), Thomas Ptacek (Chicago, security researcher, prev. Matasano Security/NCC Group). Jérôme Gravel-Niquet is CTO and the Canadian founder, based in Montreal."
     }
   },
@@ -19866,7 +19914,7 @@
     "hq_country": "United States",
     "founding_year": 2024,
     "industry": "Enterprise",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -19899,11 +19947,29 @@
           "https://www.crunchbase.com/organization/kai-cyber"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-03-10",
+        "round": "Series A",
+        "amount_usd": 125000000,
+        "amount_display": "$125M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Evolution Equity Partners"
+        ],
+        "other_investors": [
+          "N47"
+        ],
+        "source_urls": [
+          "https://www.securityweek.com/kai-emerges-from-stealth-with-125m-in-funding-for-ai-platform-bridging-it-and-ot-security/"
+        ],
+        "notes": "Combined seed + Series A at emergence from stealth."
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": null,
       "valuation_display": "",
@@ -20612,6 +20678,22 @@
           "https://www.usekojo.com/blog/kojo-technologies-materials-procurement-platform-integration-with-procore"
         ],
         "notes": "Strategic round. Amount undisclosed."
+      },
+      {
+        "date": "2025-10-16",
+        "round": "Series C Extension",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Wesco International"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20251016530530/en/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -20626,12 +20708,12 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": ""
     },
     "institution_display": "",
-    "capital_raised_usd": 94000000,
-    "capital_raised_display": "$94M"
+    "capital_raised_usd": 104000000,
+    "capital_raised_display": "$104M"
   },
   {
     "id": "kx-systems",
@@ -35672,7 +35754,7 @@
     "hq_country": "United States",
     "founding_year": 2025,
     "industry": "AI",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "yc_batch": null,
     "icon_url": "",
@@ -35710,6 +35792,30 @@
           "https://www.crunchbase.com/organization/simile"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-07-30",
+        "round": "Series B",
+        "amount_usd": 200000000,
+        "amount_display": "$200M",
+        "valuation_usd": 2000000000,
+        "valuation_display": "$2B",
+        "lead_investors": [
+          "Greenoaks",
+          "Index Ventures"
+        ],
+        "other_investors": [
+          "Hanabi",
+          "Bain Capital Ventures",
+          "A*",
+          "Factory",
+          "CVS Health Ventures",
+          "Definition"
+        ],
+        "source_urls": [
+          "https://www.simile.com/blog/series-b"
+        ],
+        "notes": "$200M+ at $2B post-money. Customers incl. CVS Health, Wealthfront, Deloitte, Gallup."
       }
     ],
     "metadata": {
@@ -35717,15 +35823,15 @@
         "https://techfundingnews.com/100m-for-stanford-spinout-simile-ai-that-simulates-human-decisions/",
         "https://www.menlotimes.com/post/index-ventures-leads-simile-s-100-million-series-a"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$100M",
-      "valuation_usd": null,
-      "valuation_display": "",
-      "notes": ""
+      "valuation_usd": 2000000000,
+      "valuation_display": "$2B",
+      "notes": "FOUNDER ATTRIBUTION NEEDS REVIEW: public materials name Joon Sung Park, Michael Bernstein, Percy Liang; DB lists Elaina Yallen (McGill)."
     },
     "institution_display": "McGill University",
-    "capital_raised_usd": 100000000,
-    "capital_raised_display": "$100M"
+    "capital_raised_usd": 300000000,
+    "capital_raised_display": "$300M"
   },
   {
     "id": 294,
