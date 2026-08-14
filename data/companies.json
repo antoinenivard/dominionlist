@@ -31236,6 +31236,108 @@
     "capital_raised_display": ""
   },
   {
+    "id": "recall-ai",
+    "name": "Recall.ai",
+    "website": "https://www.recall.ai",
+    "description": "Universal API for meeting bots and conversation data. Lets developers capture recordings, transcripts, and metadata from any video platform (Zoom, Google Meet, Microsoft Teams, Slack Huddles, and more) through a single integration.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series B",
+    "status": "Active",
+    "founding_year": 2022,
+    "yc_batch": "W'22",
+    "icon_url": "https://img.logo.dev/recall.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "David Gu",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/david-gu/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Recall.ai. Studied computer science at the University of Waterloo (dropped out to build Recall).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Amanda Zhu",
+        "role": "Co-Founder & COO",
+        "linkedin": "https://www.linkedin.com/in/zhu-amanda/",
+        "x_url": "",
+        "bio": "Co-Founder & COO of Recall.ai. University of Waterloo (dropped out to build Recall). Built the GTM org and closed $7M+ in early enterprise deals.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022",
+        "round": "Seed",
+        "amount_usd": 3000000,
+        "amount_display": "$3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC W22."
+      },
+      {
+        "date": "2024-05-16",
+        "round": "Series A",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Ridge Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2024/05/16/yc-backed-recall-ai-gets-10m-series-a-to-help-companies-utilize-virtual-meeting-data/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2025-09-04",
+        "round": "Series B",
+        "amount_usd": 38000000,
+        "amount_display": "$38M",
+        "valuation_usd": 250000000,
+        "valuation_display": "$250M",
+        "lead_investors": [
+          "Bessemer Venture Partners"
+        ],
+        "other_investors": [
+          "HubSpot Ventures",
+          "Salesforce Ventures"
+        ],
+        "source_urls": [
+          "https://www.recall.ai/blog/recall-ai-series-b-the-api-for-meeting-recording"
+        ],
+        "notes": "Brings total raised to $51M."
+      }
+    ],
+    "capital_raised_usd": 51000000,
+    "capital_raised_display": "$51M",
+    "metadata": {
+      "valuation_usd": 250000000,
+      "valuation_display": "$250M",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Both co-founders University of Waterloo (David Gu, Amanda Zhu). 1,000+ AI developers on the platform."
+    }
+  },
+  {
     "id": "recast-systems",
     "name": "Recast Systems",
     "website": "https://www.recastsystems.com/",
