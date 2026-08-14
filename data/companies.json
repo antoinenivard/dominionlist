@@ -2674,6 +2674,26 @@
           "https://techcrunch.com/2021/07/13/arctic-wolf-series-f/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2022-10-06",
+        "round": "Convertible Note",
+        "amount_usd": 401000000,
+        "amount_display": "$401M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Owl Rock"
+        ],
+        "other_investors": [
+          "Viking Global",
+          "Ontario Teachers’ Pension Plan",
+          "Neuberger Berman"
+        ],
+        "source_urls": [
+          "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-the-closing-of-a-401-million-convertible-notes-offering/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -2683,7 +2703,7 @@
         "https://www.crunchbase.com/organization/arctic-wolf-networks",
         "https://arcticwolf.com/company/companyleadership/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 4300000000,
       "valuation_display": "$4.3B",
@@ -2698,8 +2718,8 @@
     "founder_display": "Kim Tremblay",
     "institution_display": "University of Waterloo",
     "hq_display": "Eden Prairie, MN",
-    "capital_raised_usd": 482200000,
-    "capital_raised_display": "$482M",
+    "capital_raised_usd": 883000000,
+    "capital_raised_display": "$883M",
     "icon_url": ""
   },
   {
@@ -5884,8 +5904,8 @@
     "hq_country": "United States",
     "founding_year": 2016,
     "industry": "Health",
-    "stage": "Series B",
-    "status": "Private",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "founders": [
       {
@@ -5920,6 +5940,21 @@
           "https://www.crunchbase.com/organization/bluerock-therapeutics"
         ],
         "notes": ""
+      },
+      {
+        "date": "2019-09-20",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 1000000000,
+        "valuation_display": "$1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.bayer.com/media/en-us/bayer-acquires-bluerock-therapeutics-to-build-leading-position-in-cell-therapy/"
+        ],
+        "notes": "Bayer acquired remaining stake (~$600M: $240M upfront + $360M milestones); ~$1B total value.",
+        "acquirer": "Bayer"
       }
     ],
     "metadata": {
@@ -5927,7 +5962,7 @@
         "https://www.crunchbase.com/organization/bluerock-therapeutics",
         "https://www.bluerocktx.com/bayer-and-versant-ventures-join-forces-to-launch-stem-cell-therapy-company/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 1000000000,
       "valuation_display": "$1B",
@@ -9945,7 +9980,7 @@
     "hq_country": "United States",
     "founding_year": 2013,
     "industry": "AI",
-    "stage": "Series L",
+    "stage": "Series K",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -10188,6 +10223,34 @@
           "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-10b-series-j-investment-62b-valuation"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-08-13",
+        "round": "Series K",
+        "amount_usd": 5000000000,
+        "amount_display": "$5B",
+        "valuation_usd": 190000000000,
+        "valuation_display": "$190B",
+        "lead_investors": [
+          "Coatue"
+        ],
+        "other_investors": [
+          "Blackstone",
+          "MGX",
+          "T. Rowe Price",
+          "Sixth Street Growth",
+          "BOND",
+          "Clearlake Capital",
+          "Point72",
+          "Premji Invest",
+          "TPG",
+          "a16z",
+          "Thrive Capital"
+        ],
+        "source_urls": [
+          "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+        ],
+        "notes": "Closed at $190B (announced Jul 16 at $188B)."
       }
     ],
     "metadata": {
@@ -10199,10 +10262,10 @@
         "https://www.crunchbase.com/organization/databricks",
         "https://techcrunch.com/2017/08/22/big-data-analytics-platform-databricks-raises-140m-series-d-round-led-by-andreessen-horowitz/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 134000000000,
-      "valuation_display": "$134B",
+      "valuation_usd": 190000000000,
+      "valuation_display": "$190B",
       "valuation_source": "Series J Dec 2024",
       "valuation_type": "post-money",
       "valuation_confidence": "medium",
@@ -10214,8 +10277,8 @@
     "founder_display": "Reynold Xin, Matei Zaharia",
     "institution_display": "University of Toronto, University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 13996900000,
-    "capital_raised_display": "$14.0B",
+    "capital_raised_usd": 19000000000,
+    "capital_raised_display": "$19B",
     "icon_url": ""
   },
   {
@@ -25223,6 +25286,21 @@
           "https://venturebeat.com/business/new-relic-ipo-pricing/"
         ],
         "notes": "NYSE: NEWR at $23/share"
+      },
+      {
+        "date": "2023-11-08",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 6500000000,
+        "valuation_display": "$6.5B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.tpg.com/news-and-insights/new-relic-be-acquired-francisco-partners-and-tpg-65-billion"
+        ],
+        "notes": "Take-private at $87.00/share cash by Francisco Partners and TPG.",
+        "acquirer": "Francisco Partners / TPG"
       }
     ],
     "metadata": {
@@ -25233,10 +25311,10 @@
         "https://www.insightpartners.com/ideas/on-the-heels-of-a-record-breaking-year-new-relic-raises-80-million/",
         "https://newrelic.com/blog/nerd-life/new-relic-private"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 1000000000,
-      "valuation_display": "$1B",
+      "valuation_usd": 6500000000,
+      "valuation_display": "$6.5B",
       "valuation_source": "TPG/F. Prime acquisition 2023",
       "valuation_type": "IPO",
       "valuation_confidence": "high",
@@ -25671,6 +25749,25 @@
           "https://siliconangle.com/2021/10/08/productivity-startup-notion-valued-at-10b-in-latest-275m-funding-round/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-01-26",
+        "round": "Secondary",
+        "amount_usd": 270000000,
+        "amount_display": "$270M",
+        "valuation_usd": 11000000000,
+        "valuation_display": "$11B",
+        "lead_investors": [
+          "GIC"
+        ],
+        "other_investors": [
+          "Sequoia Capital",
+          "Index Ventures"
+        ],
+        "source_urls": [
+          "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares"
+        ],
+        "notes": "Secondary tender offer — not primary capital; excluded from capital raised."
       }
     ],
     "metadata": {
@@ -25680,10 +25777,10 @@
         "https://www.notion.so/blog/notion-raises-series-c",
         "https://siliconangle.com/2021/10/08/productivity-startup-notion-valued-10b-latest-275m-funding-round/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 10000000000,
-      "valuation_display": "$10B",
+      "valuation_usd": 11000000000,
+      "valuation_display": "$11B",
       "valuation_source": "Series C 2024",
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
@@ -26897,6 +26994,31 @@
         ],
         "notes": "",
         "round": "Series F"
+      },
+      {
+        "date": "2026-03-31",
+        "round": "Series G",
+        "amount_usd": 122000000000,
+        "amount_display": "$122B",
+        "valuation_usd": 852000000000,
+        "valuation_display": "$852B",
+        "lead_investors": [
+          "SoftBank"
+        ],
+        "other_investors": [
+          "Amazon",
+          "NVIDIA",
+          "Microsoft",
+          "a16z",
+          "MGX",
+          "TPG",
+          "T. Rowe Price",
+          "D.E. Shaw Ventures"
+        ],
+        "source_urls": [
+          "https://openai.com/index/accelerating-the-next-phase-ai/"
+        ],
+        "notes": "$122B committed capital at $852B post-money. Amazon $50B, Nvidia $30B, SoftBank $30B. Includes >$3B retail."
       }
     ],
     "metadata": {
@@ -26906,10 +27028,10 @@
         "https://www.crunchbase.com/organization/openai/company_financials",
         "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
-      "valuation_usd": 840000000000,
-      "valuation_display": "$840B",
+      "valuation_usd": 852000000000,
+      "valuation_display": "$852B",
       "valuation_source": "Series F Feb 2026 post-money",
       "valuation_type": "funding_post_money",
       "valuation_confidence": "high",
@@ -26920,8 +27042,8 @@
     "founder_display": "Ilya Sutskever, Andrej Karpathy, Elon Musk, Trevor Blackwell",
     "institution_display": "University of Toronto, Queen's University, Carleton University",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 167900000000,
-    "capital_raised_display": "$167.9B",
+    "capital_raised_usd": 289900000000,
+    "capital_raised_display": "$289.9B",
     "icon_url": ""
   },
   {
@@ -33801,6 +33923,22 @@
           "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-07-27",
+        "round": "Strategic",
+        "amount_usd": 5000000000,
+        "amount_display": "$5B",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "NVIDIA"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+        ],
+        "notes": "Strategic investment incl. priority Vera Rubin GPU access. Valuation not disclosed."
       }
     ],
     "metadata": {
@@ -33810,7 +33948,7 @@
         "https://en.wikipedia.org/wiki/Ilya_Sutskever",
         "https://news.crunchbase.com/venture/biggest-funding-rounds-safe-superintelligence-mainspring/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 32000000000,
       "valuation_display": "$32B",
@@ -33826,8 +33964,8 @@
     "institution_display": "University of Toronto",
     "hq_display": "Palo Alto, CA",
     "icon_url": "https://cdn.theorg.com/665d9726-6c85-4202-852f-89707e2f5df3_thumb.jpg",
-    "capital_raised_usd": 3000000000,
-    "capital_raised_display": "$3B"
+    "capital_raised_usd": 8000000000,
+    "capital_raised_display": "$8B"
   },
   {
     "id": "sandgarden",
@@ -37392,8 +37530,8 @@
     "hq_country": "United States",
     "founding_year": 2002,
     "industry": "Industrial",
-    "stage": "Series L",
-    "status": "Private",
+    "stage": "Public",
+    "status": "Public",
     "yc_batch": null,
     "founders": [
       {
@@ -37585,15 +37723,29 @@
       },
       {
         "round": "Market Cap",
-        "date": "2026-03",
+        "date": "2026-07-31",
         "amount_usd": null,
         "amount_display": "",
-        "valuation_usd": 1250000000000,
-        "valuation_display": "$1.25T",
+        "valuation_usd": 1430000000000,
+        "valuation_display": "$1.43T",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Private valuation"
+        "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-06-12",
+        "round": "IPO",
+        "amount_usd": 75000000000,
+        "amount_display": "$75B",
+        "valuation_usd": 1770000000000,
+        "valuation_display": "$1.77T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.nasdaq.com/newsroom/spacex-ipo-rocket-company-launches-historic-ipo"
+        ],
+        "notes": "Nasdaq debut at $135/share; largest IPO on record."
       }
     ],
     "metadata": {
@@ -37605,24 +37757,25 @@
         "https://www.cnbc.com/2023/01/02/spacex-raising-750-million-at-137-billion-valuation-a16z-investing.html",
         "https://www.bloomberg.com/news/articles/2024-12-11/spacex-completes-record-tender-offer-at-350-billion-valuation"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-07-31T16:00:00-08:00",
       "import_notes": "Acquired xAI in all-stock deal Feb 2026, combined entity valued at $1.25T",
-      "valuation_usd": 1250000000000,
-      "valuation_display": "$1.25T",
+      "valuation_usd": 1430000000000,
+      "valuation_display": "$1.43T",
       "valuation_source": "xAI merger Feb 2026",
       "valuation_type": "acquisition",
       "valuation_confidence": "high",
       "valuation_source_url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html",
       "total_funding_display": "$11.9B+",
-      "valuation_as_of": "2026-02",
+      "valuation_as_of": "2026-07-31",
       "notes": ""
     },
     "founder_display": "Elon Musk",
     "institution_display": "Queen's University",
     "hq_display": "Hawthorne, CA",
-    "capital_raised_usd": 6312700000,
-    "capital_raised_display": "$6.3B",
-    "icon_url": ""
+    "capital_raised_usd": 81300000000,
+    "capital_raised_display": "$81.3B",
+    "icon_url": "",
+    "ticker": "SPCX"
   },
   {
     "id": "spade",
@@ -39111,7 +39264,7 @@
     "hq_country": "United States",
     "founding_year": 2016,
     "industry": "Consumer",
-    "stage": "Series C",
+    "stage": "Series D",
     "status": "Private",
     "yc_batch": "",
     "founders": [
@@ -39240,6 +39393,28 @@
           "https://www.prnewswire.com/news-releases/supercom-raises-85m-series-c-to-grow-savings-super-app-for-everyday-americans-301805477.html"
         ],
         "notes": "$60M equity + $25M credit facility. Operating as Super.com."
+      },
+      {
+        "date": "2026-07-07",
+        "round": "Series D",
+        "amount_usd": 65000000,
+        "amount_display": "$65M",
+        "valuation_usd": 1200000000,
+        "valuation_display": "$1.2B",
+        "lead_investors": [
+          "TPG"
+        ],
+        "other_investors": [
+          "Alignvest",
+          "EDC Investments",
+          "Plaza Asset Management",
+          "Inovia Capital",
+          "Full In Partners"
+        ],
+        "source_urls": [
+          "https://www.super.com/guides/newsroom/65m-series-d-led-by-tpg/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -39248,18 +39423,18 @@
         "https://en.wikipedia.org/wiki/Super.com",
         "https://www.linkedin.com/in/husseinfazal"
       ],
-      "last_verified": "2026-05-07T10:00:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "manual-add",
       "total_funding_display": "$192.4M",
-      "valuation_usd": null,
-      "valuation_display": "",
+      "valuation_usd": 1200000000,
+      "valuation_display": "$1.2B",
       "notes": ""
     },
     "founder_display": "Hussein Fazal, Henry Shi",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 192400000,
-    "capital_raised_display": "$192.4M",
+    "capital_raised_usd": 257400000,
+    "capital_raised_display": "$257.4M",
     "icon_url": ""
   },
   {
@@ -42316,6 +42491,27 @@
           "https://techcrunch.com/2021/03/31/strength-training-startup-tonal-crosses-unicorn-status-after-raising-250m/"
         ],
         "notes": "Unicorn milestone"
+      },
+      {
+        "date": "2023-04-10",
+        "round": "Recapitalization",
+        "amount_usd": 130000000,
+        "amount_display": "$130M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "L Catterton"
+        ],
+        "other_investors": [
+          "Cobalt Capital",
+          "Dragoneer",
+          "Kindred Ventures",
+          "THVC"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20230410005314/en/"
+        ],
+        "notes": "Recapitalization; valuation not disclosed (widely reported as a steep down round). Founder Aly Orady moved CEO -> CTO."
       }
     ],
     "metadata": {
@@ -42323,7 +42519,7 @@
         "https://www.crunchbase.com/organization/tonal",
         "https://techcrunch.com/2021/03/31/strength-training-startup-tonal-crosses-unicorn-status-after-raising-250m/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "alumni-discovery",
       "valuation_usd": 1600000000,
       "valuation_display": "$1.6B",
@@ -42338,8 +42534,8 @@
     "founder_display": "Aly Orady",
     "institution_display": "McMaster University",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 450000000,
-    "capital_raised_display": "$450M",
+    "capital_raised_usd": 580000000,
+    "capital_raised_display": "$580M",
     "icon_url": ""
   },
   {
@@ -45283,8 +45479,8 @@
     "hq_country": "United States",
     "founding_year": 2023,
     "industry": "AI",
-    "stage": "Series E",
-    "status": "Active",
+    "stage": "Acquired",
+    "status": "Acquired",
     "yc_batch": null,
     "founders": [
       {
@@ -45429,6 +45625,21 @@
           "https://techcrunch.com/2026/01/06/xai-says-it-raised-20b-in-series-e-funding/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-02-03",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": 250000000000,
+        "valuation_display": "$250B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html"
+        ],
+        "notes": "All-stock merger into SpaceX (0.1433 exchange ratio); xAI valued ~$250B.",
+        "acquirer": "SpaceX"
       }
     ],
     "metadata": {
@@ -45439,7 +45650,7 @@
         "https://techcrunch.com/2024/05/26/elon-musks-xai-raises-6b-from-valor-a16z-and-sequoia/",
         "https://techcrunch.com/2024/12/23/elon-musks-xai-raises-6b-in-new-funding/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "Acquired by SpaceX in all-stock deal Feb 2026",
       "valuation_usd": 250000000000,
       "valuation_display": "$250B",
@@ -45504,16 +45715,25 @@
         "notes": ""
       },
       {
-        "date": "2025",
+        "date": "2026-03-25",
         "round": "Series C",
         "amount_usd": 170000000,
         "amount_display": "$170M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
+        "lead_investors": [
+          "Mohari Ventures Natural Capital"
+        ],
+        "other_investors": [
+          "Craft Ventures",
+          "ICONIQ",
+          "Woven Capital",
+          "NGP Capital",
+          "Samsung Next",
+          "Hexagon"
+        ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/xona-space-systems"
+          "https://www.businesswire.com/news/home/20260325413403/en/"
         ],
         "notes": ""
       }
