@@ -8186,20 +8186,24 @@
     ],
     "funding_rounds": [
       {
-        "date": "2026-04",
+        "date": "2026-05-14",
         "round": "Pre-Seed",
-        "amount_usd": 500000,
-        "amount_display": "$500K",
+        "amount_usd": 12000000,
+        "amount_display": "$12M",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "Y Combinator"
+          "Y Combinator",
+          "A.Capital"
         ],
-        "other_investors": [],
+        "other_investors": [
+          "Liquid 2 Ventures",
+          "SV Angel"
+        ],
         "source_urls": [
-          "https://www.ycombinator.com/companies/clara-2"
+          "https://askclara.com/blog/clara-launch"
         ],
-        "notes": "Standard YC P'26 deal"
+        "notes": "Oversubscribed pre-seed."
       }
     ],
     "metadata": {
@@ -8208,7 +8212,7 @@
         "https://askclara.com",
         "https://www.crunchbase.com/person/george-favvas"
       ],
-      "last_verified": "2026-05-08T09:16:00-08:00",
+      "last_verified": "2026-08-13T11:10:00-08:00",
       "import_notes": "manual-add",
       "valuation_usd": null,
       "valuation_display": "",
@@ -8217,8 +8221,8 @@
     "founder_display": "George Favvas",
     "institution_display": "Vanier College",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
+    "capital_raised_usd": 12000000,
+    "capital_raised_display": "$12M",
     "icon_url": ""
   },
   {
@@ -27332,7 +27336,7 @@
     ],
     "funding_rounds": [
       {
-        "round": "Seed",
+        "round": "Pre-Seed",
         "date": "2025-11",
         "amount_usd": 500000,
         "amount_display": "$500K",
@@ -27345,6 +27349,29 @@
         ],
         "valuation_usd": null,
         "valuation_display": "",
+        "notes": "YC W26 deal"
+      },
+      {
+        "date": "2026-06-25",
+        "round": "Seed",
+        "amount_usd": 4300000,
+        "amount_display": "$4.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Pantera Capital"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Pioneer Fund",
+          "Decasonic",
+          "Blast",
+          "Outbound",
+          "Surreal"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/orthogonal-raises-4-3m-seed-for-ai-agent-service-discovery-orchestration-and-payments-across-the-internet-302806969.html"
+        ],
         "notes": ""
       }
     ],
@@ -27355,7 +27382,7 @@
         "https://www.linkedin.com/in/christian-pickett",
         "https://www.linkedin.com/in/berasogut"
       ],
-      "last_verified": "2026-04-22T00:00:00Z",
+      "last_verified": "2026-08-13T11:10:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "$500K",
@@ -27364,8 +27391,8 @@
     "founder_display": "Christian Pickett, Bera Sogut",
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K"
+    "capital_raised_usd": 4800000,
+    "capital_raised_display": "$4.8M"
   },
   {
     "id": "ossifi",
@@ -32582,7 +32609,7 @@
     "id": "rev1",
     "name": "Rev1",
     "website": "https://rev1.so/",
-    "description": "AI-powered revenue intelligence platform",
+    "description": "AI copilot for mechanical engineers — turns 3D CAD models into manufacturing-ready 2D drawings (\"Claude Code for mechanical engineers\").",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -41181,7 +41208,7 @@
     "id": "terranox-ai",
     "name": "Terranox AI",
     "website": "https://www.terranox.ai/",
-    "description": "AI platform for environmental monitoring and sustainability",
+    "description": "AI platform for uranium exploration and discovery.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
