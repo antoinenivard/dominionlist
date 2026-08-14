@@ -26032,7 +26032,7 @@
     "hq_country": "US",
     "founding_year": 2023,
     "industry": "Fintech",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Active",
     "yc_batch": "W'24",
     "icon_url": "",
@@ -26069,26 +26069,44 @@
           "https://www.crunchbase.com/organization/offdeal"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025-07-29",
+        "round": "Series A",
+        "amount_usd": 12000000,
+        "amount_display": "$12M",
+        "valuation_usd": 99000000,
+        "valuation_display": "$99M",
+        "lead_investors": [
+          "Radical Ventures"
+        ],
+        "other_investors": [
+          "Centre Street Partners",
+          "Rebel Fund",
+          "Y Combinator"
+        ],
+        "source_urls": [],
+        "notes": "$87M pre-money; $99M post-money."
       }
     ],
     "metadata": {
       "sources": [
         "https://offdeal.io"
       ],
-      "valuation_usd": null,
-      "valuation_display": "",
+      "valuation_usd": 99000000,
+      "valuation_display": "$99M",
       "valuation_source_url": "",
       "valuation_source_type": "",
       "valuation_type": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$5.2M",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-13T11:10:00-08:00",
       "notes": ""
     },
     "institution_display": "University of Waterloo",
-    "capital_raised_usd": 5200000,
-    "capital_raised_display": "$5.2M"
+    "capital_raised_usd": 17200000,
+    "capital_raised_display": "$17.2M"
   },
   {
     "id": "olam-labs",
