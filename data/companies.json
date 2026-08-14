@@ -2387,7 +2387,7 @@
     "hq_city": "San Francisco",
     "hq_region": "California",
     "hq_country": "US",
-    "status": "Active",
+    "status": "Acquired",
     "founders": [
       {
         "name": "Nick Lombardo",
@@ -2468,6 +2468,21 @@
         "valuation_usd": null,
         "valuation_display": "",
         "notes": ""
+      },
+      {
+        "date": "2026-07-07",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://investors.axosfinancial.com/news-events/press-releases/news-details/2026/Axos-Financial-Inc--to-Acquire-Arc-Technologies-Inc-/default.aspx"
+        ],
+        "notes": "Price undisclosed.",
+        "acquirer": "Axos Financial"
       }
     ],
     "metadata": {
@@ -2476,7 +2491,7 @@
         "https://www.linkedin.com/in/nicholas-m-lombardo",
         "https://www.crunchbase.com/organization/arc-technologies-inc"
       ],
-      "last_verified": "2026-04-22T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "~$31M",
@@ -2491,7 +2506,7 @@
     "founding_year": 2021,
     "industry": "Fintech",
     "icon_url": "https://img.logo.dev/joinarc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
-    "stage": "Series A",
+    "stage": "Acquired",
     "yc_batch": "W'22"
   },
   {
@@ -7787,7 +7802,7 @@
   {
     "id": "chord-commerce",
     "name": "Chord",
-    "website": "https://chord.co",
+    "website": "https://chordcommerce.com",
     "description": "Data-forward headless commerce-as-a-service platform with AI copilot, helping DTC and omnichannel brands manage e-commerce infrastructure.",
     "hq_city": "New York",
     "hq_region": "NY",
@@ -7856,7 +7871,7 @@
     "metadata": {
       "valuation_usd": 0,
       "valuation_display": "",
-      "last_verified": "2026-05-14T00:00:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Originally called Arfa, rebranded to Chord in 2021. Co-founded with Henry Davis (non-Canadian, ex-Glossier COO/President). Bryan Mahoney was ex-CTO of Glossier. Also acquired Yaguara. Total raised ~$40M per Frontlines.io."
     }
   },
@@ -8150,8 +8165,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Now operating as \"cLabs, Inc. d/b/a Celo Core Co.\" (2026)."
     }
   },
   {
@@ -14511,93 +14526,6 @@
     "capital_raised_display": ""
   },
   {
-    "id": 193,
-    "name": "Obvious",
-    "website": "https://obvious.ai",
-    "description": "Data onboarding and file-import infrastructure. Formerly Flatfile (retained as the product name).",
-    "hq_city": "Denver",
-    "hq_region": "CO",
-    "hq_country": "US",
-    "founding_year": 2018,
-    "industry": "Enterprise",
-    "stage": "Series B",
-    "status": "Active",
-    "yc_batch": null,
-    "icon_url": "",
-    "founders": [
-      {
-        "name": "David Boskovic",
-        "linkedin": "https://www.linkedin.com/in/dboskovic",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "Multi-time founder born and raised in Toronto, previously CTO at Rainmaker.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_city": "Toronto, ON",
-        "role": "",
-        "canadian_institutions": []
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2021-01-01",
-        "round": "Series A",
-        "amount_usd": 35000000,
-        "amount_display": "$35M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Scale Venture Partners"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://flatfile.com/blog/announcing-flatfiles-series-a-investing-35m-in-you"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2022-09-27",
-        "round": "Series B",
-        "amount_usd": 50000000,
-        "amount_display": "$50M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Tiger Global"
-        ],
-        "other_investors": [
-          "Gradient Ventures",
-          "Scale Ventures",
-          "Workday Ventures"
-        ],
-        "source_urls": [
-          "https://techcrunch.com/2022/09/27/document-onboarding-startup-flatfile-nabs-50m-from-investors-including-workday/"
-        ],
-        "notes": ""
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://flatfile.com",
-        "https://flatfile.com/blog/announcing-flatfiles-series-a-investing-35m-in-you",
-        "https://flatfile.com/blog/flatfile-raises-usd50-million-series-b-to-streamline-data-exchange"
-      ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "$87M",
-      "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Renamed from Flatfile to Obvious (obvious.ai)."
-    },
-    "institution_display": "",
-    "capital_raised_usd": 85000000,
-    "capital_raised_display": "$85M"
-  },
-  {
     "id": "flexpa",
     "name": "Flexpa",
     "website": "https://www.flexpa.com",
@@ -18531,7 +18459,7 @@
     "hq_country": "United States",
     "founding_year": 2012,
     "industry": "Enterprise",
-    "stage": "Private",
+    "stage": "Series C",
     "status": "Active",
     "yc_batch": null,
     "founders": [
@@ -18580,13 +18508,31 @@
           "https://www.crunchbase.com/organization/iex-exchange"
         ],
         "notes": ""
+      },
+      {
+        "date": "2014-09",
+        "round": "Series C",
+        "amount_usd": 75000000,
+        "amount_display": "$75M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Spark Capital"
+        ],
+        "other_investors": [
+          "Bain Capital Ventures"
+        ],
+        "source_urls": [
+          "https://www.finsmes.com/2014/09/iex-raises-75m-in-series-c-funding.html"
+        ],
+        "notes": "Plus an undisclosed Sapphire Ventures minority investment (Apr 2015)."
       }
     ],
     "metadata": {
       "sources": [
         "https://www.crunchbase.com/organization/iex"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
@@ -18601,8 +18547,8 @@
     "founder_display": "Bradley Katsuyama",
     "institution_display": "Wilfrid Laurier University",
     "hq_display": "New York, NY",
-    "capital_raised_usd": 25900000,
-    "capital_raised_display": "$25.9M",
+    "capital_raised_usd": 100900000,
+    "capital_raised_display": "$100.9M",
     "icon_url": ""
   },
   {
@@ -26208,6 +26154,93 @@
     "capital_raised_display": "$925K"
   },
   {
+    "id": 193,
+    "name": "Obvious",
+    "website": "https://obvious.ai",
+    "description": "Data onboarding and file-import infrastructure. Formerly Flatfile (retained as the product name).",
+    "hq_city": "Denver",
+    "hq_region": "CO",
+    "hq_country": "US",
+    "founding_year": 2018,
+    "industry": "Enterprise",
+    "stage": "Series B",
+    "status": "Active",
+    "yc_batch": null,
+    "icon_url": "",
+    "founders": [
+      {
+        "name": "David Boskovic",
+        "linkedin": "https://www.linkedin.com/in/dboskovic",
+        "wikipedia_url": "",
+        "x_url": "",
+        "bio": "Multi-time founder born and raised in Toronto, previously CTO at Rainmaker.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_city": "Toronto, ON",
+        "role": "",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-01-01",
+        "round": "Series A",
+        "amount_usd": 35000000,
+        "amount_display": "$35M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Scale Venture Partners"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://flatfile.com/blog/announcing-flatfiles-series-a-investing-35m-in-you"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2022-09-27",
+        "round": "Series B",
+        "amount_usd": 50000000,
+        "amount_display": "$50M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Tiger Global"
+        ],
+        "other_investors": [
+          "Gradient Ventures",
+          "Scale Ventures",
+          "Workday Ventures"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2022/09/27/document-onboarding-startup-flatfile-nabs-50m-from-investors-including-workday/"
+        ],
+        "notes": ""
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://flatfile.com",
+        "https://flatfile.com/blog/announcing-flatfiles-series-a-investing-35m-in-you",
+        "https://flatfile.com/blog/flatfile-raises-usd50-million-series-b-to-streamline-data-exchange"
+      ],
+      "valuation_usd": null,
+      "valuation_display": "",
+      "valuation_source_url": "",
+      "valuation_source_type": "",
+      "valuation_type": "",
+      "valuation_confidence": "",
+      "valuation_as_of": "",
+      "total_funding_display": "$87M",
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Renamed from Flatfile to Obvious (obvious.ai)."
+    },
+    "institution_display": "",
+    "capital_raised_usd": 85000000,
+    "capital_raised_display": "$85M"
+  },
+  {
     "id": 288,
     "name": "Octagon AI",
     "website": "https://octagonai.co",
@@ -27193,112 +27226,6 @@
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": "https://api.typedream.com/v0/document/public/929dfde1-a7c7-4ebf-bd78-6ab3608c36c4/3553kpZhSIP8hfuvUL7Qr8JSpEi_openbuilder_logo_white_on_black.png"
-  },
-  {
-    "id": 179,
-    "name": "OpenPhone",
-    "website": "https://openphone.com",
-    "description": "Modern business phone system providing virtual numbers, calling, messaging, and lightweight CRM for small teams.",
-    "hq_city": "San Francisco",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2018,
-    "industry": "Enterprise",
-    "stage": "Series B",
-    "status": "Active",
-    "yc_batch": "S'18",
-    "icon_url": "",
-    "founders": [
-      {
-        "name": "Mahyar Raissi",
-        "linkedin": "https://www.linkedin.com/in/mahyarr",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "Software engineer who came to Canada in Grade 10, UWaterloo grad.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Waterloo",
-        "canadian_city": "Waterloo, ON",
-        "canadian_institutions": [
-          "University of Waterloo"
-        ],
-        "role": ""
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2018-01-01",
-        "round": "Seed",
-        "amount_usd": 2000000,
-        "amount_display": "$2M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Slow Ventures"
-        ],
-        "other_investors": [
-          "Y Combinator",
-          "Garage Capital"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/openphone"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2020-01-01",
-        "round": "Series A",
-        "amount_usd": 14000000,
-        "amount_display": "$14M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Craft Ventures"
-        ],
-        "other_investors": [
-          "Y Combinator",
-          "Slow Ventures"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/openphone"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2022-04-07",
-        "round": "Series B",
-        "amount_usd": 40000000,
-        "amount_display": "$40M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Tiger Global"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://techcrunch.com/2022/04/07/open-phone-raises-40m-to-replace-your-work-phone-and-office-pbx-with-an-app/"
-        ],
-        "notes": "Now rebranded as Quo"
-      }
-    ],
-    "metadata": {
-      "sources": [
-        "https://techcrunch.com/2022/04/07/open-phone-raises-40m-to-replace-your-work-phone/",
-        "https://openphone.com"
-      ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "$56M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
-    },
-    "institution_display": "University of Waterloo",
-    "capital_raised_usd": 56000000,
-    "capital_raised_display": "$56M"
   },
   {
     "id": "opusense-ai",
@@ -28581,14 +28508,14 @@
         "notes": "Total funding ~$65M in under 2.5 years"
       }
     ],
-    "capital_raised_usd": 58500000,
-    "capital_raised_display": "$58.5M",
+    "capital_raised_usd": 65000000,
+    "capital_raised_display": "$65M",
     "institution_display": "University of Waterloo",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": ""
     }
   },
@@ -31118,11 +31045,30 @@
           "https://www.crunchbase.com/organization/qbdvision"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025-05",
+        "round": "Strategic",
+        "amount_usd": 13000000,
+        "amount_display": "$13M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Northpond Ventures",
+          "S3 Ventures"
+        ],
+        "other_investors": [
+          "Create Health Ventures"
+        ],
+        "source_urls": [
+          "https://www.qbdvision.com/2025-new-funding-round/"
+        ],
+        "notes": "Included within reported total raised."
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
@@ -31348,10 +31294,10 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Renamed from OpenPhone to Quo (Sept 2025) alongside the $105M Series C. Merged duplicate OpenPhone entry."
     },
     "id": "400"
   },
@@ -38083,8 +38029,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$47M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Creator platform and 3D world hosting sunset Jul 2026; pivoted to in-house game studio (Wooster Games). Enterprise platform continues."
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 47000000,
@@ -42407,7 +42353,7 @@
   },
   {
     "name": "TinyFish",
-    "website": "https://tinyfish.io",
+    "website": "https://tinyfish.ai",
     "description": "Enterprise Web Agents platform — AI agents that automate interactions with complex and dynamic websites, solving high-value tasks. Clients include Google, DoorDash, and Fortune 500 companies.",
     "hq_city": "Palo Alto",
     "hq_region": "CA",
@@ -42454,7 +42400,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
