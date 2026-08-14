@@ -2942,6 +2942,63 @@
     "icon_url": ""
   },
   {
+    "id": "astral-tutor",
+    "name": "Astral",
+    "website": "https://astralcopilot.com",
+    "description": "AI math tutor and mastery-based K-8 homeschool curriculum. Diagnostics, custom lessons, and an AI tutor in every lesson, with values/faith alignment. Legal entity Schoolhouse Learning.",
+    "hq_city": "Arlington",
+    "hq_region": "VA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/astralcopilot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Shivam Sharma",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/imshiv/",
+        "x_url": "",
+        "bio": "Founder & CEO of Astral. University of Waterloo (Cheriton School of Computer Science); from Toronto. Previously 3rd engineer at Finimize (acquired); built and sold Reflect.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 2500000,
+        "amount_display": "$2.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Conversion Capital"
+        ],
+        "other_investors": [
+          "Stand Together Ventures Lab"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced."
+      }
+    ],
+    "capital_raised_usd": 2500000,
+    "capital_raised_display": "$2.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Founder Shivam Sharma (Waterloo, from Toronto)."
+    }
+  },
+  {
     "id": 317,
     "name": "AstroBeam",
     "website": "https://www.astrobeam.com",
@@ -7367,6 +7424,58 @@
     "capital_raised_usd": 6700000,
     "capital_raised_display": "$6.7M",
     "icon_url": ""
+  },
+  {
+    "id": "chakra-labs",
+    "name": "Chakra Labs",
+    "website": "https://chakra.dev",
+    "description": "Frontier data laboratory for computer-use agents. Builds deterministic, pixel-perfect RL environments and human computer-use trajectory datasets, and runs the Dojo collaborative RL environment platform.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/chakra.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Alex Fung",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/alexfung/",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Chakra Labs. Computer Science, University of Waterloo. Previously at Palantir, Snap, and Fin.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-01",
+        "round": "Seed",
+        "amount_usd": 10100000,
+        "amount_display": "$10.1M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "~$10.1M per SEC filing / AlleyWatch; lead undisclosed."
+      }
+    ],
+    "capital_raised_usd": 10100000,
+    "capital_raised_display": "$10.1M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Canadian founder Alex Fung (Waterloo, CTO). Co-founder/CEO Nirmal Krishnan (Johns Hopkins) not Canadian."
+    }
   },
   {
     "id": 170,
@@ -14824,6 +14933,58 @@
       "valuation_display": "$467M",
       "last_verified": "2026-05-14T00:00:00-08:00",
       "notes": "Global app hosting platform (YC W'20). Other co-founders (non-Canadian): Kurt Mackey (CEO, Chicago), Michael Dwan (Colorado), Thomas Ptacek (Chicago, security researcher, prev. Matasano Security/NCC Group). Jérôme Gravel-Niquet is CTO and the Canadian founder, based in Montreal."
+    }
+  },
+  {
+    "id": "focal-ai",
+    "name": "Focal AI",
+    "website": "https://meetwithfocal.com",
+    "description": "AI assistant for financial advisors. Meeting notes, CRM sync, meeting prep, follow-up emails, and KYC/data-entry automation, with Canadian data residency (PIPEDA) and SOC 2 Type II.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/meetwithfocal.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Jerry Bai",
+        "role": "Co-Founder & Chief Product Officer",
+        "linkedin": "https://www.linkedin.com/in/baijerry/",
+        "x_url": "",
+        "bio": "Co-Founder & CPO of Focal AI. University of Waterloo. Previously at Microsoft, Yelp, and Chainalysis.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; lead undisclosed."
+      }
+    ],
+    "capital_raised_usd": 5000000,
+    "capital_raised_display": "$5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Canadian founder Jerry Bai (Waterloo, CPO). Co-founder/CEO John Connell not Canadian."
     }
   },
   {
@@ -39345,6 +39506,79 @@
     "icon_url": ""
   },
   {
+    "id": "surebright",
+    "name": "Surebright",
+    "website": "https://surebright.com",
+    "description": "Embedded insurance and warranty platform. Lets e-commerce merchants add AppleCare-style extended product-protection and shipping-insurance plans at checkout in minutes — \"Stripe for embedded e-commerce insurance.\"",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2021,
+    "yc_batch": "S'24",
+    "icon_url": "https://img.logo.dev/surebright.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Manish Chauhan",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/manishchauhan01/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Surebright. MMath (Computer Science), University of Waterloo; INSEAD MBA. Previously at Waterloo-based ApplyBoard and Amazon.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-08",
+        "round": "Pre-Seed",
+        "amount_usd": 2500000,
+        "amount_display": "$2.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Motivate Ventures"
+        ],
+        "other_investors": [
+          "Panache Ventures",
+          "Plug and Play",
+          "Simplex",
+          "InsurTech NY"
+        ],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "YC S'24 deal"
+      }
+    ],
+    "capital_raised_usd": 3000000,
+    "capital_raised_display": "$3M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Canadian founder Manish Chauhan (Waterloo). Toronto origin; HQ New York (167 Madison Ave). Co-founder Sanket Munjal (India) not Canadian. Engineering team in India."
+    }
+  },
+  {
     "id": "swarm-technologies",
     "name": "Swarm Technologies",
     "website": "https://swarm.space",
@@ -41528,6 +41762,79 @@
     "capital_raised_display": "$40M"
   },
   {
+    "id": "synthesis-company",
+    "name": "The Synthesis Company",
+    "website": "https://thesynthesis.company",
+    "description": "AI research agent (\"Eva\") for systematic literature reviews and scientific evidence synthesis. Screens and extracts from tens of thousands of papers for pharma, CROs, and academics. Formerly Zenbase.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "S'24",
+    "icon_url": "https://img.logo.dev/thesynthesis.company?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Cyrus Nouroozi",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/cyrusnewday/",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of The Synthesis Company. Systems Design Engineering, University of Waterloo. Former DSPy (Stanford NLP) core contributor; ex-Nous Research.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Amir Mehr",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/amir--mehr/",
+        "x_url": "",
+        "bio": "Co-Founder of The Synthesis Company. Master's in Computer Science, University of Calgary. DSPy contributor.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Calgary",
+        "canadian_institutions": [
+          "University of Calgary"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Essence VC"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "General Catalyst",
+          "Amplify Partners",
+          "Kleiner Perkins",
+          "Pioneer Fund"
+        ],
+        "source_urls": [],
+        "notes": "Amount undisclosed."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-13T11:10:00-08:00",
+      "notes": "Both founders Canadian (Waterloo, UCalgary). YC S24. Pivoted from Zenbase."
+    }
+  },
+  {
     "id": 189,
     "name": "Theseus",
     "website": "https://theseus.us",
@@ -42469,6 +42776,19 @@
           "University of Waterloo"
         ],
         "canadian_city": "Toronto, ON"
+      },
+      {
+        "name": "Dekai Li",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/dekaili/",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Trident. Research at the University of Toronto; based in Canada. Competitive math/CS background.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
       }
     ],
     "funding_rounds": [
