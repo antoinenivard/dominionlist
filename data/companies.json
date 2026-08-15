@@ -141,9 +141,9 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$133M",
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "; added founder Matt Loszak (Canadian, co-founded Humi)",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "",
     "capital_raised_usd": 133260000,
@@ -212,11 +212,11 @@
         "https://en.wikipedia.org/wiki/Apoorva_Mehta",
         "https://www.bloomberg.com/news/articles/2026-04-24/instacart-co-founder-debuts-hedge-fund-where-ai-calls-the-shots"
       ],
-      "last_verified": "2026-04-24T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "$100M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Apoorva Mehta",
     "institution_display": "University of Waterloo",
@@ -441,8 +441,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$30M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 29700000,
@@ -785,11 +785,11 @@
         "https://www.businesswire.com/news/home/20260409469482/en/",
         "https://www.crunchbase.com/organization/afterquery"
       ],
-      "last_verified": "2026-05-08T09:16:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "updated-funding",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -1213,7 +1213,7 @@
         "https://www.cvc.com/media/news/2025/airalo-becomes-the-first-esim-unicorn-with-an-investment-round-of-220m/",
         "https://www.crunchbase.com/organization/airalo"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "founder-first-discovery",
       "valuation_usd": 1000000000,
       "valuation_display": "$1B+",
@@ -1223,7 +1223,7 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/airalo",
       "total_funding_display": "$336M",
       "valuation_as_of": "2025-07",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Abraham Burak",
     "institution_display": "University of Ottawa",
@@ -1309,11 +1309,11 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Hans Keirstead",
     "institution_display": "University of British Columbia",
@@ -1382,8 +1382,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$103M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 65000000,
@@ -1968,8 +1968,8 @@
       "valuation_confidence": "high",
       "valuation_as_of": "2026-02",
       "total_funding_display": "$56.7B+",
-      "last_verified": "2026-05-28T10:00:00-08:00",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Chris Olah",
     "institution_display": "University of Toronto",
@@ -2275,7 +2275,7 @@
         "https://www.appdirect.com/about/press/releases/appdirect-secures-185-million-of-funding-to-fuel-global-expansion",
         "https://www.cdpq.com/en/news/pressreleases/cdpq-partners-with-appdirect-to-launch-appdirect-capital"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "founder-first-discovery; added CDPQ debt rounds ($80M 2021, $100M 2024); $1.5B valuation sourced from The Logic (Series F 2020)",
       "valuation_usd": 1500000000,
       "valuation_display": "$1.5B",
@@ -2284,7 +2284,7 @@
       "valuation_confidence": "high",
       "valuation_source_url": "https://thelogic.co/news/appdirect-valued-at-north-of-us1-5-billion-after-closing-new-funding-round/",
       "total_funding_display": "$611M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Daniel Saks, Nicolas Desmarais",
     "institution_display": "McGill University",
@@ -3222,8 +3222,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$51M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 50700000,
@@ -3587,8 +3587,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": 252000000,
@@ -4157,7 +4157,7 @@
         "https://www.aven.com/press/series-d",
         "https://www.aven.com/press/series-e"
       ],
-      "last_verified": "2026-04-12T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 2200000000,
       "valuation_display": "$2.2B",
@@ -4167,7 +4167,7 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/aven-2",
       "total_funding_display": "$252M+",
       "valuation_as_of": "2025-09",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Sadi Khan",
     "institution_display": "University of Waterloo",
@@ -4378,8 +4378,8 @@
       "valuation_confidence": "medium",
       "valuation_as_of": "2022-02",
       "total_funding_display": "$297M",
-      "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "",
     "capital_raised_usd": 197450000,
@@ -4463,7 +4463,7 @@
       "sources": [
         "https://www.crunchbase.com/organization/bamboo-health"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 900000000,
       "valuation_display": "$900M",
@@ -4471,7 +4471,7 @@
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/bamboo-health",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Nishi Rawat",
     "institution_display": "McGill University",
@@ -4640,7 +4640,7 @@
       "sources": [
         "https://www.crunchbase.com/organization/baselane"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
@@ -4649,7 +4649,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/baselane",
       "total_funding_display": "$42.3M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Jad Yaghi",
     "institution_display": "University of Toronto",
@@ -5121,7 +5121,7 @@
         "https://www.businesswire.com/news/home/20180129005703/en/BigID-Closes-14-Million-Series-A-Funding",
         "https://www.crunchbase.com/organization/bigid"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 1250000000,
       "valuation_display": "$1.25B",
@@ -5131,7 +5131,7 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/bigid",
       "total_funding_display": "$308M",
       "valuation_as_of": "2020-12",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Dimitri Sirota",
     "institution_display": "McGill University",
@@ -6584,7 +6584,7 @@
       "sources": [
         "https://www.crunchbase.com/organization/greenlite"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "founder-first-discovery",
       "valuation_usd": 150000000,
       "valuation_display": "$150M",
@@ -6592,7 +6592,7 @@
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/greenlite",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Will Lawrence, Alex Jin",
     "institution_display": "University of British Columbia, Queen's University",
@@ -9223,11 +9223,11 @@
         "https://en.wikipedia.org/wiki/Consensys",
         "https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur)"
       ],
-      "last_verified": "2026-05-07T10:00:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "manual-add",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Joe Lubin",
     "institution_display": "",
@@ -10492,10 +10492,10 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "id": "425"
   },
@@ -11170,11 +11170,11 @@
         "https://www.businesswire.com/news/home/20260331071577/en/Applied-AI-Lab-depthfirst-Announces-$80-Million-in-Series-B-Funding",
         "https://siliconangle.com/2026/03/31/depthfirst-raises-80m-expand-ai-native-security-platform-train-domain-specific-models/"
       ],
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$120M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 120000000,
@@ -12672,7 +12672,7 @@
         "https://www.crunchbase.com/organization/enfabrica",
         "https://pitchbook.com/news/articles/nvidia-backed-ai-chipmaker-enfabrica-raises-115m-series-c"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 1300000000,
       "valuation_display": "$1.3B",
@@ -12681,7 +12681,7 @@
       "valuation_confidence": "high",
       "valuation_source_url": "https://www.crunchbase.com/organization/enfabrica",
       "total_funding_display": "$290M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Rochan Sankar",
     "institution_display": "University of Toronto",
@@ -12804,8 +12804,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$171M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "Carleton University",
     "capital_raised_usd": 269000000,
@@ -13176,7 +13176,7 @@
         "https://theorg.com/org/evenup/org-chart/saam-mashhad",
         "https://www.evenuplaw.com/blog/evenup-series-b"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 2000000000,
       "valuation_display": "$2B",
@@ -13186,7 +13186,7 @@
       "valuation_source_url": "https://techcrunch.com/2024/10/15/litigation-tech-startup-evenup-raises-series-d/",
       "total_funding_display": "$371M",
       "valuation_as_of": "2025-10",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Saam Mashhad",
     "institution_display": "McGill University",
@@ -13335,8 +13335,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$31M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 31000000,
@@ -13415,11 +13415,11 @@
         "https://moleculargenetics.utoronto.ca/news/start-founded-philip-kims-research-raises-535m-ai-driven-obesity-solutions",
         "https://www.versantventures.com/portfolio/fable-therapeutics"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$53.5M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "David Duvenaud",
     "institution_display": "University of British Columbia",
@@ -13658,7 +13658,7 @@
         "https://techcrunch.com/2022/05/10/faire-series-g/",
         "https://www.bloomberg.com/news/articles/2025-11-17/faire-begins-employee-share-sale-at-5-2-billion-value-eyes-ipo"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 5200000000,
       "valuation_display": "$5.2B",
@@ -13668,7 +13668,7 @@
       "valuation_source_url": "https://www.bloomberg.com/news/articles/2025-11-17/faire-begins-employee-share-sale-at-5-2-billion-value-eyes-ipo",
       "total_funding_display": "$1.4B",
       "valuation_as_of": "2025-11",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Marcelo Cortes",
     "institution_display": "University of Waterloo",
@@ -14651,8 +14651,8 @@
     "metadata": {
       "valuation_usd": 2500000000,
       "valuation_display": "$2.5B",
-      "last_verified": "2026-06-06T10:00:00-08:00",
-      "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos."
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -17263,12 +17263,12 @@
         "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
         "https://betakit.com/work-automation-platform-gumloop-raises-24-5-million-series-a-as-it-relocates-to-silicon-valley/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "total_funding_display": "$70M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Rahul Behal, Max Brodeur-Urbas",
     "institution_display": "McGill University",
@@ -17849,8 +17849,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -18742,8 +18742,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -19413,8 +19413,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "2023-08",
       "total_funding_display": "$126M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 107000000,
@@ -20824,12 +20824,12 @@
         "https://www.ycombinator.com/companies/landed",
         "https://www.linkedin.com/in/jonathan-asmis/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "total_funding_display": "$38.62M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Jonathan Asmis",
     "institution_display": "University of Toronto",
@@ -20947,12 +20947,12 @@
       "sources": [
         "https://www.letter.ai/blog/announcing-our-series-b-and-letter-compass-launch"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "total_funding_display": "$51M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Armen Forget",
     "institution_display": "Concordia University",
@@ -21039,8 +21039,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "2023-02",
       "total_funding_display": "$69M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 69000000,
@@ -21880,8 +21880,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -21960,11 +21960,11 @@
         "https://www.linkedin.com/in/jacob-beckerman",
         "https://www.crunchbase.com/organization/macro-software"
       ],
-      "last_verified": "2026-04-22T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "~$30M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Jacob Beckerman",
     "institution_display": "Upper Canada College",
@@ -22055,8 +22055,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$80M+",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 79000000,
@@ -22468,8 +22468,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$70M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 70000000,
@@ -23459,11 +23459,11 @@
         "https://www.ycombinator.com/companies/mintlify",
         "https://www.mintlify.com/blog/series-b"
       ],
-      "last_verified": "2026-04-14T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
       "total_funding_display": "$67M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Han Wang",
     "institution_display": "",
@@ -24436,7 +24436,7 @@
         "https://www.globenewswire.com/news-release/2022/09/20/2519258/0/en/Movellus-Secures-23M-in-Series-B-Funding",
         "https://www.crunchbase.com/organization/movellus"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 200000000,
       "valuation_display": "$200M",
@@ -24445,7 +24445,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/movellus",
       "total_funding_display": "$29M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Mo Faisal",
     "institution_display": "University of Waterloo",
@@ -24574,7 +24574,7 @@
         "https://www.crunchbase.com/organization/nantomics",
         "https://www.nanalyze.com/2015/09/11-of-dr-soon-shiongs-nant-companies/"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
@@ -24583,7 +24583,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/nantomics",
       "total_funding_display": "$150M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Patrick Soon-Shiong",
     "institution_display": "University of British Columbia",
@@ -25121,7 +25121,7 @@
         "https://en.wikipedia.org/wiki/Neuralink",
         "https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 9700000000,
       "valuation_display": "$9.7B",
       "valuation_source": "Series E Jun 2025 post-money",
@@ -25129,7 +25129,7 @@
       "valuation_confidence": "high",
       "valuation_source_url": "https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/",
       "total_funding_display": "$1.3B+",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Elon Musk",
     "institution_display": "Queen's University",
@@ -26017,7 +26017,7 @@
         "https://www.businesswire.com/news/home/20200811005313/en/Atomwise-Raises-123-Million-in-Series-B-Financing-Co-Led-by-B-Capital-Group-and-Sanabil",
         "https://www.utoronto.ca/news/co-founder-atomwise-returns-u-t-speak-about-starting-his-ai-powered-drug-discovery-business"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "alumni-discovery",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
@@ -26026,7 +26026,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/atomwise",
       "total_funding_display": "$319M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Abraham Heifets, Izhar Wallach",
     "institution_display": "University of Toronto",
@@ -26785,8 +26785,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$625K",
-      "last_verified": "2026-07-09T12:00:00-08:00",
-      "notes": "Palo Alto. Founders Jeffrey Morgan & Michael Chiang (Waterloo). Total $88M raised (Series A $15M Benchmark, Series B $65M Theory Ventures + early/undisclosed rounds). Valuation not disclosed."
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Palo Alto. Founders Jeffrey Morgan & Michael Chiang (Waterloo). Total $88M raised (Series A $15M Benchmark, Series B $65M Theory Ventures + early/undisclosed rounds). Valuation not disclosed. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 88000000,
@@ -26853,11 +26853,11 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Akshay Nanduri",
     "institution_display": "University of Waterloo",
@@ -28349,8 +28349,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$80M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 80250000,
@@ -28858,7 +28858,7 @@
         "https://www.businesswire.com/news/home/20260220742173/en/Pepper-Secures-$50-Million-Series-C",
         "https://www.crunchbase.com/organization/pepper-19d6"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 800000000,
       "valuation_display": "$800M",
@@ -28867,7 +28867,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/pepper-19d6",
       "total_funding_display": "$96M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Bowie Cheung",
     "institution_display": "University of Toronto",
@@ -28999,7 +28999,7 @@
         "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
         "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$300M",
       "valuation_usd": 1300000000,
       "valuation_display": "$1.3B",
@@ -29007,7 +29007,7 @@
       "valuation_type": "funding_post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Liam Fedus",
     "institution_display": "Université de Montréal",
@@ -29482,8 +29482,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$35M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 35000000,
@@ -30521,10 +30521,10 @@
       "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
     ],
     "metadata": {
-      "last_verified": "2026-05-01T11:37:00-07:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 525000000,
       "valuation_display": "$525M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "capital_raised_usd": 110500000,
     "capital_raised_display": "$110.5M",
@@ -31377,8 +31377,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-04-30T16:00:00-07:00",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Victoria",
     "capital_raised_usd": 124000000,
@@ -32190,7 +32190,7 @@
         "https://www.investpsp.com/en/news/reflexion-raises-100-million-for-cancer-treatment-commercialization/",
         "https://reflexion.com/press-releases/reflexion-medical-raises-100-million-series-c/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 1400000000,
       "valuation_display": "$1.4B",
@@ -32199,7 +32199,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://www.crunchbase.com/organization/reflexion-medical",
       "total_funding_display": "$451M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Sam Mazin",
     "institution_display": "University of Waterloo",
@@ -35214,8 +35214,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$67M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "McMaster University",
     "capital_raised_usd": 61650000,
@@ -35561,7 +35561,7 @@
         "https://techcrunch.com/2021/03/22/side-raises-150m-at-1b-valuation/",
         "https://techcrunch.com/2022/03/side-raises-series-d/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 2500000000,
       "valuation_display": "$2.5B",
@@ -35571,7 +35571,7 @@
       "valuation_as_of": "2021-06",
       "valuation_confidence": "high",
       "total_funding_display": "$262M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Guy Gal",
     "institution_display": "York University",
@@ -36287,13 +36287,13 @@
         "https://www.slash.com",
         "https://www.businesswire.com/news/home/20260415566517/en/Slash-Achieves-Unicorn-Status-Following-$100m-Series-C-Fundraise"
       ],
-      "last_verified": "2026-04-16T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$160M+",
       "valuation_usd": 1400000000,
       "valuation_display": "$1.4B",
       "valuation_type": "post-money",
       "valuation_as_of": "2026",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Kevin Bai",
     "institution_display": "University of Waterloo",
@@ -37882,11 +37882,11 @@
         "https://www.businesswire.com/news/home/20260324472369/en/Spade-Announces-$40m-Series-B-Raise-to-Build-The-Data-and-AI-Platform-for-Modern-Finance",
         "https://blog.spade.com/spade-raises-5m-in-seed-funding-led-by-a16z/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$55M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Oban MacTavish",
     "institution_display": "University of British Columbia",
@@ -39182,7 +39182,7 @@
         "https://www.crunchbase.com/organization/substack",
         "https://uwaterloo.ca/engineering/news/alumnis-startup-substack-raises-usd-100m"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 1100000000,
       "valuation_display": "$1.1B",
@@ -39192,7 +39192,7 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/substack",
       "total_funding_display": "$183M",
       "valuation_as_of": "2025-07",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Chris Best, Jairaj Sethi",
     "institution_display": "University of Waterloo",
@@ -39530,11 +39530,11 @@
         "https://pulse2.com/superblocks-profile-brad-menezes-interview/",
         "https://www.linkedin.com/in/bradmenezes"
       ],
-      "last_verified": "2026-04-14T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "$60M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Brad Menezes",
     "institution_display": "University of Toronto",
@@ -39647,7 +39647,7 @@
         "https://en.wikipedia.org/wiki/Grammarly",
         "https://techcrunch.com/2021/11/17/grammarly-raises-200m-at-a-13b-valuation/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 825000000,
       "valuation_display": "$825M",
@@ -39657,7 +39657,7 @@
       "valuation_source_url": "https://techcrunch.com/2021/11/17/grammarly-raises-200m-at-a-13b-valuation/",
       "total_funding_display": "$118M",
       "valuation_as_of": "2021-08",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Alex Shevchenko",
     "institution_display": "University of Toronto",
@@ -40226,11 +40226,11 @@
         "https://en.wikipedia.org/wiki/Chad_Rigetti",
         "https://www.ycombinator.com/companies/sygaldry-technologies"
       ],
-      "last_verified": "2026-04-14T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "total_funding_display": "$139M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Chad Rigetti",
     "institution_display": "University of Regina",
@@ -41318,7 +41318,7 @@
         "https://www.crunchbase.com/person/ljubisa-bajic",
         "https://betakit.com/hardware-startup-tenstorrent-raises-over-200-million-in-funding-claims-1-billion-valuation/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "",
       "valuation_usd": 2700000000,
       "valuation_display": "$2.7B",
@@ -41327,7 +41327,7 @@
       "valuation_confidence": "medium",
       "valuation_source_url": "https://techcrunch.com/2025/01/13/ai-chip-startup-tenstorrent-raises-693m/",
       "total_funding_display": "$927M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Ljubisa Bajic",
     "institution_display": "University of Toronto",
@@ -41882,8 +41882,8 @@
       "valuation_confidence": "high",
       "valuation_as_of": "2022-04",
       "total_funding_display": "$908M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "Queen's University",
     "capital_raised_usd": 908000000,
@@ -42778,11 +42778,11 @@
         "https://transcend.io/blog/transcend-series-b",
         "https://www.businesswire.com/news/home/20200610005207/en/Transcend-Raises-%2425M-to-Power-Data-Privacy-Inside-Every-Company"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$69M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Ben Brook",
     "institution_display": "",
@@ -43256,7 +43256,7 @@
         "https://www.businesswire.com/news/home/20211006005297/en/Twin-Health-Raises-$140M-Series-C",
         "https://fortune.com/2025/08/21/exclusive-twin-health-metabolic-health-startup-raises-53-million-series-e/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": 950000000,
       "valuation_display": "$950M",
@@ -43266,7 +43266,7 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/twin-health",
       "total_funding_display": "$243M",
       "valuation_as_of": "2025-08",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Jahangir Mohammed",
     "institution_display": "Concordia University",
@@ -44322,7 +44322,7 @@
         "https://techcrunch.com/2024/06/20/vapi-the-platform-for-building-voice-ai-agents/",
         "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A"
       ],
-      "last_verified": "2026-05-12T09:16:00-08:00",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass; corrected valuation from $500M to $130M, added seed round and co-founder Nikhil Gupta",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
@@ -44331,7 +44331,7 @@
       "valuation_confidence": "high",
       "valuation_source_url": "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A",
       "total_funding_display": "$72.1M",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Jordan Dearsley",
     "institution_display": "University of Waterloo",
@@ -44408,12 +44408,12 @@
         "https://www.globenewswire.com/news-release/2017/03/08/1219472/0/en/Align-Commerce-Raises-24-Million-Series-B.html",
         "https://www.veem.com/newsroom/veem-secures-31m-in-strategic-funding-round/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "total_funding_display": "$93M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Marwan Forzley",
     "institution_display": "University of Ottawa",
@@ -44734,8 +44734,8 @@
       "valuation_confidence": "high",
       "valuation_as_of": "2024-02",
       "total_funding_display": "$239M",
-      "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 184000000,
@@ -45475,8 +45475,8 @@
       "valuation_confidence": "high",
       "valuation_as_of": "2024-09",
       "total_funding_display": "$151M",
-      "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 150600000,
@@ -45756,11 +45756,11 @@
         "https://www.linkedin.com/in/tyler-reid-06398936/",
         "https://www.xonaspace.com"
       ],
-      "last_verified": "2026-03-30T00:00:00Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "total_funding_display": "$170M+",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Tyler Reid",
     "institution_display": "McGill University",
@@ -46205,11 +46205,11 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T12:00:00-08:00",
       "import_notes": "friend-csv-full-pass",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "founder_display": "Mark Gilbert",
     "institution_display": "University of Waterloo",
