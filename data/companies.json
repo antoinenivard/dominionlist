@@ -1580,7 +1580,7 @@
     "hq_country": "United States",
     "founding_year": 2023,
     "industry": "Health",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -1601,47 +1601,55 @@
     ],
     "funding_rounds": [
       {
-        "date": "",
+        "date": "2025",
         "round": "Seed",
-        "amount_usd": 6000000,
-        "amount_display": "$6M",
+        "amount_usd": 6500000,
+        "amount_display": "$6.5M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "General Catalyst",
+          "GSV Ventures"
+        ],
         "other_investors": [],
         "source_urls": [
-          "https://www.crunchbase.com/organization/amigo"
+          "https://www.amigo.ai/blog/healthcare-ai-guy"
         ],
-        "notes": ""
+        "notes": "Co-led by General Catalyst and GSV Ventures. $6.5M per Amigo's own blog; press coverage rounds cumulative total to $17M."
       },
       {
-        "date": "",
+        "date": "2026-03",
         "round": "Series A",
         "amount_usd": 11000000,
         "amount_display": "$11M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/amigo"
+        "lead_investors": [
+          "Madrona"
         ],
-        "notes": ""
+        "other_investors": [
+          "Optum Ventures"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260310898882/en/Amigo-AI-Raises-$11M-Series-A-to-Train-Clinical-AI-Agents-Like-Doctors"
+        ],
+        "notes": "Announced 2026-03-10. 3M+ autonomous patient encounters; Epic/Oracle Health/Athenahealth integrations."
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Stage corrected Seed->Series A: $11M Series A led by Madrona announced 2026-03-10; prior rounds were undated/unattributed. Domain amigo.ai + founder Ali Khokhar confirmed in BusinessWire release. Total $17.5M ($6.5M+$11M); press states '$17M total'. FORWARD SIGNAL: Axios (2026-03-10) reports Khokhar in talks for a $30-50M Series B before end of 2026 - recheck in Q4.",
+      "total_funding_display": "$17.5M"
     },
     "founder_display": "Ali Khokhar",
     "institution_display": "Queen's University",
     "hq_display": "New York, NY",
-    "capital_raised_usd": 17000000,
-    "capital_raised_display": "$17M",
+    "capital_raised_usd": 17500000,
+    "capital_raised_display": "$17.5M",
     "icon_url": ""
   },
   {
@@ -4511,20 +4519,26 @@
     ],
     "funding_rounds": [
       {
-        "date": "",
+        "date": "2024-05",
         "round": "Seed",
         "amount_usd": 3500000,
         "amount_display": "$3.5M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "Initialized Capital"
+        ],
         "other_investors": [
-          "Y Combinator"
+          "Y Combinator",
+          "General Catalyst",
+          "Liquid 2 Ventures",
+          "Transpose Platform"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/basalt"
+          "https://www.cbinsights.com/company/basalt-tech/financials",
+          "https://news.crunchbase.com/venture/yc-winter-batch-2024-ai-startup-seed-funding/"
         ],
-        "notes": ""
+        "notes": "$3.5M seed dated 2024-05-30 by CB Insights, led by Initialized Capital. A separate 2024-01 convertible note brings the $4M total."
       }
     ],
     "metadata": {
@@ -4532,12 +4546,12 @@
         "https://www.ycombinator.com/companies/basalt",
         "https://betakit.com/here-are-the-canadian-startups-in-y-combinators-winter-2024-batch/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
       "total_funding_display": "$4M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "No new round; $4M total confirmed by CB Insights ($3.5M seed + convertible note). Seed now dated and attributed. MILESTONE: launched Spirit-EEL, described by YC as the first AI-controlled satellite constellation; positioning has moved from 'Dispatch' spacecraft OS to 'Constellations as a Service' powered by Diamond AI - DB description is stale. Canadian founder Alex Choi (U of T, COO) confirmed on YC profile alongside CEO Max."
     },
     "founder_display": "Alex Choi",
     "institution_display": "University of Toronto",
@@ -5171,20 +5185,23 @@
     ],
     "funding_rounds": [
       {
-        "date": "",
+        "date": "2025-07",
         "round": "Seed",
         "amount_usd": 3100000,
         "amount_display": "$3.1M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "Khosla Ventures"
+        ],
         "other_investors": [
+          "Mission Street Capital",
           "Y Combinator"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/bild-ai"
+          "https://www.proptechbuzz.com/news/bild-construction-ai-funding"
         ],
-        "notes": ""
+        "notes": "$3.1M seed announced July 2025, led by Khosla Ventures; angels Ryan Sutton-Gee and Ooshma Garg. A Feb 2025 round accounts for the remainder of the $3.6M total."
       }
     ],
     "metadata": {
@@ -5192,12 +5209,12 @@
         "https://www.ycombinator.com/companies/bild-ai",
         "https://www.linkedin.com/in/puneet-sukhija/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
       "total_funding_display": "$3.6M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "No new round since 2025-07 seed. Status Active on YC as of this check. Canadian founder Puneet Sukhija confirmed (dropped out of CS at UBC; built hundreds of houses in Canada per his YC bio and the Launch HN post). NOTE: product has narrowed - YC now describes Bild as Division 8 estimating (doors, frames, hardware) exporting into Comsense/Avaware/ProTech, not general blueprint reading; DB description is stale."
     },
     "founder_display": "Puneet Sukhija",
     "institution_display": "University of British Columbia",
@@ -5360,7 +5377,7 @@
     "hq_country": "United States",
     "founding_year": 2024,
     "industry": "Enterprise",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "yc_batch": "W'24",
     "founders": [
@@ -5445,6 +5462,25 @@
           "https://www.crunchbase.com/organization/blacksmith"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-08",
+        "round": "Series B",
+        "amount_usd": 45000000,
+        "amount_display": "$45M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Peak XV Partners"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Google Ventures"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/blacksmith-raises-45m-series-b-from-peak-xv-partners-as-ai-generated-code-drives-demand-for-faster-code-validation-302849104.html"
+        ],
+        "notes": "Announced 2026-08-12. 6,000+ customers incl. Supabase, Clerk, Ashby, Mercury. Also ships 'codesmith', a cloud coding agent."
       }
     ],
     "metadata": {
@@ -5454,18 +5490,18 @@
         "https://www.ycombinator.com/companies/blacksmith",
         "https://www.prnewswire.com/news-releases/blacksmith-raises-10m-to-unblock-ai-development-302559870.html"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
-      "total_funding_display": "$14M",
+      "total_funding_display": "$59M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release."
     },
     "founder_display": "Aditya Jayaprakash, Aayush Shah, Aditya Maru",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 14000000,
-    "capital_raised_display": "$14M",
+    "capital_raised_usd": 59000000,
+    "capital_raised_display": "$59M",
     "icon_url": ""
   },
   {
@@ -7600,8 +7636,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "No new round. Active and shipping as of 2026-06. Note: a 'March 2026 funding' item on Riley Tomasek's LinkedIn feed refers to a different company (Mega), not Charlie Labs."
     },
     "institution_display": "University of British Columbia",
     "capital_raised_usd": 10000000,
@@ -10397,12 +10433,12 @@
         "https://www.ycombinator.com/companies/datacurve",
         "https://www.linkedin.com/in/serena-ge/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
       "total_funding_display": "$18.2M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "No new round since 2025-10 Series A ($15M, Chemistry). Total $17.7-18.2M consistent. FLAG: co-founder Charley Lee (Waterloo CS) missing from founders list."
     },
     "founder_display": "Serena Ge",
     "institution_display": "University of Waterloo",
@@ -14306,8 +14342,8 @@
         "round": "Series A",
         "amount_usd": 17000000,
         "amount_display": "$17M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 150000000,
+        "valuation_display": "$150M",
         "lead_investors": [
           "Venrock"
         ],
@@ -14330,16 +14366,16 @@
         "https://www.ycombinator.com/companies/finny-ai",
         "https://www.businesswire.com/news/home/20251217208184/en/FINNY-the-AI-Powered-Prospecting-and-Marketing-Platform-for-Advisors-Closes-17-Million-Series-A-Funding-Round"
       ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_usd": 150000000,
+      "valuation_display": "$150M",
+      "valuation_source_url": "https://www.forbes.com/sites/martinacastellanos/2025/12/18/finny-raises-17-million-as-it-seeks-to-upend-advisor-prospecting-with-artificial-intelligence/",
+      "valuation_source_type": "press",
+      "valuation_type": "post-money",
+      "valuation_confidence": "medium",
+      "valuation_as_of": "2025-12",
       "total_funding_display": "$21.3M",
-      "last_verified": "2026-04-13T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "No new round since 2025-12 Series A. Forbes reports $150M valuation on that round. Third co-founder Victoria Toli (Stanford CS) not listed here - non-Canadian, so out of scope."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 21300000,
@@ -17417,7 +17453,7 @@
     "hq_country": "US",
     "founding_year": 2022,
     "industry": "Industrial",
-    "stage": "Series A",
+    "stage": "Seed",
     "status": "Active",
     "yc_batch": "S'22",
     "icon_url": "",
@@ -17437,34 +17473,28 @@
     ],
     "funding_rounds": [
       {
-        "date": "2023-01-01",
+        "date": "",
         "round": "Seed",
-        "amount_usd": 12500000,
-        "amount_display": "$12.5M",
+        "amount_usd": 4000000,
+        "amount_display": "$4M+",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
         "other_investors": [
-          "Y Combinator"
+          "Y Combinator",
+          "Haystack",
+          "UpHonest Capital",
+          "Collaborative Fund",
+          "Pear VC",
+          "Soma Capital",
+          "Great Circle Ventures",
+          "Shared Future Fund"
         ],
         "source_urls": [
-          "https://tracxn.com/d/companies/hedgehoglab/"
+          "https://www.forbes.com/profile/hedgehog/",
+          "https://ycombinator.com/companies/hedgehog-2"
         ],
-        "notes": "Approximate amount."
-      },
-      {
-        "date": "2025-04-01",
-        "round": "Series B",
-        "amount_usd": null,
-        "amount_display": "",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [
-          "https://pitchbook.com/profiles/company/490208-95"
-        ],
-        "notes": "Amount undisclosed."
+        "notes": "Forbes: raised $4M+ since Feb 2022 launch. Amount is a floor, not an exact total."
       }
     ],
     "metadata": {
@@ -17478,13 +17508,13 @@
       "valuation_type": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "total_funding_display": "$13M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "total_funding_display": "$4M+",
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "DATA CORRECTION: prior $12.5M round was sourced from tracxn.com/d/companies/hedgehoglab/ = 'hedgehog lab', a UK digital-product consultancy. Wrong company. The 2025-04 undisclosed 'Series B' from PitchBook 490208-95 was unverifiable and likely the same contamination; removed. Correct entity is Hedgehog Foods Inc. (hedgehogfoods.com, Palo Alto, YC S22, Balsillie + Ruotolo), $4M+ per Forbes. SEPARATE FLAG: Jamie Balsillie's Canadian connection is asserted but unsourced here - all public bios cite Stanford MBA / McKinsey / Indigo. Needs verification."
     },
     "institution_display": "",
-    "capital_raised_usd": 13000000,
-    "capital_raised_display": "$13M"
+    "capital_raised_usd": 4000000,
+    "capital_raised_display": "$4M+"
   },
   {
     "id": "helios",
@@ -20324,7 +20354,21 @@
     ],
     "funding_rounds": [
       {
-        "date": "2024-09",
+        "date": "",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://newsroom.paypal-corp.com/2025-09-02-Kite-Raises-18M-in-Series-A-Funding-To-Enforce-Trust-in-the-Agentic-Web"
+        ],
+        "notes": "Previously unannounced seed, disclosed at Series A. Implied ~$15M from the stated $33M cumulative total."
+      },
+      {
+        "date": "2025-09",
         "round": "Series A",
         "amount_usd": 18000000,
         "amount_display": "$18M",
@@ -20335,16 +20379,15 @@
           "General Catalyst"
         ],
         "other_investors": [
-          "PayPal Ventures",
-          "General Catalyst",
           "8VC",
-          "Samsung Ventures",
+          "Samsung Next",
           "Alumni Ventures"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/kite"
+          "https://newsroom.paypal-corp.com/2025-09-02-Kite-Raises-18M-in-Series-A-Funding-To-Enforce-Trust-in-the-Agentic-Web",
+          "https://www.generalcatalyst.com/stories/our-investment-in-kite"
         ],
-        "notes": ""
+        "notes": "Announced 2025-09-02 (DB previously dated this 2024-09, which was wrong)."
       }
     ],
     "metadata": {
@@ -20359,12 +20402,12 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$33M",
-      "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "Capital corrected $18M->$33M (Series A coverage states $33M cumulative incl. an earlier unannounced seed); metadata.total_funding_display already said $33M. Mainnet + Agent Passport launched 2026-04-30. NOTE: now crosses the $25M Tier-A threshold."
     },
     "institution_display": "University of Waterloo",
-    "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M"
+    "capital_raised_usd": 33000000,
+    "capital_raised_display": "$33M"
   },
   {
     "id": "kiva-systems",
@@ -20697,7 +20740,7 @@
     "hq_country": "US",
     "founding_year": 2023,
     "industry": "AI",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Active",
     "yc_batch": null,
     "icon_url": "",
@@ -20735,6 +20778,29 @@
           "https://www.crunchbase.com/organization/landbase"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025-06",
+        "round": "Series A",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Sound Ventures",
+          "Picus Capital"
+        ],
+        "other_investors": [
+          "8VC",
+          "A*",
+          "Firstminute Capital",
+          "TheGP"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20250612217609/en/Landbase-Raises-$30-Million-Series-A-to-Help-Businesses-Find-Their-Next-Customer",
+          "https://www.landbase.com/blog/landbase-raises-30-million-series-a-to-help-businesses-find-their-next-customer"
+        ],
+        "notes": "Announced 2025-06-12, co-led by Sound Ventures (Ashton Kutcher/Guy Oseary) and returning investor Picus Capital. 825% revenue growth in 2025, 150 paid customers."
       }
     ],
     "metadata": {
@@ -20748,13 +20814,13 @@
       "valuation_type": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "total_funding_display": "$12.5M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "total_funding_display": "$42.5M",
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "MISSED ROUND: $30M Series A announced 2025-06-12 was absent from the DB entirely; total $12.5M->$42.5M, stage Seed->Series A. Domain landbase.com + founder Daniel Saks confirmed in BusinessWire release and on Landbase's own blog. NOTE: now crosses the $25M Tier-A threshold. Landbase also acquired Adauris (custom intent signals via content generation) - acquisition date unconfirmed, worth a follow-up. Co-founder Emily Zhang (ex-OysterHR, Carta) not listed here."
     },
     "institution_display": "",
-    "capital_raised_usd": 12500000,
-    "capital_raised_display": "$12.5M"
+    "capital_raised_usd": 42500000,
+    "capital_raised_display": "$42.5M"
   },
   {
     "id": "landed",
@@ -24034,12 +24100,12 @@
         "https://www.ycombinator.com/companies/momentic",
         "https://www.linkedin.com/in/jeff-an/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "import_notes": "",
       "total_funding_display": "$19.2M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "No new round since 2025-11 Series A ($15M, Standard Capital). $19.2M total confirmed ($500K YC + $3.7M seed + $15M A); Tracxn's $22.8M is an aggregator outlier."
     },
     "founder_display": "Jeff An",
     "institution_display": "University of Waterloo",
@@ -24639,19 +24705,25 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025-04-01",
+        "date": "2024-08",
         "round": "Seed",
         "amount_usd": 4500000,
         "amount_display": "$4.5M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [],
-        "notes": "Part of total $22.5M raised"
+        "lead_investors": [
+          "XYZ Venture Capital"
+        ],
+        "other_investors": [
+          "Reach Capital"
+        ],
+        "source_urls": [
+          "https://pulse2.com/nationgraph-18-million-raised-to-expand-ai-platform-for-public-sector-sales/"
+        ],
+        "notes": "DB previously dated this 2025-04; actual seed was August 2024."
       },
       {
-        "date": "2025-12-01",
+        "date": "2026-02",
         "round": "Series A",
         "amount_usd": 18000000,
         "amount_display": "$18M",
@@ -24666,9 +24738,10 @@
           "Reach Capital"
         ],
         "source_urls": [
+          "https://www.globenewswire.com/news-release/2026/02/25/3244553/0/en/NationGraph-Raises-18M-Series-A-to-Help-Businesses-Predict-and-Win-Public-Sector-Sales.html",
           "https://betakit.com/nationgraph-raises-18-million-usd-to-bring-ai-to-the-black-box-of-government-contracting/"
         ],
-        "notes": "Closed Q4 2025, announced Feb 2026. Total funding $22.5M."
+        "notes": "Closed Q4 2025, announced 2026-02-25. DB previously dated this 2025-12."
       }
     ],
     "capital_raised_usd": 22500000,
@@ -24677,8 +24750,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "Total $22.5M confirmed; both round dates corrected (seed 2025-04->2024-08, Series A 2025-12->2026-02 announcement). Canadian attribution reconfirmed by BetaKit: Eden Ding is Canadian (UBC), Hamidi studied at UVic; ~half of the 20-person team is in Toronto, offices SF/Toronto/Miami."
     }
   },
   {
@@ -25438,21 +25511,46 @@
     ],
     "funding_rounds": [
       {
-        "date": "2023",
+        "date": "2023-10",
         "round": "Seed",
-        "amount_usd": 18000000,
-        "amount_display": "$18M",
+        "amount_usd": 3300000,
+        "amount_display": "$3.3M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "Polychain"
+        ],
         "other_investors": [
-          "Polychain Capital",
-          "Paradigm"
+          "Borderless Capital",
+          "Wintermute",
+          "Circle Ventures",
+          "CMCC Global",
+          "Hustle Fund",
+          "Interop Ventures"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/noble"
+          "https://www.gate.com/learn/articles/noble-focusing-on-stablecoin-asset-issuance-deepening-liquidity-in-the-cosmos-ecosystem/6331"
         ],
-        "notes": ""
+        "notes": "Seed led by Polychain, October 2023."
+      },
+      {
+        "date": "2024-11",
+        "round": "Series A",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Paradigm"
+        ],
+        "other_investors": [
+          "Polychain",
+          "Foresight Ventures"
+        ],
+        "source_urls": [
+          "https://noble.xyz/blog/accelerating-stablecoin-adoption"
+        ],
+        "notes": "Series A led by Paradigm, announced on Noble's own blog."
       }
     ],
     "metadata": {
@@ -25466,13 +25564,13 @@
       "valuation_type": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "total_funding_display": "$18M+",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "total_funding_display": "$18.3M",
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "No new round since 2024-11. DB previously held a single undated '2023' $18M round; that is actually two rounds ($3.3M seed Oct 2023 led by Polychain; $15M Series A Nov 2024 led by Paradigm). Total corrected to $18.3M. FLAGS: (1) co-founder Stefan Coolican is described by Forbes/Upstarts as a 'fellow Canadian' and is called to the Bar of Ontario, but is absent from the founders list - likely a second qualifying Canadian founder. (2) HQ is ambiguous across sources: Tracxn says Etobicoke ON, Dealroom says Austin TX. Needs resolution given the US-HQ inclusion criterion."
     },
     "institution_display": "University of Toronto",
-    "capital_raised_usd": 18000000,
-    "capital_raised_display": "$18M"
+    "capital_raised_usd": 18300000,
+    "capital_raised_display": "$18.3M"
   },
   {
     "id": 344,
@@ -32246,16 +32344,21 @@
         "amount_display": "$10M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
+        "lead_investors": [
           "Greycroft",
-          "FPV Ventures",
-          "Homebrew"
+          "FPV Ventures"
+        ],
+        "other_investors": [
+          "Firebolt Ventures",
+          "Fika Ventures",
+          "Omega Venture Partners",
+          "Homebrew",
+          "JAZZ Venture Partners"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/reken"
+          "https://www.securityweek.com/reken-emerges-from-stealth-with-10-million-seed-funding/"
         ],
-        "notes": ""
+        "notes": "Seed announced 2024-01-31, led by Greycroft and FPV Ventures."
       }
     ],
     "metadata": {
@@ -32270,8 +32373,8 @@
       "valuation_confidence": "",
       "valuation_as_of": "",
       "total_funding_display": "$10M",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-08-14T00:00:00Z",
+      "notes": "No new round; still the $10M seed. MILESTONE: emerged from stealth 2026-07-13 with an on-device AI security platform and first product (Fortune, PRNewswire) - DB description predated the launch. Domain reken.ai + founder Shuman Ghosemajumder confirmed; Canadian connection (Western/UWO) corroborated by Crunchbase and U of T Munk School. FLAG: co-founder Rich Griffiths (ex-Shape Security VP Product, COO) absent from founders list."
     },
     "institution_display": "Western University",
     "capital_raised_usd": 10000000,
@@ -34105,11 +34208,11 @@
         "https://www.coindesk.com/business/2024/10/30/ai-data-collection-startup-sapien-raises-105m-seed-funding-led-by-variant",
         "https://www.sapien.io/blog/sapien-io-a-decentralized-data-foundry-raises-10-5m"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-14T00:00:00Z",
       "total_funding_display": "$15.5M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "No confirmed new equity round. UNRESOLVED TOTALS - do not treat $15.5M as firm: CB Insights says $10.5M round on 2024-10-30 with $15.5M total (matches DB), but Sapien's own blog says that round 'brings our total funding to $10.5M', which would make the DB's $5M + $10.5M a double-count. A Bitget listing page (2025-08) claims $19.2M incl. General Catalyst. Company also has a live SAPIEN token, so token raises may be conflated with equity. FLAG: founder list looks wrong - every source names Rowan Stone (Base co-creator) as CEO and Trevor Koverko as CSO/COO; 'Kelly Ryan' appears in no public source. Koverko's Canadian connection is solid (NHL NY Rangers draft pick, Ivey/Western)."
     },
     "founder_display": "Trevor Koverko, Kelly Ryan",
     "institution_display": "Western University, University of Waterloo",
