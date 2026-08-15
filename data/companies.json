@@ -15757,7 +15757,7 @@
     "hq_country": "US",
     "founding_year": 2024,
     "industry": "AI",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
     "icon_url": "https://vjrxythvfkjsopsrebco.supabase.co/storage/v1/object/public/media-library/1770937231027_converted_1770937229270.jpg",
@@ -15777,46 +15777,7 @@
         "bio": "CEO & Co-Founder of Gather. BEng in Electrical and Computer Engineering from McGill University. MBA from Wharton. Previously co-founded Cooliris (acq. Yahoo) and Pulse Q&A (acq. Gartner)."
       }
     ],
-    "funding_rounds": [
-      {
-        "date": "2021-03-01",
-        "round": "Series A",
-        "amount_usd": 26000000,
-        "amount_display": "$26M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Index Ventures",
-          "Sequoia Capital"
-        ],
-        "other_investors": [
-          "Y Combinator"
-        ],
-        "source_urls": [
-          "https://www.finsmes.com/2021/03/gather-raises-26m-in-series-a-funding.html"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2021-11-01",
-        "round": "Series B",
-        "amount_usd": 50000000,
-        "amount_display": "$50M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Sequoia Capital"
-        ],
-        "other_investors": [
-          "Index Ventures",
-          "Y Combinator"
-        ],
-        "source_urls": [
-          "https://www.finsmes.com/2021/11/gather-raises-50m-in-series-b-funding.html"
-        ],
-        "notes": ""
-      }
-    ],
+    "funding_rounds": [],
     "metadata": {
       "sources": [
         "https://www.linkedin.com/in/imayank/"
@@ -15827,14 +15788,14 @@
       "valuation_source_type": "",
       "valuation_type": "",
       "valuation_as_of": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-14T12:00:00-08:00",
+      "notes": "Backed by Anthropic, True Ventures, Menlo Ventures, Ridge Ventures + super angels (CEOs of G2 and Zendesk); amounts undisclosed. Co-founded by Mayank Mehta (CEO) and Anand (CTO) per company FAQ. CORRECTED: previously carried Gather.town’s 2021 Sequoia/Index rounds ($26M Series A, $50M Series B) — a different company (founder Phillip Wang)."
     },
     "founder_display": "Mayank Mehta",
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 76000000,
-    "capital_raised_display": "$76M"
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed"
   },
   {
     "id": "gdi",
@@ -20655,7 +20616,7 @@
       "valuation_as_of": "",
       "total_funding_display": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": ""
+      "notes": "FOUNDER ATTRIBUTION UNVERIFIED: Kojo’s own site identifies Maria Davidson as CEO and does not mention Ryan Gibson; his Canadian tie is recorded as birthplace with no institution. Company identity (usekojo.com, construction procurement, fka Agora) and funding are correct."
     },
     "institution_display": "",
     "capital_raised_usd": 104000000,
@@ -35773,7 +35734,7 @@
       "total_funding_display": "$100M",
       "valuation_usd": 2000000000,
       "valuation_display": "$2B",
-      "notes": "FOUNDER ATTRIBUTION NEEDS REVIEW: public materials name Joon Sung Park, Michael Bernstein, Percy Liang; DB lists Elaina Yallen (McGill)."
+      "notes": "INCLUSION UNDER REVIEW: simile.com states \"Simile was founded by the researchers\" — Joon Sung Park (Co-founder & CEO), Michael Bernstein (Co-founder & Chief Data Officer), Percy Liang (Co-founder & Chief Scientist), all Stanford; none listed with a Canadian tie. Lainie (Elaina) Yallen (McGill BCom), recorded here as Co-Founder & CCO, does not appear on the company’s founder list. Funding ($200M Series B at $2B, Greenoaks/Index) is verified for this company."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 300000000,
