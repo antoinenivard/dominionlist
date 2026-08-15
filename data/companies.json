@@ -35667,18 +35667,18 @@
     "icon_url": "",
     "founders": [
       {
-        "name": "Elaina Yallen",
+        "name": "Lainie Yallen",
         "linkedin": "https://www.linkedin.com/in/lainie-yallen-619156127",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "McGill BCom (Entrepreneurship, Finance, Desautels). Co-Founder & CCO of Simile. Previously Interim COO & Head of Product at Valence, and at Hebbia.",
+        "bio": "Co-Founder & COO of Simile. McGill BCom (Entrepreneurship & Finance, Desautels). Previously Interim COO & Head of Product at Valence, and at Hebbia.",
         "canadian_connection_type": "education",
         "canadian_institution": "McGill University",
         "canadian_city": "Montreal, QC",
         "canadian_institutions": [
           "McGill University"
         ],
-        "role": ""
+        "role": "Co-Founder & COO"
       }
     ],
     "funding_rounds": [
@@ -35734,7 +35734,7 @@
       "total_funding_display": "$100M",
       "valuation_usd": 2000000000,
       "valuation_display": "$2B",
-      "notes": "INCLUSION UNDER REVIEW: simile.com states \"Simile was founded by the researchers\" — Joon Sung Park (Co-founder & CEO), Michael Bernstein (Co-founder & Chief Data Officer), Percy Liang (Co-founder & Chief Scientist), all Stanford; none listed with a Canadian tie. Lainie (Elaina) Yallen (McGill BCom), recorded here as Co-Founder & CCO, does not appear on the company’s founder list. Funding ($200M Series B at $2B, Greenoaks/Index) is verified for this company."
+      "notes": "Canadian co-founder Lainie Yallen (Co-Founder & COO per her LinkedIn; McGill BCom). Note: simile.com highlights the three Stanford research co-founders (Joon Sung Park CEO, Michael Bernstein CDO, Percy Liang Chief Scientist), who are not listed with Canadian ties."
     },
     "institution_display": "McGill University",
     "capital_raised_usd": 300000000,
