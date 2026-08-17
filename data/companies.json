@@ -5368,6 +5368,47 @@
     "ticker": "BIOA"
   },
   {
+    "id": "blacklake",
+    "name": "Blacklake",
+    "website": "https://www.blacklake.group",
+    "description": "National security firm that sources and deploys emerging technology for the US government and its allies. Identifies innovations from startups and academic labs, backs them with capital and strategic support through the procurement process, and convenes forums and working groups across allied nations. Legal entity Thousand Islands Industries, Inc.",
+    "hq_city": "Austin",
+    "hq_region": "TX",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/blacklake.group?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Robert Deeks",
+        "role": "Founder, CEO & Chairman",
+        "linkedin": "https://www.linkedin.com/in/robertndeeks/",
+        "x_url": "",
+        "bio": "Founder, CEO & Chairman of Blacklake. Thousand Islands Secondary School (Brockville, Ontario) and the University of Western Ontario. Previously founded an e-commerce scaling company in Oxford, UK; earlier at VaynerCommerce and VaynerMedia.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Western University",
+        "canadian_city": "Brockville, ON",
+        "canadian_institutions": [
+          "Western University",
+          "Thousand Islands Secondary School"
+        ]
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T12:00:00-08:00",
+      "notes": "Canadian founder Robert \"Robbie\" Deeks (Thousand Islands Secondary School, Brockville ON; Western University). HQ Austin, TX confirmed. Legal entity Thousand Islands Industries, Inc. dba Blacklake. No disclosed funding rounds."
+    }
+  },
+  {
     "id": "blacksmith",
     "name": "Blacksmith",
     "website": "https://blacksmith.sh",
