@@ -5376,7 +5376,7 @@
     "hq_region": "TX",
     "hq_country": "US",
     "industry": "Industrial",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
@@ -5398,14 +5398,54 @@
         ]
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "",
+    "funding_rounds": [
+      {
+        "date": "2025-08-15",
+        "round": "Seed",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Champion Hill Ventures"
+        ],
+        "other_investors": [
+          "Prevail Private Capital",
+          "Overwatch Capital",
+          "ABFA Investments",
+          "Christian Connors"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/589712-41"
+        ],
+        "notes": "Investors corroborated via Champion Hill Ventures and Overwatch Capital portfolio listings."
+      },
+      {
+        "date": "2026-04-07",
+        "round": "Series A",
+        "amount_usd": 40000000,
+        "amount_display": "$40M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Maple VC"
+        ],
+        "other_investors": [
+          "Thousand Island Industries"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/589712-41"
+        ],
+        "notes": "PitchBook lists \"Thousand Island Industries\" among investors — also Blacklake’s own legal entity (Thousand Islands Industries, Inc. dba Blacklake), so likely a founder holdco participation or a PitchBook entity artifact. Total raised $45M corroborated independently."
+      }
+    ],
+    "capital_raised_usd": 45000000,
+    "capital_raised_display": "$45M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-08-17T12:00:00-08:00",
-      "notes": "Canadian founder Robert \"Robbie\" Deeks (Thousand Islands Secondary School, Brockville ON; Western University). HQ Austin, TX confirmed. Legal entity Thousand Islands Industries, Inc. dba Blacklake. No disclosed funding rounds."
+      "notes": "Canadian founder Robert \"Robbie\" Deeks (Thousand Islands Secondary School, Brockville ON; Western University). HQ Austin, TX confirmed. Legal entity Thousand Islands Industries, Inc. dba Blacklake. Raised $45M across two rounds. Backed by Maple VC, a fund dedicated to Canadian founders building in America."
     }
   },
   {
