@@ -32561,8 +32561,8 @@
   {
     "id": "replicas",
     "name": "Replicas",
-    "website": "https://replicas.dev/",
-    "description": "Background coding agents for engineering teams",
+    "website": "https://tryreplicas.com",
+    "description": "Cloud coding agents for engineering teams. Spawns Claude Code, Codex, Cursor, or Opencode in isolated Linux VMs preloaded with your codebase, tooling, and dependencies, triggered from Slack, Linear, GitHub, or the API.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "United States",
@@ -32621,11 +32621,11 @@
     "capital_raised_display": "$500K",
     "institution_display": "University of Waterloo",
     "founder_display": "Connor Loi, Saai Arora",
-    "icon_url": "",
+    "icon_url": "https://tryreplicas.com/favicon.ico",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-08-14T22:00:00-08:00",
       "notes": ""
     }
   },
