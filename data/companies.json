@@ -11680,14 +11680,14 @@
     "id": "diamond-io",
     "name": "Diamond",
     "website": "https://diamond.io",
-    "description": "AI-native serverless data backend for engineering teams.",
+    "description": "AI-native serverless data backend for engineering teams. Same entity as Diamond Inc., founded 2015 as a personal-data search product, since pivoted.",
     "hq_city": "San Mateo",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "Enterprise",
     "stage": "Seed",
     "status": "Active",
-    "founding_year": 2024,
+    "founding_year": 2015,
     "yc_batch": "",
     "icon_url": "https://img.logo.dev/diamond.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
@@ -11708,16 +11708,24 @@
     ],
     "funding_rounds": [
       {
-        "date": "2024",
+        "date": "2017-03",
         "round": "Seed",
         "amount_usd": 2000000,
         "amount_display": "$2M",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [],
-        "notes": "Approximate; round details not fully disclosed."
+        "other_investors": [
+          "8VC",
+          "Cherubic Ventures",
+          "OVO Fund",
+          "Partech",
+          "Garage Capital"
+        ],
+        "source_urls": [
+          "https://www.diamond.io/about"
+        ],
+        "notes": "$2M+ raised as Diamond Inc. (Mar 2017); the same investor list still appears on the current About page."
       }
     ],
     "capital_raised_usd": 2000000,
@@ -11725,8 +11733,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T12:00:00-08:00",
-      "notes": "Canadian co-founder Leander Lee (Waterloo BCS, ex-Mappedin). Funding figure approximate."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian co-founder Leander Lee (Waterloo BCS, ex-Mappedin). CORRECTED: founded 2015, not 2024 — diamond.io is the same legal entity as Diamond Inc. (2015 personal-data search, founder Pierre Arys), since pivoted. Lee joined as Head Engineer and is now listed Co-Founder & CTO, so his co-founder status may be retroactive — worth confirming."
     }
   },
   {
@@ -24637,8 +24645,8 @@
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "Consumer",
-    "stage": "Series A",
-    "status": "Active",
+    "stage": "Acquired",
+    "status": "Acquired",
     "founding_year": 2020,
     "yc_batch": "",
     "icon_url": "https://img.logo.dev/moonshotbrands.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
@@ -24668,6 +24676,19 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Combined equity and debt facility, typical of e-commerce roll-ups — not all primary equity."
+      },
+      {
+        "date": "",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Acquired by Infinite Commerce; date and terms undisclosed.",
+        "acquirer": "Infinite Commerce"
       }
     ],
     "capital_raised_usd": 160000000,
@@ -24675,8 +24696,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T12:00:00-08:00",
-      "notes": "Canadian co-founder Allan Fisch (Toronto; three prior Toronto startups). $160M is equity + debt combined. Status not re-verified — e-commerce aggregators have consolidated heavily since 2021."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian co-founder Allan Fisch (Toronto; three prior Toronto startups). $160M is equity + debt combined. Status not re-verified — e-commerce aggregators have consolidated heavily since 2021. Founded 2020 (co-founder CJ Isakow in TechCrunch: \"when he and co-founder Allan Fisch were getting started in 2020\"). NOW ACQUIRED by Infinite Commerce — date and terms undisclosed."
     }
   },
   {
@@ -30504,8 +30525,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T12:00:00-08:00",
-      "notes": "Canadian founder Emily Luk (University of Toronto BCom). Acqui-hired by Wealthsimple Apr 2025, product wound down May 2025."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian founder Emily Luk (University of Toronto BCom). Acqui-hired by Wealthsimple Apr 2025, product wound down May 2025. Founded 2022 per company press releases (Emily Luk with co-founder Channing Allen, who met at Even)."
     }
   },
   {
@@ -31824,8 +31845,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T12:00:00-08:00",
-      "notes": "Canadian founder Paul Lambert — \"growing up in Alberta\" in his own words; UBC BSc."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian founder Paul Lambert — \"growing up in Alberta\" in his own words; UBC BSc. Founded 2022 per Quilt's own PR (three ex-Google founders: Paul Lambert, Matt Knoll, Bill Kee)."
     }
   },
   {
@@ -32456,8 +32477,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T12:00:00-08:00",
-      "notes": "Canadian founder Emily Hosie (Oakville ON; Queen's). Rebranded Rebelstork -> REBEL. HQ Kannapolis NC per Series B release."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian founder Emily Hosie (Oakville ON; Queen's). Rebranded Rebelstork -> REBEL. HQ Kannapolis NC per Series B release. Founded 2020 as Rebelstork in Toronto (multiple founder interviews); rebranded to REBEL ~2024-25 — founding year is the original, not the rebrand."
     }
   },
   {
@@ -33434,7 +33455,7 @@
     "industry": "Health",
     "stage": "Seed",
     "status": "Active",
-    "founding_year": 2021,
+    "founding_year": 2020,
     "yc_batch": "",
     "icon_url": "https://img.logo.dev/reputable.health?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
@@ -33474,8 +33495,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T13:00:00-08:00",
-      "notes": "Canadian founder Theban Ganesh (University of Waterloo BMath, ex-BlackBerry). HQ Wilmington, DE (confirmed by Antoine). Funding amount undisclosed; backers include Garage Capital and N49P."
+      "last_verified": "2026-08-20T14:00:00-08:00",
+      "notes": "Canadian founder Theban Ganesh (University of Waterloo BMath, ex-BlackBerry). HQ Wilmington, DE (confirmed by Antoine). Funding amount undisclosed; backers include Garage Capital and N49P. FOUNDING YEAR UNCERTAIN: 2020 per PitchBook/Crunchbase (aggregator-only; company About page gives no date), but every public trace begins in 2022 (first founder post Mar 2022, first funding event Jul 2022). 2020 may be Delaware incorporation. Began as a Web3/DAO project (@reputabledao) before repositioning to wearable-based clinical research."
     }
   },
   {
