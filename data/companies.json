@@ -45682,17 +45682,17 @@
   {
     "id": "weave-dev",
     "name": "Weave",
-    "website": "https://workweave.dev",
+    "website": "https://weaveos.com",
     "description": "Engineering intelligence platform for the AI era. Combines LLMs and domain-specific ML to normalize engineering work into a single unit and attribute human vs. AI contributions across every PR, review, and deploy — measuring output, code quality, and AI ROI.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "Enterprise",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "W'25",
-    "icon_url": "https://img.logo.dev/workweave.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/weaveos.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Adam Cohen",
@@ -45726,15 +45726,31 @@
           "https://www.ycombinator.com/companies/weave-3"
         ],
         "notes": "YC W25."
+      },
+      {
+        "date": "2026",
+        "round": "Series A",
+        "amount_usd": 13500000,
+        "amount_display": "$13.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Standard Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://weaveos.com/"
+        ],
+        "notes": "Announced by founder Adam Cohen on LinkedIn; linked from the company homepage."
       }
     ],
-    "capital_raised_usd": 4200000,
-    "capital_raised_display": "$4.2M",
+    "capital_raised_usd": 17700000,
+    "capital_raised_display": "$17.7M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-06-17T19:43:00-08:00",
-      "notes": "Canadian co-founder Adam Cohen (CEO, raised in Toronto). Co-founder/CTO Andrew Churchill (MIT) is American, not included."
+      "last_verified": "2026-08-20T15:00:00-08:00",
+      "notes": "Canadian co-founder Adam Cohen (CEO, raised in Toronto). Co-founder/CTO Andrew Churchill (MIT) is American, not included. Domain moved workweave.dev -> weaveos.com. $13.5M Series A led by Standard Capital."
     }
   },
   {
