@@ -14415,7 +14415,7 @@
     "id": "fightcamp",
     "name": "FightCamp",
     "website": "https://joinfightcamp.com",
-    "description": "Connected home boxing system — punch-tracking sensors and gloves paired with an on-demand training app. Formerly Hykso.",
+    "description": "Connected home boxing system — punch-tracking sensors and gloves paired with an on-demand training app. Founded as Hykso; rebranded to FightCamp in 2018.",
     "hq_city": "Newport Beach",
     "hq_region": "CA",
     "hq_country": "US",
@@ -14423,7 +14423,7 @@
     "stage": "Series B",
     "status": "Active",
     "founding_year": 2014,
-    "yc_batch": "",
+    "yc_batch": "W'16",
     "icon_url": "https://img.logo.dev/joinfightcamp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
@@ -14431,7 +14431,7 @@
         "role": "Co-Founder & CEO",
         "linkedin": "",
         "x_url": "",
-        "bio": "Co-Founder & CEO of FightCamp (formerly Hykso). Raised in Quebec City; mechanical engineering at Université Laval and the University of Toronto.",
+        "bio": "Co-Founder & CEO of FightCamp (founded as Hykso, YC W16). Raised in Quebec City; mechanical engineering at Université Laval and the University of Toronto.",
         "wikipedia_url": "",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Université Laval",
@@ -14444,6 +14444,22 @@
     ],
     "funding_rounds": [
       {
+        "date": "2016-01",
+        "round": "Pre-Seed",
+        "amount_usd": 120000,
+        "amount_display": "$120K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/fightcamp"
+        ],
+        "notes": "Y Combinator Winter 2016 batch, as Hykso."
+      },
+      {
         "date": "2021",
         "round": "Series B",
         "amount_usd": 90000000,
@@ -14453,7 +14469,7 @@
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "~$98-114M total reported across rounds."
+        "notes": "Amount and lead not primary-sourced."
       }
     ],
     "capital_raised_usd": 98000000,
@@ -14461,8 +14477,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T15:30:00-08:00",
-      "notes": "Canadian founder Khalil Zahar (Quebec City; Laval + UofT). Co-founder Tommy Duquette is American. Founding year not primary-sourced — flagged for verification."
+      "last_verified": "2026-08-20T16:00:00-08:00",
+      "notes": "Founded 2014 as Hykso; YC W16; rebranded to FightCamp in 2018. Founding year and batch confirmed via YC company profile. Co-founders per YC: Patrick Chandler, Alexandre Marcotte, Khalil Zahar (plus Tommy Duquette). Only Zahar has a verified Canadian tie (Quebec City; Laval + UofT) — Marcotte may also qualify but is unverified. YC lists HQ as Los Angeles; company site says Newport Beach. Series B amount is not primary-sourced."
     }
   },
   {
@@ -22869,7 +22885,7 @@
         "role": "Founder & CEO",
         "linkedin": "",
         "x_url": "",
-        "bio": "Founder & CEO of Math Inc. MSc in mathematics, McMaster University; PhD at Pittsburgh. Previously at OpenAI.",
+        "bio": "Co-Founder & CEO of Math Inc. MSc in mathematics, McMaster University. Previously at OpenAI and founder of Morph Labs.",
         "wikipedia_url": "",
         "canadian_connection_type": "education",
         "canadian_institution": "McMaster University",
@@ -22880,21 +22896,20 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025",
+        "date": "2026-03",
         "round": "Seed",
         "amount_usd": 15000000,
         "amount_display": "$15M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Torch Capital"
-        ],
+        "lead_investors": [],
         "other_investors": [
+          "Torch Capital",
           "Robot Ventures",
           "Chapter One"
         ],
         "source_urls": [],
-        "notes": ""
+        "notes": "Aggregator-sourced only (no press release, no SEC Form D). Lead investor not identified in any source."
       }
     ],
     "capital_raised_usd": 15000000,
@@ -22902,8 +22917,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T15:30:00-08:00",
-      "notes": "Canadian founder Jesse Han (McMaster MSc, ex-OpenAI). Founding year not primary-sourced — flagged for verification."
+      "last_verified": "2026-08-20T16:00:00-08:00",
+      "notes": "Founded September 2025. Co-founders: Jesse Han (CEO), Christian Szegedy, Jared Lichtman — only Han has a Canadian tie (McMaster MSc). Built on RL infrastructure from Han's prior company Morph Labs (2023), so some sources date it to 2023. $15M seed is aggregator-sourced only; lead investor unknown. Some profiles list HQ as Palo Alto."
     }
   },
   {
@@ -31021,7 +31036,27 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025-08",
+        "date": "2023-10",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "N49P",
+          "New Brunswick Innovation Foundation",
+          "FJ Labs",
+          "Garage Capital",
+          "Northside Ventures"
+        ],
+        "source_urls": [
+          "https://www.postilize.com/investors"
+        ],
+        "notes": "Amount never disclosed."
+      },
+      {
+        "date": "2025-08-07",
         "round": "Strategic",
         "amount_usd": null,
         "amount_display": "Undisclosed",
@@ -31031,8 +31066,10 @@
           "Litera"
         ],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Strategic investment from Litera; amount undisclosed."
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/litera-announces-strategic-investment-in-postilize-to-deliver-next-generation-integrated-growth-tech-stack-for-legal-business-development-in-litera-one-302524185.html"
+        ],
+        "notes": "Litera described as one of several minority investors; amount undisclosed."
       }
     ],
     "capital_raised_usd": 0,
@@ -31040,8 +31077,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T15:30:00-08:00",
-      "notes": "Canadian founder Jody Glidden (UNB BBA 2006; previously founded Introhive in Fredericton NB). Founding year not primary-sourced — flagged for verification."
+      "last_verified": "2026-08-20T16:00:00-08:00",
+      "notes": "Founded 2023 by Jody Glidden and James Wang (former BlackBerry executive), per Litera press release. HQ confirmed at 1 Collins Ave, Miami Beach FL via company privacy policy. Canadian tie is Glidden (UNB BBA; previously founded Introhive in Fredericton NB). Wang's BlackBerry background suggests a possible second Canadian tie — unverified. No funding amounts have ever been disclosed; no SEC Form D on file."
     }
   },
   {
@@ -43057,11 +43094,11 @@
     "icon_url": "https://img.logo.dev/tisc.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
-        "name": "Mahbod Sabbaghi",
+        "name": "Mahbod \"Moe\" Sabbaghi",
         "role": "Co-Founder & COO",
         "linkedin": "",
         "x_url": "",
-        "bio": "Co-Founder & COO of The Intelligent Search Company. University of Waterloo graduate.",
+        "bio": "Co-Founder & COO of The Intelligent Search Company. Studied computer science at the University of Waterloo, leaving the program to start TISC.",
         "wikipedia_url": "",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Waterloo",
@@ -43079,14 +43116,16 @@
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "OVO Fund"
+          "OVO Fund",
+          "n49p"
         ],
         "other_investors": [
-          "N49P",
           "Panache Ventures"
         ],
-        "source_urls": [],
-        "notes": ""
+        "source_urls": [
+          "https://www.finsmes.com/2025/11/the-intelligent-search-company-raises-us2-1m-in-pre-seed-funding.html"
+        ],
+        "notes": "Pre-seed co-led by OVO Fund and n49p."
       }
     ],
     "capital_raised_usd": 2100000,
@@ -43094,8 +43133,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T15:30:00-08:00",
-      "notes": "Canadian founder is Mahbod \"Moe\" Sabbaghi (Waterloo), NOT CEO Arpan Bhattacharya, who has no Canadian tie found. SF HQ with a Toronto office. Founding year not primary-sourced — flagged for verification."
+      "last_verified": "2026-08-20T16:00:00-08:00",
+      "notes": "Founded May 2024 by Arpan Bhattacharya (CEO) and Mahbod \"Moe\" Sabbaghi (COO), per the company launch release. The Canadian tie is Sabbaghi (Waterloo CS), NOT Bhattacharya, who has no Canadian tie found. SF HQ with a Toronto office. Sabbaghi LinkedIn URL not yet verified."
     }
   },
   {
