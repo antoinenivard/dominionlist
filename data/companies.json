@@ -11677,6 +11677,59 @@
     }
   },
   {
+    "id": "diamond-io",
+    "name": "Diamond",
+    "website": "https://diamond.io",
+    "description": "AI-native serverless data backend for engineering teams.",
+    "hq_city": "San Mateo",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/diamond.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Leander Lee",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Diamond. BCS, University of Waterloo (2013); co-founded Mappedin in Waterloo, Ontario as a student.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Approximate; round details not fully disclosed."
+      }
+    ],
+    "capital_raised_usd": 2000000,
+    "capital_raised_display": "$2M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T12:00:00-08:00",
+      "notes": "Canadian co-founder Leander Lee (Waterloo BCS, ex-Mappedin). Funding figure approximate."
+    }
+  },
+  {
     "id": 303,
     "name": "Dimely",
     "website": "https://www.dimely.com",
@@ -24576,6 +24629,57 @@
     "id": "410"
   },
   {
+    "id": "moonshot-brands",
+    "name": "Moonshot Brands",
+    "website": "https://www.moonshotbrands.com",
+    "description": "Acquires and scales established e-commerce brands.",
+    "hq_city": "Oakland",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/moonshotbrands.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Allan Fisch",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder of Moonshot Brands. Canadian entrepreneur; previously founded three Toronto startups (HomeSav, LeapPay, MavenCare).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-06",
+        "round": "Series A",
+        "amount_usd": 160000000,
+        "amount_display": "$160M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Combined equity and debt facility, typical of e-commerce roll-ups — not all primary equity."
+      }
+    ],
+    "capital_raised_usd": 160000000,
+    "capital_raised_display": "$160M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T12:00:00-08:00",
+      "notes": "Canadian co-founder Allan Fisch (Toronto; three prior Toronto startups). $160M is equity + debt combined. Status not re-verified — e-commerce aggregators have consolidated heavily since 2021."
+    }
+  },
+  {
     "id": 286,
     "name": "Moreta",
     "website": "https://moretapay.com",
@@ -30340,6 +30444,71 @@
     }
   },
   {
+    "id": "plenty-finance",
+    "name": "Plenty",
+    "website": "https://www.withplenty.com",
+    "description": "Personal finance platform for couples — joint investing, planning, and money management. Acqui-hired by Wealthsimple in 2025.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/withplenty.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Emily Luk",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Plenty. BCom, University of Toronto. Previously at Stripe and Even.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Seed",
+        "amount_usd": 7750000,
+        "amount_display": "$7.75M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025-04",
+        "round": "Acquisition",
+        "amount_usd": 0,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Acqui-hired by Wealthsimple; product shut down May 2025. Terms undisclosed.",
+        "acquirer": "Wealthsimple"
+      }
+    ],
+    "capital_raised_usd": 7750000,
+    "capital_raised_display": "$7.75M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T12:00:00-08:00",
+      "notes": "Canadian founder Emily Luk (University of Toronto BCom). Acqui-hired by Wealthsimple Apr 2025, product wound down May 2025."
+    }
+  },
+  {
     "id": 309,
     "name": "Polarity Labs",
     "website": "https://www.polarity.so",
@@ -31607,6 +31776,59 @@
     "capital_raised_display": ""
   },
   {
+    "id": "quilt-hvac",
+    "name": "Quilt",
+    "website": "https://www.quilt.com",
+    "description": "Smart ductless heat pumps for homes — electrified heating and cooling with room-by-room control.",
+    "hq_city": "Redwood City",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series B",
+    "status": "Active",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/quilt.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Paul Lambert",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Quilt. Grew up in Alberta; BSc Computer Science, University of British Columbia. Previously at Google (Google X / Area 120).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Alberta"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-12",
+        "round": "Series B",
+        "amount_usd": 64000000,
+        "amount_display": "$64M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Total raised across rounds through Series B (Dec 2025)."
+      }
+    ],
+    "capital_raised_usd": 64000000,
+    "capital_raised_display": "$64M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T12:00:00-08:00",
+      "notes": "Canadian founder Paul Lambert — \"growing up in Alberta\" in his own words; UBC BSc."
+    }
+  },
+  {
     "name": "Quo",
     "website": "https://quo.com",
     "description": "AI-driven business communication platform (formerly OpenPhone). Virtual phone system for SMBs featuring the Sona voice agent. Trusted by 90,000+ businesses.",
@@ -32172,6 +32394,71 @@
     "institution_display": "Queen's University, University of Toronto",
     "capital_raised_usd": null,
     "capital_raised_display": ""
+  },
+  {
+    "id": "rebel-recommerce",
+    "name": "REBEL",
+    "website": "https://fromrebel.com",
+    "description": "Recommerce marketplace for open-box and returned retail goods, starting with baby gear. Formerly Rebelstork.",
+    "hq_city": "Kannapolis",
+    "hq_region": "NC",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series B",
+    "status": "Active",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/fromrebel.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Emily Hosie",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder & CEO of REBEL (formerly Rebelstork). Born and raised in Oakville, Ontario; BAH, Queen's University (2000-2004).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Queen's University",
+        "canadian_institutions": [
+          "Queen's University"
+        ],
+        "canadian_city": "Oakville, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Series A",
+        "amount_usd": 18000000,
+        "amount_display": "$18M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025-11",
+        "round": "Series B",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 43000000,
+    "capital_raised_display": "$43M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T12:00:00-08:00",
+      "notes": "Canadian founder Emily Hosie (Oakville ON; Queen's). Rebranded Rebelstork -> REBEL. HQ Kannapolis NC per Series B release."
+    }
   },
   {
     "id": "recall-ai",
