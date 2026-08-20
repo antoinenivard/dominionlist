@@ -3944,6 +3944,73 @@
     "capital_raised_display": "$10.8M"
   },
   {
+    "id": "autonomique",
+    "name": "Autonomique",
+    "website": "https://www.autonomique.ai",
+    "description": "Physical AI for industrial robots. Hardware-agnostic software platform combining generative AI for high-level planning with reinforcement learning for precise control, letting factory robots reason, plan, and perform contact-rich assembly autonomously with on-device inference. SRI International spinout, formerly Avsr AI.",
+    "hq_city": "Menlo Park",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/autonomique.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Vikrant Singh Tomar",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/vktt",
+        "x_url": "https://twitter.com/vikrantt",
+        "bio": "Co-Founder & CEO of Autonomique. PhD in Electrical and Computer Engineering (deep learning and speech recognition), McGill University, Montreal (2015). Previously founded Fluent.ai in Montreal as Founder & CTO; earlier at Nuance (Montreal) and Vestec (Waterloo).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_city": "Montreal, QC",
+        "canadian_institutions": [
+          "McGill University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-06-17",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "White Star Capital"
+        ],
+        "other_investors": [
+          "SRI International",
+          "Garage Capital",
+          "Inovia Capital",
+          "Innovobot",
+          "Avesta Fund",
+          "Mila",
+          "Ryan Gariepy",
+          "Matt Rendall",
+          "Bryan Webb"
+        ],
+        "source_urls": [
+          "https://whitestarcapital.medium.com/bringing-physical-ai-to-the-factory-floor-why-we-invested-in-autonomique-0c9858dfc7f7"
+        ],
+        "notes": "Amount undisclosed. Angels include the Clearpath Robotics / OTTO Motors founders."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T13:00:00-08:00",
+      "notes": "Canadian founder Vikrant Singh Tomar (McGill PhD, ex-Fluent.ai Montreal), verified on his own site tomar.cc. HQ Menlo Park CA with a Montreal office. Co-founders Arash Radmoghadam and Sean Xu not verified Canadian, so not listed. Formerly Avsr AI; renamed Sept 2025. In production at Tier-1 automotive supplier F&P Mfg."
+    }
+  },
+  {
     "id": "autounify",
     "name": "AutoUnify",
     "website": "https://www.autounify.com",
