@@ -14412,6 +14412,60 @@
     "icon_url": ""
   },
   {
+    "id": "fightcamp",
+    "name": "FightCamp",
+    "website": "https://joinfightcamp.com",
+    "description": "Connected home boxing system — punch-tracking sensors and gloves paired with an on-demand training app. Formerly Hykso.",
+    "hq_city": "Newport Beach",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series B",
+    "status": "Active",
+    "founding_year": 2014,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/joinfightcamp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Khalil Zahar",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of FightCamp (formerly Hykso). Raised in Quebec City; mechanical engineering at Université Laval and the University of Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Université Laval",
+        "canadian_institutions": [
+          "Université Laval",
+          "University of Toronto"
+        ],
+        "canadian_city": "Quebec City, QC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021",
+        "round": "Series B",
+        "amount_usd": 90000000,
+        "amount_display": "$90M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "~$98-114M total reported across rounds."
+      }
+    ],
+    "capital_raised_usd": 98000000,
+    "capital_raised_display": "$98M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T15:30:00-08:00",
+      "notes": "Canadian founder Khalil Zahar (Quebec City; Laval + UofT). Co-founder Tommy Duquette is American. Founding year not primary-sourced — flagged for verification."
+    }
+  },
+  {
     "id": "finic",
     "name": "Finic",
     "website": "https://www.finic.ai",
@@ -22796,6 +22850,63 @@
     }
   },
   {
+    "id": "math-inc",
+    "name": "Math Inc.",
+    "website": "https://math.inc",
+    "description": "AI for autoformalization — its agent \"Gauss\" produces formal mathematical proofs in Lean.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/math.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Jesse Han",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder & CEO of Math Inc. MSc in mathematics, McMaster University; PhD at Pittsburgh. Previously at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McMaster University",
+        "canadian_institutions": [
+          "McMaster University"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Torch Capital"
+        ],
+        "other_investors": [
+          "Robot Ventures",
+          "Chapter One"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 15000000,
+    "capital_raised_display": "$15M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T15:30:00-08:00",
+      "notes": "Canadian founder Jesse Han (McMaster MSc, ex-OpenAI). Founding year not primary-sourced — flagged for verification."
+    }
+  },
+  {
     "id": 234,
     "name": "Mattermost",
     "website": "https://mattermost.com",
@@ -30877,6 +30988,61 @@
     "institution_display": "",
     "capital_raised_usd": 5145000,
     "capital_raised_display": "$5.14M"
+  },
+  {
+    "id": "postilize",
+    "name": "Postilize",
+    "website": "https://postilize.com",
+    "description": "AI relationship and business-development platform for law firms.",
+    "hq_city": "Miami Beach",
+    "hq_region": "FL",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/postilize.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Jody Glidden",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder & CEO of Postilize. BBA, University of New Brunswick (2006). Previously founded Introhive, headquartered in Fredericton, NB.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of New Brunswick",
+        "canadian_institutions": [
+          "University of New Brunswick"
+        ],
+        "canadian_city": "Fredericton, NB"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Strategic",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Litera"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Strategic investment from Litera; amount undisclosed."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T15:30:00-08:00",
+      "notes": "Canadian founder Jody Glidden (UNB BBA 2006; previously founded Introhive in Fredericton NB). Founding year not primary-sourced — flagged for verification."
+    }
   },
   {
     "id": 183,
@@ -42874,6 +43040,63 @@
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 40000000,
     "capital_raised_display": "$40M"
+  },
+  {
+    "id": "tisc",
+    "name": "The Intelligent Search Company",
+    "website": "https://tisc.dev",
+    "description": "Real-time multimodal AI retrieval, starting with basketball coaching.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/tisc.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Mahbod Sabbaghi",
+        "role": "Co-Founder & COO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & COO of The Intelligent Search Company. University of Waterloo graduate.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-11",
+        "round": "Pre-Seed",
+        "amount_usd": 2100000,
+        "amount_display": "$2.1M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "OVO Fund"
+        ],
+        "other_investors": [
+          "N49P",
+          "Panache Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 2100000,
+    "capital_raised_display": "$2.1M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T15:30:00-08:00",
+      "notes": "Canadian founder is Mahbod \"Moe\" Sabbaghi (Waterloo), NOT CEO Arpan Bhattacharya, who has no Canadian tie found. SF HQ with a Toronto office. Founding year not primary-sourced — flagged for verification."
+    }
   },
   {
     "id": "synthesis-company",
