@@ -33424,6 +33424,61 @@
     "icon_url": ""
   },
   {
+    "id": "reputable-health",
+    "name": "Reputable Health",
+    "website": "https://www.reputable.health",
+    "description": "Health data platform turning wearable and biometric signals into clinical-grade insights and evidence for research and consumer health products.",
+    "hq_city": "Wilmington",
+    "hq_region": "DE",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/reputable.health?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Theban Ganesh",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Reputable Health. BMath, University of Waterloo. Previously at BlackBerry.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Garage Capital",
+          "N49P"
+        ],
+        "source_urls": [],
+        "notes": "Amount undisclosed."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T13:00:00-08:00",
+      "notes": "Canadian founder Theban Ganesh (University of Waterloo BMath, ex-BlackBerry). HQ Wilmington, DE (confirmed by Antoine). Funding amount undisclosed; backers include Garage Capital and N49P."
+    }
+  },
+  {
     "id": "resemble-ai",
     "name": "Resemble AI",
     "website": "https://www.resemble.ai",
