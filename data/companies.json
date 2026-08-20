@@ -6482,6 +6482,70 @@
     "icon_url": ""
   },
   {
+    "id": "bracket-bot",
+    "name": "Bracket Bot",
+    "website": "https://www.bracketbot.com",
+    "description": "Low-cost general-purpose developer robots. A programmable balancing robot platform (~$2,000) aimed at making physical robotics as accessible to developers as personal computers were — positioned as \"the Apple II of robotics.\"",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/bracketbot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Brian Machado",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/brian-machado",
+        "x_url": "",
+        "bio": "Founder & CEO of Bracket Bot. Mechatronics Engineering at the University of Waterloo, where the robot began as his final-year project. Previously at Uber ATG, Google X, Samsung Research, and Tesla Optimus; earlier co-founded Globe Engineer.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Fifty Years",
+          "BoxGroup"
+        ],
+        "other_investors": [
+          "Betaworks",
+          "Pace Capital",
+          "Logan Kilpatrick",
+          "Guillermo Rauch",
+          "Mohith Mothukuri"
+        ],
+        "source_urls": [
+          "https://jobs.ashbyhq.com/bracket-bot"
+        ],
+        "notes": "Investor syndicate confirmed from the company's own job postings; round size, date and valuation are undisclosed."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T13:30:00-08:00",
+      "notes": "Canadian founder Brian Machado (University of Waterloo, mechatronics); relocated Waterloo -> SF. Single founder per all sources. Funding amount deliberately not recorded — a Tracxn \"$9.5M\" figure could not be corroborated and conflates a different company called \"Bracket\"."
+    }
+  },
+  {
     "id": "brain-jar-games",
     "name": "Brain Jar Games",
     "website": "https://www.brainjar.games",
@@ -17337,6 +17401,77 @@
     "capital_raised_display": "$1.8B"
   },
   {
+    "id": "gru-space",
+    "name": "GRU Space",
+    "website": "https://www.gru.space",
+    "description": "Lunar infrastructure. Building in-situ regolith brick manufacturing and inflatable pressurized habitats, starting with the first hotel on the Moon. Legal name Galactic Resource Utilization Space, Inc.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "W'26",
+    "icon_url": "https://img.logo.dev/gru.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Skyler Chan",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/skyler-chan",
+        "x_url": "",
+        "bio": "Founder & CEO of GRU Space. Grew up in Vancouver, BC; flew with the Royal Canadian Air Cadets glider program at 16. Studied EECS at UC Berkeley, graduating early.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/galactic-resource-utilization-space-inc-gru-space"
+        ],
+        "notes": "Standard YC W'26 deal."
+      },
+      {
+        "date": "2026-03-13",
+        "round": "SAFE",
+        "amount_usd": 100000,
+        "amount_display": "$100K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Planet Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.newsfilecorp.com/release/288447/Planet-Ventures-Announces-Strategic-Investment-in-GRU-Space-to-Support-First-Hotel-On-the-Moon-Announces-Repayment-of-Convertible-Debentures"
+        ],
+        "notes": "Strategic SAFE from Planet Ventures Inc. (CSE: PXI); converts at the next equity round. Disclosed in a public-company filing."
+      }
+    ],
+    "capital_raised_usd": 600000,
+    "capital_raised_display": "$600K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T13:30:00-08:00",
+      "notes": "Canadian founder Skyler Chan — raised in Vancouver BC (National Post: \"This 22-year-old Canadian is behind plans to build a hotel on the moon\"). Education is UC Berkeley, so the qualifying tie is upbringing, not schooling. Sole founder per YC. Total raised beyond the YC deal and the $100K SAFE is undisclosed."
+    }
+  },
+  {
     "id": "gumloop",
     "name": "Gumloop",
     "website": "https://www.gumloop.com",
@@ -28001,6 +28136,82 @@
     "id": "440"
   },
   {
+    "id": "overworld",
+    "name": "Overworld",
+    "website": "https://over.world",
+    "description": "Real-time, local-first diffusion world models. Builds interactive AI-generated game worlds (Waypoint-1) that run at game framerates on consumer GPUs. Formerly Wayfarer Labs.",
+    "hq_city": "Providence",
+    "hq_region": "RI",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/over.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Louis Castricato",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/louis-castricato",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Overworld. Studied mathematics at the University of Waterloo (co-authored with UW professor Jeff Orchard); left a Brown University PhD to found the company. Previously co-founded CarperAI (trlX), Head of LLMs at Stability AI, research scientist at EleutherAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      },
+      {
+        "name": "Shahbuland Matiana",
+        "role": "Co-Founder & Head of Mathematical Research",
+        "linkedin": "https://www.linkedin.com/in/shahbuland-matiana",
+        "x_url": "",
+        "bio": "Co-Founder of Overworld. BSc in Data Science, University of Waterloo (2018-2023). Previously co-founded CarperAI with Castricato; research scientist at Stability AI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-01-20",
+        "round": "Pre-Seed",
+        "amount_usd": 4500000,
+        "amount_display": "$4.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Kindred Ventures"
+        ],
+        "other_investors": [
+          "Amplify.LA",
+          "Garage Capital",
+          "Northside Ventures",
+          "Vital Stage",
+          "East Sunshine",
+          "Logan Kilpatrick"
+        ],
+        "source_urls": [
+          "https://kindredventures.com/announcement/overworld-building-real-time-world-models/"
+        ],
+        "notes": "Announced by lead investor Kindred Ventures. No valuation disclosed."
+      }
+    ],
+    "capital_raised_usd": 4500000,
+    "capital_raised_display": "$4.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T13:30:00-08:00",
+      "notes": "Both co-founders tied to the University of Waterloo. Matiana confirmed (BSc Data Science, and UW affiliation on arXiv:2210.07792). Castricato: strong secondary evidence (ResearchGate lists University of Waterloo; co-authored with UW professor Jeff Orchard) but his personal site mentions only his Brown PhD — worth a LinkedIn confirmation. Formerly Wayfarer Labs."
+    }
+  },
+  {
     "id": 316,
     "name": "Owlchemy Labs",
     "website": "https://owlchemylabs.com",
@@ -32664,6 +32875,80 @@
     "capital_raised_usd": 2275000,
     "capital_raised_display": "$2.3M",
     "icon_url": ""
+  },
+  {
+    "id": "remitian",
+    "name": "Remitian",
+    "website": "https://remitian.com",
+    "description": "AI-powered tax payment and remittance engine — \"Stripe for tax.\" Lets accounting firms and tax software initiate, track, reconcile, and report client tax payments across jurisdictions via a Tax Payment API. Formerly TaxPay.",
+    "hq_city": "Miami",
+    "hq_region": "FL",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/remitian.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Larry Hasson",
+        "role": "Co-Founder & Board Member",
+        "linkedin": "https://www.linkedin.com/in/larry-hasson",
+        "x_url": "",
+        "bio": "Co-Founder of Remitian (formerly TaxPay). Canadian CPA, CA and director at McIntyre & Associates, an Ottawa accounting firm, where the product originated. Built the original system against the CRA and registered it as a Canadian money services business.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Ottawa, ON"
+      },
+      {
+        "name": "Solon Angel",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/solonangel",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Remitian, joining in 2023-24 after diligence. MSc from Carleton University (Ottawa). Previously founded MindBridge AI in Ottawa; OBJ Forty Under 40 (2020).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Carleton University",
+        "canadian_institutions": [
+          "Carleton University"
+        ],
+        "canadian_city": "Ottawa, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-03-10",
+        "round": "Seed",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "N49P",
+          "Garage Capital",
+          "Ryan Lazanis",
+          "Richard Kopelman",
+          "Daniel Eberhard",
+          "Rex Salisbury"
+        ],
+        "source_urls": [
+          "https://remitian.ghost.io/remitian-raises-7m/"
+        ],
+        "notes": "Operator/angel syndicate; no single lead disclosed and no valuation disclosed."
+      }
+    ],
+    "capital_raised_usd": 7000000,
+    "capital_raised_display": "$7M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-17T13:30:00-08:00",
+      "notes": "Built in Ottawa as TaxPay; now headquartered in Miami. Canadian founders Larry Hasson (Ottawa CPA/CA) and Solon Angel (MSc Carleton; grew up in the Caribbean and France, so the tie is education not upbringing). Third co-originator Andrew Milne (same Ottawa firm) not listed — exact title unverified."
+    }
   },
   {
     "id": "renna-health",
