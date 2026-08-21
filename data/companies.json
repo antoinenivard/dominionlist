@@ -519,6 +519,65 @@
     "capital_raised_display": "$50K"
   },
   {
+    "id": "adaptive-computer",
+    "name": "Adaptive",
+    "website": "https://adaptive.ai",
+    "description": "AI-native no-code platform where non-programmers describe apps in plain language and Adaptive generates working web apps with database, auth, and payments included.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/adaptive.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Dennis Xu",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder of Adaptive. Born in New Brunswick and raised in the Toronto area, attending public school in Canada before moving to the US for Stanford. Previously co-founded Mem.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-04",
+        "round": "Seed",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Pebblebed"
+        ],
+        "other_investors": [
+          "Conviction",
+          "Weekend Fund",
+          "Anti Fund",
+          "Radical Ventures",
+          "David Baszucki"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 7000000,
+    "capital_raised_display": "$7M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Legal entity Adaptive Computer, Inc. Xu's Canadian upbringing confirmed in his own first-person podcast account: born in New Brunswick, raised in the Toronto area. Co-founder Mike Soylu (Middle East Technical University, Turkey) has no tie."
+    }
+  },
+  {
     "id": "aemon",
     "name": "Aemon",
     "website": "https://aemon.ai",
@@ -7013,6 +7072,80 @@
     "icon_url": ""
   },
   {
+    "id": "cape",
+    "name": "Cape",
+    "website": "https://cape.ai",
+    "description": "Agentic AI that turns unstructured client instructions into structured, auditable actions for bank and trust operations, loan servicing, and risk ops.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2018,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/cape.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Gavin Uhma",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder of Cape and now a board member. Born and raised in Sydney, Nova Scotia; graduate of Cape Breton University's technology program. Previously co-founded GoInstant, acquired by Salesforce.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "Cape Breton University",
+        "canadian_institutions": [
+          "Cape Breton University"
+        ],
+        "canadian_city": "Sydney, NS"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2020",
+        "round": "Seed",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "boldstart ventures",
+          "Version One Ventures"
+        ],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2021-04",
+        "round": "Series A",
+        "amount_usd": 20000000,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Evolution Equity Partners"
+        ],
+        "other_investors": [
+          "Tiger Global",
+          "Ridgeline",
+          "Haystack"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 25000000,
+    "capital_raised_display": "$25M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Originally Dropout Labs, then Cape Privacy, now Cape. Ché Wijesinghe is a HIRED CEO, not a founder — the founder credit belongs to Gavin Uhma, per Cape's own about page. Early co-founders Ian Livingstone and Ben DeCoste are also Halifax-linked and may add further Canadian ties."
+    }
+  },
+  {
     "name": "Capsule AI",
     "website": "https://capsuleai.ai",
     "description": "Social shopping app — snap screenshots of products on any social media platform and instantly get shoppable links using ML. Buy anything you find on social media.",
@@ -10807,6 +10940,76 @@
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "id": "425"
+  },
+  {
+    "id": "datologyai",
+    "name": "DatologyAI",
+    "website": "https://www.datologyai.com",
+    "description": "Automated data-curation platform that strips redundant, noisy, and harmful data from training sets so teams can train better models faster and cheaper.",
+    "hq_city": "Redwood City",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/datologyai.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Matthew Leavitt",
+        "role": "Co-Founder & Chief Science Officer",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & Chief Science Officer of DatologyAI. BSc Neuroscience (2010) and PhD Physiology (2017), McGill University; postdoc at Western University.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University",
+          "Western University"
+        ],
+        "canadian_city": "Montreal, QC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": 11650000,
+        "amount_display": "$11.65M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025",
+        "round": "Series A",
+        "amount_usd": 46000000,
+        "amount_display": "$46M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Felicis"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.datologyai.com/about"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 57650000,
+    "capital_raised_display": "$57.65M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Canadian tie is co-founder Matthew Leavitt (McGill BSc + PhD, Western postdoc), confirmed by the company about page and his personal site. CEO Ari Morcos has NO Canadian tie (UC San Diego, Harvard). Third co-founder Bogdan Gaza: Romania/France."
+    }
   },
   {
     "name": "Datost",
@@ -14979,6 +15182,75 @@
     "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
+  },
+  {
+    "id": "firsthand",
+    "name": "Firsthand",
+    "website": "https://firsthand.ai",
+    "description": "Brand Agent Platform letting marketers deploy AI agents trained on proprietary content to converse with consumers on their sites and in paid media.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/firsthand.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Michael Rubenstein",
+        "role": "Co-Founder & Co-CEO",
+        "linkedin": "https://www.linkedin.com/in/mrubenstein99",
+        "x_url": "",
+        "bio": "Co-Founder & Co-CEO of Firsthand. BA, McGill University (1997); MBA, Columbia. Previously President of AppNexus.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": "Montreal, QC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Seed",
+        "amount_usd": 6650000,
+        "amount_display": "$6.65M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Radical Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      },
+      {
+        "date": "2025",
+        "round": "Series A",
+        "amount_usd": 26000000,
+        "amount_display": "$26M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Radical Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 32650000,
+    "capital_raised_display": "$32.65M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Rubenstein's McGill BA confirmed via McGill alumni listing and an Advertising Week speaker bio that links the same LinkedIn handle used on firsthand.ai. Co-founders Jonathan Heller and Wei Wei have no Canadian tie."
+    }
   },
   {
     "id": "flexpa",
@@ -22942,6 +23214,73 @@
     }
   },
   {
+    "id": "medchart",
+    "name": "Marble",
+    "website": "https://www.medchart.com",
+    "description": "Patient-authorized health-data platform that automates medical-record release and consent capture for legal, insurance, and life-sciences customers. Formerly Medchart.",
+    "hq_city": "Coppell",
+    "hq_region": "TX",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2015,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/medchart.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "James Bateman",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Marble (formerly Medchart). Engineering Science, plus a master's and PhD in nanoelectronics, University of Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      },
+      {
+        "name": "Derrick Chow",
+        "role": "Co-Founder & COO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & COO of Marble (formerly Medchart). University of Toronto alumnus.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021",
+        "round": "Series A",
+        "amount_usd": 17000000,
+        "amount_display": "$17M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Part of $23.5M total raised; round detail not primary-sourced."
+      }
+    ],
+    "capital_raised_usd": 23500000,
+    "capital_raised_display": "$23.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Founded in Toronto via the U of T Entrepreneurship Hatchery; opened its US headquarters in Coppell TX in April 2021 and rebranded to Marble in March 2022. HQ is MEDIUM-HIGH confidence: the company site footer, terms of use (MedChart, Inc., Coppell TX, Delaware law) and Dallas Innovates all say Texas, while Crunchbase and the LinkedIn company page still list Toronto, which is retained as an engineering office. Two U of T founders confirmed via a University of Toronto news article."
+    }
+  },
+  {
     "id": "math-inc",
     "name": "Math Inc.",
     "website": "https://math.inc",
@@ -24986,6 +25325,62 @@
     "institution_display": "University of Waterloo, Western University",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
+  },
+  {
+    "id": "mosaic-pe",
+    "name": "Mosaic",
+    "website": "https://www.mosaic.pe",
+    "description": "AI deal-modeling platform for private markets — automates LBO and DCF analysis with deterministic calculation engines plus agentic workflows.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/mosaic.pe?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Ian Gutwinski",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder & CEO of Mosaic. Bachelor's and Master's of Accounting, University of Waterloo; MBA, Harvard Business School; CPA.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-04",
+        "round": "Series A",
+        "amount_usd": 18000000,
+        "amount_display": "$18M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Radical Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.mosaic.pe/about"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 18000000,
+    "capital_raised_display": "$18M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Legal entity Investor Technology Group, Inc. The .pe domain is a private-equity pun, not Peru. Sole founder. Secondary Toronto office at 161 Bay St. Founding year is low-confidence."
+    }
   },
   {
     "name": "Moss",
@@ -42730,6 +43125,65 @@
     "capital_raised_display": "$20M"
   },
   {
+    "id": "teserac",
+    "name": "Teserac",
+    "website": "https://teserac.ai",
+    "description": "AI-native observability for mission-critical data-center power infrastructure. Formerly Chemix, which applied AI to EV battery chemistry design.",
+    "hq_city": "Sunnyvale",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Kaixiang Lin",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Teserac (formerly Chemix). BSc Organic Chemistry, University of Toronto (2013); PhD Physical Chemistry, Harvard; postdoc at Stanford.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-04",
+        "round": "Series A",
+        "amount_usd": 20000000,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Ibex Investors"
+        ],
+        "other_investors": [
+          "Porsche Ventures",
+          "KDDI",
+          "BNP Paribas"
+        ],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 20000000,
+    "capital_raised_display": "$20M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Chemix, Inc. rebranding to Teserac, Inc. Lin's University of Toronto BSc is MEDIUM confidence — self-reported via LinkedIn and mirrored by two aggregators, with no university or press confirmation found. Flagged for primary sourcing. Note there are two people named Kaixiang Lin; this is the chemist, not the Amazon AGI researcher. Co-founder Jason Koeller (UC Berkeley) has no tie."
+    }
+  },
+  {
     "id": 279,
     "name": "Tesla",
     "website": "https://www.tesla.com",
@@ -46748,6 +47202,62 @@
     "institution_display": "McGill University",
     "capital_raised_usd": 150600000,
     "capital_raised_display": "$151M"
+  },
+  {
+    "id": "writer",
+    "name": "Writer",
+    "website": "https://writer.com",
+    "description": "Full-stack enterprise generative AI platform built on its proprietary Palmyra models — graph-based RAG and agentic workflows for regulated industries.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series C",
+    "status": "Active",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/writer.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "May Habib",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Writer. Born in Lebanon; her family emigrated to Canada when she was a young child and she was raised and schooled there before attending Harvard, where she studied economics.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": []
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-11",
+        "round": "Series C",
+        "amount_usd": 200000000,
+        "amount_display": "$200M",
+        "valuation_usd": 1900000000,
+        "valuation_display": "$1.9B",
+        "lead_investors": [
+          "Premji Invest",
+          "Radical Ventures",
+          "ICONIQ Growth"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.inc.com/ellen-mcgirt/meet-may-habib-the-under-the-radar-ai-visionary-you-need-to-know/91301984"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 326000000,
+    "capital_raised_display": "$326M",
+    "metadata": {
+      "valuation_usd": 1900000000,
+      "valuation_display": "$1.9B",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "May Habib was raised in Canada from early childhood after her family emigrated from Lebanon (Inc., March 2026; corroborated on Writer's own blog). Her post-secondary education is Harvard, not a Canadian university — the tie is upbringing, not schooling, and no source names the Canadian city. Co-founder Waseem AlShikh (Syria/Lebanon/Jordan) has no Canadian tie. Writer relaunched in 2020 from Qordoba, founded 2014."
+    }
   },
   {
     "id": "xai",
