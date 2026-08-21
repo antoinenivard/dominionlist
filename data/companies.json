@@ -8107,25 +8107,26 @@
   },
   {
     "id": 371,
-    "name": "Chemix",
-    "description": "AI-powered battery developer designing next-generation EV batteries using generative AI and proprietary experimental datasets.",
-    "website": "https://www.chemix.ai",
+    "name": "Teserac",
+    "description": "AI-native observability for mission-critical data-center power infrastructure. Formerly Chemix, which applied AI to EV battery chemistry design.",
+    "website": "https://teserac.ai",
     "status": "Active",
     "stage": "Series A",
     "founders": [
       {
         "id": "kaixiang-lin",
         "name": "Kaixiang Lin",
-        "linkedin": "",
-        "role": "Founder & CEO",
-        "bio": "Founder & CEO of Chemix. BSc Organic Chemistry from University of Toronto (2009-2013), PhD from Harvard.",
+        "linkedin": "https://www.linkedin.com/in/kaixiang-lin-ph-d-7937803a",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Teserac (formerly Chemix). BSc Organic Chemistry, University of Toronto (2013); PhD Physical Chemistry, Harvard; postdoc at Stanford.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_institutions": [
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -8168,16 +8169,16 @@
     "founder_display": "Kaixiang Lin",
     "institution_display": "University of Toronto",
     "founding_year": 2021,
-    "hq_city": "",
-    "hq_region": "",
+    "hq_city": "Sunnyvale",
+    "hq_region": "CA",
     "hq_country": "US",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Chemix, Inc. rebranding to Teserac, Inc. Lin's University of Toronto BSc is MEDIUM confidence — self-reported via LinkedIn and mirrored by two aggregators, with no university or press confirmation found. Flagged for primary sourcing. Note there are two people named Kaixiang Lin; this is the chemist, not the Amazon AGI researcher. Co-founder Jason Koeller (UC Berkeley) has no tie. LinkedIn note: he has two live slugs (kaixiang-lin-ph-d-7937803a and kaixianglin), both his. The unrelated Amazon AGI researcher of the same name is kaixiang-lin-a173827b — do not use it."
     }
   },
   {
@@ -43123,65 +43124,6 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M"
-  },
-  {
-    "id": "teserac",
-    "name": "Teserac",
-    "website": "https://teserac.ai",
-    "description": "AI-native observability for mission-critical data-center power infrastructure. Formerly Chemix, which applied AI to EV battery chemistry design.",
-    "hq_city": "Sunnyvale",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "industry": "Industrial",
-    "stage": "Series A",
-    "status": "Active",
-    "founding_year": 2021,
-    "yc_batch": "",
-    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
-    "founders": [
-      {
-        "name": "Kaixiang Lin",
-        "role": "Co-Founder & CEO",
-        "linkedin": "https://www.linkedin.com/in/kaixiang-lin-ph-d-7937803a",
-        "x_url": "",
-        "bio": "Co-Founder & CEO of Teserac (formerly Chemix). BSc Organic Chemistry, University of Toronto (2013); PhD Physical Chemistry, Harvard; postdoc at Stanford.",
-        "wikipedia_url": "",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_institutions": [
-          "University of Toronto"
-        ],
-        "canadian_city": "Toronto, ON"
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2024-04",
-        "round": "Series A",
-        "amount_usd": 20000000,
-        "amount_display": "$20M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Ibex Investors"
-        ],
-        "other_investors": [
-          "Porsche Ventures",
-          "KDDI",
-          "BNP Paribas"
-        ],
-        "source_urls": [],
-        "notes": ""
-      }
-    ],
-    "capital_raised_usd": 20000000,
-    "capital_raised_display": "$20M",
-    "metadata": {
-      "valuation_usd": null,
-      "valuation_display": "",
-      "last_verified": "2026-08-20T18:00:00-08:00",
-      "notes": "Chemix, Inc. rebranding to Teserac, Inc. Lin's University of Toronto BSc is MEDIUM confidence — self-reported via LinkedIn and mirrored by two aggregators, with no university or press confirmation found. Flagged for primary sourcing. Note there are two people named Kaixiang Lin; this is the chemist, not the Amazon AGI researcher. Co-founder Jason Koeller (UC Berkeley) has no tie. LinkedIn note: he has two live slugs (kaixiang-lin-ph-d-7937803a and kaixianglin), both his. The unrelated Amazon AGI researcher of the same name is kaixiang-lin-a173827b — do not use it."
-    }
   },
   {
     "id": 279,
