@@ -9082,6 +9082,67 @@
     "icon_url": ""
   },
   {
+    "id": "cobrand",
+    "name": "co:brand",
+    "website": "https://www.cobrand.com",
+    "description": "Music marketing platform for record labels and artists — social and streaming analytics, a fan CRM, and creator-campaign workflow tools. Customers include RCA, Columbia, and Warner Records.",
+    "hq_city": "Chicago",
+    "hq_region": "IL",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/cobrand.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Laurier Mantel",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/lauriermantel",
+        "x_url": "",
+        "bio": "Co-Founder of co:brand. BASc in Systems Design Engineering, University of Waterloo (2020). Previously Product at Perpetua in Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "N49P",
+          "co:build ventures",
+          "Azuro Capital",
+          "Revenge Capital"
+        ],
+        "source_urls": [
+          "https://www.n49p.com/portfolio",
+          "https://cobuild.ventures/"
+        ],
+        "notes": "No round has been publicly announced. N49P and co:build ventures confirmed via their own portfolio pages; Azuro and Revenge Capital are aggregator-listed. No lead investor disclosed and no SEC Form D on file."
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T16:30:00-08:00",
+      "notes": "Legal entity is Cobrand Corporation, Inc. (Delaware). Laurier Mantel's Waterloo tie is confirmed by a University of Waterloo primary source: he appears on the official 2020 Systems Design Engineering Capstone Design Projects page. All three co-founders came out of Perpetua in Toronto and the other two appear to be Canadian as well — Patrick Quaggin-Smith (Royal St. George's College, Toronto) and Ben MacDonald (University of Ottawa co-op) — but both are aggregator-sourced only and are not listed here pending confirmation. Rosco Hill is sometimes listed as a fourth co-founder; he is the founder of investor co:build ventures, not an operating co-founder. HQ is Chicago per user confirmation and PitchBook, though both investors' sites list Toronto and the company phone is a 416 number — likely a distributed team. Founding year 2023 is aggregator-sourced, corroborated by a founder LinkedIn post from August 2023."
+    }
+  },
+  {
     "id": "cocoon",
     "name": "Cocoon",
     "website": "https://ourcocoon.com",
