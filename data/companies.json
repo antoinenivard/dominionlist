@@ -14501,6 +14501,21 @@
           "University of Toronto"
         ],
         "canadian_city": "Quebec City, QC"
+      },
+      {
+        "name": "Alexandre Marcotte St-Michel",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/alexandremarcotte",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of FightCamp (founded as Hykso). B.Eng. in Electrical Engineering, Université de Sherbrooke (2013); Cégep Limoilou, Quebec City. Previously at CMC Electronics and Opsens in Quebec.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université de Sherbrooke",
+        "canadian_institutions": [
+          "Université de Sherbrooke",
+          "Cégep Limoilou"
+        ],
+        "canadian_city": "Quebec City, QC"
       }
     ],
     "funding_rounds": [
@@ -14538,8 +14553,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T16:00:00-08:00",
-      "notes": "Founded 2014 as Hykso; YC W16; rebranded to FightCamp in 2018. Founding year and batch confirmed via YC company profile. Co-founders per YC: Patrick Chandler, Alexandre Marcotte, Khalil Zahar (plus Tommy Duquette). Only Zahar has a verified Canadian tie (Quebec City; Laval + UofT) — Marcotte may also qualify but is unverified. YC lists HQ as Los Angeles; company site says Newport Beach. Series B amount is not primary-sourced."
+      "last_verified": "2026-08-20T17:00:00-08:00",
+      "notes": "Founded 2014 as Hykso; YC W16; rebranded to FightCamp in 2018. Two verified Canadian co-founders: Khalil Zahar (Quebec City; Laval + UofT) and Alexandre Marcotte St-Michel (Cégep Limoilou + Université de Sherbrooke), who goes by \"Alexandre Marcotte\" on the YC founder list. Marcotte is confirmed via the Université de Sherbrooke E-Volve Shell Eco-marathon team roster. A likely THIRD Canadian founder, Alexandre Lapointe (VP Engineering, also on that Sherbrooke roster), is not yet listed pending confirmation of co-founder status — YC names only Chandler, Marcotte and Zahar. BetaKit describes the company as \"Montréal-founded\" and \"Canadian-founded\". Fourth co-founder Tommy Duquette is American. YC lists HQ as Los Angeles; company site says Newport Beach. Series B amount is not primary-sourced."
     }
   },
   {
@@ -31093,6 +31108,20 @@
           "University of New Brunswick"
         ],
         "canadian_city": "Fredericton, NB"
+      },
+      {
+        "name": "James Wang",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/jamesjwang",
+        "x_url": "",
+        "bio": "Co-Founder of Postilize. BASc in Computer Engineering, University of Toronto. Spent 17 years at Research In Motion / BlackBerry, latterly in business development. Based in Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -31138,8 +31167,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T16:00:00-08:00",
-      "notes": "Founded 2023 by Jody Glidden and James Wang (former BlackBerry executive), per Litera press release. HQ confirmed at 1 Collins Ave, Miami Beach FL via company privacy policy. Canadian tie is Glidden (UNB BBA; previously founded Introhive in Fredericton NB). Wang's BlackBerry background suggests a possible second Canadian tie — unverified. No funding amounts have ever been disclosed; no SEC Form D on file."
+      "last_verified": "2026-08-20T17:00:00-08:00",
+      "notes": "Founded 2023 by Jody Glidden and James Wang, per Litera press release. HQ confirmed at 1 Collins Ave, Miami Beach FL via company privacy policy. Two Canadian founders: Glidden (UNB BBA; previously founded Introhive in Fredericton NB) and Wang (Toronto-based; 2007-2024 at Waterloo-based RIM/BlackBerry). Wang's University of Toronto BASc is confirmed by the DB owner and appears on two LinkedIn-derived aggregators, but has NO primary source — no U of T alumni page, company bio, or press mention. Flagged for primary confirmation. His Toronto residence is well documented. No funding amounts have ever been disclosed; no SEC Form D on file."
     }
   },
   {
