@@ -23214,73 +23214,6 @@
     }
   },
   {
-    "id": "medchart",
-    "name": "Marble",
-    "website": "https://www.medchart.com",
-    "description": "Patient-authorized health-data platform that automates medical-record release and consent capture for legal, insurance, and life-sciences customers. Formerly Medchart.",
-    "hq_city": "Coppell",
-    "hq_region": "TX",
-    "hq_country": "US",
-    "industry": "Health",
-    "stage": "Series A",
-    "status": "Active",
-    "founding_year": 2015,
-    "yc_batch": "",
-    "icon_url": "https://img.logo.dev/medchart.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
-    "founders": [
-      {
-        "name": "James Bateman",
-        "role": "Co-Founder & CEO",
-        "linkedin": "",
-        "x_url": "",
-        "bio": "Co-Founder & CEO of Marble (formerly Medchart). Engineering Science, plus a master's and PhD in nanoelectronics, University of Toronto.",
-        "wikipedia_url": "",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_institutions": [
-          "University of Toronto"
-        ],
-        "canadian_city": "Toronto, ON"
-      },
-      {
-        "name": "Derrick Chow",
-        "role": "Co-Founder & COO",
-        "linkedin": "",
-        "x_url": "",
-        "bio": "Co-Founder & COO of Marble (formerly Medchart). University of Toronto alumnus.",
-        "wikipedia_url": "",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_institutions": [
-          "University of Toronto"
-        ],
-        "canadian_city": "Toronto, ON"
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2021",
-        "round": "Series A",
-        "amount_usd": 17000000,
-        "amount_display": "$17M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [],
-        "notes": "Part of $23.5M total raised; round detail not primary-sourced."
-      }
-    ],
-    "capital_raised_usd": 23500000,
-    "capital_raised_display": "$23.5M",
-    "metadata": {
-      "valuation_usd": null,
-      "valuation_display": "",
-      "last_verified": "2026-08-20T18:00:00-08:00",
-      "notes": "Founded in Toronto via the U of T Entrepreneurship Hatchery; opened its US headquarters in Coppell TX in April 2021 and rebranded to Marble in March 2022. HQ is MEDIUM-HIGH confidence: the company site footer, terms of use (MedChart, Inc., Coppell TX, Delaware law) and Dallas Innovates all say Texas, while Crunchbase and the LinkedIn company page still list Toronto, which is retained as an engineering office. Two U of T founders confirmed via a University of Toronto news article."
-    }
-  },
-  {
     "id": "math-inc",
     "name": "Math Inc.",
     "website": "https://math.inc",
@@ -23425,6 +23358,73 @@
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 70000000,
     "capital_raised_display": "$70M"
+  },
+  {
+    "id": "medchart",
+    "name": "Medchart",
+    "website": "https://www.medchart.com",
+    "description": "Patient-authorized health-data platform that automates medical-record release and consent capture for legal, insurance, and life-sciences customers. Rebranded as Marble in 2022.",
+    "hq_city": "Coppell",
+    "hq_region": "TX",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2015,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/medchart.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "James Bateman",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Medchart, which rebranded as Marble. Engineering Science, plus a master's and PhD in nanoelectronics, University of Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      },
+      {
+        "name": "Derrick Chow",
+        "role": "Co-Founder & COO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & COO of Medchart, which rebranded as Marble. University of Toronto alumnus.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021",
+        "round": "Series A",
+        "amount_usd": 17000000,
+        "amount_display": "$17M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Part of $23.5M total raised; round detail not primary-sourced."
+      }
+    ],
+    "capital_raised_usd": 23500000,
+    "capital_raised_display": "$23.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "NAME COLLISION: this is Medchart (medchart.com, health data, Coppell TX), which rebranded to Marble in March 2022 — NOT the unrelated Marble at marble.ai (AI agents for tax professionals, New York), which is a separate entry in this database. Listed here under \"Medchart\" to keep the two distinguishable. Founded in Toronto via the U of T Entrepreneurship Hatchery; opened its US headquarters in Coppell TX in April 2021 and rebranded to Marble in March 2022. HQ is MEDIUM-HIGH confidence: the company site footer, terms of use (MedChart, Inc., Coppell TX, Delaware law) and Dallas Innovates all say Texas, while Crunchbase and the LinkedIn company page still list Toronto, which is retained as an engineering office. Two U of T founders confirmed via a University of Toronto news article."
+    }
   },
   {
     "id": "melrok",
