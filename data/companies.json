@@ -58,7 +58,7 @@
       {
         "id": "matt-loszak",
         "name": "Matt Loszak",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/matt-loszak",
         "role": "Co-Founder & CEO",
         "bio": "Co-Founder & CEO of Aalo Atomics. Previously co-founded Humi, a Canadian HR platform.",
         "canadian_connection_type": "birthplace",
@@ -1010,7 +1010,7 @@
       {
         "id": "charlie-feng",
         "name": "Charlie Feng",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/charliecf",
         "role": "Co-Founder",
         "bio": "Co-Founder of Agora. Studied Finance, Economics, and Mathematics at McGill University.",
         "canadian_connection_type": "education",
@@ -1024,7 +1024,7 @@
       {
         "id": "yitong-zhang",
         "name": "Yitong Zhang",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/yitongzhang",
         "role": "Co-Founder",
         "bio": "Co-Founder of Agora. Grew up in Montreal. Bachelor of Commerce from McGill University (2012-2015).",
         "canadian_connection_type": "birthplace_education",
@@ -1038,7 +1038,7 @@
       {
         "id": "kent-fenwick",
         "name": "Kent Fenwick",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/kentfenwick",
         "role": "Co-Founder",
         "bio": "Co-Founder of Agora. Master's in Computer Science from University of Toronto.",
         "canadian_connection_type": "education",
@@ -1176,7 +1176,7 @@
       {
         "id": "abraham-burak",
         "name": "Abraham Burak",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/abrahamburak",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education_citizenship",
@@ -2155,7 +2155,7 @@
       {
         "id": "daniel-saks",
         "name": "Daniel Saks",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/danielsaks",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -2169,7 +2169,7 @@
       {
         "id": "nicolas-desmarais",
         "name": "Nicolas Desmarais",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/nicolas-desmarais-8069a914",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -3206,7 +3206,7 @@
       },
       {
         "name": "Christopher Wiebe",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/chrisjwiebe",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "UWaterloo Electrical Engineering grad, co-developed core EMG tech.",
@@ -5297,7 +5297,7 @@
       {
         "id": "puneet-sukhija",
         "name": "Puneet Sukhija",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/puneet-sukhija-bb58ba1a0",
         "role": "Founder",
         "bio": "Built his first house at 16, overseen hundreds of construction projects, and brings deep construction expertise to AI blueprint interpretation.",
         "canadian_connection_type": "education",
@@ -5384,7 +5384,7 @@
       },
       {
         "name": "Eric Morgen",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/eric-morgen-63a6012a",
         "role": "Co-Founder & COO",
         "bio": "Co-Founder & COO of BioAge Labs. HBSc Artificial Intelligence and MD from the University of Toronto. FRCPC certified. Previously Assistant Professor at UofT and practiced at Mount Sinai Hospital, Toronto.",
         "canadian_connection_type": "education",
@@ -5880,7 +5880,7 @@
       {
         "id": "rosco-hill",
         "name": "Rosco Hill",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/roscohill",
         "role": "Co-Founder",
         "bio": "Co-Founder of Blend. BASc Computer Engineering from University of Waterloo, MASc Computer Science from University of Toronto.",
         "canadian_connection_type": "education",
@@ -6102,7 +6102,7 @@
     "founders": [
       {
         "name": "Jess Zhang",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/theweb3jess",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "University of Waterloo graduate building Web3 gaming infrastructure.",
@@ -6336,7 +6336,7 @@
       {
         "id": "andrew-d-souza",
         "name": "Andrew D'Souza",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/andrewdsouza",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "birthplace_education",
@@ -6420,7 +6420,7 @@
       {
         "id": "corey-centen",
         "name": "Corey Centen",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/coreycenten",
         "role": "Co-Founder",
         "bio": "Co-Founder of Bodyport. BSc Biomedical Engineering from McMaster University (2003-2007).",
         "canadian_connection_type": "education",
@@ -6434,7 +6434,7 @@
       {
         "id": "sarah-smith",
         "name": "Sarah Smith",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/sarahannsmith",
         "role": "Co-Founder",
         "bio": "Co-Founder of Bodyport. Electrical & Biomedical Engineering from McMaster University (2003-2007).",
         "canadian_connection_type": "education",
@@ -6820,7 +6820,7 @@
       {
         "id": "will-lawrence",
         "name": "Will Lawrence",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/lawrencewill",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -6834,7 +6834,7 @@
       {
         "id": "alex-jin",
         "name": "Alex Jin",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jinalex",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -8106,82 +8106,6 @@
     "founder_display": "Yasser Elsaid"
   },
   {
-    "id": 371,
-    "name": "Teserac",
-    "description": "AI-native observability for mission-critical data-center power infrastructure. Formerly Chemix, which applied AI to EV battery chemistry design.",
-    "website": "https://teserac.ai",
-    "status": "Active",
-    "stage": "Series A",
-    "founders": [
-      {
-        "id": "kaixiang-lin",
-        "name": "Kaixiang Lin",
-        "linkedin": "https://www.linkedin.com/in/kaixiang-lin-ph-d-7937803a",
-        "role": "Co-Founder & CEO",
-        "bio": "Co-Founder & CEO of Teserac (formerly Chemix). BSc Organic Chemistry, University of Toronto (2013); PhD Physical Chemistry, Harvard; postdoc at Stanford.",
-        "canadian_connection_type": "education",
-        "canadian_institution": "University of Toronto",
-        "canadian_institutions": [
-          "University of Toronto"
-        ],
-        "wikipedia_url": "",
-        "x_url": "",
-        "canadian_city": "Toronto, ON"
-      }
-    ],
-    "funding_rounds": [
-      {
-        "date": "2021-01-01",
-        "round": "Seed",
-        "amount_usd": 100000,
-        "amount_display": "$100K",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "Berkeley SkyDeck"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/chemix"
-        ],
-        "notes": ""
-      },
-      {
-        "date": "2024-04-24",
-        "round": "Series A",
-        "amount_usd": 20000000,
-        "amount_display": "$20M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "Ibex Investors"
-        ],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/chemix"
-        ],
-        "notes": ""
-      }
-    ],
-    "industry": "Industrial",
-    "capital_raised_usd": 20100000,
-    "capital_raised_display": "$20.1M",
-    "founder_display": "Kaixiang Lin",
-    "institution_display": "University of Toronto",
-    "founding_year": 2021,
-    "hq_city": "Sunnyvale",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "yc_batch": "",
-    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
-    "metadata": {
-      "valuation_usd": null,
-      "valuation_display": "",
-      "last_verified": "2026-08-20T18:00:00-08:00",
-      "notes": "Chemix, Inc. rebranding to Teserac, Inc. Lin's University of Toronto BSc is MEDIUM confidence — self-reported via LinkedIn and mirrored by two aggregators, with no university or press confirmation found. Flagged for primary sourcing. Note there are two people named Kaixiang Lin; this is the chemist, not the Amazon AGI researcher. Co-founder Jason Koeller (UC Berkeley) has no tie. LinkedIn note: he has two live slugs (kaixiang-lin-ph-d-7937803a and kaixianglin), both his. The unrelated Amazon AGI researcher of the same name is kaixiang-lin-a173827b — do not use it."
-    }
-  },
-  {
     "id": "chord-commerce",
     "name": "Chord",
     "website": "https://chordcommerce.com",
@@ -8288,7 +8212,7 @@
       {
         "id": "jean-sebastien-boulanger",
         "name": "Jean-Sebastien Boulanger",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jsboulanger",
         "role": "Co-Founder & CTO",
         "bio": "Co-Founder & CTO of Circle Medical. Originally from Montreal, Quebec, Canada.",
         "canadian_connection_type": "birthplace",
@@ -9059,6 +8983,77 @@
     }
   },
   {
+    "id": "climateai",
+    "name": "ClimateAi",
+    "website": "https://climate.ai",
+    "description": "AI climate-risk platform forecasting weather and climate impacts on agriculture and food supply chains.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Series B",
+    "status": "Active",
+    "founding_year": 2017,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/climate.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Carlos Felipe Gaitán Ospina",
+        "role": "Co-Founder & Chief Climate Scientist",
+        "linkedin": "https://www.linkedin.com/in/carlos-felipe-gaitan-ospina-3765808",
+        "x_url": "",
+        "bio": "Co-Founder & Chief Climate Scientist of ClimateAi. PhD in Atmospheric Sciences, University of British Columbia (2013), and a former UBC sessional instructor. Originally from Colombia. Later founded Benchmark Labs.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2019",
+        "round": "Seed",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Blackhorn Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.blackhornvc.com/companies/climate-ai"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2023",
+        "round": "Series B",
+        "amount_usd": 22000000,
+        "amount_display": "$22M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Radical Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 38000000,
+    "capital_raised_display": "$38M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T19:00:00-08:00",
+      "notes": "FOUNDER STATUS IS DISPUTED — recorded here at the DB owner's direction. Gaitán's UBC PhD is airtight. His co-founder title is published by Blackhorn Ventures, an actual seed investor with diligence knowledge, which lists him in a three-person founders block alongside Himanshu Gupta and Max Evans. But ClimateAi's OWN about page and Stanford TomKat's contemporaneous 2017 record credit only Gupta and Evans, who started the company at Stanford; Gaitán is not named in either. Likely an early technical principal recognized internally as a co-founder. He left in June 2019. Archived 2018-2020 climate.ai team pages would settle it and have not been checked."
+    }
+  },
+  {
     "id": "cloudflare",
     "name": "Cloudflare",
     "website": "https://www.cloudflare.com",
@@ -9462,7 +9457,7 @@
       {
         "id": "maricel-saenz",
         "name": "Maricel Saenz",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/maricelsaenz",
         "role": "Founder & CEO",
         "bio": "Founder & CEO of Compound Foods. Bachelor of Commerce in Finance from University of British Columbia.",
         "canadian_connection_type": "education",
@@ -11351,7 +11346,7 @@
       {
         "id": "daniyal-afzal",
         "name": "Daniyal Afzal",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/daniyalafzal",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -11365,7 +11360,7 @@
       {
         "id": "kevin-cheng",
         "name": "Kevin Cheng",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/kevincheng97",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -11711,7 +11706,7 @@
       {
         "id": "cobi-druxerman",
         "name": "Cobi Druxerman",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/druxerman",
         "role": "Co-Founder",
         "bio": "Co-Founder of DevCycle/Taplytics. BCom from Queen's University, MBA from Rotman School of Management (University of Toronto).",
         "canadian_connection_type": "education",
@@ -11726,7 +11721,7 @@
       {
         "id": "aaron-glazer",
         "name": "Aaron Glazer",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/aaronglazer",
         "role": "Co-Founder",
         "bio": "Co-Founder of DevCycle/Taplytics. MBA from Rotman School of Management (University of Toronto).",
         "canadian_connection_type": "education",
@@ -11740,7 +11735,7 @@
       {
         "id": "andrew-norris",
         "name": "Andrew Norris",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/andrewsnorris",
         "role": "Co-Founder",
         "bio": "Co-Founder of DevCycle/Taplytics. BSc Applied Science (Mechanical Engineering) from Queen's University. Based in Toronto.",
         "canadian_connection_type": "birthplace_education",
@@ -11754,7 +11749,7 @@
       {
         "id": "jonathan-norris",
         "name": "Jonathan Norris",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jonathantnorris",
         "role": "Co-Founder",
         "bio": "Co-Founder of DevCycle/Taplytics. Attended Queen's University. Based in Toronto.",
         "canadian_connection_type": "birthplace_education",
@@ -11959,7 +11954,7 @@
       {
         "name": "Leander Lee",
         "role": "Co-Founder & CTO",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/leanderlee",
         "x_url": "",
         "bio": "Co-Founder & CTO of Diamond. BCS, University of Waterloo (2013); co-founded Mappedin in Waterloo, Ontario as a student.",
         "wikipedia_url": "",
@@ -12522,7 +12517,7 @@
       {
         "id": "mohammed-al-arnawoot",
         "name": "Mohammed Al-arnawoot",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/mohammed-al-arnawoot",
         "role": "Founder",
         "bio": "Co-Founder & CEO of DraftAid, mechatronics engineering degree from Waterloo, previously a technical director in multiple AI startups.",
         "canadian_connection_type": "education",
@@ -12968,7 +12963,7 @@
       },
       {
         "name": "Brandon Moak",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/brandonmoak",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "UWaterloo Mechatronics Engineering grad, co-founded Embark.",
@@ -14911,7 +14906,7 @@
     "founders": [
       {
         "name": "Eden Ovadia",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/edenovadia",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Montreal native and McGill University graduate, co-founder of FINNY.",
@@ -14925,7 +14920,7 @@
       },
       {
         "name": "Theodore Janson",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/theodore-janson",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "McGill University graduate, co-founder of FINNY AI platform for financial advisors.",
@@ -16184,7 +16179,7 @@
       {
         "id": "dr-andres-m-lozano",
         "name": "Dr. Andres M. Lozano",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/andres-lozano-bb9a163b",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -16542,7 +16537,7 @@
       {
         "id": "robert-anstey",
         "name": "Robert Anstey",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/robanstey1229",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -18223,7 +18218,7 @@
     "founders": [
       {
         "name": "Jamie Balsillie",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jamie-balsillie",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Canadian co-founder of Hedgehog, previously founded Indigo Carbon.",
@@ -18296,7 +18291,7 @@
       {
         "id": "tristan-kleine-fournier",
         "name": "Tristan Kleine-Fournier",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/tristan-kleine-fournier",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -19556,7 +19551,7 @@
     "founders": [
       {
         "name": "John Yue",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/johnyuejy",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Canadian co-founder of Inference.AI, Toronto-based venture background.",
@@ -19568,7 +19563,7 @@
       },
       {
         "name": "Michael Yu",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/michael-yk",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Canadian co-founder of Inference.AI.",
@@ -20451,7 +20446,7 @@
       {
         "id": "veer-bhatia",
         "name": "Veer Bhatia",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/veerbhatia",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -21445,7 +21440,7 @@
       {
         "id": "arthur-whitney",
         "name": "Arthur Whitney",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/arthurwhitney",
         "role": "Founder",
         "bio": "Founder of Kx Systems. Born in northern Alberta, Canada. Attended University of Alberta and University of Toronto (pure mathematics).",
         "canadian_connection_type": "birthplace_education",
@@ -23998,7 +23993,7 @@
       {
         "id": "dima-goncharov",
         "name": "Dima Goncharov",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/dimagoncharov",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "birthplace",
@@ -24010,7 +24005,7 @@
       {
         "id": "colin-elsinga",
         "name": "Colin Elsinga",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/colin-elsinga",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "birthplace",
@@ -24574,7 +24569,7 @@
       },
       {
         "name": "Mohammad Al-Rasheed",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/moalrs",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "UWaterloo dropout. Built AI agents and infrastructure at Shopify, Notion, and Clio.",
@@ -25196,7 +25191,7 @@
       {
         "name": "Allan Fisch",
         "role": "Co-Founder",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/allanfisch",
         "x_url": "",
         "bio": "Co-Founder of Moonshot Brands. Canadian entrepreneur; previously founded three Toronto startups (HomeSav, LeapPay, MavenCare).",
         "wikipedia_url": "",
@@ -26692,7 +26687,7 @@
       {
         "id": "hudhayfa-nazoordeen",
         "name": "Hudhayfa Nazoordeen",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/hudzah",
         "role": "Co-Founder",
         "bio": "Co-Founder of Normal. Math major at University of Waterloo. Previously at Cohere and Xanadu. Built a fusion reactor at age 20.",
         "canadian_connection_type": "education",
@@ -26981,7 +26976,7 @@
       {
         "id": "abraham-heifets",
         "name": "Abraham Heifets",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/abrahamheifets",
         "role": "Founder",
         "bio": "Co-Founder & CEO. PhD Computer Science from University of Toronto; BSc/MSc from Cornell. Massey Fellow at U of T.",
         "canadian_connection_type": "education",
@@ -26995,7 +26990,7 @@
       {
         "id": "izhar-wallach",
         "name": "Izhar Wallach",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/izhar-wallach-a0403811",
         "role": "Founder",
         "bio": "Co-Founder. PhD computational biology from University of Toronto.",
         "canadian_connection_type": "education",
@@ -29914,7 +29909,7 @@
       {
         "id": "prathik-muppidi",
         "name": "Prathik Muppidi",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/prathikmuppidi",
         "role": "Co-Founder",
         "bio": "Mechatronics Engineering from the University of Waterloo. Ex-Google Engineer.",
         "canadian_connection_type": "education",
@@ -30913,7 +30908,7 @@
     "founders": [
       {
         "name": "Jessica Ko",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/kojessica",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "University of Waterloo graduate, designer and founder building creative tools.",
@@ -31080,7 +31075,7 @@
       {
         "name": "Emily Luk",
         "role": "Co-Founder & CEO",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/emilylukca",
         "x_url": "",
         "bio": "Co-Founder & CEO of Plenty. BCom, University of Toronto. Previously at Stripe and Even.",
         "wikipedia_url": "",
@@ -32503,7 +32498,7 @@
       {
         "name": "Paul Lambert",
         "role": "Co-Founder & CEO",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/paulrolandlambert",
         "x_url": "",
         "bio": "Co-Founder & CEO of Quilt. Grew up in Alberta; BSc Computer Science, University of British Columbia. Previously at Google (Google X / Area 120).",
         "wikipedia_url": "",
@@ -33123,7 +33118,7 @@
       {
         "name": "Emily Hosie",
         "role": "Founder & CEO",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/emily-hosie-7051403a",
         "x_url": "",
         "bio": "Founder & CEO of REBEL (formerly Rebelstork). Born and raised in Oakville, Ontario; BAH, Queen's University (2000-2004).",
         "wikipedia_url": "",
@@ -33396,7 +33391,7 @@
       {
         "id": "dr-david-berg",
         "name": "Dr. David Berg",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/drdavidfberg",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -33767,7 +33762,7 @@
       },
       {
         "name": "Anya Singh",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/anya-singh",
         "role": "Co-Founder",
         "bio": "Co-Founder of Relling. Attended the University of Waterloo. Previously at SpaceX (Automation and Controls).",
         "canadian_connection_type": "education",
@@ -34151,7 +34146,7 @@
       {
         "name": "Theban Ganesh",
         "role": "Co-Founder & CEO",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/theban",
         "x_url": "",
         "bio": "Co-Founder & CEO of Reputable Health. BMath, University of Waterloo. Previously at BlackBerry.",
         "wikipedia_url": "",
@@ -34815,7 +34810,7 @@
       {
         "id": "david-baszucki",
         "name": "David Baszucki",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/davidbaszucki",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "birthplace",
@@ -34951,7 +34946,7 @@
       {
         "id": "curt-bererton",
         "name": "Curt Bererton",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/bererton",
         "role": "Founder",
         "bio": "Founder of Roboto Games. BSc Computer Engineering from University of Alberta (1993-1998). Grew up on a farm in Canada.",
         "canadian_connection_type": "birthplace_education",
@@ -37906,7 +37901,7 @@
       {
         "id": "sophie-berger",
         "name": "Sophie Berger",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/sophiemb",
         "role": "Co-Founder & CTO",
         "bio": "Co-Founder & CTO of Slate. BSc and Master of Management from University of British Columbia (2018-2022).",
         "canadian_connection_type": "education",
@@ -37920,7 +37915,7 @@
       {
         "id": "enrique-moran",
         "name": "Enrique Morán",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/enriquemoran",
         "role": "Co-Founder & CEO",
         "bio": "Co-Founder & CEO of Slate. BEng from University of British Columbia (2018-2023).",
         "canadian_connection_type": "education",
@@ -37934,7 +37929,7 @@
       {
         "id": "callum-woznow",
         "name": "Callum Woznow",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/cwoznow",
         "role": "Co-Founder & CPO",
         "bio": "Co-Founder & CPO of Slate. BASc Mechanical Engineering from University of British Columbia (2023).",
         "canadian_connection_type": "education",
@@ -38127,7 +38122,7 @@
       {
         "id": "tim-attia",
         "name": "Tim Attia",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/tim-attia-8a322a1",
         "role": "Founder & CEO",
         "bio": "Founder & CEO of Slice Labs. Electrical Engineering from McGill University. 20+ years in insurance technology.",
         "canadian_connection_type": "education",
@@ -38754,7 +38749,7 @@
       {
         "id": "george-hollo",
         "name": "George Hollo",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/gh02",
         "role": "Co-Founder & CTO",
         "bio": "Co-Founder & CTO of Sonibel Instruments. University of British Columbia graduate. Leads machine learning and data systems for real-time weld defect detection. Born in the US, grew up in Switzerland.",
         "canadian_connection_type": "education",
@@ -40155,7 +40150,7 @@
     "founders": [
       {
         "name": "Ethan Childerhose",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/ethan-childerhose",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Co-founder of Steinmetz, UWaterloo engineering grad.",
@@ -41943,7 +41938,7 @@
       },
       {
         "name": "Aaron Tan",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/aaron-hao-tan",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Co-Founder & CEO. University of Toronto Engineering alumnus.",
@@ -42087,7 +42082,7 @@
     "founders": [
       {
         "name": "Kavan Doctor",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/kavandoctor",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Canadian co-founder, gold medalist at the 2021 Canadian Open Mathematics Competition.",
@@ -43126,6 +43121,82 @@
     "capital_raised_display": "$20M"
   },
   {
+    "id": 371,
+    "name": "Teserac",
+    "description": "AI-native observability for mission-critical data-center power infrastructure. Formerly Chemix, which applied AI to EV battery chemistry design.",
+    "website": "https://teserac.ai",
+    "status": "Active",
+    "stage": "Series A",
+    "founders": [
+      {
+        "id": "kaixiang-lin",
+        "name": "Kaixiang Lin",
+        "linkedin": "https://www.linkedin.com/in/kaixiang-lin-ph-d-7937803a",
+        "role": "Co-Founder & CEO",
+        "bio": "Co-Founder & CEO of Teserac (formerly Chemix). BSc Organic Chemistry, University of Toronto (2013); PhD Physical Chemistry, Harvard; postdoc at Stanford.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "",
+        "x_url": "",
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-01-01",
+        "round": "Seed",
+        "amount_usd": 100000,
+        "amount_display": "$100K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Berkeley SkyDeck"
+        ],
+        "source_urls": [
+          "https://www.crunchbase.com/organization/chemix"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2024-04-24",
+        "round": "Series A",
+        "amount_usd": 20000000,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Ibex Investors"
+        ],
+        "source_urls": [
+          "https://www.crunchbase.com/organization/chemix"
+        ],
+        "notes": ""
+      }
+    ],
+    "industry": "Industrial",
+    "capital_raised_usd": 20100000,
+    "capital_raised_display": "$20.1M",
+    "founder_display": "Kaixiang Lin",
+    "institution_display": "University of Toronto",
+    "founding_year": 2021,
+    "hq_city": "Sunnyvale",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T18:00:00-08:00",
+      "notes": "Chemix, Inc. rebranding to Teserac, Inc. Lin's University of Toronto BSc is MEDIUM confidence — self-reported via LinkedIn and mirrored by two aggregators, with no university or press confirmation found. Flagged for primary sourcing. Note there are two people named Kaixiang Lin; this is the chemist, not the Amazon AGI researcher. Co-founder Jason Koeller (UC Berkeley) has no tie. LinkedIn note: he has two live slugs (kaixiang-lin-ph-d-7937803a and kaixianglin), both his. The unrelated Amazon AGI researcher of the same name is kaixiang-lin-a173827b — do not use it."
+    }
+  },
+  {
     "id": 279,
     "name": "Tesla",
     "website": "https://www.tesla.com",
@@ -43713,7 +43784,7 @@
     "founders": [
       {
         "name": "Sacha Lévy",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/sacha-levy",
         "wikipedia_url": "",
         "x_url": "",
         "bio": "Canadian co-founder of Theseus developing autonomous drone navigation.",
@@ -44032,7 +44103,7 @@
       {
         "id": "aly-orady",
         "name": "Aly Orady",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/aorady",
         "role": "Founder & CEO",
         "bio": "Founder & CEO of Tonal. BEng Computer Engineering from McMaster University (1998), MS from Stanford.",
         "canadian_connection_type": "education",
@@ -44583,7 +44654,7 @@
       {
         "id": "lixin-lu",
         "name": "Lixin Lu",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/lixin-lu-1025542",
         "role": "Founder",
         "bio": "Founder & CEO with 25+ years in cybersecurity, previously Chief Scientist at Intel/McAfee, founded 4 security startups.",
         "canadian_connection_type": "education",
@@ -44785,7 +44856,7 @@
       {
         "id": "eric-aubertin",
         "name": "Eric Aubertin",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/ericaubertin",
         "role": "Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -45411,7 +45482,7 @@
       {
         "id": "mylene-yao",
         "name": "Mylene Yao",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/mylene-yao-m-d-049a2915",
         "role": "Founder & CEO",
         "bio": "Founder & CEO of Univfy. MD from University of Toronto (1993), OB/GYN residency at McGill University (1998). Stanford faculty before founding Univfy.",
         "canadian_connection_type": "education",
@@ -45468,6 +45539,63 @@
     "capital_raised_usd": 12000000,
     "capital_raised_display": "$12M",
     "icon_url": ""
+  },
+  {
+    "id": "unlearn-ai",
+    "name": "Unlearn.ai",
+    "website": "https://www.unlearn.ai",
+    "description": "Builds AI \"digital twins\" of clinical-trial participants to shrink control arms and speed drug development.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Series C",
+    "status": "Active",
+    "founding_year": 2017,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/unlearn.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Aaron Smith",
+        "role": "Founder & Head of AI",
+        "linkedin": "https://www.linkedin.com/in/aaron-smith-91421476",
+        "x_url": "",
+        "bio": "Founder & Head of AI at Unlearn.ai. Postdoctoral researcher in mathematics at the University of Waterloo; PhD in mathematics, University of Pennsylvania.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-02",
+        "round": "Series C",
+        "amount_usd": 50000000,
+        "amount_display": "$50M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Altimeter Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.unlearn.ai/team/aaron-smith"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 130000000,
+    "capital_raised_display": "$130M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-20T19:00:00-08:00",
+      "notes": "PRECEDENT FLAG — pending review by the DB owner. Aaron Smith's only Canadian tie is a POSTDOC at the University of Waterloo, not a degree; his PhD is from Penn. Whether postdoctoral training counts as \"educated in Canada\" is an open question for this database, and the answer should be applied consistently. Confirmed via Unlearn's own founder bio page. Co-founder Charles Fisher (Michigan, Harvard, BU, ENS Paris) has NO Canadian tie, nor does Jon Walsh."
+    }
   },
   {
     "id": "unruly-splats",
@@ -46603,7 +46731,7 @@
       {
         "id": "darin-tay",
         "name": "Darin Tay",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/darin-tay-b9aa605",
         "role": "Co-Founder",
         "bio": "Co-Founder of WiFiSlam (acquired by Apple). University of Waterloo graduate (2009).",
         "canadian_connection_type": "education",
