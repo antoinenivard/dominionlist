@@ -46255,6 +46255,67 @@
     }
   },
   {
+    "id": "vernius-systems",
+    "name": "Vernius Systems",
+    "website": "https://www.vernius.systems",
+    "description": "Autonomous radar seekers that turn any drone into a fully autonomous interceptor, cutting cost per intercept from millions to thousands.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://img.logo.dev/vernius.systems?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Hisham El-Halabi",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/hisham-el-halabi-001/",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Vernius Systems. BEng Engineering Science, University of Toronto. Previously founding engineer at Suave Money and co-founder/CTO of Auctify.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "H.R. McMaster",
+          "Austin Howard",
+          "Rob Lee"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/vernius-systems-inc"
+        ],
+        "notes": "Standard YC deal. Angel investors named in the YC launch post."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-24T11:00:00-08:00",
+      "notes": "Canadian tie is co-founder/CTO Hisham El-Halabi (U of T Engineering Science), per his YC founder bio. CEO Arthur Nguyen-cao lists no school on YC and has no verified Canadian tie — worth a second look if his education surfaces. Co-founder Joe Gonzalez: Sacramento State, no tie. The $500M figure in their launch post is LETTERS OF INTENT for 2027, not capital raised, and is deliberately not recorded as funding."
+    }
+  },
+  {
     "id": "virio",
     "name": "Virio",
     "website": "https://www.virio.ai",
