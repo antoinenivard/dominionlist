@@ -28288,6 +28288,143 @@
     "icon_url": "https://api.typedream.com/v0/document/public/929dfde1-a7c7-4ebf-bd78-6ab3608c36c4/3553kpZhSIP8hfuvUL7Qr8JSpEi_openbuilder_logo_white_on_black.png"
   },
   {
+    "id": "openevidence",
+    "name": "OpenEvidence",
+    "website": "https://www.openevidence.com",
+    "description": "AI medical search and clinical decision-support platform for physicians, answering clinical questions with citation-linked responses drawn from peer-reviewed literature such as NEJM and JAMA.",
+    "hq_city": "Miami",
+    "hq_region": "FL",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Series D",
+    "status": "Active",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/openevidence.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Daniel Nadler",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daniel_Nadler",
+        "bio": "Founder & CEO of OpenEvidence. Born in Toronto in 1983; BA 2005 from University College, University of Toronto, then a PhD at Harvard. Previously co-founded Kensho Technologies, acquired by S&P Global in 2018.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-02-19",
+        "round": "Series A",
+        "amount_usd": 75000000,
+        "amount_display": "$75M",
+        "valuation_usd": 1000000000,
+        "valuation_display": "$1B",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/openevidence-achieves-1-billion-valuation-in-sequoia-led-round-and-announces-content-partnership-with-the-new-england-journal-of-medicine-302380960.html"
+        ],
+        "notes": "Company release confirms the $1B valuation and that this was the first institutional investment; the $75M amount is press-sourced only."
+      },
+      {
+        "date": "2025-07-15",
+        "round": "Series B",
+        "amount_usd": 210000000,
+        "amount_display": "$210M",
+        "valuation_usd": 3500000000,
+        "valuation_display": "$3.5B",
+        "lead_investors": [
+          "GV",
+          "Kleiner Perkins"
+        ],
+        "other_investors": [
+          "Sequoia Capital",
+          "Coatue",
+          "Conviction",
+          "Thrive Capital"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/openevidence-the-fastest-growing-application-for-physicians-in-history-announces-210-million-round-at-3-5-billion-valuation-302505806.html"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2025-10-20",
+        "round": "Series C",
+        "amount_usd": 200000000,
+        "amount_display": "$200M",
+        "valuation_usd": 6000000000,
+        "valuation_display": "$6B",
+        "lead_investors": [
+          "GV"
+        ],
+        "other_investors": [
+          "Sequoia Capital",
+          "Kleiner Perkins",
+          "Thrive Capital",
+          "Coatue",
+          "BOND",
+          "Blackstone",
+          "Craft Ventures"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2025/10/20/openevidence-the-chatgpt-for-doctors-raises-200m-at-6b-valuation/"
+        ],
+        "notes": "Valuation confirmed at $6B by the CEO directly to Fierce Healthcare."
+      },
+      {
+        "date": "2026-01-21",
+        "round": "Series D",
+        "amount_usd": 250000000,
+        "amount_display": "$250M",
+        "valuation_usd": 12000000000,
+        "valuation_display": "$12B",
+        "lead_investors": [
+          "Thrive Capital",
+          "DST Global"
+        ],
+        "other_investors": [
+          "Sequoia Capital",
+          "GV",
+          "Nvidia",
+          "Kleiner Perkins",
+          "Blackstone",
+          "Henry Kravis",
+          "Coatue",
+          "Conviction",
+          "ICONIQ",
+          "Greycroft",
+          "Breyer Capital",
+          "BOND",
+          "Craft Ventures",
+          "Meritech",
+          "Alkeon",
+          "Mayo Clinic"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260121029132/en/OpenEvidence-Raises-$250-Million-to-Build-Medical-Superintelligence-for-Doctors"
+        ],
+        "notes": ""
+      }
+    ],
+    "capital_raised_usd": 735000000,
+    "capital_raised_display": "$735M",
+    "metadata": {
+      "valuation_usd": 12000000000,
+      "valuation_display": "$12B",
+      "last_verified": "2026-08-24T11:30:00-08:00",
+      "notes": "Legal entity Xyla Inc. (Delaware), d/b/a OpenEvidence; OpenEvidence Inc. registered in Florida July 2025. HQ MOVED: Cambridge MA through early 2025, Miami FL from mid-2025, with the main AI research center in San Francisco. Do not source HQ from the company site footer — its Terms and Privacy pages are stale (April 2024) and still list Cambridge MA. Founding year is approximate: aggregators say 2021, much of the press says 2022, and Wikipedia contradicts itself between its two articles; the platform launched in spring 2023 out of Mayo Clinic Platform Accelerate. Capital raised is $735M by sum of the four announced rounds; the company states \"nearly $700M\", which appears to count only the last twelve months. Nadler's Canadian education is sourced to the University of Toronto's own University College alumni page (BA 2005) — note Wikipedia misleadingly implies a Harvard undergrad. Co-founder and CTO Zachary Ziegler (Cornell, Harvard) has no Canadian tie. Sangeen Zeb appears as a director on the Florida filing but is a GV partner, not a founder. A reported ~$200M round at $20B (July 2026) was said to be unlikely to proceed and is NOT recorded here."
+    }
+  },
+  {
     "id": "opusense-ai",
     "name": "Opusense AI",
     "website": "https://opusense.com/",
