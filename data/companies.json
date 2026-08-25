@@ -38126,13 +38126,13 @@
     "id": 285,
     "name": "Skyfall AI",
     "website": "https://skyfall.ai",
-    "description": "AI-powered autonomous IT solutions platform using multi-agent systems for enterprise efficiency.",
-    "hq_city": "New York",
-    "hq_region": "NY",
+    "description": "Builds \"world model\" AI agents for enterprise automation, marketed as able to run business functions end to end. Its product is Morpheus.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
     "industry": "Enterprise",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
     "icon_url": "",
@@ -38151,12 +38151,42 @@
         ],
         "wikipedia_url": "",
         "x_url": ""
+      },
+      {
+        "name": "Kaheer Suleman",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Skyfall AI. University of Waterloo; previously co-founded Maluuba with Sam Pasupalak, acquired by Microsoft in 2017.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
       }
     ],
     "funding_rounds": [
       {
+        "date": "2025-03",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Position Ventures"
+        ],
+        "source_urls": [
+          "https://www.positionventures.com/companies"
+        ],
+        "notes": "Never announced — raised in stealth. Identified via Position Ventures' portfolio page (dated to early March 2025) and a second deal record on PitchBook. Amount, lead and valuation were never published."
+      },
+      {
         "date": "2026-07-20",
-        "round": "Venture",
+        "round": "Seed",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
@@ -38173,7 +38203,7 @@
         "source_urls": [
           "https://betakit.com/canadian-deep-learning-pioneers-are-building-ai-to-replace-ceos/"
         ],
-        "notes": "Announced on emergence from stealth; amount undisclosed. The widely cited $1M is an acquisition budget, not a raise."
+        "notes": "Announced on emergence from stealth. The amount was explicitly NOT disclosed — the press release says \"fresh, undisclosed capital\" and The Logic notes the company \"won't say how much.\" No lead investor named. CB Insights classifies it as a second seed."
       }
     ],
     "metadata": {
@@ -38189,7 +38219,7 @@
       "valuation_as_of": "",
       "total_funding_display": "",
       "last_verified": "2026-03-25T00:00:00Z",
-      "notes": ""
+      "notes": "Three co-founders: Sam Pasupalak (CEO), Kaheer Suleman (CTO) and Sumit Pasupalak (CPO, Sam's brother — BetaKit added him in a 24 Jul 2026 update, which is why some records show only two). Sam and Kaheer previously co-founded Maluuba at Waterloo, acquired by Microsoft in 2017. Sumit's Canadian tie is not yet verified and he is not listed here. HQ was New York in early 2025 and is now San Francisco with the main research team in Toronto; Crunchbase and Dealroom still carry the stale New York record. Founding year 2024 is unconfirmed — no company source states one and PitchBook says 2023. TOTAL RAISED IS UNKNOWN and deliberately left as undisclosed: no amount has ever been published for either round and there is no Form D. Ignore GetLatka's \"$0 raised / bootstrapped / $3.3M ARR\" figures — they are modelled estimates contradicted by the company's own press release."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
