@@ -12,8 +12,8 @@
     "status": "Active",
     "yc_batch": "",
     "icon_url": "",
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_usd": 1045000,
+    "capital_raised_display": "$1.05M",
     "founders": [
       {
         "name": "Sajeel Purewal",
@@ -30,7 +30,40 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025-11",
+        "round": "Pre-Seed",
+        "amount_usd": 225000,
+        "amount_display": "$225K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "a16z speedrun",
+          "Founders Inc"
+        ],
+        "source_urls": [],
+        "notes": "SAFE; disclosed retroactively in Aug 2026."
+      },
+      {
+        "date": "2026-05",
+        "round": "Pre-Seed",
+        "amount_usd": 820000,
+        "amount_display": "$820K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "a16z speedrun",
+          "Founders Inc"
+        ],
+        "source_urls": [
+          "https://betakit.com/a16z-backed-blueprint-raises-1-4-million-to-bring-vibe-coding-to-hardware/"
+        ],
+        "notes": "SAFE."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -1560,9 +1593,26 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Venture",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Authentic Ventures",
+          "Friends & Family Capital",
+          "Westbound Equity Partners"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced only. PitchBook reports $5.8M total; no announcement or Form D exists, so no amount is recorded."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "institution_display": "University of Toronto",
     "icon_url": "",
     "metadata": {
@@ -2057,7 +2107,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "founders": [
       {
         "name": "Mohan Zhang",
@@ -2074,7 +2124,22 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Venture",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Race Capital"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; no amount, date or round name published."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -2094,8 +2159,8 @@
     "hq_country": "US",
     "founding_year": 2001,
     "industry": "Industrial",
-    "stage": "Acquired",
-    "status": "Acquired",
+    "stage": "Inactive",
+    "status": "Inactive",
     "yc_batch": null,
     "icon_url": "https://cdn.theorg.com/1c461d06-554a-48b1-80e1-da5afa6568c9_medium.jpg",
     "founders": [
@@ -2132,7 +2197,7 @@
       "valuation_as_of": "",
       "total_funding_display": "",
       "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "notes": "CORRECTION: previously recorded as Acquired. No acquirer or price exists — a 2012 Facebook acqui-hire rumour was never substantiated and aggregators mark it deadpooled. Founded 2001 by Trevor Blackwell; entered \"rebuild mode\" under CEO David Rogan in 2012; last product 2013. "
     },
     "institution_display": "Carleton University",
     "capital_raised_usd": null,
@@ -2585,12 +2650,12 @@
     "hq_country": "US",
     "founding_year": 2025,
     "industry": "Industrial",
-    "stage": "Early Stage",
+    "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
     "icon_url": "",
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_usd": 24000000,
+    "capital_raised_display": "$24M",
     "founders": [
       {
         "name": "Ebrahim Hussain",
@@ -2607,7 +2672,28 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-06-18",
+        "round": "Seed",
+        "amount_usd": 24000000,
+        "amount_display": "$24M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Kindred Ventures"
+        ],
+        "other_investors": [
+          "TQ Ventures",
+          "Race Capital",
+          "Together Fund"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-$24M-Seed-to-Democratize-Custom-Chip-Design"
+        ],
+        "notes": "Emerged from stealth. Angels include Aravind Srinivas, Lukasz Kaiser, Kunle Olukotun."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -5824,7 +5910,7 @@
     "founding_year": 2013,
     "industry": "Consumer",
     "stage": "Inactive",
-    "status": "Inactive",
+    "status": "Active",
     "yc_batch": "",
     "icon_url": "",
     "founders": [
@@ -5855,7 +5941,7 @@
       "valuation_type": "",
       "valuation_as_of": "",
       "last_verified": "",
-      "notes": ""
+      "notes": "CORRECTION: previously recorded as Inactive. The site was rebuilt in 2024 and its iPhone app WHIB is still live — a two-person indie shop rather than a venture-track startup. "
     },
     "founder_display": "Mayank Mehta",
     "institution_display": "McGill University",
@@ -8485,7 +8571,7 @@
     "hq_country": "US",
     "founding_year": 2024,
     "industry": "AI",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -8514,9 +8600,42 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Standard YC deal."
+      },
+      {
+        "date": "2025-11",
+        "round": "Seed",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Valor Equity Partners"
+        ],
+        "other_investors": [
+          "David Schmaier"
+        ],
+        "source_urls": [
+          "https://betakit.com/team-of-toronto-talent-unites-after-y-combinator-to-build-clado/"
+        ],
+        "notes": "SAFEs."
+      }
+    ],
+    "capital_raised_usd": 2500000,
+    "capital_raised_display": "$2.5M",
     "institution_display": "",
     "icon_url": "",
     "metadata": {
@@ -9537,7 +9656,7 @@
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Formerly named Lunal (GitHub org lunal-dev). Not to be confused with Opaque Systems or Confident AI, both of which are frequently conflated with it. "
     },
     "id": "407"
   },
@@ -12152,12 +12271,12 @@
     "hq_country": "US",
     "founding_year": 2023,
     "industry": "Fintech",
-    "stage": "Seed",
+    "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "S'23",
     "icon_url": "",
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
     "founders": [
       {
         "name": "Bowen Xue",
@@ -12174,7 +12293,24 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2023",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/disputeninja"
+        ],
+        "notes": "Standard YC deal, S23. Pivot/rename of Trench."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -15915,7 +16051,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "founders": [
       {
         "name": "Jahan-Yar Parsa",
@@ -15932,7 +16068,28 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "SOSV",
+          "Boost VC",
+          "Hartmann Capital",
+          "Earthling VC",
+          "Draper B1"
+        ],
+        "source_urls": [
+          "https://foundational.bio/"
+        ],
+        "notes": "Investors named on the company site; no amount, date or round name disclosed."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -16500,7 +16657,27 @@
         "bio": "CEO & Co-Founder of Gather. BEng in Electrical and Computer Engineering from McGill University. MBA from Wharton. Previously co-founded Cooliris (acq. Yahoo) and Pulse Q&A (acq. Gartner)."
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2024",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Anthropic",
+          "True Ventures",
+          "Menlo Ventures",
+          "Ridge Ventures"
+        ],
+        "source_urls": [
+          "https://www.gatherhq.com/about"
+        ],
+        "notes": "Investors named on the company about page; amount never disclosed."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://www.linkedin.com/in/imayank/"
@@ -17244,7 +17421,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "founders": [
       {
         "name": "Jingxiang Mo",
@@ -17261,7 +17438,24 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025-09",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "South Park Commons"
+        ],
+        "source_urls": [
+          "https://www.southparkcommons.com/companies/gradient-robotics/"
+        ],
+        "notes": "Amount undisclosed."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -20877,9 +21071,26 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025-10",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Foothill Ventures",
+          "Overture Ventures",
+          "Transition Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; no press release and no amount disclosed."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "icon_url": "",
     "institution_display": "University of Toronto",
     "metadata": {
@@ -21968,7 +22179,24 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/liva-ai"
+        ],
+        "notes": "Standard YC deal, S25."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://www.theliva.ai",
@@ -21983,8 +22211,8 @@
     "founder_display": "Ashley Mo",
     "institution_display": "University of Toronto Schools",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "",
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
     "icon_url": ""
   },
   {
@@ -23349,7 +23577,7 @@
       "valuation_as_of": "",
       "total_funding_display": "$70M",
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Corporate history: the entity was originally incorporated as SpinPunch, Inc. (YC S12), a games studio, and renamed Mattermost, Inc. Confirmed by the \"Previous Names\" field on Mattermost's 2019 Form D (CIK 0001781182). The SpinPunch games brand became Battlehouse and wound down in 2023. A separate SpinPunch record was merged into this one. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": 70000000,
@@ -23819,8 +24047,8 @@
     "status": "Active",
     "yc_batch": "",
     "icon_url": "",
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_usd": 1500000,
+    "capital_raised_display": "$1.5M",
     "founders": [
       {
         "name": "Joe Mattekatt",
@@ -23851,7 +24079,24 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-06-09",
+        "round": "Pre-Seed",
+        "amount_usd": 1500000,
+        "amount_display": "$1.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Pillar VC"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.finsmes.com/2026/06/mesoware-raises-1-5m-in-pre-seed-funding.html"
+        ],
+        "notes": ""
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -31089,9 +31334,26 @@
         "x_url": "https://x.com/dineen_leah"
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Accelerator",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Techstars"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.pique.so/"
+        ],
+        "notes": "Backed by Techstars per the company footer; batch and terms not identified."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "institution_display": "University of Waterloo",
     "icon_url": "",
     "metadata": {
@@ -32413,7 +32675,7 @@
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "founding_year": 2024,
+    "founding_year": 2026,
     "industry": "AI",
     "stage": "Seed",
     "status": "Private",
@@ -32434,9 +32696,27 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-06",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Scribble Ventures"
+        ],
+        "other_investors": [
+          "Freestyle Capital",
+          "Hawk Hill Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Amount undisclosed."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "institution_display": "University of Toronto",
     "icon_url": "",
     "metadata": {
@@ -33310,9 +33590,9 @@
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "founding_year": 2024,
+    "founding_year": 2022,
     "industry": "AI",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Active",
     "yc_batch": null,
     "icon_url": "",
@@ -33346,7 +33626,65 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2022-11",
+        "round": "Seed",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Tribe Capital",
+          "Defy",
+          "Exor",
+          "Stratos",
+          "Framework Ventures",
+          "Morgan Creek Digital",
+          "SiriusPoint"
+        ],
+        "source_urls": [
+          "https://www.reinsurancene.ws/blockchain-powered-reinsurer-re-raises-14-million-seed-round/"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2024-05",
+        "round": "Venture",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Electric Capital"
+        ],
+        "other_investors": [
+          "Nexus Mutual",
+          "Ava Labs"
+        ],
+        "source_urls": [
+          "https://blockworks.com/news/first-blockchain-powered-reinsurer-gets-a-funding-boost"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2024",
+        "round": "Strategic",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Coinbase Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://re.xyz/insights/coinbase-invests"
+        ],
+        "notes": "Amount undisclosed."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://re.ai"
@@ -33363,8 +33701,8 @@
       "notes": ""
     },
     "institution_display": "Queen's University, University of Toronto",
-    "capital_raised_usd": null,
-    "capital_raised_display": ""
+    "capital_raised_usd": 21000000,
+    "capital_raised_display": "$21M"
   },
   {
     "id": "rebel-recommerce",
@@ -33562,9 +33900,24 @@
         "x_url": "https://x.com/oliviali_"
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-08-12",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Asylum Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Emerged from stealth with no funding figure disclosed. Investor is aggregator-sourced."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "institution_display": "University of Toronto",
     "icon_url": "",
     "metadata": {
@@ -34237,9 +34590,26 @@
         "x_url": "https://x.com/mtzmsa"
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-03-24",
+        "round": "Accelerator",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "NEC X"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://elev-x.com/news-insights/nec-x-selects-seven-startups-for-batch-15-of-elev-x-ignite/"
+        ],
+        "notes": "Elev X! Ignite Batch 15."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "icon_url": "",
     "institution_display": "University of Toronto",
     "metadata": {
@@ -37783,7 +38153,29 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2026-07-20",
+        "round": "Venture",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Fidelity Management & Research",
+          "Inovia Capital",
+          "Touring Capital",
+          "M13",
+          "NextView Ventures",
+          "Garage Capital"
+        ],
+        "source_urls": [
+          "https://betakit.com/canadian-deep-learning-pioneers-are-building-ai-to-replace-ceos/"
+        ],
+        "notes": "Announced on emergence from stealth; amount undisclosed. The widely cited $1M is an acquisition budget, not a raise."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://skyfall.ai"
@@ -37801,7 +38193,7 @@
     },
     "institution_display": "University of Waterloo",
     "capital_raised_usd": null,
-    "capital_raised_display": ""
+    "capital_raised_display": "Undisclosed"
   },
   {
     "id": "slack",
@@ -38459,7 +38851,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "capital_raised_display": "Undisclosed",
     "founders": [
       {
         "name": "Sarah Tang",
@@ -38476,7 +38868,26 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025-01-08",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Untapped Ventures",
+          "Antler",
+          "Virta Ventures"
+        ],
+        "source_urls": [
+          "https://untappedventures.substack.com/p/untapped-ventures-invests-in-sluicebox"
+        ],
+        "notes": "Amount undisclosed; aggregator figures conflict."
+      }
+    ],
     "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -39913,54 +40324,6 @@
     "icon_url": ""
   },
   {
-    "id": 235,
-    "name": "SpinPunch",
-    "website": "https://spinpunch.com",
-    "description": "Browser-based real-time strategy gaming company developing HTML5 games including Mars Frontier and Thunder Run.",
-    "hq_city": "Palo Alto",
-    "hq_region": "CA",
-    "hq_country": "US",
-    "founding_year": 2012,
-    "industry": "Consumer",
-    "stage": "Seed",
-    "status": "Inactive",
-    "yc_batch": null,
-    "icon_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397180973/52ddf34e9453e9152af617bd31eacbd8.gif?ik-sanitizeSvg=true",
-    "founders": [
-      {
-        "name": "Ian Tien",
-        "linkedin": "https://www.linkedin.com/in/iantien",
-        "wikipedia_url": "",
-        "x_url": "",
-        "bio": "Raised in Toronto, UWaterloo grad, later founded Mattermost.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "University of Waterloo",
-        "canadian_city": "Toronto, ON",
-        "canadian_institutions": [
-          "University of Waterloo"
-        ],
-        "role": ""
-      }
-    ],
-    "funding_rounds": [],
-    "metadata": {
-      "sources": [],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_source_type": "",
-      "valuation_type": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
-      "total_funding_display": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
-    },
-    "institution_display": "University of Waterloo",
-    "capital_raised_usd": null,
-    "capital_raised_display": ""
-  },
-  {
     "id": 261,
     "name": "Sponge",
     "website": "https://paysponge.com/",
@@ -40295,7 +40658,7 @@
     "founding_year": 2021,
     "industry": "AI",
     "stage": "Seed",
-    "status": "Active",
+    "status": "Inactive",
     "yc_batch": "S'21",
     "founders": [
       {
@@ -40327,7 +40690,44 @@
         "x_url": "https://x.com/BrandonWaselnuk"
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2021-08",
+        "round": "Pre-Seed",
+        "amount_usd": 125000,
+        "amount_display": "$125K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/squire-ai"
+        ],
+        "notes": "YC S21 standard deal of that era."
+      },
+      {
+        "date": "2021-12-14",
+        "round": "Seed",
+        "amount_usd": 4400000,
+        "amount_display": "$4.4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "NFX"
+        ],
+        "other_investors": [
+          "Ludlow Ventures",
+          "Emergence Capital",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://venturebeat.com/business/codex-aims-to-enable-engineers-to-collaborate-within-an-ide"
+        ],
+        "notes": "Announced under the company's original name, Codex. One outlet reported $5.5M; $4.4M is the better-sourced figure."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://squire.ai",
@@ -40343,8 +40743,8 @@
     "founder_display": "Saumil Patel, Brandon Waselnuk",
     "institution_display": "Algonquin College",
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "",
+    "capital_raised_usd": 4525000,
+    "capital_raised_display": "$4.5M",
     "icon_url": ""
   },
   {
@@ -40488,7 +40888,7 @@
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
-    "founding_year": 2023,
+    "founding_year": 2021,
     "industry": "AI",
     "stage": "Seed",
     "status": "Active",
@@ -40510,7 +40910,25 @@
         "role": ""
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2021-10-31",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Anthos Capital",
+          "K5 Global",
+          "Village Global",
+          "Upside Partnership"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; no amount disclosed. Attaches to the pre-pivot business (fka Loot Discount Inc)."
+      }
+    ],
     "metadata": {
       "sources": [
         "https://stepwork.com"
@@ -40528,7 +40946,7 @@
     },
     "institution_display": "University of Toronto",
     "capital_raised_usd": null,
-    "capital_raised_display": ""
+    "capital_raised_display": "Undisclosed"
   },
   {
     "id": "stoa",
@@ -42545,9 +42963,26 @@
         ]
       }
     ],
-    "funding_rounds": [],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Entrepreneurs First"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.joinef.com/companies/tacit-machines/"
+        ],
+        "notes": "EF standard pre-seed; amount undisclosed."
+      }
+    ],
     "capital_raised_usd": null,
-    "capital_raised_display": null,
+    "capital_raised_display": "Undisclosed",
     "status": "Active",
     "yc_batch": null,
     "metadata": {
@@ -45622,7 +46057,7 @@
     "hq_country": "US",
     "founding_year": 2025,
     "industry": "AI",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -45655,9 +46090,26 @@
         "x_url": ""
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": null,
-    "capital_raised_display": "",
+    "funding_rounds": [
+      {
+        "date": "2026-05-05",
+        "round": "Seed",
+        "amount_usd": 2750000,
+        "amount_display": "$2.75M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Maple VC"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://maplevc.com/portfolio"
+        ],
+        "notes": "Confirmed on Maple VC's own portfolio page; the $2.75M figure is founder-sourced via a placed profile piece."
+      }
+    ],
+    "capital_raised_usd": 2750000,
+    "capital_raised_display": "$2.75M",
     "institution_display": "McGill University, University of Toronto",
     "icon_url": "",
     "metadata": {
@@ -46867,9 +47319,31 @@
         ]
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": null,
-    "capital_raised_display": null,
+    "funding_rounds": [
+      {
+        "date": "2026-05-22",
+        "round": "Pre-Seed",
+        "amount_usd": 4300000,
+        "amount_display": "$4.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "CEAS Investments",
+          "Companyon Ventures",
+          "11 Tribes Ventures",
+          "Argon Ventures",
+          "Bulletpitch",
+          "The Lighthouse"
+        ],
+        "source_urls": [
+          "https://wattdata.ai/blog/pre-seed-announcement"
+        ],
+        "notes": "No single lead named. Confirmed by an SPV Form D filed 2026-05-21."
+      }
+    ],
+    "capital_raised_usd": 4300000,
+    "capital_raised_display": "$4.3M",
     "status": "Active",
     "yc_batch": null,
     "metadata": {
@@ -46878,8 +47352,8 @@
       "valuation_usd": null,
       "valuation_display": ""
     },
-    "founding_year": 2025,
-    "stage": "",
+    "founding_year": 2021,
+    "stage": "Pre-Seed",
     "icon_url": ""
   },
   {
@@ -47966,9 +48440,24 @@
         ]
       }
     ],
-    "funding_rounds": [],
-    "capital_raised_usd": null,
-    "capital_raised_display": null,
+    "funding_rounds": [
+      {
+        "date": "2025-06-16",
+        "round": "Accelerator",
+        "amount_usd": 15000,
+        "amount_display": "$15K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Liu Idea Lab for Innovation and Entrepreneurship"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Rice University accelerator; aggregator-sourced."
+      }
+    ],
+    "capital_raised_usd": 15000,
+    "capital_raised_display": "$15K",
     "status": "Active",
     "yc_batch": null,
     "metadata": {
