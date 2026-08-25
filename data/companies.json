@@ -25584,6 +25584,135 @@
     "icon_url": ""
   },
   {
+    "id": "mundo-ai",
+    "name": "Mundo AI",
+    "website": "https://mundoai.world",
+    "description": "Builds multimodal training data, evaluations, and applied research for frontier AI labs — spanning audio, video, and other perceptual modalities.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "W'25",
+    "icon_url": "https://img.logo.dev/mundoai.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Jason Liao",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jasonliao02",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Mundo AI. BCom in Business and Computer Science, University of British Columbia (Sauder School of Business).",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      },
+      {
+        "name": "Kenneth Wu",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/wukenneth",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Mundo AI. Computer science and finance at the University of British Columbia.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      },
+      {
+        "name": "Naijide Anwaer",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/naijide-anwaer",
+        "x_url": "",
+        "bio": "Co-Founder of Mundo AI. University of British Columbia; previously at Binance.US.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      },
+      {
+        "name": "Garreth Lee",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/garrethlee",
+        "x_url": "",
+        "bio": "Co-Founder of Mundo AI. Sauder School of Business, University of British Columbia; previously at Hugging Face.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-01",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "N1"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/mundo-ai"
+        ],
+        "notes": "Standard YC deal, Winter 2025 batch."
+      },
+      {
+        "date": "2025",
+        "round": "Seed",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Previously unannounced; disclosed by the company alongside the Series A. Date and lead not stated."
+      },
+      {
+        "date": "2026-08-24",
+        "round": "Series A",
+        "amount_usd": 20000000,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "GreatPoint Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.gpv.com/companies"
+        ],
+        "notes": "Announced by the company on X; confirmed on GreatPoint Ventures' own portfolio page."
+      }
+    ],
+    "capital_raised_usd": 24000000,
+    "capital_raised_display": "$24M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-24T14:00:00-08:00",
+      "notes": "Legal entity Mundo AI Inc. All four co-founders met and studied at the University of British Columbia. Naijide Anwaer's UBC enrolment is self-attested in his own LinkedIn post (highest confidence); the other three are corroborated across multiple independent sources but not from a primary one. HQ NOTE: recorded as San Francisco per the DB owner. Sources conflict — Crunchbase and PitchBook say San Francisco, but YC's company-maintained page lists Vancouver, and the company hires for in-person Vancouver roles. Most likely a Delaware C-Corp with an SF corporate office and engineering in Vancouver. No SEC Form D on file. Series A was announced 24 Aug 2026."
+    }
+  },
+  {
     "id": "nantomics",
     "name": "NantOmics",
     "website": "https://www.nantomics.com",
