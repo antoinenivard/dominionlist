@@ -69,7 +69,7 @@
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "HQ VERIFICATION — LIKELY DISQUALIFIED, PENDING OWNER DECISION. BetaKit, 19 Aug 2026, in an exclusive interview with CEO David Feldt, calls it \"Toronto-based\" and states the founders are in San Francisco only for the a16z speedrun program and \"plan to return to Toronto after completing\" it. That cohort runs into autumn 2026, so they are physically in SF now. Feldt's own site header reads \"Toronto, ON CA\". Also confirmed: 3E8 Robotics is no longer operational and the team pivoted to the Blueprint hardware-design tool. Worth re-checking after Oct 2026. "
     },
     "id": "420"
   },
@@ -8184,7 +8184,7 @@
       "valuation_as_of": "",
       "total_funding_display": "",
       "last_verified": "2026-04-30T11:49:00-07:00",
-      "notes": ""
+      "notes": "HQ VERIFICATION — LIKELY DISQUALIFIED, PENDING OWNER DECISION. Evidence points decisively to Toronto, Ontario: the live Ashby job board lists every open role as addressCountry Canada, workplaceType OnSite, with salaries quoted in CANADIAN dollars and the text \"in-office, five days a week, in downtown Toronto.\" There are no US roles. Founder Yasser Elsaid built Chatbase while at York University in Toronto. The San Francisco address in the privacy policy (2261 Market St STE 85690) is a virtual mailbox, and the terms set Delaware governing law — the Delaware C-Corp shell pattern, which is not evidence of a US HQ. "
     },
     "institution_display": "York University",
     "capital_raised_usd": 0,
@@ -42987,7 +42987,7 @@
     "yc_batch": null,
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
-      "notes": "Co-founder Jasmin Kaur (CEO). Entrepreneurs First alumnus. Previously Lead ML Researcher at Bilby AI (Hong Kong). B.Sc. Computing Mathematics from City University of Hong Kong.",
+      "notes": "HQ CHECKED — the \"London/British company\" claim does NOT hold up: a full UK Companies House search returns no company named Tacit Machines, and the nearest match (Tacit Labs Ltd) has entirely different directors. Affirmative US evidence is real but thin — co-founder Muhammad Usman Farooq's own site places him in San Francisco, the company hosted an in-person SF event, and a second investor (Transpose Platform) is an SF VC. However the site serves no address, terms or privacy policy at all, and there is no Form D, so no primary address exists. ALSO: Farooq's site indicates he has LEFT the company, which was only two people in Jan 2026 — confirm it is still operating. Co-founder Jasmin Kaur (CEO). Entrepreneurs First alumnus. Previously Lead ML Researcher at Bilby AI (Hong Kong). B.Sc. Computing Mathematics from City University of Hong Kong.",
       "valuation_usd": null,
       "valuation_display": ""
     },
