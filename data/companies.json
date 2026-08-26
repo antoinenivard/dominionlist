@@ -2899,7 +2899,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "P'26",
@@ -2943,19 +2943,44 @@
         "lead_investors": [
           "Y Combinator"
         ],
-        "other_investors": [],
+        "other_investors": [
+          "Comma Capital",
+          "Scribble Ventures"
+        ],
         "source_urls": [
           "https://www.ycombinator.com/companies/arga-labs"
         ],
         "notes": "Standard YC P'26 deal"
+      },
+      {
+        "date": "2026-08-26",
+        "round": "Seed",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "General Catalyst"
+        ],
+        "other_investors": [
+          "Box Group",
+          "Emergence",
+          "Gradient",
+          "SV Angel"
+        ],
+        "source_urls": [
+          "https://dealroom.co/news/147108-arga-raises-10m-seed-to-let-ai-agents-crash-in-a-sandbox-not-production/",
+          "https://cryptobriefing.com/arga-raises-10m-ai-agent-training/"
+        ],
+        "notes": "Dealroom places the round in the 96th percentile of all-time US enterprise software seed deals. Team was four to five people at the time of the raise."
       }
     ],
-    "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
+    "capital_raised_usd": 10500000,
+    "capital_raised_display": "$10.5M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-05-08T09:16:00-08:00",
+      "last_verified": "2026-08-26T09:00:00-07:00",
       "notes": ""
     }
   },
