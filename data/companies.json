@@ -23584,6 +23584,138 @@
     "capital_raised_display": "$70M"
   },
   {
+    "id": "mecka-ai",
+    "name": "Mecka",
+    "website": "https://www.mecka.ai",
+    "description": "Data and deployment layer for physical AI — captures, structures, and evaluates real-world egocentric activity into training datasets for robotics teams. Its dataset product is Egoverse.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/mecka.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Josh Gao",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/joshgao",
+        "x_url": "",
+        "bio": "Co-Founder & CEO of Mecka. HBA 2021, Ivey Business School, Western University. Raised in Canada; previously co-founded Mentum.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Western University",
+        "canadian_institutions": [
+          "Western University"
+        ],
+        "canadian_city": "London, ON"
+      },
+      {
+        "name": "Jason Chong",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/jasonchongg",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Mecka. Business and computer science, University of British Columbia (2015-2020). Previously co-founded Utopia Labs, acquired by Coinbase, and was a software engineer at Microsoft.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      },
+      {
+        "name": "Mogen Cheng",
+        "role": "Co-Founder & CPO",
+        "linkedin": "https://www.linkedin.com/in/mogen",
+        "x_url": "",
+        "bio": "Co-Founder & CPO of Mecka. University of Toronto (2017-2022). Previously co-founded Mentum with Josh Gao.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Markham, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-08-12",
+        "round": "Seed",
+        "amount_usd": 8000000,
+        "amount_display": "$8M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Neo"
+        ],
+        "other_investors": [
+          "SV Angel",
+          "A-Star Capital",
+          "Cade",
+          "Timeless",
+          "Offline VC"
+        ],
+        "source_urls": [
+          "https://www.upstartsmedia.com/p/mecka-ai-robotics-data-startup"
+        ],
+        "notes": "Announced on emergence from stealth."
+      },
+      {
+        "date": "2025-11",
+        "round": "Series A",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Framework Ventures"
+        ],
+        "other_investors": [
+          "Menlo Ventures",
+          "SV Angel",
+          "Kindred Ventures",
+          "Ted Xiao"
+        ],
+        "source_urls": [
+          "https://fortune.com/2026/06/01/mecka-ai-series-a-60-million-robotics-data-training/"
+        ],
+        "notes": "Closed Nov 2025 but not disclosed until June 2026. Structured as a SAFE, so no valuation exists."
+      },
+      {
+        "date": "2026-06-01",
+        "round": "Series A Extension",
+        "amount_usd": 35000000,
+        "amount_display": "$35M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Framework Ventures"
+        ],
+        "other_investors": [
+          "Menlo Ventures",
+          "SV Angel",
+          "Kindred Ventures"
+        ],
+        "source_urls": [
+          "https://betakit.com/mecka-ai-announces-60-million-usd-to-power-physical-ai/"
+        ],
+        "notes": "Also a SAFE. Announced together with the $25M as a combined \"$60M Series A\"."
+      }
+    ],
+    "capital_raised_usd": 68000000,
+    "capital_raised_display": "$68M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-24T15:00:00-08:00",
+      "notes": "Legal entity Carbon Based Technology Corporation, dba Mecka AI. Three of four co-founders are Canadian: Josh Gao (Ivey/Western, confirmed by a Western University primary source), Jason Chong (UBC) and Mogen Cheng (U of T) — the latter two rest on aggregator and search-index data since LinkedIn is login-walled, so both are lower confidence. Fourth co-founder Duy Nguyen (Arizona State) has NO Canadian tie beyond adult residence in Toronto and is not listed. HQ NOTE: Fortune states it is headquartered in New York and BetaKit confirms it is US-domiciled, but roughly 40 of 45 staff are in Toronto and it launched from stealth in Aug 2025 as a Toronto-based company — a genuinely cross-border business whose operational centre is Ontario. IMPORTANT ON FUNDING: the widely reported \"$60M Series A\" is not one round — it is $25M (Nov 2025) plus a $35M extension, both SAFEs, announced together. Total including the $8M seed is $68M. No valuation has ever been disclosed because the rounds were SAFEs. The company claims a ~$100M run rate; that is an unverified company claim."
+    }
+  },
+  {
     "id": "medchart",
     "name": "Medchart",
     "website": "https://www.medchart.com",
