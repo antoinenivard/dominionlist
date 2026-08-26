@@ -2893,7 +2893,7 @@
   {
     "id": "arga-labs",
     "name": "Arga Labs",
-    "website": "https://arga.dev",
+    "website": "https://www.argalabs.com/",
     "description": "Validation infrastructure for AI agents. Spins up production-like staging sandboxes per PR with 'twins' for integrations (Stripe, Slack, GSuite). Generates and runs tests automatically so agents can fix what broke before a human reviews.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
@@ -2903,7 +2903,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "P'26",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/argalabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Phillip Li",
