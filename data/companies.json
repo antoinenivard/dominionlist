@@ -18923,17 +18923,17 @@
     "hq_country": "US",
     "founding_year": 2025,
     "industry": "Enterprise",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
+    "capital_raised_display": "$500K+",
     "founders": [
       {
         "name": "William Cielen",
-        "linkedin": "https://www.linkedin.com/in/williamcielen",
-        "bio": "CEO. Software Engineering at Concordia University (on leave). Previously at Champlain College Saint-Lambert. 18 years old, from Quebec. PearX W26, Z Fellows.",
+        "linkedin": "https://www.linkedin.com/in/cielen/",
+        "bio": "Founder & CEO of Hilt. Born in Las Vegas; moved to Montreal in 2017 and was raised there, dancing professionally with Les Grands Ballets Canadiens. Studied CEGEP, then software engineering at Concordia University, leaving during his third year.",
         "canadian_connection_type": "education",
         "canadian_institution": "Concordia University",
         "canadian_city": "Montreal, QC",
@@ -18942,12 +18942,12 @@
         ],
         "x_url": "",
         "wikipedia_url": "",
-        "role": ""
+        "role": "Founder & CEO"
       }
     ],
     "funding_rounds": [
       {
-        "date": "2026",
+        "date": "2025-09",
         "round": "Pre-Seed",
         "amount_usd": 500000,
         "amount_display": "$500K",
@@ -18956,17 +18956,42 @@
         "lead_investors": [
           "Pear VC"
         ],
-        "other_investors": [],
-        "source_urls": [],
-        "notes": "PearX W26 batch"
+        "other_investors": [
+          "Z Fellows",
+          "Sarah Smith Fund"
+        ],
+        "source_urls": [
+          "https://cielen.ai/"
+        ],
+        "notes": "PearX W26 batch. Founder-stated."
+      },
+      {
+        "date": "2026-04",
+        "round": "Seed",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Array Ventures",
+          "Verdict Capital",
+          "Base10 Partners",
+          "Brickyard",
+          "Sarah Smith Fund"
+        ],
+        "source_urls": [
+          "https://cielen.ai/"
+        ],
+        "notes": "Never announced publicly — no press coverage and no Form D. Investors are founder-stated on his personal site; amount, lead and valuation all undisclosed."
       }
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-26T14:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "CORRECTION: Hilt was previously recorded as a Y Combinator company. It is NOT — YC's directory has no such company. The $500K pre-seed was PearX W26 (Pear VC's accelerator) plus Z Fellows. FOUNDER COUNT: William Cielen is the only CONFIRMED founder — his own site says he \"founded\" Hilt in the singular, while using \"co-founded\" for two earlier ventures. However, CTO Alexandre Genest (Concordia, Montreal) and engineer Zin Bitar (Concordia Software Engineering, Dean's List) BOTH have Canadian ties; Genest's co-founder status is unverified and Bitar reads as an early hire (\"joined\"), so neither is listed here. Effectively a Montreal/Concordia team operating from the US. HQ of record is San Francisco, but the company relocated operationally to Chattanooga TN in May 2026 for the Brickyard residency. Pivoted from application-layer to kernel-level security in Jan 2026; the pre-pivot product was branded Cybe. Total raised is at least $500K — the April 2026 seed amount is unknown."
     },
     "id": "436"
   },
