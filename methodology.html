@@ -7,12 +7,12 @@
 <meta name="description" content="How companies are included, verified, and maintained in The Dominion List — a database of the most influential Canadian founders building companies in America.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="The Dominion List">
-<meta property="og:description" content="The most influential Canadian founders building companies in America. 433 companies, $347B raised, 53 unicorns.">
+<meta property="og:description" content="The most influential Canadian founders building companies in America. 576 companies, $625B raised, 55 unicorns.">
 <meta property="og:image" content="https://dominionlist.com/og-image.png">
 <meta property="og:url" content="https://dominionlist.com">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Dominion List">
-<meta name="twitter:description" content="The most influential Canadian founders building companies in America. 433 companies, $347B raised, 53 unicorns.">
+<meta name="twitter:description" content="The most influential Canadian founders building companies in America. 576 companies, $625B raised, 55 unicorns.">
 <meta name="twitter:image" content="https://dominionlist.com/og-image.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23111'/></svg>">
 <style>
@@ -208,7 +208,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 <main class="page">
 
   <h2>Methodology</h2>
-  <p>The Dominion List is an open-source database of US-incorporated companies founded or co-founded by people with significant Canadian roots. It tracks <strong id="methCount">430</strong> companies that have collectively raised <strong id="methRaised">$347B</strong> in venture capital. This page documents how the database is built, maintained, and verified.</p>
+  <p>The Dominion List is an open-source database of US-headquartered companies founded or co-founded by people with significant Canadian roots. It tracks <strong id="methCount">430</strong> companies that have collectively raised <strong id="methRaised">$347B</strong> in venture capital. This page documents how the database is built, maintained, and verified.</p>
 
   <hr class="divider">
 
@@ -228,7 +228,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 
   <h3>Company requirements</h3>
   <ul>
-    <li>Must be incorporated or headquartered in the United States</li>
+    <li>Must be headquartered in the United States. US incorporation alone does not qualify — a Delaware entity operating from Toronto or London is excluded</li>
     <li>Must have raised venture capital, achieved meaningful revenue scale, or reached a significant valuation</li>
     <li>Must be a technology company or venture-backed startup — traditional businesses, franchises, and lifestyle businesses are excluded</li>
   </ul>
@@ -280,6 +280,9 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <span class="tag">Series B</span>
     <span class="tag">Series C</span>
     <span class="tag">Series C+</span>
+    <span class="tag">Series D+</span>
+    <span class="tag">Early Stage</span>
+    <span class="tag">Bootstrapped</span>
     <span class="tag">Growth</span>
     <span class="tag">Private</span>
     <span class="tag">Private (PE)</span>
@@ -288,7 +291,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   </div>
 
   <h3>Canadian institutions</h3>
-  <p>The database tracks 29 Canadian institutions, including universities, colleges, and select secondary schools. The most represented are:</p>
+  <p>The database tracks <strong id="methInst">40</strong> Canadian institutions, including universities, colleges, and select secondary schools. The most represented are:</p>
   <div style="margin-bottom:14px">
     <span class="tag">University of Toronto</span>
     <span class="tag">University of Waterloo</span>
@@ -343,7 +346,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <tr><td>founding_year</td><td>Year the company was founded</td></tr>
     <tr><td>industry</td><td>Primary industry category</td></tr>
     <tr><td>stage</td><td>Current company stage</td></tr>
-    <tr><td>status</td><td>Active, Public, Acquired, Inactive, or Defunct</td></tr>
+    <tr><td>status</td><td>Active, Private, Public, Acquired, Inactive, or Defunct</td></tr>
     <tr><td>yc_batch</td><td>Y Combinator batch, if applicable</td></tr>
     <tr><td>capital_raised_usd</td><td>Total capital raised in USD (computed)</td></tr>
   </table>
@@ -423,6 +426,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <p>Major changes to the database are tracked here. For granular history, see the <a href="https://github.com/antoinenivard/dominionlist/commits/main">commit log</a>.</p>
   <table class="schema-table">
     <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
+    <tr><td>v1.3.0</td><td>August 28, 2026</td><td>Added 24 companies (552 &rarr; 576), including OpenEvidence ($12B, the second most valuable private company on the list), Writer ($1.9B), Mecka, Retro, Mundo AI and Vernius Systems. Filled funding history for 26 entries that previously had none &mdash; notably Architect Labs’ $24M seed and Squire AI’s $4.4M round, which was invisible because it had been announced under the company’s earlier name. Added LinkedIn URLs for 79 founders. <strong>Fixed a schema split in which 265 of 576 records stored <code>hq_country</code> as &ldquo;United States&rdquo; rather than &ldquo;US&rdquo;</strong>, which had been quietly halving any query keyed on that field. Corrected the analytics deals comparison, which plotted deal counts against a multiple computed from company counts. Merged duplicate entries (Chemix/Teserac, SpinPunch/Mattermost &mdash; the same legal entity, confirmed via SEC filings). Reworked the interface: a persistent header toggle replaces the footer page links, the header is now sticky and identical across all three pages, and the database sub-bar consolidates search, count, GitHub, download and submit into one row. Split licensing &mdash; MIT for code, CC BY 4.0 for the dataset.</td></tr>
     <tr><td>v1.2.0</td><td>August 20, 2026</td><td>Added 50 companies (502 &rarr; 552). Normalized the full schema: every funding round and founder record standardized to canonical fields (<code>lead_investors</code>/<code>other_investors</code> arrays, <code>round</code>, <code>canadian_institution</code>), and industries consolidated back to the 7 core sectors. Added shareable filter URLs &mdash; any filtered view can now be linked directly (e.g. <code>?school=Waterloo&amp;sector=AI</code>). Fixed valuation logic so inactive and wound-down companies resolve to $0 rather than carrying peak historical marks. Established a monthly refresh cycle: public company market caps are marked to the last trading day of the prior month. Recorded major events including the SpaceX IPO and xAI merger, Anthropic’s $65B Series H at $965B, OpenAI’s $122B round at $852B, Databricks at $190B, MaintainX’s $3.6B acquisition by Autodesk, and Wish’s sale to Qoo10. Resolved four duplicate entries (Arga Labs, Jamsocket/Drifting in Space, Solcoa Industries, OpenPhone/Quo) and corrected same-name misattributions where another company’s funding had been recorded (Conway, Gather, Hedgehog).</td></tr>
     <tr><td>v1.1.0</td><td>May 5, 2026</td><td>Added 68 new companies (434 → 502). Normalized data schema: consolidated to single founding_year field, restored 7 canonical sectors (AI, Enterprise, Consumer, Fintech, Health, Industrial, Crypto). Expanded analytics histogram to 1993–2026. Removed high schools from institution filter (universities only). Verified funding round types and founding years across database.</td></tr>
     <tr><td>v1.0.0</td><td>Apr 29, 2026</td><td>Initial public release. 434 companies across 7 sectors. Structured funding history, valuations, founder profiles with Canadian institutional connections. Interactive analytics with 7 charts. Full methodology documentation. Open-sourced under MIT License.</td></tr>
@@ -477,7 +481,11 @@ fetch('data/companies.json').then(function(r){return r.json()}).then(function(co
     if(c.metadata&&c.metadata.last_verified) verified++;
   });
   var raisedStr=raised>=1e12?'$'+(raised/1e12).toFixed(1)+'T':'$'+Math.round(raised/1e9)+'B';
-  var els={methCount:n,methCount2:n,methRaised:raisedStr,methVerified:verified};
+  var insts={};
+  companies.forEach(function(c){(c.founders||[]).forEach(function(f){
+    (f.canadian_institutions||[]).forEach(function(i){if(i)insts[i]=1});
+  })});
+  var els={methCount:n,methCount2:n,methRaised:raisedStr,methVerified:verified,methInst:Object.keys(insts).length};
   Object.keys(els).forEach(function(id){
     var el=document.getElementById(id);
     if(el) el.textContent=els[id];

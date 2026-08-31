@@ -6,7 +6,7 @@ An open-source database of the most influential Canadian founders building compa
 
 ## What is this?
 
-The Dominion List tracks 430+ US-incorporated technology companies founded or co-founded by people with significant Canadian roots. The database includes funding history, valuations, founder profiles, institutional connections, and industry classification for each company.
+The Dominion List tracks 570+ US-headquartered technology companies founded or co-founded by people with significant Canadian roots. The database includes funding history, valuations, founder profiles, institutional connections, and industry classification for each company.
 
 The project exists to quantify the scale and impact of Canadian-born and Canadian-educated founders in the American technology ecosystem.
 
@@ -46,9 +46,12 @@ dominionlist/
   analytics.html      # Interactive charts and data visualizations
   methodology.html    # How the database is built and maintained
   favicon.ico         # Site icon
+  og-image.png        # Social share image
+  vercel.json         # Clean-URL rewrites for /analytics and /methodology
   data/
     companies.json    # The database (single source of truth)
     metadata.json     # Version and update tracking
+    investor-alias-map.json  # Investor name normalization
   .github/
     ISSUE_TEMPLATE/   # Templates for submitting companies and edits
 ```
@@ -57,8 +60,8 @@ dominionlist/
 
 We welcome contributions. The most common ways to help:
 
-- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new) with the company details and a public source confirming the Canadian founder connection.
-- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new) with the company name, what needs to change, and a source.
+- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new/choose) with the company details and a public source confirming the Canadian founder connection.
+- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new/choose) with the company name, what needs to change, and a source.
 - **Edit the data directly** — fork the repo, edit `data/companies.json`, and open a pull request.
 
 All submissions require at least one public source. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
