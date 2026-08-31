@@ -10,11 +10,11 @@ A company qualifies if it meets **all** of the following:
 2. The company is incorporated or headquartered in the United States.
 3. The company is a technology company or venture-backed startup that has raised venture capital, achieved meaningful revenue scale, or reached a significant valuation.
 
-To submit a company, open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=submit-company.md) using the "Submit a Company" template. Include at least one public source confirming the Canadian founder connection.
+To submit a company, open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new). Include at least one public source confirming the Canadian founder connection.
 
 ## Suggesting a correction
 
-If you notice incorrect data (wrong founding year, outdated funding round, incorrect founder info), open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=suggest-edit.md) using the "Suggest an Edit" template. Include a source URL for the correction.
+If you notice incorrect data (wrong founding year, outdated funding round, incorrect founder info), open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new). Include a source URL for the correction.
 
 ## Editing the data directly
 
@@ -35,7 +35,7 @@ Each company entry must include at minimum:
 - `founding_year`, `industry`, `stage`, `status`
 - At least one founder with `name`, `canadian_connection_type`, and `canadian_institution`
 
-See the [Methodology page](https://cfddb.vercel.app/methodology.html) for the full schema documentation, industry taxonomy, and stage definitions.
+See the [Methodology page](https://dominionlist.com/methodology.html) for the full schema documentation, industry taxonomy, and stage definitions.
 
 ## What we don't accept
 

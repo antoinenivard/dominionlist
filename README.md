@@ -2,7 +2,7 @@
 
 An open-source database of the most influential Canadian founders building companies in America.
 
-**[Browse the database](https://cfddb.vercel.app)** · **[Analytics](https://cfddb.vercel.app/analytics.html)** · **[Methodology](https://cfddb.vercel.app/methodology.html)**
+**[Browse the database](https://dominionlist.com)** · **[Analytics](https://dominionlist.com/analytics.html)** · **[Methodology](https://dominionlist.com/methodology.html)**
 
 ## What is this?
 
@@ -20,15 +20,15 @@ All data lives in `data/companies.json` — a single structured JSON file. Each 
 
 `data/metadata.json` tracks the database version and last update date.
 
-See the [Methodology](https://cfddb.vercel.app/methodology.html) page for inclusion criteria, taxonomy definitions, data pipeline details, schema documentation, and known limitations.
+See the [Methodology](https://dominionlist.com/methodology.html) page for inclusion criteria, taxonomy definitions, data pipeline details, schema documentation, and known limitations.
 
 ## Running locally
 
 This is a static site — no build step, no dependencies, no framework.
 
 ```bash
-git clone https://github.com/antoinenivard/dominion-list.git
-cd dominion-list
+git clone https://github.com/antoinenivard/dominionlist.git
+cd dominionlist
 
 # Serve locally (any static server works)
 python3 -m http.server 8000
@@ -41,7 +41,7 @@ Open `http://localhost:8000` in your browser.
 ## Project structure
 
 ```
-dominion-list/
+dominionlist/
   index.html          # Main database table with search, filter, sort
   analytics.html      # Interactive charts and data visualizations
   methodology.html    # How the database is built and maintained
@@ -57,8 +57,8 @@ dominion-list/
 
 We welcome contributions. The most common ways to help:
 
-- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=submit-company.md) with the company details and a public source confirming the Canadian founder connection.
-- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/dominion-list/issues/new?template=suggest-edit.md) with the company name, what needs to change, and a source.
+- **Submit a company** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new) with the company details and a public source confirming the Canadian founder connection.
+- **Suggest a correction** — open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new) with the company name, what needs to change, and a source.
 - **Edit the data directly** — fork the repo, edit `data/companies.json`, and open a pull request.
 
 All submissions require at least one public source. See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
@@ -67,11 +67,15 @@ All submissions require at least one public source. See [CONTRIBUTING.md](CONTRI
 
 If you use The Dominion List in research, journalism, or analysis:
 
-> Nivard, A. (2026). *The Dominion List: A Database of Canadian-Founded US Technology Companies.* Available at [cfddb.vercel.app](https://cfddb.vercel.app). Source: [github.com/antoinenivard/dominion-list](https://github.com/antoinenivard/dominion-list).
+> Nivard, A. (2026). *The Dominion List: A Database of Canadian-Founded US Technology Companies.* Available at [dominionlist.com](https://dominionlist.com). Source: [github.com/antoinenivard/dominionlist](https://github.com/antoinenivard/dominionlist).
 
 ## License
 
-Code and data are released under the [MIT License](LICENSE).
+- **Code** — [MIT License](LICENSE). The HTML, CSS, and JavaScript in this repository.
+- **Data** — [CC BY 4.0](LICENSE-DATA). Everything in `data/`, including `companies.json`.
+
+You may use, adapt, and redistribute the dataset for any purpose, including
+commercially, provided you credit The Dominion List and link to the license.
 
 ## Author
 
