@@ -600,10 +600,11 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .mobile-toggle{order:2}
   .plus-btn{order:3}
   .gh-btn,.dl-menu{display:none}
-  /* not enough room for the full bar — just the count, small */
-  .stats-bar{padding:8px 12px}
-  .stat:not(:first-child){display:none}
-  .stat{flex-direction:row;align-items:baseline;gap:4px;padding:0;border-left:none}
+  /* not enough room for the full bar — count on the left, raised on the right */
+  .stats-bar{padding:8px 12px;justify-content:space-between;gap:12px}
+  .stat:not(:first-child):not(:nth-child(3)){display:none}
+  .stat{flex:0 0 auto;flex-direction:row;align-items:baseline;gap:4px;padding:0;border-left:none}
+  .stat:nth-child(3){text-align:right}
   .stat-value{font-size:12px;font-weight:400;color:var(--fg-muted)}
   .stat-label{font-size:12px;font-weight:400;text-transform:lowercase;letter-spacing:0}
 
@@ -1877,11 +1878,23 @@ function renderStats() {
   put('statMedRaised', disclosed.length ? fmtMoney(median(disclosed)) : '—');
   put('statUnicorns', String(vals.filter(v => v >= 1e9).length));
 
-  /* be explicit that the money figures rest on disclosed rounds only */
+  /* be explicit that the money figures rest on disclosed rounds only.
+     On a phone only the count and total raised are shown, so the wording is
+     compacted to fit — and dropped entirely on very narrow screens. */
+  const narrow = window.matchMedia('(max-width:767px)').matches;
+  const tight = window.matchMedia('(max-width:359px)').matches;
   const cov = set.length ? ' · ' + disclosed.length + ' of ' + set.length + ' disclosed' : '';
-  put('statRaisedLabel', 'Total raised' + cov);
+  const covShort = set.length && !tight ? ' · ' + disclosed.length + ' disclosed' : '';
+  put('statRaisedLabel', narrow ? 'raised' + covShort : 'Total raised' + cov);
   put('statMedRaisedLabel', 'Median raised' + cov);
 }
+
+/* labels differ by breakpoint, so recompute them when the viewport changes */
+let statsResizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(statsResizeTimer);
+  statsResizeTimer = setTimeout(() => { if (typeof filtered !== 'undefined') renderStats(); }, 150);
+});
 
 function render() {
   const list = document.getElementById('companyList');
