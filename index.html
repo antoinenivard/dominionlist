@@ -303,10 +303,12 @@ a:hover{color:var(--link-h);text-decoration:underline}
   display:inline-flex;align-items:center;justify-content:center;gap:3px;
   height:30px;min-width:30px;padding:0 7px;
   border:1px solid var(--input-border);border-radius:6px;
-  background:var(--bg);color:var(--fg-muted);cursor:pointer;
+  /* filled rather than white: a 32px empty box reads lighter than the
+     text-filled input beside it, even at identical height and border */
+  background:var(--tag-bg);color:var(--fg-muted);cursor:pointer;
   text-decoration:none;transition:background .12s,color .12s;
 }
-.bar-btn:hover{background:var(--tag-bg);color:var(--fg);text-decoration:none}
+.bar-btn:hover{background:var(--fg-very-faint);color:var(--fg);text-decoration:none}
 .bar-btn svg{width:16px;height:16px;fill:currentColor;flex-shrink:0}
 /* stroke icons sit at the same visual weight as the thin filled ones */
 .bar-btn svg.icon-outline{fill:none;stroke:currentColor;stroke-width:1.6}
