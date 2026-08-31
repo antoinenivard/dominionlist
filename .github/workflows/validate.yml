@@ -1,0 +1,27 @@
+name: Validate dataset
+ 
+on:
+  push:
+    paths:
+      - "data/**"
+      - "scripts/validate.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/validate.py"
+  workflow_dispatch:
+ 
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # validate.py compares against the previous commit
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate companies.json and metadata.json
+        run: python3 scripts/validate.py
+ 
