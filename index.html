@@ -781,14 +781,14 @@ a:hover{color:var(--link-h);text-decoration:underline}
       <table class="company-table">
         <thead>
           <tr>
-            <th style="width:40px;text-align:center;cursor:default">#</th>
-            <th onclick="sortBy('companyName')">Company <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('industry')">Sector <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('hqDisplay')" class="col-hide-mobile">HQ <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('foundingYear')" class="col-hide-mobile">Founded <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('stage')" class="col-hide-mobile">Stage <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('capitalRaisedUsd')" class="col-hide-mobile">Raised <span class="sort-arrow">&#x25B2;</span></th>
-            <th onclick="sortBy('valuationUsd')" class="col-hide-mobile">Valuation <span class="sort-arrow">&#x25B2;</span></th>
+            <th style="width:40px;text-align:center" data-sort="rank" onclick="sortBy('rank')" title="Sort by valuation rank">#</th>
+            <th data-sort="companyName" onclick="sortBy('companyName')">Company <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="industry" onclick="sortBy('industry')">Sector <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="hqDisplay" onclick="sortBy('hqDisplay')" class="col-hide-mobile">HQ <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="foundingYear" onclick="sortBy('foundingYear')" class="col-hide-mobile">Founded <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="stage" onclick="sortBy('stage')" class="col-hide-mobile">Stage <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="capitalRaisedUsd" onclick="sortBy('capitalRaisedUsd')" class="col-hide-mobile">Raised <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="valuationUsd" onclick="sortBy('valuationUsd')" class="col-hide-mobile">Valuation <span class="sort-arrow">&#x25B2;</span></th>
             <th>Founders</th>
             <th class="col-hide-mobile">Institution</th>
           </tr>
@@ -1719,17 +1719,32 @@ let sortAsc = false;
 function sortBy(col) {
   if (sortCol === col) sortAsc = !sortAsc;
   else { sortCol = col; sortAsc = true; }
-  document.querySelectorAll('.company-table th').forEach(th => th.classList.remove('sorted'));
   applyFilters();
 }
 
+/* Highlight the active column and point its arrow the right way.
+   Previously sortBy only ever REMOVED the class, so no header was marked and
+   every arrow stayed ▲ regardless of direction. */
+function updateSortIndicators() {
+  document.querySelectorAll('.company-table th').forEach(th => {
+    const active = th.dataset.sort === sortCol;
+    th.classList.toggle('sorted', active);
+    const arrow = th.querySelector('.sort-arrow');
+    if (arrow) arrow.textContent = active ? (sortAsc ? '\u25B2' : '\u25BC') : '\u25B2';
+  });
+}
+
 function sortFiltered() {
+  /* The # column is the valuation rank, so it sorts on valuationUsd — but
+     inverted, since rank 1 is the highest valuation. */
+  const key = sortCol === 'rank' ? 'valuationUsd' : sortCol;
+  const asc = sortCol === 'rank' ? !sortAsc : sortAsc;
   filtered.sort((a, b) => {
-    let va = a[sortCol], vb = b[sortCol];
+    let va = a[key], vb = b[key];
     if (va == null && vb == null) {
       /* Secondary sort: when both lack the primary column,
          sort by capitalRaisedUsd desc, then no-data last */
-      if (sortCol === 'valuationUsd' && !sortAsc) {
+      if (key === 'valuationUsd' && !asc) {
         const ra = a.capitalRaisedUsd, rb = b.capitalRaisedUsd;
         if (ra == null && rb == null) return 0;
         if (ra == null) return 1;
@@ -1742,8 +1757,8 @@ function sortFiltered() {
     if (vb == null) return -1;
     if (typeof va === 'string') va = va.toLowerCase();
     if (typeof vb === 'string') vb = vb.toLowerCase();
-    if (va < vb) return sortAsc ? -1 : 1;
-    if (va > vb) return sortAsc ? 1 : -1;
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
     return 0;
   });
 }
@@ -1913,6 +1928,7 @@ function render() {
   const empty = document.getElementById('emptyState');
 
   sortFiltered();
+  updateSortIndicators();
   renderStats();
 
   if (filtered.length === 0) {
