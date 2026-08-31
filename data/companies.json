@@ -35118,6 +35118,73 @@
     }
   },
   {
+    "id": "retro",
+    "name": "Retro",
+    "website": "https://retro.app",
+    "description": "Friend-focused photo-sharing and journaling app — private weekly photo sharing, shared albums, and recaps. Subscription-funded rather than ad-supported.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/retro.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Ryan Olson",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/ryanolsonk/",
+        "x_url": "",
+        "bio": "Co-Founder & CTO of Retro. BASc in Computer Engineering, University of British Columbia (2008-2013), including a co-op term at Zaui Software in Vancouver. Born in Colorado. Previously iOS lead on Instagram Stories and Director of Engineering at Instagram; author of the FLEX iOS debugging tool.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-12-31",
+        "round": "Series A",
+        "amount_usd": 21104978,
+        "amount_display": "$21.1M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Thrive Capital"
+        ],
+        "other_investors": [
+          "Dylan Field",
+          "Scribble Ventures",
+          "Box Group",
+          "Imaginary Ventures",
+          "Coalition",
+          "Conviction",
+          "Copper",
+          "Positive Sum"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/",
+          "https://www.sec.gov/Archives/edgar/data/2148212/000214821226000001/xslFormDX01/primary_doc.xml"
+        ],
+        "notes": "Form D filed 19 Aug 2026 but the round closed 31 Dec 2025 — first sale 17 Oct 2025, $21,104,978 sold of a $21,999,978 offering, 7 investors. Thrive as lead is press framing rather than an explicit designation."
+      }
+    ],
+    "capital_raised_usd": 21104978,
+    "capital_raised_display": "$21.1M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-28T10:00:00-07:00",
+      "notes": "Legal entity Lone Palm Labs, Inc. (Delaware), incorporated 2022; the Retro app launched July 2023. The Canadian tie is co-founder/CTO Ryan Olson (UBC BASc Computer Engineering, 2008-2013) — he is a Colorado native, so the tie is educational, not national. CAVEAT: the UBC record is self-reported via LinkedIn and mirrored by aggregators; no UBC convocation or alumni record was found. It is independently corroborated by his 2010-2011 job at Zaui Software in Vancouver, consistent with a UBC co-op placement. Co-founder and CEO Nathan Sharp (Harvard AB, Tuck MBA, raised in Kentucky) has NO Canadian tie. PitchBook estimates the valuation above $100M; that is an aggregator estimate, not a disclosed figure, and is deliberately not recorded. An earlier seed round likely exists given the length of the backer list, but none has been disclosed, so total raised may be higher than the $21.1M shown. Note the SF address on the Form D is a Market Street mail-forwarding suite; the company is remote-first with SF and New York offices."
+    }
+  },
+  {
     "id": "rev1",
     "name": "Rev1",
     "website": "https://rev1.so/",
