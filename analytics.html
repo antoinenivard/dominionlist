@@ -22,7 +22,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;
-  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;
+  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;--fg-secondary:#374151;--fg-muted:#9ca3af;
   --border:#e5e7eb;--accent:#dc2626;--link:#2563eb;--link-h:#1d4ed8;
   --bar:#6b7280;--bar-ai:#111827;--bar-light:#d1d5db;
   --radius:8px;
@@ -31,7 +31,7 @@
 }
 @media(prefers-color-scheme:dark){:root{
   --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;
-  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;
+  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;--fg-secondary:#d1d5db;--fg-muted:#6b7280;
   --border:#1f2937;--accent:#ef4444;--link:#60a5fa;--link-h:#93bbfd;
   --bar:#9ca3af;--bar-ai:#f3f4f6;--bar-light:#4b5563;
   --globe-bg:#0b1526;
@@ -40,13 +40,21 @@ html{font-family:var(--font);font-size:15px;line-height:1.65;background:var(--bg
 body{min-height:100vh;display:flex;flex-direction:column}
 a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decoration:underline}
 
-.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:0;z-index:100;padding:16px 24px;gap:16px;flex-wrap:wrap}
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  background:var(--bg);
+  padding:16px 24px;
+  flex-shrink:0;
+  position:sticky;top:0;z-index:50;
+}
 .header-left{display:flex;align-items:center;gap:12px}
 .header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
-.header-left a:hover{color:var(--fg2);text-decoration:none}
-.header-title{font-size:18px;font-weight:600;letter-spacing:-0.3px}
-.header-subtitle{font-size:12px;color:var(--fg3);margin-top:1px}
-.header-right{display:flex;align-items:center;gap:2px}
+.header-left a:hover{color:var(--fg-secondary);text-decoration:none}
+.header-title{font-size:18px;font-weight:600;color:var(--fg)}
+.header-subtitle{font-size:12px;color:var(--fg-muted);margin-top:1px}
+.header-subtitle .subtitle-copy:last-child{display:none}
+.header-right{display:flex;align-items:center;gap:4px}
 .icon-btn{position:relative;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:var(--radius);color:var(--fg3);background:none;border:none;cursor:pointer;transition:background .15s,color .15s}
 .icon-btn:hover{background:var(--bg-muted);color:var(--fg)}
 .icon-btn svg{width:20px;height:20px;fill:currentColor}
@@ -267,10 +275,6 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   }
   .scroll-hint svg{width:16px;height:16px;stroke:var(--fg3);animation:scrollBounce 2.5s ease-in-out infinite}
 
-  /* Header */
-  .header{padding:12px 16px}
-  .header-title{font-size:16px}
-
   /* Other */
   .disclosure p{font-size:12px}
   #sankeyChart{width:calc(100% + 32px)!important;margin-left:-16px!important}
@@ -299,6 +303,32 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 .hi-bar{transform-origin:center bottom}
 .hero-icon{margin-bottom:21px}
 .hero-icon svg{display:block;margin:0 auto}
+
+/* ── Header: identical to index.html ── */
+@media(max-width:767px){
+  .header{padding:10px 12px}
+  .header-left{gap:8px}
+  .header-title{font-size:15px;line-height:1.15}
+  .header-subtitle{font-size:9.5px;line-height:1.2;margin-top:1px;opacity:0.75;
+    white-space:nowrap;overflow:hidden;max-width:62vw}
+  .header-subtitle .subtitle-track{
+    display:inline-flex;
+    animation:subtitle-marquee 18s linear infinite;
+    will-change:transform;
+  }
+  .header-subtitle .subtitle-copy{padding-right:3em}
+  .header-subtitle .subtitle-copy:last-child{display:inline}
+  @keyframes subtitle-marquee{
+    from{transform:translateX(0)}
+    to  {transform:translateX(-50%)}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .header-subtitle .subtitle-track{animation:none}
+    .header-subtitle .subtitle-copy:last-child{display:none}
+    .header-subtitle{text-overflow:ellipsis}
+  }
+  .header-right{gap:2px}
+}
 </style>
 </head>
 <body>
@@ -309,7 +339,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
       <div>
         <div class="header-title">The Dominion List</div>
-        <div class="header-subtitle">Analytics</div>
+        <div class="header-subtitle"><span class="subtitle-track"><span class="subtitle-copy">The most influential Canadian founders building companies in America.</span><span class="subtitle-copy" aria-hidden="true">The most influential Canadian founders building companies in America.</span></span></div>
       </div>
     </a>
   </div>

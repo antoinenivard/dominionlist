@@ -19,7 +19,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;
-  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;
+  --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;--fg-secondary:#374151;--fg-muted:#9ca3af;
   --border:#e5e7eb;--accent:#dc2626;--link:#2563eb;--link-h:#1d4ed8;
   --bar-ai:#4f6df5;
   --radius:6px;
@@ -27,7 +27,7 @@
 }
 @media(prefers-color-scheme:dark){:root{
   --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;
-  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;
+  --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;--fg-secondary:#d1d5db;--fg-muted:#6b7280;
   --border:#1f2937;--accent:#ef4444;--link:#60a5fa;--link-h:#93bbfd;
   --bar-ai:#6d8afb;
 }}
@@ -36,13 +36,21 @@ body{min-height:100vh;display:flex;flex-direction:column}
 a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decoration:underline}
 
 /* Header */
-.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:0;z-index:100;padding:12px 24px;gap:16px;flex-wrap:wrap}
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  background:var(--bg);
+  padding:16px 24px;
+  flex-shrink:0;
+  position:sticky;top:0;z-index:50;
+}
 .header-left{display:flex;align-items:center;gap:12px}
 .header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
-.header-left a:hover{color:var(--fg2);text-decoration:none}
-.header-title{font-size:18px;font-weight:600;letter-spacing:-0.3px}
-.header-subtitle{font-size:12px;color:var(--fg3);margin-top:1px}
-.header-right{display:flex;align-items:center;gap:2px}
+.header-left a:hover{color:var(--fg-secondary);text-decoration:none}
+.header-title{font-size:18px;font-weight:600;color:var(--fg)}
+.header-subtitle{font-size:12px;color:var(--fg-muted);margin-top:1px}
+.header-subtitle .subtitle-copy:last-child{display:none}
+.header-right{display:flex;align-items:center;gap:4px}
 
 /* Page content */
 .page{max-width:720px;margin:0 auto;padding:48px 28px 80px;flex:1}
@@ -85,6 +93,32 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .footer-right{flex-wrap:wrap;gap:8px}
   .footer-btn{font-size:11px;padding:3px 8px}
 }
+
+/* ── Header: identical to index.html ── */
+@media(max-width:767px){
+  .header{padding:10px 12px}
+  .header-left{gap:8px}
+  .header-title{font-size:15px;line-height:1.15}
+  .header-subtitle{font-size:9.5px;line-height:1.2;margin-top:1px;opacity:0.75;
+    white-space:nowrap;overflow:hidden;max-width:62vw}
+  .header-subtitle .subtitle-track{
+    display:inline-flex;
+    animation:subtitle-marquee 18s linear infinite;
+    will-change:transform;
+  }
+  .header-subtitle .subtitle-copy{padding-right:3em}
+  .header-subtitle .subtitle-copy:last-child{display:inline}
+  @keyframes subtitle-marquee{
+    from{transform:translateX(0)}
+    to  {transform:translateX(-50%)}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .header-subtitle .subtitle-track{animation:none}
+    .header-subtitle .subtitle-copy:last-child{display:none}
+    .header-subtitle{text-overflow:ellipsis}
+  }
+  .header-right{gap:2px}
+}
 </style>
 </head>
 <body>
@@ -95,7 +129,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
       <div>
         <div class="header-title">The Dominion List</div>
-        <div class="header-subtitle">Methodology</div>
+        <div class="header-subtitle"><span class="subtitle-track"><span class="subtitle-copy">The most influential Canadian founders building companies in America.</span><span class="subtitle-copy" aria-hidden="true">The most influential Canadian founders building companies in America.</span></span></div>
       </div>
     </a>
   </div>
