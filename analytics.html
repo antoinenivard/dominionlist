@@ -47,6 +47,10 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   padding:16px 24px;
   flex-shrink:0;
   position:sticky;top:0;z-index:50;
+  /* pinned so the header renders identically on every page, regardless of
+     each page's own root font-size / line-height */
+  font-size:14px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
 }
 .header-left{display:flex;align-items:center;gap:12px}
 .header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
