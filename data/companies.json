@@ -2997,7 +2997,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://www.argosresearch.com/argos_logo.svg",
+    "icon_url": "https://img.logo.dev/argosresearch.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Hassan Ismail",
@@ -14981,7 +14981,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
-    "icon_url": "https://www.finic.ai/icon.svg"
+    "icon_url": "https://img.logo.dev/finic.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
   },
   {
     "id": "finni-health",
@@ -29049,7 +29049,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "",
-    "icon_url": "https://orbital.inc/favicon.ico",
+    "icon_url": "https://img.logo.dev/orbital.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Euwyn Poon",
@@ -36599,7 +36599,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://saris.ai/assets/v2/saris-logo.svg",
+    "icon_url": "https://img.logo.dev/saris.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Danial Jameel",
@@ -41074,7 +41074,7 @@
       "valuation_display": ""
     },
     "founding_year": 2025,
-    "icon_url": "https://media.licdn.com/dms/image/v2/D560BAQFj77vauin0oA/company-logo_200_200/B56Z4lt_WFJ8AE-/0/1778749273766?e=1780531200&v=beta&t=k1P35BmnGnn7TYgCNHhzSaDYzP0Sj3OikejqCA9QuPQ",
+    "icon_url": "https://img.logo.dev/standardoperators.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "stage": "",
     "yc_batch": ""
   },
@@ -47806,7 +47806,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "",
-    "icon_url": "https://techcrunch.com/wp-content/uploads/2013/03/wifislam_logo-250x167.jpg",
+    "icon_url": "",
     "founders": [
       {
         "id": "darin-tay",
