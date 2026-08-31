@@ -427,7 +427,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <ul>
     <li><strong>Major</strong> &mdash; an architectural change: the database rebuilt on a different model, or a fundamental change of scope. This has not happened; the list has been v1 since first release.</li>
     <li><strong>Minor</strong> &mdash; a substantial change: schema normalization, new fields or filters, corrections that alter how the data should be read, or a significant feature on the site.</li>
-    <li><strong>Patch</strong> &mdash; entries added or funding histories updated, with no change to how the data is structured. Bumped at most once per day, on the first addition of that day, so a batch of three companies in one afternoon is a single patch.</li>
+    <li><strong>Patch</strong> &mdash; entries added or funding histories updated, with no change to how the data is structured. The first addition after any release starts a new patch; further additions on that same day ride along on it, so a batch of three companies in one afternoon is a single patch. A minor or major release never absorbs the additions that follow it, so a cited version always describes one fixed set of entries.</li>
   </ul>
   <p>Every push runs <code>scripts/validate.py</code> in CI, which checks the version format, that <code>total_companies</code> matches the file, and that required fields, sectors, connection types and array-typed fields are well formed.</p>
 

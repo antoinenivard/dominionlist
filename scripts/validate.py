@@ -42,21 +42,28 @@ def warn(msg):
     warnings.append(msg)
 
 
-def previous_commit_state():
-    """metadata + company count at HEAD~1, or None if unavailable."""
+def at_commit(ref):
+    """(metadata, company count) at a git ref, or None if unavailable."""
     import subprocess
     try:
-        m = subprocess.run(
-            ["git", "show", "HEAD~1:data/metadata.json"],
-            capture_output=True, text=True, check=True,
-        ).stdout
-        c = subprocess.run(
-            ["git", "show", "HEAD~1:data/companies.json"],
-            capture_output=True, text=True, check=True,
-        ).stdout
+        m = subprocess.run(["git", "show", f"{ref}:data/metadata.json"],
+                           capture_output=True, text=True, check=True).stdout
+        c = subprocess.run(["git", "show", f"{ref}:data/companies.json"],
+                           capture_output=True, text=True, check=True).stdout
         return json.loads(m), len(json.loads(c))
     except Exception:
         return None
+
+
+def parse(v):
+    m = re.fullmatch(r"v(\d+)\.(\d+)\.(\d+)", v or "")
+    return tuple(int(x) for x in m.groups()) if m else None
+
+
+def is_patch_bump(older, newer):
+    """True when newer differs from older only by an increased patch digit."""
+    a, b = parse(older), parse(newer)
+    return bool(a and b and a[0] == b[0] and a[1] == b[1] and b[2] > a[2])
 
 
 def main():
@@ -124,25 +131,30 @@ def main():
             if r.get("valuation_usd") == 0:
                 err(f"{who} / {label}: valuation_usd is 0 — use null for unknown")
 
-    # ── versioning rule: a day that adds entries must bump the patch ──
-    prev = previous_commit_state()
+    # ── versioning rule ──
+    # Adding entries requires a patch bump. The exception is a second batch on
+    # the same day: if the previous commit was itself a patch bump carrying that
+    # day's date, further additions ride along on it. A minor or major release
+    # does NOT absorb the additions that follow it.
+    prev = at_commit("HEAD~1")
     if prev:
         p_meta, p_count = prev
         added = len(companies) - p_count
-        same_day = (
-            p_meta.get("last_updated_date_display")
-            == meta.get("last_updated_date_display")
-        )
-        if added > 0 and not same_day and p_meta.get("db_version") == ver:
-            err(
-                f"{added} entries added on a new date ({meta.get('last_updated_date_display')}) "
-                f"but db_version is still {ver} — bump the patch"
+        if added > 0 and p_meta.get("db_version") == ver:
+            prev2 = at_commit("HEAD~2")
+            covered = (
+                prev2 is not None
+                and is_patch_bump(prev2[0].get("db_version"), p_meta.get("db_version"))
+                and p_meta.get("last_updated_date_display")
+                == meta.get("last_updated_date_display")
             )
-        elif added > 0 and same_day and p_meta.get("db_version") == ver:
-            print(
-                f"note: {added} entries added, same day as the last release "
-                f"({ver} already covers today)"
-            )
+            if covered:
+                print(f"note: {added} more entries on a day already covered by {ver}")
+            else:
+                err(
+                    f"{added} entries added but db_version is still {ver} — bump the "
+                    f"patch (the first addition after any release starts a new patch)"
+                )
 
     # ── report ──
     for w in warnings:
