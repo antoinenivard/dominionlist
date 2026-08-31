@@ -448,7 +448,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <h2>Citation</h2>
   <p>If you use The Dominion List in research, journalism, or analysis, please cite it as:</p>
   <div class="example-box">
-    <div class="detail" style="font-family:SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.6">Nivard, A. (2026). <em>The Dominion List: A Database of Canadian-Founded US Technology Companies.</em> Available at <a href="https://dominionlist.com">dominionlist.com</a>. Source: <a href="https://github.com/antoinenivard/dominionlist">github.com/antoinenivard/dominionlist</a>.</div>
+    <div class="detail" style="font-family:SFMono-Regular,Menlo,monospace;font-size:13px;line-height:1.6">Nivard, A. (2026). <em>The Dominion List</em> (<span id="citeVersion">v1.3.0</span>). <a href="https://dominionlist.com">dominionlist.com</a></div>
+  <p style="margin-top:10px">The dataset is updated continuously, so cite the version you actually used &mdash; figures change between releases. The current version is shown above and in <code>data/metadata.json</code>.</p>
   </div>
 
   <hr class="divider">
@@ -470,6 +471,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 fetch('data/metadata.json').then(function(r){return r.json()}).then(function(m){
   var fv=document.getElementById('footerVersion');
   if(fv&&m.last_updated_datetime_display) fv.textContent='Updated '+m.last_updated_datetime_display+(m.db_version?' · The Dominion List '+m.db_version:'');
+  var cv=document.getElementById('citeVersion');
+  if(cv&&m.db_version) cv.textContent=m.db_version;
 }).catch(function(){});
 
 /* ═══ Live stats from companies.json ═══ */

@@ -70,7 +70,10 @@ All submissions require at least one public source. See [CONTRIBUTING.md](CONTRI
 
 If you use The Dominion List in research, journalism, or analysis:
 
-> Nivard, A. (2026). *The Dominion List: A Database of Canadian-Founded US Technology Companies.* Available at [dominionlist.com](https://dominionlist.com). Source: [github.com/antoinenivard/dominionlist](https://github.com/antoinenivard/dominionlist).
+> Nivard, A. (2026). *The Dominion List* (v1.3.0). https://dominionlist.com
+
+The dataset is updated continuously — cite the version you used. The current
+version is in [`data/metadata.json`](data/metadata.json).
 
 ## License
 
