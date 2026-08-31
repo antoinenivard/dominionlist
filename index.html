@@ -101,6 +101,29 @@ a:hover{color:var(--link-h);text-decoration:underline}
   box-shadow:0 1px 2px rgba(0,0,0,0.06);
 }
 
+/* ── Live stats bar ── */
+.stats-bar{
+  display:flex;align-items:stretch;gap:0;
+  border-top:1px solid var(--border);
+  background:var(--bg);flex-shrink:0;
+  padding:10px 16px;
+}
+.stat{
+  display:flex;flex-direction:column;gap:1px;
+  padding:0 20px;flex:1;min-width:0;
+  border-left:1px solid var(--border-light);
+}
+.stat:first-child{padding-left:0;border-left:none}
+.stat-value{
+  font-size:16px;font-weight:600;color:var(--fg);
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;
+}
+.stat-label{
+  font-size:10px;text-transform:uppercase;letter-spacing:0.04em;
+  color:var(--fg-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+
 /* ── Download menu (footer) ── */
 .dl-menu{position:relative;display:inline-flex}
 .dl-btn .nav-chev{width:12px;height:12px;flex-shrink:0;transition:transform .15s}
@@ -577,7 +600,11 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .mobile-toggle{order:2}
   .plus-btn{order:3}
   .gh-btn,.dl-menu{display:none}
-  .result-count{font-size:12px;color:var(--fg-muted);order:4;flex:1 1 100%}
+  .stats-bar{flex-wrap:wrap;gap:10px 0;padding:10px 12px}
+  .stat{flex:0 0 33.33%;padding:0 8px;border-left:none}
+  .stat:first-child{padding-left:8px}
+  .stat-value{font-size:14px}
+  .stat-label{font-size:9px}
 
   /* Table: tighter, lighter header */
   .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
@@ -721,7 +748,6 @@ a:hover{color:var(--link-h);text-decoration:underline}
         </button>
         <label for="searchBox" class="sr-only">Search companies</label>
         <input type="text" class="search-box" id="searchBox" placeholder="Search companies, founders, institutions…" oninput="applyFilters()">
-        <span class="result-count" id="resultCount"></span>
       </div>
       <div class="search-right">
         <a class="bar-btn gh-btn" href="https://github.com/antoinenivard/dominionlist" target="_blank" aria-label="View on GitHub">
@@ -769,6 +795,13 @@ a:hover{color:var(--link-h);text-decoration:underline}
       <p>No companies match your filters.</p>
     </div>
 
+    <div class="stats-bar" id="statsBar">
+      <div class="stat"><span class="stat-value" id="statCompanies">—</span><span class="stat-label">Companies</span></div>
+      <div class="stat"><span class="stat-value" id="statFounded">—</span><span class="stat-label">Median founded</span></div>
+      <div class="stat"><span class="stat-value" id="statRaised">—</span><span class="stat-label" id="statRaisedLabel">Total raised</span></div>
+      <div class="stat"><span class="stat-value" id="statMedRaised">—</span><span class="stat-label" id="statMedRaisedLabel">Median raised</span></div>
+      <div class="stat"><span class="stat-value" id="statUnicorns">—</span><span class="stat-label">Unicorns</span></div>
+    </div>
     <footer class="footer">
       <div class="footer-left">
         <div id="footerVersion">Dataset updated &middot; The Dominion List</div>
@@ -1794,13 +1827,67 @@ const uniDomains = {
   'Vector Institute': 'vectorinstitute.ai',
 };
 
+/* Best available valuation for a company; 0 when unknown or wound down.
+   Mirrors getVal() on the analytics page. */
+function statValuation(c) {
+  const st = c.status || '';
+  if (st === 'Inactive' || st === 'Shutdown') return 0;
+  const m = c.metadata || {};
+  if (m.valuation_usd && m.valuation_usd > 0) return m.valuation_usd;
+  const rounds = (c.funding_rounds || c.fundingRounds || []).slice()
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  for (const r of rounds) {
+    const v = r.valuation_usd != null ? r.valuation_usd : r.valuationUsd;
+    if (v && v > 0) return v;
+  }
+  return 0;
+}
+
+function median(nums) {
+  if (!nums.length) return null;
+  const a = nums.slice().sort((x, y) => x - y);
+  const mid = a.length >> 1;
+  return a.length % 2 ? a[mid] : (a[mid - 1] + a[mid]) / 2;
+}
+
+function fmtMoney(v) {
+  if (v == null) return '—';
+  if (v >= 1e12) return '$' + (v / 1e12).toFixed(1) + 'T';
+  if (v >= 1e9)  return '$' + (v / 1e9).toFixed(1) + 'B';
+  if (v >= 1e6)  return '$' + Math.round(v / 1e6) + 'M';
+  if (v >= 1e3)  return '$' + Math.round(v / 1e3) + 'K';
+  return '$' + Math.round(v);
+}
+
+/* Recomputed on every search and filter, over the visible set only. */
+function renderStats() {
+  const set = filtered;
+  const raised = set.map(c => c.capitalRaisedUsd || c.capital_raised_usd || 0);
+  const disclosed = raised.filter(v => v > 0);
+  const years = set.map(c => c.foundingYear || c.founding_year)
+                   .filter(y => typeof y === 'number' && y > 1800);
+  const vals = set.map(statValuation).filter(v => v > 0);
+
+  const put = (id, txt) => { const el = document.getElementById(id); if (el) el.textContent = txt; };
+
+  put('statCompanies', set.length.toLocaleString() + ' of ' + companies.length.toLocaleString());
+  put('statFounded', years.length ? String(Math.round(median(years))) : '—');
+  put('statRaised', disclosed.length ? fmtMoney(raised.reduce((a, b) => a + b, 0)) : '—');
+  put('statMedRaised', disclosed.length ? fmtMoney(median(disclosed)) : '—');
+  put('statUnicorns', String(vals.filter(v => v >= 1e9).length));
+
+  /* be explicit that the money figures rest on disclosed rounds only */
+  const cov = set.length ? ' · ' + disclosed.length + ' of ' + set.length + ' disclosed' : '';
+  put('statRaisedLabel', 'Total raised' + cov);
+  put('statMedRaisedLabel', 'Median raised' + cov);
+}
+
 function render() {
   const list = document.getElementById('companyList');
   const empty = document.getElementById('emptyState');
-  const count = document.getElementById('resultCount');
 
   sortFiltered();
-  count.textContent = filtered.length + ' of ' + companies.length + ' companies';
+  renderStats();
 
   if (filtered.length === 0) {
     list.innerHTML = '';
