@@ -71,6 +71,31 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   box-shadow:0 1px 2px rgba(0,0,0,0.06);
 }
 
+/* ── Compact page menu (mobile) ── */
+.nav-menu{display:none;position:relative}
+.nav-menu-btn{
+  display:inline-flex;align-items:center;gap:4px;
+  font-family:inherit;font-size:11px;font-weight:500;line-height:1.5;
+  padding:5px 8px;border:1px solid var(--border);border-radius:8px;
+  background:var(--tag-bg);color:var(--fg);cursor:pointer;white-space:nowrap;
+}
+.nav-menu-btn .nav-chev{width:12px;height:12px;flex-shrink:0;transition:transform .15s}
+.nav-menu-btn[aria-expanded="true"] .nav-chev{transform:rotate(180deg)}
+.nav-menu-list{
+  position:absolute;top:calc(100% + 6px);right:0;z-index:200;
+  min-width:158px;padding:4px;
+  background:var(--bg);border:1px solid var(--border);border-radius:8px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.12);
+  display:flex;flex-direction:column;gap:2px;
+}
+.nav-menu-list[hidden]{display:none}
+.nav-menu-list a{
+  font-size:13px;padding:9px 10px;border-radius:6px;
+  color:var(--fg-secondary);text-decoration:none;white-space:nowrap;
+}
+.nav-menu-list a:hover{background:var(--tag-bg);color:var(--fg);text-decoration:none}
+.nav-menu-list a[aria-current="page"]{background:var(--tag-bg);color:var(--fg);font-weight:600}
+
 .header-left{display:flex;align-items:center;gap:12px}
 .header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
 .header-left a:hover{color:var(--fg-secondary);text-decoration:none}
@@ -351,8 +376,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     .header-subtitle{text-overflow:ellipsis}
   }
   .header-right{gap:2px;flex-shrink:0}
-  .nav-toggle{gap:1px;padding:2px;flex-shrink:0}
-  .nav-toggle a{font-size:10.5px;padding:3px 6px}
+  .nav-toggle{display:none}
+  .nav-menu{display:block}
   /* let the title block shrink so the toggle always fits */
   .header-left{min-width:0}
   .header-left a{min-width:0}
@@ -379,6 +404,14 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       <a href="analytics.html" aria-current="page">Analytics</a>
       <a href="methodology.html">Methodology</a>
     </nav>
+    <div class="nav-menu">
+      <button class="nav-menu-btn" aria-expanded="false" aria-haspopup="true" aria-label="Switch page" onclick="toggleNavMenu(event)"><span>Analytics</span><svg class="nav-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></button>
+      <div class="nav-menu-list" hidden>
+        <a href="index.html">Database</a>
+        <a href="analytics.html" aria-current="page">Analytics</a>
+        <a href="methodology.html">Methodology</a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -2872,5 +2905,23 @@ function initGlobe(data){
 })();
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
+<script>
+/* Compact page menu (mobile) */
+function toggleNavMenu(e){
+  e.stopPropagation();
+  var btn=e.currentTarget, list=btn.nextElementSibling;
+  var open=btn.getAttribute('aria-expanded')==='true';
+  btn.setAttribute('aria-expanded',open?'false':'true');
+  list.hidden=open;
+}
+function closeNavMenus(){
+  document.querySelectorAll('.nav-menu-btn[aria-expanded="true"]').forEach(function(b){
+    b.setAttribute('aria-expanded','false');
+    if(b.nextElementSibling) b.nextElementSibling.hidden=true;
+  });
+}
+document.addEventListener('click',closeNavMenus);
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeNavMenus(); });
+</script>
 </body>
 </html>
