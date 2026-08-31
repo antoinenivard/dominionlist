@@ -565,11 +565,11 @@ a:hover{color:var(--link-h);text-decoration:underline}
     padding:8px 12px;gap:6px;
     flex-direction:column;
   }
-  .search-box{max-width:100%}
+  .search-box{max-width:100%;width:auto}
   .search-wrap{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px}
   /* flatten both groups so ordering works across them */
   .search-left,.search-right{display:contents}
-  .search-box{order:1;flex:1 1 auto;min-width:0}
+  .search-box{order:1;flex:1 1 0;min-width:0;width:auto}
   .mobile-toggle{order:2}
   .plus-btn{order:3}
   .gh-btn,.dl-menu{display:none}
