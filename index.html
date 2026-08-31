@@ -106,7 +106,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
 .dl-btn .nav-chev{width:12px;height:12px;flex-shrink:0;transition:transform .15s}
 .dl-btn[aria-expanded="true"] .nav-chev{transform:rotate(180deg)}
 .dl-menu-list{
-  position:absolute;bottom:calc(100% + 6px);right:0;z-index:200;
+  position:absolute;top:calc(100% + 6px);right:0;z-index:200;
   min-width:120px;padding:4px;
   background:var(--bg);border:1px solid var(--border);border-radius:8px;
   box-shadow:0 6px 20px rgba(0,0,0,0.12);
@@ -162,13 +162,14 @@ a:hover{color:var(--link-h);text-decoration:underline}
 }
 .icon-btn:hover{color:var(--fg-secondary);text-decoration:none}
 .icon-btn svg{width:18px;height:18px;fill:currentColor}
-.icon-btn .tooltip{
+.icon-btn .tooltip,.bar-btn .tooltip{
   position:absolute;top:100%;margin-top:6px;left:50%;transform:translateX(-50%);
   white-space:nowrap;font-size:11px;padding:2px 8px;border-radius:4px;
   background:var(--tooltip-bg);color:#ffffff;opacity:0;pointer-events:none;
   transition:opacity .15s;z-index:10;
 }
-.icon-btn:hover .tooltip,.icon-btn:focus .tooltip{opacity:1}
+.icon-btn:hover .tooltip,.icon-btn:focus .tooltip,
+.bar-btn:hover .tooltip,.bar-btn:focus .tooltip{opacity:1}
 
 /* ── Layout ── */
 .layout{display:flex;flex:1;overflow:hidden}
@@ -262,12 +263,27 @@ a:hover{color:var(--link-h);text-decoration:underline}
   display:flex;flex-direction:column;gap:8px;
   flex-shrink:0;
 }
+.search-left{display:flex;align-items:center;gap:12px;min-width:0}
 @media(min-width:640px){
-  .search-wrap{flex-direction:row;align-items:center;justify-content:space-between}
-  /* let the search field actually grow toward its max-width */
-  .search-right{flex:1;justify-content:flex-end}
-  .search-right .search-box{flex:0 1 640px}
+  .search-wrap{flex-direction:row;align-items:center;justify-content:space-between;gap:12px}
+  .search-left{flex:1;min-width:0}
+  .search-left .search-box{flex:0 1 420px}
+  .search-right{flex-shrink:0;justify-content:flex-end}
 }
+
+/* ── Shared bar buttons: GitHub / Download / Submit ── */
+.bar-btn{
+  position:relative;
+  display:inline-flex;align-items:center;justify-content:center;gap:3px;
+  height:30px;min-width:30px;padding:0 7px;
+  border:1px solid var(--input-border);border-radius:6px;
+  background:var(--bg);color:var(--fg-muted);cursor:pointer;
+  text-decoration:none;transition:background .12s,color .12s;
+}
+.bar-btn:hover{background:var(--tag-bg);color:var(--fg);text-decoration:none}
+.bar-btn svg{width:16px;height:16px;fill:currentColor;flex-shrink:0}
+.bar-btn .nav-chev{width:11px;height:11px;transition:transform .15s}
+.bar-btn[aria-expanded="true"] .nav-chev{transform:rotate(180deg)}
 .search-box{
   padding:6px 12px;
   border:1px solid var(--input-border);border-radius:6px;
@@ -277,7 +293,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
 }
 .search-box:focus{border-color:var(--fg-muted)}
 .search-box::placeholder{color:var(--fg-muted)}
-.search-right{display:flex;align-items:center;gap:8px}
+.search-right{display:flex;align-items:center;gap:6px}
 .result-count{font-size:13px;color:var(--fg-muted);white-space:nowrap}
 
 /* ── Table container ── */
@@ -485,13 +501,8 @@ a:hover{color:var(--link-h);text-decoration:underline}
 .footer-btn svg{width:14px;height:14px;fill:currentColor}
 
 /* ── Mobile ── */
-.mobile-toggle{
-  display:none;align-items:center;gap:4px;
-  font-size:13px;padding:5px 10px;
-  border:1px solid var(--input-border);border-radius:6px;
-  background:var(--bg);color:var(--fg-secondary);cursor:pointer;
-  white-space:nowrap;flex-shrink:0;
-}
+/* visibility only — .bar-btn supplies the styling */
+.mobile-toggle{display:none}
 .close-sidebar{
   display:none;position:absolute;top:16px;right:16px;
   font-size:14px;background:none;border:none;cursor:pointer;color:var(--fg);
@@ -536,12 +547,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
   /* Sidebar overlay */
   .sidebar{display:none}
   /* match the plus button: no border/padding, so the funnel isn't squashed */
-  .mobile-toggle{
-    display:flex !important;justify-content:center;
-    border:none;background:none;padding:0;
-    width:28px;height:28px;
-  }
-  .mobile-toggle svg{width:16px;height:16px;flex-shrink:0}
+  .mobile-toggle{display:inline-flex !important}
   .sidebar.open{
     display:block;position:fixed;top:0;left:0;
     width:100%;max-width:100vw;min-width:0;height:100%;z-index:100;
@@ -560,14 +566,14 @@ a:hover{color:var(--link-h);text-decoration:underline}
     flex-direction:column;
   }
   .search-box{max-width:100%}
-  .search-right{
-    display:flex;align-items:center;flex-wrap:nowrap;width:100%;gap:6px;
-  }
-  /* single row: search field, funnel, plus */
-  .search-right .search-box{order:1;flex:1 1 auto;min-width:0}
-  .search-right button.mobile-toggle{order:2}
-  .search-right a.icon-btn{order:3}
-  .result-count{font-size:12px;color:var(--fg-muted);order:2}
+  .search-wrap{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px}
+  /* flatten both groups so ordering works across them */
+  .search-left,.search-right{display:contents}
+  .search-box{order:1;flex:1 1 auto;min-width:0}
+  .mobile-toggle{order:2}
+  .plus-btn{order:3}
+  .gh-btn,.dl-menu{display:none}
+  .result-count{font-size:12px;color:var(--fg-muted);order:4;flex:1 1 100%}
 
   /* Table: tighter, lighter header */
   .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
@@ -704,18 +710,34 @@ a:hover{color:var(--link-h);text-decoration:underline}
   <!-- ── Content ── -->
   <main class="content">
     <div class="search-wrap">
-      <span class="result-count" id="resultCount"></span>
-      <div class="search-right">
-        <button class="mobile-toggle icon-btn" onclick="toggleMobileSidebar()" aria-label="Filters">
+      <div class="search-left">
+        <button class="mobile-toggle bar-btn" onclick="toggleMobileSidebar()" aria-label="Filters">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 0 1 .628.74v2.288a2.25 2.25 0 0 1-.659 1.59l-4.682 4.683a2.25 2.25 0 0 0-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 0 1 8 18.25v-5.757a2.25 2.25 0 0 0-.659-1.591L2.659 6.22A2.25 2.25 0 0 1 2 4.629V2.34a.75.75 0 0 1 .628-.74Z" clip-rule="evenodd"/></svg>
           <span class="tooltip" role="tooltip">Filters</span>
         </button>
         <label for="searchBox" class="sr-only">Search companies</label>
         <input type="text" class="search-box" id="searchBox" placeholder="Search companies, founders, institutions…" oninput="applyFilters()">
-    <a class="icon-btn" href="https://github.com/antoinenivard/dominionlist/issues/new" target="_blank" aria-label="Submit a company or suggest an edit">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg>
-      <span class="tooltip" role="tooltip">Submit or edit an entry</span>
-    </a>
+        <span class="result-count" id="resultCount"></span>
+      </div>
+      <div class="search-right">
+        <a class="bar-btn gh-btn" href="https://github.com/antoinenivard/dominionlist" target="_blank" aria-label="View on GitHub">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span class="tooltip" role="tooltip">View on GitHub</span>
+        </a>
+        <div class="dl-menu">
+          <button class="bar-btn dl-btn" aria-expanded="false" aria-haspopup="true" onclick="toggleNavMenu(event)" aria-label="Download dataset">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z"/><path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z"/></svg><svg class="nav-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg>
+            <span class="tooltip" role="tooltip">Download dataset</span>
+          </button>
+          <div class="dl-menu-list" hidden>
+            <button onclick="downloadCSV()">CSV</button>
+            <button onclick="downloadJSON()">JSON</button>
+          </div>
+        </div>
+        <a class="bar-btn plus-btn" href="https://github.com/antoinenivard/dominionlist/issues/new" target="_blank" aria-label="Submit a company or suggest an edit">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg>
+          <span class="tooltip" role="tooltip">Submit or edit an entry</span>
+        </a>
       </div>
     </div>
 
@@ -747,23 +769,6 @@ a:hover{color:var(--link-h);text-decoration:underline}
       <div class="footer-left">
         <div id="footerVersion">Dataset updated &middot; The Dominion List</div>
         <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco &middot; <a href="https://github.com/antoinenivard/dominionlist/blob/main/LICENSE">MIT License</a></div>
-      </div>
-      <div class="footer-right">
-        <a href="https://github.com/antoinenivard/dominionlist" target="_blank" class="footer-btn" title="GitHub">
-          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-          <span class="btn-label">GitHub</span>
-        </a>
-        <div class="dl-menu download-btn">
-          <button class="footer-btn dl-btn" aria-expanded="false" aria-haspopup="true" onclick="toggleNavMenu(event)" title="Download dataset">
-            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z"/><path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z"/></svg>
-            <span class="btn-label">Download</span>
-            <svg class="nav-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg>
-          </button>
-          <div class="dl-menu-list" hidden>
-            <button onclick="downloadCSV()">CSV</button>
-            <button onclick="downloadJSON()">JSON</button>
-          </div>
-        </div>
       </div>
     </footer>
   </main>
