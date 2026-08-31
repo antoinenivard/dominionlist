@@ -42,6 +42,23 @@ def warn(msg):
     warnings.append(msg)
 
 
+def previous_commit_state():
+    """metadata + company count at HEAD~1, or None if unavailable."""
+    import subprocess
+    try:
+        m = subprocess.run(
+            ["git", "show", "HEAD~1:data/metadata.json"],
+            capture_output=True, text=True, check=True,
+        ).stdout
+        c = subprocess.run(
+            ["git", "show", "HEAD~1:data/companies.json"],
+            capture_output=True, text=True, check=True,
+        ).stdout
+        return json.loads(m), len(json.loads(c))
+    except Exception:
+        return None
+
+
 def main():
     with open(ROOT + "companies.json") as f:
         companies = json.load(f)
@@ -106,6 +123,26 @@ def main():
                     err(f"{who} / {label}: {f} must be an array, got {type(r[f]).__name__}")
             if r.get("valuation_usd") == 0:
                 err(f"{who} / {label}: valuation_usd is 0 — use null for unknown")
+
+    # ── versioning rule: a day that adds entries must bump the patch ──
+    prev = previous_commit_state()
+    if prev:
+        p_meta, p_count = prev
+        added = len(companies) - p_count
+        same_day = (
+            p_meta.get("last_updated_date_display")
+            == meta.get("last_updated_date_display")
+        )
+        if added > 0 and not same_day and p_meta.get("db_version") == ver:
+            err(
+                f"{added} entries added on a new date ({meta.get('last_updated_date_display')}) "
+                f"but db_version is still {ver} — bump the patch"
+            )
+        elif added > 0 and same_day and p_meta.get("db_version") == ver:
+            print(
+                f"note: {added} entries added, same day as the last release "
+                f"({ver} already covers today)"
+            )
 
     # ── report ──
     for w in warnings:
