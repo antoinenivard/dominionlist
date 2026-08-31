@@ -600,11 +600,12 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .mobile-toggle{order:2}
   .plus-btn{order:3}
   .gh-btn,.dl-menu{display:none}
-  .stats-bar{flex-wrap:wrap;gap:10px 0;padding:10px 12px}
-  .stat{flex:0 0 33.33%;padding:0 8px;border-left:none}
-  .stat:first-child{padding-left:8px}
-  .stat-value{font-size:14px}
-  .stat-label{font-size:9px}
+  /* not enough room for the full bar — just the count, small */
+  .stats-bar{padding:8px 12px}
+  .stat:not(:first-child){display:none}
+  .stat{flex-direction:row;align-items:baseline;gap:4px;padding:0;border-left:none}
+  .stat-value{font-size:12px;font-weight:400;color:var(--fg-muted)}
+  .stat-label{font-size:12px;font-weight:400;text-transform:lowercase;letter-spacing:0}
 
   /* Table: tighter, lighter header */
   .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
