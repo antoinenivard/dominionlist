@@ -464,9 +464,14 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .mobile-toggle{display:flex !important}
   .sidebar.open{
     display:block;position:fixed;top:0;left:0;
-    width:100%;height:100%;z-index:100;
+    width:100%;max-width:100vw;min-width:0;height:100%;z-index:100;
     padding:20px 16px;padding-top:56px;background:var(--bg);
+    overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;
   }
+  /* long institution names must wrap rather than force sideways scroll */
+  .sidebar.open .filter-item{align-items:flex-start;min-width:0}
+  .sidebar.open .filter-item span{min-width:0;overflow-wrap:anywhere}
+  .sidebar.open .filter-count{flex-shrink:0}
   .sidebar.open .close-sidebar{display:block}
 
   /* Search & controls: search full-width, filters+count row below */
@@ -476,10 +481,12 @@ a:hover{color:var(--link-h);text-decoration:underline}
   }
   .search-box{max-width:100%}
   .search-right{
-    display:flex;align-items:center;flex-wrap:wrap;width:100%;gap:8px;
+    display:flex;align-items:center;flex-wrap:nowrap;width:100%;gap:6px;
   }
-  .search-right .search-box{order:-1;flex:1 1 100%}
-  .search-right .mobile-toggle{margin-right:auto}
+  /* single row: search field, funnel, plus */
+  .search-right .search-box{order:1;flex:1 1 auto;min-width:0}
+  .search-right button.mobile-toggle{order:2}
+  .search-right a.icon-btn{order:3}
   .result-count{font-size:12px;color:var(--fg-muted);order:2}
 
   /* Table: tighter, lighter header */
@@ -605,9 +612,9 @@ a:hover{color:var(--link-h);text-decoration:underline}
     <div class="search-wrap">
       <span class="result-count" id="resultCount"></span>
       <div class="search-right">
-        <button class="mobile-toggle" onclick="toggleMobileSidebar()">
-          <svg viewBox="0 0 20 20" fill="currentColor" style="width:14px;height:14px"><path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm0 10.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 2 10Z" clip-rule="evenodd"/></svg>
-          Filters
+        <button class="mobile-toggle icon-btn" onclick="toggleMobileSidebar()" aria-label="Filters">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 0 1 .628.74v2.288a2.25 2.25 0 0 1-.659 1.59l-4.682 4.683a2.25 2.25 0 0 0-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 0 1 8 18.25v-5.757a2.25 2.25 0 0 0-.659-1.591L2.659 6.22A2.25 2.25 0 0 1 2 4.629V2.34a.75.75 0 0 1 .628-.74Z" clip-rule="evenodd"/></svg>
+          <span class="tooltip" role="tooltip">Filters</span>
         </button>
         <label for="searchBox" class="sr-only">Search companies</label>
         <input type="text" class="search-box" id="searchBox" placeholder="Search companies, founders, institutions…" oninput="applyFilters()">
