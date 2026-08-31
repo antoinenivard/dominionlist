@@ -123,7 +123,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .header-left{gap:8px}
   .header-title{font-size:15px;line-height:1.15}
   .header-subtitle{font-size:9.5px;line-height:1.2;margin-top:1px;opacity:0.75;
-    white-space:nowrap;overflow:hidden;max-width:62vw}
+    white-space:nowrap;overflow:hidden;max-width:100%}
   .header-subtitle .subtitle-track{
     display:inline-flex;
     animation:subtitle-marquee 18s linear infinite;
@@ -140,9 +140,14 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     .header-subtitle .subtitle-copy:last-child{display:none}
     .header-subtitle{text-overflow:ellipsis}
   }
-  .header-right{gap:2px}
-  .nav-toggle{gap:1px;padding:2px}
-  .nav-toggle a{font-size:11px;padding:4px 7px}
+  .header-right{gap:2px;flex-shrink:0}
+  .nav-toggle{gap:1px;padding:2px;flex-shrink:0}
+  .nav-toggle a{font-size:10.5px;padding:3px 6px}
+  /* let the title block shrink so the toggle always fits */
+  .header-left{min-width:0}
+  .header-left a{min-width:0}
+  .header-left a > div{min-width:0}
+  .header-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 }
 </style>
 </head>
