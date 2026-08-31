@@ -373,10 +373,10 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     </div>
   </div>
 
-  <!-- FRAME 1: More capital, fewer companies -->
+  <!-- FRAME 1: More capital, fewer deals -->
   <div class="snap-frame">
     <div class="section" id="s5">
-      <h2>More capital, fewer companies</h2>
+      <h2>More capital, fewer deals</h2>
       <p class="insight" id="s5insight">—</p>
       <div id="s5chart" style="width:100%;position:relative"></div>
       <p class="footnote" id="s5footnote"></p>
@@ -1400,16 +1400,28 @@ document.getElementById('s3chart').innerHTML = s3html;
   var cvcaDeals=8622, cvcaRaised=59.861e9; /* sum of CVCA data 2010-2025 */
 
   var nCos=usCos.size;
-  var fewerX=Math.round(cvcaDeals/nCos);
+  var fewerX=Math.round(cvcaDeals/usDeals);   /* deals vs deals — the chart plots deals */
+  var BIG3={'OpenAI':1,'Anthropic':1,'xAI':1};
+  var big3Raised=0;
+  data.forEach(function(co){
+    if(!BIG3[co.name]||!co.funding_rounds)return;
+    co.funding_rounds.forEach(function(r){
+      if(!r.round||!r.date||isExit(r))return;
+      var yr=parseInt(r.date.substring(0,4));
+      if(yr<startYr||yr>endYr)return;
+      big3Raised+=(r.amount_usd||0);
+    });
+  });
+  var big3Pct=Math.round(big3Raised/usRaised*100);
   var moreX=(usRaised/cvcaRaised).toFixed(1);
 
   function fmtB(v){return'$'+(v/1e9).toFixed(0)+'B'}
 
   document.getElementById('s5insight').textContent=
     'Over the last 15 years, '+nCos+' Canadian-founded US companies raised '+fmtB(usRaised)+
-    ' — more than the entire Canadian VC ecosystem deployed across '+
-    cvcaDeals.toLocaleString()+' deals ('+fmtB(cvcaRaised)+'). '+
-    fewerX+'× fewer companies, '+moreX+'× more capital.';
+    ' across '+usDeals.toLocaleString()+' deals — more than the entire Canadian VC ecosystem '+
+    'deployed across '+cvcaDeals.toLocaleString()+' deals ('+fmtB(cvcaRaised)+'). '+
+    fewerX+'× fewer deals, '+moreX+'× more capital.';
 
   /* Two side-by-side vertical bar charts */
   var W=isMobile?400:700,H=isMobile?420:310,midGap=isMobile?36:80;
@@ -1450,7 +1462,7 @@ document.getElementById('s3chart').innerHTML = s3html;
   var rOff=chartW+midGap;
   var rCx=rOff+chartW/2;
   svg+='<text x="'+rCx+'" y="18" text-anchor="middle" font-size="'+fs.title+'" font-weight="600" fill="var(--fg)">Number of deals</text>';
-  svg+='<text x="'+rCx+'" y="32" text-anchor="middle" font-size="'+fs.mult+'" font-weight="700" fill="var(--fg3)">'+fewerX+'× fewer companies</text>';
+  svg+='<text x="'+rCx+'" y="32" text-anchor="middle" font-size="'+fs.mult+'" font-weight="700" fill="var(--fg3)">'+fewerX+'× fewer deals</text>';
 
   var maxDeals=Math.max(usDeals,cvcaDeals);
   var usDealH=barZone*(usDeals/maxDeals);
@@ -1502,7 +1514,7 @@ document.getElementById('s3chart').innerHTML = s3html;
   document.getElementById('s5footnote').textContent=
     'US data: Dominion List, 2010–2025 (excl. Acquired & IPO rounds). Canada data: CVCA Market Overviews, 2010–2025. '+
     '2025 CVCA is a linear estimate (Q3 YTD × 4/3). Amounts in USD. '+
-    'Note: Three AI companies (OpenAI, Anthropic, xAI) account for ~64% of US-side capital.';
+    'Note: Three AI companies (OpenAI, Anthropic, xAI) account for ~'+big3Pct+'% of US-side capital.';
 })();
 
 /* ── SANKEY: Origin City → HQ City flow (matches globe aggregation) ── */
