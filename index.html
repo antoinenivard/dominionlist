@@ -461,7 +461,13 @@ a:hover{color:var(--link-h);text-decoration:underline}
 
   /* Sidebar overlay */
   .sidebar{display:none}
-  .mobile-toggle{display:flex !important}
+  /* match the plus button: no border/padding, so the funnel isn't squashed */
+  .mobile-toggle{
+    display:flex !important;justify-content:center;
+    border:none;background:none;padding:0;
+    width:28px;height:28px;
+  }
+  .mobile-toggle svg{width:16px;height:16px;flex-shrink:0}
   .sidebar.open{
     display:block;position:fixed;top:0;left:0;
     width:100%;max-width:100vw;min-width:0;height:100%;z-index:100;
