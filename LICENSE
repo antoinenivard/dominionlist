@@ -2,13 +2,6 @@ MIT License
 
 Copyright (c) 2026 Antoine Nivard
 
-This license covers the SOURCE CODE of The Dominion List (the HTML, CSS, and
-JavaScript files in this repository).
-
-The DATASET — `data/companies.json`, `data/metadata.json`, and any other files
-in `data/` — is licensed separately under Creative Commons Attribution 4.0
-International (CC BY 4.0). See LICENSE-DATA.
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

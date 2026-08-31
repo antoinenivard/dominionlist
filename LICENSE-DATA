@@ -8,8 +8,10 @@ This license covers the DATASET portion of The Dominion List:
 - `data/metadata.json`
 - any other data files in `data/`
 
-The source code in this repository is licensed separately under the MIT
-License. See LICENSE.
+The source code in this repository (`index.html`, `analytics.html`,
+`methodology.html`) is licensed separately under the MIT License. See LICENSE.
+The MIT file is kept verbatim so GitHub detects it correctly; this file is the
+authoritative statement of how the data is licensed.
 
 ## You are free to
 

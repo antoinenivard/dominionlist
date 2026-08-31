@@ -71,7 +71,7 @@ If you use The Dominion List in research, journalism, or analysis:
 
 ## License
 
-- **Code** — [MIT License](LICENSE). The HTML, CSS, and JavaScript in this repository.
+- **Code** — [MIT License](LICENSE). The HTML, CSS, and JavaScript in this repository (`index.html`, `analytics.html`, `methodology.html`).
 - **Data** — [CC BY 4.0](LICENSE-DATA). Everything in `data/`, including `companies.json`.
 
 You may use, adapt, and redistribute the dataset for any purpose, including
