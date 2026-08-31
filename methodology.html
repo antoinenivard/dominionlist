@@ -18,7 +18,7 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;
+  --bg:#ffffff;--bg-alt:#f9fafb;--bg-muted:#f3f4f6;--tag-bg:#f3f4f6;
   --fg:#111827;--fg2:#6b7280;--fg3:#9ca3af;--fg-secondary:#374151;--fg-muted:#9ca3af;
   --border:#e5e7eb;--accent:#dc2626;--link:#2563eb;--link-h:#1d4ed8;
   --bar-ai:#4f6df5;
@@ -26,7 +26,7 @@
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 @media(prefers-color-scheme:dark){:root{
-  --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;
+  --bg:#030712;--bg-alt:#0a0f1a;--bg-muted:#111827;--tag-bg:#1f2937;
   --fg:#f3f4f6;--fg2:#9ca3af;--fg3:#6b7280;--fg-secondary:#d1d5db;--fg-muted:#6b7280;
   --border:#1f2937;--accent:#ef4444;--link:#60a5fa;--link-h:#93bbfd;
   --bar-ai:#6d8afb;
@@ -48,6 +48,25 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   font-size:14px;line-height:1.5;
   -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
 }
+
+/* ── Page toggle (Database | Analytics | Methodology) ── */
+.nav-toggle{
+  display:inline-flex;align-items:center;gap:2px;
+  padding:2px;border:1px solid var(--border);border-radius:8px;
+  background:var(--tag-bg);
+}
+.nav-toggle a{
+  font-size:12px;font-weight:500;line-height:1.5;
+  padding:4px 10px;border-radius:6px;
+  color:var(--fg-muted);text-decoration:none;white-space:nowrap;
+  transition:color .12s,background .12s;
+}
+.nav-toggle a:hover{color:var(--fg);text-decoration:none}
+.nav-toggle a[aria-current="page"]{
+  background:var(--bg);color:var(--fg);
+  box-shadow:0 1px 2px rgba(0,0,0,0.06);
+}
+
 .header-left{display:flex;align-items:center;gap:12px}
 .header-left a{color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:12px}
 .header-left a:hover{color:var(--fg-secondary);text-decoration:none}
@@ -122,6 +141,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     .header-subtitle{text-overflow:ellipsis}
   }
   .header-right{gap:2px}
+  .nav-toggle{gap:1px;padding:2px}
+  .nav-toggle a{font-size:11px;padding:4px 7px}
 }
 </style>
 </head>
@@ -137,7 +158,13 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       </div>
     </a>
   </div>
-  <div class="header-right"></div>
+  <div class="header-right">
+    <nav class="nav-toggle" aria-label="Pages">
+      <a href="index.html">Database</a>
+      <a href="analytics.html">Analytics</a>
+      <a href="methodology.html" aria-current="page">Methodology</a>
+    </nav>
+  </div>
 </header>
 
 <main class="page">
@@ -393,13 +420,6 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <div class="footer-left">
     <div id="footerVersion">Updated · The Dominion List</div>
     <div>Built by <a href="https://antoinenivard.com" target="_blank">Antoine Nivard</a> in San Francisco · <a href="https://github.com/antoinenivard/dominionlist/blob/main/LICENSE">MIT License</a></div>
-  </div>
-  <div class="footer-right">
-    <a href="index.html" class="footer-btn">← Database</a>
-    <a href="analytics.html" class="footer-btn">
-      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z"/></svg>
-      Analytics
-    </a>
   </div>
 </footer>
 
