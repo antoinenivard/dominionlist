@@ -101,6 +101,15 @@ a:hover{color:var(--link-h);text-decoration:underline}
   box-shadow:0 1px 2px rgba(0,0,0,0.06);
 }
 
+/* Active-filter state: the funnel inverts and shows how many are applied,
+   so a filtered view is obvious without opening the panel. */
+.mobile-toggle.has-filters{
+  background:var(--fg);border-color:var(--fg);color:var(--bg);
+}
+.filter-count{font-size:11px;font-weight:600;line-height:1}
+.filter-count:empty{display:none}
+.clear-btn[hidden]{display:none}
+
 /* ── Live stats bar ── */
 .stats-bar{
   display:flex;align-items:stretch;gap:0;
@@ -601,8 +610,9 @@ a:hover{color:var(--link-h);text-decoration:underline}
   /* flatten both groups so ordering works across them */
   .search-left,.search-right{display:contents}
   .search-box{order:1;flex:1 1 0;min-width:0;width:auto}
-  .mobile-toggle{order:2}
-  .plus-btn{order:3}
+  .clear-btn{order:2}
+  .mobile-toggle{order:3}
+  .plus-btn{order:4}
   .gh-btn,.dl-menu{display:none}
   /* not enough room for the full bar — count on the left, raised on the right */
   .stats-bar{padding:8px 12px;justify-content:space-between;gap:12px}
@@ -750,10 +760,15 @@ a:hover{color:var(--link-h);text-decoration:underline}
       <div class="search-left">
         <button class="mobile-toggle bar-btn" onclick="toggleMobileSidebar()" aria-label="Filters">
           <svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z"/></svg>
+<span class="filter-count" id="filterCount"></span>
           <span class="tooltip" role="tooltip">Filters</span>
         </button>
         <label for="searchBox" class="sr-only">Search companies</label>
         <input type="text" class="search-box" id="searchBox" placeholder="Search companies, founders, institutions…" oninput="applyFilters()">
+        <button class="bar-btn clear-btn" id="clearBarBtn" onclick="clearFilters()" aria-label="Clear search and filters" hidden>
+          <svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg>
+          <span class="tooltip" role="tooltip">Clear search and filters</span>
+        </button>
       </div>
       <div class="search-right">
         <a class="bar-btn gh-btn" href="https://github.com/antoinenivard/dominionlist" target="_blank" aria-label="View on GitHub">
@@ -1881,6 +1896,20 @@ function fmtMoney(v) {
 }
 
 /* Recomputed on every search and filter, over the visible set only. */
+/* Surface filter state in the bar itself. The sidebar "Clear all" lives inside
+   an overlay on mobile, so without this there is no way to see or clear an
+   active filter without opening the panel. */
+function updateFilterChrome() {
+  const q = (document.getElementById('searchBox').value || '').trim();
+  const n = Object.values(activeFilters).reduce((t, s) => t + s.size, 0);
+  const funnel = document.querySelector('.mobile-toggle');
+  if (funnel) funnel.classList.toggle('has-filters', n > 0);
+  const badge = document.getElementById('filterCount');
+  if (badge) badge.textContent = n > 0 ? String(n) : '';
+  const clear = document.getElementById('clearBarBtn');
+  if (clear) clear.hidden = !(q || n > 0);
+}
+
 function renderStats() {
   const set = filtered;
   const raised = set.map(c => c.capitalRaisedUsd || c.capital_raised_usd || 0);
@@ -1930,6 +1959,7 @@ function render() {
   sortFiltered();
   updateSortIndicators();
   renderStats();
+  updateFilterChrome();
 
   if (filtered.length === 0) {
     list.innerHTML = '';
