@@ -1889,11 +1889,19 @@ function renderStats() {
   put('statMedRaisedLabel', 'Median raised' + cov);
 }
 
-/* labels differ by breakpoint, so recompute them when the viewport changes */
+/* Labels differ by breakpoint, so recompute on a breakpoint crossing.
+   matchMedia fires exactly on the transition; the debounced resize handler is a
+   fallback for browsers that do not deliver the change event. */
+function refreshStatsLabels() { if (typeof filtered !== 'undefined') renderStats(); }
+['(max-width:767px)', '(max-width:359px)'].forEach(q => {
+  const mq = window.matchMedia(q);
+  if (mq.addEventListener) mq.addEventListener('change', refreshStatsLabels);
+  else if (mq.addListener) mq.addListener(refreshStatsLabels);
+});
 let statsResizeTimer;
 window.addEventListener('resize', () => {
   clearTimeout(statsResizeTimer);
-  statsResizeTimer = setTimeout(() => { if (typeof filtered !== 'undefined') renderStats(); }, 150);
+  statsResizeTimer = setTimeout(refreshStatsLabels, 150);
 });
 
 function render() {
