@@ -126,6 +126,24 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
    406px min-content width and drags the whole page wider than the phone */
 .schema-table{width:100%;table-layout:fixed;border-collapse:collapse;margin:12px 0 20px;font-size:13px}
 .schema-table th,.schema-table td{overflow-wrap:anywhere}
+
+/* Changelog entries read as releases, not as table rows: version and date sit
+   on one line with the notes at full width beneath. A dedicated notes column
+   squeezes long entries into a narrow ribbon at any screen size. */
+.schema-table.changelog thead{display:none}
+.schema-table.changelog,
+.schema-table.changelog tbody,
+.schema-table.changelog tr{display:block;width:100%}
+.schema-table.changelog tr{padding:18px 0;border-bottom:1px solid var(--border)}
+.schema-table.changelog tr:last-child{border-bottom:none}
+.schema-table.changelog td{display:block;border:none;padding:0}
+.schema-table.changelog td:nth-child(1),
+.schema-table.changelog td:nth-child(2){display:inline-block;width:auto}
+.schema-table.changelog td:nth-child(1){
+  font-weight:600;color:var(--fg);font-size:14px;margin-right:10px;
+}
+.schema-table.changelog td:nth-child(2){color:var(--fg3);font-size:12px}
+.schema-table.changelog td:nth-child(3){margin-top:8px;line-height:1.65;color:var(--fg2)}
 .page code{overflow-wrap:anywhere}
 .schema-table th{text-align:left;font-weight:600;color:var(--fg);padding:8px 12px;border-bottom:2px solid var(--border);font-size:12px;text-transform:uppercase;letter-spacing:0.3px}
 .schema-table td{padding:8px 12px;border-bottom:1px solid var(--border);color:var(--fg2);vertical-align:top}
@@ -156,20 +174,8 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .schema-table{font-size:12px}
   .schema-table th,.schema-table td{padding:7px 8px}
   .page .example-box{padding:14px 16px}
-  /* Changelog: three columns of prose is unreadable at 375px, so each release
-     stacks as a block — version and date on one line, notes at full width. */
-  .schema-table.changelog thead{display:none}
-  .schema-table.changelog,
-  .schema-table.changelog tbody,
-  .schema-table.changelog tr{display:block;width:100%}
-  .schema-table.changelog tr{padding:16px 0;border-bottom:1px solid var(--border)}
-  .schema-table.changelog tr:last-child{border-bottom:none}
-  .schema-table.changelog td{display:block;border:none;padding:0}
-  .schema-table.changelog td:nth-child(1),
-  .schema-table.changelog td:nth-child(2){display:inline-block;width:auto}
-  .schema-table.changelog td:nth-child(1){font-weight:600;color:var(--fg);margin-right:8px}
-  .schema-table.changelog td:nth-child(2){color:var(--fg3);font-size:12px}
-  .schema-table.changelog td:nth-child(3){margin-top:8px;line-height:1.6}
+  .schema-table.changelog tr{padding:14px 0}
+  .schema-table.changelog td:nth-child(3){font-size:13px}
 
   /* Roomier app-bar proportions; the 9.5px marquee subtitle is dropped here —
      it was illegible at that size and was the main source of clutter. */
