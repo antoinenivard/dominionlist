@@ -624,6 +624,19 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .stat-value{font-size:12px;font-weight:400;color:var(--fg-muted)}
   .stat-label{font-size:12px;font-weight:400;text-transform:lowercase;letter-spacing:0}
 
+  /* Table: rank, company and founders only, sized to fit — no sideways scroll */
+  .company-list{overflow-x:hidden}
+  .cell-company{min-width:0;gap:8px}
+  .cell-company > div:last-child{min-width:0;overflow:hidden}
+  .cell-company a{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .founder-cell{min-width:0}
+  .founder-row{min-width:0;overflow:hidden}
+  .founder-row a,
+  .founder-row > span:not(.founder-avatar){
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;
+  }
+  .company-table td:first-child,.company-table th:first-child{width:30px}
+
   /* Table: tighter, lighter header */
   .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
   .company-table td{padding:7px 10px;font-size:12px}
@@ -800,7 +813,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
           <tr>
             <th style="width:40px;text-align:center" data-sort="rank" onclick="sortBy('rank')" title="Sort by valuation rank">#</th>
             <th data-sort="companyName" onclick="sortBy('companyName')">Company <span class="sort-arrow">&#x25B2;</span></th>
-            <th data-sort="industry" onclick="sortBy('industry')">Sector <span class="sort-arrow">&#x25B2;</span></th>
+            <th data-sort="industry" onclick="sortBy('industry')" class="col-hide-mobile">Sector <span class="sort-arrow">&#x25B2;</span></th>
             <th data-sort="hqDisplay" onclick="sortBy('hqDisplay')" class="col-hide-mobile">HQ <span class="sort-arrow">&#x25B2;</span></th>
             <th data-sort="foundingYear" onclick="sortBy('foundingYear')" class="col-hide-mobile">Founded <span class="sort-arrow">&#x25B2;</span></th>
             <th data-sort="stage" onclick="sortBy('stage')" class="col-hide-mobile">Stage <span class="sort-arrow">&#x25B2;</span></th>
@@ -2032,7 +2045,7 @@ function render() {
     return '<tr data-slug="' + slug + '" class="' + isActive + '" onclick="openDetailBySlug(\'' + slug + '\')" tabindex="0" onkeydown="if(event.key===\'Enter\')openDetailBySlug(\'' + slug + '\')">'
       + '<td style="text-align:center;color:var(--fg-muted);font-size:12px;font-variant-numeric:tabular-nums">' + rank + '</td>'
       + '<td><div class="cell-company"><div class="company-logo">' + logo + '</div><div>' + companyLink + '</div></div></td>'
-      + '<td><span class="tag">' + (c.industry || '\u2014') + '</span></td>'
+      + '<td class="col-hide-mobile"><span class="tag">' + (c.industry || '\u2014') + '</span></td>'
       + '<td class="col-hide-mobile" style="white-space:nowrap">' + hqDisplay + '</td>'
       + '<td class="col-hide-mobile">' + founded + '</td>'
       + '<td class="col-hide-mobile"><span class="tag">' + stage + '</span></td>'
