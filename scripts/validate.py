@@ -131,6 +131,27 @@ def main():
             if r.get("valuation_usd") == 0:
                 err(f"{who} / {label}: valuation_usd is 0 — use null for unknown")
 
+    # ── the same founder should look the same everywhere ──
+    # A person appearing at two companies is one person; a photo or profile URL
+    # on one record and not the other is a gap, not a difference.
+    people = {}
+    for c in companies:
+        for f in c.get("founders", []):
+            people.setdefault(f.get("name"), []).append((c.get("name"), f))
+    for name, recs in people.items():
+        if len(recs) < 2:
+            continue
+        for field in ("photo_url", "linkedin", "x_url"):
+            vals = {(co, (f.get(field) or "")) for co, f in recs}
+            distinct = {v for _, v in vals}
+            if len(distinct) < 2:
+                continue
+            if "" in distinct and len(distinct) == 2:
+                missing = [co for co, v in vals if not v]
+                warn(f"{name}: {field} missing on {', '.join(sorted(missing))} but set elsewhere")
+            else:
+                warn(f"{name}: {field} differs across companies — {sorted(vals)}")
+
     # ── versioning rule ──
     # Adding entries requires a patch bump. The exception is a second batch on
     # the same day: if the previous commit was itself a patch bump carrying that

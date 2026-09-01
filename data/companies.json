@@ -29083,7 +29083,11 @@
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
         "canadian_city": "Vancouver, BC",
-        "canadian_institutions": []
+        "canadian_institutions": [],
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Euwyn_2020.png/330px-Euwyn_2020.png",
+        "image_source_type": "wikipedia",
+        "image_source_page": "https://en.wikipedia.org/wiki/Euwyn_Poon",
+        "image_last_checked_at": "2026-04-12T04:42:29Z"
       }
     ],
     "funding_rounds": [
@@ -42315,7 +42319,11 @@
         "canadian_institutions": [
           "Western University"
         ],
-        "canadian_city": "London, ON"
+        "canadian_city": "London, ON",
+        "photo_url": "https://avatars.githubusercontent.com/u/3936867?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/keithwhor",
+        "image_last_checked_at": "2026-04-12T04:20:22Z"
       }
     ],
     "funding_rounds": [
