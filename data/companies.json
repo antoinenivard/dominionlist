@@ -3922,18 +3922,40 @@
     ],
     "funding_rounds": [
       {
-        "amount_display": "$2M",
-        "lead_investors": [],
-        "amount_usd": 2000000,
-        "source_urls": [
-          "https://techcrunch.com/2017/06/27/stdlib-just-raised-2-million-to-connect-businesses-via-apis/"
-        ],
-        "notes": "",
+        "date": "2017-06-27",
         "round": "Seed",
-        "date": "2017",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
         "valuation_usd": null,
         "valuation_display": "",
-        "other_investors": []
+        "lead_investors": [
+          "BlueYard Capital"
+        ],
+        "other_investors": [
+          "Liquid 2 Ventures",
+          "Aston Motes",
+          "Nordic Makers"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2017/06/27/stdlib-just-raised-2-million-to-connect-businesses-via-apis"
+        ],
+        "notes": "Raised as StdLib / Standard Library."
+      },
+      {
+        "date": "2019",
+        "round": "Corporate",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Stripe"
+        ],
+        "other_investors": [
+          "Salesforce Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Aggregator-sourced; amount never disclosed."
       }
     ],
     "metadata": {
@@ -3941,17 +3963,17 @@
         "https://techcrunch.com/2017/06/27/stdlib-just-raised-2-million-to-connect-businesses-via-apis/",
         "https://www.crunchbase.com/organization/stdlib"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-31T17:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Legal entity Polybit Inc., also known as Standard Library; branded StdLib, then Autocode. Co-founded by Keith Horwood and Jacob Lee — only Horwood has a verified Canadian tie, so Lee is not listed. LOGO NOTE: autocode.com now redirects to superuser.app, so any live favicon fetch returns the wrong brand. The icon here is the Autocode chevron mark from the github.com/acode organisation avatar, which is keyed to an immutable numeric org ID and survives renames. Horwood has since founded Superuser."
     },
     "founder_display": "Keith Horwood",
     "institution_display": "Western University",
     "hq_display": "San Francisco",
     "capital_raised_usd": 2000000,
     "capital_raised_display": "$2M",
-    "icon_url": ""
+    "icon_url": "https://avatars.githubusercontent.com/u/80448855?s=460&v=4"
   },
   {
     "id": "automax",
@@ -42265,6 +42287,67 @@
     "founding_year": 2022,
     "stage": "",
     "icon_url": ""
+  },
+  {
+    "id": "superuser",
+    "name": "Superuser",
+    "website": "https://superuser.app",
+    "description": "Programmable AI agents for Discord servers and the web — a model plus tools plus your own docs, with custom tools shipped as JavaScript APIs on a serverless registry.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/superuser.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Keith Horwood",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/keith-horwood-92b76062/",
+        "x_url": "https://x.com/keithwhor",
+        "bio": "Founder & CEO of Superuser. BSc Biochemistry, Western University (2006-2010). Previously founded Autocode (StdLib) and worked at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Western University",
+        "canadian_institutions": [
+          "Western University"
+        ],
+        "canadian_city": "London, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-01-24",
+        "round": "Pre-Seed",
+        "amount_usd": 650000,
+        "amount_display": "$650K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "SV Angel",
+          "Liquid 2 Ventures",
+          "Logan Kilpatrick",
+          "Aston Motes"
+        ],
+        "source_urls": [
+          "https://x.com/keithwhor/status/1882892039270097121",
+          "https://superuser.app/about"
+        ],
+        "notes": "Announced by the founder while the company was branded Funct. No lead investor or valuation disclosed. Liquid 2 Ventures appears on the company about page but not in the announcement."
+      }
+    ],
+    "capital_raised_usd": 650000,
+    "capital_raised_display": "$650K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-08-31T17:00:00-07:00",
+      "notes": "Brand lineage: founded as Funct (~Aug 2024), then Instant.bot, then Superuser, whose technical preview launched May 2025. ENTITY DISCREPANCY: the site footer and Crunchbase say \"Superuser, Inc.\" while the live terms and privacy policy still name \"Funct, Inc.\" under California law — almost certainly the same renamed entity. Founding year 2024 is inferred from the terms dated 2024-08-18 and the Discord application ID, which decodes to 2024-08-12; no company source states one. Keith Horwood is the sole founder per Crunchbase and self-describes as \"Proud Canadian\" on the about page. Designer Scott Gamble is also Canadian (Greater Toronto Area) but is not described as a co-founder anywhere. Footer reads \"Made in San Francisco, CA and Toronto, ON\". No SEC Form D exists, consistent with a 4(a)(2) round of this size."
+    }
   },
   {
     "id": "surebright",
