@@ -806,7 +806,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "W'25",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/afterquery.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "founders": [
       {
         "name": "Carlos Georgescu",
@@ -820,7 +820,7 @@
           "University of British Columbia"
         ],
         "canadian_city": "",
-        "role": ""
+        "role": "Co-Founder & CTO"
       }
     ],
     "funding_rounds": [
