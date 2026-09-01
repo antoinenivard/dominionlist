@@ -48719,7 +48719,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "linkedin": "https://www.linkedin.com/in/zhang-guodong/"
+        "linkedin": "https://www.linkedin.com/in/zhang-guodong/",
+        "photo_url": "https://www.cs.toronto.edu/~gdzhang/figures/photo.jpg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://www.cs.toronto.edu/~gdzhang/",
+        "image_last_checked_at": "2026-09-01T15:45:00Z"
       }
     ],
     "funding_rounds": [
