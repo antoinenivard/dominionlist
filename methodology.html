@@ -102,10 +102,10 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 .header-right{display:flex;align-items:center;gap:4px}
 
 /* Page content */
-.page{max-width:720px;margin:0 auto;padding:48px 28px 80px;flex:1}
-.page h2{font-size:22px;font-weight:700;letter-spacing:-0.3px;margin-bottom:8px;margin-top:48px}
+.page{max-width:780px;margin:0 auto;padding:48px 28px 80px;flex:1;min-width:0}
+.page h2{font-size:20px;font-weight:700;letter-spacing:-0.3px;margin-bottom:8px;margin-top:48px}
 .page h2:first-child{margin-top:0}
-.page h3{font-size:16px;font-weight:600;margin-top:28px;margin-bottom:6px}
+.page h3{font-size:14px;font-weight:600;letter-spacing:0;color:var(--fg);margin-top:32px;margin-bottom:6px}
 .page p{color:var(--fg2);margin-bottom:14px}
 .page ul{list-style:none;padding:0;margin-bottom:14px}
 .page li{position:relative;padding-left:20px;margin-bottom:6px;color:var(--fg2)}
@@ -122,7 +122,11 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 .badge-no{background:#450a0a;color:#fca5a5}
 }
 .divider{border:none;border-top:1px solid var(--border);margin:40px 0}
-.schema-table{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:13px}
+/* fixed layout + wrapping: with auto layout the changelog table has a
+   406px min-content width and drags the whole page wider than the phone */
+.schema-table{width:100%;table-layout:fixed;border-collapse:collapse;margin:12px 0 20px;font-size:13px}
+.schema-table th,.schema-table td{overflow-wrap:anywhere}
+.page code{overflow-wrap:anywhere}
 .schema-table th{text-align:left;font-weight:600;color:var(--fg);padding:8px 12px;border-bottom:2px solid var(--border);font-size:12px;text-transform:uppercase;letter-spacing:0.3px}
 .schema-table td{padding:8px 12px;border-bottom:1px solid var(--border);color:var(--fg2);vertical-align:top}
 .schema-table td:first-child{font-family:SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--fg);white-space:nowrap}
@@ -145,6 +149,17 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 
 /* ── Header: identical to index.html ── */
 @media(max-width:767px){
+  /* Match the Analytics gutters and give the tables room to wrap */
+  .page{padding:28px 16px calc(28px + env(safe-area-inset-bottom))}
+  .page h2{font-size:19px;margin-top:36px}
+  .divider{margin:28px 0}
+  .schema-table{font-size:12px}
+  .schema-table th,.schema-table td{padding:7px 8px}
+  .page .example-box{padding:14px 16px}
+  /* changelog: keep version and date narrow so the notes column gets the width */
+  .schema-table.changelog th:nth-child(1),.schema-table.changelog td:nth-child(1){width:58px}
+  .schema-table.changelog th:nth-child(2),.schema-table.changelog td:nth-child(2){width:74px}
+
   /* Roomier app-bar proportions; the 9.5px marquee subtitle is dropped here —
      it was illegible at that size and was the main source of clutter. */
   .header{padding:14px 16px;gap:12px}
@@ -435,7 +450,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 
   <h2>Changelog</h2>
   <p>Major changes to the database are tracked here. For granular history, see the <a href="https://github.com/antoinenivard/dominionlist/commits/main">commit log</a>.</p>
-  <table class="schema-table">
+  <table class="schema-table changelog">
     <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
     <tr><td>v1.3.0</td><td>August 28, 2026</td><td>Added 24 companies (552 &rarr; 576), including OpenEvidence ($12B, the second most valuable private company on the list), Writer ($1.9B), Mecka, Retro, Mundo AI and Vernius Systems. Filled funding history for 26 entries that previously had none &mdash; notably Architect Labs’ $24M seed and Squire AI’s $4.4M round, which was invisible because it had been announced under the company’s earlier name. Added LinkedIn URLs for 79 founders. <strong>Fixed a schema split in which 265 of 576 records stored <code>hq_country</code> as &ldquo;United States&rdquo; rather than &ldquo;US&rdquo;</strong>, which had been quietly halving any query keyed on that field. Corrected the analytics deals comparison, which plotted deal counts against a multiple computed from company counts. Merged duplicate entries (Chemix/Teserac, SpinPunch/Mattermost &mdash; the same legal entity, confirmed via SEC filings). Reworked the interface: a persistent header toggle replaces the footer page links, the header is now sticky and identical across all three pages, and the database sub-bar consolidates search, count, GitHub, download and submit into one row. Split licensing &mdash; MIT for code, CC BY 4.0 for the dataset.</td></tr>
     <tr><td>v1.2.0</td><td>August 20, 2026</td><td>Added 50 companies (502 &rarr; 552). Normalized the full schema: every funding round and founder record standardized to canonical fields (<code>lead_investors</code>/<code>other_investors</code> arrays, <code>round</code>, <code>canadian_institution</code>), and industries consolidated back to the 7 core sectors. Added shareable filter URLs &mdash; any filtered view can now be linked directly (e.g. <code>?school=Waterloo&amp;sector=AI</code>). Fixed valuation logic so inactive and wound-down companies resolve to $0 rather than carrying peak historical marks. Established a monthly refresh cycle: public company market caps are marked to the last trading day of the prior month. Recorded major events including the SpaceX IPO and xAI merger, Anthropic’s $65B Series H at $965B, OpenAI’s $122B round at $852B, Databricks at $190B, MaintainX’s $3.6B acquisition by Autodesk, and Wish’s sale to Qoo10. Resolved four duplicate entries (Arga Labs, Jamsocket/Drifting in Space, Solcoa Industries, OpenPhone/Quo) and corrected same-name misattributions where another company’s funding had been recorded (Conway, Gather, Hedgehog).</td></tr>
