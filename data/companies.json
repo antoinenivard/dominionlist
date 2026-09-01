@@ -797,7 +797,7 @@
     "id": "afterquery",
     "name": "AfterQuery",
     "website": "https://afterquery.com",
-    "description": "Applied research lab curating high-quality, human-generated datasets for frontier foundation model development. Works with ~100K verified professionals across finance, engineering, medicine, and law. Clients include every leading AI lab. Hit $100M ARR by April 2026.",
+    "description": "Applied research lab curating high-quality, human-generated datasets for frontier foundation model development. Works with ~100K verified professionals across finance, engineering, medicine, and law. Clients include every leading AI lab. Hit $100M ARR by April 2026 and was reported at a $3.2B valuation that September — the fastest company in Y Combinator history to reach unicorn status.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -872,16 +872,19 @@
     "hq_display": "San Francisco, CA",
     "metadata": {
       "sources": [
+        "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/",
         "https://afterquery.com",
         "https://www.ycombinator.com/companies/afterquery",
         "https://www.businesswire.com/news/home/20260409469482/en/",
         "https://www.crunchbase.com/organization/afterquery"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-01T14:10:00-07:00",
       "import_notes": "updated-funding",
-      "valuation_usd": null,
-      "valuation_display": "",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "valuation_usd": 3200000000,
+      "valuation_display": "$3.2B",
+      "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. No round letter, round size or lead investor is disclosed, so no funding round has been added and capital_raised_usd remains the $30.5M actually announced. Stage stays Series A for the same reason. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer is quoted saying this makes AfterQuery the fastest company in YC history to go from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "valuation_source": "Forbes report Sep 2026 — round size and investors undisclosed",
+      "valuation_source_url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
     }
   },
   {
