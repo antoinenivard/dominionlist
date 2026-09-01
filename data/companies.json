@@ -863,6 +863,20 @@
           "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation"
         ],
         "notes": "Hit $100M ARR at time of raise. Angels from Google DeepMind, OpenAI, Anthropic, Meta Superintelligence Labs, Microsoft AI."
+      },
+      {
+        "date": "2026-09-01",
+        "round": "Venture",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": 3200000000,
+        "valuation_display": "$3.2B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
+        ],
+        "notes": "Reported by Forbes, not announced. The $3.2B valuation is sourced to two people with direct knowledge; AfterQuery declined to comment and had made no announcement on its own site, LinkedIn or X as of the report date. Round letter, amount and investors are all undisclosed, and the round may not have closed — the date shown is the date of the Forbes report, not a close date. Labelled Venture rather than Series B because no source states a letter. More than 10x the $300M valuation set five months earlier."
       }
     ],
     "capital_raised_usd": 30500000,
@@ -878,11 +892,11 @@
         "https://www.businesswire.com/news/home/20260409469482/en/",
         "https://www.crunchbase.com/organization/afterquery"
       ],
-      "last_verified": "2026-09-01T14:10:00-07:00",
+      "last_verified": "2026-09-01T14:35:00-07:00",
       "import_notes": "updated-funding",
       "valuation_usd": 3200000000,
       "valuation_display": "$3.2B",
-      "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. No round letter, round size or lead investor is disclosed, so no funding round has been added and capital_raised_usd remains the $30.5M actually announced. Stage stays Series A for the same reason. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer is quoted saying this makes AfterQuery the fastest company in YC history to go from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. Recorded as an undisclosed Venture round dated to the report: no round letter, amount or investors are stated, and the round may still be open. capital_raised_usd therefore remains the $30.5M actually announced, and stage remains Series A as the last confirmed closed round. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer — who is also AfterQuery's YC primary partner — is quoted saying this makes AfterQuery the fastest company in YC history from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found.",
       "valuation_source": "Forbes report Sep 2026 — round size and investors undisclosed",
       "valuation_source_url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
     }
