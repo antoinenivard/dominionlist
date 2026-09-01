@@ -3966,14 +3966,14 @@
       "last_verified": "2026-08-31T17:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": "Legal entity Polybit Inc., also known as Standard Library; branded StdLib, then Autocode. Co-founded by Keith Horwood and Jacob Lee — only Horwood has a verified Canadian tie, so Lee is not listed. LOGO NOTE: autocode.com now redirects to superuser.app, so any live favicon fetch returns the wrong brand. The icon here is the Autocode chevron mark from the github.com/acode organisation avatar, which is keyed to an immutable numeric org ID and survives renames. Horwood has since founded Superuser."
+      "notes": "Legal entity Polybit Inc., also known as Standard Library; branded StdLib, then Autocode. Co-founded by Keith Horwood and Jacob Lee — only Horwood has a verified Canadian tie, so Lee is not listed. LOGO NOTE: autocode.com now redirects to superuser.app, so any live favicon fetch returns the wrong brand. The icon here is the legacy Autocode chevron on a white tile, supplied by the DB owner. A transparent white-on-nothing version exists at https://avatars.githubusercontent.com/u/80448855?s=460&v=4 (the github.com/acode org avatar, keyed to an immutable numeric ID) but it renders near-invisible against the light table background, so it is kept here only as a fallback if the gstatic thumbnail ever expires. Horwood has since founded Superuser."
     },
     "founder_display": "Keith Horwood",
     "institution_display": "Western University",
     "hq_display": "San Francisco",
     "capital_raised_usd": 2000000,
     "capital_raised_display": "$2M",
-    "icon_url": "https://avatars.githubusercontent.com/u/80448855?s=460&v=4"
+    "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UJ0aSF8CgP9zBLsLdVBYyL1MK8SIuOfmebuR7KoCbw&s"
   },
   {
     "id": "automax",
