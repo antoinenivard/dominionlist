@@ -216,7 +216,7 @@
         ],
         "notable": "Born in India, immigrated to Hamilton, ON at age 14. Co-founded Instacart (YC S12, IPO 2023). Canadian-American billionaire. Previously at Amazon, BlackBerry, Qualcomm.",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Apoorva_Mehta",
-        "x_url": "",
+        "x_url": "https://x.com/apoorva_mehta",
         "bio": "",
         "canadian_institutions": [
           "University of Waterloo"
@@ -8625,7 +8625,7 @@
       {
         "id": "tom-zheng",
         "name": "Tom Zheng",
-        "linkedin": "https://www.linkedin.com/in/tomzheng/",
+        "linkedin": "https://www.linkedin.com/in/tomzhengy",
         "role": "Co-Founder & CEO",
         "bio": "From Toronto, Canada.",
         "canadian_connection_type": "birthplace",
@@ -8637,7 +8637,7 @@
       {
         "id": "eric-mao",
         "name": "Eric Mao",
-        "linkedin": "https://www.linkedin.com/in/ericmao/",
+        "linkedin": "https://www.linkedin.com/in/eric-mao",
         "role": "Co-Founder & CTO",
         "bio": "From Toronto, Canada.",
         "canadian_connection_type": "birthplace",
@@ -9956,7 +9956,7 @@
         "linkedin": "https://www.linkedin.com/in/derrick-rossi",
         "role": "Founder",
         "bio": "Stem cell scientist and serial biotech entrepreneur who served as CEO of Convelo and previously led the development of treatments for spinal cord injury and cancer.",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Toronto",
         "canadian_institutions": [
           "University of Toronto"
@@ -25086,10 +25086,10 @@
       {
         "id": "derrick-rossi",
         "name": "Derrick Rossi",
-        "linkedin": "https://www.linkedin.com/in/derrick-rossi-b4b83a10",
+        "linkedin": "https://www.linkedin.com/in/derrick-rossi",
         "role": "Founder",
         "bio": "",
-        "canadian_connection_type": "birthplace",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Toronto",
         "canadian_institutions": [
           "University of Toronto"
@@ -28560,7 +28560,7 @@
       {
         "id": "ilya-sutskever",
         "name": "Ilya Sutskever",
-        "linkedin": "https://www.linkedin.com/in/ilaboratory",
+        "linkedin": "https://www.linkedin.com/in/ilya-sutskever",
         "role": "Co-Founder",
         "bio": "",
         "canadian_connection_type": "education",
@@ -38103,7 +38103,7 @@
           "Wilfrid Laurier University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "https://x.com/asheeeeeshh"
       }
     ],
     "funding_rounds": [
@@ -40809,7 +40809,7 @@
       {
         "id": "olivia-li-spyro",
         "name": "Olivia Li",
-        "linkedin": "https://www.linkedin.com/in/olivia-li-8843329a/",
+        "linkedin": "https://www.linkedin.com/in/oliviaoli/",
         "role": "Co-Founder",
         "bio": "Graduate of the University of Toronto.",
         "canadian_connection_type": "education",
@@ -40818,7 +40818,7 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "https://x.com/oliviali_"
       }
     ],
     "funding_rounds": [],
@@ -42253,7 +42253,7 @@
         "linkedin": "https://www.linkedin.com/in/dhamanrakhra/",
         "canadian_connection_type": "education",
         "canadian_institution": "York University",
-        "x_url": "",
+        "x_url": "https://x.com/dhamanrakhra",
         "bio": "",
         "wikipedia_url": "",
         "role": "",
@@ -42794,7 +42794,7 @@
     "founders": [
       {
         "name": "Chad Rigetti",
-        "linkedin": "https://www.linkedin.com/in/chadrigetti/",
+        "linkedin": "https://www.linkedin.com/in/chad-rigetti-9891562/",
         "bio": "Co-founder & CEO of Sygaldry. Born in Moose Jaw, Saskatchewan. University of Regina BS Physics '02, Yale PhD Applied Physics '09. Previously founded Rigetti Computing (NASDAQ: RGTI) and led it as CEO until 2024; 140+ peer-reviewed papers in quantum computing.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Regina",
@@ -43802,7 +43802,7 @@
       {
         "id": "patrick-soon-shiong",
         "name": "Patrick Soon-Shiong",
-        "linkedin": "https://www.linkedin.com/in/patrick-soon-shiong",
+        "linkedin": "",
         "role": "Founder",
         "bio": "Internationally recognized surgeon, scientist, and inventor with 500+ patents and founder of ImmunityBio and NantHealth.",
         "canadian_connection_type": "education",
