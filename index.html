@@ -624,8 +624,14 @@ a:hover{color:var(--link-h);text-decoration:underline}
   .stat-value{font-size:12px;font-weight:400;color:var(--fg-muted)}
   .stat-label{font-size:12px;font-weight:400;text-transform:lowercase;letter-spacing:0}
 
-  /* Table: rank, company and founders only, sized to fit — no sideways scroll */
+  /* Table: rank, company and founders only, sized to fit — no sideways scroll.
+     table-layout:fixed is required: with auto layout the browser sizes columns
+     to max-content, so ellipsis rules alone never shrink them. */
   .company-list{overflow-x:hidden}
+  .company-table{table-layout:fixed;width:100%}
+  .company-table th:nth-child(1),.company-table td:nth-child(1){width:32px}
+  .company-table th:nth-child(2),.company-table td:nth-child(2){width:46%}
+  .company-table th:nth-child(9),.company-table td:nth-child(9){width:auto}
   .cell-company{min-width:0;gap:8px}
   .cell-company > div:last-child{min-width:0;overflow:hidden}
   .cell-company a{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
