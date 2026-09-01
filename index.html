@@ -385,6 +385,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
 /* Founder cell */
 .founder-cell{display:flex;flex-direction:column;gap:4px}
 .founder-row{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.founder-icon{display:inline-flex}
 .founder-avatar{
   width:20px;height:20px;border-radius:50%;
   background:var(--tag-bg);display:flex;align-items:center;justify-content:center;
@@ -1868,9 +1869,9 @@ function founderIcons(f, stopProp) {
      detail panel, which uses the same function */
   const cl = ' class="founder-icon"';
   let html = '';
-  if (f.wikipediaUrl) html += '<a' + cl + ' href="' + f.wikipediaUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="Wikipedia">' + wikiSvg + '</a>';
-  if (f.linkedinUrl) html += '<a' + cl + ' href="' + f.linkedinUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="LinkedIn">' + liSvg + '</a>';
-  if (f.xUrl) html += '<a' + cl + ' href="' + f.xUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="X">' + xSvg + '</a>';
+  if (f.wikipediaUrl) html += '<a' + cl + ' href="' + f.wikipediaUrl + '" target="_blank"' + sp + ' title="Wikipedia">' + wikiSvg + '</a>';
+  if (f.linkedinUrl) html += '<a' + cl + ' href="' + f.linkedinUrl + '" target="_blank"' + sp + ' title="LinkedIn">' + liSvg + '</a>';
+  if (f.xUrl) html += '<a' + cl + ' href="' + f.xUrl + '" target="_blank"' + sp + ' title="X">' + xSvg + '</a>';
   return html;
 }
 
