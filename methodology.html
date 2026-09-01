@@ -70,11 +70,12 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 /* ── Compact page menu (mobile) ── */
 .nav-menu{display:none;position:relative}
 .nav-menu-btn{
-  display:inline-flex;align-items:center;gap:4px;
-  font-family:inherit;font-size:11px;font-weight:500;line-height:1.5;
-  padding:5px 8px;border:1px solid var(--border);border-radius:8px;
-  background:var(--tag-bg);color:var(--fg);cursor:pointer;white-space:nowrap;
+  display:inline-flex;align-items:center;justify-content:center;
+  width:44px;height:44px;padding:0;
+  border:1px solid var(--border);border-radius:10px;
+  background:var(--tag-bg);color:var(--fg);cursor:pointer;
 }
+.nav-menu-btn .nav-burger{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.75;flex-shrink:0}
 .nav-menu-btn .nav-chev{width:12px;height:12px;flex-shrink:0;transition:transform .15s}
 .nav-menu-btn[aria-expanded="true"] .nav-chev{transform:rotate(180deg)}
 .nav-menu-list{
@@ -144,11 +145,12 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 
 /* ── Header: identical to index.html ── */
 @media(max-width:767px){
-  .header{padding:10px 12px}
-  .header-left{gap:8px}
-  .header-title{font-size:15px;line-height:1.15}
-  .header-subtitle{font-size:9.5px;line-height:1.2;margin-top:1px;opacity:0.75;
-    white-space:nowrap;overflow:hidden;max-width:100%}
+  /* Roomier app-bar proportions; the 9.5px marquee subtitle is dropped here —
+     it was illegible at that size and was the main source of clutter. */
+  .header{padding:14px 16px;gap:12px}
+  .header-left{gap:10px;min-width:0}
+  .header-title{font-size:17px;line-height:1.25}
+  .header-subtitle{display:none}
   .header-subtitle .subtitle-track{
     display:inline-flex;
     animation:subtitle-marquee 18s linear infinite;
@@ -195,7 +197,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
       <a href="methodology.html" aria-current="page">Methodology</a>
     </nav>
     <div class="nav-menu">
-      <button class="nav-menu-btn" aria-expanded="false" aria-haspopup="true" aria-label="Switch page" onclick="toggleNavMenu(event)"><span>Methodology</span><svg class="nav-chev" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"/></svg></button>
+      <button class="nav-menu-btn" aria-expanded="false" aria-haspopup="true" aria-label="Open menu" onclick="toggleNavMenu(event)"><svg class="nav-burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"/></svg></button>
       <div class="nav-menu-list" hidden>
         <a href="index.html">Database</a>
         <a href="analytics.html">Analytics</a>
