@@ -49250,5 +49250,82 @@
     "capital_raised_usd": 58800000,
     "capital_raised_display": "$58.8M",
     "icon_url": ""
+  },
+  {
+    "id": "goodstartlabs",
+    "name": "Good Start Labs",
+    "website": "https://goodstartlabs.com",
+    "description": "Turns games into reinforcement-learning environments and world-model training data for frontier AI labs, with public leaderboards that benchmark models on long-horizon planning, negotiation and humour.",
+    "hq_city": "Brooklyn",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Active",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://goodstartlabs.com/icon-light-mode.svg",
+    "founders": [
+      {
+        "name": "Tyler Marques",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/tylermarques/",
+        "x_url": "https://x.com/Tyler_Marques",
+        "bio": "Co-Founder & CTO of Good Start Labs. Graduate of the University of Waterloo. Seven years in applied AI, ML and DevOps; built terabyte-scale data pipelines serving global manufacturers and co-founded a full-stack engineering and infrastructure consultancy. Based in Toronto.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "https://www.inovia.vc/wp-content/uploads/2025/10/Tyler-Marques-Headshot.png",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://www.inovia.vc/founders/company-founders/tyler-marques/",
+        "image_last_checked_at": "2026-09-01T13:30:00Z"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-10-15",
+        "round": "Seed",
+        "amount_usd": 3600000,
+        "amount_display": "$3.6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "General Catalyst",
+          "Inovia Capital"
+        ],
+        "other_investors": [
+          "Every",
+          "Tirta Ventures",
+          "Essence VC",
+          "Weekend Fund",
+          "Ben Feder",
+          "Timothy Chen",
+          "Siqi Chen",
+          "Greg Kamradt",
+          "Kelly Clancy",
+          "Dan Shipper",
+          "Ryan Hoover",
+          "Ben Tossell"
+        ],
+        "source_urls": [
+          "https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games",
+          "https://www.inovia.vc/active-companies/good-start-labs/",
+          "https://goodstartlabs.com/about"
+        ],
+        "notes": "ROUND-LABEL DISCREPANCY: Inovia's own portfolio page calls this the company's pre-seed round, while Crunchbase, Tracxn and investor Tirta Ventures all label it a seed. Recorded as Seed on the majority of sources. Inovia lists itself and General Catalyst as co-leads. No valuation disclosed. The company about page names 33 angels; only the institutional investors and the most prominent angels are listed here."
+      }
+    ],
+    "capital_raised_usd": 3600000,
+    "capital_raised_display": "$3.6M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-01T13:30:00Z",
+      "notes": "Spun out of Every (the media/software company) in October 2025; grew out of AI Diplomacy, a viral June 2025 project in which frontier models played the board game Diplomacy. HQ is Brooklyn NY per Inovia's portfolio page and CEO Alex Duffy's own LinkedIn location; Inovia lists a Toronto ON office and CTO Tyler Marques is based in Toronto. Co-founder & CEO Alex Duffy (Brooklyn) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Waterloo attribution comes from Inovia's founder biography and is corroborated by the education field on Marques's own LinkedIn profile. LOGO NOTE: the brand mark is monochrome and the company ships separate light- and dark-mode favicons; icon-light-mode.svg (near-black ink) is used here because it reads on the default light theme. The logo.dev render for this domain returns the white variant, which is invisible on a light background."
+    }
   }
 ]
