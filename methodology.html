@@ -156,9 +156,20 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   .schema-table{font-size:12px}
   .schema-table th,.schema-table td{padding:7px 8px}
   .page .example-box{padding:14px 16px}
-  /* changelog: keep version and date narrow so the notes column gets the width */
-  .schema-table.changelog th:nth-child(1),.schema-table.changelog td:nth-child(1){width:58px}
-  .schema-table.changelog th:nth-child(2),.schema-table.changelog td:nth-child(2){width:74px}
+  /* Changelog: three columns of prose is unreadable at 375px, so each release
+     stacks as a block — version and date on one line, notes at full width. */
+  .schema-table.changelog thead{display:none}
+  .schema-table.changelog,
+  .schema-table.changelog tbody,
+  .schema-table.changelog tr{display:block;width:100%}
+  .schema-table.changelog tr{padding:16px 0;border-bottom:1px solid var(--border)}
+  .schema-table.changelog tr:last-child{border-bottom:none}
+  .schema-table.changelog td{display:block;border:none;padding:0}
+  .schema-table.changelog td:nth-child(1),
+  .schema-table.changelog td:nth-child(2){display:inline-block;width:auto}
+  .schema-table.changelog td:nth-child(1){font-weight:600;color:var(--fg);margin-right:8px}
+  .schema-table.changelog td:nth-child(2){color:var(--fg3);font-size:12px}
+  .schema-table.changelog td:nth-child(3){margin-top:8px;line-height:1.6}
 
   /* Roomier app-bar proportions; the 9.5px marquee subtitle is dropped here —
      it was illegible at that size and was the main source of clutter. */
