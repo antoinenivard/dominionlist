@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Analytics · The Dominion List</title>
 <meta name="description" content="Data-driven insights from The Dominion List — capital, sectors, corridors, and concentration.">
 <meta property="og:type" content="website">
@@ -37,7 +37,7 @@
   --globe-bg:#0b1526;
 }}
 html{font-family:var(--font);font-size:15px;line-height:1.65;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased}
-body{min-height:100vh;display:flex;flex-direction:column}
+body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decoration:underline}
 
 .header{
@@ -248,6 +248,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     position:fixed;
     top:53px; /* JS will override with actual header height */
     left:0;right:0;bottom:0;
+    padding-bottom:env(safe-area-inset-bottom);
     overflow-y:auto;
     -webkit-overflow-scrolling:touch;
     scroll-snap-type:y mandatory;
