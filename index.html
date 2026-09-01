@@ -642,6 +642,9 @@ a:hover{color:var(--link-h);text-decoration:underline}
     overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;
   }
   .company-table td:first-child,.company-table th:first-child{width:30px}
+  /* socials are reachable from the detail panel; drop them from the row so
+     founder names get the width instead */
+  .founder-row .founder-icon{display:none}
 
   /* Table: tighter, lighter header */
   .company-table th{padding:6px 10px;font-size:10px;letter-spacing:0.03em}
@@ -1861,10 +1864,13 @@ const xSvg = '<svg class="li-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0
 /* Build founder profile icons: Wikipedia → LinkedIn → X */
 function founderIcons(f, stopProp) {
   const sp = stopProp ? ' onclick="event.stopPropagation()"' : '';
+  /* class lets the table row hide these on mobile without touching the
+     detail panel, which uses the same function */
+  const cl = ' class="founder-icon"';
   let html = '';
-  if (f.wikipediaUrl) html += '<a href="' + f.wikipediaUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="Wikipedia">' + wikiSvg + '</a>';
-  if (f.linkedinUrl) html += '<a href="' + f.linkedinUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="LinkedIn">' + liSvg + '</a>';
-  if (f.xUrl) html += '<a href="' + f.xUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="X">' + xSvg + '</a>';
+  if (f.wikipediaUrl) html += '<a' + cl + ' href="' + f.wikipediaUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="Wikipedia">' + wikiSvg + '</a>';
+  if (f.linkedinUrl) html += '<a' + cl + ' href="' + f.linkedinUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="LinkedIn">' + liSvg + '</a>';
+  if (f.xUrl) html += '<a' + cl + ' href="' + f.xUrl + '" target="_blank" style="display:inline-flex"' + sp + ' title="X">' + xSvg + '</a>';
   return html;
 }
 
