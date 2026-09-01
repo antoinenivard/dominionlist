@@ -130,7 +130,9 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 /* Changelog entries read as releases, not as table rows: version and date sit
    on one line with the notes at full width beneath. A dedicated notes column
    squeezes long entries into a narrow ribbon at any screen size. */
-.schema-table.changelog thead{display:none}
+/* the header row is a bare <tr><th>, not a <thead> */
+.schema-table.changelog tr:has(th){display:none}
+.schema-table.changelog th{display:none}
 .schema-table.changelog,
 .schema-table.changelog tbody,
 .schema-table.changelog tr{display:block;width:100%}
