@@ -28993,7 +28993,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "canadian_city": "Toronto, ON"
+        "canadian_city": "Toronto, ON",
+        "photo_url": "https://framerusercontent.com/images/3qz1GyKMC4rvxeOFWOqW30hCPg.jpg?width=920&height=920",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://sequoiacap.com/founder/daniel-nadler",
+        "image_last_checked_at": "2026-09-01T16:15:00Z"
       }
     ],
     "funding_rounds": [
@@ -35620,11 +35624,7 @@
           "University of Regina"
         ],
         "wikipedia_url": "",
-        "x_url": "",
-        "photo_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/q_30/v1415605977/nw3cxhh5vk79kat7mqoo.jpg",
-        "image_source_type": "other",
-        "image_source_page": "https://www.crunchbase.com/person/chad-rigetti",
-        "image_last_checked_at": "2026-09-01T15:10:00Z"
+        "x_url": ""
       }
     ],
     "funding_rounds": [
@@ -42937,11 +42937,7 @@
         "canadian_institutions": [
           "University of Regina"
         ],
-        "role": "",
-        "photo_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/q_30/v1415605977/nw3cxhh5vk79kat7mqoo.jpg",
-        "image_source_type": "other",
-        "image_source_page": "https://www.crunchbase.com/person/chad-rigetti",
-        "image_last_checked_at": "2026-09-01T15:10:00Z"
+        "role": ""
       }
     ],
     "funding_rounds": [
