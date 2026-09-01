@@ -66,6 +66,66 @@ def is_patch_bump(older, newer):
     return bool(a and b and a[0] == b[0] and a[1] == b[1] and b[2] > a[2])
 
 
+def check_photo_urls(companies):
+    """Warn on photo_url values that no longer resolve.
+
+    Hotlinked headshots rot: a company redesigns, a CDN path changes, a host
+    starts blocking cross-origin requests. Without this the image silently
+    falls back to initials and nobody notices. Warning-only and wrapped in a
+    bare except — a flaky network must never fail the build. Set
+    SKIP_PHOTO_CHECK=1 to skip it entirely.
+    """
+    import os
+    if os.environ.get("SKIP_PHOTO_CHECK"):
+        return
+    try:
+        import urllib.request
+        from concurrent.futures import ThreadPoolExecutor
+    except Exception:
+        return
+
+    urls = {}
+    for c in companies:
+        for f in c.get("founders", []):
+            u = f.get("photo_url")
+            if u:
+                urls.setdefault(u, []).append(f"{f.get('name')} ({c.get('name')})")
+
+    def probe(u):
+        req = urllib.request.Request(
+            u,
+            method="GET",
+            headers={
+                # Some hosts 403 an absent or non-browser UA. Referer is set to
+                # the live site so hotlink protection is exercised the same way
+                # a real page view would exercise it.
+                "User-Agent": "Mozilla/5.0 (compatible; dominionlist-linkcheck/1.0)",
+                "Referer": "https://dominionlist.com/",
+                "Accept": "image/*,*/*",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=8) as r:
+                ctype = (r.headers.get("Content-Type") or "").lower()
+                if r.status >= 400:
+                    return f"HTTP {r.status}"
+                if "image" not in ctype:
+                    return f"not an image (Content-Type: {ctype or 'none'})"
+                return None
+        except Exception as e:
+            return type(e).__name__ + (f": {e}" if len(str(e)) < 80 else "")
+
+    try:
+        with ThreadPoolExecutor(max_workers=12) as ex:
+            results = list(ex.map(probe, urls))
+    except Exception:
+        return
+
+    for (u, who), problem in zip(urls.items(), results):
+        if problem:
+            warn(f"photo_url unreachable — {problem} — {', '.join(who)} — {u}")
+
+
 def main():
     with open(ROOT + "companies.json") as f:
         companies = json.load(f)
@@ -151,6 +211,8 @@ def main():
                 warn(f"{name}: {field} missing on {', '.join(sorted(missing))} but set elsewhere")
             else:
                 warn(f"{name}: {field} differs across companies — {sorted(vals)}")
+
+    check_photo_urls(companies)
 
     # ── versioning rule ──
     # Adding entries requires a patch bump. The exception is a second batch on

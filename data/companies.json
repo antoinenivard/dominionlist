@@ -820,7 +820,11 @@
           "University of British Columbia"
         ],
         "canadian_city": "",
-        "role": "Co-Founder & CTO"
+        "role": "Co-Founder & CTO",
+        "photo_url": "https://s3.amazonaws.com/cco-avatars/77094c1c-850a-416d-861d-257ee3651e90.png",
+        "image_source_type": "other",
+        "image_source_page": "https://councils.forbes.com/profile/Carlos-Georgescu-Co-Founder-CTO-AfterQuery/f7eef7db-8b1c-4cf5-be89-52d983814f7f",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -2246,7 +2250,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/danielsaks"
+        "x_url": "https://x.com/danielsaks",
+        "photo_url": "https://cdn.prod.website-files.com/663db35157fcd223250841ff/67b784898c4656e87b1002ab_daniel-saks.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.landbase.com/about",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       },
       {
         "id": "nicolas-desmarais",
@@ -2260,7 +2268,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://dcnxfkgt2gjxz.cloudfront.net/Photography/Leadership/Nicolas_Desmarais.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.appdirect.com/about/leadership",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -2746,7 +2758,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://uwaterloo.ca/math/sites/default/files/uploads/images/kim-tremblay-headshot.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://uwaterloo.ca/math-alumni-newsletter/news/celebrating-alumni-excellence",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -3101,7 +3117,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/David_Cheriton",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://profiles.stanford.edu/proxy/api/cap/profiles/29373/resources/profilephoto/350x350.1320864871000.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://profiles.stanford.edu/david-cheriton",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -4387,7 +4407,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.humanx.co/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjY4OTAsInB1ciI6ImJsb2JfaWQifX0=--ac040d8ab23746a37ed5a51c474b22aa93cbc159/Sadi-Khan.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.humanx.co/us/speakers/sadi-khan",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -5304,7 +5328,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/dimitrisirota"
+        "x_url": "https://x.com/dimitrisirota",
+        "photo_url": "https://s3.amazonaws.com/cco-avatars/52c74291-8f35-4479-ab48-5a6bd7164e04.png",
+        "image_source_type": "other",
+        "image_source_page": "https://councils.forbes.com/profile/Dimitri-Sirota-CEO-BigID/9ed534e8-fe5b-427e-9444-80fd65a682a3",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -8966,7 +8994,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://framerusercontent.com/images/0X69gjx1dvDqHxncRgxGlKTk.jpg",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://sequoiacap.com/founder/nicolae-rusan",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       },
       {
         "id": "kareem-amin",
@@ -8980,7 +9012,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/kareemamin"
+        "x_url": "https://x.com/kareemamin",
+        "photo_url": "https://framerusercontent.com/images/bXQVBPosB9cfHrzEs1igEsTNm14.jpg",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://sequoiacap.com/founder/kareem-amin",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -13378,7 +13414,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.prod.website-files.com/646bac3fe3028f716f75e63f/6814fc2c201c277dae89713a_Rochan-Sankar.webp",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.rblt.com/tech-summit-biography/rochan-sankar",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -13486,7 +13526,11 @@
         "canadian_institutions": [
           "Carleton University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://avatars.githubusercontent.com/u/181018?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/lg",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -13825,7 +13869,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.evenuplaw.com/wp-content/uploads/saam.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.evenuplaw.com/about/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -14223,7 +14271,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.builder.io/api/v1/image/assets%2Fb138cbdde6204b4d948294b1cd59052c%2F3160bd9feb3c4496bc52282d23e0fb57",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.faire.com/news/about",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -17556,7 +17608,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/David_Cheriton",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://profiles.stanford.edu/proxy/api/cap/profiles/29373/resources/profilephoto/350x350.1320864871000.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://profiles.stanford.edu/david-cheriton",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -21089,7 +21145,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/David_Cheriton",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://profiles.stanford.edu/proxy/api/cap/profiles/29373/resources/profilephoto/350x350.1320864871000.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://profiles.stanford.edu/david-cheriton",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -21813,7 +21873,11 @@
         "canadian_institution": "",
         "canadian_city": "Niagara Falls, ON",
         "role": "",
-        "canadian_institutions": []
+        "canadian_institutions": [],
+        "photo_url": "https://cdn.prod.website-files.com/663db35157fcd223250841ff/67b784898c4656e87b1002ab_daniel-saks.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.landbase.com/about",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -22757,7 +22821,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://framerusercontent.com/images/5PvSjvirXwy5diwarcaNC2Pe8g.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://openatlas.events/speakers/rajat-suri",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -23325,7 +23393,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.prod.website-files.com/65afd8dc16873da38e2b5ecb/686c2f44d6996a11a71086db_Chris_Turlica.jpeg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.getmaintainx.com/author/chris-turlica",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -26554,7 +26626,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/sanjberi"
+        "x_url": "https://x.com/sanjberi",
+        "photo_url": "https://www.netskope.com/wp-content/uploads/2025/04/leadership-team-sanjay-beri.png",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.netskope.com/company/leadership-team",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -26831,7 +26907,11 @@
         "canadian_institution": "",
         "canadian_institutions": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Lew_Cirne",
-        "x_url": "https://x.com/sweetlew"
+        "x_url": "https://x.com/sweetlew",
+        "photo_url": "https://newrelic.com/sites/default/files/styles/1x1_100w/public/2021-04/30514-300x300.jpg?h=6c83441f&itok=1U68nFVE",
+        "image_source_type": "company_website",
+        "image_source_page": "https://newrelic.com/blog/authors/lew-cirne",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -27359,7 +27439,11 @@
           "University of British Columbia"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/ivanhzhao"
+        "x_url": "https://x.com/ivanhzhao",
+        "photo_url": "https://web-summit-avenger.imgix.net/production/avatars/original/84f85089e10f9a0dc9eb8f4e3831112e593f63b7.png?ixlib=rb-3.2.1&auto=format&fit=crop&crop=faces&w=600&h=600",
+        "image_source_type": "conference",
+        "image_source_page": "https://websummit.com/attendees/cc21/00464274-690c-4d8e-a5b9-f467d062cabd/ivan-zhao/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -30873,7 +30957,11 @@
           "Université de Montréal"
         ],
         "wikipedia_url": "",
-        "linkedin": "https://www.linkedin.com/in/william-liam-fedus-26547811/"
+        "linkedin": "https://www.linkedin.com/in/william-liam-fedus-26547811/",
+        "photo_url": "https://avatars.githubusercontent.com/u/1130820?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/liamb315",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -32596,7 +32684,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://framerusercontent.com/images/5PvSjvirXwy5diwarcaNC2Pe8g.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://openatlas.events/speakers/rajat-suri",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "source_urls": [
@@ -34358,7 +34450,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://reflexion.com/wp-content/uploads/2019/05/leadership-bod-samuel.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://reflexion.com/our-company/leadership/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -35524,7 +35620,11 @@
           "University of Regina"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/q_30/v1415605977/nw3cxhh5vk79kat7mqoo.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.crunchbase.com/person/chad-rigetti",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -37972,7 +38072,11 @@
           "York University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://breakline.org/wp-content/uploads/GuyGal-672x752-1.png",
+        "image_source_type": "other",
+        "image_source_page": "https://breakline.org/guy-gal/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -38786,7 +38890,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://avatars.githubusercontent.com/u/18155522?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/kevinbai0",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -41882,7 +41990,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Hussein_Fazal",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.super.com/guides/wp-content/uploads/about/images/hussein-fazal.png",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.super.com/about",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       },
       {
         "id": "henry-shi",
@@ -41896,7 +42008,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Shi",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Henry_Shi.png",
+        "image_source_type": "wikipedia",
+        "image_source_page": "https://en.wikipedia.org/wiki/Henry_Shi",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -42821,7 +42937,11 @@
         "canadian_institutions": [
           "University of Regina"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/q_30/v1415605977/nw3cxhh5vk79kat7mqoo.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.crunchbase.com/person/chad-rigetti",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -43228,7 +43348,11 @@
         ],
         "bio": "Co-Founder of Tableau. BSc in Computer Science from Simon Fraser University. PhD in Computer Science from Stanford University, where he developed the Polaris visualization system under Pat Hanrahan. Chief Development Officer at Tableau (2010-2016), then Technical Advisor and Board Member.",
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.tableau.com/sites/default/files/styles/large/public/2023-01/900x890_Chris_0.jpg?itok=g_APnLs6",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.tableau.com/research/people/chris-stolte",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -43892,7 +44016,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://assets.swoogo.com/uploads/full/1534438-61dde53b3272a.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://event.technologyreview.com/future-compute-2022/speaker/398816/ljubisa-bajic",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -45200,7 +45328,11 @@
           "McMaster University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://tonal.com/cdn/shop/files/Aly_Orady_Founder.jpg?v=1740068181&width=2160",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.tonal.com/pages/about",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -47591,7 +47723,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://framerusercontent.com/images/JsO1ER7LU36pc8WZJCPh1p1Z0.jpg?width=880&height=880",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://sequoiacap.com/founder/avi-itskovich",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -48485,7 +48621,11 @@
         "wikipedia_url": "",
         "canadian_connection_type": "citizenship",
         "canadian_institution": "",
-        "canadian_institutions": []
+        "canadian_institutions": [],
+        "photo_url": "https://writer.com/wp-content/uploads/2024/03/May-Habib.png",
+        "image_source_type": "company_website",
+        "image_source_page": "https://writer.com/company/about/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
     "funding_rounds": [
@@ -48561,7 +48701,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "linkedin": "https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/"
+        "linkedin": "https://www.linkedin.com/in/yuhuai-tony-wu-02a641b5/",
+        "photo_url": "https://yuhuaiwu.github.io/images/tonywu.jpeg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://yuhuaiwu.github.io/",
+        "image_last_checked_at": "2026-09-01T15:10:00Z"
       },
       {
         "id": "guodong-zhang",
