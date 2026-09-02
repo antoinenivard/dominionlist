@@ -42009,10 +42009,10 @@
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Henry_Shi",
         "x_url": "",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Henry_Shi.png",
-        "image_source_type": "wikipedia",
-        "image_source_page": "https://en.wikipedia.org/wiki/Henry_Shi",
-        "image_last_checked_at": "2026-09-01T15:10:00Z"
+        "photo_url": "https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.super.com/guides/wp-content/uploads/about/images/henry-shi.png",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.super.com/about",
+        "image_last_checked_at": "2026-09-01T17:00:00Z"
       }
     ],
     "funding_rounds": [
