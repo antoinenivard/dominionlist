@@ -98,7 +98,11 @@
         "canadian_institution": "",
         "canadian_institutions": [],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.prod.website-files.com/6a4b99ecaf48385ceb81b784/6a4b99ecaf48385ceb81ba54_6a3e4dbaba6aa4fd5e4c651e_MattLoszak.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.aalo.com/company",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -5719,7 +5723,11 @@
         "canadian_institutions": [
           "Western University",
           "Thousand Islands Secondary School"
-        ]
+        ],
+        "photo_url": "https://d.ibtimes.com/en/full/4573562/robert-deeks.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.ibtimes.com/out-cooperate-out-compete-new-era-national-security-3758183",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -7925,7 +7933,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://borisjabes.com/boris-profile-sep-2018.jpg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://borisjabes.com/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Sean Lynch",
@@ -9878,7 +9890,11 @@
         "canadian_institution": "",
         "canadian_institutions": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Joseph_Lubin_(entrepreneur)",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://images.ctfassets.net/gjyjx7gst9lo/61EhiJXdLTH5hwLZlWogR5/6f19f1aad5fcd034e0b22174c7d91321/joe-lubin-square.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://consensys.io/about/joseph-lubin-founder-of-consensys",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -10344,7 +10360,11 @@
         "canadian_institutions": [
           "Queen's University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://miro.medium.com/v2/resize:fit:400/1*AuMTVsry-04-WFeEtC1Rng.jpeg",
+        "image_source_type": "other",
+        "image_source_page": "https://medium.com/wharton-fintech/karn-saroya-ceo-and-co-founder-of-cover-66c9b77d9c3d",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Anand Dhillon",
@@ -10358,7 +10378,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://hatchery.engineering.utoronto.ca/wp-content/uploads/2020/03/Anand_2019-207x206.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://hatchery.engineering.utoronto.ca/speakers/anand-dhilon/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -11216,7 +11240,11 @@
           "McGill University",
           "Western University"
         ],
-        "canadian_city": "Montreal, QC"
+        "canadian_city": "Montreal, QC",
+        "photo_url": "https://mleavitt.net/images/profile.jpg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://mleavitt.net/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -11869,7 +11897,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://depthfirst.com/uploads/qasim.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://depthfirst.com/company",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -13816,7 +13848,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/dojideon"
+        "x_url": "https://x.com/dojideon",
+        "photo_url": "https://cdn.prod.website-files.com/67f65698354e16e1d107437a/681beb6c66070a76d48159ae_DEON_HEADSHOT__1.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://forethought.ai/team-member/deon-nicholas",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "id": "volodymyr-lyubinets",
@@ -14226,7 +14262,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "linkedin": "https://www.linkedin.com/in/david-duvenaud-86940438/"
+        "linkedin": "https://www.linkedin.com/in/david-duvenaud-86940438/",
+        "photo_url": "https://vectorinstitute.ai/wp-content/uploads/2024/04/David-Duvenaud-web-square1-1600x0-c-default.png",
+        "image_source_type": "university",
+        "image_source_page": "https://vectorinstitute.ai/team/david-duvenaud/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -14991,7 +15031,11 @@
           "Université Laval",
           "University of Toronto"
         ],
-        "canadian_city": "Quebec City, QC"
+        "canadian_city": "Quebec City, QC",
+        "photo_url": "https://fi-hatchbox-production-uploads.s3.amazonaws.com/posts/1648061537_Khalil_Zahar.png",
+        "image_source_type": "other",
+        "image_source_page": "https://fi.co/insight/fightcamp-ceo-khalil-zahar-global-startup-report",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Alexandre Marcotte St-Michel",
@@ -16080,7 +16124,11 @@
         ],
         "wikipedia_url": "",
         "x_url": "https://x.com/dojideon",
-        "canadian_city": "Toronto"
+        "canadian_city": "Toronto",
+        "photo_url": "https://cdn.prod.website-files.com/67f65698354e16e1d107437a/681beb6c66070a76d48159ae_DEON_HEADSHOT__1.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://forethought.ai/team-member/deon-nicholas",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -17005,7 +17053,11 @@
         "canadian_institutions": [
           "Queen's University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sam_Zaid_-_Headshot.JPG",
+        "image_source_type": "wikipedia",
+        "image_source_page": "https://commons.wikimedia.org/wiki/File:Sam_Zaid_-_Headshot.JPG",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -18922,7 +18974,11 @@
           "Western University"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/sshergill"
+        "x_url": "https://x.com/sshergill",
+        "photo_url": "https://rebootchronicles.com/wp-content/uploads/2024/06/Gu6BI0Ti_400x400.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://rebootchronicles.com/is-the-banking-revolution-coming-to-your-company/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "id": "gautam-gupta-highbeam",
@@ -19619,7 +19675,11 @@
           "Wilfrid Laurier University"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Brad_Katsuyama",
-        "x_url": "https://x.com/bradkatsuyama"
+        "x_url": "https://x.com/bradkatsuyama",
+        "photo_url": "https://cdn.prod.website-files.com/696f8ac812dcabe749e3aa49/696f8ac812dcabe749e3aec9_Brad.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.iex.io/leadership-and-board/brad-katsuyama",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -21416,7 +21476,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://creativedestructionlab.com/wp-content/uploads/2024/11/James-Bergstra-.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://creativedestructionlab.com/mentors/james-bergstra/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "id": "geordie-rose",
@@ -21739,7 +21803,11 @@
         "canadian_institution": "",
         "canadian_city": "",
         "role": "",
-        "canadian_institutions": []
+        "canadian_institutions": [],
+        "photo_url": "https://www.enr.com/ext/resources/events/futuretech/speakers/gibson.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.enr.com/future-tech/speakers/ryan-gibson",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -23083,7 +23151,11 @@
           "University of British Columbia"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://mse.engineering.arizona.edu/sites/default/files/2024-11/Babak%20Raeisinia.png",
+        "image_source_type": "university",
+        "image_source_page": "https://mse.engineering.arizona.edu/events/mse-seminar-babak-raeisinia",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -23278,7 +23350,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cdn.prod.website-files.com/6a42cde2da0ec82a02565412/6a42cde2da0ec82a0256589a_Profile-Photo-Sean-1734x2048.jpg",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://northzone.com/insights/a-fika-with-sean-li-founder-and-ceo-of-magic",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -23745,7 +23821,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://mattermost.com/wp-content/uploads/2023/08/Ian-Tien.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://mattermost.com/about-us/ian-tien/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -23863,7 +23943,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "canadian_city": "Markham, ON"
+        "canadian_city": "Markham, ON",
+        "photo_url": "https://mogen.dev/_next/image?url=%2Fface-lg.png&w=3840&q=75",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://mogen.dev/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -27993,7 +28077,11 @@
         "canadian_institution": "",
         "canadian_city": "Toronto, ON",
         "role": "",
-        "canadian_institutions": []
+        "canadian_institutions": [],
+        "photo_url": "https://web-summit-avenger.imgix.net/production/avatars/original/8da9f60a8bbb187b36114a96a6eae121e7117012.jpg?ixlib=rb-3.4.0&auto=format&fit=crop&crop=faces&w=600&h=600",
+        "image_source_type": "conference",
+        "image_source_page": "https://websummit.com/attendees/lis24/6c2809ca-00aa-4c5c-8786-6d79e8acd964/david-boskovic/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -28298,7 +28386,11 @@
         "canadian_city": "Montreal, QC",
         "canadian_institutions": [
           "McGill University"
-        ]
+        ],
+        "photo_url": "https://live.skift.com/wp-content/uploads/2021/04/francis-1.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://live.skift.com/speaker/francis-davidson/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -28560,7 +28652,11 @@
         "canadian_institution": "University of Waterloo",
         "canadian_institutions": [
           "University of Waterloo"
-        ]
+        ],
+        "photo_url": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/jeffrey_morgan_9703e4bdc8.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://motherduck.com/authors/jeffrey-morgan/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Michael Chiang",
@@ -28574,7 +28670,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://2024.allthingsopen.org/wp-content/uploads/2024/10/michaelchiang.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://2024.allthingsopen.org/speakers/michael-chiang",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -30372,7 +30472,11 @@
         "canadian_institutions": [
           "McGill University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cdn.prod.website-files.com/635bb014aa3bdfffd15e74b5/67e33c1ec9f6144d5a0d849c_Brennan_400x400_compressed.avif",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.patch.io/blog-author/brennan-spellacy",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -30477,7 +30581,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://static.legal2.production.k4.m1.brightspot.cloud/dims4/default/ab9eeae/2147483647/strip/true/crop/3201x3226+0+0/resize/840x847!/quality/90/?url=https%3A%2F%2Feuromoney-brightspot.s3.amazonaws.com%2F92%2F25%2F36f12834437a906e8012204b15c7%2Fpaul-lee-headshot.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.managingip.com/article/2edsz3bnwq92tuvr19bls/patents/five-minutes-with-paul-lee-patlytics",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "id": "arthur-jen",
@@ -33536,7 +33644,11 @@
         ],
         "x_url": "",
         "wikipedia_url": "",
-        "role": ""
+        "role": "",
+        "photo_url": "https://secure.gravatar.com/avatar/ac74b6a39e60d2d3676031056619859d0d1f65eaccee08666ccd196e9f9f46e1?s=500&d=mm&r=g",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.quo.com/blog/author/mahyarraissi/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Daryna Kulya",
@@ -33548,7 +33660,11 @@
         "canadian_institutions": [],
         "x_url": "",
         "wikipedia_url": "",
-        "role": ""
+        "role": "",
+        "photo_url": "https://secure.gravatar.com/avatar/af31284b6d39ef3b7c57d19e91fb0eb815d4cae28422b9923d716b4358e7c0cd?s=500&d=mm&r=g",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.quo.com/blog/author/openphone/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -33647,7 +33763,11 @@
         "canadian_institutions": [
           "University of Victoria"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cms.railway.com/media/person-jake-cooper-18cece75b469.jpeg?w=320&h=320&fit=cover&format=webp&q=90",
+        "image_source_type": "company_website",
+        "image_source_page": "https://railway.com/about",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -34038,7 +34158,11 @@
         "canadian_institutions": [
           "Queen's University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://miro.medium.com/v2/resize:fit:400/1*AuMTVsry-04-WFeEtC1Rng.jpeg",
+        "image_source_type": "other",
+        "image_source_page": "https://medium.com/wharton-fintech/karn-saroya-ceo-and-co-founder-of-cover-66c9b77d9c3d",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       },
       {
         "name": "Anand Dhillon",
@@ -34052,7 +34176,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://hatchery.engineering.utoronto.ca/wp-content/uploads/2020/03/Anand_2019-207x206.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://hatchery.engineering.utoronto.ca/speakers/anand-dhilon/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -39809,7 +39937,11 @@
         "canadian_institutions": [
           "McGill University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://live.skift.com/wp-content/uploads/2021/04/francis-1.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://live.skift.com/speaker/francis-davidson/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -40741,7 +40873,11 @@
           "University of Toronto",
           "University of Calgary"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://pe.tedcdn.com/images/ted/8184_254x191.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.ted.com/speakers/anand_agarawala",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -42318,7 +42454,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cdn.prod.website-files.com/627d359d0e0aa265b7817bcf/66a94a0614c05e65ee5debbd_Brad%20Menezes.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.superblocks.com/about",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -43959,7 +44099,11 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://framerusercontent.com/images/gHwdflHRPcTufE6kn4FuuukKSI.jpg?width=880&height=880",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://sequoiacap.com/founder/michael-del-balso",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -45794,7 +45938,11 @@
         "canadian_institution": null,
         "canadian_institutions": [],
         "linkedin": "https://www.linkedin.com/in/benbrook/",
-        "wikipedia_url": ""
+        "wikipedia_url": "",
+        "photo_url": "https://cdn.sanity.io/images/ztw74qc4/production/a17933845b67332f29732505dc88d70e33d3ff7e-328x328.webp?fit=max&auto=format",
+        "image_source_type": "company_website",
+        "image_source_page": "https://transcend.io/blog/author/ben-brook",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -46952,7 +47100,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "canadian_city": "Waterloo, ON"
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "https://cdn.prod.website-files.com/66fc2ff3074bb309fb4d571e/69d6bd24f2dc8393e7641864_67226127dbe0e8aa92378e37_aaron-2-fc.jpeg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.unlearn.ai/team/aaron-smith",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -47530,7 +47682,11 @@
           "University of Ottawa"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/forzley"
+        "x_url": "https://x.com/forzley",
+        "photo_url": "https://learn.g2.com/hubfs/MarwanForzley-Headshot%5B1%5D.jpeg",
+        "image_source_type": "other",
+        "image_source_page": "https://learn.g2.com/author/marwan-forzley",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -49048,7 +49204,11 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://framerusercontent.com/images/GCNFuFSFhHLshLPVzeAF3SeFQ.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.xonaspace.com/news/xona-co-founder-receives-ion-early-achievement-award",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
@@ -49515,7 +49675,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.pulse2.com/cdn/2025/07/Mark-Gilbert-headshot-600x400.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://pulse2.com/zocks-profile-mark-gilbert-interview/",
+        "image_last_checked_at": "2026-09-01T20:30:00Z"
       }
     ],
     "funding_rounds": [
