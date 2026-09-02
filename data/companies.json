@@ -1239,7 +1239,11 @@
           "University of Ottawa"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.builder.io/api/v1/image/assets%2F58a2b5146f2a445784ecbbb50c120d5f%2Fd423ff0704a744118c80ea6868c2a4ed?width=400&height=400&fit=cover&format=webp&quality=100",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.airalo.com/blog/10-million-users-a-message-of-gratitude",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -1670,7 +1674,11 @@
         "canadian_city": "Winnipeg, MB",
         "canadian_institutions": [
           "University of Manitoba"
-        ]
+        ],
+        "photo_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/spangelo.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.technologyreview.com/innovator/sara-spangelo/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -4574,7 +4582,11 @@
         "canadian_city": "",
         "canadian_institutions": [],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.prod.website-files.com/69aab19e3344fee750b87224/69aab19e3344fee750b887e2_Oleg%20Rogynskyy%20Photo.avif",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.backstory.ai/about-us",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -4720,7 +4732,11 @@
           "Queen's University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://bamboohealth.com/wp-content/uploads/2022/10/Rawat_Nishi_2.jpeg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://bamboohealth.com/leadership/nishi-rawat-md/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -4999,7 +5015,11 @@
         ],
         "bio": "Co-Founder & CEO of BastionZero. B.A.Sc. from the University of Toronto (2003). PhD from Princeton University. Tenured Associate Professor of Computer Science at Boston University.",
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.bu.edu/cs/files/2012/04/Goldberg-150x150.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://www.bu.edu/cs/profiles/sharon-goldberg/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -6068,7 +6088,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://amzsummits.com/storage/4819/Rosco-Hill.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://amzsummits.com/speakers/rosco-hill/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -6356,7 +6380,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Gordon_M._Keller",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://gladstone.org/sites/default/files/news-events/KellerHeadshot.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://gladstone.org/news/gordon-keller-laying-foundation-stem-cell-therapeutics",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -10526,7 +10554,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.geomechanica.com/wp-content/uploads/2021/10/Patrick_Kaifosh.png",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.geomechanica.com/team/patrick-kaifosh/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -12830,7 +12862,11 @@
           "University of Alberta"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.learningbuildings.com/uploads/2/8/2/4/28240391/photo_orig.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://www.learningbuildings.com/engineering-for-social-impact---randy-marsden.html",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -13195,7 +13231,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cdn.prod.website-files.com/6748fc3886e2b1e2c003fbc9/6748fc3886e2b1e2c0041f39_Alex-Rodrigues.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://live.freightwaves.com/event-speakers/alex-rodrigues",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "name": "Brandon Moak",
@@ -15168,7 +15208,11 @@
         "canadian_institutions": [
           "McGill University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://cdn.sanity.io/images/f8796olh/global-prod/35e9c4601b88c5774d4501884ca56718deb46f64-360x181.png",
+        "image_source_type": "other",
+        "image_source_page": "https://www.wisdomtree.com/us/insights/contributors/eden-ovadia",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "name": "Theodore Janson",
@@ -15856,7 +15900,11 @@
         "role": "",
         "canadian_institutions": [
           "Cégep Édouard-Montpetit"
-        ]
+        ],
+        "photo_url": "https://avatars.githubusercontent.com/u/43325?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/jeromegn",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -17455,7 +17503,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/edward_the6"
+        "x_url": "https://x.com/edward_the6",
+        "photo_url": "https://gptzero.me/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fedward.41d4rg-7-_pgv.jpg&w=640&q=75",
+        "image_source_type": "company_website",
+        "image_source_page": "https://gptzero.me/team",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -19215,7 +19267,11 @@
           "University of Alberta"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.learningbuildings.com/uploads/2/8/2/4/28240391/photo_orig.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://www.learningbuildings.com/engineering-for-social-impact---randy-marsden.html",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [],
@@ -20463,7 +20519,11 @@
         "canadian_institutions": [
           "McGill University"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://m12.vc/wp-content/uploads/2025/09/inworld-kylan-gibbs-769x1024.jpg",
+        "image_source_type": "investor_page",
+        "image_source_page": "https://m12.vc/news/founders-feature-inworld/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -22176,7 +22236,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://res.cloudinary.com/bizzaboprod/image/upload/c_crop,g_custom,f_auto/w_270,h_270,c_fill,g_face,fl_any_format,q_auto:best/bijtjzvrkyzx07pjamg2.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.saastrannual2026.com/speaker/keith-peiris",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -24854,7 +24918,11 @@
         "wikipedia_url": "",
         "x_url": "",
         "canadian_institutions": [],
-        "role": ""
+        "role": "",
+        "photo_url": "https://www.mintlify.com/blog/authors/han.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.mintlify.com/blog/series-a",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -25998,7 +26066,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.movellus.com/wp-content/uploads/2024/02/Mo_new-scaled.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.movellus.com/about-us/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -27664,7 +27736,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.biocom.org/wp-content/uploads/2024/03/25-768x768.png",
+        "image_source_type": "other",
+        "image_source_page": "https://www.biocom.org/people/abraham-heifets/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "id": "izhar-wallach",
@@ -28079,7 +28155,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://avatars.githubusercontent.com/u/5974488?v=4",
+        "image_source_type": "github",
+        "image_source_page": "https://github.com/tmoreau89",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -28275,7 +28355,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://s3.amazonaws.com/cco-avatars/10e2226d-f216-4b94-96bd-d7bb100d7f38.png",
+        "image_source_type": "other",
+        "image_source_page": "https://councils.forbes.com/profile/Alston-Lin-Founder-CTO-OffDeal/26380f6b-8aa5-42e5-b298-79fee76c19a5",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -29952,7 +30036,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/alxsolomon"
+        "x_url": "https://x.com/alxsolomon",
+        "photo_url": "https://cdn.sanity.io/images/50q6fr1p/production/4aeed4592b96c2e23ae1e20cbb7d2c07dc688c65-270x270.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.heavybit.com/community/alex-solomon",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "id": "andrew-miklas",
@@ -29966,7 +30054,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.sanity.io/images/50q6fr1p/production/26d470011f1874c0df8f4287cccb67c730eac958-295x295.jpg?auto=format&dpr=2",
+        "image_source_type": "other",
+        "image_source_page": "https://www.heavybit.com/community/andrew-miklas",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "id": "baskar-puvanathasan",
@@ -29980,7 +30072,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.sanity.io/images/50q6fr1p/production/89b613d54014cf457a58a7973b57401383b074bb-362x362.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.heavybit.com/community/baskar-puvanathasan",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -30798,7 +30894,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://cdn.pulse2.com/cdn/2026/03/Bowie-Cheung-597x600.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://pulse2.com/pepper-profile-bowie-cheung-interview/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -31110,7 +31210,11 @@
           "University of Waterloo",
           "University of Toronto"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://amzsummits.com/storage/4819/Rosco-Hill.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://amzsummits.com/speakers/rosco-hill/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "name": "Joe Rideout",
@@ -31124,7 +31228,11 @@
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "",
+        "photo_url": "https://amzsummits.com/storage/4359/Joe-Rideout.jpg",
+        "image_source_type": "conference",
+        "image_source_page": "https://amzsummits.com/speakers/joe-rideout/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -34116,7 +34224,11 @@
         "canadian_institution": "University of Waterloo",
         "canadian_institutions": [
           "University of Waterloo"
-        ]
+        ],
+        "photo_url": "https://cdn.prod.website-files.com/633275e23914a500db413038/635dc44b0b918d6ad51031ff_David%20profile%20pic.avif",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.recall.ai/blog/recall-ai-series-b-the-api-for-meeting-recording",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "name": "Amanda Zhu",
@@ -34129,7 +34241,11 @@
         "canadian_institution": "University of Waterloo",
         "canadian_institutions": [
           "University of Waterloo"
-        ]
+        ],
+        "photo_url": "https://s3.amazonaws.com/cco-avatars/3741d590-04f4-43c5-a64d-5678419c8248.png",
+        "image_source_type": "other",
+        "image_source_page": "https://councils.forbes.com/profile/Amanda-Zhu-Co-founder-Recall-ai/c7f85218-96ca-4ad2-95fe-fcba03592942",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -37558,7 +37674,11 @@
           "University of British Columbia"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/ahkashani"
+        "x_url": "https://x.com/ahkashani",
+        "photo_url": "https://investors.serverobotics.com/static-files/7645e4d0-a622-4042-91e4-ec1a4ffc0da3",
+        "image_source_type": "company_website",
+        "image_source_page": "https://investors.serverobotics.com/management/ali-kashani",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -38474,7 +38594,11 @@
           "University of Alberta"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.learningbuildings.com/uploads/2/8/2/4/28240391/photo_orig.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://www.learningbuildings.com/engineering-for-social-impact---randy-marsden.html",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -39539,7 +39663,11 @@
         "canadian_institutions": [
           "University of Toronto",
           "University of Waterloo"
-        ]
+        ],
+        "photo_url": "https://static.wixstatic.com/media/3dbb36_ae0ee3a58ef746fbb90aad5edb749580~mv2.png/v1/fill/w_320,h_320,al_c/_Hooman%20Reza%20Nezhad_Headshot.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.magneticsconference.com/2026-speakers/hooman-reza-nezhad",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -41783,7 +41911,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/cjgbest"
+        "x_url": "https://x.com/cjgbest",
+        "photo_url": "https://aspenideasfestival.imgix.net/b1d43e49-2c2a-40f7-8279-35df794e3795/AIF24_Best_Chris.jpeg?auto=compress&format=jpg&fit=min&fm=jpg&q=80&rect=259,368,2691,2692",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.aspenideas.org/speakers/chris-best",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "id": "jairaj-sethi",
@@ -41797,7 +41929,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/d1e15bea-8071-498c-a896-03092349ca4f_1177x1179.jpeg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://substack.com/@jairaj",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -42273,7 +42409,11 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://superhumanstatic.com/vwfkeyj6n9ac/vN1hcpzaKzdbVdzAGMH1H/c4f3d40f9cbad1b13fdce54d12c6442d/Alex__1_.webp",
+        "image_source_type": "company_website",
+        "image_source_page": "https://superhuman.com/media-assets",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -42590,7 +42730,11 @@
         "canadian_city": "Winnipeg, MB",
         "canadian_institutions": [
           "University of Manitoba"
-        ]
+        ],
+        "photo_url": "https://wp.technologyreview.com/wp-content/uploads/2021/06/spangelo.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.technologyreview.com/innovator/sara-spangelo/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -42799,7 +42943,11 @@
           "University of Alberta"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://www.learningbuildings.com/uploads/2/8/2/4/28240391/photo_orig.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://www.learningbuildings.com/engineering-for-social-impact---randy-marsden.html",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -46126,7 +46274,11 @@
           "Concordia University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "photo_url": "https://assets.weforum.org/author/image/LYW2HhSLvrNoyit2D-DA9K80BfYDUSDSLhap7Mpnr9U.jpeg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.weforum.org/stories/authors/jahangir-mohammed/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -47259,7 +47411,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "",
-        "x_url": "https://x.com/jordan_dearsley"
+        "x_url": "https://x.com/jordan_dearsley",
+        "photo_url": "https://images.squarespace-cdn.com/content/v1/6a2705cab2abf273ef20bb0b/8082b0ea-b61d-4910-9418-2bdd50b4f5e8/Jordan+Dearsley.png",
+        "image_source_type": "conference",
+        "image_source_page": "https://www.vapicon.ai/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       }
     ],
     "funding_rounds": [
@@ -48305,7 +48461,11 @@
           "University of Waterloo"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Piotr_Szulczewski",
-        "x_url": "https://x.com/sfpiotr"
+        "x_url": "https://x.com/sfpiotr",
+        "photo_url": "https://imageio.forbes.com/specials-images/imageserve/5e7b971a08d8460006c88cad/0x0.jpg",
+        "image_source_type": "other",
+        "image_source_page": "https://www.forbes.com/profile/peter-szulczewski/",
+        "image_last_checked_at": "2026-09-01T18:00:00Z"
       },
       {
         "name": "Danny Zhang",
