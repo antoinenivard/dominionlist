@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2   # validate.py compares against the previous commit
+          fetch-depth: 25   # validate.py compares against the previous commit
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
