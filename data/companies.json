@@ -49648,5 +49648,112 @@
       "last_verified": "2026-09-01T13:30:00Z",
       "notes": "Spun out of Every (the media/software company) in October 2025; grew out of AI Diplomacy, a viral June 2025 project in which frontier models played the board game Diplomacy. HQ is Brooklyn NY per Inovia's portfolio page and CEO Alex Duffy's own LinkedIn location; Inovia lists a Toronto ON office and CTO Tyler Marques is based in Toronto. Co-founder & CEO Alex Duffy (Brooklyn) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Waterloo attribution comes from Inovia's founder biography and is corroborated by the education field on Marques's own LinkedIn profile. LOGO NOTE: the brand mark is monochrome and the company ships separate light- and dark-mode favicons; icon-light-mode.svg (near-black ink) is used here because it reads on the default light theme. The logo.dev render for this domain returns the white variant, which is invisible on a light background."
     }
+  },
+  {
+    "id": "console",
+    "name": "Console",
+    "website": "https://www.console.com",
+    "description": "AI-native IT service management platform. Employees make requests in Slack and Console's agents resolve them end to end — password and MFA resets, app access, onboarding and offboarding, device recovery — across 600+ integrations, automating 75%+ of service requests. Customers included Cursor, Scale AI, Ramp, Flock Safety and Calendly. Acquired by Palo Alto Networks in September 2026.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Acquired",
+    "status": "Acquired",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/console.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Andrei Serban",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of Console. Attended the University of Waterloo and left as a Thiel Fellow to build Fuzzbuzz, a security-testing startup he took through Y Combinator in 2019 and sold to Rippling in 2023. Was a product lead on Rippling's apps and integrations team before founding Console in May 2024. Forbes 30 Under 30.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-06-02",
+        "round": "Seed",
+        "amount_usd": 6200000,
+        "amount_display": "$6.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Thrive Capital"
+        ],
+        "other_investors": [
+          "SV Angel"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2025/06/02/console-raises-6-2m-from-thrive-to-free-it-teams-from-mundane-tasks-with-ai/"
+        ],
+        "notes": "TechCrunch reports $6.2M; Upstarts Media later described it as a '$6 million seed round'. The more precise TechCrunch figure is used. No valuation disclosed."
+      },
+      {
+        "date": "2025-09-16",
+        "round": "Series A",
+        "amount_usd": 23000000,
+        "amount_display": "$23M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "DST Global Partners",
+          "Thrive Capital"
+        ],
+        "other_investors": [
+          "SV Angel",
+          "Abstract Ventures",
+          "Eric Glyman",
+          "Karim Atiyeh",
+          "Aaron Levie",
+          "Nikesh Arora",
+          "Adam D'Angelo"
+        ],
+        "source_urls": [
+          "https://www.upstartsmedia.com/p/console-ai-for-it-raises-series-a"
+        ],
+        "notes": "AMOUNT DISCREPANCY: the Upstarts Media article body states '$23 million Series A led by DST Global Partners and Thrive Capital', but the same page's title tag still reads '$22 Million' — an unrevised headline. The body figure is used. Raised roughly three months after the seed. Nikesh Arora, an angel here, is the CEO of Palo Alto Networks, which acquired Console a year later. No valuation disclosed."
+      },
+      {
+        "date": "2026-09-01",
+        "round": "Acquired",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Palo Alto Networks"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security"
+        ],
+        "notes": "Acquired by Palo Alto Networks (NASDAQ: PANW) to deepen agentic capabilities in Cortex. Financial terms not disclosed in the press release, and no outlet covering the announcement has reported a figure."
+      }
+    ],
+    "capital_raised_usd": 29200000,
+    "capital_raised_display": "$29.2M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security",
+        "https://techcrunch.com/2025/06/02/console-raises-6-2m-from-thrive-to-free-it-teams-from-mundane-tasks-with-ai/",
+        "https://www.upstartsmedia.com/p/console-ai-for-it-raises-series-a",
+        "https://uwaterloo.ca/news/university-waterloo-well-represented-forbes-30-under-30",
+        "https://www.console.com/privacy"
+      ],
+      "last_verified": "2026-09-01T19:00:00-07:00",
+      "notes": "Founded May 2024 in San Francisco by Andrei Serban (CEO) and Neal Chandra (CTO). US HQ confirmed by Console's own privacy policy ('We are headquartered in the United States', entity Console Systems, Inc.), California governing law in its terms, and every careers listing being San Francisco on-site. Qualifies on Serban: the University of Waterloo's own news site lists him among Waterloo people on the Forbes 30 Under 30 list as a Fuzzbuzz co-founder, and Upstarts Media describes him as 'a Thiel Fellow who dropped out of the University of Waterloo' — he attended but did not graduate. Co-founder Neal Chandra (ex-Discord, UC Berkeley) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Valuation left null: the acquisition terms are undisclosed and neither funding round disclosed a valuation, so the company carries no rank in the valuation sort. Note the company used console.co before moving to console.com; TechCrunch's June 2025 piece still links the old domain."
+    }
   }
 ]

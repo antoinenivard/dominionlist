@@ -55,6 +55,32 @@ def at_commit(ref):
         return None
 
 
+def version_introduced_as_patch(ver, date_display, max_look=25):
+    """Was `ver` introduced by a patch bump on `date_display`?
+
+    Walks back until db_version differs from `ver`, then checks that the
+    transition into `ver` was a patch bump and that the metadata date at that
+    point matches today's. This has to scan rather than just look at HEAD~2:
+    commits that change no entries (photo fixes, copy edits) sit between the
+    patch bump and a later same-day addition, and an earlier version of this
+    check wrongly failed those.
+    """
+    prev = None
+    for i in range(1, max_look + 1):
+        snap = at_commit(f"HEAD~{i}")
+        if snap is None:
+            return False
+        meta_i = snap[0]
+        if meta_i.get("db_version") != ver:
+            return (
+                is_patch_bump(meta_i.get("db_version"), ver)
+                and prev is not None
+                and prev.get("last_updated_date_display") == date_display
+            )
+        prev = meta_i
+    return False
+
+
 def parse(v):
     m = re.fullmatch(r"v(\d+)\.(\d+)\.(\d+)", v or "")
     return tuple(int(x) for x in m.groups()) if m else None
@@ -224,12 +250,8 @@ def main():
         p_meta, p_count = prev
         added = len(companies) - p_count
         if added > 0 and p_meta.get("db_version") == ver:
-            prev2 = at_commit("HEAD~2")
-            covered = (
-                prev2 is not None
-                and is_patch_bump(prev2[0].get("db_version"), p_meta.get("db_version"))
-                and p_meta.get("last_updated_date_display")
-                == meta.get("last_updated_date_display")
+            covered = version_introduced_as_patch(
+                ver, meta.get("last_updated_date_display")
             )
             if covered:
                 print(f"note: {added} more entries on a day already covered by {ver}")
