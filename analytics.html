@@ -394,7 +394,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 <header class="header">
   <div class="header-left">
     <a href="index.html">
-      <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0" aria-hidden="true"></canvas>
+      <canvas id="orbLogo" width="56" height="56" style="width:28px;height:28px;border-radius:9999px;flex-shrink:0;background:radial-gradient(circle at 38% 30%, #f5eee8 0%, #dc1919 48%, #1a0607 100%)" aria-hidden="true"></canvas>
       <div>
         <div class="header-title">The Dominion List</div>
         <div class="header-subtitle"><span class="subtitle-track"><span class="subtitle-copy">The most influential Canadian founders building companies in America.</span><span class="subtitle-copy" aria-hidden="true">The most influential Canadian founders building companies in America.</span></span></div>
@@ -2874,6 +2874,9 @@ function initGlobe(data){
     requestAnimationFrame(draw);
     if (ts - last < interval) return;
     last = ts;
+    paint(ts);
+  }
+  function paint(ts) {
     const t = ts * DS;
     const r = size/2;
     const img = ctx.createImageData(size, size);
@@ -2904,7 +2907,15 @@ function initGlobe(data){
     }}
     ctx.putImageData(img,0,0);
   }
+  /* Paint one frame synchronously. requestAnimationFrame never fires while the
+     document is hidden, so a tab that loads in the background — Arc restoring a
+     session, a tab opened behind the current one, an OS low-power state — would
+     otherwise leave this canvas fully transparent and the orb simply absent. */
+  paint(performance.now());
   requestAnimationFrame(draw);
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) paint(performance.now());
+  });
 })();
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
