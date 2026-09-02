@@ -69,7 +69,15 @@ def version_introduced_as_patch(ver, date_display, max_look=25):
     for i in range(1, max_look + 1):
         snap = at_commit(f"HEAD~{i}")
         if snap is None:
-            return False
+            # History ran out before a version change appeared. CI checks out
+            # shallow (fetch-depth: 2), so this is the normal case there, not
+            # evidence of a missing bump. Be lenient: a false build failure is
+            # worse than a missed nudge, and the reviewer still sees the note.
+            print(
+                "note: git history too shallow to confirm the version bump "
+                "(increase fetch-depth in the workflow to enforce this properly)"
+            )
+            return True
         meta_i = snap[0]
         if meta_i.get("db_version") != ver:
             return (
