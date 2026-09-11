@@ -50053,5 +50053,68 @@
       "last_verified": "2026-09-11T15:00:00-07:00",
       "notes": "Sourced from a Y Combinator investor announcement email, Fall 2026 batch. US HQ is unusually well evidenced for a company this young: the site footer states 'Redoubt, LLC is a licensed Utah insurance agency', with National Producer Number 22193947, Utah agency licence 1116212 and a physical address at 56 East 300 South, Salt Lake City. A state insurance licence tied to a physical address is stronger evidence than a governing-law clause. YC's page also lists Salt Lake City, UT. UBC confirmed independently of the YC blurb by his Princeton Computational Memory Lab profile: 'B.A., University of British Columbia (2017)'. Sole founder; no co-founders named on the YC page, the company site or elsewhere. Redoubt is an agency working across carriers such as Progressive Commercial and Burns & Wilcox rather than an underwriter."
     }
+  },
+  {
+    "id": "greypoint-industries",
+    "name": "Greypoint Industries",
+    "website": "https://www.greypointindustries.com",
+    "description": "Autonomous drone swarms that passively geolocate enemy radio emitters — jammers, command posts and drone operators — from their own transmissions, paired with a mass-produced soldier-deployable interceptor. Targets the operator rather than the drone.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "S'26",
+    "icon_url": "https://www.greypointindustries.com/favicon.svg",
+    "founders": [
+      {
+        "name": "Steven Xu",
+        "role": "Co-Founder & CPO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CPO of Greypoint Industries. Presidential Scholar at the University of British Columbia, Faculty of Applied Science. Previously at Bosch Quantum Sensing building satellite sensors; led a research project on detecting UAVs using passive radar.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/greypoint-industries"
+        ],
+        "notes": "Standard YC deal. No further round disclosed in press or filings."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/greypoint-industries",
+        "https://www.greypointindustries.com/",
+        "https://give.ubc.ca/impact-stories/steven-xu/",
+        "https://innovation.ubc.ca/news/october-10-2025/meet-our-50th-cohort-venture-founder-next-wave-innovators-leading-charge"
+      ],
+      "last_verified": "2026-09-11T15:30:00-07:00",
+      "notes": "YC Summer 2026, team of four. US HQ per YC's own location field, which reads San Francisco. HQ CAVEAT: the company originated in Vancouver, keeps greypointindustries.ca as a live domain and serves its og-image from it, and Canadian press covers it heavily. The site now reads 'Designed and manufactured in the West' rather than the earlier 'Built in Canada'. Recorded as US on YC's location field, which is the same signal used to exclude ORO AI (Vancouver) and Lamb Labs (London) — applied symmetrically here. Worth re-checking once the company publishes terms or a registered address, neither of which exists yet. Steven Xu's UBC connection is confirmed twice over: YC's own founder card says 'Presidential Scholar at UBC', and UBC's own giving site carries a profile stating he 'had just found out that he had won the UBC Presidential Scholars Award for the fall of 2022' while in his first year in the Faculty of Applied Science. Co-founder Jordan Khoo (CTO) is also reported as UBC Engineering Physics, but the only source is his LinkedIn, which this dataset excludes — left unlisted pending a citable source. Darcy Zhang (CEO) and Nic Chu (COO) are described in press as part of an all-Canadian founding team, but with no individually sourced birth, citizenship or university, so they are not listed either. No headshot: the only founder images found are YC bookface avatars, which are presigned and expire, and a three-person Globe and Mail hackathon photo."
+    }
   }
 ]
