@@ -49919,5 +49919,139 @@
       "last_verified": "2026-09-01T19:00:00-07:00",
       "notes": "Founded May 2024 in San Francisco by Andrei Serban (CEO) and Neal Chandra (CTO). US HQ confirmed by Console's own privacy policy ('We are headquartered in the United States', entity Console Systems, Inc.), California governing law in its terms, and every careers listing being San Francisco on-site. Qualifies on Serban: the University of Waterloo's own news site lists him among Waterloo people on the Forbes 30 Under 30 list as a Fuzzbuzz co-founder, and Upstarts Media describes him as 'a Thiel Fellow who dropped out of the University of Waterloo' — he attended but did not graduate. Co-founder Neal Chandra (ex-Discord, UC Berkeley) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Valuation left null: the acquisition terms are undisclosed and neither funding round disclosed a valuation, so the company carries no rank in the valuation sort. Note the company used console.co before moving to console.com; TechCrunch's June 2025 piece still links the old domain."
     }
+  },
+  {
+    "id": "onepatch",
+    "name": "OnePatch",
+    "website": "https://www.onepatch.dev",
+    "description": "AI agents for observability and incident response. Instruments a stack via OpenTelemetry, verifies pull requests against live production telemetry, catches incidents and drives them toward resolution with ready-to-merge fixes — automating on-call for engineering teams.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/onepatch.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Shalin Patel",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/shalin1patel/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of OnePatch (YC F26). BSc Computer Science, University of Waterloo. Previously engineering at Pocus (acquired by Apollo.io), Moment, Coalition, Astronomer and AWS.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Pareto Holdings",
+          "Backwards Capital"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/onepatch",
+          "https://www.shalin-patel.com/"
+        ],
+        "notes": "Standard YC deal. Pareto Holdings and Backwards Capital are named as backers on the founder's own site; their amounts are not disclosed, so only the YC standard deal is counted here."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/onepatch",
+        "https://www.onepatch.dev/terms",
+        "https://www.onepatch.dev/privacy",
+        "https://www.shalin-patel.com/",
+        "https://github.com/PatelShalin"
+      ],
+      "last_verified": "2026-09-11T15:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email, Fall 2026 batch. US HQ: YC's own company page lists San Francisco, OnePatch's terms specify Delaware law and exclusive Delaware jurisdiction with no Canadian reference, and its privacy policy states 'We operate primarily in the United States'. HQ CAVEAT: the founder's personal site lists his own OnePatch role location as 'Toronto, ON, Canada'. Read as his personal residence rather than the company's base, since every company-level signal is US — but recorded here because it is a genuine ambiguity. Waterloo confirmed independently of the YC blurb: his GitHub profile (github.com/PatelShalin) reads 'UWaterloo CS Alum' and his personal site, which names him Co-founder & CEO of OnePatch, links to that same GitHub account. Co-founder Deep Utkarsh (Founder/CTO, BS Cognitive Science at Tufts, previously Sigma Computing and Pocus) has no identified Canadian connection and so is not listed. No headshot: his GitHub avatar is a wide skyline shot in which his face is small and off-centre, unusable at avatar size."
+    }
+  },
+  {
+    "id": "redoubt-insurance",
+    "name": "Redoubt Insurance",
+    "website": "https://www.redoubt.agency",
+    "description": "AI-driven independent commercial insurance agency for small businesses — contractors, service providers and trucking. Handles general liability, commercial auto, cargo and workers' compensation across multiple carriers, plus certificates of insurance, DOT filings and renewals.",
+    "hq_city": "Salt Lake City",
+    "hq_region": "UT",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Active",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://www.redoubt.agency/icon.png",
+    "founders": [
+      {
+        "name": "Andre Beukers",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of Redoubt Insurance. BA in economics, philosophy and psychology from the University of British Columbia (2017), then a PhD in computational psychology at Princeton, where he built neural-network models of human learning and memory.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC",
+        "photo_url": "https://compmem.princeton.edu/wp/wp-content/uploads/2017/07/AndreOliBeu.jpg",
+        "image_source_type": "university",
+        "image_source_page": "https://compmem.princeton.edu/andre-olibeu/",
+        "image_last_checked_at": "2026-09-11T22:00:00Z"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/redoubt-insurance"
+        ],
+        "notes": "Standard YC deal. No further round found in press or filings."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/redoubt-insurance",
+        "https://www.redoubt.agency/",
+        "https://compmem.princeton.edu/andre-olibeu/"
+      ],
+      "last_verified": "2026-09-11T15:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email, Fall 2026 batch. US HQ is unusually well evidenced for a company this young: the site footer states 'Redoubt, LLC is a licensed Utah insurance agency', with National Producer Number 22193947, Utah agency licence 1116212 and a physical address at 56 East 300 South, Salt Lake City. A state insurance licence tied to a physical address is stronger evidence than a governing-law clause. YC's page also lists Salt Lake City, UT. UBC confirmed independently of the YC blurb by his Princeton Computational Memory Lab profile: 'B.A., University of British Columbia (2017)'. Sole founder; no co-founders named on the YC page, the company site or elsewhere. Redoubt is an agency working across carriers such as Progressive Commercial and Burns & Wilcox rather than an underwriter."
+    }
   }
 ]
