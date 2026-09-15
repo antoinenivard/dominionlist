@@ -49060,6 +49060,24 @@
         "image_source_type": "personal_site",
         "image_source_page": "https://www.cs.toronto.edu/~gdzhang/",
         "image_last_checked_at": "2026-09-01T15:45:00Z"
+      },
+      {
+        "id": "jimmy-ba",
+        "name": "Jimmy Ba",
+        "x_url": "https://x.com/jimmybajimmyba",
+        "role": "Co-Founder",
+        "bio": "Assistant professor of computer science at the University of Toronto and Canada CIFAR AI Chair; completed his PhD under Geoffrey Hinton and co-authored the Adam optimizer. One of xAI’s twelve founding members; departed in February 2026.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "",
+        "linkedin": "",
+        "photo_url": "https://jimmylba.github.io/assets/images/jimmy_ba.jpg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://jimmylba.github.io/",
+        "image_last_checked_at": "2026-09-15T17:30:00Z"
       }
     ],
     "funding_rounds": [
