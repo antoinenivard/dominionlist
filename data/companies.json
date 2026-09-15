@@ -6882,13 +6882,13 @@
     "id": "branch-energy",
     "name": "Branch Energy",
     "website": "https://www.branchenergy.com",
-    "description": "Clean energy solutions and technology",
+    "description": "Installs batteries in commercial buildings, paired with software that makes building electricity cheaper and cleaner and can sell flexible capacity back to the grid. Houston-based, expanding into PJM territory as hyperscalers finance bring-your-own-capacity programs.",
     "hq_city": "Houston",
     "hq_region": "TX",
     "hq_country": "US",
     "founding_year": 2021,
     "industry": "Industrial",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "yc_batch": null,
     "founders": [
@@ -6935,36 +6935,60 @@
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
-          "Prelude Ventures"
-        ],
-        "other_investors": [
+          "Prelude Ventures",
           "Zero Infinity Partners"
         ],
+        "other_investors": [],
         "source_urls": [
-          "https://www.globenewswire.com/news-release/2024/08/07/2926173/0/en/Branch-Energy-Raises-10-8-Million-Series-A-To-Bring-Reliable-Clean-Energy-to-Texas-at-Lower-Costs.html"
+          "https://www.globenewswire.com/news-release/2024/08/07/2926173/0/en/Branch-Energy-Raises-10-8-Million-Series-A-To-Bring-Reliable-Clean-Energy-to-Texas-at-Lower-Costs.html",
+          "https://www.axios.com/pro/climate-deals/2026/09/15/branch-energy-33m-series-b"
         ],
-        "notes": "Oversubscribed round."
+        "notes": "Oversubscribed round. Axios describes it as led by Prelude Ventures and Zero Infinity Partners; Zero Infinity was previously recorded here as a participant rather than a co-lead."
+      },
+      {
+        "date": "2026-09-15",
+        "round": "Series B",
+        "amount_usd": 33000000,
+        "amount_display": "$33M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Piva Capital",
+          "Clean Energy Ventures"
+        ],
+        "other_investors": [
+          "Prelude Ventures",
+          "Zero Infinity Partners",
+          "Inovia",
+          "Whitecap",
+          "Active Impact Investments"
+        ],
+        "source_urls": [
+          "https://www.axios.com/pro/climate-deals/2026/09/15/branch-energy-33m-series-b"
+        ],
+        "notes": "Announced exclusively to Axios Pro; no valuation disclosed. Funds expansion outside Texas for the first time, starting in Illinois, targeting Voltus's Bring Your Own Capacity flexible-capacity program in PJM. Separately in talks to raise project finance for battery deployment. Three Canadian investors in the round: Inovia, Whitecap and Active Impact Investments. 'Whitecap' is as Axios wrote it — most likely Whitecap Venture Partners of Toronto, not expanded here because the source does not say."
       }
     ],
     "metadata": {
       "sources": [
+        "https://www.axios.com/pro/climate-deals/2026/09/15/branch-energy-33m-series-b",
         "https://www.businesswire.com/news/home/20210811005216/en/Branch-Energy-Announces-4.5-Million-in-Seed-Funding",
         "https://www.globenewswire.com/news-release/2024/08/07/2926173/0/en/Branch-Energy-Raises-10-8-Million-Series-A-To-Bring-Reliable-Clean-Energy-to-Texas-at-Lower-Costs.html",
         "https://www.engie-na.com/branchenergy/"
       ],
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-09-15T09:00:00-07:00",
       "import_notes": "friend-csv-full-pass. $40M ENGIE wholesale power supply facility is non-dilutive, not equity funding.",
-      "total_funding_display": "$15.3M",
+      "total_funding_display": "$48.3M",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Series B of $33M announced 2026-09-15. No valuation disclosed at any round, so the company carries no rank in the valuation sort. The $40M ENGIE wholesale power supply facility remains non-dilutive and is excluded from capital raised. icon_url was empty until this update."
     },
     "founder_display": "Alex Ince-Cushman",
     "institution_display": "University of Toronto",
     "hq_display": "Houston, TX",
-    "capital_raised_usd": 15300000,
-    "capital_raised_display": "$15.3M",
-    "icon_url": ""
+    "capital_raised_usd": 48300000,
+    "capital_raised_display": "$48.3M",
+    "icon_url": "https://img.logo.dev/branchenergy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
   },
   {
     "id": 293,

@@ -253,7 +253,16 @@ def main():
     # the same day: if the previous commit was itself a patch bump carrying that
     # day's date, further additions ride along on it. A minor or major release
     # does NOT absorb the additions that follow it.
-    prev = at_commit("HEAD~1")
+    # Baseline: HEAD~1 in CI, where HEAD is the commit being validated; HEAD when
+    # run locally with uncommitted changes, where HEAD is still the last good state.
+    # Always using HEAD~1 made every local pre-commit run report a phantom addition.
+    import subprocess as _sp
+    try:
+        _dirty = bool(_sp.run(["git", "status", "--porcelain", "data/"],
+                              capture_output=True, text=True, check=True).stdout.strip())
+    except Exception:
+        _dirty = False
+    prev = at_commit("HEAD" if _dirty else "HEAD~1")
     if prev:
         p_meta, p_count = prev
         added = len(companies) - p_count
