@@ -997,7 +997,12 @@ async function loadData() {
     /* Sources: pull from metadata.sources */
     if (!c.sourceUrls && c.metadata && c.metadata.sources && c.metadata.sources.length) c.sourceUrls = c.metadata.sources;
     if (!c.valuationSourceUrl && c.metadata && c.metadata.valuation_source_url) c.valuationSourceUrl = c.metadata.valuation_source_url;
-    if (!c.valuationSourceType && c.metadata && c.metadata.valuation_source) c.valuationSourceType = c.metadata.valuation_source;
+    /* Provenance used to be spread over six metadata keys. This read
+       valuation_source, present on 63 records, while valuation_source_type
+       (153) and valuation_type (98) went unread. There is one field now. */
+    if (!c.valuationType)  c.valuationType  = (c.metadata && c.metadata.valuation_type) || '';
+    if (!c.valuationAsOf)  c.valuationAsOf  = (c.metadata && c.metadata.valuation_as_of) || '';
+    if (!c.ticker)         c.ticker         = c.ticker || '';
     if (!c.fundingRounds && c.funding_rounds) c.fundingRounds = c.funding_rounds;
 
     (c.fundingRounds || c.funding_rounds || []).forEach(r => {
@@ -1099,6 +1104,20 @@ async function loadData() {
       || companies.find(c => c.legacyId && c.legacyId === co);
     if (match) openDetail(match);
   }
+}
+
+/* Tooltip for a valuation: what kind of number it is and when it was struck.
+   'post_money' and 'market_cap' read badly in a tooltip, so they are spelled. */
+const VALUATION_TYPE_LABELS = {
+  post_money: 'Post-money valuation', market_cap: 'Market capitalisation',
+  acquisition: 'Acquisition price', secondary: 'Secondary sale',
+  ipo: 'IPO valuation', post_bankruptcy: 'Post-bankruptcy valuation',
+};
+function valTitle(c) {
+  const parts = [];
+  if (c.valuationType) parts.push(VALUATION_TYPE_LABELS[c.valuationType] || c.valuationType);
+  if (c.valuationAsOf) parts.push('as of ' + c.valuationAsOf);
+  return parts.join(', ') || 'Source';
 }
 
 function slugify(name) {
@@ -2150,7 +2169,7 @@ function render() {
 
     const valDisplay = c.valuationDisplay || '\u2014';
     const valLink = c.valuationSourceUrl
-      ? '<a href="' + c.valuationSourceUrl + '" target="_blank" style="color:var(--fg);text-decoration:none" title="Source: ' + (c.valuationSourceType || 'N/A') + '" onclick="event.stopPropagation()">' + valDisplay + '</a>'
+      ? '<a href="' + c.valuationSourceUrl + '" target="_blank" style="color:var(--fg);text-decoration:none" title="' + valTitle(c) + '" onclick="event.stopPropagation()">' + valDisplay + '</a>'
       : valDisplay;
 
     const hqDisplay = c.hqDisplay || '\u2014';
@@ -2227,6 +2246,8 @@ function openDetail(c) {
   if (c.hqDisplay) metaTags.push('<span class="dp-meta-tag">' + c.hqDisplay + '</span>');
   if (c.stage) metaTags.push('<span class="dp-meta-tag">' + c.stage + '</span>');
   if (c.industry) metaTags.push('<span class="dp-meta-tag">' + c.industry + '</span>');
+  /* ticker was carried on 20 public companies and read by nothing */
+  if (c.ticker) metaTags.push('<span class="dp-meta-tag">' + c.ticker + '</span>');
 
   const foundersHtml = (c.founders || []).map(f => {
     const fInitials = getInitials(f.name);
@@ -2267,7 +2288,9 @@ function openDetail(c) {
     const rows = sorted.map(r => {
       return '<tr>'
         + '<td>' + (r.year || r.date || '\u2014') + '</td>'
-        + '<td>' + (r.stage || 'Unknown') + '</td>'
+        /* acquirer was recorded on 14 rounds and read by nothing, so the table
+           said "Acquisition" without ever saying by whom. */
+        + '<td>' + (r.stage || 'Unknown') + ((r.acquirer) ? ' <span style="color:var(--fg-muted)">by ' + r.acquirer + '</span>' : '') + '</td>'
         + '<td style="font-variant-numeric:tabular-nums">' + (r.amountDisplay || r.amount_display || '\u2014') + '</td>'
         + '<td style="font-variant-numeric:tabular-nums">' + (r.valuationDisplay || r.valuation_display || '\u2014') + '</td>'
         + '<td>' + formatInvestors(r.leadInvestors || r.lead_investors || []) + '</td>'

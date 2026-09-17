@@ -70,6 +70,12 @@ def slugify(name):
 # city — 29 records prove the two come apart (Brockville, Markham, Sault Ste.
 # Marie). Values were drifting to bare 'Toronto', to provinces, and once to
 # 'Canada', so the shape is pinned here.
+DATE_RE = _re.compile(r"\d{4}(?:-\d{2}(?:-\d{2})?)?")
+# The YC standard deal is $500K, historically $125K. Those cheques are counted in
+# capital_raised_usd but were never itemised as rounds, which is why 46 companies
+# come up short by exactly one of those amounts. Consistent, so not flagged.
+YC_CHEQUES = {500_000, 125_000, 625_000}
+
 CITY_RE = _re.compile(
     r"[^,]+, (AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)")
 STAGES = {
@@ -278,6 +284,13 @@ def main():
         if not isinstance(yr, int) or not (1900 <= yr <= 2100):
             err(f"{who}: founding_year {yr!r} is not a plausible year")
 
+        desc = (c.get("description") or "").strip()
+        if len(desc) < 40:
+            warn(f"{who}: description is {len(desc)} characters — too thin to say "
+                 f"what the company does")
+        elif not desc.endswith((".", "!", "?")):
+            err(f"{who}: description should end in a period")
+
         status = c.get("status")
         if status not in STATUSES:
             err(f"{who}: status {status!r} is not one of {sorted(STATUSES)}")
@@ -292,6 +305,17 @@ def main():
                     f"round the company had reached")
             else:
                 err(f"{who}: stage {stage!r} is not a recognised financing stage")
+
+        # capital_raised_usd is the headline figure; the rounds are the receipts.
+        # They should reconcile, allowing for an unitemised YC cheque.
+        cr = c.get("capital_raised_usd")
+        summed = sum(r["amount_usd"] for r in c.get("funding_rounds", [])
+                     if r.get("kind") == "funding" and isinstance(r.get("amount_usd"), int))
+        if isinstance(cr, int) and summed and cr != summed:
+            gap = cr - summed
+            if gap not in YC_CHEQUES:
+                warn(f"{who}: capital_raised_usd is {cr:,} but the funding rounds "
+                     f"sum to {summed:,} (gap {gap:+,})")
 
         # The outcome has to agree with the LAST terminal event on record, not
         # merely with the presence of one. Getaround and Sonder both went public
@@ -360,6 +384,15 @@ def main():
             for f in ROUND_ARRAYS:
                 if f in r and not isinstance(r[f], list):
                     err(f"{who} / {label}: {f} must be an array, got {type(r[f]).__name__}")
+            dt = r.get("date") or ""
+            if not dt:
+                warn(f"{who} / {label}: round has no date")
+            elif not DATE_RE.fullmatch(dt):
+                err(f"{who} / {label}: date {dt!r} must be YYYY, YYYY-MM or YYYY-MM-DD")
+            elif isinstance(c.get("founding_year"), int) and int(dt[:4]) < c["founding_year"]:
+                warn(f"{who} / {label}: dated {dt} but the company is recorded as "
+                     f"founded in {c['founding_year']}")
+
             kind = r.get("kind")
             if kind not in ROUND_KINDS:
                 err(f"{who} / {label}: kind {kind!r} must be one of {sorted(ROUND_KINDS)}")
