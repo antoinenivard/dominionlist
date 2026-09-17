@@ -31,6 +31,19 @@ ROUND_REQUIRED = [
 ]
 ROUND_ARRAYS = ["lead_investors", "other_investors", "source_urls"]
 
+# hq_region is the sidebar's HQ filter key, so it is grouped by exact string.
+# Writing "California" where every other entry says "CA" therefore splits one
+# state into two filter rows that each count a fraction of the companies —
+# which is exactly what happened to California, New York and Pennsylvania.
+# Codes only, and only real ones.
+US_STATES = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI",
+    "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN",
+    "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH",
+    "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA",
+    "WV", "WI", "WY", "PR",
+}
+
 errors, warnings = [], []
 
 
@@ -202,6 +215,12 @@ def main():
 
         if not c.get("stage"):
             warn(f"{who}: stage is empty")
+
+        region = c.get("hq_region")
+        if not region:
+            warn(f"{who}: hq_region is empty")
+        elif region not in US_STATES:
+            err(f"{who}: hq_region {region!r} is not a two-letter US state code")
 
         for fo in c.get("founders", []):
             fname = fo.get("name", "<unnamed>")
