@@ -1016,9 +1016,9 @@
     "id": "453",
     "name": "Agents2Agents",
     "website": "https://www.agents2agents.ai/",
-    "description": "Building foundation models trained on physics, not just pixels, and a closed loop of AI agents that build, deploy, and improve them automatically. First product 'ata' is an open-source AI agent for researchers and engineers.",
-    "hq_city": null,
-    "hq_region": null,
+    "description": "Autonomous engineering agents for robotics. Takes a manipulation task from written instruction or demonstration through simulation, training, hardware optimisation and on-robot testing, then keeps improving the deployed system from its failures.",
+    "hq_city": "Cupertino",
+    "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
     "founders": [
@@ -1042,14 +1042,14 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
-      "notes": "2022 Pasupalak CS Capstone Award from UWaterloo. Previously ML Research Engineer at Apple.",
+      "last_verified": "2026-09-17T18:30:00Z",
+      "notes": "2022 Pasupalak CS Capstone Award from UWaterloo. Previously ML Research Engineer at Apple. HQ IS WEAKLY SOURCED: the site publishes no address, no terms and no privacy policy, so there is no governing-law clause to test, and the LinkedIn company page has no Headquarters field. Cupertino CA rests on the location tag on both founders’ LinkedIn experience entries for this company, the CEO’s marked \"On-site\"; both are ex-Apple, which is in Cupertino, so carryover cannot be ruled out. US incorporation is clear — the footer reads \"© 2026 Agents2Agents, Inc.\" REPOSITIONED: originally physics foundation models with an open-source research agent called ata; as of 2026 the company describes itself as \"the autonomous engineer for robotics\", and ata is one of two public repos. SECOND CO-FOUNDER: Tho Ho is Co-Founder & CEO (ex-Apple, 11 years); Nima Sadri’s title is Co-Founder & Chief of Agents. Ho is not listed because no Canadian connection is documented for him. Stage is an inference: no SEC Form D exists and no round has been reported. NVIDIA Inception member.",
       "valuation_usd": null,
       "valuation_display": ""
     },
     "founding_year": 2025,
-    "stage": "",
-    "icon_url": ""
+    "stage": "Pre-Seed",
+    "icon_url": "https://img.logo.dev/agents2agents.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
   },
   {
     "id": "agora",
@@ -32401,9 +32401,9 @@
     "id": "451",
     "name": "Port Markets",
     "website": "https://portmarkets.com/",
-    "description": "Building stablecoin-native infrastructure for global trade finance, modernizing the experience for MSME suppliers and buyers to connect, access financing, and facilitate payments and FX.",
-    "hq_city": null,
-    "hq_region": null,
+    "description": "Programmable credit infrastructure connecting stablecoin allocators with short-duration fintech lenders worldwide. In private access as of 2026.",
+    "hq_city": "New York",
+    "hq_region": "NY",
     "hq_country": "US",
     "industry": "Fintech",
     "founders": [
@@ -32427,14 +32427,14 @@
     "status": "Active",
     "yc_batch": null,
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
-      "notes": "Co-founder Alexander Narvaez-Duckworth. Family runs agri-commodities import business.",
+      "last_verified": "2026-09-17T18:30:00Z",
+      "notes": "Family runs an agri-commodities import business. HQ IS THE WEAKEST ON THE LIST AND THIS ENTRY SHOULD BE REVIEWED. The site is a single gated splash page with no address, no terms and no privacy policy, so there is no governing-law clause to test, and the LinkedIn company page has no Headquarters field. New York NY rests on one line: Arora’s own LinkedIn experience entry reads \"Co-Founder & CEO, Port Markets, Jan 2026 – Present, New York, United States · Remote\". Against it, his profile header location is Canada and his other current role is in Vancouver BC, so the company may be US only on paper. No SEC filing exists under this name. CORRECTIONS: founded Jan 2026, not 2025 — Arora left Predicate in Oct 2025. Repositioned from MSME-facing trade finance to the lender-funding side. Co-founder Alexander Narvaez-Duckworth appears to have left; as of early Sep 2026 his LinkedIn headline is Senior Associate at Aave Labs. LinkedIn shows one associated member. Stage is an inference; no round has been reported.",
       "valuation_usd": null,
       "valuation_display": ""
     },
-    "founding_year": 2025,
-    "stage": "",
-    "icon_url": ""
+    "founding_year": 2026,
+    "stage": "Pre-Seed",
+    "icon_url": "https://img.logo.dev/portmarkets.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
   },
   {
     "id": 266,
@@ -36267,6 +36267,7 @@
           "Harrison Metal Capital"
         ],
         "source_urls": [
+          "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001790105&type=D",
           "https://www.crunchbase.com/organization/roboto-games"
         ],
         "notes": ""
@@ -36278,14 +36279,15 @@
         "amount_display": "$15M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
-          "a16z"
+        "lead_investors": [
+          "a16z games"
         ],
+        "other_investors": [],
         "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1790105/000179010522000001/primary_doc.xml",
           "https://www.crunchbase.com/organization/roboto-games"
         ],
-        "notes": ""
+        "notes": "The $15M is the Form D offering amount; $11,824,955 had actually been sold to 8 investors as of the 2022-05-27 filing, first sale 2022-05-12. a16z games named as lead on the company’s own LinkedIn. capital_raised here follows the reported headline figures; third-party aggregators disagree with each other (PitchBook ~$19.4M, Tracxn $31.3M) and none of those totals is corroborated."
       }
     ],
     "industry": "Consumer",
@@ -36294,16 +36296,16 @@
     "founder_display": "Curt Bererton",
     "institution_display": "University of Alberta",
     "founding_year": 2013,
-    "hq_city": "",
-    "hq_region": "",
+    "hq_city": "San Mateo",
+    "hq_region": "CA",
     "hq_country": "US",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/robotogames.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
-      "notes": ""
+      "last_verified": "2026-09-17T18:30:00Z",
+      "notes": "HQ from the company’s own SEC filings: both Form Ds (2019-10-09 and 2022-05-27, CIK 0001790105) give 448 Iowa Drive, San Mateo CA 94402, and EDGAR lists State location CA, State of Inc. DE. The California Secretary of State registry shows Roboto Games, Inc. (#3631752) active and in good standing, most recent Statement of Information Oct 29 2024. LinkedIn independently gives the HQ as San Mateo, CA. Still operating: the studio is building Stormforge, an open-world survival game announced Jun 2024 with a Steam Early Access page, and posted a QA role in Mar 2026. Mathilde Pignol is CFO and a director on the Form D and is described elsewhere as a co-founder; she is not listed here because no Canadian connection is documented for her."
     }
   },
   {
