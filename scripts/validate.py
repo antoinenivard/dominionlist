@@ -26,10 +26,29 @@ FOUNDER_REQUIRED = [
     "canadian_connection_type", "canadian_institution", "canadian_institutions",
 ]
 ROUND_REQUIRED = [
-    "date", "round", "amount_usd", "amount_display", "valuation_usd",
+    "date", "round", "kind", "amount_usd", "amount_display", "valuation_usd",
     "valuation_display", "lead_investors", "other_investors", "source_urls", "notes",
 ]
 ROUND_ARRAYS = ["lead_investors", "other_investors", "source_urls"]
+
+# funding_rounds is really a financial-history timeline: it holds priced rounds
+# alongside acquisitions, listings, wind-downs and market-cap marks, because the
+# valuation logic on the site derives a company's current mark from the latest
+# entry by date and needs the exits in the same sequence. That is deliberate.
+# What is not acceptable is leaving consumers to guess which is which — the
+# analytics page used to infer it from a label list plus a regex over the notes,
+# and got it wrong in both directions. So every round carries an explicit kind,
+# and a label may only ever mean one of the two.
+#   funding — primary capital raised by the company from investors
+#   event   — anything else: ownership changes, listings, liquidity for existing
+#             holders, post-listing instruments, and pure valuation marks
+EVENT_ROUNDS = {
+    "Acquired", "Acquisition", "IPO", "SPAC", "IPO (SPAC)", "Direct Listing",
+    "Spin-Off", "Wind Down", "Bankruptcy", "Restructuring", "Recapitalization",
+    "Secondary", "Secondary Public Offering", "Tender Offer",
+    "Post-IPO ATM", "Post-IPO Equity", "Post-IPO Debt", "Market Cap",
+}
+ROUND_KINDS = {"funding", "event"}
 
 # hq_region is the sidebar's HQ filter key, so it is grouped by exact string.
 # Writing "California" where every other entry says "CA" therefore splits one
@@ -241,6 +260,16 @@ def main():
             for f in ROUND_ARRAYS:
                 if f in r and not isinstance(r[f], list):
                     err(f"{who} / {label}: {f} must be an array, got {type(r[f]).__name__}")
+            kind = r.get("kind")
+            if kind not in ROUND_KINDS:
+                err(f"{who} / {label}: kind {kind!r} must be one of {sorted(ROUND_KINDS)}")
+            else:
+                expected = "event" if r.get("round") in EVENT_ROUNDS else "funding"
+                if kind != expected:
+                    err(f"{who} / {label}: kind is {kind!r} but the round label "
+                        f"{r.get('round')!r} is classified {expected!r}. Either the "
+                        f"kind is wrong, or a new label needs adding to EVENT_ROUNDS.")
+
             if r.get("valuation_usd") == 0:
                 err(f"{who} / {label}: valuation_usd is 0 — use null for unknown")
 

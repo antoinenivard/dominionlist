@@ -1098,12 +1098,13 @@ document.getElementById('s3chart').innerHTML = s3html;
 
 /* ── SECTION 4: Capital Access Gap — US vs Canada ── */
 (function(){
-  var EXCL={'Acquired':1,'IPO':1,'Acquisition':1,'SPAC':1,'IPO (SPAC)':1,'Market Cap':1,'Direct Listing':1,'Post-IPO ATM':1,'Post-IPO Equity':1,'Post-IPO Debt':1,'Wind Down':1,'Bankruptcy':1};
-  function isExit(r){
-    if(EXCL[r.round])return true;
-    var n=(r.notes||'').toLowerCase();
-    return /\bacquir|acquis|\bipo\b|spac|merger|went public|listing|delisted/.test(n);
-  }
+  /* Every round in companies.json carries kind: 'funding' or 'event'. This used
+     to be guessed here from a hard-coded label list plus a regex over the notes
+     prose, which was wrong in both directions: it let $495M of secondaries,
+     tender offers, recapitalisations and spin-offs through as venture funding,
+     and it threw away 10 real rounds whose notes merely mentioned an
+     acquisition or an IPO. The classification now lives with the data. */
+  function isExit(r){ return r.kind === 'event'; }
   var startYr=2010, endYr=2025;
 
   /* CVCA data: VC invested in Canadian companies (USD) */
@@ -1435,12 +1436,13 @@ document.getElementById('s3chart').innerHTML = s3html;
 
 /* ── SECTION 5: Scale of the US capital market ── */
 (function(){
-  var EXCL={'Acquired':1,'IPO':1,'Acquisition':1,'SPAC':1,'IPO (SPAC)':1,'Market Cap':1,'Direct Listing':1,'Post-IPO ATM':1,'Post-IPO Equity':1,'Post-IPO Debt':1,'Wind Down':1,'Bankruptcy':1};
-  function isExit(r){
-    if(EXCL[r.round])return true;
-    var n=(r.notes||'').toLowerCase();
-    return /\bacquir|acquis|\bipo\b|spac|merger|went public|listing|delisted/.test(n);
-  }
+  /* Every round in companies.json carries kind: 'funding' or 'event'. This used
+     to be guessed here from a hard-coded label list plus a regex over the notes
+     prose, which was wrong in both directions: it let $495M of secondaries,
+     tender offers, recapitalisations and spin-offs through as venture funding,
+     and it threw away 10 real rounds whose notes merely mentioned an
+     acquisition or an IPO. The classification now lives with the data. */
+  function isExit(r){ return r.kind === 'event'; }
   var startYr=2010, endYr=2025;
 
   /* Count US-dataset companies and capital */
