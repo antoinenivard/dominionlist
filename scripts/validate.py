@@ -55,13 +55,21 @@ ROUND_KINDS = {"funding", "event"}
 # exit — Slack is Acquired and Series H. When they shared one vocabulary an exit
 # overwrote the financing history, and 14 entries ended up asserting both at
 # once (status Inactive with stage Seed, status Private with stage Acquired).
+import re as _re
+
 STATUSES = {"Private", "Public", "Acquired", "Inactive"}
+
+SLUG_RE = _re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+
+
+def slugify(name):
+    """Mirror of slugify() in index.html — the site derives URLs with it."""
+    return _re.sub(r"(^-|-$)", "", _re.sub(r"[^a-z0-9]+", "-", (name or "").lower()))
 
 # canadian_city is the founder's Canadian home town, not their university's
 # city — 29 records prove the two come apart (Brockville, Markham, Sault Ste.
 # Marie). Values were drifting to bare 'Toronto', to provinces, and once to
 # 'Canada', so the shape is pinned here.
-import re as _re
 CITY_RE = _re.compile(
     r"[^,]+, (AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)")
 STAGES = {
@@ -235,6 +243,23 @@ def main():
         if dupes:
             err(f"duplicate {field}: {', '.join(sorted(dupes)[:10])}")
 
+    # id is the ?company= slug, so its shape is a public interface. It used to
+    # be integers, slugs and strings of digits all at once, which meant the site
+    # derived the slug two different ways and 66 companies were only reachable
+    # at an opaque ?company=453.
+    for c in companies:
+        cid = c.get("id")
+        if not isinstance(cid, str) or not SLUG_RE.fullmatch(cid) or cid.isdigit():
+            err(f"{c.get('name', '<unnamed>')}: id {cid!r} must be a lowercase "
+                f"kebab-case slug, not a number or a string of digits")
+    legacy = [str(c["legacy_id"]) for c in companies if c.get("legacy_id")]
+    dupes = [v for v, n in Counter(legacy).items() if n > 1]
+    if dupes:
+        err(f"duplicate legacy_id: {', '.join(sorted(dupes)[:10])}")
+    collide = set(legacy) & {c.get("id") for c in companies}
+    if collide:
+        err(f"legacy_id collides with a live id: {', '.join(sorted(collide))}")
+
     # ── per company ──
     for c in companies:
         who = c.get("name", "<unnamed>")
@@ -308,6 +333,13 @@ def main():
             for f in FOUNDER_REQUIRED:
                 if f not in fo:
                     err(f"{who} / {fname}: founder missing field {f}")
+            fid = fo.get("id")
+            want = slugify(fname)
+            if fid != want:
+                err(f"{who} / {fname}: founder id {fid!r} should be {want!r} — "
+                    f"it is the person key that ties their records together "
+                    f"across companies")
+
             city = fo.get("canadian_city") or ""
             if city and not CITY_RE.fullmatch(city):
                 err(f"{who} / {fname}: canadian_city {city!r} should read "

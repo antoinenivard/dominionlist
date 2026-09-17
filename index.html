@@ -986,7 +986,13 @@ async function loadData() {
     if (!c.ycBatch)        c.ycBatch        = c.yc_batch || null;
     if (!c.capitalRaisedUsd)     c.capitalRaisedUsd     = c.capital_raised_usd || null;
     if (!c.capitalRaisedDisplay) c.capitalRaisedDisplay = c.capital_raised_display || '';
-    if (!c.ycSlug)         c.ycSlug         = (typeof c.id === 'number') ? slugify(c.name || c.companyName || '') : (c.id || '');
+    /* id is the URL slug. It used to be three shapes at once — integers,
+       slugs, and strings of digits — so the slug was derived one way for
+       numbers and another for strings, and 66 companies were reachable only at
+       an opaque ?company=453. They are all slugs now; legacy_id keeps the old
+       numeric key resolvable for links shared before the change. */
+    if (!c.ycSlug)         c.ycSlug         = c.id || slugify(c.name || c.companyName || '');
+    if (!c.legacyId)       c.legacyId       = c.legacy_id || '';
     if (!c.iconUrl)        c.iconUrl        = c.icon_url || '';
     /* Sources: pull from metadata.sources */
     if (!c.sourceUrls && c.metadata && c.metadata.sources && c.metadata.sources.length) c.sourceUrls = c.metadata.sources;
@@ -1089,7 +1095,8 @@ async function loadData() {
   const params = new URLSearchParams(window.location.search);
   const co = params.get('company');
   if (co) {
-    const match = companies.find(c => (c.ycSlug || slugify(c.companyName)) === co);
+    const match = companies.find(c => (c.ycSlug || slugify(c.companyName)) === co)
+      || companies.find(c => c.legacyId && c.legacyId === co);
     if (match) openDetail(match);
   }
 }
