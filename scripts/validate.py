@@ -50,6 +50,19 @@ EVENT_ROUNDS = {
 }
 ROUND_KINDS = {"funding", "event"}
 
+# status and stage are two independent axes and must stay that way. status is
+# the outcome; stage is the financing stage reached, which stays true after an
+# exit — Slack is Acquired and Series H. When they shared one vocabulary an exit
+# overwrote the financing history, and 14 entries ended up asserting both at
+# once (status Inactive with stage Seed, status Private with stage Acquired).
+STATUSES = {"Private", "Public", "Acquired", "Inactive"}
+STAGES = {
+    "Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series D",
+    "Series E", "Series F", "Series G", "Series H", "Series I", "Series J",
+    "Series K", "Series L", "Growth", "Bootstrapped", "Private (PE)",
+    "Early Stage",
+}
+
 # hq_region is the sidebar's HQ filter key, so it is grouped by exact string.
 # Writing "California" where every other entry says "CA" therefore splits one
 # state into two filter rows that each count a fraction of the companies —
@@ -232,8 +245,40 @@ def main():
         if not isinstance(yr, int) or not (1900 <= yr <= 2100):
             err(f"{who}: founding_year {yr!r} is not a plausible year")
 
-        if not c.get("stage"):
+        status = c.get("status")
+        if status not in STATUSES:
+            err(f"{who}: status {status!r} is not one of {sorted(STATUSES)}")
+
+        stage = c.get("stage")
+        if not stage:
             warn(f"{who}: stage is empty")
+        elif stage not in STAGES:
+            if stage in STATUSES:
+                err(f"{who}: stage {stage!r} is an outcome, not a financing "
+                    f"stage — it belongs in status, and stage should carry the "
+                    f"round the company had reached")
+            else:
+                err(f"{who}: stage {stage!r} is not a recognised financing stage")
+
+        # The outcome has to agree with the LAST terminal event on record, not
+        # merely with the presence of one. Getaround and Sonder both went public
+        # by SPAC and then wound down years later; an any-event rule called them
+        # Public forever.
+        terminal = {
+            "Acquired": "Acquired", "Acquisition": "Acquired",
+            "IPO": "Public", "SPAC": "Public", "IPO (SPAC)": "Public",
+            "Direct Listing": "Public",
+            "Wind Down": "Inactive", "Bankruptcy": "Inactive",
+        }
+        evs = [r for r in c.get("funding_rounds", [])
+               if r.get("kind") == "event" and r.get("round") in terminal]
+        if evs:
+            evs.sort(key=lambda r: r.get("date") or "")
+            last = evs[-1]
+            want = terminal[last["round"]]
+            if status != want:
+                err(f"{who}: last terminal event is {last['round']!r} on "
+                    f"{last.get('date')!r}, so status should be {want!r}, not {status!r}")
 
         icon = c.get("icon_url") or ""
         if "img.logo.dev" in icon and "fallback=404" not in icon:

@@ -328,6 +328,10 @@ a:hover{color:var(--link-h);text-decoration:underline}
   accent-color:var(--accent);width:14px;height:14px;cursor:pointer;flex-shrink:0;
   border-radius:3px;
 }
+.filter-subhead{
+  font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.04em;
+  color:var(--fg-muted);margin:10px 0 2px;
+}
 .filter-count{
   margin-left:auto;font-size:12px;
   font-variant-numeric:tabular-nums;
@@ -774,7 +778,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
     <div class="filter-section" id="sectionStage">
       <fieldset>
         <legend onclick="toggleSection('sectionStage')">
-          <span>Stage</span>
+          <span>Status &amp; stage</span>
           <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
         </legend>
         <div class="filter-group" id="filterStage"></div>
@@ -932,7 +936,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
 let companies = [];
 let filtered = [];
 let selectedSlug = null;
-const activeFilters = { year: new Set(), city: new Set(), industry: new Set(), institution: new Set(), connection: new Set(), stage: new Set(), batch: new Set() };
+const activeFilters = { year: new Set(), city: new Set(), industry: new Set(), institution: new Set(), connection: new Set(), status: new Set(), stage: new Set(), batch: new Set() };
 const expandedGroups = new Set(); /* tracks expanded parent groups: 'stage-Private', 'location-CA', etc. */
 
 /* ═══ Theme (follows system preference) ═══ */
@@ -1175,9 +1179,21 @@ function normalizeConnectionSignals(raw) {
 
 /* ═══ Build sidebar filters ═══ */
 
-/* Private sub-stages in fixed order */
-const PRIVATE_STAGES = ['Pre-Seed','Seed','Series A','Series B','Series C+','Growth'];
-const STAGE_ORDER = [...PRIVATE_STAGES, 'Public', 'Acquired', 'Inactive'];
+/* status and stage are two independent axes.
+   status is the outcome — where the company ended up.
+   stage is the financing stage it reached, and it survives the exit: Slack is
+   Acquired AND Series H. They used to share one field, which meant an exit
+   overwrote the financing history and the two could contradict each other.
+   Series C and everything above it collapse into one Series C+ bucket for
+   filtering only; the row and the detail panel still show the exact stage. */
+const STATUSES = ['Private', 'Public', 'Acquired', 'Inactive'];
+const STAGE_BUCKETS = ['Pre-Seed','Seed','Series A','Series B','Series C+','Growth','Early Stage','Other','Not disclosed'];
+const LATE_SERIES = /^Series [C-Z]$/;
+function stageBucket(stage) {
+  if (!stage) return 'Not disclosed';
+  if (LATE_SERIES.test(stage)) return 'Series C+';
+  return STAGE_BUCKETS.includes(stage) ? stage : 'Other';
+}
 
 /* US state abbreviation → full name */
 const STATE_NAMES = {
@@ -1200,11 +1216,13 @@ function buildFilters() {
 }
 
 function computeFilterCounts(sourceList) {
-  const maps = { year: new Map(), city: new Map(), state: new Map(), stateCity: new Map(), industry: new Map(), stage: new Map(), batch: new Map(), institution: new Map(), connection: new Map() };
+  const maps = { year: new Map(), city: new Map(), state: new Map(), stateCity: new Map(), industry: new Map(), status: new Map(), stage: new Map(), batch: new Map(), institution: new Map(), connection: new Map() };
   sourceList.forEach(c => {
     if (c.foundingYear)  maps.year.set(String(c.foundingYear), (maps.year.get(String(c.foundingYear)) || 0) + 1);
     if (c.industry)      maps.industry.set(c.industry, (maps.industry.get(c.industry) || 0) + 1);
-    if (c.stage)         maps.stage.set(c.stage, (maps.stage.get(c.stage) || 0) + 1);
+    const sb = stageBucket(c.stage);
+    maps.stage.set(sb, (maps.stage.get(sb) || 0) + 1);
+    if (c.companyStatus) maps.status.set(c.companyStatus, (maps.status.get(c.companyStatus) || 0) + 1);
     if (c.ycBatch)       maps.batch.set(c.ycBatch, (maps.batch.get(c.ycBatch) || 0) + 1);
     /* Location: group by state */
     const st = c.hqState || '';
@@ -1244,7 +1262,7 @@ function computeAndRenderFilters() {
   const maps = computeFilterCounts(source);
 
   renderFlatGroup('filterIndustry', maps.industry, 'industry');
-  renderStageFilter('filterStage', maps.stage);
+  renderStageFilter('filterStage', maps.stage, maps.status);
   renderLocationFilter('filterCity', maps.state, maps.stateCity);
   renderInstitutionFilter('filterInstitution', maps.institution);
   renderConnectionFilter('filterConnection', maps.connection);
@@ -1391,77 +1409,39 @@ function toggleInstOtherChild(val, checked) {
 }
 
 /* ── Stage filter: hierarchical with Private parent ── */
-function renderStageFilter(id, stageMap) {
+function renderStageFilter(id, stageMap, statusMap) {
   const el = document.getElementById(id);
-  const chevronSvg = '<svg class="filter-parent-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>';
+  if (!el) return;
 
-  /* Private group */
-  let privateCount = 0;
-  PRIVATE_STAGES.forEach(s => { privateCount += (stageMap.get(s) || 0); });
-  const isExpanded = expandedGroups.has('stage-Private');
-  const expandedClass = isExpanded ? ' expanded' : '';
-
-  /* Determine parent checkbox state */
-  const childChecked = PRIVATE_STAGES.filter(s => activeFilters.stage.has(s));
-  const allChecked = childChecked.length === PRIVATE_STAGES.length;
-  const someChecked = childChecked.length > 0 && !allChecked;
-  const parentChecked = allChecked ? ' checked' : '';
-
-  let html = '<div class="filter-parent" onclick="toggleStageParent(event)">'
-    + '<input type="checkbox" id="stagePrivateParent"' + parentChecked + ' onchange="togglePrivateParent(this.checked)">'
-    + '<span onclick="event.stopPropagation();toggleGroupExpand(\'stage-Private\')" style="display:inline-flex;align-items:center">'
-    + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
-    + '<span style="flex:1">Private</span>'
-    + '<span class="filter-count">' + privateCount + '</span>'
-    + '</div>';
-  html += '<div class="filter-children' + expandedClass + '">';
-  PRIVATE_STAGES.forEach(s => {
-    const count = stageMap.get(s) || 0;
-    const checked = activeFilters.stage.has(s) ? ' checked' : '';
-    const escaped = s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-    html += '<label class="filter-item">'
-      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleStageChild(\'' + escaped + '\',this.checked)">'
-      + '<span>' + s + '</span>'
+  /* Two blocks, because these are two independent questions. Outcome first —
+     it is what most people filter on — then the financing stage a company
+     reached, which now stays true of exited companies too. Both blocks are
+     flat: nesting stages under an outcome would imply they narrow it, and they
+     do not. A row can match Acquired and Series H at the same time. */
+  const box = (axis, val, count, label) => {
+    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const checked = activeFilters[axis].has(val) ? ' checked' : '';
+    return '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked
+      + ' onchange="toggleFilter(\'' + axis + '\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + (label || val) + '</span>'
       + '<span class="filter-count">' + count + '</span>'
       + '</label>';
-  });
-  html += '</div>';
+  };
 
-  /* Top-level stages: Public, Acquired, Inactive */
-  ['Public','Acquired','Inactive'].forEach(s => {
-    const count = stageMap.get(s) || 0;
-    const checked = activeFilters.stage.has(s) ? ' checked' : '';
-    const escaped = s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-    html += '<label class="filter-item">'
-      + '<input type="checkbox" value="' + escaped + '"' + checked + ' onchange="toggleFilter(\'stage\',\'' + escaped + '\',this.checked)">'
-      + '<span>' + s + '</span>'
-      + '<span class="filter-count">' + count + '</span>'
-      + '</label>';
+  let html = '';
+  STATUSES.forEach(st => {
+    const count = statusMap ? (statusMap.get(st) || 0) : 0;
+    if (count) html += box('status', st, count);
   });
+
+  const stageRows = STAGE_BUCKETS.map(sb => [sb, stageMap.get(sb) || 0]).filter(r => r[1]);
+  if (stageRows.length) {
+    html += '<div class="filter-subhead">Financing stage</div>';
+    stageRows.forEach(([sb, count]) => { html += box('stage', sb, count); });
+  }
 
   el.innerHTML = html;
-
-  /* Set indeterminate state */
-  const parentCb = document.getElementById('stagePrivateParent');
-  if (parentCb) parentCb.indeterminate = someChecked;
-}
-
-function toggleStageParent(e) {
-  if (e.target.tagName === 'INPUT') return; /* let checkbox handle itself */
-}
-
-function togglePrivateParent(checked) {
-  PRIVATE_STAGES.forEach(s => {
-    if (checked) activeFilters.stage.add(s);
-    else activeFilters.stage.delete(s);
-  });
-  applyFilters();
-}
-
-function toggleStageChild(val, checked) {
-  if (checked) activeFilters.stage.add(val);
-  else activeFilters.stage.delete(val);
-  applyFilters();
 }
 
 /* ── Location filter: hierarchical state → city with "Other" grouping ── */
@@ -1736,7 +1716,8 @@ function applyFilters() {
       if (!cityMatch) return false;
     }
     if (activeFilters.industry.size && !activeFilters.industry.has(c.industry)) return false;
-    if (activeFilters.stage.size && !activeFilters.stage.has(c.stage)) return false;
+    if (activeFilters.status.size && !activeFilters.status.has(c.companyStatus)) return false;
+    if (activeFilters.stage.size && !activeFilters.stage.has(stageBucket(c.stage))) return false;
     if (activeFilters.batch.size && !activeFilters.batch.has(c.ycBatch || '')) return false;
     if (activeFilters.institution.size) {
       if (!c.founders.some(f => f.canadianInstitution && activeFilters.institution.has(normalizeInstitution(f.canadianInstitution)))) return false;
@@ -1762,8 +1743,12 @@ function applyFilters() {
 
 /* ═══ Shareable filter URLs ═══ */
 /* activeFilters key -> URL param name (friendly), and the reverse */
-const FILTER_URL_KEYS = { institution: 'school', industry: 'sector', city: 'location', year: 'year', stage: 'stage', batch: 'batch', connection: 'connection' };
-const URL_FILTER_KEYS = { school: 'institution', sector: 'industry', location: 'city', year: 'year', stage: 'stage', batch: 'batch', connection: 'connection' };
+const FILTER_URL_KEYS = { institution: 'school', industry: 'sector', city: 'location', year: 'year', status: 'status', stage: 'stage', batch: 'batch', connection: 'connection' };
+const URL_FILTER_KEYS = { school: 'institution', sector: 'industry', location: 'city', year: 'year', status: 'status', stage: 'stage', batch: 'batch', connection: 'connection' };
+/* Links shared before status and stage were split used ?stage=Acquired and the
+   like. Those values are statuses now, so route them to the right axis rather
+   than silently matching nothing. */
+const LEGACY_STAGE_AS_STATUS = { Public: 1, Acquired: 1, Inactive: 1, Private: 1 };
 const CONNECTION_CANON = { education: 'Education', birthplace: 'Birthplace', citizenship: 'Citizenship' };
 
 /* Resolve a school value from the URL (short label, alias, or canonical, case-insensitive) to its canonical institution name */
@@ -1785,7 +1770,7 @@ function resolveInstitution(v) {
 function writeFiltersToUrl() {
   const url = new URL(window.location);
   const p = url.searchParams;
-  ['q', 'school', 'sector', 'location', 'year', 'stage', 'batch', 'connection'].forEach(k => p.delete(k));
+  ['q', 'school', 'sector', 'location', 'year', 'status', 'stage', 'batch', 'connection'].forEach(k => p.delete(k));
   const q = (document.getElementById('searchBox').value || '').trim();
   if (q) p.set('q', q);
   Object.keys(activeFilters).forEach(key => {
@@ -1808,9 +1793,11 @@ function readFiltersFromUrl() {
     const key = URL_FILTER_KEYS[pk];
     p.getAll(pk).forEach(v => {
       let val = v;
+      let target = key;
       if (key === 'institution') val = resolveInstitution(v);
       else if (key === 'connection') val = CONNECTION_CANON[String(v).toLowerCase()] || v;
-      activeFilters[key].add(val);
+      else if (key === 'stage' && LEGACY_STAGE_AS_STATUS[v]) target = 'status';
+      activeFilters[target].add(val);
     });
   });
 }
