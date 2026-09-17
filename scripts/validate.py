@@ -56,6 +56,14 @@ ROUND_KINDS = {"funding", "event"}
 # overwrote the financing history, and 14 entries ended up asserting both at
 # once (status Inactive with stage Seed, status Private with stage Acquired).
 STATUSES = {"Private", "Public", "Acquired", "Inactive"}
+
+# canadian_city is the founder's Canadian home town, not their university's
+# city — 29 records prove the two come apart (Brockville, Markham, Sault Ste.
+# Marie). Values were drifting to bare 'Toronto', to provinces, and once to
+# 'Canada', so the shape is pinned here.
+import re as _re
+CITY_RE = _re.compile(
+    r"[^,]+, (AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)")
 STAGES = {
     "Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series D",
     "Series E", "Series F", "Series G", "Series H", "Series I", "Series J",
@@ -300,6 +308,12 @@ def main():
             for f in FOUNDER_REQUIRED:
                 if f not in fo:
                     err(f"{who} / {fname}: founder missing field {f}")
+            city = fo.get("canadian_city") or ""
+            if city and not CITY_RE.fullmatch(city):
+                err(f"{who} / {fname}: canadian_city {city!r} should read "
+                    f"'City, PR' — it is a home town, not a province or a "
+                    f"country, and not the city the university happens to be in")
+
             ct = fo.get("canadian_connection_type")
             if ct not in CONNECTIONS:
                 err(f"{who} / {fname}: canadian_connection_type {ct!r} is not recognised")
@@ -337,7 +351,16 @@ def main():
     for name, recs in people.items():
         if len(recs) < 2:
             continue
-        for field in ("photo_url", "linkedin", "x_url"):
+        # Profile URLs and photos were already checked here. The facts were not,
+        # which is how Elon Musk ended up 'education' on three companies and
+        # 'education_citizenship' on five, and how Riley Tomasek was 'education'
+        # at one and 'birthplace' at the other. Where a person was born and
+        # where they studied does not change between their companies.
+        FOUNDER_FACTS = {"canadian_connection_type", "canadian_institution",
+                         "canadian_city"}
+        for field in ("photo_url", "linkedin", "x_url", "wikipedia_url",
+                      "canadian_connection_type", "canadian_institution",
+                      "canadian_city"):
             vals = {(co, (f.get(field) or "")) for co, f in recs}
             distinct = {v for _, v in vals}
             if len(distinct) < 2:
@@ -345,8 +368,19 @@ def main():
             if "" in distinct and len(distinct) == 2:
                 missing = [co for co, v in vals if not v]
                 warn(f"{name}: {field} missing on {', '.join(sorted(missing))} but set elsewhere")
+            elif field in FOUNDER_FACTS:
+                # Two different answers to a question with one answer. A URL can
+                # lag; a birthplace cannot.
+                err(f"{name}: {field} contradicts itself across companies — {sorted(vals)}")
             else:
                 warn(f"{name}: {field} differs across companies — {sorted(vals)}")
+
+        lists = {(co, tuple(f.get("canadian_institutions") or [])) for co, f in recs}
+        if len({v for _, v in lists}) > 1:
+            if () in {v for _, v in lists} and len({v for _, v in lists}) == 2:
+                warn(f"{name}: canadian_institutions empty on some entries, set on others — {sorted(lists)}")
+            else:
+                err(f"{name}: canadian_institutions contradicts itself across companies — {sorted(lists)}")
 
     check_photo_urls(companies)
 

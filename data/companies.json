@@ -287,7 +287,7 @@
         "bio": "Co-Founder & CEO of Accord. Born and raised in Toronto. Former early Stripe salesperson.",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "wikipedia_url": "",
         "x_url": "https://x.com/atRossRich",
         "canadian_institutions": [],
@@ -299,7 +299,7 @@
         "bio": "Co-Founder & CPO of Accord, former early sales hire at Google Cloud. Canadian-raised, University of Victoria graduate.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Victoria",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "wikipedia_url": "",
         "x_url": "",
         "canadian_institutions": [
@@ -1097,7 +1097,8 @@
           "McGill University"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "canadian_city": "Montreal, QC"
       },
       {
         "id": "yitong-zhang",
@@ -2317,7 +2318,8 @@
         "photo_url": "https://cdn.prod.website-files.com/663db35157fcd223250841ff/67b784898c4656e87b1002ab_daniel-saks.jpg",
         "image_source_type": "company_website",
         "image_source_page": "https://www.landbase.com/about",
-        "image_last_checked_at": "2026-09-01T15:10:00Z"
+        "image_last_checked_at": "2026-09-01T15:10:00Z",
+        "canadian_city": "Niagara Falls, ON"
       },
       {
         "id": "nicolas-desmarais",
@@ -4048,7 +4050,7 @@
         "bio": "Founder & CEO of Autocode (formerly StdLib). From Toronto, attended Western University. Now at OpenAI.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Western University",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "wikipedia_url": "",
         "x_url": "https://x.com/keithwhor",
         "canadian_institutions": [
@@ -6241,7 +6243,8 @@
         "photo_url": "https://amzsummits.com/storage/4819/Rosco-Hill.jpg",
         "image_source_type": "conference",
         "image_source_page": "https://amzsummits.com/speakers/rosco-hill/",
-        "image_last_checked_at": "2026-09-01T18:00:00Z"
+        "image_last_checked_at": "2026-09-01T18:00:00Z",
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -7784,7 +7787,7 @@
         "bio": "Canadian internet entrepreneur, previously founded Flashstock (acquired by Shutterstock) and Syncapse, University of Saskatchewan graduate.",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "University of Saskatchewan",
-        "canadian_city": "Saskatchewan",
+        "canadian_city": "",
         "canadian_institutions": [
           "University of Saskatchewan"
         ],
@@ -7908,7 +7911,7 @@
         "bio": "Built Westcore Logistics from 0 to $50M+ revenue in Canada (Canada's 3rd fastest-growing company 2023). Started freight brokering at 14, founded first logistics company at 16. Canada's national water polo team.",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
-        "canadian_city": "Canada",
+        "canadian_city": "",
         "role": "",
         "canadian_institutions": []
       },
@@ -8368,9 +8371,9 @@
         "wikipedia_url": "",
         "x_url": "https://x.com/rileytomasek",
         "bio": "AI infrastructure founder, previously at Dropbox and Dexa AI, UBC grad.",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of British Columbia",
-        "canadian_city": "Vancouver, BC",
+        "canadian_city": "Calgary, AB",
         "canadian_institutions": [
           "University of British Columbia"
         ],
@@ -8839,7 +8842,8 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -12408,7 +12412,7 @@
         "wikipedia_url": "",
         "x_url": "https://x.com/rileytomasek",
         "bio": "Canadian AI founder from Calgary, also founded Charlie Labs, UBC graduate.",
-        "canadian_connection_type": "birthplace",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of British Columbia",
         "canadian_city": "Calgary, AB",
         "canadian_institutions": [
@@ -14180,7 +14184,8 @@
         "photo_url": "https://cdn.prod.website-files.com/67f65698354e16e1d107437a/681beb6c66070a76d48159ae_DEON_HEADSHOT__1.jpg",
         "image_source_type": "company_website",
         "image_source_page": "https://forethought.ai/team-member/deon-nicholas",
-        "image_last_checked_at": "2026-09-01T20:30:00Z"
+        "image_last_checked_at": "2026-09-01T20:30:00Z",
+        "canadian_city": "Toronto, ON"
       },
       {
         "id": "volodymyr-lyubinets",
@@ -15541,7 +15546,7 @@
         "bio": "Co-Founder & CEO of Finni Health. McMaster University graduate, previously CMO at Jack Health and lead marketing instructor at General Assembly in Toronto.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "McMaster University",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "canadian_institutions": [
           "McMaster University"
         ],
@@ -16503,7 +16508,7 @@
         ],
         "wikipedia_url": "",
         "x_url": "https://x.com/dojideon",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "photo_url": "https://cdn.prod.website-files.com/67f65698354e16e1d107437a/681beb6c66070a76d48159ae_DEON_HEADSHOT__1.jpg",
         "image_source_type": "company_website",
         "image_source_page": "https://forethought.ai/team-member/deon-nicholas",
@@ -22500,11 +22505,13 @@
         "wikipedia_url": "",
         "x_url": "https://x.com/danielsaks",
         "bio": "Co-founder/CEO of AppDirect, born in Niagara Falls, Ontario.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
         "canadian_city": "Niagara Falls, ON",
         "role": "",
-        "canadian_institutions": [],
+        "canadian_institutions": [
+          "McGill University"
+        ],
         "photo_url": "https://cdn.prod.website-files.com/663db35157fcd223250841ff/67b784898c4656e87b1002ab_daniel-saks.jpg",
         "image_source_type": "company_website",
         "image_source_page": "https://www.landbase.com/about",
@@ -23106,7 +23113,8 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -25568,7 +25576,7 @@
         "bio": "Co-founder & CEO of Mintlify. Born and raised in Surrey, British Columbia. Cornell '22 (BS Information Science). Previously founded Foodful.",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
-        "canadian_city": "Surrey",
+        "canadian_city": "Surrey, BC",
         "wikipedia_url": "",
         "x_url": "",
         "canadian_institutions": [],
@@ -26297,7 +26305,7 @@
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
         "canadian_institutions": [],
-        "canadian_city": "Vancouver",
+        "canadian_city": "Vancouver, BC",
         "wikipedia_url": "",
         "x_url": ""
       }
@@ -27583,7 +27591,7 @@
         "x_url": "https://x.com/elonmusk",
         "role": "Founder",
         "bio": "Also founder of Tesla, SpaceX, and xAI. Attended Queen's University in Kingston, Ontario before transferring to UPenn.",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "education_citizenship",
         "canadian_institution": "Queen's University",
         "canadian_institutions": [
           "Queen's University"
@@ -27593,7 +27601,8 @@
         "image_source_type": "wikipedia",
         "image_source_page": "https://en.wikipedia.org/wiki/Elon_Musk",
         "image_last_checked_at": "2026-04-12T04:42:29Z",
-        "linkedin": ""
+        "linkedin": "",
+        "canadian_city": "Kingston, ON"
       }
     ],
     "funding_rounds": [
@@ -29562,7 +29571,8 @@
         "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/330px-Elon_Musk_-_54820081119_%28cropped%29.jpg",
         "image_source_type": "wikipedia",
         "image_source_page": "https://en.wikipedia.org/wiki/Elon_Musk",
-        "image_last_checked_at": "2026-04-12T04:52:26Z"
+        "image_last_checked_at": "2026-04-12T04:52:26Z",
+        "canadian_city": "Kingston, ON"
       },
       {
         "id": "trevor-blackwell-openai",
@@ -29580,7 +29590,8 @@
         "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Trevor_Blackwell_2007.jpg",
         "image_source_type": "wikipedia",
         "image_source_page": "https://en.wikipedia.org/wiki/Trevor_Blackwell",
-        "image_last_checked_at": "2026-04-12T04:52:26Z"
+        "image_last_checked_at": "2026-04-12T04:52:26Z",
+        "canadian_city": "Saskatoon, SK"
       }
     ],
     "funding_rounds": [
@@ -33923,7 +33934,7 @@
         "bio": "Co-founder of Protocole. McGill University Desautels Faculty of Management alumna. Previously in longevity and brand/partnerships (Eudēmonia Summit). Leads GTM and partnerships at Protocole.",
         "canadian_connection_type": "education",
         "canadian_institution": "McGill University",
-        "canadian_city": "Montreal",
+        "canadian_city": "Montreal, QC",
         "wikipedia_url": "",
         "canadian_institutions": [
           "McGill University"
@@ -34365,7 +34376,7 @@
         "canadian_institutions": [
           "University of British Columbia"
         ],
-        "canadian_city": "Alberta"
+        "canadian_city": ""
       }
     ],
     "funding_rounds": [
@@ -36691,7 +36702,7 @@
         "canadian_institutions": [
           "University of Regina"
         ],
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chad_Rigetti",
         "x_url": ""
       }
     ],
@@ -38304,7 +38315,8 @@
           "University of Toronto"
         ],
         "wikipedia_url": "",
-        "x_url": ""
+        "x_url": "",
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -41441,7 +41453,7 @@
         "linkedin": "",
         "role": "Founder",
         "bio": "Founder and Chief Engineer of SpaceX, creating reusable rockets and working toward self-sustaining human colonies on Mars.",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "education_citizenship",
         "canadian_institution": "Queen's University",
         "canadian_institutions": [
           "Queen's University"
@@ -41451,7 +41463,8 @@
         "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/330px-Elon_Musk_-_54820081119_%28cropped%29.jpg",
         "image_source_type": "wikipedia",
         "image_source_page": "https://en.wikipedia.org/wiki/Elon_Musk",
-        "image_last_checked_at": "2026-04-12T04:42:29Z"
+        "image_last_checked_at": "2026-04-12T04:42:29Z",
+        "canadian_city": "Kingston, ON"
       }
     ],
     "funding_rounds": [
@@ -43436,7 +43449,7 @@
         "bio": "Co-founder & CEO of Superblocks (founded March 2021). University of Toronto, BASc Mechanical Engineering (2007-2012). Previously Senior Director of Product Management at Datadog (2017-2021), Sequoia Capital Scout, and Yelp.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
-        "canadian_city": "Toronto",
+        "canadian_city": "Toronto, ON",
         "wikipedia_url": "",
         "x_url": "https://x.com/bradmenezes",
         "canadian_institutions": [
@@ -43658,7 +43671,7 @@
       {
         "name": "Dhaman Rakhra",
         "linkedin": "https://www.linkedin.com/in/dhamanrakhra/",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "York University",
         "x_url": "https://x.com/dhamanrakhra",
         "bio": "",
@@ -43666,7 +43679,8 @@
         "role": "",
         "canadian_institutions": [
           "York University"
-        ]
+        ],
+        "canadian_city": "Toronto, ON"
       }
     ],
     "funding_rounds": [
@@ -43722,12 +43736,12 @@
         "x_url": "https://x.com/keithwhor",
         "bio": "Founder & CEO of Superuser. BSc Biochemistry, Western University (2006-2010). Previously founded Autocode (StdLib) and worked at OpenAI.",
         "wikipedia_url": "",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "birthplace_education",
         "canadian_institution": "Western University",
         "canadian_institutions": [
           "Western University"
         ],
-        "canadian_city": "London, ON",
+        "canadian_city": "Toronto, ON",
         "photo_url": "https://avatars.githubusercontent.com/u/3936867?v=4",
         "image_source_type": "github",
         "image_source_page": "https://github.com/keithwhor",
@@ -44226,7 +44240,7 @@
         "bio": "Co-founder & CEO of Sygaldry. Born in Moose Jaw, Saskatchewan. University of Regina BS Physics '02, Yale PhD Applied Physics '09. Previously founded Rigetti Computing (NASDAQ: RGTI) and led it as CEO until 2024; 140+ peer-reviewed papers in quantum computing.",
         "canadian_connection_type": "birthplace_education",
         "canadian_institution": "University of Regina",
-        "canadian_city": "Moose Jaw",
+        "canadian_city": "Moose Jaw, SK",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Chad_Rigetti",
         "x_url": "",
         "canadian_institutions": [
@@ -50137,7 +50151,7 @@
         "linkedin": "",
         "role": "Founder",
         "bio": "Founder and leader of xAI, building truth-seeking AI while running Tesla and SpaceX.",
-        "canadian_connection_type": "education",
+        "canadian_connection_type": "education_citizenship",
         "canadian_institution": "Queen's University",
         "canadian_institutions": [
           "Queen's University"
@@ -50147,7 +50161,8 @@
         "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/330px-Elon_Musk_-_54820081119_%28cropped%29.jpg",
         "image_source_type": "wikipedia",
         "image_source_page": "https://en.wikipedia.org/wiki/Elon_Musk",
-        "image_last_checked_at": "2026-04-12T04:42:29Z"
+        "image_last_checked_at": "2026-04-12T04:42:29Z",
+        "canadian_city": "Kingston, ON"
       },
       {
         "id": "yuhuai-wu",
