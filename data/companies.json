@@ -579,7 +579,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/adaptive.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/adaptive.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Dennis Xu",
@@ -826,7 +826,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "W'25",
-    "icon_url": "https://img.logo.dev/afterquery.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/afterquery.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Carlos Georgescu",
@@ -1069,7 +1069,7 @@
     },
     "founding_year": 2025,
     "stage": "Pre-Seed",
-    "icon_url": "https://img.logo.dev/agents2agents.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
+    "icon_url": "https://img.logo.dev/agents2agents.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "agora",
@@ -1486,7 +1486,7 @@
     "stage": "Series C",
     "status": "Active",
     "yc_batch": null,
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/alldaykitchens.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ken Chong",
@@ -1698,7 +1698,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/ambrosia.energy?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/ambrosia.energy?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Sara Spangelo",
@@ -2742,7 +2742,7 @@
     "name": "Arc",
     "founding_year": 2021,
     "industry": "Fintech",
-    "icon_url": "https://img.logo.dev/joinarc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/joinarc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Acquired",
     "yc_batch": "W'22"
   },
@@ -3020,7 +3020,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "P'26",
-    "icon_url": "https://img.logo.dev/argalabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/argalabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Phillip Li",
@@ -3116,7 +3116,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/argosresearch.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/argosresearch.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Hassan Ismail",
@@ -3294,7 +3294,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/astralcopilot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/astralcopilot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Shivam Sharma",
@@ -3428,7 +3428,7 @@
     "stage": "Series C",
     "status": "Active",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/liveathos.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/liveathos.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Dhananja Jayalath",
@@ -3616,7 +3616,7 @@
     "founder_display": "Oleg Kostour, Anton Krutiansky",
     "institution_display": "University of Waterloo",
     "hq_display": "Mountain View, CA",
-    "icon_url": "https://img.logo.dev/atlasgrid.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/atlasgrid.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -4132,7 +4132,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "F'25",
-    "icon_url": "https://img.logo.dev/automax.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/automax.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Humza Ahmed",
@@ -4295,7 +4295,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/autonomique.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/autonomique.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Vikrant Singh Tomar",
@@ -5121,7 +5121,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/bastionzero.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/bastionzero.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Sharon Goldberg",
@@ -5318,7 +5318,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/betteromics.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/betteromics.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ognjen Nikolic",
@@ -5694,7 +5694,7 @@
     "stage": "Public",
     "status": "Public",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/bioagelabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/bioagelabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Kristen Fortney",
@@ -5842,7 +5842,7 @@
     "status": "Active",
     "founding_year": 2021,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/blacklake.group?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/blacklake.group?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Robert Deeks",
@@ -6924,7 +6924,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/bracketbot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/bracketbot.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Brian Machado",
@@ -7150,7 +7150,7 @@
     "hq_display": "Houston, TX",
     "capital_raised_usd": 48300000,
     "capital_raised_display": "$48.3M",
-    "icon_url": "https://img.logo.dev/branchenergy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
+    "icon_url": "https://img.logo.dev/branchenergy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": 293,
@@ -7488,7 +7488,7 @@
     "status": "Active",
     "founding_year": 2018,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/cape.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/cape.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Gavin Uhma",
@@ -7621,7 +7621,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/cardiogram.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/cardiogram.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Johnson Hsieh",
@@ -7840,7 +7840,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "F'24",
-    "icon_url": "https://img.logo.dev/careforce.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/careforce.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Huzaifa Sial",
@@ -8307,7 +8307,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/chakra.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/chakra.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Alex Fung",
@@ -9482,7 +9482,7 @@
     "status": "Active",
     "founding_year": 2017,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/climate.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/climate.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Carlos Felipe Gaitán Ospina",
@@ -9719,7 +9719,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/cobrand.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/cobrand.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Laurier Mantel",
@@ -9881,7 +9881,7 @@
     "founder_display": "Sachin Monga",
     "institution_display": "University of Waterloo",
     "hq_display": "San Francisco",
-    "icon_url": "https://img.logo.dev/ourcocoon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/ourcocoon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 3125000,
     "capital_raised_display": "$3.12M"
   },
@@ -10001,7 +10001,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/compound-foods.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "name": "Confidential AI",
@@ -10399,7 +10399,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/convoke.bio?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/convoke.bio?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Maged Korga Ahmed",
@@ -10601,7 +10601,7 @@
     "stage": "Inactive",
     "status": "Inactive",
     "yc_batch": "W'16",
-    "icon_url": "https://img.logo.dev/cover.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/cover.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Karn Saroya",
@@ -10821,7 +10821,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/ctrl-labs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/ctrl-labs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "patrick-kaifosh",
@@ -11502,7 +11502,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/datologyai.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/datologyai.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Matthew Leavitt",
@@ -11637,7 +11637,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/withdaydream.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/withdaydream.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Thenuka Karunaratne",
@@ -11891,7 +11891,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/getdecipher.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "decoda-health",
@@ -11999,7 +11999,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/usedefinite.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/usedefinite.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Gurshabd Singh Varaich",
@@ -12067,7 +12067,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/definitive.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/definitive.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Sunny Madra",
@@ -12529,7 +12529,7 @@
     "status": "Active",
     "founding_year": 2015,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/diamond.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/diamond.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Leander Lee",
@@ -12930,7 +12930,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/donkey.trade?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/donkey.trade?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Benjamin Martindale",
@@ -13050,7 +13050,7 @@
     "stage": "Seed",
     "status": "Inactive",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/double.finance?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/double.finance?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Mark Wai",
@@ -13328,7 +13328,7 @@
     "capital_raised_usd": 6700000,
     "capital_raised_display": "$6.7M",
     "institution_display": "University of Toronto",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/ebay.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
       "valuation_usd": 50700000000,
       "valuation_display": "$50.7B",
@@ -13351,7 +13351,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "W'24",
-    "icon_url": "https://img.logo.dev/ecliptor.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/ecliptor.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Andre Fu",
@@ -14148,7 +14148,7 @@
     "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 40000000,
     "capital_raised_display": "$40M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/ergeon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "espa-ai",
@@ -14941,7 +14941,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/itsfairy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/itsfairy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Avlok Kohli",
@@ -15027,7 +15027,7 @@
     "stage": "Series A",
     "status": "Inactive",
     "yc_batch": "S'16",
-    "icon_url": "https://img.logo.dev/farmsteadapp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/farmsteadapp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Kevin Li",
@@ -15198,7 +15198,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/fearn.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/fearn.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Han Kim",
@@ -15374,7 +15374,7 @@
     "status": "Active",
     "founding_year": 2014,
     "yc_batch": "W'16",
-    "icon_url": "https://img.logo.dev/joinfightcamp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/joinfightcamp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Khalil Zahar",
@@ -15517,7 +15517,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
-    "icon_url": "https://img.logo.dev/finic.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
+    "icon_url": "https://img.logo.dev/finic.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "finni-health",
@@ -15757,7 +15757,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'23",
-    "icon_url": "https://img.logo.dev/finta.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/finta.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "andy-wang-finta",
@@ -15898,7 +15898,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/firsthand.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/firsthand.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Michael Rubenstein",
@@ -16436,7 +16436,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/meetwithfocal.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/meetwithfocal.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jerry Bai",
@@ -16709,7 +16709,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/fractalresearch.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/fractalresearch.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Zachary Yu",
@@ -17078,7 +17078,7 @@
     "name": "Fuse",
     "founding_year": 2024,
     "industry": "Health",
-    "icon_url": "https://img.logo.dev/fuseinsight.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/fuseinsight.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Seed",
     "yc_batch": "S'24"
   },
@@ -17785,7 +17785,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/goldsky.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/goldsky.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jeffrey Ling",
@@ -18399,7 +18399,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/www.grid.aero?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/www.grid.aero?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Arthur Dubois",
@@ -18731,7 +18731,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "W'26",
-    "icon_url": "https://img.logo.dev/gru.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/gru.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Skyler Chan",
@@ -19003,7 +19003,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/hardlineapp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/hardlineapp.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Karly Heffernan",
@@ -19240,7 +19240,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/heymilo.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/heymilo.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Sabashan Ragavan",
@@ -19331,7 +19331,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/hiddenweights.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/hiddenweights.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ihab Ilyas",
@@ -19570,7 +19570,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/hilt.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/hilt.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K+",
     "founders": [
@@ -19653,7 +19653,7 @@
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/homefig.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "founders": [
@@ -20273,7 +20273,7 @@
     "id": 392,
     "name": "Induction Labs",
     "website": "https://inductionlabs.com",
-    "icon_url": "https://img.logo.dev/inductionlabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/inductionlabs.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "description": "Building next-generation foundation models for computer use, trained on the largest dataset of human-computer interactions. Flagship model Axiom 1 achieves SOTA on OSWorld. YC W26.",
     "industry": "AI",
     "hq_city": "San Francisco",
@@ -20732,7 +20732,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://speedrun-prod-media.s3.amazonaws.com/companies/b154fc12-da80-4c9e-9781-12c06d287daa/logos/Intangible_Mark.png",
+    "icon_url": "https://img.logo.dev/intangible.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Charles Migos",
@@ -21018,7 +21018,7 @@
     "name": "Inventive",
     "founding_year": 2022,
     "industry": "AI",
-    "icon_url": "https://img.logo.dev/madeinventive.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/madeinventive.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Seed",
     "yc_batch": ""
   },
@@ -21246,7 +21246,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'24",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/askjo.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Kevin Li",
@@ -23334,7 +23334,7 @@
     "name": "Lucy",
     "founding_year": 2024,
     "industry": "AI",
-    "icon_url": "https://img.logo.dev/meetlucy.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/meetlucy.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Pre-Seed",
     "yc_batch": ""
   },
@@ -23854,7 +23854,7 @@
     "name": "Macro",
     "founding_year": 2021,
     "industry": "Enterprise",
-    "icon_url": "https://img.logo.dev/macro.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/macro.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Series A",
     "yc_batch": ""
   },
@@ -24297,7 +24297,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/math.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/math.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jesse Han",
@@ -24354,7 +24354,7 @@
     "stage": "Series B",
     "status": "Active",
     "yc_batch": "S'12",
-    "icon_url": "https://img.logo.dev/mattermost.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/mattermost.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ian Tien",
@@ -24450,7 +24450,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/mecka.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/mecka.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Josh Gao",
@@ -24589,7 +24589,7 @@
     "status": "Active",
     "founding_year": 2015,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/medchart.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/medchart.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "James Bateman",
@@ -24703,7 +24703,7 @@
     "hq_display": "Reno, NV",
     "capital_raised_usd": 2840000,
     "capital_raised_display": "$2.8M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/melrok.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": 265,
@@ -25046,7 +25046,7 @@
     "stage": "Pre-Seed",
     "status": "Active",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/mesoware.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 1500000,
     "capital_raised_display": "$1.5M",
     "founders": [
@@ -25120,7 +25120,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "W'20",
-    "icon_url": "https://img.logo.dev/metaplane.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/metaplane.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Guru Mahendran",
@@ -25448,7 +25448,7 @@
     "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": 5300000,
     "capital_raised_display": "$5.3M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/minds.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": 377,
@@ -25463,7 +25463,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "P'26",
-    "icon_url": "https://img.logo.dev/minicor.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/minicor.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Faizaan Chishtie",
@@ -25560,7 +25560,7 @@
     "stage": "Series B",
     "status": "Private",
     "yc_batch": "W'22",
-    "icon_url": "https://img.logo.dev/mintlify.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/mintlify.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Han Wang",
@@ -26470,7 +26470,7 @@
     "status": "Acquired",
     "founding_year": 2020,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/moonshotbrands.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/moonshotbrands.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Allan Fisch",
@@ -26622,7 +26622,7 @@
     "status": "Active",
     "founding_year": 2020,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/mosaic.pe?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/mosaic.pe?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ian Gutwinski",
@@ -26892,7 +26892,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "W'25",
-    "icon_url": "https://img.logo.dev/mundoai.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/mundoai.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jason Liao",
@@ -27561,7 +27561,7 @@
     "ticker": "NTSK",
     "capital_raised_usd": 1947700000,
     "capital_raised_display": "$1.9B",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/netskope.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "neuralink",
@@ -28051,7 +28051,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/nodal.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/nodal.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Paul Albert-Lebrun",
@@ -28633,7 +28633,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/nuvalence.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/nuvalence.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Rakesh Malhotra",
@@ -29183,7 +29183,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/olamlabs.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/olamlabs.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Shreshth Sharma",
@@ -29838,7 +29838,7 @@
     "status": "Active",
     "founding_year": 2021,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/openevidence.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/openevidence.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Daniel Nadler",
@@ -30040,7 +30040,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/orbital.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/orbital.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Euwyn Poon",
@@ -30115,7 +30115,7 @@
     "stage": "Seed",
     "status": "Inactive",
     "yc_batch": "W'20",
-    "icon_url": "https://img.logo.dev/getorbiter.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/getorbiter.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Mark Wai",
@@ -30183,7 +30183,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'26",
-    "icon_url": "https://img.logo.dev/orthogonal.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/orthogonal.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Christian Pickett",
@@ -30415,7 +30415,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/outerport.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "name": "Outlit",
@@ -30562,7 +30562,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/over.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/over.world?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Louis Castricato",
@@ -31086,7 +31086,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "W'26",
-    "icon_url": "https://img.logo.dev/parameter.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/parameter.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "ahmad-khan-hex",
@@ -32872,7 +32872,7 @@
     "status": "Acquired",
     "founding_year": 2022,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/withplenty.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/withplenty.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Emily Luk",
@@ -33155,7 +33155,7 @@
     },
     "founding_year": 2026,
     "stage": "Pre-Seed",
-    "icon_url": "https://img.logo.dev/portmarkets.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true"
+    "icon_url": "https://img.logo.dev/portmarkets.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": 266,
@@ -33170,7 +33170,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "S'08",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/posterous.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Garry Tan",
@@ -33294,7 +33294,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/postilize.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/postilize.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jody Glidden",
@@ -33876,7 +33876,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/protobloc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/protobloc.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Matt Connors",
@@ -33915,7 +33915,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/theprotocole.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/theprotocole.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Delphine Le Grand",
@@ -34351,7 +34351,7 @@
     "status": "Active",
     "founding_year": 2022,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/quilt.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/quilt.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Paul Lambert",
@@ -35066,7 +35066,7 @@
     "status": "Active",
     "founding_year": 2020,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/fromrebel.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/fromrebel.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Emily Hosie",
@@ -35133,7 +35133,7 @@
     "status": "Active",
     "founding_year": 2020,
     "yc_batch": "W'20",
-    "icon_url": "https://img.logo.dev/recall.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/recall.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "David Gu",
@@ -35353,7 +35353,7 @@
     "founder_display": "Samuel San",
     "institution_display": "University of Waterloo",
     "hq_display": "New York, NY",
-    "icon_url": "https://img.logo.dev/recipeui.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/recipeui.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -35878,7 +35878,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/remitian.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/remitian.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Larry Hasson",
@@ -36160,7 +36160,7 @@
     "status": "Active",
     "founding_year": 2020,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/reputable.health?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/reputable.health?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Theban Ganesh",
@@ -36335,7 +36335,7 @@
     "status": "Active",
     "founding_year": 2022,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/retro.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/retro.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ryan Olson",
@@ -36460,7 +36460,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/revin.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/revin.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Quinn Litherland",
@@ -36678,7 +36678,7 @@
     "stage": "Public",
     "status": "Public",
     "yc_batch": "S'14",
-    "icon_url": "https://img.logo.dev/rigetti.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/rigetti.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Chad Rigetti",
@@ -37117,7 +37117,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/robotogames.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/robotogames.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -37138,7 +37138,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": "S'19",
-    "icon_url": "https://speedrun-prod-media.s3.amazonaws.com/companies/78006974-1238-4ddd-a3cb-a8f8db7b9507/logos/rosebud_logo.png",
+    "icon_url": "https://img.logo.dev/rosebud.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Lisha Li",
@@ -37304,7 +37304,7 @@
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/rotostitch.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/rotostitch.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Leah McClure",
@@ -37841,7 +37841,7 @@
     "status": "Active",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/saris.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/saris.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Danial Jameel",
@@ -37927,7 +37927,7 @@
     "stage": "Series A",
     "status": "Inactive",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/scopesecurity.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/scopesecurity.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Mike Murray",
@@ -37999,7 +37999,7 @@
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/searcle.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/searcle.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jack Lau",
@@ -38188,7 +38188,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/selectstar.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/selectstar.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "shinji-kim",
@@ -40032,7 +40032,7 @@
     "stage": "Series C",
     "status": "Private",
     "yc_batch": "S'21",
-    "icon_url": "https://img.logo.dev/slash.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/slash.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Kevin Bai",
@@ -41114,7 +41114,7 @@
     "stage": "Public",
     "status": "Public",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/soundhound.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/soundhound.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Keyvan Mohajer",
@@ -42408,7 +42408,7 @@
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4525000,
     "capital_raised_display": "$4.5M",
-    "icon_url": ""
+    "icon_url": "https://img.logo.dev/squire.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
   },
   {
     "id": "463",
@@ -42458,7 +42458,7 @@
       "valuation_display": ""
     },
     "founding_year": 2025,
-    "icon_url": "https://img.logo.dev/standardoperators.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/standardoperators.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "",
     "yc_batch": ""
   },
@@ -42557,7 +42557,7 @@
     "stage": "Seed",
     "status": "Active",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/stepwork.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/stepwork.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Shaun MacLellan",
@@ -42874,7 +42874,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/stratumindustries.co?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/stratumindustries.co?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Vihaan Jagiasi",
@@ -43428,7 +43428,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/superblocks.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/superblocks.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Brad Menezes",
@@ -43713,7 +43713,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/superuser.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/superuser.app?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Keith Horwood",
@@ -43779,7 +43779,7 @@
     "status": "Active",
     "founding_year": 2021,
     "yc_batch": "S'24",
-    "icon_url": "https://img.logo.dev/surebright.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/surebright.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Manish Chauhan",
@@ -43854,7 +43854,7 @@
     "status": "Acquired",
     "founding_year": 2016,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/swarm.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/swarm.space?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Sara Spangelo",
@@ -44632,7 +44632,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/tableau.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/tableau.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Chris Stolte",
@@ -44977,7 +44977,7 @@
     "name": "Taloflow",
     "founding_year": 2020,
     "industry": "Enterprise",
-    "icon_url": "https://img.logo.dev/taloflow.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/taloflow.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "stage": "Seed",
     "yc_batch": "W'21"
   },
@@ -44994,7 +44994,7 @@
     "stage": "Series C",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/tamr.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/tamr.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Ihab Ilyas",
@@ -45588,7 +45588,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/terratruehq.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/terratruehq.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Jad Boutros",
@@ -45736,7 +45736,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/teserac.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -46211,7 +46211,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/tisc.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/tisc.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Mahbod \"Moe\" Sabbaghi",
@@ -46271,7 +46271,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "S'24",
-    "icon_url": "https://img.logo.dev/thesynthesis.company?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/thesynthesis.company?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Cyrus Nouroozi",
@@ -47308,7 +47308,7 @@
     "status": "Active",
     "founding_year": 2025,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/tridentsecurity.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/tridentsecurity.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Junaid Mahmood",
@@ -47377,7 +47377,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/trope.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/trope.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Matthew Chow",
@@ -47475,7 +47475,7 @@
     "founder_display": "Eric Aubertin",
     "institution_display": "McGill University",
     "hq_display": "San Francisco, CA",
-    "icon_url": "https://img.logo.dev/truelynk.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/truelynk.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -48188,7 +48188,7 @@
     "status": "Active",
     "founding_year": 2017,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/unlearn.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/unlearn.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Aaron Smith",
@@ -48319,7 +48319,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "S'25",
-    "icon_url": "https://img.logo.dev/upliftai.org?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/upliftai.org?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Zaid Qureshi",
@@ -48391,7 +48391,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/uptake.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/uptake.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Yen Lee",
@@ -48930,7 +48930,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "S'26",
-    "icon_url": "https://img.logo.dev/vernius.systems?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/vernius.systems?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Hisham El-Halabi",
@@ -49325,7 +49325,7 @@
     "status": "Active",
     "founding_year": 2024,
     "yc_batch": "W'25",
-    "icon_url": "https://img.logo.dev/weaveos.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/weaveos.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Adam Cohen",
@@ -49401,7 +49401,7 @@
     "stage": "Acquired",
     "status": "Acquired",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/whisper.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/whisper.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Andrew Song",
@@ -50069,7 +50069,7 @@
     "status": "Active",
     "founding_year": 2020,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/writer.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/writer.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "May Habib",
@@ -50362,7 +50362,7 @@
     "stage": "Series C",
     "status": "Private",
     "yc_batch": null,
-    "icon_url": "https://img.logo.dev/xonaspace.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/xonaspace.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Tyler Reid",
@@ -51011,7 +51011,7 @@
     "status": "Acquired",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/console.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/console.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Andrei Serban",
@@ -51121,7 +51121,7 @@
     "status": "Active",
     "founding_year": 2026,
     "yc_batch": "F'26",
-    "icon_url": "https://img.logo.dev/onepatch.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/onepatch.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Shalin Patel",
@@ -51321,7 +51321,7 @@
     "status": "Active",
     "founding_year": 2019,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/zumrails.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "icon_url": "https://img.logo.dev/zumrails.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "name": "Miles Schwartz",

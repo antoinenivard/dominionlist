@@ -235,6 +235,15 @@ def main():
         if not c.get("stage"):
             warn(f"{who}: stage is empty")
 
+        icon = c.get("icon_url") or ""
+        if "img.logo.dev" in icon and "fallback=404" not in icon:
+            # Without this parameter logo.dev answers a miss with its own
+            # monogram — a coloured letter tile in a different style from the
+            # site's initials chip — so a company with no logo on file renders
+            # as a stranger's design rather than falling through to our own
+            # fallback. Two entries were doing exactly that when this was added.
+            err(f"{who}: logo.dev icon_url must carry &fallback=404")
+
         region = c.get("hq_region")
         if not region:
             warn(f"{who}: hq_region is empty")
