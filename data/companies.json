@@ -50158,5 +50158,86 @@
       "last_verified": "2026-09-11T15:30:00-07:00",
       "notes": "YC Summer 2026, team of four. US HQ per YC's own location field, which reads San Francisco. HQ CAVEAT: the company originated in Vancouver, keeps greypointindustries.ca as a live domain and serves its og-image from it, and Canadian press covers it heavily. The site now reads 'Designed and manufactured in the West' rather than the earlier 'Built in Canada'. Recorded as US on YC's location field, which is the same signal used to exclude ORO AI (Vancouver) and Lamb Labs (London) — applied symmetrically here. Worth re-checking once the company publishes terms or a registered address, neither of which exists yet. Steven Xu's UBC connection is confirmed twice over: YC's own founder card says 'Presidential Scholar at UBC', and UBC's own giving site carries a profile stating he 'had just found out that he had won the UBC Presidential Scholars Award for the fall of 2022' while in his first year in the Faculty of Applied Science. Co-founder Jordan Khoo (CTO) is also reported as UBC Engineering Physics, but the only source is his LinkedIn, which this dataset excludes — left unlisted pending a citable source. Darcy Zhang (CEO) and Nic Chu (COO) are described in press as part of an all-Canadian founding team, but with no individually sourced birth, citizenship or university, so they are not listed either. No headshot: the only founder images found are YC bookface avatars, which are presigned and expire, and a three-person Globe and Mail hackathon photo."
     }
+  },
+  {
+    "id": "zumrails",
+    "name": "Zūm Rails",
+    "website": "https://www.zumrails.com",
+    "description": "Embedded payments and financial infrastructure platform that unifies open banking data aggregation, instant account-to-account payments, KYC, card issuance and card acceptance in a single API. Serves 600+ mid-market and enterprise customers including Western Union, Desjardins and Deloitte.",
+    "hq_city": "Miami",
+    "hq_region": "FL",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Series A",
+    "status": "Active",
+    "founding_year": 2019,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/zumrails.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true",
+    "founders": [
+      {
+        "name": "Miles Schwartz",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/milesschwartz",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Zūm Rails. Studied at Concordia University’s John Molson School of Business in Montreal. Started at Salesforce, then joined Flinks as a salesperson; when Flinks declined his pitch to combine open banking with instant payments, he resigned to build it himself. Became CEO in 2024 and relocated permanently to Miami to lead the company’s US expansion.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Concordia University",
+        "canadian_institutions": [
+          "Concordia University"
+        ],
+        "canadian_city": "Montreal, QC",
+        "photo_url": "https://framerusercontent.com/images/oyElmhl3GpR5LnIhpcfc8OPQW74.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.zumrails.com/about-us",
+        "image_last_checked_at": "2026-09-17T16:00:00Z"
+      },
+      {
+        "name": "Marc Milewski",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/marc-milewski-aa729067/",
+        "x_url": "",
+        "bio": "Co-Founder of Zūm Rails and its CEO from founding until 2024, when he handed the role to Miles Schwartz and stayed on as co-founder. BA in Economics from York University in Toronto (2005–2009). Previously Toronto sales manager at VersaPay.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "York University",
+        "canadian_institutions": [
+          "York University"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "https://framerusercontent.com/images/8UcjFyhchl5VM3ntpsoRML65c.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.zumrails.com/about-us",
+        "image_last_checked_at": "2026-09-17T16:00:00Z"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-02-22",
+        "round": "Series A",
+        "amount_usd": 7800000,
+        "amount_display": "$7.8M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Arthur Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://betakit.com/profitable-payments-startup-zum-rails-closes-10-5-million-series-a/",
+          "https://www.finsmes.com/2024/02/zum-rails-raises-cad10-5m-in-series-a-funding.html",
+          "https://techcrunch.com/2024/02/22/zum-rails-banking-as-a-service-fednow-fintech/"
+        ],
+        "notes": "Raised as CAD $10.5M, all equity, with Arthur Ventures (Minneapolis) as sole investor; recorded here in USD at the February 2024 rate, the same $7.8M figure Finovate used. The company had been bootstrapped until this round. No valuation was disclosed with the raise."
+      }
+    ],
+    "capital_raised_usd": 7800000,
+    "capital_raised_display": "$7.8M",
+    "metadata": {
+      "valuation_usd": 100000000,
+      "valuation_display": "$100M",
+      "last_verified": "2026-09-17T16:00:00Z",
+      "notes": "HQ CONFLICT — recorded as Miami. Mergermarket (Jul 7, 2026), reporting from a direct interview with CEO Miles Schwartz, states plainly that \"Zūm moved its headquarters from Montreal to Miami in September 2024,\" and Schwartz relocated to Florida permanently at that time. Against that: the company’s own LinkedIn page, marked verified Aug 4, 2026, lists exactly one location — \"Primary Headquarters, 486 Saint-Catherine St W, Montreal\" — with a Montreal phone number; the Terms of Use specify Quebec governing law and a Montreal mailing address (though that document is dated April 2021 and is stale); and Schwartz’s own first-person Canadian Business piece of Feb 2025 calls Miami \"a secondary headquarters.\" The Miami reading is recorded on the strength of the most recent reporting and the CEO’s permanent relocation; the counter-evidence is set out here so the call is auditable. FOUNDING YEAR: the company about page says 2019; LinkedIn and BetaKit say 2020. 2019 recorded, per the company’s own current page. THIRD CO-FOUNDER: Marcel Ferreira (CTO) is not listed — his education is Brazilian and American (UTFPR, FGV, George Washington) and no Canadian birth, citizenship or schooling is documented; he lives in Montreal and worked at Flinks, neither of which qualifies. VALUATION is self-reported: Schwartz wrote in Canadian Business (Feb 2025) that Zūm Rails \"hit a $100,000,000 valuation\" in 2024; BetaKit separately reported a claimed \"nine-figure valuation.\" Not from a priced round. As of Jul 2026 the company reports ARR above USD 20M, roughly 85 employees, EBITDA positive, and plans a ~USD 50M Series B in 1H27."
+    }
   }
 ]
