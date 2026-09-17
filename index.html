@@ -328,9 +328,16 @@ a:hover{color:var(--link-h);text-decoration:underline}
   accent-color:var(--accent);width:14px;height:14px;cursor:pointer;flex-shrink:0;
   border-radius:3px;
 }
+/* Matches .filter-section legend exactly — 12px, 500, uppercase, 0.05em — so
+   the sidebar runs on two type sizes and nothing else: 14px for rows, 12px for
+   headers and counts. It was 11px, a third size close enough to the legend to
+   read as a mistake rather than a hierarchy. Separation comes from the rule and
+   the spacing instead. */
 .filter-subhead{
-  font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.04em;
-  color:var(--fg-muted);margin:10px 0 2px;
+  font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.05em;
+  color:var(--fg-muted);
+  margin:14px 0 4px;padding-top:12px;
+  border-top:1px solid var(--border-light);
 }
 .filter-count{
   margin-left:auto;font-size:12px;
@@ -778,7 +785,7 @@ a:hover{color:var(--link-h);text-decoration:underline}
     <div class="filter-section" id="sectionStage">
       <fieldset>
         <legend onclick="toggleSection('sectionStage')">
-          <span>Status &amp; stage</span>
+          <span>Status</span>
           <svg class="filter-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>
         </legend>
         <div class="filter-group" id="filterStage"></div>
