@@ -328,17 +328,6 @@ a:hover{color:var(--link-h);text-decoration:underline}
   accent-color:var(--accent);width:14px;height:14px;cursor:pointer;flex-shrink:0;
   border-radius:3px;
 }
-/* Matches .filter-section legend exactly — 12px, 500, uppercase, 0.05em — so
-   the sidebar runs on two type sizes and nothing else: 14px for rows, 12px for
-   headers and counts. It was 11px, a third size close enough to the legend to
-   read as a mistake rather than a hierarchy. Separation comes from the rule and
-   the spacing instead. */
-.filter-subhead{
-  font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:0.05em;
-  color:var(--fg-muted);
-  margin:14px 0 4px;padding-top:12px;
-  border-top:1px solid var(--border-light);
-}
 .filter-count{
   margin-left:auto;font-size:12px;
   font-variant-numeric:tabular-nums;
@@ -1230,8 +1219,10 @@ function computeFilterCounts(sourceList) {
   sourceList.forEach(c => {
     if (c.foundingYear)  maps.year.set(String(c.foundingYear), (maps.year.get(String(c.foundingYear)) || 0) + 1);
     if (c.industry)      maps.industry.set(c.industry, (maps.industry.get(c.industry) || 0) + 1);
-    const sb = stageBucket(c.stage);
-    maps.stage.set(sb, (maps.stage.get(sb) || 0) + 1);
+    if (c.companyStatus === 'Private') {
+      const sb = stageBucket(c.stage);
+      maps.stage.set(sb, (maps.stage.get(sb) || 0) + 1);
+    }
     if (c.companyStatus) maps.status.set(c.companyStatus, (maps.status.get(c.companyStatus) || 0) + 1);
     if (c.ycBatch)       maps.batch.set(c.ycBatch, (maps.batch.get(c.ycBatch) || 0) + 1);
     /* Location: group by state */
@@ -1418,40 +1409,85 @@ function toggleInstOtherChild(val, checked) {
   applyFilters();
 }
 
-/* ── Stage filter: hierarchical with Private parent ── */
+/* ── Status filter: Private is an expandable parent, stages nest under it ── */
 function renderStageFilter(id, stageMap, statusMap) {
   const el = document.getElementById(id);
   if (!el) return;
+  const chevronSvg = '<svg class="filter-parent-chevron" viewBox="0 0 12 12"><polyline points="4 2 8 6 4 10"/></svg>';
 
-  /* Two blocks, because these are two independent questions. Outcome first —
-     it is what most people filter on — then the financing stage a company
-     reached, which now stays true of exited companies too. Both blocks are
-     flat: nesting stages under an outcome would imply they narrow it, and they
-     do not. A row can match Acquired and Series H at the same time. */
-  const box = (axis, val, count, label) => {
-    const escaped = val.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-    const checked = activeFilters[axis].has(val) ? ' checked' : '';
-    return '<label class="filter-item">'
+  /* The stage children are scoped to Private, and their counts say so — 32
+     under Series C+, not the 64 that exist across all outcomes. Nesting that
+     did not narrow would be a lie the counts would immediately expose. The
+     trade is that stage is not a filter axis for exited companies: an acquired
+     Series H company is found under Acquired, and its stage still shows in the
+     row and the detail panel, which is what the split bought. */
+  const privateCount = statusMap ? (statusMap.get('Private') || 0) : 0;
+  const isExpanded = expandedGroups.has('stage-Private');
+  const expandedClass = isExpanded ? ' expanded' : '';
+  const childChecked = STAGE_BUCKETS.filter(sb => activeFilters.stage.has(sb));
+  const parentOn = activeFilters.status.has('Private');
+
+  let html = '<div class="filter-parent" onclick="toggleStageParent(event)">'
+    + '<input type="checkbox" id="stagePrivateParent"' + (parentOn ? ' checked' : '')
+    + ' onchange="togglePrivateParent(this.checked)">'
+    + '<span onclick="event.stopPropagation();toggleGroupExpand(\'stage-Private\')" style="display:inline-flex;align-items:center">'
+    + chevronSvg.replace('filter-parent-chevron', 'filter-parent-chevron' + expandedClass) + '</span>'
+    + '<span style="flex:1">Private</span>'
+    + '<span class="filter-count">' + privateCount + '</span>'
+    + '</div>';
+
+  html += '<div class="filter-children' + expandedClass + '">';
+  STAGE_BUCKETS.forEach(sb => {
+    const count = stageMap.get(sb) || 0;
+    if (!count) return;
+    const escaped = sb.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const checked = activeFilters.stage.has(sb) ? ' checked' : '';
+    html += '<label class="filter-item">'
       + '<input type="checkbox" value="' + escaped + '"' + checked
-      + ' onchange="toggleFilter(\'' + axis + '\',\'' + escaped + '\',this.checked)">'
-      + '<span>' + (label || val) + '</span>'
+      + ' onchange="toggleStageChild(\'' + escaped + '\',this.checked)">'
+      + '<span>' + sb + '</span>'
       + '<span class="filter-count">' + count + '</span>'
       + '</label>';
-  };
+  });
+  html += '</div>';
 
-  let html = '';
-  STATUSES.forEach(st => {
+  STATUSES.filter(st => st !== 'Private').forEach(st => {
     const count = statusMap ? (statusMap.get(st) || 0) : 0;
-    if (count) html += box('status', st, count);
+    if (!count) return;
+    const escaped = st.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    const checked = activeFilters.status.has(st) ? ' checked' : '';
+    html += '<label class="filter-item">'
+      + '<input type="checkbox" value="' + escaped + '"' + checked
+      + ' onchange="toggleFilter(\'status\',\'' + escaped + '\',this.checked)">'
+      + '<span>' + st + '</span>'
+      + '<span class="filter-count">' + count + '</span>'
+      + '</label>';
   });
 
-  const stageRows = STAGE_BUCKETS.map(sb => [sb, stageMap.get(sb) || 0]).filter(r => r[1]);
-  if (stageRows.length) {
-    html += '<div class="filter-subhead">Financing stage</div>';
-    stageRows.forEach(([sb, count]) => { html += box('stage', sb, count); });
-  }
-
   el.innerHTML = html;
+  const parentCb = document.getElementById('stagePrivateParent');
+  if (parentCb) parentCb.indeterminate = !parentOn && childChecked.length > 0;
+}
+
+function toggleStageParent(e) {
+  if (e.target.tagName === 'INPUT') return; /* let the checkbox handle itself */
+}
+
+/* Ticking Private means every private company, so any narrower stage picks
+   underneath it are cleared rather than silently ignored. */
+function togglePrivateParent(checked) {
+  activeFilters.stage.clear();
+  if (checked) activeFilters.status.add('Private');
+  else activeFilters.status.delete('Private');
+  applyFilters();
+}
+
+/* A stage pick implies Private, so the parent box is released to avoid
+   showing "Private AND Series A" as two independent-looking selections. */
+function toggleStageChild(val, checked) {
+  if (checked) { activeFilters.stage.add(val); activeFilters.status.delete('Private'); }
+  else activeFilters.stage.delete(val);
+  applyFilters();
 }
 
 /* ── Location filter: hierarchical state → city with "Other" grouping ── */
@@ -1727,7 +1763,8 @@ function applyFilters() {
     }
     if (activeFilters.industry.size && !activeFilters.industry.has(c.industry)) return false;
     if (activeFilters.status.size && !activeFilters.status.has(c.companyStatus)) return false;
-    if (activeFilters.stage.size && !activeFilters.stage.has(stageBucket(c.stage))) return false;
+    if (activeFilters.stage.size
+        && (c.companyStatus !== 'Private' || !activeFilters.stage.has(stageBucket(c.stage)))) return false;
     if (activeFilters.batch.size && !activeFilters.batch.has(c.ycBatch || '')) return false;
     if (activeFilters.institution.size) {
       if (!c.founders.some(f => f.canadianInstitution && activeFilters.institution.has(normalizeInstitution(f.canadianInstitution)))) return false;
