@@ -1190,7 +1190,10 @@ const STATUSES = ['Private', 'Public', 'Acquired', 'Inactive'];
 const STAGE_BUCKETS = ['Pre-Seed','Seed','Series A','Series B','Series C+','Growth','Early Stage','Other','Not disclosed'];
 const LATE_SERIES = /^Series [C-Z]$/;
 function stageBucket(stage) {
-  if (!stage) return 'Not disclosed';
+  /* 'Unknown' as well as empty: the normaliser above substitutes that string
+     for a missing stage, so an entry with no financing history arrives here
+     already relabelled. */
+  if (!stage || stage === 'Unknown') return 'Not disclosed';
   if (LATE_SERIES.test(stage)) return 'Series C+';
   return STAGE_BUCKETS.includes(stage) ? stage : 'Other';
 }
