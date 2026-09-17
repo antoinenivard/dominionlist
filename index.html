@@ -40,6 +40,7 @@
   --link:          #2563eb;
   --link-h:        #1d4ed8;
   --tooltip-bg:    #1f2937;
+  --scroll-thumb:  rgba(17,24,39,0.22);
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -61,6 +62,7 @@
     --link:          #60a5fa;
     --link-h:        #93bbfd;
     --tooltip-bg:    #1f2937;
+    --scroll-thumb:  rgba(243,244,246,0.24);
   }
 }
 
@@ -214,6 +216,59 @@ a:hover{color:var(--link-h);text-decoration:underline}
 .search-right .bar-btn .tooltip{left:auto;right:0;transform:none}
 .icon-btn:hover .tooltip,.icon-btn:focus .tooltip,
 .bar-btn:hover .tooltip,.bar-btn:focus .tooltip{opacity:1}
+
+/* ── Scrollbars ──
+   These were never styled, which left every bar to the operating system. On a
+   Mac with a trackpad that means auto-hiding overlay bars — the behaviour we
+   want, and the reason this looked correct most of the time. But a Mac with a
+   mouse attached, a Mac set to "Show scroll bars: Always", and every Windows
+   and Linux browser draw permanent grey bars instead. Same page, three
+   different appearances, entirely outside our control: that is the bug.
+   The rules below make it deterministic. The track is always invisible and the
+   thumb is transparent at rest; it fades in only while the area is being
+   scrolled (the .scrolling class, added by a listener at the bottom of this
+   file) or hovered, then fades back out. Firefox reads the two standard
+   properties, Chromium and Safari the ::-webkit- pseudo-elements. Declaring a
+   width turns off macOS overlay bars and reserves a 10px gutter, which is the
+   price of a consistent result — the gutter is transparent and never moves, so
+   nothing shifts when a bar appears. */
+.company-list,.sidebar,.detail-panel{
+  scrollbar-width:thin;
+  scrollbar-color:transparent transparent;
+  transition:scrollbar-color .25s ease;
+}
+.company-list:hover,.company-list.scrolling,
+.sidebar:hover,.sidebar.scrolling,
+.detail-panel:hover,.detail-panel.scrolling{
+  scrollbar-color:var(--scroll-thumb) transparent;
+}
+.company-list::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar,
+.detail-panel::-webkit-scrollbar{width:10px;height:10px}
+.company-list::-webkit-scrollbar-track,
+.sidebar::-webkit-scrollbar-track,
+.detail-panel::-webkit-scrollbar-track,
+.company-list::-webkit-scrollbar-corner,
+.sidebar::-webkit-scrollbar-corner,
+.detail-panel::-webkit-scrollbar-corner{background:transparent}
+/* The 3px transparent border plus background-clip is what makes the thumb read
+   as a slim rounded pill inside a 10px track rather than filling the gutter. */
+.company-list::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb,
+.detail-panel::-webkit-scrollbar-thumb{
+  background-color:transparent;
+  border:3px solid transparent;
+  background-clip:content-box;
+  border-radius:8px;
+}
+.company-list:hover::-webkit-scrollbar-thumb,
+.company-list.scrolling::-webkit-scrollbar-thumb,
+.sidebar:hover::-webkit-scrollbar-thumb,
+.sidebar.scrolling::-webkit-scrollbar-thumb,
+.detail-panel:hover::-webkit-scrollbar-thumb,
+.detail-panel.scrolling::-webkit-scrollbar-thumb{
+  background-color:var(--scroll-thumb);
+}
 
 /* ── Layout ── */
 .layout{display:flex;flex:1;overflow:hidden}
@@ -2366,6 +2421,21 @@ function closeNavMenus(){
 }
 document.addEventListener('click',closeNavMenus);
 document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeNavMenus(); });
+
+/* Scrollbars are transparent until the user actually scrolls. Scroll events do
+   not bubble, so this listens in the capture phase and marks whichever element
+   scrolled; the mark clears 900ms after the last event. Idle timers are keyed
+   by element in a WeakMap so nothing is retained once a node is discarded. */
+(function(){
+  var idle = new WeakMap();
+  document.addEventListener('scroll', function(e){
+    var el = e.target;
+    if (!(el instanceof Element)) return;
+    el.classList.add('scrolling');
+    clearTimeout(idle.get(el));
+    idle.set(el, setTimeout(function(){ el.classList.remove('scrolling'); }, 900));
+  }, true);
+})();
 </script>
 </body>
 </html>
