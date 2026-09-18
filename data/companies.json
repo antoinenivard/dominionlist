@@ -11294,9 +11294,9 @@
     }
   },
   {
-    "name": "Datost",
-    "website": "https://datost.com",
-    "description": "AI data analyst that teams @mention in Slack. Maintains a semantic layer of business definitions so it understands questions before writing SQL. Scores 75.2% on BIRD-Interact benchmark.",
+    "name": "E1O",
+    "website": "https://e1o.com",
+    "description": "Camera-free AI glasses. Formerly Datost, an AI data analyst that teams mentioned in Slack, which reached $400K ARR in eight weeks before the remaining founder pivoted the company to hardware.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -11305,7 +11305,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "P'26",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/e1o.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "founders": [
@@ -11320,7 +11320,7 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "x_url": "",
+        "x_url": "https://x.com/jasonhywang",
         "wikipedia_url": "",
         "role": ""
       }
@@ -11346,10 +11346,10 @@
       "https://www.datost.com"
     ],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-18T19:45:00Z",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Renamed and pivoted. datost.com now redirects to e1o.com, whose footer reads \"E1O is operated by Datost Inc.\" — same entity, new product. YC’s /companies/datost redirects to /companies/e1o, which lists Maceo Cardinale Kwik as sole founder, team size 1. Kwik’s own YC bio: Datost reached $400K ARR in eight weeks, then he pivoted to the hardware he wanted to build. Jason Wang, the Canadian-connected co-founder, left and founded Lark (YC F26) with his brother; he is kept on this record because departure does not undo founding, the same rule applied to Jimmy Ba at xAI. Kwik has no identified Canadian connection and so is not listed."
     },
     "id": "datost",
     "legacy_id": "411"
@@ -50248,6 +50248,68 @@
       "valuation_display": "$100M",
       "last_verified": "2026-09-17T16:00:00Z",
       "notes": "HQ CONFLICT — recorded as Miami. Mergermarket (Jul 7, 2026), reporting from a direct interview with CEO Miles Schwartz, states plainly that \"Zūm moved its headquarters from Montreal to Miami in September 2024,\" and Schwartz relocated to Florida permanently at that time. Against that: the company’s own LinkedIn page, marked verified Aug 4, 2026, lists exactly one location — \"Primary Headquarters, 486 Saint-Catherine St W, Montreal\" — with a Montreal phone number; the Terms of Use specify Quebec governing law and a Montreal mailing address (though that document is dated April 2021 and is stale); and Schwartz’s own first-person Canadian Business piece of Feb 2025 calls Miami \"a secondary headquarters.\" The Miami reading is recorded on the strength of the most recent reporting and the CEO’s permanent relocation; the counter-evidence is set out here so the call is auditable. FOUNDING YEAR: the company about page says 2019; LinkedIn and BetaKit say 2020. 2019 recorded, per the company’s own current page. THIRD CO-FOUNDER: Marcel Ferreira (CTO) is not listed — his education is Brazilian and American (UTFPR, FGV, George Washington) and no Canadian birth, citizenship or schooling is documented; he lives in Montreal and worked at Flinks, neither of which qualifies. VALUATION is self-reported: Schwartz wrote in Canadian Business (Feb 2025) that Zūm Rails \"hit a $100,000,000 valuation\" in 2024; BetaKit separately reported a claimed \"nine-figure valuation.\" Not from a priced round. As of Jul 2026 the company reports ARR above USD 20M, roughly 85 employees, EBITDA positive, and plans a ~USD 50M Series B in 1H27."
+    }
+  },
+  {
+    "id": "lark-wholesale",
+    "name": "Lark",
+    "website": "https://trylark.ai",
+    "description": "Specialised AI agents that automate manual workflows for wholesale distributors, working against existing ERP systems and learning from each distributor’s historical data and its team’s decisions.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Early Stage",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/trylark.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "jason-wang",
+        "name": "Jason Wang",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jasonhy-wang",
+        "x_url": "https://x.com/jasonhywang",
+        "bio": "Co-Founder and CEO of Lark. BSc Computer Engineering from the University of Toronto with minors in AI and business. Previously co-founded Datost, taking it to $400K ARR in eight weeks; before that built agentic systems for the industrial supply chain at Traba and worked on the Flink control plane at Confluent.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "michael-wang",
+        "name": "Michael Wang",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/michael-wang-40061923b/",
+        "x_url": "",
+        "bio": "Co-Founder of Lark and Jason Wang’s brother. NYU Stern dropout. Played badminton for Canada and was ranked in the national top three for several years.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T19:45:00Z",
+      "notes": "YC Fall 2026, announced in YC’s investor digest on 18 Sep 2026. HQ San Francisco per the YC company page (ycombinator.com/companies/lark-2 — note /companies/lark is a different, unrelated Lark from S25); LarkAI Technologies, Inc. is a Delaware corporation per the site’s terms, which are governed by Delaware law. No funding disclosed beyond the standard YC deal, so capital raised is left null rather than assumed. MICHAEL WANG’S CONNECTION IS SELF-REPORTED: the Team Canada badminton claim comes from his own YC founder bio and nothing else. Badminton Canada rosters, Badminton Ontario and BWF results were searched and he does not appear on any of them. Representing Canada nationally would require citizenship, which is why it is recorded that way, but it rests on one self-authored sentence. Jason Wang’s University of Toronto degree is also self-reported, on YC and LinkedIn, and is the connection the entry actually stands on."
     }
   }
 ]
