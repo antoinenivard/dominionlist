@@ -43,7 +43,7 @@ ROUND_ARRAYS = ["lead_investors", "other_investors", "source_urls"]
 #   event   — anything else: ownership changes, listings, liquidity for existing
 #             holders, post-listing instruments, and pure valuation marks
 EVENT_ROUNDS = {
-    "Acquired", "Acquisition", "IPO", "SPAC", "IPO (SPAC)", "Direct Listing",
+    "Acquired", "IPO", "SPAC", "Direct Listing",
     "Spin-Off", "Wind Down", "Bankruptcy", "Restructuring", "Recapitalization",
     "Secondary", "Secondary Public Offering", "Tender Offer",
     "Post-IPO ATM", "Post-IPO Equity", "Post-IPO Debt", "Market Cap",
@@ -305,6 +305,21 @@ def main():
                     f"round the company had reached")
             else:
                 err(f"{who}: stage {stage!r} is not a recognised financing stage")
+
+        # One acquisition per company, an acquirer in the acquirer field, and no
+        # January-1st placeholder dates on exits. A 12-row import once wrote the
+        # acquirer into lead_investors with a made-up Jan 1 date; five of those
+        # rows named the wrong buyer and one invented an acquisition outright.
+        acqs = [r for r in c.get("funding_rounds", [])
+                if r.get("kind") == "event" and r.get("round") == "Acquired"]
+        if len(acqs) > 1:
+            err(f"{who}: {len(acqs)} acquisitions on record — a company is bought once")
+        for r in acqs:
+            if not r.get("acquirer"):
+                err(f"{who}: acquisition on {r.get('date')} does not say who bought them")
+            if r.get("lead_investors"):
+                err(f"{who}: acquisition on {r.get('date')} lists lead_investors "
+                    f"{r['lead_investors']} — an acquirer is not an investor, use acquirer")
 
         # capital_raised_usd is the headline figure; the rounds are the receipts.
         # They should reconcile, allowing for an unitemised YC cheque.

@@ -759,19 +759,20 @@
         "notes": ""
       },
       {
-        "date": "2017-01-01",
+        "date": "2017-09-13",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Redbooth"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Redbooth 2017"
+        "source_urls": [
+          "https://redbooth.com/media/press-releases/aerofs-merges-with-redbooth-press-release"
+        ],
+        "notes": "Structured as a merger; the surviving brand is Redbooth but AeroFS CEO Yuri Sagalov led the combined company.",
+        "acquirer": "Redbooth"
       }
     ],
     "metadata": {
@@ -1172,14 +1173,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Global Clean Energy Holdings"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/agribody-technologies"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Global Clean Energy Holdings"
       },
       {
         "date": "",
@@ -1556,7 +1556,7 @@
       },
       {
         "date": "2020-02-19",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
@@ -1567,7 +1567,8 @@
         "source_urls": [
           "https://www.prnewswire.com/news-releases/novo-benefits-acquires-allay-brings-automated-modeling-and-quoting-to-self-funded-mid-market-health-plans-301007258.html"
         ],
-        "notes": "Acquired by Novo Benefits. Rebranded as Novo Connection."
+        "notes": "Acquired by Novo Benefits. Rebranded as Novo Connection.",
+        "acquirer": "Novo Benefits"
       }
     ],
     "metadata": {
@@ -2633,7 +2634,7 @@
       },
       {
         "date": "2026-07-07",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -4163,14 +4164,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Ford"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/autonomic"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Ford"
       }
     ],
     "metadata": {
@@ -5027,11 +5027,11 @@
     ],
     "funding_rounds": [
       {
-        "date": "2022-03",
+        "date": "2022-02-03",
         "amount_usd": 6000000,
         "amount_display": "$6M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 22000000,
+        "valuation_display": "$22M",
         "round": "Seed",
         "kind": "funding",
         "lead_investors": [
@@ -5040,39 +5040,25 @@
         "source_urls": [
           "https://www.businesswire.com/news/home/20220302005477/en/BastionZero-Raises-%246m-to-Lock-Down-Remote-Access-to-Backend-Infrastructure-With-Unique-Security-Model"
         ],
-        "notes": "",
+        "notes": "Post-money $22M. Seed led by Dell Technologies Capital.",
         "other_investors": []
       },
       {
         "date": "2024-05-30",
-        "acquirer": "Cloudflare",
+        "round": "Acquired",
+        "kind": "event",
         "amount_usd": 13100000,
         "amount_display": "$13.1M",
         "valuation_usd": 13100000,
         "valuation_display": "$13.1M",
-        "round": "Acquisition",
-        "kind": "event",
-        "source_urls": [
-          "https://www.cloudflare.com/press/press-releases/2024/cloudflare-acquires-bastionzero-to-add-zero-trust-infrastructure-access/"
-        ],
-        "notes": "",
         "lead_investors": [],
-        "other_investors": []
-      },
-      {
-        "date": "2025-01-01",
-        "round": "Acquired",
-        "kind": "event",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "CrowdStrike"
-        ],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by CrowdStrike"
+        "source_urls": [
+          "https://www.cloudflare.com/press/press-releases/2024/cloudflare-acquires-bastionzero-to-add-zero-trust-infrastructure-access/",
+          "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000070/cloud-20240630.htm"
+        ],
+        "notes": "Cloudflare announced the acquisition on 30 May 2024; no price in the release. $13.1M total consideration ($11.3M cash at close plus a $1.6M holdback) comes from Cloudflare’s Form 10-Q for the quarter ended 30 Jun 2024. An earlier record here claimed a second acquisition by CrowdStrike in 2025 — no such transaction exists.",
+        "acquirer": "Cloudflare"
       }
     ],
     "metadata": {
@@ -5157,14 +5143,13 @@
         "amount_display": "$125M",
         "valuation_usd": 125000000,
         "valuation_display": "$125M",
-        "lead_investors": [
-          "Automattic"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/beeper"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Automattic"
       }
     ],
     "metadata": {
@@ -5244,14 +5229,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Apple"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/betteromics"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Apple"
       }
     ],
     "metadata": {
@@ -5431,8 +5415,8 @@
         "kind": "funding",
         "amount_usd": 70000000,
         "amount_display": "$70M",
-        "valuation_usd": 1250000000,
-        "valuation_display": "$1.25B",
+        "valuation_usd": 1000000000,
+        "valuation_display": "$1B",
         "lead_investors": [
           "Salesforce Ventures",
           "Tiger Global"
@@ -5444,10 +5428,27 @@
         "source_urls": [
           "https://techcrunch.com/2020/12/16/bigid-keeps-rolling-with-70m-series-d-on-1b-valuation/"
         ],
-        "notes": ""
+        "notes": "Series D at about $1B post-money."
       },
       {
-        "date": "2024-03-01",
+        "date": "2021-04-27",
+        "round": "Series D Extension",
+        "kind": "funding",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": 1250000000,
+        "valuation_display": "$1.25B",
+        "lead_investors": [
+          "Advent International"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.cooley.com/news/coverage/2021/2021-04-27-bigid-boosts-series-d-funding-bringing-valuation-to-1-25-billion"
+        ],
+        "notes": "Took the Series D to $100M total and the valuation to $1.25B. This is where the $1.25B figure comes from; it was being carried as BigID’s current valuation."
+      },
+      {
+        "date": "2024-03-18",
         "round": "Series E",
         "kind": "funding",
         "amount_usd": 60000000,
@@ -5463,7 +5464,7 @@
         "source_urls": [
           "https://www.prnewswire.com/news-releases/ai-security-market-fuels-a-60m-growth-round-for-unicorn-bigid-to-accelerate-ai-data-security-innovation-and-power-acquisitions-302091045.html"
         ],
-        "notes": ""
+        "notes": "Reported only as \"over $1B\" — no exact post-money disclosed. Flat to down against the $1.25B mark of April 2021."
       }
     ],
     "metadata": {
@@ -5473,17 +5474,17 @@
         "https://www.crunchbase.com/organization/bigid"
       ],
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "valuation_usd": 1250000000,
-      "valuation_display": "$1.25B",
+      "valuation_usd": 1000000000,
+      "valuation_display": "$1B+",
       "valuation_type": "post_money",
       "valuation_confidence": "medium",
-      "valuation_source_url": "https://www.crunchbase.com/organization/bigid",
-      "valuation_as_of": "2020-12",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series D 2021."
+      "valuation_source_url": "https://www.cooley.com/news/coverage/2021/2021-04-27-bigid-boosts-series-d-funding-bringing-valuation-to-1-25-billion",
+      "valuation_as_of": "2024-03",
+      "notes": "Company valuation is the \"over $1B\" reported with the March 2024 growth round; no exact post-money was disclosed. The $1.25B previously carried here is the April 2021 Series D extension mark and now sits on that round."
     },
     "hq_display": "New York, NY",
-    "capital_raised_usd": 224000000,
-    "capital_raised_display": "$224M",
+    "capital_raised_usd": 254000000,
+    "capital_raised_display": "$320M",
     "icon_url": ""
   },
   {
@@ -6427,7 +6428,7 @@
       },
       {
         "date": "2019-09-20",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -7498,14 +7499,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "ilumivu"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/cardiogram"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "ilumivu"
       }
     ],
     "metadata": {
@@ -8019,7 +8019,7 @@
       },
       {
         "date": "2025-05-01",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -8503,20 +8503,19 @@
       },
       {
         "date": "2020-09",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "",
         "valuation_usd": 14000000,
         "valuation_display": "$14M",
-        "lead_investors": [
-          "WELL Health Technologies"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://news-releases.well.company/news-releases/well-health-enters-us-market-with-completion-of-majority-stake-acquisition-of-circle-medical-technologies/"
         ],
-        "notes": "Majority stake acquisition by WELL Health Technologies (TSX: WELL)"
+        "notes": "Majority stake acquisition by WELL Health Technologies (TSX: WELL)",
+        "acquirer": "WELL Health Technologies"
       }
     ],
     "metadata": {
@@ -8669,7 +8668,7 @@
       },
       {
         "date": "2020-05-13",
-        "round": "Convertible",
+        "round": "Convertible Note",
         "kind": "funding",
         "amount_usd": 10000000,
         "amount_display": "$10M",
@@ -9605,51 +9604,21 @@
         "valuation_display": ""
       },
       {
-        "amount_display": "—",
-        "lead_investors": [
-          "Substack"
-        ],
-        "source_urls": [
-          "https://techcrunch.com/2021/08/24/substack-acqui-hires-team-behind-subscription-social-app-cocoon/"
-        ],
-        "notes": "",
-        "round": "Acquired",
-        "kind": "event",
-        "date": "2021",
-        "amount_usd": 0,
-        "valuation_usd": null,
-        "valuation_display": "",
-        "other_investors": []
-      },
-      {
-        "amount_usd": null,
-        "date": "2021-08",
-        "valuation_display": "",
-        "lead_investors": [
-          "Substack"
-        ],
-        "source_urls": [],
-        "notes": "",
-        "round": "Acquired",
-        "kind": "event",
-        "other_investors": [],
-        "amount_display": "",
-        "valuation_usd": null
-      },
-      {
-        "date": "2022-01-01",
+        "date": "2021-08-24",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Substack"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Substack"
+        "source_urls": [
+          "https://on.substack.com/p/welcome-cocoon",
+          "https://techcrunch.com/2021/08/24/substack-acqui-hires-team-behind-subscription-social-app-cocoon/"
+        ],
+        "notes": "Acqui-hire: the team joined Substack, the app stayed independent. No price disclosed. Three duplicate rows dated 2021, 2021-08 and 2022-01-01 collapsed into this one.",
+        "acquirer": "Substack"
       }
     ],
     "metadata": {
@@ -10333,14 +10302,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Yahoo"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://globalventuring.com/blog/2014/11/25/yahoo-to-keep-cooliris/"
         ],
-        "notes": "Acquired by Yahoo"
+        "notes": "Acquired by Yahoo",
+        "acquirer": "Yahoo"
       }
     ],
     "metadata": {
@@ -10660,16 +10628,15 @@
         "amount_display": "$1B",
         "valuation_usd": 1000000000,
         "valuation_display": "$1B",
-        "lead_investors": [
-          "Facebook/Meta"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.cnbc.com/2019/09/23/facebook-announces-acquisition-of-brain-computing-start-up-ctrl-labs.html",
           "https://techcrunch.com/2019/09/23/facebook-buys-startup-building-neural-monitoring-armband/",
           "https://venturebeat.com/ai/facebook-acquires-ctrl-labs-to-advance-its-brain-machine-interface-efforts"
         ],
-        "notes": "Acquired by Meta (Facebook). Reported at ~$1B by CNBC; Facebook spokesperson said \"lower than $1 billion.\""
+        "notes": "Acquired by Meta (Facebook). Reported at ~$1B by CNBC; Facebook spokesperson said \"lower than $1 billion.\"",
+        "acquirer": "Facebook/Meta"
       }
     ],
     "metadata": {
@@ -11891,12 +11858,11 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Groq"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Acquired by Groq March 2024"
+        "notes": "Acquired by Groq March 2024",
+        "acquirer": "Groq"
       }
     ],
     "metadata": {
@@ -12964,16 +12930,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Apple"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Apple"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/dryft"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Apple"
       }
     ],
     "metadata": {
@@ -13396,19 +13361,20 @@
         "notes": ""
       },
       {
-        "date": "2022-01-01",
+        "date": "2023-05-25",
         "round": "Acquired",
         "kind": "event",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Applied Intuition"
-        ],
+        "amount_usd": 71000000,
+        "amount_display": "$71M",
+        "valuation_usd": 71000000,
+        "valuation_display": "$71M",
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Applied Intuition"
+        "source_urls": [
+          "https://www.appliedintuition.com/press-releases/embark"
+        ],
+        "notes": "All-cash, about $71M equity value ($2.88/share); announced 25 May 2023, closed 2 Aug 2023.",
+        "acquirer": "Applied Intuition"
       }
     ],
     "metadata": {
@@ -13490,16 +13456,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Facebook"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Facebook"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/endaga"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Facebook"
       }
     ],
     "metadata": {
@@ -13605,6 +13570,22 @@
           "https://www.businesswire.com/news/home/20241119607725/en/Enfabrica-Raises-%24115M-in-New-Funding-to-Advance-its-Leadership-in-AI-Networking-Solutions"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025-09-18",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": 900000000,
+        "amount_display": "$900M+",
+        "valuation_usd": 900000000,
+        "valuation_display": "$900M+",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html"
+        ],
+        "notes": "Nvidia paid over $900M in cash and stock to license Enfabrica’s technology and hire CEO Rochan Sankar with much of the team. Structured as a licence-and-hire rather than a share purchase — the entity still exists and enfabrica.net is live — but recorded as an acquisition, which is how the outcome reads for the founders.",
+        "acquirer": "Nvidia"
       }
     ],
     "metadata": {
@@ -13614,12 +13595,13 @@
         "https://pitchbook.com/news/articles/nvidia-backed-ai-chipmaker-enfabrica-raises-115m-series-c"
       ],
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "valuation_usd": 1300000000,
-      "valuation_display": "$1.3B",
+      "valuation_usd": 900000000,
+      "valuation_display": "$900M+",
       "valuation_type": "acquisition",
       "valuation_confidence": "high",
       "valuation_source_url": "https://www.crunchbase.com/organization/enfabrica",
-      "notes": "STATUS NEEDS A DECISION: recorded as Acquired, but CNBC (18 Sep 2025) reports Nvidia paid over $900M in cash and stock to license Enfabrica's technology and hire CEO Rochan Sankar and much of the team. That is an acqui-hire, not a purchase of the company — the entity still exists and enfabrica.net is live, footer dated 2026. There is no acquisition event in funding_rounds; the Acquired status came from the old stage field. Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Acquired by Nvidia 2025."
+      "notes": "Nvidia deal recorded as an acquisition though it was structured as a technology licence plus team hire; see the 2025 row.",
+      "valuation_as_of": "2025-09"
     },
     "hq_display": "Mountain View, CA",
     "capital_raised_usd": 290000000,
@@ -14694,14 +14676,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Postmates"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/fairy"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Postmates"
       }
     ],
     "metadata": {
@@ -15912,14 +15893,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Notion"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/flowdash"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Notion"
       }
     ],
     "metadata": {
@@ -16280,22 +16260,21 @@
       },
       {
         "date": "2026-03-11",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Zendesk"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
           "https://www.zendesk.com/newsroom/press-releases/zendesk-completes-acquisition-of-forethought/",
           "https://www.lw.com/en/news/latham-advises-forethought-in-acquisition-by-zendesk"
         ],
-        "notes": "Acquired by Zendesk (PE-owned by Hellman & Friedman and Permira since 2022). Announced Mar 11, 2026, closed late Mar 2026. Terms undisclosed; Reuters reported 'north of $200M' unverified. Biggest Zendesk deal in two decades."
+        "notes": "Acquired by Zendesk (PE-owned by Hellman & Friedman and Permira since 2022). Announced Mar 11, 2026, closed late Mar 2026. Terms undisclosed; Reuters reported 'north of $200M' unverified. Biggest Zendesk deal in two decades.",
+        "acquirer": "Zendesk"
       }
     ],
     "metadata": {
@@ -17766,20 +17745,19 @@
     "funding_rounds": [
       {
         "date": "1996-09",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": null,
         "valuation_usd": 220000000,
         "valuation_display": "$220M",
-        "lead_investors": [
-          "Cisco Systems"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y1996/m09/cisco-systems-completes-acquisition-of-granite-systems.html"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Cisco Systems"
       }
     ],
     "metadata": {
@@ -18138,16 +18116,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Facebook"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Facebook"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/grokstyle"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Facebook"
       }
     ],
     "metadata": {
@@ -18300,9 +18277,7 @@
         "amount_display": "~$20B",
         "valuation_usd": 20000000000,
         "valuation_display": "~$20B",
-        "lead_investors": [
-          "Nvidia"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
@@ -18310,7 +18285,8 @@
           "https://www.cnbc.com/2025/12/26/nvidia-groq-deal-is-structured-to-keep-fiction-of-competition-alive.html",
           "https://www.axios.com/2025/12/28/nvidia-groq-shareholders"
         ],
-        "notes": "Non-exclusive licensing agreement structured as de facto acquisition; ~$17B in cash across 3 installments through end of 2026. Founder Jonathan Ross and key leaders joined Nvidia. Groq nominally continues independently under CFO Simon Edwards as CEO."
+        "notes": "Non-exclusive licensing agreement structured as de facto acquisition; ~$17B in cash across 3 installments through end of 2026. Founder Jonathan Ross and key leaders joined Nvidia. Groq nominally continues independently under CFO Simon Edwards as CEO.",
+        "acquirer": "Nvidia"
       }
     ],
     "metadata": {
@@ -19495,19 +19471,20 @@
         "notes": ""
       },
       {
-        "date": "2023-01-01",
+        "date": "2023-04-25",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "LexisNexis"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by LexisNexis 2023"
+        "source_urls": [
+          "https://risk.lexisnexis.com/about-us/press-room/press-release/20230425-humanapi-acquisition"
+        ],
+        "notes": "No price disclosed.",
+        "acquirer": "LexisNexis Risk Solutions"
       }
     ],
     "metadata": {
@@ -20722,7 +20699,7 @@
       },
       {
         "date": "2025-01-01",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -21265,20 +21242,19 @@
     "funding_rounds": [
       {
         "date": "2004-02",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": null,
         "valuation_usd": 90000000,
         "valuation_display": "$90M",
-        "lead_investors": [
-          "Sun Microsystems"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://en.wikipedia.org/wiki/Andy_Bechtolsheim"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Sun Microsystems"
       }
     ],
     "metadata": {
@@ -21529,14 +21505,13 @@
         "amount_display": "$262M",
         "valuation_usd": 262000000,
         "valuation_display": "$262M",
-        "lead_investors": [
-          "Ocado Group"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.therobotreport.com/ocado-acquires-haddington-dynamics-kindred-for-287m/"
         ],
-        "notes": "Acquired by Ocado Group"
+        "notes": "Acquired by Ocado Group",
+        "acquirer": "Ocado Group"
       }
     ],
     "capital_raised_usd": 43000000,
@@ -21734,20 +21709,19 @@
       },
       {
         "date": "2012-03",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 775000000,
         "amount_display": "$775M",
         "valuation_usd": 775000000,
         "valuation_display": "$775M",
-        "lead_investors": [
-          "Amazon"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://press.aboutamazon.com/2012/3/amazon-com-to-acquire-kiva-systems-inc"
         ],
-        "notes": "All-cash acquisition. Now operates as Amazon Robotics."
+        "notes": "All-cash acquisition. Now operates as Amazon Robotics.",
+        "acquirer": "Amazon"
       }
     ],
     "metadata": {
@@ -21940,14 +21914,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "FD Technologies"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/kx-systems"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "FD Technologies"
       }
     ],
     "metadata": {
@@ -22609,14 +22582,13 @@
         "amount_display": "$70M",
         "valuation_usd": 70000000,
         "valuation_display": "$70M",
-        "lead_investors": [
-          "GoDaddy"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://techcrunch.com/2013/08/19/godaddy-acquires-local-business-data-provider-locu/"
         ],
-        "notes": "Acquired by GoDaddy"
+        "notes": "Acquired by GoDaddy",
+        "acquirer": "GoDaddy"
       }
     ],
     "icon_url": "https://cdn.prod.website-files.com/63179e8148d09425c400fbab/639b79b70b61a47762313d6d_ShEXUrftY0gF5Ic_6xhqsN3kQtNB_DPlvisTcmnUlSs.png",
@@ -23602,7 +23574,7 @@
       },
       {
         "date": "2026-05-28",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -24587,34 +24559,19 @@
       },
       {
         "date": "2025-04-23",
-        "acquirer": "Datadog",
-        "amount_usd": null,
-        "amount_display": "",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "source_urls": [
-          "https://techcrunch.com/2025/04/23/datadog-acquires-ai-powered-observability-startup-metaplane/"
-        ],
-        "notes": "",
-        "round": "Acquisition",
-        "kind": "event",
-        "lead_investors": [],
-        "other_investors": []
-      },
-      {
-        "date": "2026-01-01",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "dbt Labs"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by dbt Labs"
+        "source_urls": [
+          "https://www.datadoghq.com/about/latest-news/press-releases/datadog-metaplane-aquistion/"
+        ],
+        "notes": "No price in the release; Datadog’s Q1 2025 10-Q groups three acquisitions at about $180M combined. A second row claiming dbt Labs acquired Metaplane in 2026 was wrong and has been removed — Metaplane still ships as \"Metaplane by Datadog\".",
+        "acquirer": "Datadog"
       }
     ],
     "metadata": {
@@ -25736,14 +25693,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Salesforce"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-momentum/"
         ],
-        "notes": "Acquired by Salesforce, completed March 2, 2026. Integrated into Agentforce 360 and Slack."
+        "notes": "Acquired by Salesforce, completed March 2, 2026. Integrated into Agentforce 360 and Slack.",
+        "acquirer": "Salesforce"
       }
     ],
     "metadata": {
@@ -25886,7 +25842,7 @@
       },
       {
         "date": "",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -26641,7 +26597,7 @@
     "founding_year": 2002,
     "industry": "Consumer",
     "stage": "Series B",
-    "status": "Acquired",
+    "status": "Inactive",
     "yc_batch": "",
     "icon_url": "https://i.tracxn.com/logo/company/4d57fae725d96b82e4c79a19312d7fe?format=webp&height=120&width=120",
     "founders": [
@@ -26714,8 +26670,8 @@
         "notes": "Renamed Blue Noodle, shut down 2011"
       },
       {
-        "date": "2011-01-01",
-        "round": "Acquired",
+        "date": "2011",
+        "round": "Wind Down",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
@@ -26724,7 +26680,7 @@
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Renamed Blue Noodle, shut down 2011"
+        "notes": "Renamed Blue Noodle and shut down in 2011. Recorded as an acquisition with no acquirer, which it was not."
       }
     ],
     "metadata": {
@@ -27177,7 +27133,7 @@
       },
       {
         "date": "2023-11-08",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -28015,14 +27971,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Avanade"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/nuvalence"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Avanade"
       }
     ],
     "metadata": {
@@ -28319,15 +28274,14 @@
         "amount_display": "~$250M",
         "valuation_usd": 250000000,
         "valuation_display": "~$250M",
-        "lead_investors": [
-          "NVIDIA"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.geekwire.com/2024/chip-giant-nvidia-acquires-octoai-a-seattle-startup-that-helps-companies-run-ai-models/",
           "https://www.theinformation.com/articles/nvidia-recently-discussed-acquiring-software-startup-octoai-for-165-million"
         ],
-        "notes": "Acquired by NVIDIA. Base price ~$165M, up to ~$250M with retention incentives."
+        "notes": "Acquired by NVIDIA. Base price ~$165M, up to ~$250M with retention incentives.",
+        "acquirer": "NVIDIA"
       }
     ],
     "metadata": {
@@ -30007,16 +29961,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Google"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Google"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/owlchemy-labs"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Google"
       }
     ],
     "metadata": {
@@ -30900,14 +30853,13 @@
         "amount_display": "$23M",
         "valuation_usd": 23000000,
         "valuation_display": "$23M",
-        "lead_investors": [
-          "Fitbit"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/pebble"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Fitbit"
       }
     ],
     "metadata": {
@@ -31391,15 +31343,14 @@
         "amount_display": "$162M",
         "valuation_usd": 162000000,
         "valuation_display": "$162M",
-        "lead_investors": [
-          "Ascential plc"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.ascential.com/files/content-files/press-releases/Acquisition%20of%20Perpetua.pdf",
           "https://www.morningstar.co.uk/uk/news/AN_1618472215288499100/ascential-acquires-perpetua-labs-for-up-to-usd162-million.aspx"
         ],
-        "notes": "$52M upfront + deferred consideration; max $250M if all earnout targets met"
+        "notes": "$52M upfront + deferred consideration; max $250M if all earnout targets met",
+        "acquirer": "Ascential plc"
       }
     ],
     "metadata": {
@@ -31560,34 +31511,20 @@
         "kind": "funding"
       },
       {
-        "amount_usd": null,
-        "date": "2023-02",
-        "valuation_display": "",
-        "lead_investors": [
-          "Infillion"
-        ],
-        "source_urls": [],
-        "notes": "",
-        "round": "Acquired",
-        "kind": "event",
-        "other_investors": [],
-        "amount_display": "",
-        "valuation_usd": null
-      },
-      {
-        "date": "2024-01-01",
+        "date": "2023-02-07",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Infillion"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Infillion"
+        "source_urls": [
+          "https://infillion.com/blog/infillion-acquires-phonic/"
+        ],
+        "notes": "No price disclosed. Two duplicate rows collapsed into this one.",
+        "acquirer": "Infillion"
       }
     ],
     "metadata": {
@@ -32171,7 +32108,7 @@
       },
       {
         "date": "2025-04",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -32518,12 +32455,11 @@
         "amount_display": "~$20M",
         "valuation_usd": 20000000,
         "valuation_display": "~$20M",
-        "lead_investors": [
-          "Twitter"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Acquired by Twitter March 2012"
+        "notes": "Acquired by Twitter March 2012",
+        "acquirer": "Twitter"
       }
     ],
     "metadata": {
@@ -33356,19 +33292,21 @@
         "notes": ""
       },
       {
-        "date": "2021-01-01",
+        "date": "2021-06-17",
         "round": "Acquired",
         "kind": "event",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Gartner"
-        ],
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": 30000000,
+        "valuation_display": "$30M",
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Gartner 2021"
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/749251/000074925121000030/it-20210630.htm",
+          "https://www.gartner.com/en/about/acquisitions"
+        ],
+        "notes": "No press release; date and price from Gartner’s Form 10-Q for the quarter ended 30 Jun 2021 — $30.0M plus up to $4.5M contingent on continued employment.",
+        "acquirer": "Gartner"
       }
     ],
     "metadata": {
@@ -33563,16 +33501,15 @@
         "amount_display": "$200M",
         "valuation_usd": 200000000,
         "valuation_display": "$200M",
-        "lead_investors": [
-          "AOL"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "AOL"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/quackcom"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "AOL"
       }
     ],
     "metadata": {
@@ -36037,7 +35974,7 @@
       },
       {
         "date": "2022-03-02",
-        "round": "IPO (SPAC)",
+        "round": "SPAC",
         "kind": "event",
         "amount_usd": 261750000,
         "amount_display": "$261.75M",
@@ -37345,14 +37282,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Atlassian"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.secoda.co/blog/atlassian-acquires-secoda"
         ],
-        "notes": "Acquired by Atlassian December 4, 2025. Integrated into Rovo AI platform for data catalog and governance."
+        "notes": "Acquired by Atlassian December 4, 2025. Integrated into Rovo AI platform for data catalog and governance.",
+        "acquirer": "Atlassian"
       }
     ],
     "metadata": {
@@ -37441,19 +37377,20 @@
         "notes": ""
       },
       {
-        "date": "2025-01-01",
+        "date": "2025-11-24",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Snowflake"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Snowflake 2025"
+        "source_urls": [
+          "https://www.snowflake.com/en/blog/snowflake-acquire-select-star/"
+        ],
+        "notes": "Team and platform technology; no terms disclosed.",
+        "acquirer": "Snowflake"
       }
     ],
     "metadata": {
@@ -38725,16 +38662,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Workday"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Workday"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/simplify"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Workday"
       }
     ],
     "metadata": {
@@ -39143,14 +39079,13 @@
         "amount_display": "$27.7B",
         "valuation_usd": 27700000000,
         "valuation_display": "$27.7B",
-        "lead_investors": [
-          "Salesforce"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.salesforce.com/news/press-releases/2021/07/21/salesforce-slack-deal-close/"
         ],
-        "notes": "Acquired by Salesforce"
+        "notes": "Acquired by Salesforce",
+        "acquirer": "Salesforce"
       }
     ],
     "metadata": {
@@ -39713,14 +39648,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Credit Karma"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/snowball"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Credit Karma"
       }
     ],
     "metadata": {
@@ -39799,14 +39733,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Sound.xyz"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/soho"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Sound.xyz"
       }
     ],
     "metadata": {
@@ -39934,14 +39867,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Rhodium Software"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/solomomo"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Rhodium Software"
       },
       {
         "date": "",
@@ -40386,7 +40318,7 @@
       },
       {
         "date": "2022-04-26",
-        "round": "IPO (SPAC)",
+        "round": "SPAC",
         "kind": "event",
         "amount_usd": 244000000,
         "amount_display": "$244M",
@@ -42712,14 +42644,13 @@
         "amount_display": "Acquired",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Grammarly"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://techcrunch.com/2025/07/01/grammarly-acquires-ai-email-client-superhuman/"
         ],
-        "notes": "Acquired by Grammarly"
+        "notes": "Acquired by Grammarly",
+        "acquirer": "Grammarly"
       }
     ],
     "metadata": {
@@ -43002,7 +42933,7 @@
       },
       {
         "date": "2021-11-03",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -43271,15 +43202,14 @@
         "amount_display": "$102.5M",
         "valuation_usd": 102500000,
         "valuation_display": "$102.5M",
-        "lead_investors": [
-          "Nuance Communications"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://techcrunch.com/2011/10/06/swype-the-maker-of-speedy-virtual-keyboards-to-be-acquired-by-nuance-for-100-million/",
           "https://www.seattletimes.com/business/nuance-snags-swype-in-deal-worth-103-million/"
         ],
-        "notes": "$77.5M upfront + $25M deferred over 18 months"
+        "notes": "$77.5M upfront + $25M deferred over 18 months",
+        "acquirer": "Nuance Communications"
       }
     ],
     "metadata": {
@@ -43809,12 +43739,11 @@
         "amount_display": "$15.7B",
         "valuation_usd": 15700000000,
         "valuation_display": "$15.7B",
-        "lead_investors": [
-          "Salesforce"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "All-stock acquisition by Salesforce"
+        "notes": "All-stock acquisition by Salesforce",
+        "acquirer": "Salesforce"
       }
     ],
     "metadata": {
@@ -44058,7 +43987,7 @@
     "founding_year": 2013,
     "industry": "Enterprise",
     "stage": "Series C",
-    "status": "Acquired",
+    "status": "Private",
     "yc_batch": "",
     "icon_url": "https://img.logo.dev/tamr.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
@@ -44130,23 +44059,6 @@
           "https://www.crunchbase.com/funding_round/tamr-series-c--43ebf3fc"
         ],
         "notes": ""
-      },
-      {
-        "date": "2025-01-01",
-        "round": "Acquired",
-        "kind": "event",
-        "amount_usd": null,
-        "amount_display": "Acquired",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Alteryx"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.crunchbase.com/organization/tamr"
-        ],
-        "notes": "Acquired by Alteryx"
       }
     ],
     "metadata": {
@@ -44157,7 +44069,7 @@
       "last_verified": "2026-04-01T00:00:00Z",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Recorded here as acquired by Alteryx; no such transaction exists. Alteryx Ventures made a strategic investment in Tamr announced 12 Jul 2023, which is the likely source of the error. Tamr is independent and operating — its own press page carries \"Tamr Reports Strong FY26 Growth\" dated 5 Mar 2026. Alteryx itself was taken private by Clearlake and Insight in Mar 2024. "
     },
     "hq_display": "Cambridge, MA",
     "capital_raised_usd": 26000000,
@@ -44275,19 +44187,20 @@
         "notes": ""
       },
       {
-        "date": "2025-01-01",
+        "date": "2025-08-22",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Snowflake"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Snowflake"
+        "source_urls": [
+          "https://finance.yahoo.com/news/exclusive-databricks-buy-sequoia-backed-tecton-231059015.html"
+        ],
+        "notes": "Acquirer corrected from Snowflake, which was an investor and integration partner, not the buyer. Terms not disclosed; paid in Databricks private shares. tecton.ai/blog now redirects to the Databricks blog.",
+        "acquirer": "Databricks"
       }
     ],
     "metadata": {
@@ -44491,9 +44404,10 @@
           "Hyundai"
         ],
         "source_urls": [
-          "https://news.crunchbase.com/semiconductors-and-5g/tenstorrent-ai-chips-unicorn-jim-keller/"
+          "https://www.prnewswire.com/news-releases/tenstorrent-closes-693m-of-series-d-funding-led-by-samsung-securities-and-afw-partners-302319584.html",
+          "https://betakit.com/ai-chipmaker-tenstorrent-closes-nearly-700-million-usd-series-d-at-2-6-billion-valuation/"
         ],
-        "notes": ""
+        "notes": "Company disclosed a $2B pre-money; $2B + $693M is about $2.69B post-money. Bloomberg and BetaKit both published $2.6B, which is the figure in general use and the one recorded here."
       }
     ],
     "metadata": {
@@ -44504,12 +44418,13 @@
         "https://betakit.com/hardware-startup-tenstorrent-raises-over-200-million-in-funding-claims-1-billion-valuation/"
       ],
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "valuation_usd": 2700000000,
-      "valuation_display": "$2.7B",
+      "valuation_usd": 2600000000,
+      "valuation_display": "$2.6B",
       "valuation_type": "post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://techcrunch.com/2025/01/13/ai-chip-startup-tenstorrent-raises-693m/",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series D 2025."
+      "notes": "The $2.7B previously carried here and the $2.6B on the round were never two facts — both are roundings of the same December 2024 Series D. The company disclosed only a $2B pre-money.",
+      "valuation_as_of": "2024-12"
     },
     "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 926200000,
@@ -45212,14 +45127,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Allocate"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.businesswire.com/news/home/20250723951275/en/Allocate-Announces-Strategic-Asset-Acquisition-of-The-Coteries-Platform-Advancing-the-Vision-for-the-Operating-System-of-Private-Markets"
         ],
-        "notes": "Strategic asset acquisition of The Coterie's platform by Allocate"
+        "notes": "Strategic asset acquisition of The Coterie's platform by Allocate",
+        "acquirer": "Allocate"
       }
     ],
     "metadata": {
@@ -45541,16 +45455,15 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Nav"
-        ],
+        "lead_investors": [],
         "other_investors": [
           "Nav"
         ],
         "source_urls": [
           "https://www.crunchbase.com/organization/tillful"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Nav"
       }
     ],
     "metadata": {
@@ -46943,14 +46856,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Dropbox"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/umano"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Dropbox"
       }
     ],
     "metadata": {
@@ -47456,16 +47368,15 @@
         "date": "2012-02-28",
         "amount_usd": 15000000,
         "amount_display": "~$15M",
-        "lead_investors": [
-          "Groupon"
-        ],
+        "lead_investors": [],
         "source_urls": [
           "https://allthingsd.com/20120228/groupon-acquires-travel-search-company-uptake/"
         ],
         "valuation_usd": 15000000,
         "valuation_display": "~$15M",
         "notes": "",
-        "other_investors": []
+        "other_investors": [],
+        "acquirer": "Groupon"
       }
     ],
     "metadata": {
@@ -47535,34 +47446,20 @@
       },
       {
         "date": "2025-12-10",
-        "acquirer": "Stripe",
-        "amount_usd": null,
-        "amount_display": "",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "source_urls": [
-          "https://www.coindesk.com/business/2025/12/10/stripe-acqui-hires-crypto-payments-startup-valora-venturing-further-into-stablecoins"
-        ],
-        "notes": "",
-        "round": "Acquisition",
-        "kind": "event",
-        "lead_investors": [],
-        "other_investors": []
-      },
-      {
-        "date": "2026-01-01",
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Opera"
-        ],
+        "lead_investors": [],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "Acquired by Opera"
+        "source_urls": [
+          "https://valora.xyz/blog/valoras-next-chapter",
+          "https://www.coindesk.com/business/2025/12/10/stripe-acqui-hires-crypto-payments-startup-valora-venturing-further-into-stablecoins"
+        ],
+        "notes": "Acqui-hire: the team joined Stripe and the app returned to cLabs, which continues to develop it. A second row claiming Opera acquired Valora in 2026 was wrong — Opera’s Celo wallet is MiniPay, its own product, not Valora.",
+        "acquirer": "Stripe"
       }
     ],
     "metadata": {
@@ -48436,14 +48333,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Meta"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/whisper-ai"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Meta"
       }
     ],
     "metadata": {
@@ -48522,14 +48418,13 @@
         "amount_display": "$20M",
         "valuation_usd": 20000000,
         "valuation_display": "$20M",
-        "lead_investors": [
-          "Apple"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://techcrunch.com/2013/03/24/apple-acquires-indoor-gps-startup-wifislam-for-20m/"
         ],
-        "notes": ""
+        "notes": "",
+        "acquirer": "Apple"
       }
     ],
     "metadata": {
@@ -48865,7 +48760,7 @@
       },
       {
         "date": "2024-04-19",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -49283,7 +49178,7 @@
       },
       {
         "date": "2026-02-03",
-        "round": "Acquisition",
+        "round": "Acquired",
         "kind": "event",
         "amount_usd": 0,
         "amount_display": "",
@@ -49767,14 +49662,13 @@
         "amount_display": "$305M",
         "valuation_usd": 305000000,
         "valuation_display": "$305M",
-        "lead_investors": [
-          "Compaq"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://en.wikipedia.org/wiki/Zip2"
         ],
-        "notes": "Acquired by Compaq"
+        "notes": "Acquired by Compaq",
+        "acquirer": "Compaq"
       }
     ],
     "metadata": {
@@ -50044,14 +49938,13 @@
         "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
-          "Palo Alto Networks"
-        ],
+        "lead_investors": [],
         "other_investors": [],
         "source_urls": [
           "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security"
         ],
-        "notes": "Acquired by Palo Alto Networks (NASDAQ: PANW) to deepen agentic capabilities in Cortex. Financial terms not disclosed in the press release, and no outlet covering the announcement has reported a figure."
+        "notes": "Acquired by Palo Alto Networks (NASDAQ: PANW) to deepen agentic capabilities in Cortex. Financial terms not disclosed in the press release, and no outlet covering the announcement has reported a figure.",
+        "acquirer": "Palo Alto Networks"
       }
     ],
     "capital_raised_usd": 29200000,

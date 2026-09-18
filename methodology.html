@@ -255,12 +255,12 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <p>At least one founder or co-founder must have a meaningful Canadian connection, defined as one of the following:</p>
   <ul>
     <li><strong>Birthplace</strong> — born in Canada or raised there through formative years</li>
-    <li><strong>Education</strong> — attended a Canadian university, college, or secondary school</li>
+    <li><strong>Education</strong> — attended a Canadian university, college, or secondary school. Secondary school counts on its own: a founder who did high school in Canada and university elsewhere qualifies. Three entries currently rest on a Canadian secondary school alone.</li>
     <li><strong>Citizenship</strong> — Canadian citizen or permanent resident</li>
     <li><strong>Birthplace + Education</strong> — born in Canada and educated at a Canadian institution</li>
     <li><strong>Education + Citizenship</strong> — educated in Canada and holds Canadian citizenship</li>
   </ul>
-  <p>Brief visits, conference attendance, or short-term work stints do not qualify. The connection must be substantive enough to have shaped the founder's trajectory.</p>
+  <p>Brief visits, conference attendance, or short-term work stints do not qualify. The connection must be substantive enough to have shaped the founder's trajectory. Employment at a Canadian company is not by itself a qualifying connection, and neither is living in Canada without one of the ties above.</p>
 
   <h3>Company requirements</h3>
   <ul>
@@ -398,7 +398,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <tr><td>bio</td><td>Brief biographical summary</td></tr>
     <tr><td>canadian_connection_type</td><td>birthplace, education, citizenship, or compound</td></tr>
     <tr><td>canadian_institution</td><td>Primary Canadian institution</td></tr>
-    <tr><td>canadian_institutions</td><td>Array of all Canadian institutions attended</td></tr>
+    <tr><td>canadian_institutions</td><td>Array of all Canadian institutions attended, in the order they were attended. The institution filter and the charts read <code>canadian_institution</code>, the primary one, so a founder's second and later institutions appear on their profile but not in the filter counts.</td></tr>
   </table>
 
   <h3>Funding round fields</h3>
