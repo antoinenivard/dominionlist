@@ -50311,5 +50311,118 @@
       "last_verified": "2026-09-18T19:45:00Z",
       "notes": "YC Fall 2026, announced in YC’s investor digest on 18 Sep 2026. HQ San Francisco per the YC company page (ycombinator.com/companies/lark-2 — note /companies/lark is a different, unrelated Lark from S25); LarkAI Technologies, Inc. is a Delaware corporation per the site’s terms, which are governed by Delaware law. No funding disclosed beyond the standard YC deal, so capital raised is left null rather than assumed. MICHAEL WANG’S CONNECTION IS SELF-REPORTED: the Team Canada badminton claim comes from his own YC founder bio and nothing else. Badminton Canada rosters, Badminton Ontario and BWF results were searched and he does not appear on any of them. Representing Canada nationally would require citizenship, which is why it is recorded that way, but it rests on one self-authored sentence. Jason Wang’s University of Toronto degree is also self-reported, on YC and LinkedIn, and is the connection the entry actually stands on."
     }
+  },
+  {
+    "id": "adaption-labs",
+    "name": "Adaption Labs",
+    "website": "https://adaptionlabs.ai",
+    "description": "Builds AI systems that keep learning after deployment — models that adapt continuously from experience rather than being frozen at training time. Products are Adaptive Data and AutoScientist.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/adaptionlabs.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "sara-hooker",
+        "name": "Sara Hooker",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/sararosehooker/",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Adaption Labs. PhD in computer science at Mila, the Quebec AI Institute, supervised by Hugo Larochelle and Aaron Courville. Previously VP of Research at Cohere and founder of Cohere For AI; before that a research scientist at Google Brain. Named by Time as one of the most influential people in AI.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sara_Hooker",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Mila — Quebec AI Institute",
+        "canadian_institutions": [
+          "Mila — Quebec AI Institute"
+        ],
+        "canadian_city": "Montreal, QC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-02-04",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 50000000,
+        "amount_display": "$50M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Emergence Capital"
+        ],
+        "other_investors": [
+          "Mozilla Ventures",
+          "Fifty Years",
+          "Threshold Ventures",
+          "Alpha Intelligence Capital",
+          "E14 Fund",
+          "Neo"
+        ],
+        "source_urls": [
+          "https://fortune.com/2026/02/04/adaption-labs-50-million-seed-funding-emergence-captial-sara-hooker-sudip-roy-ai-models-that-learn-on-the-fly/"
+        ],
+        "notes": "No SEC Form D found, so the round was presumably done on SAFEs. A ~$1B valuation has been reported by weaker outlets only and is not recorded here."
+      }
+    ],
+    "capital_raised_usd": 50000000,
+    "capital_raised_display": "$50M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T22:00:00Z",
+      "notes": "Found by screening Neo-backed companies — Neo participated in the seed. HQ is San Francisco per the LinkedIn company page, Fortune and TechCrunch, and most open roles; the terms and privacy pages render client-side and could not be read, so there is no governing-law clause to test. CANADIAN CONNECTION NEEDS A NOTE: every citable source, including her own site and Wikipedia’s infobox, gives her doctorate as \"Mila — Quebec AI Institute\". Mila is a research institute and does not confer degrees; its students graduate from Université de Montréal, McGill, Polytechnique or HEC. Both her supervisors are attached to Université de Montréal, which makes UdeM the near-certain conferring university, but no public record confirms it, so the institution is recorded as the sources state it. Her undergraduate degree is from Carleton College in Minnesota, not Carleton University in Ottawa. Her years at Cohere, a Canadian company, are employment and do not count. Co-founder Sudip Roy, ex-Cohere, has no identified Canadian connection and is not listed."
+    }
+  },
+  {
+    "id": "extraordinary",
+    "name": "Extraordinary",
+    "website": "https://extraordinary.com",
+    "description": "Prepares O-1 and EB-1A petitions for people applying to the US on extraordinary-ability visas, pairing software-driven evidence assembly with in-house immigration attorneys.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Early Stage",
+    "status": "Private",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/extraordinary.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "sigil-wen",
+        "name": "Sigil Wen",
+        "role": "Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder of Extraordinary. From Toronto; flew to San Francisco at 17 and had his own EB-1A green card approved at 20. Thiel Fellow, 2025 class. Now also building Conway, a frontier AI and cryptography lab.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T22:00:00Z",
+      "notes": "Found by screening the Thiel Fellowship. HQ from the company’s own terms of service, which give 765 Market Street, San Francisco, CA 94103 — though the governing-law clause says only \"the laws of The United States\" and names no state, so the address rather than the clause is the signal. Canadian tie from the Thiel Foundation’s own 2025 class press release, which lists him as \"Sigil Wen: Toronto, Canada\"; his personal site (sigilwen.ca) says he flew from Toronto to San Francisco at 17. No Canadian university — he opted out of Penn’s M&T program — so the connection is upbringing. Title is Founder per the company’s own team page; Mo Zia is CEO. Wen describes himself as Executive Chairman, which the site does not say. No funding disclosed. He is also founder of Conway (conway.tech), an AI and cryptography lab, which is not listed separately because its headquarters is inferred from aggregators rather than documented."
+    }
   }
 ]
