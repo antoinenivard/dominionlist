@@ -50445,7 +50445,7 @@
         "name": "Galen Mead",
         "role": "Co-Founder & Co-CEO",
         "linkedin": "",
-        "x_url": "",
+        "x_url": "https://x.com/G413N",
         "bio": "Co-Founder and Co-CEO of Standard Intelligence. Left his undergraduate programme at the University of Toronto to build the company full time, having met co-founder Devansh Pandey through the 2022 Atlas Fellowship. Thiel Fellow, 2026 class. Signs SEC filings as Executive Officer and Director.",
         "wikipedia_url": "",
         "canadian_connection_type": "education",
@@ -50462,6 +50462,23 @@
     ],
     "funding_rounds": [
       {
+        "date": "2024-12",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Lachy Groom"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://x.com/G413N"
+        ],
+        "notes": "Mead, 30 Apr 2026: \"Lachy called me up on thanksgiving day back in 2024 to offer to lead our seed round. At the time we had a few weeks of runway left and no one else had the conviction for a research bet.\" No amount disclosed. Dated to December 2024 — the call was US Thanksgiving, 28 Nov 2024, and the close is not stated."
+      },
+      {
         "date": "2026-04-30",
         "round": "Series A",
         "kind": "funding",
@@ -50473,14 +50490,18 @@
           "Sequoia Capital"
         ],
         "other_investors": [
-          "Spark Capital"
+          "Spark Capital",
+          "Lachy Groom",
+          "Andrej Karpathy",
+          "Milan Kovac"
         ],
         "source_urls": [
+          "https://x.com/si_pbc",
           "https://www.sec.gov/Archives/edgar/data/2135700/000213570026000001/primary_doc.xml",
           "https://www.sec.gov/Archives/edgar/data/2135700/000213570026000002/primary_doc.xml",
           "https://nextomoro.com/standard-intelligence/"
         ],
-        "notes": "Reported as $75M at about $500M. Two Form Ds filed 5 Jun 2026 record $35,613,499 sold to 36 investors (first sale 2 Apr 2026) and $44,199,974 to 10 investors (first sale 13 Apr 2026), $79.81M in total — consistent with the headline. The $75M figure is recorded because that is what was announced; the date is the announcement, not the first sale."
+        "notes": "Reported as $75M at about $500M. Two Form Ds filed 5 Jun 2026 record $35,613,499 sold to 36 investors (first sale 2 Apr 2026) and $44,199,974 to 10 investors (first sale 13 Apr 2026), $79.81M in total — consistent with the headline. The $75M figure is recorded because that is what was announced; the date is the announcement, not the first sale. Announced by the company on X on 30 Apr 2026: \"We’ve raised 75m in new funding from Sequoia and Spark Capital\", naming Sonya Huang, Yasmin Razavi and Miko A as the partners, plus Andrej Karpathy, roon and Milan Kovac as angels and advisors."
       }
     ],
     "capital_raised_usd": 75000000,
@@ -50492,7 +50513,7 @@
       "valuation_as_of": "2026-04",
       "valuation_source_url": "https://nextomoro.com/standard-intelligence/",
       "last_verified": "2026-09-18T23:30:00Z",
-      "notes": "Found by screening the Thiel Fellowship 2026 class. Company evidence is unusually strong: two SEC Form Ds give 548 Market St #26412, San Francisco CA 94104, Delaware incorporation, year 2024, with Galen Mead as Executive Officer and Director and Devansh Ratna Pandey as President. CANADIAN TIE RESTS ON TWO SECONDARY SOURCES, NOT A PRIMARY ONE. Nextomoro’s profile (8 May 2026) is the more specific: \"Both left their undergraduate programmes (Mead from the University of Toronto) to pursue the company full time.\" Specter Insights’ 2026 Thiel class report (23 Apr 2026) independently counts him as the class’s one Canadian, \"by edu\", and its card reads \"Mead comes out of the University of Toronto\". Against that: his official Thiel hometown is Chapel Hill, North Carolina, his personal site nel.ag is a stub, his LinkedIn shows no education section, and Sequoia’s own write-up says only that he \"left his undergraduate program\" without naming the school. Both sources are aggregator-style publications and may share an upstream. Added on the strength of two independent statements naming the university; it would be worth replacing with a primary source if one appears. Co-founder Devansh Pandey has no identified Canadian connection and is not listed."
+      "notes": "Found by screening the Thiel Fellowship 2026 class. Company evidence is unusually strong: two SEC Form Ds give 548 Market St #26412, San Francisco CA 94104, Delaware incorporation, year 2024, with Galen Mead as Executive Officer and Director and Devansh Ratna Pandey as President. CANADIAN TIE RESTS ON TWO SECONDARY SOURCES, NOT A PRIMARY ONE. Nextomoro’s profile (8 May 2026) is the more specific: \"Both left their undergraduate programmes (Mead from the University of Toronto) to pursue the company full time.\" Specter Insights’ 2026 Thiel class report (23 Apr 2026) independently counts him as the class’s one Canadian, \"by edu\", and its card reads \"Mead comes out of the University of Toronto\". Against that: his official Thiel hometown is Chapel Hill, North Carolina, his personal site nel.ag is a stub, his LinkedIn shows no education section, and Sequoia’s own write-up says only that he \"left his undergraduate program\" without naming the school. Both sources are aggregator-style publications and may share an upstream. His X account @G413N was also checked: the profile carries no bio text, and a from:G413N search for Toronto, Canada, UofT or \"U of T\" returns nothing, so it neither confirms nor contradicts. Added on the strength of two independent statements naming the university; it would be worth replacing with a primary source if one appears. Co-founder Devansh Pandey has no identified Canadian connection and is not listed."
     }
   }
 ]
