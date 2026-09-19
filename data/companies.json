@@ -50515,5 +50515,247 @@
       "last_verified": "2026-09-18T23:30:00Z",
       "notes": "Found by screening the Thiel Fellowship 2026 class. Company evidence is unusually strong: two SEC Form Ds give 548 Market St #26412, San Francisco CA 94104, Delaware incorporation, year 2024, with Galen Mead as Executive Officer and Director and Devansh Ratna Pandey as President. CANADIAN TIE RESTS ON TWO SECONDARY SOURCES, NOT A PRIMARY ONE. Nextomoro’s profile (8 May 2026) is the more specific: \"Both left their undergraduate programmes (Mead from the University of Toronto) to pursue the company full time.\" Specter Insights’ 2026 Thiel class report (23 Apr 2026) independently counts him as the class’s one Canadian, \"by edu\", and its card reads \"Mead comes out of the University of Toronto\". Against that: his official Thiel hometown is Chapel Hill, North Carolina, his personal site nel.ag is a stub, his LinkedIn shows no education section, and Sequoia’s own write-up says only that he \"left his undergraduate program\" without naming the school. Both sources are aggregator-style publications and may share an upstream. His X account @G413N was also checked: the profile carries no bio text, and a from:G413N search for Toronto, Canada, UofT or \"U of T\" returns nothing, so it neither confirms nor contradicts. Added on the strength of two independent statements naming the university; it would be worth replacing with a primary source if one appears. Co-founder Devansh Pandey has no identified Canadian connection and is not listed."
     }
+  },
+  {
+    "id": "lumen-labs",
+    "name": "Lumen Labs",
+    "website": "https://lumenresearch.co",
+    "description": "Physical-AI lab betting that robots should learn from real-time interaction rather than from demonstrations — no teleoperation, no hand-coded behaviour — aimed at systems that generalise in unstructured environments.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/lumenresearch.co?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "harry-gandhi",
+        "name": "Harry Gandhi",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/harrygandhi",
+        "x_url": "https://x.com/theharrygandhi",
+        "bio": "Founder of Lumen Labs. Science and business student at the University of Waterloo, where he founded Medella Health through Velocity before leaving as a 2015 Thiel Fellow. Also works with 1517 Fund, backing independent researchers and deep-tech founders.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T23:59:00Z",
+      "notes": "FOUNDING YEAR IS AN ESTIMATE — no source states it. 2025 is inferred from the company being pre-seed with a team of two, a robotics job posting dated 14 Sep 2026 and stated runway into 2027. Correct it if a real date appears. HQ: the site publishes no address, terms or privacy policy, so there is no governing-law clause to test; San Francisco comes from the company’s own job posting, which says \"a funded pre-seed physical AI startup in San Francisco\" and \"in-person in San Francisco\". Note Gandhi’s own LinkedIn location reads Toronto. Funded pre-seed per the same posting, with no amount, date or investor disclosed, so no round is recorded. Do not confuse with lumen-labs.ai, an unrelated San Jose company, or with Lumen Technologies."
+    }
+  },
+  {
+    "id": "axiome",
+    "name": "Axiome",
+    "website": "https://axiome.bio",
+    "description": "Developed low-cost, high-throughput electronic single-molecule biosensors for drug discovery and point-of-care molecular diagnostics.",
+    "hq_city": "South San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "samarth-athreya",
+        "name": "Samarth Athreya",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/samarth-athreya-1003b4147",
+        "x_url": "https://x.com/iSamarthAthreya",
+        "bio": "Founder and CEO of Axiome from 2023 until its acquisition in 2025. From Burlington, Ontario; attended Fern Hill School and the University of Waterloo. Thiel Fellow, 2023 class.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Burlington, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-08",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/samarth-athreya-1003b4147/details/experience/"
+        ],
+        "notes": "Acquired privately in August 2025; the buyer has never been named. Athreya’s own LinkedIn entry for Axiome reads \"Privately acquired as of August 2025\", and the founding engineer independently describes driving strategy \"enabling acquisition within 1.5 years\". No press release, no trade coverage, nothing in EDGAR — consistent with a quiet deal. axiome.bio was archived continuously until 5 Aug 2025 and has no captures after that.",
+        "acquirer": "Undisclosed"
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T23:59:00Z",
+      "notes": "FUNDING IS DISPUTED AND SO IS LEFT UNRECORDED. Athreya’s own LinkedIn says \"Raised $6M from iconic investors (who were early in companies like SpaceX, Tesla, Solugen)\"; Tracxn and PitchBook both report $1.5M from two investors, naming 1517 Fund and Caffeinated Capital, with Tracxn adding Valor Equity Partners. No SEC Form D exists to arbitrate and no round was ever announced, so the $1.5M is probably the pre-seed only. Founded 2022 per the site footer \"© 2022 Axiome\"; Athreya dates his own role from Jun 2023, which likely reflects going full time. Sole founder — the Thiel release names only him, and Nagendra Athreya is titled Founding Software Engineer, not co-founder. HQ South San Francisco per both their LinkedIn experience entries; the company page and site say simply \"San Francisco\". The website no longer resolves."
+    }
+  },
+  {
+    "id": "kynplex",
+    "name": "Kynplex",
+    "website": "",
+    "description": "Network and database of research labs, letting labs, biotech companies and investors publish projects and publications and find collaborators. Built at the Harvard Innovation Lab.",
+    "hq_city": "Cambridge",
+    "hq_region": "MA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Inactive",
+    "founding_year": 2014,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "grace-xiao",
+        "name": "Grace Xiao",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Kynplex from 2014 to 2017. Born in Vancouver, British Columbia, to Chinese immigrant parents and raised there; studied neurobiology and economics at Harvard and left as a 2016 Thiel Fellow. Later an epilepsy researcher at Massachusetts General Hospital and now a medical student at Johns Hopkins.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Vancouver, BC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2015-02",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Rough Draft Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://medium.com/rough-draft-ventures/kynplex-a-dynamic-network-of-research-labs-259fb3618f56"
+        ],
+        "notes": "Rough Draft Ventures, General Catalyst’s student fund, announced the investment in its own post; no amount was disclosed. Xiao separately received the $100,000 Thiel Fellowship grant in 2016, which went to her rather than to the company. Support also came from Elsevier and the Harvard Innovation Lab."
+      },
+      {
+        "date": "2019",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Both founders had left by December 2017 and January 2018. kynplex.com still served the product in July 2019 and was a Namecheap parking page by 1 September 2019, so the domain lapsed that August; it is now listed for sale. Recorded as wound down in 2019, though operationally it ended in 2018."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T23:59:00Z",
+      "notes": "Founded October/November 2014, not 2016 — 2016 is the year of Xiao’s Thiel Fellowship, and at least one source conflates the two. Confirmed three ways: Raul Jordan’s LinkedIn dates his co-founder role Oct 2014 to Jan 2018, Xiao’s dates hers Nov 2014 to Dec 2017, and the first web archive capture of kynplex.com is 6 Oct 2014. website left empty because the domain is now parked for sale. Co-founder Raul E. Jordan has no identified Canadian connection and is not listed; he went on to co-found Prysmatic Labs, acquired by Offchain Labs in 2022."
+    }
+  },
+  {
+    "id": "scanate",
+    "name": "Scanate",
+    "website": "",
+    "description": "Y Combinator S16 company, also traded as Fellow, building an API for invoice financing. The same vehicle became one of the earliest firms advising and investing in web3.",
+    "hq_city": "Mountain View",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Early Stage",
+    "status": "Inactive",
+    "founding_year": 2016,
+    "yc_batch": "S'16",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "panashe-mahachi",
+        "name": "Panashe Mahachi",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/pmahachi",
+        "x_url": "",
+        "bio": "Co-Founder of Scanate, 2016 to 2019, and a 2016 Thiel Fellow who studied computer science at the University of Waterloo. Went on to co-found L4, where he built and ran The Stable Fund, an early-stage crypto fund launched with MakerDAO whose investments included OpenSea’s seed round.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2019-09",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/scanate-fellow"
+        ],
+        "notes": "Y Combinator’s directory flags the company Inactive, and Mahachi’s own LinkedIn ends the role in September 2019. The scanate.com domain was already parked by November 2018; the operating domain in 2018 press was scanate.co."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-18T23:59:00Z",
+      "notes": "Listed by YC as \"Scanate/Fellow\", Summer 2016, team size two, status Inactive, website joinfellow.com. HQ CONFLICT: Mahachi’s own LinkedIn says Mountain View, California; YC’s directory says San Francisco. Mountain View recorded, on his own statement. No funding beyond the standard YC investment is documented, and no SEC Form D exists. Co-founder Kingsong Chen has no identified Canadian connection and is not listed. L4 IS A SEPARATE COMPANY, not a rename — Ether Capital’s Aug 2018 release says Mahachi is \"Co-Founder of both L4 and Scanate\". L4 was a web3 venture studio founded about eighteen months later with Ethan Wilding, which ran The Stable Fund with MakerDAO, reported at $45M in contemporaneous press and described as $50M on his profile. Both roles ended September 2019."
+    }
   }
 ]

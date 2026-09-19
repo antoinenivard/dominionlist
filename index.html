@@ -2289,8 +2289,14 @@ function openDetail(c) {
       return '<tr>'
         + '<td>' + (r.year || r.date || '\u2014') + '</td>'
         /* acquirer was recorded on 14 rounds and read by nothing, so the table
-           said "Acquisition" without ever saying by whom. */
-        + '<td>' + (r.stage || 'Unknown') + ((r.acquirer) ? ' <span style="color:var(--fg-muted)">by ' + r.acquirer + '</span>' : '') + '</td>'
+           said "Acquisition" without ever saying by whom. 'Undisclosed' means
+           the deal is documented but the buyer never was — say that, rather
+           than rendering "Acquired by Undisclosed". */
+        + '<td>' + (r.stage || 'Unknown')
+          + ((r.acquirer && r.acquirer !== 'Undisclosed')
+              ? ' <span style="color:var(--fg-muted)">by ' + r.acquirer + '</span>'
+              : (r.acquirer === 'Undisclosed' ? ' <span style="color:var(--fg-muted)">buyer undisclosed</span>' : ''))
+        + '</td>'
         + '<td style="font-variant-numeric:tabular-nums">' + (r.amountDisplay || r.amount_display || '\u2014') + '</td>'
         + '<td style="font-variant-numeric:tabular-nums">' + (r.valuationDisplay || r.valuation_display || '\u2014') + '</td>'
         + '<td>' + formatInvestors(r.leadInvestors || r.lead_investors || []) + '</td>'
