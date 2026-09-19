@@ -50757,5 +50757,99 @@
       "last_verified": "2026-09-18T23:59:00Z",
       "notes": "Listed by YC as \"Scanate/Fellow\", Summer 2016, team size two, status Inactive, website joinfellow.com. HQ CONFLICT: Mahachi’s own LinkedIn says Mountain View, California; YC’s directory says San Francisco. Mountain View recorded, on his own statement. No funding beyond the standard YC investment is documented, and no SEC Form D exists. Co-founder Kingsong Chen has no identified Canadian connection and is not listed. L4 IS A SEPARATE COMPANY, not a rename — Ether Capital’s Aug 2018 release says Mahachi is \"Co-Founder of both L4 and Scanate\". L4 was a web3 venture studio founded about eighteen months later with Ethan Wilding, which ran The Stable Fund with MakerDAO, reported at $45M in contemporaneous press and described as $50M on his profile. Both roles ended September 2019."
     }
+  },
+  {
+    "id": "paper-xyz",
+    "name": "Paper",
+    "website": "",
+    "description": "Web3 payments infrastructure: a credit-card checkout for NFTs that worked without the buyer holding crypto, plus embedded wallets for developers.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Crypto",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "james-sun",
+        "name": "James Sun",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jameszsun",
+        "x_url": "https://x.com/JamesZmSun",
+        "bio": "Co-Founder and CEO of Paper until its sale to thirdweb, then thirdweb’s VP of Product. Thiel Fellow, 2016 class; dropped out of Middlebury College. Earlier co-founded Revlo, later Pursuit, in Toronto, which Twitch acqui-hired in 2018, and was a group product manager at Twitch. Named to Plan Canada’s Top 20 Under 20 and awarded the Queen’s Diamond Jubilee Medal. Forbes 30 Under 30 in Games, 2020.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021",
+        "round": "Angel",
+        "kind": "funding",
+        "amount_usd": 2000000,
+        "amount_display": "$2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Angel round preceding the seed; the $9.3M total widely reported is this plus the $7.3M seed."
+      },
+      {
+        "date": "2022-03",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 7300000,
+        "amount_display": "$7.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Electric Capital",
+          "Initialized Capital"
+        ],
+        "other_investors": [
+          "Twitch",
+          "Eventbrite"
+        ],
+        "source_urls": [
+          "https://gen.xyz/blog/paperxyz"
+        ],
+        "notes": "Month is approximate — reported in 2022 with no precise announcement date established."
+      },
+      {
+        "date": "2023-07-19",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://blog.thirdweb.com/acquiring-paper/"
+        ],
+        "notes": "thirdweb: \"we’re excited to announce that thirdweb has acquired Paper — adding their industry-leading web3 wallet & NFT checkout products to our blockchain development stack.\" Six Paper employees moved across; James Sun became VP of Product, Edward Sun Director of Engineering, Phillip Ho Infrastructure Lead. No terms disclosed.",
+        "acquirer": "thirdweb"
+      }
+    ],
+    "capital_raised_usd": 9300000,
+    "capital_raised_display": "$9.3M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T05:30:00Z",
+      "notes": "Added in place of Playmatic, Sun’s 2025 company, which is gone — playmatic.ai now returns a Framer \"Site Not Found\" page and both he and co-founder Edward Sun list OpenAI as their current employer. No acquisition or shutdown was announced, so that is inference, but there is no live company to list. His other venture, Revlo/Pursuit, was Toronto-based and so out of scope; Paper is the US-headquartered one.\n\nCANADIAN CONNECTION IS BY ELIGIBILITY, NOT A DIRECT STATEMENT. His education is entirely American — Middlebury, which he left, and Columbia — so this is not an education tie. Y Combinator’s own founder write-up for Revlo says: \"He was named one of Plan Canada’s Top 20 Under 20 and was heavily involved in a non-profit that earned him the Queen’s Diamond Jubilee Medal.\" Both honours are restricted to Canadians. He was also selected for The Next 36’s 2015 cohort, whose own release states the programme \"is open to Canadians\", and BetaKit listed him among the Canadians in the 2016 Thiel class. Four independent signals, none of them a birth certificate. Treat with the caution that the same BetaKit article wrongly listed Anthony Zhang — the difference here is that nothing points away from Canada: he built his first company in Toronto and Toronto Life named him one of the city’s tech innovators in 2016.\n\nwebsite left empty: paper.xyz no longer resolves. Co-founders Edward Sun and Phillip Ho have no identified Canadian connection and are not listed."
+    }
   }
 ]
