@@ -50424,5 +50424,75 @@
       "last_verified": "2026-09-18T22:00:00Z",
       "notes": "Found by screening the Thiel Fellowship. HQ from the company’s own terms of service, which give 765 Market Street, San Francisco, CA 94103 — though the governing-law clause says only \"the laws of The United States\" and names no state, so the address rather than the clause is the signal. Canadian tie from the Thiel Foundation’s own 2025 class press release, which lists him as \"Sigil Wen: Toronto, Canada\"; his personal site (sigilwen.ca) says he flew from Toronto to San Francisco at 17. No Canadian university — he opted out of Penn’s M&T program — so the connection is upbringing. Title is Founder per the company’s own team page; Mo Zia is CEO. Wen describes himself as Executive Chairman, which the site does not say. No funding disclosed. He is also founder of Conway (conway.tech), an AI and cryptography lab, which is not listed separately because its headquarters is inferred from aggregators rather than documented."
     }
+  },
+  {
+    "id": "standard-intelligence",
+    "name": "Standard Intelligence",
+    "website": "https://si.inc",
+    "description": "Frontier AI lab building FDM-1, a foundation model trained directly on raw video of humans using computers, so that agents learn behaviour from pixels rather than from language-model tool-calling scaffolds.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Series A",
+    "status": "Private",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/si.inc?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "galen-mead",
+        "name": "Galen Mead",
+        "role": "Co-Founder & Co-CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and Co-CEO of Standard Intelligence. Left his undergraduate programme at the University of Toronto to build the company full time, having met co-founder Devansh Pandey through the 2022 Atlas Fellowship. Thiel Fellow, 2026 class. Signs SEC filings as Executive Officer and Director.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-04-30",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 75000000,
+        "amount_display": "$75M",
+        "valuation_usd": 500000000,
+        "valuation_display": "$500M",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "Spark Capital"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/2135700/000213570026000001/primary_doc.xml",
+          "https://www.sec.gov/Archives/edgar/data/2135700/000213570026000002/primary_doc.xml",
+          "https://nextomoro.com/standard-intelligence/"
+        ],
+        "notes": "Reported as $75M at about $500M. Two Form Ds filed 5 Jun 2026 record $35,613,499 sold to 36 investors (first sale 2 Apr 2026) and $44,199,974 to 10 investors (first sale 13 Apr 2026), $79.81M in total — consistent with the headline. The $75M figure is recorded because that is what was announced; the date is the announcement, not the first sale."
+      }
+    ],
+    "capital_raised_usd": 75000000,
+    "capital_raised_display": "$75M",
+    "metadata": {
+      "valuation_usd": 500000000,
+      "valuation_display": "$500M",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-04",
+      "valuation_source_url": "https://nextomoro.com/standard-intelligence/",
+      "last_verified": "2026-09-18T23:30:00Z",
+      "notes": "Found by screening the Thiel Fellowship 2026 class. Company evidence is unusually strong: two SEC Form Ds give 548 Market St #26412, San Francisco CA 94104, Delaware incorporation, year 2024, with Galen Mead as Executive Officer and Director and Devansh Ratna Pandey as President. CANADIAN TIE RESTS ON TWO SECONDARY SOURCES, NOT A PRIMARY ONE. Nextomoro’s profile (8 May 2026) is the more specific: \"Both left their undergraduate programmes (Mead from the University of Toronto) to pursue the company full time.\" Specter Insights’ 2026 Thiel class report (23 Apr 2026) independently counts him as the class’s one Canadian, \"by edu\", and its card reads \"Mead comes out of the University of Toronto\". Against that: his official Thiel hometown is Chapel Hill, North Carolina, his personal site nel.ag is a stub, his LinkedIn shows no education section, and Sequoia’s own write-up says only that he \"left his undergraduate program\" without naming the school. Both sources are aggregator-style publications and may share an upstream. Added on the strength of two independent statements naming the university; it would be worth replacing with a primary source if one appears. Co-founder Devansh Pandey has no identified Canadian connection and is not listed."
+    }
   }
 ]

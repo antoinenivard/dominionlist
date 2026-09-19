@@ -132,7 +132,12 @@ def version_introduced_as_patch(ver, date_display, max_look=25):
     patch bump and a later same-day addition, and an earlier version of this
     check wrongly failed those.
     """
-    prev = None
+    # Seed with HEAD, the newest snapshot carrying `ver`. Without this the
+    # walk returns False whenever the bump happened at HEAD~1 — prev was still
+    # None on the first iteration, so the one case the same-day exception
+    # exists for, a second batch on the day of the bump, always failed.
+    prev = at_commit("HEAD")
+    prev = prev[0] if prev else None
     for i in range(1, max_look + 1):
         snap = at_commit(f"HEAD~{i}")
         if snap is None:
