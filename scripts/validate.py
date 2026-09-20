@@ -70,6 +70,13 @@ def slugify(name):
 # city — 29 records prove the two come apart (Brockville, Markham, Sault Ste.
 # Marie). Values were drifting to bare 'Toronto', to provinces, and once to
 # 'Canada', so the shape is pinned here.
+# The Raised column is a money column. capital_raised_display holds a dollar
+# figure or nothing at all — never prose. "Undisclosed", "N/A" and "Bootstrapped"
+# had all appeared in it, which reads as a broken cell next to $3.6M. And the
+# display has to agree with the number: null means unknown and renders as an
+# em dash, 0 means the company genuinely raised nothing and renders as $0.
+MONEY_RE = _re.compile(r"[~<>]?\$[\d.,]+[KMBT]?\+?")
+
 DATE_RE = _re.compile(r"\d{4}(?:-\d{2}(?:-\d{2})?)?")
 # The YC standard deal is $500K, historically $125K. Those cheques are counted in
 # capital_raised_usd but were never itemised as rounds, which is why 46 companies
@@ -288,6 +295,16 @@ def main():
         yr = c.get("founding_year")
         if not isinstance(yr, int) or not (1900 <= yr <= 2100):
             err(f"{who}: founding_year {yr!r} is not a plausible year")
+
+        raised = c.get("capital_raised_display") or ""
+        raised_usd = c.get("capital_raised_usd")
+        if raised and not MONEY_RE.fullmatch(raised):
+            err(f"{who}: capital_raised_display {raised!r} must be a dollar figure "
+                f"or empty — the Raised column is money, not prose")
+        if (raised_usd is None) != (raised == ""):
+            err(f"{who}: capital_raised_usd {raised_usd!r} and "
+                f"capital_raised_display {raised!r} disagree — null means unknown "
+                f"and must show nothing, a number must show a figure")
 
         desc = (c.get("description") or "").strip()
         if len(desc) < 40:

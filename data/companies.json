@@ -1636,7 +1636,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -1699,8 +1699,8 @@
         "notes": "Initially self-funded by the founders; took an undisclosed investment from DFJ Growth."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -2145,7 +2145,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "founders": [
       {
         "id": "mohan-zhang",
@@ -4249,8 +4249,8 @@
         "notes": "Amount undisclosed. Angels include the Clearpath Robotics / OTTO Motors founders."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -6811,8 +6811,8 @@
         "notes": "Investor syndicate confirmed from the company's own job postings; round size, date and valuation are undisclosed."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -9544,8 +9544,8 @@
         "notes": "No round has been publicly announced. N49P and co:build ventures confirmed via their own portfolio pages; Azuro and Revenge Capital are aggregator-listed. No lead investor disclosed and no SEC Form D on file."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -10014,8 +10014,8 @@
       }
     ],
     "funding_rounds": [],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "status": "Private",
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -13950,7 +13950,7 @@
     },
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": ""
   },
   {
@@ -15040,7 +15040,7 @@
       "notes": ""
     },
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
+    "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
   },
@@ -16311,7 +16311,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "founders": [
       {
         "id": "jahan-yar-parsa",
@@ -16393,7 +16393,7 @@
       }
     ],
     "funding_rounds": [],
-    "capital_raised_usd": 0,
+    "capital_raised_usd": null,
     "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
@@ -16920,8 +16920,8 @@
       "notes": "Backed by Anthropic, True Ventures, Menlo Ventures, Ridge Ventures + super angels (CEOs of G2 and Zendesk); amounts undisclosed. Co-founded by Mayank Mehta (CEO) and Anand (CTO) per company FAQ. CORRECTED: previously carried Gather.town’s 2021 Sequoia/Index rounds ($26M Series A, $50M Series B) — a different company (founder Phillip Wang)."
     },
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed"
+    "capital_raised_usd": null,
+    "capital_raised_display": ""
   },
   {
     "id": "gdi",
@@ -17660,7 +17660,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "founders": [
       {
         "id": "jingxiang-mo",
@@ -17773,8 +17773,8 @@
       "notes": ""
     },
     "hq_display": "Palo Alto, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "N/A",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "icon_url": ""
   },
   {
@@ -21270,8 +21270,8 @@
       "notes": ""
     },
     "hq_display": "Menlo Park, CA",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "N/A",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "icon_url": ""
   },
   {
@@ -21323,7 +21323,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -22754,7 +22754,7 @@
     },
     "hq_display": "Philadelphia, PA",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "name": "Lucy",
     "founding_year": 2024,
     "industry": "AI",
@@ -31847,7 +31847,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -32584,8 +32584,8 @@
         "notes": "Litera described as one of several minority investors; amount undisclosed."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -33107,7 +33107,7 @@
       }
     ],
     "funding_rounds": [],
-    "capital_raised_usd": 0,
+    "capital_raised_usd": null,
     "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
@@ -33232,7 +33232,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -34503,7 +34503,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -35199,7 +35199,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
@@ -35399,8 +35399,8 @@
         "notes": "Amount undisclosed."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -37079,8 +37079,8 @@
         "notes": ""
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -37219,8 +37219,8 @@
       "notes": ""
     },
     "hq_display": "New York, NY",
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed"
+    "capital_raised_usd": null,
+    "capital_raised_display": ""
   },
   {
     "id": "secoda",
@@ -38897,7 +38897,7 @@
       "notes": "Three co-founders: Sam Pasupalak (CEO), Kaheer Suleman (CTO) and Sumit Pasupalak (CPO, Sam's brother — BetaKit added him in a 24 Jul 2026 update, which is why some records show only two). Sam and Kaheer previously co-founded Maluuba at Waterloo, acquired by Microsoft in 2017. Sumit's Canadian tie is not yet verified and he is not listed here. HQ was New York in early 2025 and is now San Francisco with the main research team in Toronto; Crunchbase and Dealroom still carry the stale New York record. Founding year 2024 is unconfirmed — no company source states one and PitchBook says 2023. TOTAL RAISED IS UNKNOWN and deliberately left as undisclosed: no amount has ever been published for either round and there is no Form D. Ignore GetLatka's \"$0 raised / bootstrapped / $3.3M ARR\" figures — they are modelled estimates contradicted by the company's own press release."
     },
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed"
+    "capital_raised_display": ""
   },
   {
     "id": "slack",
@@ -39558,7 +39558,7 @@
     "yc_batch": "",
     "icon_url": "",
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "founders": [
       {
         "id": "sarah-tang",
@@ -41533,8 +41533,8 @@
       }
     ],
     "funding_rounds": [],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "status": "Private",
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
@@ -41693,7 +41693,7 @@
       "notes": ""
     },
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed"
+    "capital_raised_display": ""
   },
   {
     "id": "stoa",
@@ -43844,7 +43844,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "status": "Private",
     "yc_batch": "",
     "metadata": {
@@ -45315,8 +45315,8 @@
         "notes": "Amount undisclosed."
       }
     ],
-    "capital_raised_usd": 0,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -47940,7 +47940,7 @@
       "notes": ""
     },
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 0,
+    "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
   },
@@ -50587,7 +50587,7 @@
     ],
     "funding_rounds": [],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -50649,7 +50649,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -50723,7 +50723,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -50784,7 +50784,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -50992,7 +50992,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -51262,7 +51262,7 @@
     ],
     "funding_rounds": [],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -51390,7 +51390,7 @@
     ],
     "funding_rounds": [],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -51617,7 +51617,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
@@ -51838,7 +51838,7 @@
       }
     ],
     "capital_raised_usd": null,
-    "capital_raised_display": "Undisclosed",
+    "capital_raised_display": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
