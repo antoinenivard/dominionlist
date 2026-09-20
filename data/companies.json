@@ -31472,6 +31472,25 @@
         ],
         "wikipedia_url": "",
         "x_url": ""
+      },
+      {
+        "id": "mitchell-catoen",
+        "name": "Mitchell Catoen",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/mitchell-catoen/",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Phonic. Graduated from the University of Waterloo’s mechatronics engineering programme in spring 2019, the same cohort as David Ferris. Previously Google; now works on trading systems and self-custody at Phantom.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
       }
     ],
     "funding_rounds": [
@@ -31532,12 +31551,12 @@
         "https://www.ycombinator.com/companies/phonic",
         "https://www.linkedin.com/in/david-ferris-phonic/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-19T21:00:00Z",
       "valuation_display": "",
       "valuation_usd": null,
       "valuation_type": "acquisition",
       "valuation_as_of": "2023-02",
-      "notes": ""
+      "notes": "Both founders are Waterloo mechatronics graduates, confirmed by the university’s own news page of 13 Sep 2019: \"Mitchell Catoen, Devon Copeland, David Ferris, and Rareș Topor-Gosman, who all graduated from Waterloo’s mechatronics engineering program last spring\". BetaKit describes them as \"a pair of former Uber and Google engineers from Toronto, who met while studying at the University of Waterloo\". NOTE ON THE DOMAIN: phonic.ai today belongs to an unrelated voice-agent company founded in 2024 by Moin Nadeem — do not read its current legal pages as this company’s. "
     },
     "hq_display": "San Francisco, CA",
     "icon_url": "https://bookface-images.s3.amazonaws.com/small_logos/accc040e6e05d59906b58dd5cbcb069fe6d2cfc0.png",
@@ -51457,6 +51476,473 @@
       "valuation_display": "",
       "last_verified": "2026-09-19T18:00:00Z",
       "notes": "The legal entity is Castodia Inc., trading as Dropbase — Castodia was the earlier Google-Sheets-to-database product. YC batch is Winter 2020, not Summer. Chan’s education is confirmed by a primary source, McGill’s own event page: \"Jimmy has an M.B.A. from the Rotman School of Management at the University of Toronto and a B.Eng. in Computer Engineering from McGill University.\" Co-founder Ayazhan Zhakhan (CTO) has no identified Canadian connection and is not listed. YC lists Chan under former founders. The terms and privacy pages render client-side, so no governing-law clause was tested; San Francisco comes from YC and the company’s own 2022 press release dateline. A widely repeated claim that Chan is from Ecuador traces to an AI-generated contact aggregator and is not recorded."
+    }
+  },
+  {
+    "id": "storm8",
+    "name": "Storm8",
+    "website": "https://www.storm8.com",
+    "description": "Mobile social and casual game studio, best known for the Story franchise — Restaurant Story, Bakery Story, Dragon Story — and Home Design Makeover, with more than 45 titles published.",
+    "hq_city": "San Mateo",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Bootstrapped",
+    "status": "Acquired",
+    "founding_year": 2009,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "chak-ming-li",
+        "name": "Chak Ming Li",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Storm8, which he left in 2021. University of Waterloo, computer engineering. Previously Facebook. Now an AI researcher at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "william-siu",
+        "name": "William Siu",
+        "role": "Co-Founder & Chief Product Officer",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and Chief Product Officer of Storm8. University of Waterloo. Previously Facebook.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2020-02-28",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": 300000000,
+        "amount_display": "$300M",
+        "valuation_usd": 300000000,
+        "valuation_display": "$300M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.stillfront.com/en/stillfront-group-acquires-storm8-inc-and-raises-new-financing/"
+        ],
+        "notes": "Stillfront disclosed the structure in its regulatory releases: \"an upfront consideration of USD 300 million and, if certain EBIT levels for the financial years 2020 and 2021 are achieved, an earn-out consideration of up to USD 100 million.\" $300M was paid at close on 28 Feb 2020 and the founders took roughly 6% of Stillfront’s shares. The $400M often quoted is the headline maximum including the earn-out, and whether the earn-out was met is not public.",
+        "acquirer": "Stillfront Group"
+      }
+    ],
+    "capital_raised_usd": 0,
+    "capital_raised_display": "Bootstrapped",
+    "metadata": {
+      "valuation_usd": 300000000,
+      "valuation_display": "$300M",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "Entirely self-funded — CEO Perry Tam in 2020: \"we’re self-funded. We don’t have any outside investors\", and no SEC filing exists. THE CANADIAN TIES ARE THE WEAKEST IN THE DATABASE: both trace back to LinkedIn self-report. Chak Ming Li’s profile gives University of Waterloo and a scraper adds computer engineering 2005–2009; William Siu’s profile names Waterloo with no degree or dates, and Crunchbase does not corroborate it. No alumni page, article or interview confirms either. Worth replacing with a primary source. Of the other founders — Perry Tam (CEO, Cornell), Laura Yip (Cornell) and Anil Dharni, whose founder status has no primary source at all — none has a Canadian connection, so none is listed. Perry Tam says there were four co-founders, not the five PitchBook lists. HQ is San Mateo County: the terms specify California law and the Northern District of California, though press has variously said San Mateo, Redwood City and Redwood Shores.",
+      "valuation_type": "acquisition",
+      "valuation_as_of": "2020-02"
+    }
+  },
+  {
+    "id": "arcwise",
+    "name": "Arcwise",
+    "website": "https://arcwise.app",
+    "description": "Started as a spreadsheet-native data-science workbench for analytical but non-technical users; now detects and explains meaningful metric movements against a data warehouse.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "hanson-wang",
+        "name": "Hanson Wang",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "https://x.com/hansonwng",
+        "bio": "Co-Founder and CTO of Arcwise until 2024. University of Waterloo computer science; took a bronze medal for the Waterloo team at the 2012 ACM ICPC World Finals and is an IOI medallist. Previously on Meta’s Looper ML platform. Now a researcher at OpenAI, where he helped train the codex-1 model.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-12",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Sequoia Capital",
+          "Village Global",
+          "Success Venture Partners",
+          "640 Oxford"
+        ],
+        "source_urls": [],
+        "notes": "Amount deliberately not recorded: PitchBook says $2.4M on 1 Dec 2022 with a $3.4M total, while CB Insights says $1M across three rounds dated Sep 2022 and Feb 2023. No SEC Form D exists and no primary source names an amount or a lead. Sequoia’s backing is confirmed — the company came through its Arc Americas 2022 cohort."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "Legal entity Archimedes Labs, Inc., a Delaware corporation; the paid terms give offices at 586 2nd Ave, San Francisco, though neither terms page carries a governing-law clause. THREE co-founders, not the one PitchBook names: Rahul Bali (CEO, ex-Flexport, Bristol), Hanson Wang (CTO) and James Davis (chief data scientist, ex-UIUC professor). Sequoia’s own write-up: \"During stints at Flexport and Meta, Rahul Bali, Hanson Wang and James Davis wished for a robust but more user-friendly data science workbench.\" Wang’s Waterloo attendance is confirmed by a primary non-LinkedIn source — the Cheriton School’s awards page lists \"Hanson Wang (2A CS)\" on the 2012 ICPC World Finals bronze team. Neither of the other two has an identified Canadian connection. Wang and Davis have both left; the company is still operating, with terms updated Jan 2026."
+    }
+  },
+  {
+    "id": "eureka-md",
+    "name": "Eureka",
+    "website": "https://eureka.md",
+    "description": "Practice-management and records platform for cash-pay private medical practices. Launched in 2023 as a community and treatment database for people managing chronic disease.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "noah-maccallum",
+        "name": "Noah MacCallum",
+        "role": "Co-Founder & Chief Product Officer",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and Chief Product Officer of Eureka until early 2023. University of Waterloo, honours nanotechnology engineering, where he co-founded the Product Vision Club and UW Apprentice. Now at OpenAI, where he co-authored the GPT-4.1 prompting guide.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-07-12",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Khosla Ventures"
+        ],
+        "other_investors": [
+          "South Park Commons",
+          "Bling Capital",
+          "SciFi VC",
+          "Able Partners",
+          "Bow Capital",
+          "Anne Wojcicki",
+          "Susan Wojcicki",
+          "Marty Tenenbaum"
+        ],
+        "source_urls": [],
+        "notes": "Announced 12 Jul 2023: \"The seed round was led by Khosla Ventures, with participation from South Park Commons, Bling Capital, SciFi VC, Able Partners, and Bow Capital.\" No later round found."
+      }
+    ],
+    "capital_raised_usd": 7000000,
+    "capital_raised_display": "$7M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "Legal entity Sam Dot Company; the terms give 2261 Market St #10190, San Francisco, while the governing-law clause names Delaware, the state of incorporation — the address is the stronger HQ signal. THE CANADIAN FOUNDER HAS LEFT AND NEITHER CURRENT FOUNDER HAS A TIE, which is worth knowing: Zain Memon (CEO, Purdue) and Sina Hartung (COO, LMU Munich and Harvard) run it now, and the current about page says simply \"We are Zain Memon and Sina Hartung\". MacCallum departed around Feb 2023 and is absent from the site. He stays on the record because departure does not undo founding. His Waterloo degree is confirmed from his own résumé on his own domain, which lists \"UNIVERSITY OF WATERLOO — HONORS NANOTECHNOLOGY ENGINEERING\". The company has also pivoted: the 2023 product was a chronic-disease community, the 2026 one is practice management. Y Combinator-backed per the company, batch unknown."
+    }
+  },
+  {
+    "id": "zeet",
+    "name": "Zeet",
+    "website": "https://zeet.co",
+    "description": "Cloud-native DevOps platform — a Heroku-like console running inside the customer’s own AWS, GCP or DigitalOcean account to provision infrastructure, generate CI/CD pipelines and scale services.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "zihao-zhang",
+        "name": "Zihao Zhang",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Zeet. University of Waterloo, where he was in the ACM competition team and the CS and data science clubs; won a bronze medal for Canada at the 26th International Olympiad in Informatics. Now works on AI at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-09-06",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 4300000,
+        "amount_display": "$4.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "Race Capital"
+        ],
+        "source_urls": [],
+        "notes": "\"Closed on a $4.3 million seed funding round led by Sequoia Capital, with participation from existing investor Race Capital as well as engineering leaders from AWS, Google, Twitch, Repl.it, Yelp, Sentry and more.\" An earlier round of about $2M led by Race Capital in Jan 2021 is aggregator-only and not itemised; the founder puts the lifetime total at $6.3M."
+      },
+      {
+        "date": "2024-12-20",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "NOT A SHUTDOWN, which is how this is usually recorded. Johnny Dallas, 20 Dec 2024: \"We decided to sell Zeet to @fdotinc, who will be maintaining the platform and our customers going forwards.\" His LinkedIn: \"Founders, Inc. has purchased the platform, and I am moving on to new things!\" The site was still serving a full live product in Dec 2025 and Founders, Inc. still lists Zeet in its portfolio.",
+        "acquirer": "Founders, Inc."
+      }
+    ],
+    "capital_raised_usd": 6300000,
+    "capital_raised_display": "$6.3M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "HQ from the archived terms — California law, exclusive jurisdiction in San Francisco County, and 1406 Post St in the DMCA block — plus the LinkedIn HQ field. Zhang has the strongest Canadian evidence in this batch and it is why he is recorded as citizenship rather than education alone: his own site says he is \"from Canada\" and that he \"was awarded bronze medal for Canada in the 26th International Olympiad in Informatics\", and the IOI’s own results database independently lists him under Canada for 2014. Co-founder Johnny Dallas — he goes by Johnny, not John — is from San Francisco and has no Canadian connection, so he is not listed. Not a Y Combinator company; the Sequoia connection is through Arc, its own seed programme."
+    }
+  },
+  {
+    "id": "kairos-computer",
+    "name": "Kairos Computer",
+    "website": "https://www.kairos.computer",
+    "description": "Workflow automation learned by demonstration: record a screen once and narrate the task, and Kairos builds an agent that repeats it — lead enrichment, meeting follow-ups, invoice processing, pipeline updates.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Inactive",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "samarth-patel",
+        "name": "Samarth Patel",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/samarthap",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Kairos Computer from April 2025 until joining OpenAI in August 2026. Founded an earlier startup through the University of Toronto’s Entrepreneurship Hatchery, building tap-to-pay acceptance on merchants’ phones. Previously Google.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Afore Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Confirmed from Afore’s own portfolio page, which lists Kairos under Pre-Seed / AI / Bay Area and links directly to kairos.computer. Amount and date undisclosed. A claim that Acrew and Compound invested in April 2025 has no source and is not recorded."
+      },
+      {
+        "date": "2026-08",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Both founders left for OpenAI — Manas Bam in July 2026, Samarth Patel in August — and the site carries a farewell page signed \"Manas & Samarth\": \"We started Kairos with a dream that felt too big to say out loud: a personal AGI for everyone. Excited to keep chasing that dream inside Codex and ChatGPT.\" The product pages still take subscriptions, so this is recorded as a wind-down on the founders’ departure rather than a confirmed closure; no acqui-hire was announced."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "HQ from the company’s own terms: \"Kairos Computer Inc. … a company registered in California, United States at 1628 Washington Street, San Francisco, CA 94109\", governed by California law — registered in California rather than Delaware, which is unusual. THE SURNAME AND THE CANADIAN TIE BOTH REST ON ONE SECONDARY SOURCE. He publishes as \"Samarth P.\"; Benzinga’s 31 Aug 2026 piece gives the full name and says he \"founded a startup through the University of Toronto’s Hatchery\" — participation in the Hatchery is restricted to U of T students, so it is a genuine attendance signal, but no degree, programme or year was found and Benzinga discloses partial AI assistance in drafting. He is not Samarth Athreya of Axiome. Co-founder and CEO Manas Bam has no Canadian connection and is not listed."
+    }
+  },
+  {
+    "id": "global-illumination",
+    "name": "Global Illumination",
+    "website": "https://ill.inc",
+    "description": "Digital product and games studio using AI to build creative tools; its last project was Biomes, an open-source Minecraft-like web MMORPG.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "thomas-dimson",
+        "name": "Thomas Dimson",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Global Illumination. Bachelor of mathematics from the University of Waterloo and a master’s in computer science from Stanford, specialising in AI. Previously director of engineering at Instagram, where he worked on the ranking algorithms. Left OpenAI in 2026 to start In the Weights.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "taylor-gordon",
+        "name": "Taylor Gordon",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Global Illumination. MMath from the University of Waterloo in 2010, supervised by Anna Lubiw and Ian Munro, on simultaneously embedding planar graphs at fixed vertex locations. Previously Google, YouTube and Meta; now at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-12-23",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 14000000,
+        "amount_display": "$14M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Paradigm",
+          "Benchmark",
+          "Slow Ventures",
+          "Scribble Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Never publicly announced; the amount and date come from PitchBook alone, and the lead is Crunchbase’s attribution. TechCrunch corroborates the investor set — \"Backed by VC firms Paradigm, Benchmark and Slow\". A $79M post-money circulates but appears in no public source and is not recorded."
+      },
+      {
+        "date": "2023-08-16",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://openai.com/index/openai-acquires-global-illumination/"
+        ],
+        "notes": "OpenAI’s own announcement: \"OpenAI has acquired the team at Global Illumination, a company founded by Thomas Dimson, Taylor Gordon, and Joey Flynn. The entire team has joined OpenAI to work on our core products including ChatGPT.\" OpenAI’s first public acquisition; terms not disclosed.",
+        "acquirer": "OpenAI"
+      }
+    ],
+    "capital_raised_usd": 14000000,
+    "capital_raised_display": "$14M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T21:00:00Z",
+      "notes": "TWO of the three founders are Waterloo graduates, and Dimson’s citation is the cleaner one — a Stanford HAI event bio: \"Thomas graduated from the University of Waterloo with a bachelor’s of mathematics and received his master’s in computer science from Stanford.\" Gordon appears on Waterloo’s own Cheriton School page as \"Taylor Gordon, M. Math 2010\", co-supervised by Anna Lubiw and Ian Munro. The third founder, Joey Flynn (CPO), went to the University of Washington and is not listed. HQ New York per the company’s own site; biomes.gg is dead and no archived terms exist, so no governing-law clause could be tested."
     }
   }
 ]
