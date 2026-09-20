@@ -33843,13 +33843,13 @@
     "legacy_id": "184",
     "name": "Rain",
     "website": "https://rain.aero",
-    "description": "Autonomous aircraft for wildfire response and climate emergency management.",
+    "description": "Adapts autonomous aircraft with onboard intelligence to detect, understand and suppress wildfires — networks of pre-positioned uncrewed helicopters acting as \"fire sprinklers for the forest\", plus a safety layer for human-piloted missions.",
     "hq_city": "Alameda",
     "hq_region": "CA",
     "hq_country": "US",
-    "founding_year": 2021,
+    "founding_year": 2019,
     "industry": "Industrial",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Private",
     "yc_batch": "",
     "icon_url": "",
@@ -33860,14 +33860,14 @@
         "linkedin": "https://www.linkedin.com/in/maxwellbrodie",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Canadian founder developing autonomous wildfire response technology, UWaterloo grad.",
+        "bio": "Co-Founder and CEO of Rain, building networks of pre-positioned autonomous helicopters that suppress wildfires before they spread. University of Waterloo. Earlier co-founded Kaizena, the Google Docs feedback tool for teachers.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Waterloo",
         "canadian_city": "Waterloo, ON",
         "canadian_institutions": [
           "University of Waterloo"
         ],
-        "role": ""
+        "role": "Co-Founder & CEO"
       }
     ],
     "funding_rounds": [
@@ -33885,6 +33885,21 @@
           "https://www.crunchbase.com/organization/rain"
         ],
         "notes": ""
+      },
+      {
+        "date": "2025-03-14",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 3000000,
+        "amount_display": "$3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Azolla Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Recorded by PitchBook as a later-stage venture round bringing the total raised to $17.7M. Round label is the aggregator’s; no announcement was found. Other active investors named: Brian Bjelde, Convective Capital."
       }
     ],
     "metadata": {
@@ -33896,11 +33911,11 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "Founded 2019 per the company’s own LinkedIn page (\"Established in 2019\"); Brodie dates his own role from Jun 2020. Co-founder Bryan Hatton (CTO) has no identified Canadian connection and is not listed. Capital raised and the 2025 round come from PitchBook; the $10M seed is Crunchbase-sourced and carries no lead."
     },
-    "capital_raised_usd": 10000000,
-    "capital_raised_display": "$10M"
+    "capital_raised_usd": 17700000,
+    "capital_raised_display": "$17.7M"
   },
   {
     "id": "rainbow",
@@ -50971,7 +50986,7 @@
     "name": "Kaizena",
     "website": "",
     "description": "Feedback tool for teachers built into Google Docs and later Office 365: voice comments, embedded video lessons and skill tracking against auto-completing rubrics, pitched as reviewing student work up to 75% faster than typing.",
-    "hq_city": "San Francisco",
+    "hq_city": "Palo Alto",
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "Consumer",
@@ -50981,6 +50996,25 @@
     "yc_batch": "",
     "icon_url": "",
     "founders": [
+      {
+        "id": "maxwell-brodie",
+        "name": "Maxwell Brodie",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/maxwellbrodie",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Rain, building networks of pre-positioned autonomous helicopters that suppress wildfires before they spread. University of Waterloo. Earlier co-founded Kaizena, the Google Docs feedback tool for teachers.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
       {
         "id": "edward-sun",
         "name": "Edward Sun",
@@ -51011,22 +51045,25 @@
         "amount_display": "$900K",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "Horizons Ventures"
+        ],
         "other_investors": [
-          "NewSchools Venture Fund Seed Fund",
-          "Horizons Ventures",
+          "NewSchools Venture Fund",
           "Jeff Weiner",
           "Umang Gupta",
           "Tom Williams",
-          "Victor Alcantara"
+          "Victor Alcantara",
+          "Bart Swanson",
+          "Geoff Ralston"
         ],
         "source_urls": [
           "https://www.edsurge.com/news/2015-07-15-kaizena-gets-900k-worth-of-great-feedback-in-seed-round"
         ],
-        "notes": "No lead named in the reporting."
+        "notes": "Led by Horizons Ventures with NewSchools Venture Fund and ten other angels."
       },
       {
-        "date": "2024-03",
+        "date": "2020-01-27",
         "round": "Wind Down",
         "kind": "event",
         "amount_usd": null,
@@ -51036,7 +51073,7 @@
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [],
-        "notes": "Date is approximate. The web archive has captures of kaizena.com through 22 Mar 2024 and none after, and the domain no longer resolves — though it is registered to 2027 and was last changed May 2026, so it is held rather than abandoned. No shutdown notice was ever published. Edward Sun’s own profile says Kaizena was \"acquired in 2019 by Cirrus Education in Beijing, China\", which no third party corroborates and which Crunchbase contradicts by listing the company as deadpooled; the acquisition claim is therefore not recorded as an event."
+        "notes": "PitchBook records the company as having gone out of business on 27 Jan 2020. That supersedes the earlier estimate here of early 2024, which was based on kaizena.com serving pages until Mar 2024 — the site outlived the company. Edward Sun’s profile claims a 2019 acquisition by Cirrus Education in Beijing, which nothing corroborates and which both PitchBook and Crunchbase contradict, so it is not recorded."
       }
     ],
     "capital_raised_usd": 900000,
@@ -51044,8 +51081,382 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-19T16:00:00Z",
-      "notes": "HQ CHANGED COUNTRY MID-LIFE. Founded 2012 in Waterloo, Ontario as 121Writing, and EdSurge still described it as \"based in Waterloo, Canada\" in 2015. By 2017 its own press releases carried a Palo Alto dateline, its terms of service specified California law with arbitration in San Mateo County, and LinkedIn gives the headquarters as San Francisco. Recorded as San Francisco because that is where it operated for most of its life and through its final years, but the Canadian origin is the reason to say so plainly. Graduated from the Imagine K12 accelerator in 2013 under the 121Writing name. Co-founder Maxwell Brodie, now CEO of Rain, has no identified Canadian connection and is not listed."
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "HQ CHANGED COUNTRY MID-LIFE. Founded 2012 in Waterloo, Ontario as 121Writing — EdSurge still called it \"based in Waterloo, Canada\" in 2015 — and Palo Alto thereafter, which is where Brodie’s own LinkedIn places the role and where its 2017 press releases were datelined. Its terms specified California law with arbitration in San Mateo County. Graduated from Imagine K12 in 2013 under the 121Writing name. A third co-founder, Jason Wang, is named by PitchBook; no Canadian connection is documented for him and he is not listed — note he is not the Jason Wang of Lark and E1O, who is a different person."
+    }
+  },
+  {
+    "id": "rylo",
+    "name": "Rylo",
+    "website": "",
+    "description": "Compact 360° camera built software-first: the stabilisation and reframing happened in the app, so footage could be re-pointed and subject-tracked after the fact.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series B",
+    "status": "Acquired",
+    "founding_year": 2015,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "alex-karpenko",
+        "name": "Alex Karpenko",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Rylo. Bachelor’s and master’s in computer engineering from the University of Toronto, then a Stanford PhD he left; his gyroscope-based video stabilisation research became Luma Camera, Instagram’s first acquisition, and then Hyperlapse. Now a research engineer at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "chris-cunningham",
+        "name": "Chris Cunningham",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder of Rylo and a director on its board. BEng in electrical engineering from McMaster University, 2004–2008. Now a tech lead in developer productivity and applied AI at Apple.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McMaster University",
+        "canadian_institutions": [
+          "McMaster University"
+        ],
+        "canadian_city": "Hamilton, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2018-10-04",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 20250796,
+        "amount_display": "$20.25M",
+        "valuation_usd": 120250000,
+        "valuation_display": "$120.25M",
+        "lead_investors": [
+          "Icon Ventures"
+        ],
+        "other_investors": [
+          "Accel",
+          "Sequoia Capital",
+          "Alumni Ventures Group"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001753372"
+        ],
+        "notes": "Form D filed 25 Sep 2018 records $20,250,796 sold against a $25,000,791 offering, first sale 7 Sep 2018; TechCrunch announced it on 4 Oct 2018 and put the total raised at $35M. The 6 Nov 2018 date circulating in aggregators is unsupported. The $120.25M post-money is PitchBook’s figure, attributed as such by TechCrunch. Earlier rounds are not itemised — only one Form D exists for Rylo or its former name, Magenta Labs."
+      },
+      {
+        "date": "2019-12-10",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "VSCO: \"We’re excited to announce the acquisition of Rylo, the makers of a compact camera with powerful video stabilization technology.\" Terms not disclosed. Hardware discontinued at announcement; the apps stayed available until 31 Jan 2021.",
+        "acquirer": "VSCO"
+      }
+    ],
+    "capital_raised_usd": 35000000,
+    "capital_raised_display": "$35M",
+    "metadata": {
+      "valuation_usd": 120250000,
+      "valuation_display": "$120.25M",
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "Incorporated as Magenta Labs Inc. before renaming. HQ from its own archived terms — California governing law, mailing address San Francisco 94107 — and the Form D street address, 363 Clementina Street, Delaware incorporation. BOTH CANADIAN TIES ARE AGGREGATOR-SOURCED: Cunningham’s McMaster degree from Crunchbase, Karpenko’s Toronto degrees from profiles citing his LinkedIn. No university page, thesis or interview confirms either. Karpenko’s own site says \"Stanford dropout\", so Toronto is where his degrees actually came from, which makes the tie more load-bearing, not less — worth a primary source.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2018-10"
+    }
+  },
+  {
+    "id": "cloudglue",
+    "name": "Cloudglue",
+    "website": "https://cloudglue.dev",
+    "description": "Video context layer for AI: an API that makes video searchable and understandable by models, plus Tinycloud, a consumer-facing app on top of it. Launched as Aviary.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2024,
+    "yc_batch": "S'24",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "amy-xiao",
+        "name": "Amy Xiao",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CEO. Studied mathematics and physics at the University of Toronto; previously machine learning and infrastructure at Snapchat, AWS and Arize AI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "edward-zhou",
+        "name": "Edward Zhou",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/edward-zhou-55b3b1b1",
+        "x_url": "",
+        "bio": "Co-Founder and CTO from May to November 2024. University of British Columbia, where he was a teaching assistant for data structures and algorithms. Previously Pinterest and a staff engineer on search and ML at Notion; now a member of technical staff at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "Renamed from Aviary; the legal entity is still Aviary Inc., and ycombinator.com/companies/aviary redirects to /companies/cloudglue. HQ San Francisco per YC and the LinkedIn page; the terms name Aviary Inc. as provider and specify Delaware law. The New York signal attached to this company is Edward Zhou personally — his role is geotagged there while Xiao is in San Francisco. TWO CANADIAN FOUNDERS, which is unusual. Zhou left in Nov 2024 after seven months; departure does not undo founding. Funding is the standard YC S24 investment only, never disclosed, and no Form D exists. Do not confuse with the photo-editing Aviary that Adobe bought in 2014."
+    }
+  },
+  {
+    "id": "copysmith",
+    "name": "Copysmith",
+    "website": "https://copysmith.ai",
+    "description": "AI content platform for marketing copy, now the parent brand for Frase, Describely and Rytr after pivoting from AI writing to generative engine optimisation.",
+    "hq_city": "Birmingham",
+    "hq_region": "AL",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Growth",
+    "status": "Private",
+    "founding_year": 2020,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "jasmine-wang",
+        "name": "Jasmine Wang",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and founding CEO of Copysmith, which she started from her family’s home in Edmonton. Graduate of Old Scona Academic High School in Edmonton and McGill University; Thiel Fellow, 2020 class, and a Schwarzman Scholar. Stepped back to an advisory role in April 2021. Forbes 30 Under 30.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "Old Scona Academic High School",
+          "McGill University"
+        ],
+        "canadian_city": "Edmonton, AB",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "anna-wang",
+        "name": "Anna Wang",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CTO, and Jasmine’s sister. Systems Design Engineering at the University of Waterloo. Forbes 30 Under 30, 2022.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Edmonton, AB",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-04-21",
+        "round": "Growth",
+        "kind": "funding",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "PSG"
+        ],
+        "other_investors": [
+          "Harmony Venture Labs"
+        ],
+        "source_urls": [],
+        "notes": "Announced as an investment and partnership with Harmony Venture Labs and funds advised by PSG rather than a named round; Crunchbase files it as private equity. Shegun Otulana became CEO at the same time and Jasmine Wang moved to an advisory role, which fits a growth recapitalisation. Velocity, listed elsewhere as an investor, is the Waterloo incubator the company joined, not a backer."
+      }
+    ],
+    "capital_raised_usd": 10000000,
+    "capital_raised_display": "$10M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "FOUNDED IN CANADA, AMERICAN SINCE 2021. Started October 2020 in Edmonton, Alberta — Alberta Innovates: \"Wang started Copysmith while living in her family’s home in Edmonton\" — and a graduate of Propel, Startup Edmonton’s pre-accelerator, and later Waterloo’s Velocity. Moved to Birmingham in April 2021 when Harmony Venture Labs led the raise and installed Shegun Otulana as CEO. Current address 2127 Morris Avenue, Birmingham, per the State of Alabama’s generative-AI vendor list. The terms and privacy pages render client-side and could not be read, so no governing-law clause was tested. The founders are sisters. Copysmith acquired Frase and Rytr in Oct 2022 — it is the buyer in that transaction, not the target, which is why the entry carries no acquisition event. NO CONNECTION TO TRELLIS was found, despite the two being mentioned together; Copysmith is still Copysmith Inc. and none of the Trellis companies share investors or people with it."
+    }
+  },
+  {
+    "id": "quill-analytics",
+    "name": "Quill",
+    "website": "https://www.quill.co",
+    "description": "Embedded analytics for software companies: a React SDK, data API and management toolkit for putting customer-facing dashboards and reports inside an application.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2019,
+    "yc_batch": "W'20",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "jo-zhu-kennedy",
+        "name": "Jo Zhu Kennedy",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder of Stryve, the Y Combinator W20 company that became Quill; her tenure ran 2020 to 2022. Honours BSc in computer science from the University of British Columbia, plus an MBA and MEd from Stanford. Previously a partner at Andreessen Horowitz and before that DoorDash and Uber; now leads startup partnerships and growth at Anthropic.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia"
+        ],
+        "canadian_city": "Vancouver, BC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "The legal entity is Stryve, Inc. — Quill is a 2022 pivot of a YC W20 company that had been replacing phone screens with AI short-form video. Founding year 2019 is the entity; YC lists founded 2022 for the product alongside the W20 batch. Jo Zhu Kennedy co-founded Stryve and left in 2022; the current founders listed by YC are Shawn Magee and Rishi Raman, neither with an identified Canadian connection. Departure does not undo founding, so she stays. NO DISCLOSED FUNDING beyond the YC batch investment and angel Nick Candito — the $120K Bossa Invest seed of Jul 2024 that appears against \"Quill\" in PitchBook belongs to a Brazilian real-estate company of the same name, quill.com.br, and is not recorded here. Still shipping: the @quillsql/react package was published on 10 Sep 2026. quill.co is a client-rendered page with no readable terms, so no governing-law clause was tested; San Francisco comes from YC and its job listings. Not Quill.com, Quill.org or quillmeetings.com."
+    }
+  },
+  {
+    "id": "dropbase",
+    "name": "Dropbase",
+    "website": "https://www.dropbase.io",
+    "description": "Began as a tool for turning messy CSV and Excel files into live queryable Postgres, then pivoted to letting Python developers build full-stack internal apps without writing a front end.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Inactive",
+    "founding_year": 2019,
+    "yc_batch": "W'20",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "jimmy-chan",
+        "name": "Jimmy Chan",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CEO of Dropbase. BEng in computer engineering from McGill University and an MBA from the Rotman School of Management at the University of Toronto; also a Next 36 alumnus. Previously a management consultant at EY. Now at Anthropic.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University",
+          "University of Toronto"
+        ],
+        "canadian_city": "Montreal, QC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-08-11",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 1750000,
+        "amount_display": "$1.75M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Gradient Ventures"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Liquid 2 Ventures",
+          "Bragiel Brothers",
+          "Unpopular Ventures"
+        ],
+        "source_urls": [],
+        "notes": "Led by Gradient Ventures, Google’s AI fund, with Zachary Bratun-Glennon leading for them."
+      },
+      {
+        "date": "2024",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Y Combinator marks the company Inactive. dropbase.io still loads as a static marketing page and the open-source repo is not archived, but its last commit was 27 Sep 2024. No shutdown notice and no acquisition were found, so the date is approximate."
+      }
+    ],
+    "capital_raised_usd": 1750000,
+    "capital_raised_display": "$1.75M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T18:00:00Z",
+      "notes": "The legal entity is Castodia Inc., trading as Dropbase — Castodia was the earlier Google-Sheets-to-database product. YC batch is Winter 2020, not Summer. Chan’s education is confirmed by a primary source, McGill’s own event page: \"Jimmy has an M.B.A. from the Rotman School of Management at the University of Toronto and a B.Eng. in Computer Engineering from McGill University.\" Co-founder Ayazhan Zhakhan (CTO) has no identified Canadian connection and is not listed. YC lists Chan under former founders. The terms and privacy pages render client-side, so no governing-law clause was tested; San Francisco comes from YC and the company’s own 2022 press release dateline. A widely repeated claim that Chan is from Ecuador traces to an AI-generated contact aggregator and is not recorded."
     }
   }
 ]
