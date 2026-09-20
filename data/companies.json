@@ -51551,12 +51551,12 @@
       }
     ],
     "capital_raised_usd": 0,
-    "capital_raised_display": "Bootstrapped",
+    "capital_raised_display": "$0",
     "metadata": {
       "valuation_usd": 300000000,
       "valuation_display": "$300M",
       "last_verified": "2026-09-19T21:00:00Z",
-      "notes": "Entirely self-funded — CEO Perry Tam in 2020: \"we’re self-funded. We don’t have any outside investors\", and no SEC filing exists. THE CANADIAN TIES ARE THE WEAKEST IN THE DATABASE: both trace back to LinkedIn self-report. Chak Ming Li’s profile gives University of Waterloo and a scraper adds computer engineering 2005–2009; William Siu’s profile names Waterloo with no degree or dates, and Crunchbase does not corroborate it. No alumni page, article or interview confirms either. Worth replacing with a primary source. Of the other founders — Perry Tam (CEO, Cornell), Laura Yip (Cornell) and Anil Dharni, whose founder status has no primary source at all — none has a Canadian connection, so none is listed. Perry Tam says there were four co-founders, not the five PitchBook lists. HQ is San Mateo County: the terms specify California law and the Northern District of California, though press has variously said San Mateo, Redwood City and Redwood Shores.",
+      "notes": "Raised is recorded as $0 rather than Undisclosed, which is the convention for companies whose funding is simply unknown — Storm8’s is known, and it is nothing. Entirely self-funded — CEO Perry Tam in 2020: \"we’re self-funded. We don’t have any outside investors\", and no SEC filing exists. THE CANADIAN TIES ARE THE WEAKEST IN THE DATABASE: both trace back to LinkedIn self-report. Chak Ming Li’s profile gives University of Waterloo and a scraper adds computer engineering 2005–2009; William Siu’s profile names Waterloo with no degree or dates, and Crunchbase does not corroborate it. No alumni page, article or interview confirms either. Worth replacing with a primary source. Of the other founders — Perry Tam (CEO, Cornell), Laura Yip (Cornell) and Anil Dharni, whose founder status has no primary source at all — none has a Canadian connection, so none is listed. Perry Tam says there were four co-founders, not the five PitchBook lists. HQ is San Mateo County: the terms specify California law and the Northern District of California, though press has variously said San Mateo, Redwood City and Redwood Shores.",
       "valuation_type": "acquisition",
       "valuation_as_of": "2020-02"
     }
