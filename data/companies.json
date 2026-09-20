@@ -50789,6 +50789,26 @@
         "image_source_type": "",
         "image_source_page": "",
         "image_last_checked_at": ""
+      },
+      {
+        "id": "edward-sun",
+        "name": "Edward Sun",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/edwardsun3/",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Paper, then Director of Engineering for infrastructure at thirdweb. University of Waterloo BSc in computer science and Wilfrid Laurier BBA, 2015 — the Waterloo–Laurier double degree. Earlier co-founded Kira Talent in Toronto and was co-founder and CTO of Kaizena. Went on to co-found Playmatic and is now at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo",
+          "Wilfrid Laurier University"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
       }
     ],
     "funding_rounds": [
@@ -50848,8 +50868,184 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-19T05:30:00Z",
-      "notes": "Added in place of Playmatic, Sun’s 2025 company, which is gone — playmatic.ai now returns a Framer \"Site Not Found\" page and both he and co-founder Edward Sun list OpenAI as their current employer. No acquisition or shutdown was announced, so that is inference, but there is no live company to list. His other venture, Revlo/Pursuit, was Toronto-based and so out of scope; Paper is the US-headquartered one.\n\nCANADIAN CONNECTION IS BY ELIGIBILITY, NOT A DIRECT STATEMENT. His education is entirely American — Middlebury, which he left, and Columbia — so this is not an education tie. Y Combinator’s own founder write-up for Revlo says: \"He was named one of Plan Canada’s Top 20 Under 20 and was heavily involved in a non-profit that earned him the Queen’s Diamond Jubilee Medal.\" Both honours are restricted to Canadians. He was also selected for The Next 36’s 2015 cohort, whose own release states the programme \"is open to Canadians\", and BetaKit listed him among the Canadians in the 2016 Thiel class. Four independent signals, none of them a birth certificate. Treat with the caution that the same BetaKit article wrongly listed Anthony Zhang — the difference here is that nothing points away from Canada: he built his first company in Toronto and Toronto Life named him one of the city’s tech innovators in 2016.\n\nwebsite left empty: paper.xyz no longer resolves. Co-founders Edward Sun and Phillip Ho have no identified Canadian connection and are not listed."
+      "last_verified": "2026-09-19T16:00:00Z",
+      "notes": "Edward Sun is the founder this entry actually rests on. His education — University of Waterloo computer science and Wilfrid Laurier business administration, both 2015, the Waterloo–Laurier double degree — is a hard Canadian tie, unlike his co-founder’s, which is inferred from award eligibility.\n\nAdded in place of Playmatic, Sun’s 2025 company, which is gone — playmatic.ai now returns a Framer \"Site Not Found\" page and both he and co-founder Edward Sun list OpenAI as their current employer. No acquisition or shutdown was announced, so that is inference, but there is no live company to list. His other venture, Revlo/Pursuit, was Toronto-based and so out of scope; Paper is the US-headquartered one.\n\nCANADIAN CONNECTION IS BY ELIGIBILITY, NOT A DIRECT STATEMENT. His education is entirely American — Middlebury, which he left, and Columbia — so this is not an education tie. Y Combinator’s own founder write-up for Revlo says: \"He was named one of Plan Canada’s Top 20 Under 20 and was heavily involved in a non-profit that earned him the Queen’s Diamond Jubilee Medal.\" Both honours are restricted to Canadians. He was also selected for The Next 36’s 2015 cohort, whose own release states the programme \"is open to Canadians\", and BetaKit listed him among the Canadians in the 2016 Thiel class. Four independent signals, none of them a birth certificate. Treat with the caution that the same BetaKit article wrongly listed Anthony Zhang — the difference here is that nothing points away from Canada: he built his first company in Toronto and Toronto Life named him one of the city’s tech innovators in 2016.\n\nwebsite left empty: paper.xyz no longer resolves. Co-founders Edward Sun and Phillip Ho have no identified Canadian connection and are not listed."
+    }
+  },
+  {
+    "id": "playmatic",
+    "name": "Playmatic",
+    "website": "",
+    "description": "AI quality-assurance agent that connected to a team’s repository, explored the application like a user, and wrote and maintained end-to-end tests rather than having engineers hand-write them.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Inactive",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "james-sun",
+        "name": "James Sun",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jameszsun",
+        "x_url": "https://x.com/JamesZmSun",
+        "bio": "Co-Founder and CEO of Playmatic from February 2025 until the team joined OpenAI in January 2026, where he leads product for agentic browsers. Thiel Fellow, 2016 class. Previously co-founded Paper, sold to thirdweb, and Revlo/Pursuit in Toronto, acqui-hired by Twitch.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "edward-sun",
+        "name": "Edward Sun",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/edwardsun3/",
+        "x_url": "",
+        "bio": "Co-Founder of Playmatic, now a member of technical staff at OpenAI working on agents. University of Waterloo BSc in computer science and Wilfrid Laurier BBA, 2015. Previously co-founded Paper, Kira Talent and Kaizena.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo",
+          "Wilfrid Laurier University"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Uncommon Projects"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Amount never disclosed. Recorded from PitchBook and corroborated only by Uncommon Projects’ own portfolio page, which lists \"PLAYMATIC ’25\". No primary funding source exists."
+      },
+      {
+        "date": "2026-01",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/edwardsun3/details/experience/"
+        ],
+        "notes": "Both founders end the Playmatic role in January 2026 on their own profiles and describe it in the past tense. Edward Sun: \"Playmatic was an AI agent that helps write and maintain e2e tests for web applications. Joined OpenAI in Jan 2026 to work on agents.\" James Sun: \"We joined OpenAI to build browser agents for broader use cases in Jan 2026.\" No acquisition was announced and Playmatic does not appear in Crunchbase’s roundup of OpenAI’s 2026 deals, so this is recorded as a wind-down with the team absorbed, not as a sale."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "Undisclosed",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T16:00:00Z",
+      "notes": "HQ is well evidenced for a company this small: the LinkedIn page gives \"Headquarters, 577 2nd St, 100, San Francisco, California 94107\" and the privacy policy independently names the same address with California governing law. Note 577 2nd St is a shared-office building, not a dedicated footprint. Dead but not abandoned: playmatic.ai returns a Framer \"Site Not Found\" page and app.playmatic.ai does not resolve, yet the domain is registered to Feb 2027 and was last changed Aug 2026 — hosting torn down, registration kept. The LinkedIn company page still exists with an empty posts tab, and the open-source agent repo under the trymeka org has been dormant since Oct 2025. Uncommon Projects still lists it, but that portfolio page is never pruned."
+    }
+  },
+  {
+    "id": "kaizena",
+    "name": "Kaizena",
+    "website": "",
+    "description": "Feedback tool for teachers built into Google Docs and later Office 365: voice comments, embedded video lessons and skill tracking against auto-completing rubrics, pitched as reviewing student work up to 75% faster than typing.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Seed",
+    "status": "Inactive",
+    "founding_year": 2012,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "edward-sun",
+        "name": "Edward Sun",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/edwardsun3/",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Kaizena from 2012 to 2018. University of Waterloo BSc in computer science and Wilfrid Laurier BBA, 2015. Later co-founded Paper, sold to thirdweb, and Playmatic; now at OpenAI.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo",
+          "Wilfrid Laurier University"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2015-07-15",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 900000,
+        "amount_display": "$900K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "NewSchools Venture Fund Seed Fund",
+          "Horizons Ventures",
+          "Jeff Weiner",
+          "Umang Gupta",
+          "Tom Williams",
+          "Victor Alcantara"
+        ],
+        "source_urls": [
+          "https://www.edsurge.com/news/2015-07-15-kaizena-gets-900k-worth-of-great-feedback-in-seed-round"
+        ],
+        "notes": "No lead named in the reporting."
+      },
+      {
+        "date": "2024-03",
+        "round": "Wind Down",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Date is approximate. The web archive has captures of kaizena.com through 22 Mar 2024 and none after, and the domain no longer resolves — though it is registered to 2027 and was last changed May 2026, so it is held rather than abandoned. No shutdown notice was ever published. Edward Sun’s own profile says Kaizena was \"acquired in 2019 by Cirrus Education in Beijing, China\", which no third party corroborates and which Crunchbase contradicts by listing the company as deadpooled; the acquisition claim is therefore not recorded as an event."
+      }
+    ],
+    "capital_raised_usd": 900000,
+    "capital_raised_display": "$900K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-19T16:00:00Z",
+      "notes": "HQ CHANGED COUNTRY MID-LIFE. Founded 2012 in Waterloo, Ontario as 121Writing, and EdSurge still described it as \"based in Waterloo, Canada\" in 2015. By 2017 its own press releases carried a Palo Alto dateline, its terms of service specified California law with arbitration in San Mateo County, and LinkedIn gives the headquarters as San Francisco. Recorded as San Francisco because that is where it operated for most of its life and through its final years, but the Canadian origin is the reason to say so plainly. Graduated from the Imagine K12 accelerator in 2013 under the 121Writing name. Co-founder Maxwell Brodie, now CEO of Rain, has no identified Canadian connection and is not listed."
     }
   }
 ]
