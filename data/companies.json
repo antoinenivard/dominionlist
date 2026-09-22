@@ -3179,6 +3179,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/ANET"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 239250000000,
+        "valuation_display": "$239.3B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/anet/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -3186,14 +3201,14 @@
         "https://www.crunchbase.com/organization/arista-networks",
         "https://finance.yahoo.com/quote/ANET/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 227500000000,
-      "valuation_display": "$227.5B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 239250000000,
+      "valuation_display": "$239.3B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/ANET",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/anet/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "Santa Clara, CA",
     "ticker": "ANET",
@@ -3915,6 +3930,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/AUR"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 13780000000,
+        "valuation_display": "$13.8B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/aur/history/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -3923,14 +3953,14 @@
         "https://www.bloomberg.com/news/articles/2019-02-07/aurora-self-driving-startup-gets-funding-from-sequoia-amazon",
         "https://fortune.com/2018/02/28/aurora-self-driving-cars-investment/"
       ],
-      "valuation_usd": 12900000000,
-      "valuation_display": "$12.9B",
-      "valuation_source_url": "https://finance.yahoo.com/quote/AUR",
+      "valuation_usd": 13780000000,
+      "valuation_display": "$13.8B",
+      "valuation_source_url": "https://stockanalysis.com/stocks/aur/history/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "ticker": "AUR",
     "capital_raised_usd": 620000000,
@@ -5683,6 +5713,21 @@
         "lead_investors": [],
         "source_urls": [],
         "other_investors": []
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 442910000,
+        "valuation_display": "$443M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/bioa/market-cap/"
+        ],
+        "notes": "Priced off the 28 Aug close ($9.65 × 45.9M shares) — no 31 Aug print was found."
       }
     ],
     "metadata": {
@@ -5690,11 +5735,13 @@
         "https://bioagelabs.com",
         "https://www.felicis.com/portfolio"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 415000000,
-      "valuation_display": "$415M",
-      "notes": "",
-      "valuation_as_of": "2026-07-31"
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 442910000,
+      "valuation_display": "$443M",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Priced off the 28 Aug close ($9.65 × 45.9M shares) — no 31 Aug print was found.",
+      "valuation_as_of": "2026-08-31",
+      "valuation_type": "market_cap",
+      "valuation_source_url": "https://stockanalysis.com/stocks/bioa/market-cap/"
     },
     "hq_display": "Berkeley, CA",
     "capital_raised_usd": 283000000,
@@ -6220,6 +6267,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/BLND"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 355000000,
+        "valuation_display": "$355M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/blnd/market-cap/"
+        ],
+        "notes": "Approximate: about $1.50 × 236.5M shares; stockanalysis showed $354.77M on 25 Aug."
       }
     ],
     "metadata": {
@@ -6228,14 +6290,14 @@
         "https://finance.yahoo.com/quote/BLND/",
         "https://www.prnewswire.com/news-releases/blend-closes-300m-in-funding-nearly-doubling-valuation-to-3-3b-301207008.html"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 421000000,
-      "valuation_display": "$421M",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 355000000,
+      "valuation_display": "$355M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/BLND",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/blnd/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Approximate: about $1.50 × 236.5M shares; stockanalysis showed $354.77M on 25 Aug. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "BLND",
@@ -6707,7 +6769,7 @@
     "founding_year": 2024,
     "industry": "Health",
     "stage": "Seed",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "",
     "founders": [
       {
@@ -6727,24 +6789,41 @@
     ],
     "funding_rounds": [
       {
-        "date": "",
+        "date": "2025-09",
         "round": "Seed",
         "kind": "funding",
         "amount_usd": 7000000,
         "amount_display": "$7M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "Bonfire Ventures",
+          "Wonder Ventures"
+        ],
         "other_investors": [],
         "source_urls": [
           "https://www.crunchbase.com/organization/bonsai-health"
         ],
-        "notes": ""
+        "notes": "Seed led by Bonfire Ventures and Wonder Ventures."
+      },
+      {
+        "date": "2026-04-20",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Announced 20 Apr 2026; terms undisclosed. ModMed is a Clearlake-backed specialty EHR vendor.",
+        "acquirer": "ModMed"
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -9192,7 +9271,7 @@
   {
     "id": "clerk-chat",
     "legacy_id": "429",
-    "name": "Clerk Chat",
+    "name": "Clerk AI",
     "website": "https://clerk.chat",
     "description": "AI-powered conversational messaging platform — the world's first AI telecom. Brings all communication channels together for seamless real-time customer engagement. Calling and SMS for Microsoft Teams.",
     "hq_city": "San Francisco",
@@ -9251,10 +9330,13 @@
       "https://clerk.chat/blog/seed-funding/"
     ],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Renamed from Clerk Chat to Clerk AI in spring 2026, when it opened a Montreal engineering hub. The id stays clerk-chat so existing links keep resolving.",
+      "sources": [
+        "https://www.montrealinternational.com/en/news/clerk-ai-expands-in-canada-launches-montreal-engineering-hub-to-support-growth/"
+      ]
     }
   },
   {
@@ -9466,6 +9548,21 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 106920000000,
+        "valuation_display": "$106.9B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/net/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -9475,14 +9572,14 @@
         "https://en.wikipedia.org/wiki/Michelle_Zatlyn",
         "https://techcrunch.com/2015/09/22/cloudflare-locks-down-110m-from-fidelity-microsoft-google-baidu-and-qualcomm/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 99300000000,
-      "valuation_display": "$99.3B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 106920000000,
+      "valuation_display": "$106.9B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/NET",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/net/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "NET",
@@ -12453,7 +12550,7 @@
     "founding_year": 2023,
     "industry": "Fintech",
     "stage": "Pre-Seed",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "S'23",
     "icon_url": "",
     "capital_raised_usd": 500000,
@@ -12492,11 +12589,25 @@
           "https://www.ycombinator.com/companies/disputeninja"
         ],
         "notes": "Standard YC deal, S23. Pivot/rename of Trench."
+      },
+      {
+        "date": "2025-12",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Announced around Dec 2025; terms undisclosed. WEAKER SOURCING than the rest of this sweep — a Whop executive’s announcement on X plus an aggregator, with founder Bowen Xue named. No press release found.",
+        "acquirer": "Whop"
       }
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -13031,17 +13142,34 @@
         "lead_investors": [],
         "source_urls": [],
         "other_investors": []
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 46100000000,
+        "valuation_display": "$46.1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ebay/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "capital_raised_usd": 6700000,
     "capital_raised_display": "$6.7M",
     "icon_url": "https://img.logo.dev/ebay.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
-      "valuation_usd": 50700000000,
-      "valuation_display": "$50.7B",
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "notes": "",
-      "valuation_as_of": "2026-07-31"
+      "valuation_usd": 46100000000,
+      "valuation_display": "$46.1B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
+      "valuation_as_of": "2026-08-31",
+      "valuation_type": "market_cap",
+      "valuation_source_url": "https://stockanalysis.com/stocks/ebay/market-cap/"
     },
     "ticker": "EBAY"
   },
@@ -19580,7 +19708,7 @@
     "founding_year": 2023,
     "industry": "Enterprise",
     "stage": "Seed",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "",
     "icon_url": "",
     "founders": [
@@ -19624,6 +19752,20 @@
           "https://www.crunchbase.com/organization/hyper"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-04",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Announced Apr 2026; terms undisclosed.",
+        "acquirer": "Motorola Solutions"
       }
     ],
     "metadata": {
@@ -19636,7 +19778,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-25T00:00:00Z",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 6300000,
@@ -20225,6 +20367,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/CART"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 11700000000,
+        "valuation_display": "$11.7B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/cart/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -20234,14 +20391,14 @@
         "https://finance.yahoo.com/quote/CART/",
         "https://techcrunch.com/2017/03/07/instacart-raises-400-million-at-a-3-4-billion-valuation/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 10300000000,
-      "valuation_display": "$10.3B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 11700000000,
+      "valuation_display": "$11.7B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/CART",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/cart/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "CART",
@@ -20353,7 +20510,14 @@
         "lead_investors": [
           "Basis Set Ventures"
         ],
-        "other_investors": [],
+        "other_investors": [
+          "Crucible Capital",
+          "Maple VC",
+          "Breakers",
+          "Operator Collective",
+          "Ian Crosby",
+          "Jay Adelson"
+        ],
         "source_urls": [
           "https://betakit.com/she-tried-to-build-vancouvers-y-combinator-why-did-she-leave-to-build-a-us-startup-instead/"
         ],
@@ -20365,7 +20529,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -23050,6 +23214,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/LYFT"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 6320000000,
+        "valuation_display": "$6.3B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/lyft/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -23060,14 +23239,14 @@
         "https://techcrunch.com/2013/05/23/lyft-a16z/",
         "https://en.wikipedia.org/wiki/Rajat_Suri"
       ],
-      "valuation_usd": 6000000000,
-      "valuation_display": "$6.0B",
-      "valuation_source_url": "https://finance.yahoo.com/quote/LYFT",
+      "valuation_usd": 6320000000,
+      "valuation_display": "$6.3B",
+      "valuation_source_url": "https://stockanalysis.com/stocks/lyft/market-cap/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "ticker": "LYFT",
     "capital_raised_usd": 4772200000,
@@ -25387,6 +25566,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/MRNA"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 56030000000,
+        "valuation_display": "$56.0B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/mrna/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -25396,14 +25590,14 @@
         "https://www.fiercebiotech.com/venture-capital/moderna-hauls-450m-to-push-its-pioneering-approach-to-mrna",
         "https://www.fiercebiotech.com/biotech/moderna-raises-500m-to-move-mrna-drugs-deeper-into-human-tests"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 21900000000,
-      "valuation_display": "$21.9B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 56030000000,
+      "valuation_display": "$56.0B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/MRNA",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/mrna/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "Cambridge, MA",
     "ticker": "MRNA",
@@ -26864,6 +27058,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/NTSK"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 6090000000,
+        "valuation_display": "$6.1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ntsk/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -26872,14 +27081,14 @@
         "https://techcrunch.com/2013/10/03/netskope-comes-out-of-stealth-with-21m-from-socialcapital-and-lightspeed/",
         "https://www.netskope.com/press-releases/netskope-attracts-300-million-in-additional-investment"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 5090000000,
-      "valuation_display": "$5.1B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 6090000000,
+      "valuation_display": "$6.1B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/NTSK",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/ntsk/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "Santa Clara, CA",
     "ticker": "NTSK",
@@ -30240,6 +30449,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/PD"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1112000000,
+        "valuation_display": "$1.11B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pd/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -30249,14 +30473,14 @@
         "https://www.pagerduty.com/newsroom/raises-series-d-investment/",
         "https://finance.yahoo.com/quote/PD/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 816000000,
-      "valuation_display": "$816M",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 1112000000,
+      "valuation_display": "$1.11B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/PD",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/pd/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "PD",
@@ -30769,6 +30993,21 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 45060000000,
+        "valuation_display": "$45.1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pypl/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -30777,14 +31016,14 @@
         "https://en.wikipedia.org/wiki/PayPal",
         "https://companiesmarketcap.com/paypal/marketcap/"
       ],
-      "valuation_usd": 48900000000,
-      "valuation_display": "$48.9B",
-      "valuation_source_url": "https://companiesmarketcap.com/paypal/marketcap/",
+      "valuation_usd": 45060000000,
+      "valuation_display": "$45.1B",
+      "valuation_source_url": "https://stockanalysis.com/stocks/pypl/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "notes": ""
+      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep."
     },
     "capital_raised_usd": 217500000,
     "capital_raised_display": "$217.5M"
@@ -36070,6 +36309,21 @@
         "lead_investors": [],
         "source_urls": [],
         "other_investors": []
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 5230000000,
+        "valuation_display": "$5.2B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rgti/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -36083,11 +36337,13 @@
         "https://techcrunch.com/2020/08/04/rigetti-raises-79m-series-c-for-its-quantum-computing-platform/",
         "https://www.globenewswire.com/news-release/2022/03/02/2395179/0/en/Rigetti-Computing-Announces-Closing-of-Business-Combination-with-Supernova-Partners-Acquisition-Company-II-Ltd-Begins-Trading-on-Nasdaq-Capital-Market-Today.html"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 4990000000,
-      "valuation_display": "$5.0B",
-      "notes": "",
-      "valuation_as_of": "2026-07-31"
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 5230000000,
+      "valuation_display": "$5.2B",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
+      "valuation_as_of": "2026-08-31",
+      "valuation_type": "market_cap",
+      "valuation_source_url": "https://stockanalysis.com/stocks/rgti/market-cap/"
     },
     "hq_display": "Berkeley, CA",
     "capital_raised_usd": 907250000,
@@ -36214,6 +36470,21 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 29010000000,
+        "valuation_display": "$29.0B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rblx/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -36222,14 +36493,14 @@
         "https://finance.yahoo.com/quote/RBLX/",
         "https://techcrunch.com/2018/09/05/roblox-series-f/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 25400000000,
-      "valuation_display": "$25.4B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 29010000000,
+      "valuation_display": "$29.0B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/RBLX",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/rblx/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "San Mateo, CA",
     "ticker": "RBLX",
@@ -37892,6 +38163,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/SERV"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 424240000,
+        "valuation_display": "$424M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/serv/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -37899,14 +38185,14 @@
         "https://finance.yahoo.com/quote/SERV/",
         "https://techcrunch.com/2023/08/10/uber-nvidia-backed-delivery-robot-startup-serve-robotics-to-go-public/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 414000000,
-      "valuation_display": "$414M",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 424240000,
+      "valuation_display": "$424M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_source_url": "https://finance.yahoo.com/quote/SERV",
-      "valuation_as_of": "2026-07-31",
-      "notes": "Valuation source: public_market_data."
+      "valuation_source_url": "https://stockanalysis.com/stocks/serv/market-cap/",
+      "valuation_as_of": "2026-08-31",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "Redwood City, CA",
     "ticker": "SERV",
@@ -40178,7 +40464,7 @@
     ],
     "funding_rounds": [
       {
-        "date": "2025-01-01",
+        "date": "2026-04",
         "round": "Pre-Seed",
         "kind": "funding",
         "amount_usd": 1600000,
@@ -40195,7 +40481,7 @@
         "source_urls": [
           "https://betakit.com/how-sonibel-can-hear-when-a-welder-makes-a-mistake/"
         ],
-        "notes": ""
+        "notes": "Oversubscribed pre-seed announced April 2026."
       }
     ],
     "capital_raised_usd": 1600000,
@@ -40204,7 +40490,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -40438,6 +40724,21 @@
         "lead_investors": [],
         "source_urls": [],
         "other_investors": []
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 3100000000,
+        "valuation_display": "$3.1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/soun/history/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -40449,11 +40750,13 @@
         "https://techcrunch.com/2018/05/03/soundhound-has-raised-a-big-100m-round-to-take-on-alexa-and-google-assistant/",
         "https://voicebot.ai/2022/04/28/soundhound-goes-public-on-nasdaq-following-spac-merger/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 2650000000,
-      "valuation_display": "$2.7B",
-      "notes": "",
-      "valuation_as_of": "2026-07-31"
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 3100000000,
+      "valuation_display": "$3.1B",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
+      "valuation_as_of": "2026-08-31",
+      "valuation_type": "market_cap",
+      "valuation_source_url": "https://stockanalysis.com/stocks/soun/history/"
     },
     "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 700000000,
@@ -40766,6 +41069,21 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1950000000000,
+        "valuation_display": "$1.95T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/spcx/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -40777,14 +41095,14 @@
         "https://www.cnbc.com/2023/01/02/spacex-raising-750-million-at-137-billion-valuation-a16z-investing.html",
         "https://www.bloomberg.com/news/articles/2024-12-11/spacex-completes-record-tender-offer-at-350-billion-valuation"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 1430000000000,
-      "valuation_display": "$1.43T",
-      "valuation_type": "acquisition",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 1950000000000,
+      "valuation_display": "$1.95T",
+      "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_source_url": "https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html",
-      "valuation_as_of": "2026-07-31",
-      "notes": "Valuation source: xAI merger Feb 2026. Acquired xAI in all-stock deal Feb 2026, combined entity valued at $1.25T."
+      "valuation_source_url": "https://stockanalysis.com/stocks/spcx/market-cap/",
+      "valuation_as_of": "2026-08-31",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: xAI merger Feb 2026. Acquired xAI in all-stock deal Feb 2026, combined entity valued at $1.25T."
     },
     "hq_display": "Hawthorne, CA",
     "capital_raised_usd": 81300000000,
@@ -44916,6 +45234,21 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Market cap as of July 31, 2026"
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1450000000000,
+        "valuation_display": "$1.45T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/tsla/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -44924,14 +45257,14 @@
         "https://en.wikipedia.org/wiki/Tesla,_Inc.",
         "https://companiesmarketcap.com/tesla/marketcap/"
       ],
-      "valuation_usd": 1230000000000,
-      "valuation_display": "$1.23T",
-      "valuation_source_url": "https://companiesmarketcap.com/tesla/marketcap/",
+      "valuation_usd": 1450000000000,
+      "valuation_display": "$1.45T",
+      "valuation_source_url": "https://stockanalysis.com/stocks/tsla/market-cap/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "notes": ""
+      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep."
     },
     "capital_raised_usd": 278000000,
     "capital_raised_display": "$278M"
@@ -44940,13 +45273,13 @@
     "id": "tetrix",
     "name": "Tetrix",
     "website": "https://www.tetrix.co",
-    "description": "Tetrix company.",
+    "description": "AI platform that extracts and structures private-market and alternative-asset investor data from legacy systems.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "founding_year": 2023,
     "industry": "Enterprise",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Private",
     "yc_batch": "",
     "founders": [
@@ -44967,6 +45300,22 @@
     ],
     "funding_rounds": [
       {
+        "date": "2026-06-23",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "White Star Capital",
+          "Innovation Endeavors"
+        ],
+        "other_investors": [],
+        "source_urls": [],
+        "notes": "Co-led Series A to scale the platform for private-market investor data."
+      },
+      {
         "date": "",
         "round": "Seed",
         "kind": "funding",
@@ -44984,14 +45333,14 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
     },
     "hq_display": "New York, NY",
-    "capital_raised_usd": 5000000,
-    "capital_raised_display": "$5M",
+    "capital_raised_usd": 20000000,
+    "capital_raised_display": "$20M",
     "icon_url": ""
   },
   {
@@ -46721,6 +47070,21 @@
         "source_urls": [
           "https://finance.yahoo.com/quote/UBER"
         ]
+      },
+      {
+        "date": "2026-08-31",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 154510000000,
+        "valuation_display": "$154.5B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/uber/market-cap/"
+        ],
+        "notes": ""
       }
     ],
     "metadata": {
@@ -46731,14 +47095,14 @@
         "https://fortune.com/2016/06/01/uber-funding-saudi-arabia/",
         "https://techcrunch.com/2013/08/22/google-ventures-puts-258m-into-uber-its-largest-deal-ever/"
       ],
-      "last_verified": "2026-07-31T16:00:00-08:00",
-      "valuation_usd": 143600000000,
-      "valuation_display": "$143.6B",
+      "last_verified": "2026-08-31T16:00:00-08:00",
+      "valuation_usd": 154510000000,
+      "valuation_display": "$154.5B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-07-31",
-      "valuation_source_url": "https://finance.yahoo.com/quote/UBER",
-      "notes": "Valuation source: public_market_data."
+      "valuation_as_of": "2026-08-31",
+      "valuation_source_url": "https://stockanalysis.com/stocks/uber/market-cap/",
+      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "UBER",
