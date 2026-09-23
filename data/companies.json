@@ -52244,5 +52244,127 @@
       "last_verified": "2026-09-19T21:00:00Z",
       "notes": "TWO of the three founders are Waterloo graduates, and Dimson’s citation is the cleaner one — a Stanford HAI event bio: \"Thomas graduated from the University of Waterloo with a bachelor’s of mathematics and received his master’s in computer science from Stanford.\" Gordon appears on Waterloo’s own Cheriton School page as \"Taylor Gordon, M. Math 2010\", co-supervised by Anna Lubiw and Ian Munro. The third founder, Joey Flynn (CPO), went to the University of Washington and is not listed. HQ New York per the company’s own site; biomes.gg is dead and no archived terms exist, so no governing-law clause could be tested."
     }
+  },
+  {
+    "id": "pilgrim",
+    "legacy_id": "206",
+    "name": "Pilgrim",
+    "website": "https://pilgrimlabs.com",
+    "description": "Builds defence biotechnology. Its flagship is ARGUS, a 50lb autonomous system that collects airborne pathogens, screens for known and novel threats and sequences on-device in under an hour; also Kingsfoil, a haemostatic dressing for battlefield trauma, and BIFROST, hardware for preserving lifesaving cargo in transit.",
+    "hq_city": "Redwood City",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "founding_year": 2024,
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Private",
+    "yc_batch": "",
+    "icon_url": "https://pilgrimlabs.com/uploads/67d85bc4853aa_fav.png",
+    "founders": [
+      {
+        "id": "jake-adler",
+        "name": "Jake Adler",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jakeradler/",
+        "x_url": "https://x.com/jakeradler",
+        "bio": "Founder and CEO of Pilgrim. Born in Toronto. Thiel Fellow, 2023 class, awarded for Neusleep, a neurostimulation sleep wearable, before founding Pilgrim in 2024. Graduated high school in 2022; describes himself as a hardware engineer and chemist working on medical technology and high-energy physics. Tested Pilgrim’s wound dressing on himself on camera.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-03-18",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 3250000,
+        "amount_display": "$3.25M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Thiel Capital",
+          "Cantos",
+          "Refactor Capital"
+        ],
+        "other_investors": [
+          "Joshua Browder",
+          "Cory Levy"
+        ],
+        "source_urls": [
+          "https://www.piratewires.com/p/creating-supersoldiers-and-curbing-biothreats",
+          "https://traded.co/vc/deal/pilgrim-secures-3-25-million-funding-from-thiel-capital-cantos-and-refactor/"
+        ],
+        "notes": "Adler in his own words: \"We just announced a three and a quarter million dollar round led by Peter Thiel, Cantos, and Refactor Capital.\" Two corrections to figures in circulation: TBPN’s body text says \"Kantos\" and \"Founders Fund\", but its own metadata and its transcript of Adler both say Cantos, Pilgrim’s investor wall shows a Cantos logo and a Thiel Capital logo, and Founders Fund appears nowhere. Thiel Capital is Thiel’s family office, not his fund. Labelled pre-seed by STARTUP DoD and by Adler; TBPN called it a seed."
+      },
+      {
+        "date": "2025-09-10",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 4300000,
+        "amount_display": "$4.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Cantos"
+        ],
+        "other_investors": [
+          "Thiel Capital",
+          "Day One Ventures",
+          "Refactor Capital",
+          "Joshua Browder",
+          "Cory Levy",
+          "Adrian Fenty"
+        ],
+        "source_urls": [
+          "https://www.axios.com/2025/09/10/jake-adler-pilgrim-military-medicine"
+        ],
+        "notes": "Axios: \"The company, based in Redwood, California, raised a $4.3 million seed round. It’s backed by Cantos VC, Thiel Capital, Day One Ventures, Refactor Capital and others.\" Announced after his self-experiment video. PROBABLY THE SAME VEHICLE AS THE MARCH ROUND, extended by about $1.05M with Day One and Adrian Fenty added — no source says so outright, but the investor overlap and the timing fit. capital_raised therefore counts $4.3M here rather than adding the two, which is why the rounds sum higher than the total."
+      },
+      {
+        "date": "2026-09-23",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": 150000000,
+        "valuation_display": "$150M",
+        "lead_investors": [
+          "Buckley Ventures"
+        ],
+        "other_investors": [
+          "Peter Thiel",
+          "Fred Ehrsam",
+          "Logan Graham",
+          "Sholto Douglas"
+        ],
+        "source_urls": [
+          "https://www.techmeme.com/260923/p33"
+        ],
+        "notes": "Reported by Kate Clark in the Wall Street Journal on 23 Sep 2026 and relayed by Techmeme and aggregators: \"$25M seed led by Buckley at a $150M valuation.\" Two Anthropic people joined — Logan Graham, who heads the Frontier Red Team, and Sholto Douglas of technical staff. Labelled a seed by every source despite following a 2025 seed, which is unusual. SINGLE-SOURCE: everything traces to that one WSJ article; no second newsroom and no Form D."
+      }
+    ],
+    "metadata": {
+      "sources": [
+        "https://pilgrimlabs.com/",
+        "https://www.jakeradler.com/",
+        "https://pilgrimlabs.com/argus"
+      ],
+      "valuation_usd": 150000000,
+      "valuation_display": "$150M",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-09",
+      "valuation_source_url": "https://www.techmeme.com/260923/p33",
+      "last_verified": "2026-09-23T18:00:00Z",
+      "notes": "BIRTHPLACE IS OWNER-SUPPLIED, NOT PUBLICLY SOURCED. Antoine has it from the company’s own network that Jake Adler was born in Toronto. No public source says so, and none mentions Canada in connection with him at all. Against it: the Thiel Foundation’s 2023 class release lists him as \"Jake Adler: Miami, FL\" — and that same release records Canadian and dual locations for others, giving Alex Singer as Montreal, Quebec and Samarth Athreya as \"Burlington, Ontario // San Francisco, CA\", so the Foundation was willing to note them. That field is a hometown, not a birthplace, so the two are compatible, but the entry rests on private knowledge. The two podcast interviews — Pod of Jake #156 and Relentless #41 — are the most likely places a birthplace would surface on the record and neither has been listened to.\n\nTHE NAME WAS WRONG HERE UNTIL NOW: the record said \"Jake Radler\". It is Adler. His own site, at jakeradler.com, is titled \"Jake Adler\"; the domain and the @jakeradler handle are a stylisation.\n\nThe old $500K 2024 Thiel Foundation grant row has been removed. The fellowship was 2023, worth $100,000, and was awarded for Neusleep, a sleep wearable, more than a year before Pilgrim existed — so it was never Pilgrim funding.\n\nSole founder; no co-founder is named anywhere. HQ Redwood City per the site footer, Axios and Traded; the site has no terms or privacy page, so no governing-law clause could be tested, and no SEC Form D exists for Pilgrim or for Adler. The CDC biosurveillance agreement is real — Pilgrim announces it on its own updates page — but no value, scope or vehicle is public and CDC has not named Pilgrim in its own releases."
+    },
+    "capital_raised_usd": 29300000,
+    "capital_raised_display": "$29.3M"
   }
 ]
