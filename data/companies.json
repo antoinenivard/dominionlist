@@ -52429,19 +52429,28 @@
         "kind": "funding",
         "amount_usd": 14100000,
         "amount_display": "$14.1M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 36000000,
+        "valuation_display": "$36M",
         "lead_investors": [
           "Kindred Ventures"
         ],
         "other_investors": [
+          "Sequoia Capital",
+          "Valor Equity Partners",
+          "Kindred Ventures",
           "Buckley Ventures",
           "HOF Capital",
           "Julian Capital",
-          "Marque VC",
+          "Marque Ventures",
           "OSS Capital",
-          "Valor Equity Partners",
           "Weekend Fund",
+          "Untapped Ventures",
+          "Fortified Ventures",
+          "Deep Checks",
+          "Neman Ventures",
+          "Beyond Capital",
+          "HyperGuap",
+          "Retron",
           "Tobias Lütke",
           "Aidan Gomez",
           "Ivan Zhang",
@@ -52451,22 +52460,30 @@
           "Garry Tan",
           "Packy McCormick",
           "Naval Ravikant",
-          "Arash Ferdowsi"
+          "Arash Ferdowsi",
+          "Aravind Srinivas",
+          "Scott Belsky",
+          "Oliver Cameron",
+          "Farbood Nivi",
+          "Christopher Prucha"
         ],
         "source_urls": [
           "https://betakit.com/founded-by-alphabet-alums-canadian-led-ai-hardware-startup-extropic-secures-over-14-million/",
-          "https://www.prnewswire.com/news-releases/extropic-emerges-from-stealth-aiming-to-revolutionize-generative-ai-with-physics-based-ai-processors-302090040.html"
+          "https://www.prnewswire.com/news-releases/extropic-emerges-from-stealth-aiming-to-revolutionize-generative-ai-with-physics-based-ai-processors-302090040.html",
+          "https://pitchbook.com/profiles/company/522478-73"
         ],
-        "notes": "Led by Kindred Ventures (Steve Jang). BetaKit: \"Canadian-led, United States-based Extropic has closed $14.1 million in seed funding to build ‘physics-based computing’ hardware for generative artificial intelligence.\" The only round the company has ever announced."
+        "notes": "Led by Steve Jang of Kindred Ventures. BetaKit: \"Canadian-led, United States-based Extropic has closed $14.1 million in seed funding to build ‘physics-based computing’ hardware for generative artificial intelligence.\" PitchBook records it as a roll-up of three tranches — Seed 1, Seed 2 and Seed 3 — closed as one deal on 4 Dec 2023, at a $36M PRE-money valuation. The valuation here is that pre-money figure, which is what the source states; $36M + $14.1M implies a $50.1M post-money, but no source publishes that and it is not recorded. Sequoia Capital participated, which none of the 2023 press coverage mentioned. The investor list is the union of BetaKit’s and PitchBook’s: BetaKit named Ivan Zhang, whom PitchBook omits, and PitchBook adds fourteen names including Sequoia, Untapped, Fortified, Deep Checks, Neman, Beyond Capital, HyperGuap, Retron, Aravind Srinivas, Scott Belsky, Oliver Cameron, Farbood Nivi and Christopher Prucha. \"Marque VC\" is recorded as PitchBook has it, Marque Ventures."
       }
     ],
     "capital_raised_usd": 14100000,
     "capital_raised_display": "$14.1M",
     "metadata": {
-      "valuation_usd": null,
-      "valuation_display": "",
+      "valuation_usd": 36000000,
+      "valuation_display": "$36M",
       "last_verified": "2026-09-24T17:00:00Z",
-      "notes": "HQ is Waltham, Massachusetts, not the Bay Area as most aggregators still say. From the company’s own press release of 29 Jul 2026: \"Extropic is headquartered in Waltham, Massachusetts, with offices in San Francisco.\" Its job-board API gives 203 Crescent Street #303, Waltham MA 02543. The terms of service name no state — only \"the United States law\" — so there is no governing-law clause worth testing here.\n\nTHERE ARE LATER ROUNDS THAT WERE NEVER ANNOUNCED. Extropic itself has filed no Form D, but two investor-side special-purpose vehicles have: Infinite Capital LP — Series Extropic filed 4 Nov 2024, and Gaingels Extropic LLC filed 20 Mar 2026 recording $920,543 sold to 36 accredited investors with a first sale on 12 Mar 2026. Those pin the SPVs, not the rounds, but an SPV closing in March 2026 is hard evidence of a financing around then. Amounts, leads and valuations are unknown, and every aggregator still shows only the 2023 seed. The About page also lists RTX Ventures and E1 Ventures, neither of which was in the seed.\n\nNOT COUNTED AS FUNDING: a $75M letter of intent with the US Department of Commerce under the CHIPS R&D Office, signed 29 Jul 2026. It is a grant LOI, explicitly non-binding and subject to negotiating definitive agreements.\n\nFormerly called Qyber, which is why CB Insights files it under that name. Both founders are Waterloo alumni; Verdon’s MMath is confirmed by his thesis in UWSpace, Waterloo’s own repository, and McCourt by Waterloo’s own events page naming him \"Trevor McCourt (BSc, MME, ’20), CTO and co-founder of leading chipmaker Extropic\". Principal architect Christopher Chamberland is also a Waterloo PhD but is not a founder, so he is not listed."
+      "notes": "The recorded valuation is the December 2023 PRE-money of $36M, the only figure any source publishes. The implied post-money is $50.1M, and the company is certainly worth more now given the undisclosed rounds below, but neither number is sourced. HQ is Waltham, Massachusetts, not the Bay Area as most aggregators still say. From the company’s own press release of 29 Jul 2026: \"Extropic is headquartered in Waltham, Massachusetts, with offices in San Francisco.\" Its job-board API gives 203 Crescent Street #303, Waltham MA 02543. The terms of service name no state — only \"the United States law\" — so there is no governing-law clause worth testing here.\n\nTHERE ARE LATER ROUNDS THAT WERE NEVER ANNOUNCED. Extropic itself has filed no Form D, but two investor-side special-purpose vehicles have: Infinite Capital LP — Series Extropic filed 4 Nov 2024, and Gaingels Extropic LLC filed 20 Mar 2026 recording $920,543 sold to 36 accredited investors with a first sale on 12 Mar 2026. Those pin the SPVs, not the rounds, but an SPV closing in March 2026 is hard evidence of a financing around then. Amounts, leads and valuations are unknown, and every aggregator still shows only the 2023 seed. The About page also lists RTX Ventures and E1 Ventures, neither of which was in the seed.\n\nNOT COUNTED AS FUNDING: a $75M letter of intent with the US Department of Commerce under the CHIPS R&D Office, signed 29 Jul 2026. It is a grant LOI, explicitly non-binding and subject to negotiating definitive agreements.\n\nFormerly called Qyber, which is why CB Insights files it under that name. Both founders are Waterloo alumni; Verdon’s MMath is confirmed by his thesis in UWSpace, Waterloo’s own repository, and McCourt by Waterloo’s own events page naming him \"Trevor McCourt (BSc, MME, ’20), CTO and co-founder of leading chipmaker Extropic\". Principal architect Christopher Chamberland is also a Waterloo PhD but is not a founder, so he is not listed.",
+      "valuation_type": "pre_money",
+      "valuation_as_of": "2023-12"
     }
   }
 ]

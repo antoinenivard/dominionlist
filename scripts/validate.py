@@ -50,6 +50,13 @@ EVENT_ROUNDS = {
 }
 ROUND_KINDS = {"funding", "event"}
 
+# What kind of number metadata.valuation_usd is. Anything outside this set has
+# no label in index.html and renders as a raw enum in the tooltip.
+VALUATION_TYPES = {
+    "post_money", "pre_money", "market_cap", "acquisition",
+    "secondary", "ipo", "post_bankruptcy",
+}
+
 # status and stage are two independent axes and must stay that way. status is
 # the outcome; stage is the financing stage reached, which stays true after an
 # exit — Slack is Acquired and Series H. When they shared one vocabulary an exit
@@ -295,6 +302,11 @@ def main():
         yr = c.get("founding_year")
         if not isinstance(yr, int) or not (1900 <= yr <= 2100):
             err(f"{who}: founding_year {yr!r} is not a plausible year")
+
+        vtype = c.get("metadata", {}).get("valuation_type") or ""
+        if vtype and vtype not in VALUATION_TYPES:
+            err(f"{who}: valuation_type {vtype!r} is not one of {sorted(VALUATION_TYPES)} "
+                f"— it would render as a raw enum in the tooltip")
 
         raised = c.get("capital_raised_display") or ""
         raised_usd = c.get("capital_raised_usd")
