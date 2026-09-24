@@ -356,7 +356,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
   <p>Once verified, each entry is enriched with structured data:</p>
   <ul>
     <li><strong>Funding history</strong> — full round-by-round data sourced from venture databases, SEC filings, and press releases. Round types are normalized to a standard taxonomy (Seed, Series A–G, Growth, etc.) and exit events (IPO, Acquisition, SPAC) are tagged separately.</li>
-    <li><strong>Valuations</strong> — post-money valuations from funding rounds where disclosed. Public companies use market capitalization as of the most recent data point.</li>
+    <li><strong>Valuations</strong> — post-money valuations from funding rounds where disclosed, always post-money and never pre-money, so that figures are comparable across the database. Where a source publishes only a pre-money valuation, the round amount is added to it and the resulting post-money is recorded, with the entry noting that the figure is derived. Public companies use market capitalization as of the most recent data point.</li>
     <li><strong>Founder profiles</strong> — professional profile URLs, X/Twitter handles, Wikipedia links, biographical summaries, and headshot images sourced from company websites and public profiles.</li>
     <li><strong>Institutional mapping</strong> — each founder's Canadian institution(s) are mapped to their city for geographic analysis (e.g., University of Waterloo and Wilfrid Laurier both map to Waterloo, ON).</li>
   </ul>

@@ -52,8 +52,13 @@ ROUND_KINDS = {"funding", "event"}
 
 # What kind of number metadata.valuation_usd is. Anything outside this set has
 # no label in index.html and renders as a raw enum in the tooltip.
+#
+# pre_money is deliberately absent. Valuations here are post-money throughout,
+# so the two are never mixed in a sort or a total. Where a source gives only a
+# pre-money, add the round amount and record the post-money, saying in the
+# notes that it is derived: Extropic's $36M pre plus its $14.1M seed is $50.1M.
 VALUATION_TYPES = {
-    "post_money", "pre_money", "market_cap", "acquisition",
+    "post_money", "market_cap", "acquisition",
     "secondary", "ipo", "post_bankruptcy",
 }
 
@@ -304,7 +309,11 @@ def main():
             err(f"{who}: founding_year {yr!r} is not a plausible year")
 
         vtype = c.get("metadata", {}).get("valuation_type") or ""
-        if vtype and vtype not in VALUATION_TYPES:
+        if vtype == "pre_money":
+            err(f"{who}: valuation_type is pre_money — this database records "
+                f"post-money only. Add the round amount to the pre-money and record "
+                f"that, noting in the entry that the figure is derived.")
+        elif vtype and vtype not in VALUATION_TYPES:
             err(f"{who}: valuation_type {vtype!r} is not one of {sorted(VALUATION_TYPES)} "
                 f"— it would render as a raw enum in the tooltip")
 
