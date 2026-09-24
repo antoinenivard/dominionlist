@@ -50268,33 +50268,38 @@
         "date": "2026-09-01",
         "round": "Acquired",
         "kind": "event",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "amount_usd": 500000000,
+        "amount_display": "$500M",
+        "valuation_usd": 500000000,
+        "valuation_display": "$500M",
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [
-          "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security"
+          "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security",
+          "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/"
         ],
-        "notes": "Acquired by Palo Alto Networks (NASDAQ: PANW) to deepen agentic capabilities in Cortex. Financial terms not disclosed in the press release, and no outlet covering the announcement has reported a figure.",
+        "notes": "Acquired by Palo Alto Networks (NASDAQ: PANW) to deepen agentic capabilities in Cortex. The companies announced the deal on 1 September 2026 without disclosing terms; TechCrunch reported the following day that PANW paid $500M in cash and stock, citing two people with knowledge of the deal. The $500M is therefore press-reported, not party-disclosed, and PANW declined to comment. PitchBook had Console marked at $157M before the sale, so the price is roughly a 3x step-up on the last private mark and about 17x the $29.2M the company had raised in its two years. Console was PANW's seventh acquisition of 2026, alongside Chronosphere at a $3.35B valuation and Koi at $400M.",
         "acquirer": "Palo Alto Networks"
       }
     ],
     "capital_raised_usd": 29200000,
     "capital_raised_display": "$29.2M",
     "metadata": {
-      "valuation_usd": null,
-      "valuation_display": "",
+      "valuation_usd": 500000000,
+      "valuation_display": "$500M",
       "sources": [
         "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-acquires-console-to-agentify-security",
+        "https://www.securityweek.com/palo-alto-networks-acquires-console-to-agentify-security/",
+        "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
         "https://techcrunch.com/2025/06/02/console-raises-6-2m-from-thrive-to-free-it-teams-from-mundane-tasks-with-ai/",
         "https://www.upstartsmedia.com/p/console-ai-for-it-raises-series-a",
         "https://uwaterloo.ca/news/university-waterloo-well-represented-forbes-30-under-30",
         "https://www.console.com/privacy"
       ],
-      "last_verified": "2026-09-01T19:00:00-07:00",
-      "notes": "Founded May 2024 in San Francisco by Andrei Serban (CEO) and Neal Chandra (CTO). US HQ confirmed by Console's own privacy policy ('We are headquartered in the United States', entity Console Systems, Inc.), California governing law in its terms, and every careers listing being San Francisco on-site. Qualifies on Serban: the University of Waterloo's own news site lists him among Waterloo people on the Forbes 30 Under 30 list as a Fuzzbuzz co-founder, and Upstarts Media describes him as 'a Thiel Fellow who dropped out of the University of Waterloo' — he attended but did not graduate. Co-founder Neal Chandra (ex-Discord, UC Berkeley) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Valuation left null: the acquisition terms are undisclosed and neither funding round disclosed a valuation, so the company carries no rank in the valuation sort. Note the company used console.co before moving to console.com; TechCrunch's June 2025 piece still links the old domain."
+      "last_verified": "2026-09-24T12:00:00-07:00",
+      "notes": "Founded May 2024 in San Francisco by Andrei Serban (CEO) and Neal Chandra (CTO). US HQ confirmed by Console's own privacy policy ('We are headquartered in the United States', entity Console Systems, Inc.), California governing law in its terms, and every careers listing being San Francisco on-site. Qualifies on Serban: the University of Waterloo's own news site lists him among Waterloo people on the Forbes 30 Under 30 list as a Fuzzbuzz co-founder, and Upstarts Media describes him as 'a Thiel Fellow who dropped out of the University of Waterloo' — he attended but did not graduate. Co-founder Neal Chandra (ex-Discord, UC Berkeley) has no identified Canadian connection and so is not listed, per the convention of listing only Canadian-connected founders. Valuation recorded as the $500M acquisition price. Neither funding round disclosed a valuation, and the parties did not disclose deal terms — the figure comes from TechCrunch, sourced to two people with knowledge of the deal, and PANW declined to comment. PitchBook's last pre-sale mark was $157M. Note the company used console.co before moving to console.com; TechCrunch's June 2025 piece still links the old domain.",
+      "valuation_type": "acquisition",
+      "valuation_as_of": "2026-09"
     }
   },
   {
