@@ -52366,5 +52366,107 @@
     },
     "capital_raised_usd": 29300000,
     "capital_raised_display": "$29.3M"
+  },
+  {
+    "id": "extropic",
+    "name": "Extropic",
+    "website": "https://extropic.ai",
+    "description": "Builds thermodynamic computing hardware — Thermodynamic Sampling Units that use the natural noise of standard CMOS transistors to sample from programmable probability distributions, pitched as radically more energy-efficient than GPUs for generative AI.",
+    "hq_city": "Waltham",
+    "hq_region": "MA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/extropic.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "guillaume-verdon",
+        "name": "Guillaume Verdon",
+        "role": "Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Founder and CEO of Extropic. Born in Montreal; honours BSc in mathematics and physics from McGill and an MMath from the University of Waterloo in 2017, done at the Institute for Quantum Computing, followed by unfinished PhD work under Achim Kempf. Previously at Google, where he led the theoretical work behind TensorFlow Quantum. Wrote as BasedBeffJezos and co-founded the effective accelerationism movement.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Guillaume_Verdon",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University",
+          "University of Waterloo"
+        ],
+        "canadian_city": "Montreal, QC",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      },
+      {
+        "id": "trevor-mccourt",
+        "name": "Trevor McCourt",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "bio": "Co-Founder and CTO of Extropic. BSc and MME from the University of Waterloo, class of 2020, originally a mechanical engineer; later a PhD in electrical engineering at MIT. Worked on TensorFlow Quantum at Alphabet alongside Verdon.",
+        "wikipedia_url": "",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON",
+        "photo_url": "",
+        "image_source_type": "",
+        "image_source_page": "",
+        "image_last_checked_at": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2023-12-04",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 14100000,
+        "amount_display": "$14.1M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Kindred Ventures"
+        ],
+        "other_investors": [
+          "Buckley Ventures",
+          "HOF Capital",
+          "Julian Capital",
+          "Marque VC",
+          "OSS Capital",
+          "Valor Equity Partners",
+          "Weekend Fund",
+          "Tobias Lütke",
+          "Aidan Gomez",
+          "Ivan Zhang",
+          "Amjad Masad",
+          "Balaji Srinivasan",
+          "Bryan Johnson",
+          "Garry Tan",
+          "Packy McCormick",
+          "Naval Ravikant",
+          "Arash Ferdowsi"
+        ],
+        "source_urls": [
+          "https://betakit.com/founded-by-alphabet-alums-canadian-led-ai-hardware-startup-extropic-secures-over-14-million/",
+          "https://www.prnewswire.com/news-releases/extropic-emerges-from-stealth-aiming-to-revolutionize-generative-ai-with-physics-based-ai-processors-302090040.html"
+        ],
+        "notes": "Led by Kindred Ventures (Steve Jang). BetaKit: \"Canadian-led, United States-based Extropic has closed $14.1 million in seed funding to build ‘physics-based computing’ hardware for generative artificial intelligence.\" The only round the company has ever announced."
+      }
+    ],
+    "capital_raised_usd": 14100000,
+    "capital_raised_display": "$14.1M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-24T17:00:00Z",
+      "notes": "HQ is Waltham, Massachusetts, not the Bay Area as most aggregators still say. From the company’s own press release of 29 Jul 2026: \"Extropic is headquartered in Waltham, Massachusetts, with offices in San Francisco.\" Its job-board API gives 203 Crescent Street #303, Waltham MA 02543. The terms of service name no state — only \"the United States law\" — so there is no governing-law clause worth testing here.\n\nTHERE ARE LATER ROUNDS THAT WERE NEVER ANNOUNCED. Extropic itself has filed no Form D, but two investor-side special-purpose vehicles have: Infinite Capital LP — Series Extropic filed 4 Nov 2024, and Gaingels Extropic LLC filed 20 Mar 2026 recording $920,543 sold to 36 accredited investors with a first sale on 12 Mar 2026. Those pin the SPVs, not the rounds, but an SPV closing in March 2026 is hard evidence of a financing around then. Amounts, leads and valuations are unknown, and every aggregator still shows only the 2023 seed. The About page also lists RTX Ventures and E1 Ventures, neither of which was in the seed.\n\nNOT COUNTED AS FUNDING: a $75M letter of intent with the US Department of Commerce under the CHIPS R&D Office, signed 29 Jul 2026. It is a grant LOI, explicitly non-binding and subject to negotiating definitive agreements.\n\nFormerly called Qyber, which is why CB Insights files it under that name. Both founders are Waterloo alumni; Verdon’s MMath is confirmed by his thesis in UWSpace, Waterloo’s own repository, and McCourt by Waterloo’s own events page naming him \"Trevor McCourt (BSc, MME, ’20), CTO and co-founder of leading chipmaker Extropic\". Principal architect Christopher Chamberland is also a Waterloo PhD but is not a founder, so he is not listed."
+    }
   }
 ]
