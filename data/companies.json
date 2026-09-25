@@ -29310,12 +29310,12 @@
     "id": "openevidence",
     "name": "OpenEvidence",
     "website": "https://www.openevidence.com",
-    "description": "AI medical search and clinical decision-support platform for physicians, answering clinical questions with citation-linked responses drawn from peer-reviewed literature such as NEJM and JAMA.",
+    "description": "AI medical search and clinical decision-support platform for physicians, answering clinical questions with citation-linked responses drawn from peer-reviewed literature such as NEJM and JAMA. Used daily by the majority of US physicians; from 2026 also moving into oncology drug development of its own.",
     "hq_city": "Miami",
     "hq_region": "FL",
     "hq_country": "US",
     "industry": "Health",
-    "stage": "Series D",
+    "stage": "Series E",
     "status": "Private",
     "founding_year": 2021,
     "yc_batch": "",
@@ -29441,15 +29441,41 @@
           "https://www.businesswire.com/news/home/20260121029132/en/OpenEvidence-Raises-$250-Million-to-Build-Medical-Superintelligence-for-Doctors"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-16",
+        "round": "Series E",
+        "kind": "funding",
+        "amount_usd": 250000000,
+        "amount_display": "$250M",
+        "valuation_usd": 15000000000,
+        "valuation_display": "$15B",
+        "lead_investors": [
+          "Byers Capital",
+          "Andreessen Horowitz"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.forbes.com/sites/innovationrx/2026/09/16/a-premier-cancer-hospital-makes-its-data-available-to-doctors-nationwide-through-openevidence/",
+          "https://www.axios.com/pro/health-tech-deals/2026/09/25/openevidence-250m-raise-15b-valuation-a16z"
+        ],
+        "notes": "Never announced by the company. Forbes disclosed it on 16 September 2026 in a single sentence added mid-article to its coverage of the Memorial Sloan Kettering partnership: OpenEvidence “reached a $15 billion valuation after a previously unreported $250 million raise led by Byers Capital and Andreessen Horowitz last week.” Business Insider reported on 24 September, relayed by Axios, that undisclosed hospital systems also participated alongside a16z; the hospital investors are unnamed and so are not listed here. ROUND LABEL IS THIS DATABASE’S: no source assigns a letter — “Series E” is our own sequencing as the next priced round after the January 2026 Series D. DATE IS THE DISCLOSURE DATE: Forbes says the raise closed “last week,” i.e. the week of 7–13 September; no closing date has been reported. Valuation is post-money (“reached a $15 billion valuation after” the raise). Context: The Information reported in July 2026 that the company was weighing $200M at $20B and was unlikely to proceed — it did not, and this round came in at $15B, a 25% step-up on January’s $12B but well below the floated $20B."
       }
     ],
-    "capital_raised_usd": 735000000,
-    "capital_raised_display": "$735M",
+    "capital_raised_usd": 985000000,
+    "capital_raised_display": "$985M",
     "metadata": {
-      "valuation_usd": 12000000000,
-      "valuation_display": "$12B",
-      "last_verified": "2026-08-24T11:30:00-08:00",
-      "notes": "Legal entity Xyla Inc. (Delaware), d/b/a OpenEvidence; OpenEvidence Inc. registered in Florida July 2025. HQ MOVED: Cambridge MA through early 2025, Miami FL from mid-2025, with the main AI research center in San Francisco. Do not source HQ from the company site footer — its Terms and Privacy pages are stale (April 2024) and still list Cambridge MA. Founding year is approximate: aggregators say 2021, much of the press says 2022, and Wikipedia contradicts itself between its two articles; the platform launched in spring 2023 out of Mayo Clinic Platform Accelerate. Capital raised is $735M by sum of the four announced rounds; the company states \"nearly $700M\", which appears to count only the last twelve months. Nadler's Canadian education is sourced to the University of Toronto's own University College alumni page (BA 2005) — note Wikipedia misleadingly implies a Harvard undergrad. Co-founder and CTO Zachary Ziegler (Cornell, Harvard) has no Canadian tie. Sangeen Zeb appears as a director on the Florida filing but is a GV partner, not a founder. A reported ~$200M round at $20B (July 2026) was said to be unlikely to proceed and is NOT recorded here."
+      "valuation_usd": 15000000000,
+      "valuation_display": "$15B",
+      "last_verified": "2026-09-25T10:00:00-07:00",
+      "notes": "Legal entity Xyla Inc. (Delaware), d/b/a OpenEvidence; OpenEvidence Inc. registered in Florida July 2025. HQ MOVED: Cambridge MA through early 2025, Miami FL from mid-2025, with the main AI research center in San Francisco. Do not source HQ from the company site footer — its Terms and Privacy pages are stale (April 2024) and still list Cambridge MA. Founding year is approximate: aggregators say 2021, much of the press says 2022, and Wikipedia contradicts itself between its two articles; the platform launched in spring 2023 out of Mayo Clinic Platform Accelerate. Capital raised is $985M by sum of the five rounds; the company and its press coverage talk in looser terms (\"more than $1 billion over the past year\"), and Dealroom carries $967M. Nadler's Canadian education is sourced to the University of Toronto's own University College alumni page (BA 2005) — note Wikipedia misleadingly implies a Harvard undergrad. Co-founder and CTO Zachary Ziegler (Cornell, Harvard) has no Canadian tie. Sangeen Zeb appears as a director on the Florida filing but is a GV partner, not a founder. The reported ~$200M round at $20B (July 2026) did not proceed; the company instead raised $250M at $15B in September 2026, disclosed only in passing by Forbes rather than announced. Nadler told Forbes in September 2026 that OpenEvidence is moving into drug development itself, targeting rare cancers, with a first therapy due in clinical trials before the end of 2026.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-09",
+      "sources": [
+        "https://www.forbes.com/sites/innovationrx/2026/09/16/a-premier-cancer-hospital-makes-its-data-available-to-doctors-nationwide-through-openevidence/",
+        "https://www.axios.com/pro/health-tech-deals/2026/09/25/openevidence-250m-raise-15b-valuation-a16z",
+        "https://www.openevidence.com/announcements/memorial-sloan-kettering-cancer-center-msk-and-openevidence-partner-to-advance-precision-oncology-at-the-point-of-care"
+      ]
     }
   },
   {
