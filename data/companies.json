@@ -52516,5 +52516,344 @@
       "valuation_type": "post_money",
       "valuation_as_of": "2023-12"
     }
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "website": "https://www.docker.com",
+    "description": "Commercial tools and services built around Linux container technology, which packages an application and its dependencies into a portable, isolated unit. Products include Docker Desktop, the container image registry Docker Hub, Docker Scout for supply-chain analysis, and Docker Hardened Images, sold mainly as per-seat developer subscriptions. Since 2025 the line has extended to AI workloads — Docker Sandboxes for coding agents, an MCP Enterprise Gateway, and Docker Model Runner for local inference. The Docker Enterprise platform business was sold to Mirantis in November 2019.",
+    "hq_city": "Palo Alto",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series C",
+    "status": "Private",
+    "founding_year": 2008,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/docker.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "solomon-hykes",
+        "name": "Solomon Hykes",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/solomonhykes/",
+        "x_url": "https://x.com/solomonstre",
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Solomon_Hykes",
+        "bio": "Co-founder of Docker and creator of the Docker open-source project. Founded dotCloud in Paris in 2008 with Kamel Founadi and Sébastien Pahl and served as its CEO until 2013, when the company renamed itself Docker, Inc. and he moved to CTO. Left day-to-day operations in March 2018, staying on as a board member and major shareholder, and went on to found Dagger.",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2011-02-28",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 800000,
+        "amount_display": "$800K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Ron Conway",
+          "Chris Sacca",
+          "Jerry Yang"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2011/02/28/dotcloud/"
+        ],
+        "notes": "Raised as dotCloud. Angel syndicate, no institutional lead."
+      },
+      {
+        "date": "2011-03-22",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Benchmark"
+        ],
+        "other_investors": [
+          "Trinity Ventures",
+          "Jerry Yang"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2011/03/22/paas-dotcloud-raises-10m-from-jerry-yang-benchmark-and-others/",
+          "https://www.sec.gov/Archives/edgar/data/1516587/000151658711000002/xslFormDX01/primary_doc.xml"
+        ],
+        "notes": "Raised as dotCloud; corroborated by the Form D filed 2011-03-30. Jerry Yang joined the board."
+      },
+      {
+        "date": "2014-01-21",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Greylock Partners"
+        ],
+        "other_investors": [
+          "Benchmark",
+          "Trinity Ventures",
+          "Insight Partners"
+        ],
+        "source_urls": [
+          "https://www.docker.com/blog/docker-closes-15-m-series-b-funding/"
+        ],
+        "notes": "First round after the October 2013 rename from dotCloud, Inc. to Docker, Inc."
+      },
+      {
+        "date": "2014-09-16",
+        "round": "Series C",
+        "kind": "funding",
+        "amount_usd": 40000000,
+        "amount_display": "$40M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "Benchmark",
+          "Greylock Partners",
+          "Insight Partners",
+          "Trinity Ventures"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20140916005327/en/Docker-Secures-40M-Series-Funding-Drive-Future"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2015-04-14",
+        "round": "Series D",
+        "kind": "funding",
+        "amount_usd": 95000000,
+        "amount_display": "$95M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Insight Partners"
+        ],
+        "other_investors": [
+          "Coatue",
+          "Goldman Sachs",
+          "Northern Trust"
+        ],
+        "source_urls": [
+          "https://fortune.com/2015/04/14/docker-raises-95-million/"
+        ],
+        "notes": "The widely repeated “over $1 billion” valuation for this round is a press estimate, not a company disclosure, so no valuation is recorded."
+      },
+      {
+        "date": "2015-11-06",
+        "round": "Series D Extension",
+        "kind": "funding",
+        "amount_usd": 18000000,
+        "amount_display": "$18M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "In-Q-Tel"
+        ],
+        "source_urls": [
+          "https://www.bizjournals.com/sanjose/blog/techflash/2015/11/docker-adds-18m-to-latest-funding-brings-round-up.html"
+        ],
+        "notes": "Brought the Series D to $113M. In-Q-Tel’s participation surfaced only in April 2016."
+      },
+      {
+        "date": "2018-10-15",
+        "round": "Series E",
+        "kind": "funding",
+        "amount_usd": 91935439,
+        "amount_display": "$91.9M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1516587/000151658718000002/xslFormDX01/primary_doc.xml",
+          "https://techcrunch.com/2018/10/15/docker-has-raised-92-million-in-new-funding/"
+        ],
+        "notes": "Amount and date are from the Form D/A: $91,935,439 sold of a $191,846,716 authorised offering, with $99,911,277 left unsold — the authorised figure is what some aggregators appear to count. First sale 2017-09-25; the date here is the filing date. No lead disclosed."
+      },
+      {
+        "date": "2019-11-13",
+        "round": "Venture",
+        "kind": "funding",
+        "amount_usd": 35000000,
+        "amount_display": "$35M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Benchmark",
+          "Insight Partners"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.docker.com/press-release/docker-new-direction/",
+          "https://www.mirantis.com/company/press-center/company-news/mirantis-acquires-docker-enterprise/"
+        ],
+        "notes": "New financing from existing investors, taken alongside a recapitalisation of the equity, on the day Docker sold its Docker Enterprise business to Mirantis and refocused on developers. Labelled Venture rather than Recapitalisation because this row is the $35M of new money; aggregators often call it a Series A. The recap reset the cap table, which is why Docker’s own later “total funding” figures start counting from here."
+      },
+      {
+        "date": "2021-03-16",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 23000000,
+        "amount_display": "$23M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Tribe Capital"
+        ],
+        "other_investors": [
+          "Benchmark",
+          "Insight Partners"
+        ],
+        "source_urls": [
+          "https://www.docker.com/press-release/Docker-Series-B/"
+        ],
+        "notes": "Second company-labelled Series B — Docker restarted its round lettering after the 2019 recap. The release puts “total funding” at $58M, counting only post-recap capital. Arjun Sethi joined the board."
+      },
+      {
+        "date": "2022-03-31",
+        "round": "Series C",
+        "kind": "funding",
+        "amount_usd": 105000000,
+        "amount_display": "$105M",
+        "valuation_usd": 2100000000,
+        "valuation_display": "$2.1B",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [
+          "Atlassian Ventures",
+          "Citi Ventures",
+          "Vertex Ventures",
+          "Four Rivers",
+          "Benchmark",
+          "Insight Partners",
+          "Tribe Capital"
+        ],
+        "source_urls": [
+          "https://www.docker.com/press-release/accelerate-investments-in-developer-productivity-trusted-content-and-ecosystem-partnerships/"
+        ],
+        "notes": "Docker’s release: “This round brings Docker’s total funding to $163 million and values the company at $2.1 billion.” Read as post-money — the company does not use the word. Enrique Salem joined the board. Docker’s last disclosed valuation and, per EDGAR, its last Form D."
+      }
+    ],
+    "capital_raised_usd": 433735439,
+    "capital_raised_display": "$433.7M",
+    "metadata": {
+      "valuation_usd": 2100000000,
+      "valuation_display": "$2.1B",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2022-03",
+      "sources": [
+        "https://www.docker.com/legal/docker-terms-use/",
+        "https://data.sec.gov/submissions/CIK0001516587.json",
+        "https://www.docker.com/blog/au-revoir/",
+        "https://www.docker.com/press-release/accelerate-investments-in-developer-productivity-trusted-content-and-ecosystem-partnerships/",
+        "https://www.docker.com/press-release/docker-announces-don-johnson-as-new-ceo-succeeding-scott-johnston/"
+      ],
+      "last_verified": "2026-09-25T10:00:00-07:00",
+      "notes": "US HQ confirmed by Docker’s Terms of Use, which give California governing law with exclusive jurisdiction in Santa Clara County and a notice address of 3790 El Camino Real Suite 1052, Palo Alto, CA — the same address SEC EDGAR carries for CIK 0001516587 (Delaware incorporation, former name “dotCloud, inc.”). HQ MOVED: 144 Townsend St, San Francisco through 2018 (per the 2018 Form D), Palo Alto from 2021. The Palo Alto address is a suite/mailbox, consistent with a remote-first company. FOUNDING YEAR is 2008, when Hykes, Kamel Founadi and Sébastien Pahl started dotCloud in Paris — his own account in the 2018 farewell post. US incorporation followed in 2010 and the rename to Docker, Inc. in October 2013; the same SEC CIK carries both names, so it is one entity throughout. Press uses 2008 and 2013 interchangeably. CAPITAL RAISED is $433.7M, the sum of disclosed rounds across both eras. Do not quote Docker’s own “total funding” figures ($58M in 2021, $163M in 2022) as the total — they count only money raised after the November 2019 recapitalisation. Some aggregators report up to $541M, which we could not source; the likeliest cause is counting the full $191.8M authorised Series E offering rather than the $91.9M actually sold. Still private and independent as of September 2026, shipping product, with Don Johnson (ex-Oracle Cloud Infrastructure) CEO since February 2025; analysts have speculated about a sale but none has occurred. Co-founders Founadi and Pahl have no identified Canadian connection and so are not listed, per the convention of listing only Canadian-connected founders. Canadian citizenship is owner-supplied: the database owner knows Hykes personally and confirms he holds Canadian citizenship. No public source states it — the published biography (Forbes, July 2015) has him born in New York City to an American father and a “French-Canadian” mother, moving to France at four, schooled in France and then at Epitech in Paris, with six months at UC San Diego. Ancestry alone would not qualify under this database’s rules, so the entry rests on the citizenship claim, not on the mother. Consistent with it: a 1983 birth abroad to a Canadian parent confers Canadian citizenship by descent automatically (first generation), which would not necessarily be reported anywhere. Recorded as citizenship, sourced to the owner."
+    }
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "website": "https://dagger.io",
+    "description": "Execution engine and platform for CI/CD pipelines. Its open-source engine lets developers define build, test and deploy pipelines in a general-purpose programming language instead of YAML, running each step in an OCI container so the pipeline behaves identically on a laptop, a CI runner or in the hosted cloud, with every operation content-addressed and cached. The commercial product, Dagger Cloud, adds pipeline tracing, caching and remote execution. Also publishes tooling for running AI coding agents in isolated containers.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series A",
+    "status": "Private",
+    "founding_year": 2018,
+    "yc_batch": "W19",
+    "icon_url": "https://img.logo.dev/dagger.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "solomon-hykes",
+        "name": "Solomon Hykes",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/solomonhykes/",
+        "x_url": "https://x.com/solomonstre",
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Solomon_Hykes",
+        "bio": "Co-Founder & CEO of Dagger, which he started in 2018 after leaving Docker. Previously founded dotCloud in Paris in 2008, was its CEO until the 2013 rename to Docker, Inc., then Docker’s CTO until March 2018, and created the Docker open-source project.",
+        "canadian_connection_type": "citizenship",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-07-23",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 10392681,
+        "amount_display": "$10.4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "New Wave"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1880409/000188040921000001/xslFormDX01/primary_doc.xml"
+        ],
+        "notes": "Amount is the Form D total sold, $10,392,681 across 26 investors, fully subscribed; date is the first sale. Press describes this capital as a $3M pre-seed plus a $7M seed led by New Wave — the single filing appears to roll both together, so they are one row here rather than three."
+      },
+      {
+        "date": "2022-03-30",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 20000005,
+        "amount_display": "$20M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Redpoint Ventures"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Nat Friedman",
+          "Brian Stevens",
+          "Idit Levine",
+          "Julius Volz",
+          "Ellen Pao",
+          "Daniel Lopez"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1880409/000188040922000001/xslFormDX01/primary_doc.xml",
+          "https://techcrunch.com/2022/03/30/docker-founder-launches-dagger-a-new-devops-platform/"
+        ],
+        "notes": "Announced 30 March 2022 as “$20 million”; the Form D, signed by Hykes as CEO, records $20,000,005 across 14 investors, first sale 2022-02-11. Announced alongside the public beta, ending roughly three years in stealth. No valuation disclosed. Erica Brescia of Redpoint joined the board."
+      }
+    ],
+    "capital_raised_usd": 30392686,
+    "capital_raised_display": "$30.4M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://dagger.io/legal_pages/privacy-policy/",
+        "https://www.sec.gov/Archives/edgar/data/1880409/000188040922000001/xslFormDX01/primary_doc.xml",
+        "https://www.ycombinator.com/companies/dagger",
+        "https://techcrunch.com/2022/03/30/docker-founder-launches-dagger-a-new-devops-platform/"
+      ],
+      "last_verified": "2026-09-25T10:00:00-07:00",
+      "notes": "US HQ confirmed by the current privacy policy (Dagger, Inc., 548 Market St PMB 23743, San Francisco, CA) and by SEC EDGAR, which gives the identical principal place of business for CIK 0001880409 and Delaware incorporation; the Terms of Service put exclusive jurisdiction and arbitration in San Francisco County. Ignore the mailing address in those Terms (4 Cobblestone Ln, Belmont, CA) — the page has not been updated since March 2022 and that is the founding address. 548 Market St is a virtual-mailbox address; Dagger is distributed, with no evidence of a physical office. FOUNDING YEAR is 2018, from the sworn Form D “Year of Incorporation” field and YC’s profile, not the 2022 date implied by most press — the company spent roughly three years in stealth before launching. The Form D’s “Previous Names” field shows it was incorporated as Blocklayer, Inc. and later renamed Dagger, Inc.; that detail appears in no press coverage. Y Combinator Winter 2019. CAPITAL RAISED is $30.4M, the sum of the two Form D amounts sold, which matches the aggregator figure exactly. No valuation has ever been disclosed, at any round, so the company carries no rank in the valuation sort. EDGAR full-text shows only those two Form Ds, and 2026 aggregator profiles still show the 2022 Series A as the latest round, so no later priced round is recorded — an unannounced SAFE or bridge would not necessarily surface. Co-founders Sam Alba and Andrea Luzzardi (both listed as executive officers and directors on the Form Ds) have since left to found Mendral, in YC’s Winter 2026 batch; neither has an identified Canadian connection, and Dagger is still shipping with Hykes as CEO. Canadian citizenship is owner-supplied: the database owner knows Hykes personally and confirms he holds Canadian citizenship. No public source states it — the published biography (Forbes, July 2015) has him born in New York City to an American father and a “French-Canadian” mother, moving to France at four, schooled in France and then at Epitech in Paris, with six months at UC San Diego. Ancestry alone would not qualify under this database’s rules, so the entry rests on the citizenship claim, not on the mother. Consistent with it: a 1983 birth abroad to a Canadian parent confers Canadian citizenship by descent automatically (first generation), which would not necessarily be reported anywhere. Recorded as citizenship, sourced to the owner."
+    }
   }
 ]
