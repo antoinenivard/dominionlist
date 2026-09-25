@@ -40044,7 +40044,7 @@
     "id": "solcoa-industries",
     "name": "Solcoa Industries",
     "website": "https://www.solcoaindustries.com",
-    "description": "American rare earth metals production. Converts scrap magnets and magnet waste directly into magnet-ready rare earth alloys (NdPr metal) with zero toxic waste and zero emissions, bypassing the conventional China-dependent supply chain.",
+    "description": "Rare earth metallization — converting rare earth oxides into the metal used in the high-performance magnets in electric vehicles, robotics and defence systems, the step where China holds roughly 95% of global capacity. Develops halide-free chemistries and builds and operates its own modular reactors, a process it says avoids the fluoride gases and perfluorocarbons of legacy molten-salt electrolysis. Produces samarium and NdPr metal at about 10 tonnes a year in Alameda and is building Solcoa One, a 500-tonne-per-year plant in Nevada due on line in July 2027.",
     "hq_city": "Alameda",
     "hq_region": "CA",
     "hq_country": "US",
@@ -40053,22 +40053,21 @@
     "status": "Private",
     "founding_year": 2023,
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://img.logo.dev/solcoaindustries.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "hooman-reza-nezhad",
         "name": "Hooman Reza Nezhad",
         "role": "Co-Founder & CEO",
-        "linkedin": "https://www.linkedin.com/in/hooman-nezhad",
-        "x_url": "",
-        "bio": "Co-Founder & CEO of Solcoa. 2025 Thiel Fellow. From Waterloo, Ontario. University of Toronto; research at University of Waterloo on Mars in-situ resource utilization.",
+        "linkedin": "https://www.linkedin.com/in/hooman-nezhad/",
+        "x_url": "https://x.com/hoomanrenezhad",
+        "bio": "Co-Founder & CEO of Solcoa Industries, which he started at 18 after moving to the Bay Area. Grew up in Waterloo, Ontario; a 2023 Canada-Wide Science Fair finalist while still in secondary school, for work on molten-salt electrolysis of Martian regolith. Became the youngest researcher at the University of Waterloo’s Energy Research Center at 16 and a Foresight Institute space technology fellow, then deferred university after being named a Thiel Fellow in 2025. Holds an O-1 visa.",
         "wikipedia_url": "",
-        "canadian_connection_type": "birthplace_education",
+        "canadian_connection_type": "education_citizenship",
         "canadian_institution": "University of Toronto",
         "canadian_city": "Waterloo, ON",
         "canadian_institutions": [
-          "University of Toronto",
-          "University of Waterloo"
+          "University of Toronto"
         ],
         "photo_url": "https://static.wixstatic.com/media/3dbb36_ae0ee3a58ef746fbb90aad5edb749580~mv2.png/v1/fill/w_320,h_320,al_c/_Hooman%20Reza%20Nezhad_Headshot.png",
         "image_source_type": "conference",
@@ -40079,16 +40078,15 @@
     "funding_rounds": [
       {
         "date": "2024",
-        "round": "Seed",
+        "round": "Pre-Seed",
         "kind": "funding",
         "amount_usd": 3000000,
         "amount_display": "$3M",
-        "valuation_usd": 100000000,
-        "valuation_display": "$100M",
-        "lead_investors": [
-          "Bain Capital Ventures"
-        ],
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
         "other_investors": [
+          "Bain Capital Ventures",
           "Felicis",
           "Gigascale Capital",
           "8090 Industries",
@@ -40099,16 +40097,64 @@
           "https://www.crunchbase.com/organization/solcoa-industries",
           "https://www.solcoaindustries.com/"
         ],
-        "notes": "$100M valuation per secondary reporting."
+        "notes": "Relabelled from Seed to Pre-Seed: the September 2026 round is the company’s seed, and this is the earlier financing. AMOUNT AND DATE ARE WEAK: $3M and ‘2024’ come from Crunchbase only — no press release or filing states either, CB Insights carries this as a pre-seed with no amount, and 8090 Industries only posted about investing around March 2025. Treat the figure as indicative. Lead moved to undisclosed: Bain Capital Ventures is confirmed as the lead of the 2026 seed, not of this round, and the attribution looks like an aggregator conflation. The $100M valuation previously recorded here has been removed — see the metadata note; a $3M round at a $100M post-money was never plausible."
+      },
+      {
+        "date": "2026-09-24",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 45000000,
+        "amount_display": "$45M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Bain Capital Ventures"
+        ],
+        "other_investors": [
+          "Gigascale Capital",
+          "Long Journey Ventures",
+          "Felicis",
+          "Dylan Field"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260924752270/en/",
+          "https://www.axios.com/pro/climate-deals/2026/09/24/solcoa-75-million-rare-earth"
+        ],
+        "notes": "Equity half of a $75M package announced the same day; the $30M of debt and equipment financing is the next row. The release gives no round name — Axios calls it seed equity and debt, PitchBook logs it as Early Stage VC, and nothing calls it a Series A. Bain’s Alyssa Co joins as the named partner (the release spells it “Alysaa”). No valuation disclosed. Funds construction and commissioning of Solcoa One plus expanded reactor manufacturing in Alameda."
+      },
+      {
+        "date": "2026-09-24",
+        "round": "Debt Financing",
+        "kind": "funding",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "J.P. Morgan"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260924752270/en/"
+        ],
+        "notes": "Debt and equipment financing anchored by J.P. Morgan, announced together with the $45M of equity as “$75 million in financing.” Split into its own row so the Raised column does not imply $75M of equity."
       }
     ],
-    "capital_raised_usd": 3000000,
-    "capital_raised_display": "$3M",
+    "capital_raised_usd": 78000000,
+    "capital_raised_display": "$78M",
     "metadata": {
-      "valuation_usd": 100000000,
-      "valuation_display": "$100M",
-      "last_verified": "2026-05-29T10:00:00-08:00",
-      "notes": "Only CEO Hooman Reza Nezhad is Canadian (born Waterloo ON, UofT/Waterloo). CTO Artem Iurkovskyi is Ukrainian-American (Worcester Polytechnic), not included. 31,000 sq ft facility in Alameda, CA."
+      "valuation_usd": null,
+      "valuation_display": "",
+      "last_verified": "2026-09-25T12:00:00-07:00",
+      "notes": "US HQ per the company’s own September 2026 announcement — “Founded in 2025 and headquartered in Alameda, California” — plus a 31,000 sq ft Alameda facility and Alameda job postings. The usual governing-law check is unavailable: solcoaindustries.com is a single page with no terms or privacy policy. Ignore PitchBook’s Wilmington, DE address, a registered-agent address evidencing Delaware incorporation rather than the operating HQ. NO SEC FILING EXISTS: EDGAR full-text returns zero hits for “Solcoa” across all form types, so there is no Form D to arbitrate HQ, incorporation year or the officer list — unusual for a round this size, and worth re-checking later in case one simply had not posted. FOUNDING YEAR IS CONTESTED: 2023 is recorded and matches PitchBook, Scroll.media and our own 2024 pre-seed row, but the company’s own release says 2025, twice. The gap is probably a predecessor entity — it was previously called Solcoa Technologies. Do not ‘fix’ one without the other. VALUATION REMOVED: this entry used to carry $100M as a post-money on the pre-seed. That figure traces to marketing copy on the website of Solcoa’s branding agency and to a Forbes estimate relayed by Scroll.media, which said it could not verify it — it is an estimate of the company, not a disclosed round post-money, it predates the September 2026 round, and $3M raised at a $100M post-money was never plausible. No valuation has been disclosed at any round, so the company carries no rank in the valuation sort. CAPITAL RAISED is $78M and still understates the total: the pre-seed amount is unconfirmed, and Reza Nezhad’s $200,000 Thiel Fellowship is a grant to the founder rather than company equity, so it is not counted. QUALIFIES ON REZA NEZHAD, and the grounds have been corrected. Canadian secondary schooling is the sturdy one: Youth Science Canada’s official 2023 Canada-Wide Science Fair results list him as a Senior finalist for Waterloo-Wellington, Ontario, and CWSF finalists must be grade 7–12 students delegated by a Canadian regional fair; Foresight called him “a high school senior” and the Thiel Foundation’s 2025 announcement gives his hometown as “Waterloo, Canada.” Axios describes him as “a 20-year-old Canadian,” a reporter’s characterisation rather than a citizenship record, and he holds an O-1, consistent with being a non-US national. The previous ‘born Waterloo ON’ claim was unsupported — his place of birth is stated nowhere — so the type is education_citizenship, not birthplace_education. University of Waterloo has been removed from his institutions: he was a researcher in its Energy Research Center from age 16 while still in high school, never an enrolled student. University of Toronto is kept but rests only on his LinkedIn education section; he deferred university for the fellowship, so this may be an admission he did not take up. Worth confirming. The specific Waterloo high school is unconfirmed. CTO and co-founder Artem Iurkovskyi is Ukrainian, a Worcester Polytechnic graduate, with no identified Canadian connection, so he is not listed.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20260924752270/en/",
+        "https://www.axios.com/pro/climate-deals/2026/09/24/solcoa-75-million-rare-earth",
+        "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
+        "https://youthscience.ca/wp-content/uploads/2023/05/CWSF2023-Award-Results-Scholarships-EN.pdf",
+        "https://foresight.org/people/hooman-reza-nezhad/",
+        "https://www.magneticsconference.com/2026-speakers/hooman-reza-nezhad"
+      ]
     }
   },
   {
