@@ -52825,7 +52825,7 @@
     "stage": "Series A",
     "status": "Private",
     "founding_year": 2018,
-    "yc_batch": "W19",
+    "yc_batch": "W'19",
     "icon_url": "https://img.logo.dev/dagger.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
@@ -52900,6 +52900,70 @@
       ],
       "last_verified": "2026-09-25T10:00:00-07:00",
       "notes": "US HQ confirmed by the current privacy policy (Dagger, Inc., 548 Market St PMB 23743, San Francisco, CA) and by SEC EDGAR, which gives the identical principal place of business for CIK 0001880409 and Delaware incorporation; the Terms of Service put exclusive jurisdiction and arbitration in San Francisco County. Ignore the mailing address in those Terms (4 Cobblestone Ln, Belmont, CA) — the page has not been updated since March 2022 and that is the founding address. 548 Market St is a virtual-mailbox address; Dagger is distributed, with no evidence of a physical office. FOUNDING YEAR is 2018, from the sworn Form D “Year of Incorporation” field and YC’s profile, not the 2022 date implied by most press — the company spent roughly three years in stealth before launching. The Form D’s “Previous Names” field shows it was incorporated as Blocklayer, Inc. and later renamed Dagger, Inc.; that detail appears in no press coverage. Y Combinator Winter 2019. CAPITAL RAISED is $30.4M, the sum of the two Form D amounts sold, which matches the aggregator figure exactly. No valuation has ever been disclosed, at any round, so the company carries no rank in the valuation sort. EDGAR full-text shows only those two Form Ds, and 2026 aggregator profiles still show the 2022 Series A as the latest round, so no later priced round is recorded — an unannounced SAFE or bridge would not necessarily surface. Co-founders Sam Alba and Andrea Luzzardi (both listed as executive officers and directors on the Form Ds) have since left to found Mendral, in YC’s Winter 2026 batch; neither has an identified Canadian connection, and Dagger is still shipping with Hykes as CEO. Canadian citizenship is owner-supplied: the database owner knows Hykes personally and confirms he holds Canadian citizenship. No public source states it — the published biography (Forbes, July 2015) has him born in New York City to an American father and a “French-Canadian” mother, moving to France at four, schooled in France and then at Epitech in Paris, with six months at UC San Diego. Ancestry alone would not qualify under this database’s rules, so the entry rests on the citizenship claim, not on the mother. Consistent with it: a 1983 birth abroad to a Canadian parent confers Canadian citizenship by descent automatically (first generation), which would not necessarily be reported anywhere. Recorded as citizenship, sourced to the owner."
+    }
+  },
+  {
+    "id": "graypass",
+    "name": "GrayPass",
+    "website": "https://www.graypass.org",
+    "description": "Continuous authorization after login. Uses cognitive biometrics — typing rhythm, cursor movement, scrolling and response timing — alongside session and device context to keep establishing that the expected person is still in control. Before a consequential action such as approving a payment, changing admin permissions, exporting sensitive data or letting an AI agent act on someone’s behalf, it returns allow, challenge, hold or deny and produces signed proof tied to that action.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/graypass.org?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "arav-mathur",
+        "name": "Arav Mathur",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/aravmathur/",
+        "x_url": "https://x.com/aravmathur23",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of GrayPass (YC F26). Computer Science at the University of Waterloo. Previously built a fashion app that reached 3,000 users in four weeks and AI systems for Stan.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/graypass"
+        ],
+        "notes": "Standard YC deal; no other financing disclosed."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/graypass",
+        "https://www.graypass.org",
+        "https://www.linkedin.com/company/graypass"
+      ],
+      "last_verified": "2026-09-25T14:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email, Fall 2026 batch, 25 September 2026. HQ IS AN OWNER OVERRIDE: YC’s own company page states “2 employees based in Toronto, ON, Canada” and its Location field reads Toronto, Canada, but the database owner reports the company is San Francisco-based, and San Francisco is recorded on that basis. The site footer reads “GrayPass Inc.”, consistent with the usual YC Delaware C-corp, and the site carries no terms of service or privacy policy to test governing law against, so there is no independent public signal either way — recheck when YC’s location field or the site’s legal pages catch up. This is the same Toronto-versus-US ambiguity open on Chatbase, 3E8, Port Markets and OnePatch, and it should be settled the same way across all of them. Qualifies on Arav Mathur, whose YC founder bio reads “Founder/CEO at GrayPass (YC F26). Waterloo Computer Science.” canadian_city is left empty rather than set to Waterloo: the field is the founder’s home town, not his university’s city, and his home town is not published. Co-founder and COO Aditya Ranjan is NOT cleared either way — his LinkedIn education section would not load on repeated attempts, so he is unresolved rather than negative, and he is omitted only under the convention of listing Canadian-connected founders. Worth a second look, since a second qualifying founder would make the entry less dependent on Mathur."
     }
   }
 ]
