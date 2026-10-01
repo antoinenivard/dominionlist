@@ -243,7 +243,7 @@
         "https://en.wikipedia.org/wiki/Apoorva_Mehta",
         "https://www.bloomberg.com/news/articles/2026-04-24/instacart-co-founder-debuts-hedge-fund-where-ai-calls-the-shots"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
@@ -342,7 +342,7 @@
         "https://www.ycombinator.com/companies/accord",
         "https://techcrunch.com/2023/01/24/accord-which-offers-a-platform-to-manage-sales-processes-secures-10m/"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -997,7 +997,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -1778,7 +1778,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Stage corrected Seed->Series A: $11M Series A led by Madrona announced 2026-03-10; prior rounds were undated/unattributed. Domain amigo.ai + founder Ali Khokhar confirmed in BusinessWire release. Total $17.5M ($6.5M+$11M); press states '$17M total'. FORWARD SIGNAL: Axios (2026-03-10) reports Khokhar in talks for a $30-50M Series B before end of 2026 - recheck in Q4."
@@ -2727,7 +2727,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -3194,6 +3194,21 @@
           "https://stockanalysis.com/stocks/anet/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 256774833601,
+        "valuation_display": "$256.8B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/anet/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -3201,14 +3216,14 @@
         "https://www.crunchbase.com/organization/arista-networks",
         "https://finance.yahoo.com/quote/ANET/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 239250000000,
-      "valuation_display": "$239.3B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 256774833601,
+      "valuation_display": "$256.8B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
+      "valuation_as_of": "2026-09-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/anet/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($203.59 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "Santa Clara, CA",
     "ticker": "ANET",
@@ -3560,7 +3575,7 @@
     "founding_year": 2019,
     "industry": "Industrial",
     "stage": "Series A",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "W'20",
     "icon_url": "",
     "founders": [
@@ -3632,6 +3647,22 @@
           "https://www.crunchbase.com/organization/atmo"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-06-17",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 70000000,
+        "valuation_display": "$70M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.vaisala.com/en/stock-exchange-releases/2026-06/inside-information-vaisala-acquires-ai-weather-company-atmo-inc-lead-transformation-meteorology"
+        ],
+        "notes": "Definitive agreement signed 17 Jun 2026; closing expected by end of 2026. $70M fixed price (cash and debt free) plus up to $60M cash earn-out over 2026-2028. Joins Vaisala's Xweather unit.",
+        "acquirer": "Vaisala"
       }
     ],
     "metadata": {
@@ -3640,10 +3671,12 @@
         "https://www.crunchbase.com/organization/atmo-ai",
         "https://www.fundz.net/fundings/atmo-funding-round-7393b7"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
-      "valuation_usd": null,
-      "valuation_display": "",
-      "notes": ""
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 70000000,
+      "valuation_display": "$70M",
+      "notes": "Oct 2026 sweep: Vaisala acquisition recorded at the $70M fixed price (excl. earn-out); deal pending close at time of recording.",
+      "valuation_type": "acquisition",
+      "valuation_as_of": "2026-06-17"
     },
     "capital_raised_usd": 17750000,
     "capital_raised_display": "$17.8M"
@@ -3829,7 +3862,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "capital_raised_usd": 252000000,
@@ -3945,6 +3978,21 @@
           "https://stockanalysis.com/stocks/aur/history/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 11100000000,
+        "valuation_display": "$11.1B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/aur/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -3953,14 +4001,14 @@
         "https://www.bloomberg.com/news/articles/2019-02-07/aurora-self-driving-startup-gets-funding-from-sequoia-amazon",
         "https://fortune.com/2018/02/28/aurora-self-driving-cars-investment/"
       ],
-      "valuation_usd": 13780000000,
-      "valuation_display": "$13.8B",
-      "valuation_source_url": "https://stockanalysis.com/stocks/aur/history/",
+      "valuation_usd": 11100000000,
+      "valuation_display": "$11.1B",
+      "valuation_source_url": "https://stockanalysis.com/stocks/aur/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($5.54 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "ticker": "AUR",
     "capital_raised_usd": 620000000,
@@ -5573,7 +5621,7 @@
         "https://www.ycombinator.com/companies/bild-ai",
         "https://www.linkedin.com/in/puneet-sukhija/"
       ],
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "No new round since 2025-07 seed. Status Active on YC as of this check. Canadian founder Puneet Sukhija confirmed (dropped out of CS at UBC; built hundreds of houses in Canada per his YC bio and the Launch HN post). NOTE: product has narrowed - YC now describes Bild as Division 8 estimating (doors, frames, hardware) exporting into Comsense/Avaware/ProTech, not general blueprint reading; DB description is stale."
@@ -5728,6 +5776,21 @@
           "https://stockanalysis.com/stocks/bioa/market-cap/"
         ],
         "notes": "Priced off the 28 Aug close ($9.65 × 45.9M shares) — no 31 Aug print was found."
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 325431000,
+        "valuation_display": "$325M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/bioa/"
+        ],
+        "notes": "Market cap as of September 30, 2026. Close of $7.09 taken from a search summary; the quote page was stale. Lower confidence."
       }
     ],
     "metadata": {
@@ -5735,13 +5798,13 @@
         "https://bioagelabs.com",
         "https://www.felicis.com/portfolio"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 442910000,
-      "valuation_display": "$443M",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Priced off the 28 Aug close ($9.65 × 45.9M shares) — no 31 Aug print was found.",
-      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 325431000,
+      "valuation_display": "$325M",
+      "notes": "Market cap at the 30 Sep 2026 close ($7.09 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $7.09 taken from a search summary; the quote page was stale. Lower confidence. Valuation source: public_market_data.",
+      "valuation_as_of": "2026-09-30",
       "valuation_type": "market_cap",
-      "valuation_source_url": "https://stockanalysis.com/stocks/bioa/market-cap/"
+      "valuation_source_url": "https://stockanalysis.com/stocks/bioa/"
     },
     "hq_display": "Berkeley, CA",
     "capital_raised_usd": 283000000,
@@ -6282,6 +6345,21 @@
           "https://stockanalysis.com/stocks/blnd/market-cap/"
         ],
         "notes": "Approximate: about $1.50 × 236.5M shares; stockanalysis showed $354.77M on 25 Aug."
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 243605300,
+        "valuation_display": "$244M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/blnd/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -6290,14 +6368,14 @@
         "https://finance.yahoo.com/quote/BLND/",
         "https://www.prnewswire.com/news-releases/blend-closes-300m-in-funding-nearly-doubling-valuation-to-3-3b-301207008.html"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 355000000,
-      "valuation_display": "$355M",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 243605300,
+      "valuation_display": "$244M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/blnd/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Approximate: about $1.50 × 236.5M shares; stockanalysis showed $354.77M on 25 Aug. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/blnd/",
+      "notes": "Market cap at the 30 Sep 2026 close ($1.03 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "BLND",
@@ -6364,7 +6442,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 5000000,
@@ -6674,7 +6752,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -6748,7 +6826,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -7206,7 +7284,7 @@
       "sources": [
         "https://www.crunchbase.com/organization/greenlite"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": 150000000,
       "valuation_display": "$150M",
       "valuation_type": "post_money",
@@ -7374,7 +7452,7 @@
       "sources": [
         "https://www.usecanopy.com/blog/canopy-connect-raises-6-5m-series-a"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -7866,7 +7944,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 3300000,
@@ -8174,18 +8252,34 @@
           "https://www.crunchbase.com/organization/cerebelly"
         ],
         "notes": ""
+      },
+      {
+        "date": "2023-04",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 7000000,
+        "amount_display": "$7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/cerebelly-the-science-backed-baby-food-brand-designed-for-optimal-brain-development-closes-oversubscribed-series-a-round-301766361.html",
+          "https://businessden.com/2023/04/12/brain-focused-baby-food-maker-raises-7m/"
+        ],
+        "notes": "Oversubscribed Series A; backfilled in the Oct 2026 sweep."
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Oct 2026 sweep: backfilled Apr 2023 $7M Series A."
     },
     "hq_display": "Erie, CO",
-    "capital_raised_usd": 6700000,
-    "capital_raised_display": "$6.7M",
+    "capital_raised_usd": 13700000,
+    "capital_raised_display": "$13.7M",
     "icon_url": ""
   },
   {
@@ -8238,7 +8332,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-13T11:10:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian founder Alex Fung (Waterloo, CTO). Co-founder/CEO Nirmal Krishnan (Johns Hopkins) not Canadian."
     }
   },
@@ -8682,7 +8776,7 @@
         "https://techcrunch.com/2024/11/26/yc-backed-circleback-is-out-to-become-the-best-meeting-notetaker/",
         "https://www.ycombinator.com/companies/circleback"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -8932,7 +9026,7 @@
         "https://askclara.com",
         "https://www.crunchbase.com/person/george-favvas"
       ],
-      "last_verified": "2026-08-13T11:10:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -9563,6 +9657,21 @@
           "https://stockanalysis.com/stocks/net/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 123659462400,
+        "valuation_display": "$123.7B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/net/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -9572,14 +9681,14 @@
         "https://en.wikipedia.org/wiki/Michelle_Zatlyn",
         "https://techcrunch.com/2015/09/22/cloudflare-locks-down-110m-from-fidelity-microsoft-google-baidu-and-qualcomm/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 106920000000,
-      "valuation_display": "$106.9B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 123659462400,
+      "valuation_display": "$123.7B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/net/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/net/",
+      "notes": "Market cap at the 30 Sep 2026 close ($347.28 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "NET",
@@ -9789,7 +9898,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-05-25T10:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "YC S'26. Solo founder, ex-Shopify. Open source on GitHub (michaelzixizhou/codag)."
     }
   },
@@ -10811,7 +10920,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -11210,7 +11319,7 @@
         "https://www.ycombinator.com/companies/datacurve",
         "https://www.linkedin.com/in/serena-ge/"
       ],
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "No new round since 2025-10 Series A ($15M, Chemistry). Total $17.7-18.2M consistent. FLAG: co-founder Charley Lee (Waterloo CS) missing from founders list."
@@ -11305,7 +11414,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
@@ -11386,7 +11495,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T18:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian tie is co-founder Matthew Leavitt (McGill BSc + PhD, Western postdoc), confirmed by the company about page and his personal site. CEO Ari Morcos has NO Canadian tie (UC San Diego, Harvard). Third co-founder Bogdan Gaza: Romania/France."
     }
   },
@@ -11525,7 +11634,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-06-10T09:33:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian co-founder Thenuka Karunaratne (CEO, UBC). Co-founder/CTO Shravan Rajinikanth not verified Canadian. Total raised $21M across pre-seed, seed, and Series A."
     }
   },
@@ -11794,7 +11903,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -11870,7 +11979,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-13T11:10:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Founders met in first-year CS at Waterloo. Third co-founder Mazin Al-Ani (also Waterloo CS) not yet listed."
     }
   },
@@ -12074,7 +12183,7 @@
         "https://www.businesswire.com/news/home/20260331071577/en/Applied-AI-Lab-depthfirst-Announces-$80-Million-in-Series-B-Funding",
         "https://siliconangle.com/2026/03/31/depthfirst-raises-80m-expand-ai-native-security-platform-train-domain-specific-models/"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
@@ -12738,7 +12847,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -12798,7 +12907,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -13157,19 +13266,34 @@
           "https://stockanalysis.com/stocks/ebay/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 47192250000,
+        "valuation_display": "$47.2B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ebay/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "capital_raised_usd": 6700000,
     "capital_raised_display": "$6.7M",
     "icon_url": "https://img.logo.dev/ebay.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
-      "valuation_usd": 46100000000,
-      "valuation_display": "$46.1B",
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
-      "valuation_as_of": "2026-08-31",
+      "valuation_usd": 47192250000,
+      "valuation_display": "$47.2B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($106.05 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
+      "valuation_as_of": "2026-09-30",
       "valuation_type": "market_cap",
-      "valuation_source_url": "https://stockanalysis.com/stocks/ebay/market-cap/"
+      "valuation_source_url": "https://stockanalysis.com/stocks/ebay/"
     },
     "ticker": "EBAY"
   },
@@ -13373,7 +13497,7 @@
         "https://www.ycombinator.com/companies/ego",
         "https://www.linkedin.com/in/vishnu-hari/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -13975,7 +14099,7 @@
         "https://www.ergeon.com/about",
         "https://techcrunch.com/2022/06/07/ergeon-series-b/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -14071,7 +14195,7 @@
         "https://www.linkedin.com/in/deon-nicholas",
         "https://www.linkedin.com/in/lyubinets"
       ],
-      "last_verified": "2026-05-08T09:16:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -14255,7 +14379,7 @@
     "id": "exia-labs",
     "legacy_id": "351",
     "name": "Exia Labs",
-    "website": "",
+    "website": "https://exialabs.com",
     "description": "Military AI operations platform. Raised $2.5M pre-seed. a16z Speedrun backed.",
     "hq_city": "Bellevue",
     "hq_region": "WA",
@@ -14285,19 +14409,24 @@
     ],
     "funding_rounds": [
       {
-        "date": "2024",
+        "date": "2025-02",
         "round": "Pre-Seed",
         "kind": "funding",
         "amount_usd": 2500000,
-        "amount_display": "$2M",
+        "amount_display": "$2.5M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
+        "lead_investors": [
+          "a16z speedrun"
+        ],
         "other_investors": [
-          "Andreessen Horowitz"
+          "Space Capital",
+          "Anorak Ventures",
+          "Pathbreaker Ventures",
+          "Mana Ventures"
         ],
         "source_urls": [
-          "https://www.crunchbase.com/organization/exia-labs"
+          "https://www.geekwire.com/2025/automating-science-of-war-exia-labs-raises-2-5m-to-build-ai-for-military-operations/"
         ],
         "notes": ""
       }
@@ -14306,10 +14435,10 @@
       "sources": [
         "https://speedrun.a16z.com/companies/exia-labs"
       ],
-      "last_verified": "2026-04-02T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Oct 2026 sweep: pre-seed corrected to $2.5M (Feb 2025, GeekWire); the rumoured $5M seed was not found."
     },
     "hq_display": "Bellevue, WA",
     "capital_raised_usd": 2500000,
@@ -14983,6 +15112,23 @@
           "https://techcrunch.com/2024/09/19/ai-notetaker-fathom-raises-17m/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-05-04",
+        "round": "Strategic",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "CVS Health Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260504086674/en/Fathom-Secures-Strategic-Investment-From-CVS-Health-Ventures-to-Accelerate-Enterprise-Wide-Autonomous-Coding"
+        ],
+        "notes": "Strategic investment; amount undisclosed."
       }
     ],
     "metadata": {
@@ -14990,10 +15136,10 @@
         "https://www.fathomhealth.com/insights/fathom-secures-46m-series-b-financing",
         "https://www.crunchbase.com/organization/fathom-4"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Oct 2026 sweep: CVS Health Ventures strategic investment (May 2026)."
     },
     "capital_raised_usd": 21700000,
     "capital_raised_display": "$21.7M"
@@ -15754,7 +15900,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T18:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Rubenstein's McGill BA confirmed via McGill alumni listing and an Advertising Week speaker bio that links the same LinkedIn handle used on firsthand.ai. Co-founders Jonathan Heller and Wei Wei have no Canadian tie."
     }
   },
@@ -15817,7 +15963,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -15884,7 +16030,7 @@
     "metadata": {
       "valuation_usd": 2500000000,
       "valuation_display": "$2.5B",
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
@@ -16597,7 +16743,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 26400000,
@@ -16972,7 +17118,7 @@
         "https://www.ycombinator.com/companies/gale",
         "https://www.linkedin.com/in/rahul-gudise/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -17424,7 +17570,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -17509,7 +17655,7 @@
         "https://www.geekwire.com/2026/former-tableau-product-chief-launches-golden-analytics-using-ai-to-challenge-the-bi-old-guard/",
         "https://www.linkedin.com/in/francoisajenstat/"
       ],
-      "last_verified": "2026-06-09T16:50:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -17591,7 +17737,7 @@
         "https://techcrunch.com/2022/09/13/goldsky-crypto-data-infrastructure-blockchain-startup-funding/",
         "https://betakit.com/with-20-million-goldsky-aims-to-make-blockchain-data-easy-to-use/"
       ],
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -17691,7 +17837,7 @@
     "founding_year": 2022,
     "industry": "Enterprise",
     "stage": "Seed",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "",
     "founders": [
       {
@@ -17753,6 +17899,23 @@
           "https://www.crunchbase.com/organization/gptzero"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-06-23",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+          "https://www.businesswire.com/news/home/20260623083788/en/Superhuman-to-Acquire-GPTZero-AI-Authenticity-Platform"
+        ],
+        "notes": "Announced 23 Jun 2026; terms undisclosed. Superhuman is the company formerly known as Grammarly.",
+        "acquirer": "Superhuman"
       }
     ],
     "metadata": {
@@ -17760,14 +17923,14 @@
         "https://www.prnewswire.com/news-releases/gptzero-announces-10-million-series-a-funding-round-to-revolutionize-responsible-ai-adoption-302172340.html",
         "https://www.prnewswire.com/news-releases/gptzero-announces-10-million-series-a-funding-round-302172340.html"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": 40000000,
       "valuation_display": "$40M",
       "valuation_type": "post_money",
       "valuation_source_url": "https://www.prnewswire.com/news-releases/gptzero-announces-10-million-series-a-funding-round-to-revolutionize-responsible-ai-adoption-302172340.html",
       "valuation_as_of": "2024-06",
       "valuation_confidence": "medium",
-      "notes": "Valuation source: Series A 2024."
+      "notes": "Valuation source: Series A 2024. Oct 2026 sweep: acquired by Superhuman (fka Grammarly), terms undisclosed."
     },
     "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13500000,
@@ -18021,7 +18184,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -18173,7 +18336,7 @@
         "https://www.grid.aero",
         "https://www.businesswire.com/news/home/20260126456111/en/Aerospace-Defense-Startup-Grid-Aero-Raises-$20M-Series-A-to-Scale-Long-Range-Autonomous-Airlift"
       ],
-      "last_verified": "2026-04-02T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -18626,7 +18789,7 @@
         "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
         "https://betakit.com/work-automation-platform-gumloop-raises-24-5-million-series-a-as-it-relocates-to-silicon-valley/"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
@@ -19225,7 +19388,7 @@
     "hq_region": "CA",
     "hq_country": "US",
     "industry": "AI",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Private",
     "founding_year": 2026,
     "yc_batch": "S'26",
@@ -19261,6 +19424,23 @@
         "other_investors": [],
         "source_urls": [],
         "notes": "Standard YC S'26 deal"
+      },
+      {
+        "date": "2026-09-29",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Peak XV Partners"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://inc42.com/buzz/meet-the-startups-from-peak-xvs-surge-12/"
+        ],
+        "notes": "Selected for Peak XV Surge 12 (Surge invests up to $5M per company); amount undisclosed."
       }
     ],
     "capital_raised_usd": 500000,
@@ -19268,8 +19448,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
-      "notes": ""
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Oct 2026 sweep: Peak XV Surge 12 seed, undisclosed."
     }
   },
   {
@@ -20057,7 +20237,7 @@
         "https://www.linkedin.com/in/jeffrey-dot-li",
         "https://www.ycombinator.com/companies/induction-labs"
       ],
-      "last_verified": "2026-04-23T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -20119,7 +20299,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
@@ -20382,6 +20562,21 @@
           "https://stockanalysis.com/stocks/cart/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 9982280000,
+        "valuation_display": "$9.98B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/cart/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -20391,14 +20586,14 @@
         "https://finance.yahoo.com/quote/CART/",
         "https://techcrunch.com/2017/03/07/instacart-raises-400-million-at-a-3-4-billion-valuation/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 11700000000,
-      "valuation_display": "$11.7B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 9982280000,
+      "valuation_display": "$9.98B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
+      "valuation_as_of": "2026-09-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/cart/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($43.12 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "CART",
@@ -21091,7 +21286,7 @@
       "sources": [
         "https://www.crunchbase.com/organization/julius-ai"
       ],
-      "last_verified": "2026-04-11T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "valuation_type": "post_money",
@@ -21251,7 +21446,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -21549,7 +21744,7 @@
         "https://www.ycombinator.com/companies/keye",
         "https://www.linkedin.com/in/lalitlal/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -21769,7 +21964,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Capital corrected $18M->$33M (Series A coverage states $33M cumulative incl. an earlier unannounced seed); metadata.total_funding_display already said $33M. Mainnet + Agent Passport launched 2026-04-30. NOTE: now crosses the $25M Tier-A threshold."
     },
     "capital_raised_usd": 33000000,
@@ -22193,7 +22388,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "MISSED ROUND: $30M Series A announced 2025-06-12 was absent from the DB entirely; total $12.5M->$42.5M, stage Seed->Series A. Domain landbase.com + founder Daniel Saks confirmed in BusinessWire release and on Landbase's own blog. NOTE: now crosses the $25M Tier-A threshold. Landbase also acquired Adauris (custom intent signals via content generation) - acquisition date unconfirmed, worth a follow-up. Co-founder Emily Zhang (ex-OysterHR, Carta) not listed here."
     },
     "capital_raised_usd": 42500000,
@@ -22554,7 +22749,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": null,
@@ -23229,6 +23424,21 @@
           "https://stockanalysis.com/stocks/lyft/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 5681885400,
+        "valuation_display": "$5.68B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/lyft/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -23239,14 +23449,14 @@
         "https://techcrunch.com/2013/05/23/lyft-a16z/",
         "https://en.wikipedia.org/wiki/Rajat_Suri"
       ],
-      "valuation_usd": 6320000000,
-      "valuation_display": "$6.3B",
-      "valuation_source_url": "https://stockanalysis.com/stocks/lyft/market-cap/",
+      "valuation_usd": 5681885400,
+      "valuation_display": "$5.68B",
+      "valuation_source_url": "https://stockanalysis.com/stocks/lyft/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($15.01 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "ticker": "LYFT",
     "capital_raised_usd": 4772200000,
@@ -23608,7 +23818,7 @@
         "https://www.getmagical.com/blog/magical-raises-41m-in-funding-after-automating-over-a-billion-repetitive-tasks-at-over-10-000-companies",
         "https://techcrunch.com/2022/06/06/magical-nabs-35m-to-move-data-across-webpages-automatically/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -23904,7 +24114,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T16:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Founded September 2025. Co-founders: Jesse Han (CEO), Christian Szegedy, Jared Lichtman — only Han has a Canadian tie (McMaster MSc). Built on RL infrastructure from Han's prior company Morph Labs (2023), so some sources date it to 2023. $15M seed is aggregator-sourced only; lead investor unknown. Some profiles list HQ as Palo Alto."
     }
   },
@@ -24140,7 +24350,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-24T15:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Legal entity Carbon Based Technology Corporation, dba Mecka AI. Three of four co-founders are Canadian: Josh Gao (Ivey/Western, confirmed by a Western University primary source), Jason Chong (UBC) and Mogen Cheng (U of T) — the latter two rest on aggregator and search-index data since LinkedIn is login-walled, so both are lower confidence. Fourth co-founder Duy Nguyen (Arizona State) has NO Canadian tie beyond adult residence in Toronto and is not listed. HQ NOTE: Fortune states it is headquartered in New York and BetaKit confirms it is US-domiciled, but roughly 40 of 45 staff are in Toronto and it launched from stealth in Aug 2025 as a Toronto-based company — a genuinely cross-border business whose operational centre is Ontario. IMPORTANT ON FUNDING: the widely reported \"$60M Series A\" is not one round — it is $25M (Nov 2025) plus a $35M extension, both SAFEs, announced together. Total including the $8M seed is $68M. No valuation has ever been disclosed because the rounds were SAFEs. The company claims a ~$100M run rate; that is an unverified company claim."
     }
   },
@@ -24421,7 +24631,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 8000000,
@@ -24439,7 +24649,7 @@
     "founding_year": 2021,
     "industry": "Fintech",
     "stage": "Series A",
-    "status": "Private",
+    "status": "Acquired",
     "yc_batch": "",
     "icon_url": "",
     "founders": [
@@ -24503,6 +24713,22 @@
           "https://fintech.global/2022/10/17/mercantile-launches-with-15m-series-a-to-support-small-businesses/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2024-12-30",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.getmercantile.com/news/onboard-partners-acquires-mercantile-financial-technologies"
+        ],
+        "notes": "Onboard Partners completed the acquisition of Mercantile Financial Technologies, Inc. on 30 Dec 2024 (per the company's own announcement); terms undisclosed. Backfilled in the Oct 2026 sweep.",
+        "acquirer": "Onboard Partners"
       }
     ],
     "metadata": {
@@ -24517,8 +24743,8 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-04-13T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Oct 2026 sweep: backfilled Dec 2024 acquisition by Onboard Partners."
     },
     "capital_raised_usd": 22000000,
     "capital_raised_display": "$22M"
@@ -24780,7 +25006,7 @@
     "hq_country": "US",
     "founding_year": 2022,
     "industry": "Health",
-    "stage": "Seed",
+    "stage": "Series A",
     "status": "Private",
     "yc_batch": "S'22",
     "founders": [
@@ -24841,18 +25067,38 @@
           "https://www.crunchbase.com/organization/metriport"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-08-27",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 26000000,
+        "amount_display": "$26M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Matrix"
+        ],
+        "other_investors": [
+          "ARTIS Ventures",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://hitconsultant.net/2026/08/27/metriport-raises-26m-matrix-open-source-healthcare-data-infrastructure/"
+        ],
+        "notes": "Led by Matrix (TJ Parker). Coverage puts total raised at $28.4M; capital_raised here is prior total plus this round."
       }
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "Oct 2026 sweep: $26M Series A (Aug 2026)."
     },
     "hq_display": "San Francisco, CA",
-    "capital_raised_usd": 3400000,
-    "capital_raised_display": "$3.4M",
+    "capital_raised_usd": 29400000,
+    "capital_raised_display": "$29.4M",
     "icon_url": ""
   },
   {
@@ -25268,7 +25514,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -25331,7 +25577,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 12625000,
@@ -25581,6 +25827,21 @@
           "https://stockanalysis.com/stocks/mrna/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 76881646800,
+        "valuation_display": "$76.9B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/mrna/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -25590,14 +25851,14 @@
         "https://www.fiercebiotech.com/venture-capital/moderna-hauls-450m-to-push-its-pioneering-approach-to-mrna",
         "https://www.fiercebiotech.com/biotech/moderna-raises-500m-to-move-mrna-drugs-deeper-into-human-tests"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 56030000000,
-      "valuation_display": "$56.0B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 76881646800,
+      "valuation_display": "$76.9B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
+      "valuation_as_of": "2026-09-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/mrna/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($192.57 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "Cambridge, MA",
     "ticker": "MRNA",
@@ -25800,7 +26061,7 @@
         "https://www.ycombinator.com/companies/momentic",
         "https://www.linkedin.com/in/jeff-an/"
       ],
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "No new round since 2025-11 Series A ($15M, Standard Capital). $19.2M total confirmed ($500K YC + $3.7M seed + $15M A); Tracxn's $22.8M is an aggregator outlier."
@@ -26707,7 +26968,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Total $22.5M confirmed; both round dates corrected (seed 2025-04->2024-08, Series A 2025-12->2026-02 announcement). Canadian attribution reconfirmed by BetaKit: Eden Ding is Canadian (UBC), Hamidi studied at UVic; ~half of the 20-person team is in Toronto, offices SF/Toronto/Miami."
     }
   },
@@ -27073,6 +27334,21 @@
           "https://stockanalysis.com/stocks/ntsk/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 7125809600,
+        "valuation_display": "$7.13B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ntsk/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -27081,14 +27357,14 @@
         "https://techcrunch.com/2013/10/03/netskope-comes-out-of-stealth-with-21m-from-socialcapital-and-lightspeed/",
         "https://www.netskope.com/press-releases/netskope-attracts-300-million-in-additional-investment"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 6090000000,
-      "valuation_display": "$6.1B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 7125809600,
+      "valuation_display": "$7.13B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/ntsk/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/ntsk/",
+      "notes": "Market cap at the 30 Sep 2026 close ($17.44 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "Santa Clara, CA",
     "ticker": "NTSK",
@@ -27552,7 +27828,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "No new round since 2024-11. DB previously held a single undated '2023' $18M round; that is actually two rounds ($3.3M seed Oct 2023 led by Polychain; $15M Series A Nov 2024 led by Paradigm). Total corrected to $18.3M. FLAGS: (1) co-founder Stefan Coolican is described by Forbes/Upstarts as a 'fellow Canadian' and is called to the Bar of Ontario, but is absent from the founders list - likely a second qualifying Canadian founder. (2) HQ is ambiguous across sources: Tracxn says Etobicoke ON, Dealroom says Austin TX. Needs resolution given the US-HQ inclusion criterion."
     },
     "capital_raised_usd": 18300000,
@@ -27882,7 +28158,7 @@
     "hq_country": "US",
     "founding_year": 2025,
     "industry": "Industrial",
-    "stage": "Pre-Seed",
+    "stage": "Seed",
     "status": "Private",
     "yc_batch": "S'25",
     "icon_url": "",
@@ -27925,6 +28201,31 @@
           "https://www.ycombinator.com/companies/nox-metals"
         ],
         "notes": "Pre-seed announced September 2025"
+      },
+      {
+        "date": "2026-06",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 11500000,
+        "amount_display": "$11.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Hyperion"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Palmer Luckey",
+          "RoboStrategy",
+          "Alumni Ventures",
+          "Operator Collective",
+          "DTX Ventures"
+        ],
+        "source_urls": [
+          "https://www.start-midwest.com/news/y-combinator-backed-nox-metals-raises-11-5m-seed-round-for-metal-manufacturing-in-detroit",
+          "https://x.com/ycombinator/status/2066596605755904378"
+        ],
+        "notes": "Announced mid-June 2026."
       }
     ],
     "metadata": {
@@ -27939,11 +28240,11 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-05-13T00:00:00Z",
-      "notes": ""
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Oct 2026 sweep: $11.5M seed led by Hyperion."
     },
-    "capital_raised_usd": 4600000,
-    "capital_raised_display": "$4.6M"
+    "capital_raised_usd": 16100000,
+    "capital_raised_display": "$16.1M"
   },
   {
     "id": "atomwise",
@@ -28656,7 +28957,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-13T11:10:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 17200000,
@@ -28714,7 +29015,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -28904,7 +29205,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Palo Alto. Founders Jeffrey Morgan & Michael Chiang (Waterloo). Total $88M raised (Series A $15M Benchmark, Series B $65M Theory Ventures + early/undisclosed rounds). Valuation not disclosed. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
     "capital_raised_usd": 88000000,
@@ -29774,7 +30075,7 @@
         "https://www.linkedin.com/in/christian-pickett",
         "https://www.linkedin.com/in/berasogut"
       ],
-      "last_verified": "2026-08-13T11:10:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -30490,6 +30791,21 @@
           "https://stockanalysis.com/stocks/pd/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1175535000,
+        "valuation_display": "$1.18B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pd/"
+        ],
+        "notes": "Market cap as of September 30, 2026. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence."
       }
     ],
     "metadata": {
@@ -30499,14 +30815,14 @@
         "https://www.pagerduty.com/newsroom/raises-series-d-investment/",
         "https://finance.yahoo.com/quote/PD/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 1112000000,
-      "valuation_display": "$1.11B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 1175535000,
+      "valuation_display": "$1.18B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/pd/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/pd/",
+      "notes": "Market cap at the 30 Sep 2026 close ($15.1 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "PD",
@@ -30884,7 +31200,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -31034,6 +31350,21 @@
           "https://stockanalysis.com/stocks/pypl/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 44937313800,
+        "valuation_display": "$44.9B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pypl/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -31042,14 +31373,14 @@
         "https://en.wikipedia.org/wiki/PayPal",
         "https://companiesmarketcap.com/paypal/marketcap/"
       ],
-      "valuation_usd": 45060000000,
-      "valuation_display": "$45.1B",
+      "valuation_usd": 44937313800,
+      "valuation_display": "$44.9B",
       "valuation_source_url": "https://stockanalysis.com/stocks/pypl/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep."
+      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($52.53 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "capital_raised_usd": 217500000,
     "capital_raised_display": "$217.5M"
@@ -31431,7 +31762,7 @@
         "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/",
         "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": 1300000000,
       "valuation_display": "$1.3B",
       "valuation_type": "post_money",
@@ -32463,7 +32794,7 @@
         "https://www.linkedin.com/in/joe-cheuk-928a064a/",
         "https://kindredventures.com/announcement/our-investment-in-pomo/"
       ],
-      "last_verified": "2026-04-16T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -32886,7 +33217,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 19000000,
@@ -33120,7 +33451,7 @@
     "hq_country": "US",
     "founding_year": 2017,
     "industry": "Consumer",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "yc_batch": "",
     "icon_url": "",
@@ -33157,6 +33488,32 @@
           "https://www.crunchbase.com/organization/prime-roots"
         ],
         "notes": ""
+      },
+      {
+        "date": "2023",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "True Ventures",
+          "Pangaea Ventures",
+          "Prosus Ventures",
+          "Top Tier Capital",
+          "Diamond Edge Ventures",
+          "SOSV",
+          "Monde Nissin",
+          "Alumni Ventures",
+          "Gaingels",
+          "The House Fund"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/prime-roots-raises-30m-in-series-b-funding-to-roll-out-the-first-of-its-kind-plant-based-deli-meats-nationwide-301824152.html"
+        ],
+        "notes": "Backfilled in the Oct 2026 sweep. Coverage cites ~$50M total raised."
       }
     ],
     "metadata": {
@@ -33169,11 +33526,11 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Oct 2026 sweep: backfilled 2023 $30M Series B."
     },
-    "capital_raised_usd": 12000000,
-    "capital_raised_display": "$12M"
+    "capital_raised_usd": 42000000,
+    "capital_raised_display": "$42M"
   },
   {
     "id": "process-street",
@@ -34277,7 +34634,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -35912,7 +36269,7 @@
         "https://www.linkedin.com/in/quinnlitherland",
         "https://pitchbook.com/profiles/company/502928-20"
       ],
-      "last_verified": "2026-04-22T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -35979,7 +36336,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 1600000,
@@ -36286,6 +36643,21 @@
           "https://stockanalysis.com/stocks/rgti/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 5253539800,
+        "valuation_display": "$5.25B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rgti/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -36299,13 +36671,13 @@
         "https://techcrunch.com/2020/08/04/rigetti-raises-79m-series-c-for-its-quantum-computing-platform/",
         "https://www.globenewswire.com/news-release/2022/03/02/2395179/0/en/Rigetti-Computing-Announces-Closing-of-Business-Combination-with-Supernova-Partners-Acquisition-Company-II-Ltd-Begins-Trading-on-Nasdaq-Capital-Market-Today.html"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 5230000000,
-      "valuation_display": "$5.2B",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
-      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 5253539800,
+      "valuation_display": "$5.25B",
+      "notes": "Market cap at the 30 Sep 2026 close ($15.74 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
+      "valuation_as_of": "2026-09-30",
       "valuation_type": "market_cap",
-      "valuation_source_url": "https://stockanalysis.com/stocks/rgti/market-cap/"
+      "valuation_source_url": "https://stockanalysis.com/stocks/rgti/"
     },
     "hq_display": "Berkeley, CA",
     "capital_raised_usd": 907250000,
@@ -36447,6 +36819,21 @@
           "https://stockanalysis.com/stocks/rblx/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 30268280600,
+        "valuation_display": "$30.3B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rblx/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -36455,14 +36842,14 @@
         "https://finance.yahoo.com/quote/RBLX/",
         "https://techcrunch.com/2018/09/05/roblox-series-f/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 29010000000,
-      "valuation_display": "$29.0B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 30268280600,
+      "valuation_display": "$30.3B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/rblx/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/rblx/",
+      "notes": "Market cap at the 30 Sep 2026 close ($42.37 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "San Mateo, CA",
     "ticker": "RBLX",
@@ -36608,7 +36995,7 @@
         "https://speedrun.a16z.com/companies/rosebud",
         "https://www.crunchbase.com/organization/rosebud-ai"
       ],
-      "last_verified": "2026-04-13T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -36831,7 +37218,7 @@
         "https://www.ycombinator.com/companies/roundtable",
         "https://www.linkedin.com/in/matthardy/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -37222,7 +37609,7 @@
         "https://www.coindesk.com/business/2024/10/30/ai-data-collection-startup-sapien-raises-105m-seed-funding-led-by-variant",
         "https://www.sapien.io/blog/sapien-io-a-decentralized-data-foundry-raises-10-5m"
       ],
-      "last_verified": "2026-08-14T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "No confirmed new equity round. UNRESOLVED TOTALS - do not treat $15.5M as firm: CB Insights says $10.5M round on 2024-10-30 with $15.5M total (matches DB), but Sapien's own blog says that round 'brings our total funding to $10.5M', which would make the DB's $5M + $10.5M a double-count. A Bitget listing page (2025-08) claims $19.2M incl. General Catalyst. Company also has a live SAPIEN token, so token raises may be conflated with equity. FLAG: founder list looks wrong - every source names Rowan Stone (Base co-creator) as CEO and Trevor Koverko as CSO/COO; 'Kelly Ryan' appears in no public source. Koverko's Canadian connection is solid (NHL NY Rangers draft pick, Ivey/Western)."
@@ -37851,7 +38238,7 @@
         "https://www.linkedin.com/in/jaegpark",
         "https://www.jaegwanpark.ca/about"
       ],
-      "last_verified": "2026-05-08T09:16:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -37992,7 +38379,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -38140,6 +38527,21 @@
           "https://stockanalysis.com/stocks/serv/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 403015500,
+        "valuation_display": "$403M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/serv/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -38147,14 +38549,14 @@
         "https://finance.yahoo.com/quote/SERV/",
         "https://techcrunch.com/2023/08/10/uber-nvidia-backed-delivery-robot-startup-serve-robotics-to-go-public/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 424240000,
-      "valuation_display": "$424M",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 403015500,
+      "valuation_display": "$403M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_source_url": "https://stockanalysis.com/stocks/serv/market-cap/",
-      "valuation_as_of": "2026-08-31",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_source_url": "https://stockanalysis.com/stocks/serv/",
+      "valuation_as_of": "2026-09-30",
+      "notes": "Market cap at the 30 Sep 2026 close ($4.65 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "Redwood City, CA",
     "ticker": "SERV",
@@ -38416,7 +38818,7 @@
     "status": "Private",
     "yc_batch": "S'21",
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Forbes 30 Under 30. 80,000+ coaching sessions facilitated. Science-backed methods in partnership with NYU, UC Berkeley, UCSF. CEO Christal Wang prev at Bain, Berkeley MBA/MPH.",
       "valuation_usd": null,
       "valuation_display": ""
@@ -39782,7 +40184,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -39847,7 +40249,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-05-05T17:26:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -40747,6 +41149,21 @@
           "https://stockanalysis.com/stocks/soun/history/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 2673542200,
+        "valuation_display": "$2.67B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/soun/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -40758,13 +41175,13 @@
         "https://techcrunch.com/2018/05/03/soundhound-has-raised-a-big-100m-round-to-take-on-alexa-and-google-assistant/",
         "https://voicebot.ai/2022/04/28/soundhound-goes-public-on-nasdaq-following-spac-merger/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 3100000000,
-      "valuation_display": "$3.1B",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep.",
-      "valuation_as_of": "2026-08-31",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 2673542200,
+      "valuation_display": "$2.67B",
+      "notes": "Market cap at the 30 Sep 2026 close ($6.02 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
+      "valuation_as_of": "2026-09-30",
       "valuation_type": "market_cap",
-      "valuation_source_url": "https://stockanalysis.com/stocks/soun/history/"
+      "valuation_source_url": "https://stockanalysis.com/stocks/soun/"
     },
     "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 700000000,
@@ -40825,7 +41242,7 @@
         "https://www.ycombinator.com/companies/sourcebot",
         "https://github.com/brendankellam"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -41092,6 +41509,21 @@
           "https://stockanalysis.com/stocks/spcx/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 2047170200000,
+        "valuation_display": "$2.05T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/spcx/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -41103,14 +41535,14 @@
         "https://www.cnbc.com/2023/01/02/spacex-raising-750-million-at-137-billion-valuation-a16z-investing.html",
         "https://www.bloomberg.com/news/articles/2024-12-11/spacex-completes-record-tender-offer-at-350-billion-valuation"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 1950000000000,
-      "valuation_display": "$1.95T",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 2047170200000,
+      "valuation_display": "$2.05T",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_source_url": "https://stockanalysis.com/stocks/spcx/market-cap/",
-      "valuation_as_of": "2026-08-31",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: xAI merger Feb 2026. Acquired xAI in all-stock deal Feb 2026, combined entity valued at $1.25T."
+      "valuation_source_url": "https://stockanalysis.com/stocks/spcx/",
+      "valuation_as_of": "2026-09-30",
+      "notes": "Market cap at the 30 Sep 2026 close ($150.86 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "Hawthorne, CA",
     "capital_raised_usd": 81300000000,
@@ -41383,7 +41815,7 @@
         "https://www.ycombinator.com/companies/spine-ai",
         "https://www.linkedin.com/in/akshay-budhkar/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -41451,7 +41883,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 500000,
@@ -41713,7 +42145,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 46390000,
@@ -42073,7 +42505,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -42323,7 +42755,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -43371,7 +43803,7 @@
         "https://www.ycombinator.com/companies/sweep",
         "https://www.linkedin.com/in/william-zeng/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -43765,7 +44197,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 12000000,
@@ -44426,7 +44858,7 @@
         "https://www.tamr.com/about",
         "https://www.crunchbase.com/organization/tamr"
       ],
-      "last_verified": "2026-04-01T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Recorded here as acquired by Alteryx; no such transaction exists. Alteryx Ventures made a strategic investment in Tamr announced 12 Jul 2023, which is the likely source of the error. Tamr is independent and operating — its own press page carries \"Tamr Reports Strong FY26 Growth\" dated 5 Mar 2026. Alteryx itself was taken private by Clearlake and Insight in Mar 2024. "
@@ -44843,7 +45275,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -44984,7 +45416,7 @@
         "https://www.crunchbase.com/organization/terratrue",
         "https://www.linkedin.com/in/secplusplus/"
       ],
-      "last_verified": "2026-04-17T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -45257,6 +45689,21 @@
           "https://stockanalysis.com/stocks/tsla/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1400080260000,
+        "valuation_display": "$1.40T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/tsla/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -45265,14 +45712,14 @@
         "https://en.wikipedia.org/wiki/Tesla,_Inc.",
         "https://companiesmarketcap.com/tesla/marketcap/"
       ],
-      "valuation_usd": 1450000000000,
-      "valuation_display": "$1.45T",
-      "valuation_source_url": "https://stockanalysis.com/stocks/tsla/market-cap/",
+      "valuation_usd": 1400080260000,
+      "valuation_display": "$1.40T",
+      "valuation_source_url": "https://stockanalysis.com/stocks/tsla/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep."
+      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($354.81 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "capital_raised_usd": 278000000,
     "capital_raised_display": "$278M"
@@ -45990,7 +46437,7 @@
     ],
     "source_urls": [],
     "metadata": {
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -46311,7 +46758,7 @@
         "https://www.linkedin.com/in/adam-dorfman/",
         "https://www.linkedin.com/in/andy-zhang/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -46687,7 +47134,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -46759,7 +47206,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-07-09T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     }
   },
@@ -47093,6 +47540,21 @@
           "https://stockanalysis.com/stocks/uber/market-cap/"
         ],
         "notes": ""
+      },
+      {
+        "date": "2026-09-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 139924824000,
+        "valuation_display": "$139.9B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/uber/"
+        ],
+        "notes": "Market cap as of September 30, 2026"
       }
     ],
     "metadata": {
@@ -47103,14 +47565,14 @@
         "https://fortune.com/2016/06/01/uber-funding-saudi-arabia/",
         "https://techcrunch.com/2013/08/22/google-ventures-puts-258m-into-uber-its-largest-deal-ever/"
       ],
-      "last_verified": "2026-08-31T16:00:00-08:00",
-      "valuation_usd": 154510000000,
-      "valuation_display": "$154.5B",
+      "last_verified": "2026-09-30T16:00:00-08:00",
+      "valuation_usd": 139924824000,
+      "valuation_display": "$139.9B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-08-31",
-      "valuation_source_url": "https://stockanalysis.com/stocks/uber/market-cap/",
-      "notes": "Market cap at the 31 Aug 2026 close, from the monthly sweep run on 1 Sep. Valuation source: public_market_data."
+      "valuation_as_of": "2026-09-30",
+      "valuation_source_url": "https://stockanalysis.com/stocks/uber/",
+      "notes": "Market cap at the 30 Sep 2026 close ($68.51 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
     "hq_display": "San Francisco, CA",
     "ticker": "UBER",
@@ -47617,7 +48079,7 @@
     ],
     "metadata": {
       "sources": [],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -48053,7 +48515,7 @@
         "https://techcrunch.com/2024/06/20/vapi-the-platform-for-building-voice-ai-agents/",
         "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
       "valuation_type": "post_money",
@@ -48269,7 +48731,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-24T11:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian tie is co-founder/CTO Hisham El-Halabi (U of T Engineering Science), per his YC founder bio. CEO Arthur Nguyen-cao lists no school on YC and has no verified Canadian tie — worth a second look if his education surfaces. Co-founder Joe Gonzalez: Sacramento State, no tie. The $500M figure in their launch post is LETTERS OF INTENT for 2027, not capital raised, and is deliberately not recorded as funding."
     }
   },
@@ -48677,7 +49139,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-20T15:00:00-08:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Canadian co-founder Adam Cohen (CEO, raised in Toronto). Co-founder/CTO Andrew Churchill (MIT) is American, not included. Domain moved workweave.dev -> weaveos.com. $13.5M Series A led by Standard Capital."
     }
   },
@@ -48900,7 +49362,7 @@
         "https://www.ycombinator.com/companies/wild-moose",
         "https://www.linkedin.com/in/roei-schuster/"
       ],
-      "last_verified": "2026-03-24T20:03:37Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": ""
@@ -48999,7 +49461,7 @@
       "valuation_source_url": "",
       "valuation_confidence": "",
       "valuation_as_of": "",
-      "last_verified": "2026-04-12T00:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
     "capital_raised_usd": 5200000,
@@ -50573,7 +51035,7 @@
         "https://give.ubc.ca/impact-stories/steven-xu/",
         "https://innovation.ubc.ca/news/october-10-2025/meet-our-50th-cohort-venture-founder-next-wave-innovators-leading-charge"
       ],
-      "last_verified": "2026-09-11T15:30:00-07:00",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "YC Summer 2026, team of four. US HQ per YC's own location field, which reads San Francisco. HQ CAVEAT: the company originated in Vancouver, keeps greypointindustries.ca as a live domain and serves its og-image from it, and Canadian press covers it heavily. The site now reads 'Designed and manufactured in the West' rather than the earlier 'Built in Canada'. Recorded as US on YC's location field, which is the same signal used to exclude ORO AI (Vancouver) and Lamb Labs (London) — applied symmetrically here. Worth re-checking once the company publishes terms or a registered address, neither of which exists yet. Steven Xu's UBC connection is confirmed twice over: YC's own founder card says 'Presidential Scholar at UBC', and UBC's own giving site carries a profile stating he 'had just found out that he had won the UBC Presidential Scholars Award for the fall of 2022' while in his first year in the Faculty of Applied Science. Co-founder Jordan Khoo (CTO) is also reported as UBC Engineering Physics, but the only source is his LinkedIn, which this dataset excludes — left unlisted pending a citable source. Darcy Zhang (CEO) and Nic Chu (COO) are described in press as part of an all-Canadian founding team, but with no individually sourced birth, citizenship or university, so they are not listed either. No headshot: the only founder images found are YC bookface avatars, which are presigned and expire, and a three-person Globe and Mail hackathon photo."
     }
   },
@@ -50789,7 +51251,7 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-18T22:00:00Z",
+      "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Found by screening Neo-backed companies — Neo participated in the seed. HQ is San Francisco per the LinkedIn company page, Fortune and TechCrunch, and most open roles; the terms and privacy pages render client-side and could not be read, so there is no governing-law clause to test. CANADIAN CONNECTION NEEDS A NOTE: every citable source, including her own site and Wikipedia’s infobox, gives her doctorate as \"Mila — Quebec AI Institute\". Mila is a research institute and does not confer degrees; its students graduate from Université de Montréal, McGill, Polytechnique or HEC. Both her supervisors are attached to Université de Montréal, which makes UdeM the near-certain conferring university, but no public record confirms it, so the institution is recorded as the sources state it. Her undergraduate degree is from Carleton College in Minnesota, not Carleton University in Ottawa. Her years at Cohere, a Canadian company, are employment and do not count. Co-founder Sudip Roy, ex-Cohere, has no identified Canadian connection and is not listed."
     }
   },
