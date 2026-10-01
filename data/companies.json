@@ -53427,5 +53427,75 @@
       "last_verified": "2026-09-25T14:00:00-07:00",
       "notes": "Sourced from a Y Combinator investor announcement email, Fall 2026 batch, 25 September 2026. HQ IS AN OWNER OVERRIDE: YC’s own company page states “2 employees based in Toronto, ON, Canada” and its Location field reads Toronto, Canada, but the database owner reports the company is San Francisco-based, and San Francisco is recorded on that basis. The site footer reads “GrayPass Inc.”, consistent with the usual YC Delaware C-corp, and the site carries no terms of service or privacy policy to test governing law against, so there is no independent public signal either way — recheck when YC’s location field or the site’s legal pages catch up. This is the same Toronto-versus-US ambiguity open on Chatbase, 3E8, Port Markets and OnePatch, and it should be settled the same way across all of them. Qualifies on Arav Mathur, whose YC founder bio reads “Founder/CEO at GrayPass (YC F26). Waterloo Computer Science.” canadian_city is left empty rather than set to Waterloo: the field is the founder’s home town, not his university’s city, and his home town is not published. Co-founder and COO Aditya Ranjan is NOT cleared either way — his LinkedIn education section would not load on repeated attempts, so he is unresolved rather than negative, and he is omitted only under the convention of listing Canadian-connected founders. Worth a second look, since a second qualifying founder would make the entry less dependent on Mathur."
     }
+  },
+  {
+    "id": "grizzly",
+    "name": "Grizzly",
+    "website": "https://grizzhq.com",
+    "description": "Autonomous hydraulic excavators with onboard AI, sold directly to contractors and land developers. The machines take natural-language commands and perform grading, trenching and land clearing on their own, with over-the-air updates and predictive self-diagnostics. The company frames the work as a full stack for real-world AGI — continually learning models, AI-native robots, frontier compute and energy.",
+    "hq_city": "Burlingame",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Early Stage",
+    "status": "Private",
+    "founding_year": 2024,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/grizzhq.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "adeel-zaman",
+        "name": "Adeel Zaman",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/adeelzam/",
+        "x_url": "https://x.com/adeelzaman_",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of Grizzly. Studied Computer Science and Combinatorics & Optimization at the University of Waterloo. Previously CTO and co-founder of DOZR, the Kitchener, Ontario heavy-equipment rental marketplace, from 2017 to 2023; before that founder and CTO of Navi and a Google Entrepreneur in Residence. ML advisor at Tola Capital.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-06-01",
+        "round": "Venture",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Soma Capital",
+          "Transpose Platform Management",
+          "HF0"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/600602-59",
+          "https://stealthstartupspy.substack.com/p/stealth-startup-spy-361"
+        ],
+        "notes": "PitchBook logs an Early Stage VC round on 1 June 2024 with the amount undisclosed, naming Soma Capital and Transpose Platform Management; the Stealth Startup Spy issue adds HF0 and angels from Google, Amazon, Stripe and Uber. No amount, no lead and no valuation have been disclosed anywhere, and there is no SEC Form D — EDGAR full-text returns zero hits for AlgoHouse."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://grizzhq.com/",
+        "https://www.bizprofile.net/ca/burlingame/algohouse-inc",
+        "https://www.crunchbase.com/person/adeel-zaman",
+        "https://theorg.com/org/communitech/org-chart/adeel-zaman",
+        "https://pitchbook.com/profiles/company/600602-59",
+        "https://stealthstartupspy.substack.com/p/stealth-startup-spy-361"
+      ],
+      "last_verified": "2026-10-01T12:00:00-07:00",
+      "notes": "Found by sweeping the 2026 Stealth Startup Spy newsletters (issue #361); the company spent about 29 months in stealth. LEGAL ENTITY IS ALGOHOUSE INC. — PitchBook carries it as formerly AlgoHouse Incorporated and the site footer still reads “© 2026 AlgoHouse Inc.”; search for that name, not Grizzly, when checking filings. HQ: the California Secretary of State registry gives AlgoHouse Inc. (doc. 6171531) a principal address of 833 Mahler Rd, Suite 20, Burlingame, CA, with Zaman as CEO, CFO, secretary and registered agent, Delaware incorporation and a California filing date of 3 April 2024. Burlingame is recorded on that basis even though the newsletter and some listings say San Francisco. The usual governing-law check is unavailable — grizzhq.com is a product and order site with no terms or privacy policy. CAPITAL RAISED IS NULL, NOT ZERO: one round exists but its amount has never been disclosed, so the Raised column shows an em dash rather than a figure. QUALIFIES ON ZAMAN’S WATERLOO ATTENDANCE, and the sourcing is second-hand rather than primary: Crunchbase states plainly that he “attended the University of Waterloo” and lists Computer Science, TheOrg’s Communitech profile says he holds “degrees from the University of Waterloo in Computer Science”, and a LinkedIn-scraped education section lists “Combinatorics & Optimization” — a department that exists only at Waterloo, which is why the attribution is treated as solid. His place of birth and citizenship are stated nowhere. Crunchbase also says he was among “Canada’s top 50 math students”, which would imply a Canadian secondary school, but no school is named so that is not recorded. DOZR is prior employment and does not itself qualify. Sole founder: Zaman is the only officer on the California filing and is described everywhere as founder in the singular."
+    }
   }
 ]
