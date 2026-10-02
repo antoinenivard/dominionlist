@@ -51274,9 +51274,9 @@
         "id": "sigil-wen",
         "name": "Sigil Wen",
         "role": "Founder",
-        "linkedin": "",
-        "x_url": "",
-        "bio": "Founder of Extraordinary. From Toronto; flew to San Francisco at 17 and had his own EB-1A green card approved at 20. Thiel Fellow, 2025 class. Now also building Conway, a frontier AI and cryptography lab.",
+        "linkedin": "https://www.linkedin.com/in/sigil",
+        "x_url": "https://x.com/0xSigil",
+        "bio": "Founder of Extraordinary, where he is now executive chairman. Born in Toronto; flew to San Francisco at 17 and had his own EB-1A green card approved at 20. Thiel Fellow, 2025 class. Also founder of Conway Research, the AI lab behind Underdog.",
         "wikipedia_url": "",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
@@ -51294,8 +51294,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-18T22:00:00Z",
-      "notes": "Found by screening the Thiel Fellowship. HQ from the company’s own terms of service, which give 765 Market Street, San Francisco, CA 94103 — though the governing-law clause says only \"the laws of The United States\" and names no state, so the address rather than the clause is the signal. Canadian tie from the Thiel Foundation’s own 2025 class press release, which lists him as \"Sigil Wen: Toronto, Canada\"; his personal site (sigilwen.ca) says he flew from Toronto to San Francisco at 17. No Canadian university — he opted out of Penn’s M&T program — so the connection is upbringing. Title is Founder per the company’s own team page; Mo Zia is CEO. Wen describes himself as Executive Chairman, which the site does not say. No funding disclosed. He is also founder of Conway (conway.tech), an AI and cryptography lab, which is not listed separately because its headquarters is inferred from aggregators rather than documented."
+      "last_verified": "2026-10-02T12:00:00-07:00",
+      "notes": "Found by screening the Thiel Fellowship. HQ from the company’s own terms of service, which give 765 Market Street, San Francisco, CA 94103 — though the governing-law clause says only \"the laws of The United States\" and names no state, so the address rather than the clause is the signal. Canadian tie from the Thiel Foundation’s own 2025 class press release, which lists him as \"Sigil Wen: Toronto, Canada\"; his personal site (sigilwen.ca) says he flew from Toronto to San Francisco at 17. No Canadian university — he opted out of Penn’s M&T program — so the connection is birth and upbringing. Toronto birth is owner-supplied: the database owner confirms he was born in Toronto. Published sources establish the city but not the birth — the Thiel Foundation’s 2025 class release lists him as “Sigil Wen: Toronto, Canada” and his own site says he flew from Toronto to San Francisco at 17. Title is Founder per the company’s own team page; Mo Zia is CEO. Wen describes himself as Executive Chairman, which the site does not say. No funding disclosed. Conway Research, his AI lab, is now listed separately as its own entry following its October 2026 a16z-led round; its HQ is still undocumented, which is noted there."
     }
   },
   {
@@ -53496,6 +53496,82 @@
       ],
       "last_verified": "2026-10-01T12:00:00-07:00",
       "notes": "Found by sweeping the 2026 Stealth Startup Spy newsletters (issue #361); the company spent about 29 months in stealth. LEGAL ENTITY IS ALGOHOUSE INC. — PitchBook carries it as formerly AlgoHouse Incorporated and the site footer still reads “© 2026 AlgoHouse Inc.”; search for that name, not Grizzly, when checking filings. HQ: the California Secretary of State registry gives AlgoHouse Inc. (doc. 6171531) a principal address of 833 Mahler Rd, Suite 20, Burlingame, CA, with Zaman as CEO, CFO, secretary and registered agent, Delaware incorporation and a California filing date of 3 April 2024. Burlingame is recorded on that basis even though the newsletter and some listings say San Francisco. The usual governing-law check is unavailable — grizzhq.com is a product and order site with no terms or privacy policy. CAPITAL RAISED IS NULL, NOT ZERO: one round exists but its amount has never been disclosed, so the Raised column shows an em dash rather than a figure. QUALIFIES ON ZAMAN’S WATERLOO ATTENDANCE, and the sourcing is second-hand rather than primary: Crunchbase states plainly that he “attended the University of Waterloo” and lists Computer Science, TheOrg’s Communitech profile says he holds “degrees from the University of Waterloo in Computer Science”, and a LinkedIn-scraped education section lists “Combinatorics & Optimization” — a department that exists only at Waterloo, which is why the attribution is treated as solid. His place of birth and citizenship are stated nowhere. Crunchbase also says he was among “Canada’s top 50 math students”, which would imply a Canadian secondary school, but no school is named so that is not recorded. DOZR is prior employment and does not itself qualify. Sole founder: Zaman is the only officer on the California filing and is described everywhere as founder in the singular."
+    }
+  },
+  {
+    "id": "conway-research",
+    "name": "Conway Research",
+    "website": "https://conway.tech",
+    "description": "AI lab whose first product, Underdog, is a personal assistant that runs its language, speech and agent models locally on the user’s own Apple-silicon Mac rather than in a data centre. The app connects to the user’s Gmail or Outlook mail and calendar, transcribes and summarises meetings, handles dictation, and runs a browser agent that carries out errands such as booking travel or ordering groceries, asking for approval before any purchase; the company says mail, audio and transcripts never leave the device and no third-party model provider is used. The lab also trains its own small models — the open-weight Woof family and a claimed 27B — and writes the inference engines they run on, including Husky, a Metal engine for Apple silicon. Underdog is free and in invite-only beta on macOS.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Early Stage",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/conway.tech?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "sigil-wen",
+        "name": "Sigil Wen",
+        "role": "Founder",
+        "linkedin": "https://www.linkedin.com/in/sigil",
+        "x_url": "https://x.com/0xSigil",
+        "wikipedia_url": "",
+        "bio": "Founder of Conway Research and of Underdog, its first product. Born in Toronto; flew to San Francisco at 17 and had his own EB-1A green card approved at 20. Thiel Fellow, 2025 class, and a Hummingbird Magnificent Grant recipient; opted out of Penn’s M&T program. Also founder and executive chairman of Extraordinary.",
+        "canadian_connection_type": "birthplace",
+        "canadian_institution": "",
+        "canadian_institutions": [],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-10-02",
+        "round": "Venture",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "other_investors": [
+          "Khosla Ventures",
+          "Hummingbird Ventures",
+          "Anthology Fund",
+          "Patrick Collison",
+          "Naval Ravikant",
+          "Guillermo Rauch",
+          "Noam Brown",
+          "Thomas Wolf",
+          "Logan Kilpatrick"
+        ],
+        "source_urls": [
+          "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+          "https://x.com/0xSigil/status/2106067365733790032"
+        ],
+        "notes": "AMOUNT NOT DISCLOSED by anyone — a firm negative rather than a gap. a16z’s own announcement says only that it is “thrilled to lead Conway Research’s first round of funding”, and the two trade write-ups that exist both state the size was not part of the announcement. No round letter is given either; “first round” is the strongest characterisation available, so Venture is this database’s label rather than a sourced one. No valuation, pre- or post-. RE-CHECK EDGAR mid-to-late October: a Form D would be due about 15 days after first sale and would give both the amount and the principal place of business. Only a16z’s participation is confirmed by a first-party investor source; Khosla, Hummingbird, the Anthropic/Menlo Anthology fund and the angels rest on Wen’s X post alone, and two further angels named there by handle only (@Mascobot, @tszzl) are omitted. a16z filed the announcement under its crypto vertical, and two of the three deal partners are a16z crypto partners."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://a16z.com/announcement/investing-in-conway-the-creator-of-underdog/",
+        "https://conway.tech/",
+        "https://underdog.ai/",
+        "https://husky.underdog.ai/",
+        "https://huggingface.co/ConwayResearch",
+        "https://x.com/0xSigil/status/2106067365733790032"
+      ],
+      "last_verified": "2026-10-02T12:00:00-07:00",
+      "notes": "ONE ENTRY, NOT TWO: Conway Research is the company and Underdog is its first product, stated consistently first-party — conway.tech says “we are the creators of underdog.ai”, underdog.ai credits “made by Conway”, and a16z invested in Conway Research, not in a separate Underdog entity. Wen’s announcement signature “Underdog AI and Conway Research” is product-plus-lab. Do not add Underdog separately. HQ IS NOT DOCUMENTED — San Francisco is an inference and should be treated as provisional. Every normal check fails: the terms of service carry no governing-law clause and no address, the privacy policy gives neither an entity name nor an address, there is no SEC filing, and all five job listings state no location at all. The support for San Francisco is Wen’s own LinkedIn location and the Conway Research LinkedIn page’s employee-location facet, whose HQ field is itself blank. This reverses an earlier decision recorded on the Extraordinary entry to leave Conway off the list precisely because its HQ was undocumented; it is listed now because the a16z-led round makes it material, not because the HQ evidence improved. LEGAL ENTITY NAME UNKNOWN: no Inc. or LLC appears anywhere, and the copyright line reads only “© 2026 Underdog, by Conway Research”. SOLO FOUNDER: every first-party reference is singular, a16z writes “as he builds Underdog”, and no co-founder is named anywhere; the only other LinkedIn-associated employee is based in Seoul and is not described as a founder. Team is 2–10. THE 27B CLAIM IS THE COMPANY’S, UNVERIFIED: Wen’s article says “our model, Underdog 27B” beats Claude Opus 4.6 while running on a Mac or iPhone, but no 27B weights, model card or benchmark table have been published — the Hugging Face org carries the 2B and 4B Woof models, a speech model and a PII model, Apache-2.0, and the only published benchmarks cover Woof 4B on the Husky engine. The lab was originally positioned more broadly, as infrastructure for self-improving autonomous AI; the on-device personal-AI framing is a 2026 narrowing. Qualifies on Wen, who is already on the list via Extraordinary. Toronto birth is owner-supplied: the database owner confirms he was born in Toronto. Published sources establish the city but not the birth — the Thiel Foundation’s 2025 class release lists him as “Sigil Wen: Toronto, Canada” and his own site says he flew from Toronto to San Francisco at 17."
     }
   }
 ]
