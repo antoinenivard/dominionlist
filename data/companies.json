@@ -53573,5 +53573,409 @@
       "last_verified": "2026-10-02T12:00:00-07:00",
       "notes": "ONE ENTRY, NOT TWO: Conway Research is the company and Underdog is its first product, stated consistently first-party — conway.tech says “we are the creators of underdog.ai”, underdog.ai credits “made by Conway”, and a16z invested in Conway Research, not in a separate Underdog entity. Wen’s announcement signature “Underdog AI and Conway Research” is product-plus-lab. Do not add Underdog separately. HQ IS NOT DOCUMENTED — San Francisco is an inference and should be treated as provisional. Every normal check fails: the terms of service carry no governing-law clause and no address, the privacy policy gives neither an entity name nor an address, there is no SEC filing, and all five job listings state no location at all. The support for San Francisco is Wen’s own LinkedIn location and the Conway Research LinkedIn page’s employee-location facet, whose HQ field is itself blank. This reverses an earlier decision recorded on the Extraordinary entry to leave Conway off the list precisely because its HQ was undocumented; it is listed now because the a16z-led round makes it material, not because the HQ evidence improved. LEGAL ENTITY NAME UNKNOWN: no Inc. or LLC appears anywhere, and the copyright line reads only “© 2026 Underdog, by Conway Research”. SOLO FOUNDER: every first-party reference is singular, a16z writes “as he builds Underdog”, and no co-founder is named anywhere; the only other LinkedIn-associated employee is based in Seoul and is not described as a founder. Team is 2–10. THE 27B CLAIM IS THE COMPANY’S, UNVERIFIED: Wen’s article says “our model, Underdog 27B” beats Claude Opus 4.6 while running on a Mac or iPhone, but no 27B weights, model card or benchmark table have been published — the Hugging Face org carries the 2B and 4B Woof models, a speech model and a PII model, Apache-2.0, and the only published benchmarks cover Woof 4B on the Husky engine. The lab was originally positioned more broadly, as infrastructure for self-improving autonomous AI; the on-device personal-AI framing is a 2026 narrowing. Qualifies on Wen, who is already on the list via Extraordinary. Toronto birth is owner-supplied: the database owner confirms he was born in Toronto. Published sources establish the city but not the birth — the Thiel Foundation’s 2025 class release lists him as “Sigil Wen: Toronto, Canada” and his own site says he flew from Toronto to San Francisco at 17."
     }
+  },
+  {
+    "id": "grokker",
+    "name": "Grokker",
+    "website": "https://www.grokker.com",
+    "description": "Employee wellbeing and benefits-engagement platform sold to employers, built around a library of expert-led video on fitness, yoga, mindfulness, nutrition, sleep and financial wellbeing with a community layer. Has since added conversational AI that matches employees to the benefits their employer already offers, plus a healthy-weight programme. Customers include CVS Health, Pfizer, MGM Resorts, Delta Air Lines and Target.",
+    "hq_city": "San Jose",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Series B",
+    "status": "Private",
+    "founding_year": 2012,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/grokker.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "lorna-borenstein",
+        "name": "Lorna Borenstein",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/lorna-borenstein-71220/",
+        "x_url": "https://x.com/Lborenstein",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of Grokker. Took the BCL and LLB civil and common law degrees at McGill University and practised law in both Canada and the US before moving into technology. Previously an executive at HP, eBay — where she launched eBay Canada — and Yahoo, and president of Move Inc. Author of “It’s Personal: The Business Case for Caring” (2021).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2013-12-02",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 5500000,
+        "amount_display": "$5.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.crunchbase.com/funding_round/grokker-inc-series-a--8dc3dbbc"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2016-11-30",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "SV Angel",
+          "First Round Capital",
+          "Khosla Ventures",
+          "Aspect Ventures",
+          "InterWest Partners",
+          "Comcast Ventures",
+          "Correlation Ventures"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/wellness-startup-grokker-closes-series-b-bringing-total-funding-to-22m-from-sv-angel-first-round-capital-khosla-ventures-aspect-ventures-interwest-partners-comcast-and-correlation-ventures-300370376.html"
+        ],
+        "notes": "Round size never disclosed; the release states only that total funding reached $22.5M, which is where this entry’s capital-raised figure comes from."
+      },
+      {
+        "date": "2018",
+        "round": "Series B Extension",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Gingerbread Capital",
+          "Aspect Ventures"
+        ],
+        "source_urls": [
+          "https://gingerbreadcap.com/investment/grokker/"
+        ],
+        "notes": "Amount not disclosed."
+      }
+    ],
+    "capital_raised_usd": 22500000,
+    "capital_raised_display": "$22.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.grokker.com/lorna-borenstein",
+        "https://grokker.com/tos",
+        "https://www.hci.org/lorna-borenstein",
+        "https://www.conference-board.org/bio/lorna-borenstein",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-02T15:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio. US HQ from the site footer, 560 S Winchester Blvd Suite 150, San Jose CA, and the terms of service, which put exclusive jurisdiction and venue in San Jose, California; a 2016 release datelined San Francisco reflects the older office. Qualifies on Borenstein’s McGill degrees, stated on Grokker’s own bio page for her and repeated by HCI and the Conference Board: “Borenstein received her Bachelor of Civil Law and a Bachelor of Common Law, with Honors, at McGill University and practiced law in both Canada and the US.” BCL & LLB is McGill’s distinctive dual civil-and-common-law pairing, which corroborates the attribution. She also launched eBay Canada from Toronto in 2000 — noted but not relied on, since residence and employment do not qualify. Her birth and citizenship are not established either way. CAPITAL RAISED WILL NOT RECONCILE against the rounds: only the 2013 Series A has a published amount, and $22.5M is the company’s own stated total as of November 2016. Later rounds (a 2018 Series B extension, and PitchBook-sourced mentions of 2021 debt and a 2022 Series B deal that are not independently confirmed) have no published amounts, so the real total is probably higher. No valuation has ever been disclosed. Sole founder."
+    }
+  },
+  {
+    "id": "proception",
+    "name": "Proception",
+    "website": "https://www.proception.ai",
+    "description": "Builds high-dexterity robotic hands and the data pipeline to train them, selling to humanoid-robot makers and robotics labs. Its first product, ProHand 1.0, is a tendon-driven hand with 22 degrees of freedom and skin-like tactile sensing; the first batch shipped in June 2026. It pairs this with ProGlove, a wearable using the same sensor skin that lets people collect hand-interaction training data without a robot in the loop.",
+    "hq_city": "Mountain View",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2024,
+    "yc_batch": "W'25",
+    "icon_url": "https://img.logo.dev/proception.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "jack-xu",
+        "name": "Jack Xu",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/jack-xu-jxinbox/",
+        "x_url": "https://x.com/_jaku_xu",
+        "wikipedia_url": "",
+        "bio": "Co-Founder of Proception. BASc in mechatronics engineering and a thesis-based MASc from the University of Waterloo, on tightly-coupled dual visual-inertial odometry for mobile manipulation. Previously at Tesla, and before that Trexo Robotics.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-03",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Future Capital Discovery Fund"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/proception-inc"
+        ],
+        "notes": "Y Combinator Winter 2025. Sources disagree on the amount; the standard YC deal is recorded. No valuation disclosed."
+      },
+      {
+        "date": "2026-06-29",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 11000000,
+        "amount_display": "$11M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "First Round Capital"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "BoxGroup"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+          "https://www.gunder.com/en/news-insights/client-news/proception-raises-dollar11-million-seed-financing"
+        ],
+        "notes": "Led by Bill Trenchard at First Round. Announced the same day Tesla dismissed its 2025 trade-secret suit against co-founder Jay Li and the company as part of a settlement. NO VALUATION DISCLOSED by any primary source; Dealroom alone carries a $44M figure that is unlabelled as pre- or post-money and of unstated basis, so it is not recorded."
+      }
+    ],
+    "capital_raised_usd": 11500000,
+    "capital_raised_display": "$11.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.proception.ai/privacy",
+        "https://www.proception.ai/terms",
+        "https://jackxu.dev/",
+        "https://uwspace.uwaterloo.ca/items/9acfaa0f-da91-414e-958d-ec0a3e8f030f",
+        "https://www.ycombinator.com/companies/proception-inc",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-02T15:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio. US HQ confirmed first-party: the privacy policy states “Proception, Inc. is a Delaware corporation with offices in Mountain View, California”, the terms give a Mountain View postal address with California governing law and venue in Santa Clara County. Third-party listings are stale — YC says San Francisco, Dealroom says Palo Alto. No SEC Form D exists. Qualifies on Jack Xu, whose own site records a BASc in mechatronics and a thesis-based MASc from the University of Waterloo, corroborated by his thesis in the UWSpace repository — primary evidence, not an aggregator. His earlier job at Trexo Robotics in Toronto is employment and does not itself qualify. Co-founder Jay Li (Stanford; ex-Tesla Optimus electronics lead) has no identified Canadian connection and so is not listed. Xu’s title is recorded as Co-Founder because that is what YC states; some aggregators add CTO, which no source supports."
+    }
+  },
+  {
+    "id": "singlestore",
+    "name": "SingleStore",
+    "website": "https://www.singlestore.com",
+    "description": "Distributed relational SQL database that handles transactional and analytical workloads in a single engine, storing data in both in-memory rowstores and on-disk columnstores. Launched as MemSQL in 2013 and renamed SingleStore in October 2020; sold self-managed and as a cloud service, SingleStore Helios, on AWS, GCP and Azure. Has since added vector search, full-text search and Apache Iceberg integration for enterprise AI workloads, and acquired the data-integration vendor BryteFlow in 2024.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Private (PE)",
+    "status": "Acquired",
+    "founding_year": 2011,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/singlestore.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "adam-prout",
+        "name": "Adam Prout",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/adam-prout-0b347630/",
+        "x_url": "https://x.com/a_prout",
+        "wikipedia_url": "",
+        "bio": "Co-founding engineer and later CTO of SingleStore. Bachelor's and master's in computer science from the University of Waterloo, with an MMath thesis on parameterized code generation from template semantics. An expert in distributed database systems; has since moved to Microsoft as a distinguished engineer.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2013-01",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 5000000,
+        "amount_display": "$5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "First Round Capital",
+          "IA Ventures"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/SingleStore"
+        ],
+        "notes": "Raised as MemSQL."
+      },
+      {
+        "date": "2014",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 35000000,
+        "amount_display": "$35M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Accel"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/SingleStore"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2016",
+        "round": "Series C",
+        "kind": "funding",
+        "amount_usd": 36000000,
+        "amount_display": "$36M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Caffeinated Capital",
+          "REV Venture Partners"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/SingleStore"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2018",
+        "round": "Series D",
+        "kind": "funding",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "GV",
+          "Glynn Capital"
+        ],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/SingleStore"
+        ],
+        "notes": ""
+      },
+      {
+        "date": "2020-12-08",
+        "round": "Series E",
+        "kind": "funding",
+        "amount_usd": 80000000,
+        "amount_display": "$80M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Insight Partners"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2020/12/08/singlestore-formerly-memsql-raises-80m-to-integrate-and-leverage-companies-disparate-data-silos/"
+        ],
+        "notes": "First round under the SingleStore name."
+      },
+      {
+        "date": "2021-09-08",
+        "round": "Series F",
+        "kind": "funding",
+        "amount_usd": 80000000,
+        "amount_display": "$80M",
+        "valuation_usd": 940000000,
+        "valuation_display": "$940M",
+        "lead_investors": [
+          "Insight Partners"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2021/09/08/real-time-database-platform-singlestore-raises-80m-more-now-at-a-940m-valuation/"
+        ],
+        "notes": "The last clearly reported valuation: “raises $80M more, now at a $940M valuation”."
+      },
+      {
+        "date": "2022-07-12",
+        "round": "Series G",
+        "kind": "funding",
+        "amount_usd": 116000000,
+        "amount_display": "$116M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Goldman Sachs Asset Management"
+        ],
+        "other_investors": [
+          "Insight Partners"
+        ],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20220712005436/en/SingleStore-Announces-116M-Financing-Led-by-Goldman-Sachs-Asset-Management"
+        ],
+        "notes": "Reported as taking the company past $1B, with Bloomberg-sourced coverage putting it near $1.3B. No source says whether that figure is pre- or post-money, so no valuation is recorded here."
+      },
+      {
+        "date": "2022-10",
+        "round": "Series F",
+        "kind": "funding",
+        "amount_usd": 30000000,
+        "amount_display": "$30M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Prosperity7 Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://en.wikipedia.org/wiki/SingleStore"
+        ],
+        "notes": "Reported as a Series F-2 extension."
+      },
+      {
+        "date": "2025-10-16",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.singlestore.com/blog/a-new-chapter-for-singlestore-accelerating-our-growth-with-vector-capital/",
+          "https://www.techtarget.com/searchdatamanagement/news/366630612/SingleStore-agrees-to-growth-buyout-by-private-equity-firm"
+        ],
+        "notes": "Growth buyout: Vector Capital took a majority stake, announced 10 September 2025 and closed 16 October 2025, alongside Adams Street Partners, J.P. Morgan Asset Management, Goldman Sachs AM’s XIG, Angeles Investments, Lexington Partners and Performance Equity Management. Terms undisclosed; Bloomberg reported roughly $500M for the stake, which is a price for a majority position rather than a company valuation and is therefore not recorded as one. The company continues to operate independently with Raj Verma as CEO, which is why the stage is Private (PE).",
+        "acquirer": "Vector Capital"
+      }
+    ],
+    "capital_raised_usd": 412000000,
+    "capital_raised_display": "$412M",
+    "metadata": {
+      "valuation_usd": 940000000,
+      "valuation_display": "$940M",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2021-09",
+      "sources": [
+        "https://www.singlestore.com/terms/",
+        "https://www.singlestore.com/blog/author/adam-prout/",
+        "https://en.wikipedia.org/wiki/SingleStore",
+        "https://www.singlestore.com/blog/a-new-chapter-for-singlestore-accelerating-our-growth-with-vector-capital/",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-02T15:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. VALUATION IS THE 2021 SERIES F MARK of $940M, the last figure clearly reported as a valuation. The July 2022 Series G was reported as taking the company past $1B, with Bloomberg-sourced coverage near $1.3B, but no source says whether that is pre- or post-money, so it is not recorded; nor is the roughly $500M Bloomberg reported for Vector Capital’s majority stake, which prices a stake rather than the company. CAPITAL RAISED is $412M, the sum of the eight sourced rounds. Wikipedia and much of the press cite $318.1M; that figure does not reconcile with the rounds it lists on the same page, and the likeliest cause is that it predates or omits one of the 2022 rounds. The sum is used because every row here is individually sourced. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
+    }
   }
 ]
