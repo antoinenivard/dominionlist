@@ -53802,75 +53802,153 @@
     ],
     "funding_rounds": [
       {
-        "date": "2013-01",
-        "round": "Series A",
+        "date": "2011-01-01",
+        "round": "Accelerator",
         "kind": "funding",
-        "amount_usd": 5000000,
-        "amount_display": "$5M",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
         "other_investors": [
-          "First Round Capital",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/55437-83"
+        ],
+        "notes": "Y Combinator, winter 2011, as MemSQL. Amount not recorded by PitchBook."
+      },
+      {
+        "date": "2012-07-18",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 4800000,
+        "amount_display": "$4.8M",
+        "valuation_usd": 13800000,
+        "valuation_display": "$13.8M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/55437-83"
+        ],
+        "notes": "PitchBook marks the amount estimated. Pre-money $9M, post-money $13.8M."
+      },
+      {
+        "date": "2013-06-01",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 4400000,
+        "amount_display": "$4.4M",
+        "valuation_usd": 24400000,
+        "valuation_display": "$24.4M",
+        "lead_investors": [
+          "First Round Capital"
+        ],
+        "other_investors": [
           "IA Ventures"
         ],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/SingleStore"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "Raised as MemSQL."
+        "notes": "PitchBook marks the amount estimated. Pre-money $20M, post-money $24.4M. Widely reported at the time as a $5M round."
       },
       {
-        "date": "2014",
+        "date": "2013-11-04",
         "round": "Series B",
         "kind": "funding",
-        "amount_usd": 35000000,
-        "amount_display": "$35M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "amount_usd": 25000000,
+        "amount_display": "$25M",
+        "valuation_usd": 75000000,
+        "valuation_display": "$75M",
         "lead_investors": [
           "Accel"
         ],
         "other_investors": [],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/SingleStore"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": ""
+        "notes": "Pre-money $50M, post-money $75M."
       },
       {
-        "date": "2016",
+        "date": "2014-01-22",
+        "round": "Series B1",
+        "kind": "funding",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": 158000000,
+        "valuation_display": "$158M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/55437-83"
+        ],
+        "notes": "Pre-money $148M, post-money $158M. A separate tranche from the November 2013 Series B."
+      },
+      {
+        "date": "2016-04-06",
         "round": "Series C",
         "kind": "funding",
         "amount_usd": 36000000,
         "amount_display": "$36M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 233000000,
+        "valuation_display": "$233M",
         "lead_investors": [],
         "other_investors": [
           "Caffeinated Capital",
           "REV Venture Partners"
         ],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/SingleStore"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": ""
+        "notes": "Pre-money $200M, post-money $233M."
       },
       {
-        "date": "2018",
+        "date": "2018-05-04",
         "round": "Series D",
         "kind": "funding",
         "amount_usd": 30000000,
         "amount_display": "$30M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 272000000,
+        "valuation_display": "$272M",
         "lead_investors": [],
         "other_investors": [
           "GV",
           "Glynn Capital"
         ],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/SingleStore"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": ""
+        "notes": "Pre-money $242M, post-money $272M."
+      },
+      {
+        "date": "2019-01-01",
+        "round": "Venture",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/55437-83"
+        ],
+        "notes": "A later-stage round PitchBook records with no amount and no valuation; the date is a placeholder of 1 January 2019 rather than a known day."
+      },
+      {
+        "date": "2020-05-11",
+        "round": "Debt Financing",
+        "kind": "funding",
+        "amount_usd": 50000000,
+        "amount_display": "$50M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/55437-83"
+        ],
+        "notes": "General debt. Counted in capital raised, which is why that figure is not purely equity."
       },
       {
         "date": "2020-12-08",
@@ -53878,16 +53956,16 @@
         "kind": "funding",
         "amount_usd": 80000000,
         "amount_display": "$80M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 460000000,
+        "valuation_display": "$460M",
         "lead_investors": [
           "Insight Partners"
         ],
         "other_investors": [],
         "source_urls": [
-          "https://techcrunch.com/2020/12/08/singlestore-formerly-memsql-raises-80m-to-integrate-and-leverage-companies-disparate-data-silos/"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "First round under the SingleStore name."
+        "notes": "Pre-money $380M, post-money $460M. First round under the SingleStore name."
       },
       {
         "date": "2021-09-08",
@@ -53902,18 +53980,18 @@
         ],
         "other_investors": [],
         "source_urls": [
-          "https://techcrunch.com/2021/09/08/real-time-database-platform-singlestore-raises-80m-more-now-at-a-940m-valuation/"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "The last clearly reported valuation: “raises $80M more, now at a $940M valuation”."
+        "notes": "Pre-money $860M, post-money $940M, matching the contemporaneous TechCrunch report."
       },
       {
-        "date": "2022-07-12",
+        "date": "2022-07-08",
         "round": "Series G",
         "kind": "funding",
         "amount_usd": 116000000,
         "amount_display": "$116M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 1320000000,
+        "valuation_display": "$1.32B",
         "lead_investors": [
           "Goldman Sachs Asset Management"
         ],
@@ -53921,26 +53999,26 @@
           "Insight Partners"
         ],
         "source_urls": [
-          "https://www.businesswire.com/news/home/20220712005436/en/SingleStore-Announces-116M-Financing-Led-by-Goldman-Sachs-Asset-Management"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "Reported as taking the company past $1B, with Bloomberg-sourced coverage putting it near $1.3B. No source says whether that figure is pre- or post-money, so no valuation is recorded here."
+        "notes": "Pre-money $1.20B, post-money $1.32B. This is the company's highest and last disclosed valuation, and it settles the earlier ambiguity: press at the time said only “more than $1 billion” and Bloomberg-sourced coverage said roughly $1.3B without saying pre or post."
       },
       {
-        "date": "2022-10",
+        "date": "2022-08-07",
         "round": "Series F",
         "kind": "funding",
-        "amount_usd": 30000000,
-        "amount_display": "$30M",
+        "amount_usd": 146000000,
+        "amount_display": "$146M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [
+        "lead_investors": [],
+        "other_investors": [
           "Prosperity7 Ventures"
         ],
-        "other_investors": [],
         "source_urls": [
-          "https://en.wikipedia.org/wiki/SingleStore"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "Reported as a Series F-2 extension."
+        "notes": "PitchBook labels this a second Series F, dated a month after the Series G and with no valuation recorded — the lettering is out of sequence in the source and is left as PitchBook has it. Reported elsewhere as a $30M Series F-2 extension, which does not match the $146M here."
       },
       {
         "date": "2025-10-16",
@@ -53953,29 +54031,29 @@
         "lead_investors": [],
         "other_investors": [],
         "source_urls": [
-          "https://www.singlestore.com/blog/a-new-chapter-for-singlestore-accelerating-our-growth-with-vector-capital/",
-          "https://www.techtarget.com/searchdatamanagement/news/366630612/SingleStore-agrees-to-growth-buyout-by-private-equity-firm"
+          "https://pitchbook.com/profiles/company/55437-83"
         ],
-        "notes": "Growth buyout: Vector Capital took a majority stake, announced 10 September 2025 and closed 16 October 2025, alongside Adams Street Partners, J.P. Morgan Asset Management, Goldman Sachs AM’s XIG, Angeles Investments, Lexington Partners and Performance Equity Management. Terms undisclosed; Bloomberg reported roughly $500M for the stake, which is a price for a majority position rather than a company valuation and is therefore not recorded as one. The company continues to operate independently with Raj Verma as CEO, which is why the stage is Private (PE).",
+        "notes": "Recorded by PitchBook as a Buyout/LBO. Vector Capital took a majority stake alongside Adams Street Partners, J.P. Morgan Asset Management, Goldman Sachs AM's XIG, Angeles Investments, Lexington Partners and Performance Equity Management; announced 10 September 2025, closed 16 October 2025. Terms undisclosed; Bloomberg reported roughly $500M for the stake, which prices a stake rather than the company and is not recorded as a valuation. Raj Verma stays CEO and the company keeps operating, hence stage Private (PE).",
         "acquirer": "Vector Capital"
       }
     ],
-    "capital_raised_usd": 412000000,
-    "capital_raised_display": "$412M",
+    "capital_raised_usd": 582200000,
+    "capital_raised_display": "$582.2M",
     "metadata": {
-      "valuation_usd": 940000000,
-      "valuation_display": "$940M",
+      "valuation_usd": 1320000000,
+      "valuation_display": "$1.32B",
       "valuation_type": "post_money",
-      "valuation_as_of": "2021-09",
+      "valuation_as_of": "2022-07",
       "sources": [
+        "https://pitchbook.com/profiles/company/55437-83",
         "https://www.singlestore.com/terms/",
         "https://www.singlestore.com/blog/author/adam-prout/",
         "https://en.wikipedia.org/wiki/SingleStore",
         "https://www.singlestore.com/blog/a-new-chapter-for-singlestore-accelerating-our-growth-with-vector-capital/",
         "https://www.firstround.com/companies"
       ],
-      "last_verified": "2026-10-02T15:00:00-07:00",
-      "notes": "Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. VALUATION IS THE 2021 SERIES F MARK of $940M, the last figure clearly reported as a valuation. The July 2022 Series G was reported as taking the company past $1B, with Bloomberg-sourced coverage near $1.3B, but no source says whether that is pre- or post-money, so it is not recorded; nor is the roughly $500M Bloomberg reported for Vector Capital’s majority stake, which prices a stake rather than the company. CAPITAL RAISED is $412M, the sum of the eight sourced rounds. Wikipedia and much of the press cite $318.1M; that figure does not reconcile with the rounds it lists on the same page, and the likeliest cause is that it predates or omits one of the 2022 rounds. The sum is used because every row here is individually sourced. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
+      "last_verified": "2026-10-05T16:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. FUNDING HISTORY IS FROM PITCHBOOK’S DEAL HISTORY, supplied by the database owner, and replaces an earlier reconstruction from press and Wikipedia that was wrong on several dates and amounts and missed four deals entirely — the 2011 accelerator, a 2019 later-stage round, $50M of debt in 2020 and the second 2022 Series F. CAPITAL RAISED is $582.2M, PitchBook’s raised-to-date at the buyout; note it includes the $50M debt facility, so it is not a pure equity figure. The commonly cited $318.1M is stale. VALUATION IS THE JULY 2022 SERIES G POST-MONEY OF $1.32B, against a $1.20B pre-money. That resolves what this entry previously flagged as unresolvable: press at the time said only “more than $1 billion” and Bloomberg-sourced coverage said roughly $1.3B without specifying pre or post. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
     }
   },
   {
@@ -54225,6 +54303,77 @@
       ],
       "last_verified": "2026-10-05T12:00:00-07:00",
       "notes": "Found by screening the First Round Capital portfolio. LEGAL ENTITY IS THRESHOLDZ INC., named in the terms of service as “a Delaware corporation” — search filings under that name. HQ CITY IS INFERRED AND SHOULD BE TREATED AS PROVISIONAL: the terms give Delaware governing law with JAMS arbitration and a legal-notice address of 3 Germay Drive, Wilmington, which is a registered-agent address; the site footer gives 6415 S Fort Apache Rd, Las Vegas, which is a commercial mail drop; the privacy policy gives no address at all. New York is recorded because both co-founders are New York-based and the company publishes a 646 number. The “Miami” figure that circulates traces solely to Tracxn and has no primary source — do not adopt it. CAPITAL RAISED IS NULL, NOT ZERO: the company has never announced a round and no amount appears in any source, so the Raised column shows an em dash. Qualifies on Brian Ko’s University of Toronto attendance, 2007–2011. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Co-founder and CEO Chris Shei (Cornell, Cornell Tech) has no identified Canadian connection and so is not listed. Note the author pages on onesafe.io label both men “co-founder and CEO” in their title tags, which is a CMS bug; the meta descriptions correctly identify Ko as CTO."
+    }
+  },
+  {
+    "id": "diversio",
+    "name": "Diversio",
+    "website": "https://diversio.com",
+    "description": "People-analytics and compliance platform for diversity, equity and inclusion. Surveys a workforce, scores inclusion against industry benchmarks and returns a recommended action plan, sold alongside consulting, training and compliance audits. Clients in more than 35 countries, including governments and large corporates. Acquired CCDI Consulting in 2024 to widen its inclusion services.",
+    "hq_city": "Claymont",
+    "hq_region": "DE",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Series A",
+    "status": "Private",
+    "founding_year": 2018,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/diversio.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "laura-mcgee",
+        "name": "Laura McGee",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/lauraemcgee/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of Diversio. BA and MA from Western University and a JD from the University of Toronto Faculty of Law. Previously at McKinsey, and chaired the Canadian government’s Expert Panel on Women Entrepreneurship.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto",
+          "Western University"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2022-01-20",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 6500000,
+        "amount_display": "$6.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "First Round Capital"
+        ],
+        "other_investors": [
+          "Golden Ventures",
+          "Chandaria Family Holdings"
+        ],
+        "source_urls": [
+          "https://diversio.com/diversio-announces-series-a-funding/"
+        ],
+        "notes": "The company’s own announcement says it “closed our series A funding, raising a total of $6.5MM”, which is ambiguous between the round and the lifetime total; it also says Diversio was self-funded and profitable from 2018 until this round, so the two are probably the same figure. No valuation disclosed."
+      }
+    ],
+    "capital_raised_usd": 6500000,
+    "capital_raised_display": "$6.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://diversio.com/terms-and-conditions/",
+        "https://diversio.com/contact-us/",
+        "https://diversio.com/company/about/",
+        "https://diversio.com/diversio-announces-series-a-funding/",
+        "https://betakit.com/diversio-acquires-ccdi-consulting-to-expand-its-workplace-inclusion-services/",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-05T16:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio, which led the Series A. LISTED UNDER THE REVISED HQ RULE adopted 5 October 2026, which counts a US-incorporated company so long as the US entity is not a subsidiary of a Canadian parent; under the previous rule, which required US headquarters and explicitly excluded a Delaware entity operating from Toronto, this entry was screened and rejected. HQ IS THE DELAWARE ADDRESS AND THE OPERATIONS ARE NOT THERE. The terms of service state the application is provided by “Diversio Inc., 2093 Philadelphia Pike #7205, Claymont, DE 19703”, a suite number at a mail-forwarding address. Diversio’s own contact page says the opposite about where the company sits: “Diversio, headquartered in Toronto, has clients in over 35 countries”, and its operating address is 100 Adelaide St W, Toronto. The sequence is also not Delaware-first: the company was founded in Toronto in 2018 by two Canadians and the Delaware entity appears later. UNVERIFIED: whether Diversio Inc. (Delaware) is a subsidiary of a Canadian parent, which is the condition the revised rule turns on. No filing establishing the group structure was found, so the entry rests on the Delaware entity existing and not being shown to be a subsidiary — recheck if the structure ever surfaces. Qualifies on Laura McGee, whose BA and MA from Western University and JD from the University of Toronto are stated on Diversio’s own company page. Co-founder and COO Anya Klimbovskaia is not listed; her Canadian connection has not been screened. Self-funded and profitable from 2018 until the 2022 Series A."
     }
   }
 ]
