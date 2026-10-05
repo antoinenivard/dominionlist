@@ -53977,5 +53977,254 @@
       "last_verified": "2026-10-02T15:00:00-07:00",
       "notes": "Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. VALUATION IS THE 2021 SERIES F MARK of $940M, the last figure clearly reported as a valuation. The July 2022 Series G was reported as taking the company past $1B, with Bloomberg-sourced coverage near $1.3B, but no source says whether that is pre- or post-money, so it is not recorded; nor is the roughly $500M Bloomberg reported for Vector Capital’s majority stake, which prices a stake rather than the company. CAPITAL RAISED is $412M, the sum of the eight sourced rounds. Wikipedia and much of the press cite $318.1M; that figure does not reconcile with the rounds it lists on the same page, and the likeliest cause is that it predates or omits one of the 2022 rounds. The sum is used because every row here is individually sourced. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
     }
+  },
+  {
+    "id": "arlyn-ai",
+    "name": "Arlyn AI",
+    "website": "https://arlynaccess.ai",
+    "description": "Builds an access-intelligence layer for life sciences, using language models to turn fragmented US payer material — formularies, utilization-management rules and coverage policies across tens of thousands of plans, PBMs and TPAs — into a structured, continuously updated map of drug access. Pharma and biotech customers use it to validate rebate and utilization-management commitments, track coverage changes and benchmark competitor policy. Launched as Quantile Health, a risk-transfer platform letting self-insured payers subscribe to gene-therapy access at a fixed per-member cost instead of paying millions per treatment.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/arlynaccess.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "yutong-sun",
+        "name": "Yutong Sun",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/yutong-sun-60629754",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of Arlyn AI, formerly Quantile Health. BASc in Engineering Science from the University of Toronto, 2008–2013. Previously lead data scientist at Oscar Health and a quantitative trader at Virtu Financial.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2024-01-23",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 7705000,
+        "amount_display": "$7.7M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Munich Re Ventures"
+        ],
+        "other_investors": [
+          "First Round Capital",
+          "Correlation Ventures"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/2010428/000201042824000002/primary_doc.xml",
+          "https://globalgenes.org/raredaily/quantile-health-raises-6-million-to-transform-patient-access-to-gene-therapies/"
+        ],
+        "notes": "AMOUNT DISCREPANCY: the Form D/A filed 2024-02-02 reports $7,705,000 sold to 19 investors, while the press release announced $6M. The filed figure is used and likely rolls in earlier SAFEs. Date is the first sale. No valuation disclosed."
+      }
+    ],
+    "capital_raised_usd": 7705000,
+    "capital_raised_display": "$7.7M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://arlynaccess.ai/company",
+        "https://www.sec.gov/Archives/edgar/data/2010428/000201042824000002/primary_doc.xml",
+        "https://www.linkedin.com/in/yutong-sun-60629754",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-05T12:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio. LEGAL ENTITY IS QUANTILE HEALTH INC., a Delaware corporation previously named Fennec Health Inc., SEC CIK 0002010428 — search filings under those names, not Arlyn AI, which is a 2026 rebrand. US HQ is New York, owner-confirmed and consistent with job postings placing the team at Hudson Yards on-site three days a week; the Albany and Great Neck addresses on the Form D are filing-agent addresses, and no terms-of-service governing-law clause is published. Founding year 2021 from the Form D’s year-of-incorporation field. Qualifies on Yutong Sun’s University of Toronto BASc in Engineering Science, 2008–2013. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Co-founders Peter D. Hancock (former AIG CEO, former J.P. Morgan CFO) and Andrew W. Lo (MIT Sloan) have no identified Canadian connection and so are not listed; Jonathan Gruber is chief policy officer, not a founder. No valuation has been disclosed and no round later than the 2024 seed has been found."
+    }
+  },
+  {
+    "id": "blaxel",
+    "name": "Blaxel",
+    "website": "https://blaxel.ai",
+    "description": "Cloud infrastructure built for autonomous AI agents rather than for SaaS workloads: sandboxed VMs that boot in under 25ms, serverless agent hosting, MCP server hosting and a unified model gateway across sixteen regions. Billing runs only while an agent is actively processing. Acquired by Baseten in September 2026, with the product continuing to run under Baseten.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2024,
+    "yc_batch": "P'25",
+    "icon_url": "https://img.logo.dev/blaxel.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "paul-sina",
+        "name": "Paul Sinaï",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/paul-sinai",
+        "x_url": "https://x.com/paul_sinai",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of Blaxel. Attended the Université de Montréal. Previously co-founder and CEO of ForePaaS, the Paris data-platform company sold to OVHcloud; the same core team went on to found Blaxel.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université de Montréal",
+        "canadian_institutions": [
+          "Université de Montréal"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/blaxel"
+        ],
+        "notes": "Y Combinator Spring 2025. Standard YC deal."
+      },
+      {
+        "date": "2025-07-17",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 7300000,
+        "amount_display": "$7.3M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "First Round Capital"
+        ],
+        "other_investors": [
+          "Y Combinator",
+          "Liquid 2 Ventures",
+          "Transpose Platform Management"
+        ],
+        "source_urls": [
+          "https://blaxel.ai/blog/Blaxel-Raises-7-3M-Seed-Round-led-by-First-Round-to-Build-Cloud-Infrastructure-for-the-AI-Agent-Eco-23247e47b1ea8067b923d998364e3ced"
+        ],
+        "notes": "No valuation disclosed. A roughly $57.7M figure circulating on StartupHub is an algorithmic estimate published at 19% stated confidence, not a disclosed valuation of any kind, and is not recorded."
+      },
+      {
+        "date": "2026-09-10",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.businesswire.com/news/home/20260910783896/en/Baseten-Acquires-Blaxel-to-Build-the-Infrastructure-for-AI-Agents-in-Production"
+        ],
+        "notes": "Terms not disclosed. Blaxel continues to run its product under Baseten.",
+        "acquirer": "Baseten"
+      }
+    ],
+    "capital_raised_usd": 7800000,
+    "capital_raised_display": "$7.8M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://blaxel.ai/legal/terms/2025-12-10-blaxel-terms-and-conditions.pdf",
+        "https://www.ycombinator.com/companies/blaxel",
+        "https://www.businesswire.com/news/home/20260910783896/en/Baseten-Acquires-Blaxel-to-Build-the-Infrastructure-for-AI-Agents-in-Production",
+        "https://www.linkedin.com/in/paul-sinai",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-05T12:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio. US HQ confirmed by the governing-law clause in Blaxel’s own terms, which name California law with venue in San Francisco and state that “Blaxel, Inc (formerly known as Beamlit, Inc.), is a Delaware corporation”, with the address 560 Davis Street, Suite 250, San Francisco — and owner-confirmed. Y Combinator Spring 2025. Qualifies on Paul Sinaï’s attendance at the Université de Montréal. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Worth recording plainly: no degree or dates are published for the Montréal attendance, and the rest of his record is French — ForePaaS in Paris, sold to OVHcloud. The five other co-founders — Charles Drappier, Christophe Ploujoux, Nicolas Lecomte, Thomas Crochet and Mathis Joffre, the same core team as ForePaaS — have no identified Canadian connection and so are not listed. Acquired by Baseten on 10 September 2026 for undisclosed terms; stage stays Seed because the financing stage survives the exit."
+    }
+  },
+  {
+    "id": "onesafe",
+    "name": "OneSafe",
+    "website": "https://www.onesafe.io",
+    "description": "Crypto-friendly business banking platform for Web3 startups, DAOs, foundations and international businesses. Offers US and multi-currency accounts, ACH and international wires, corporate cards, Web3 invoicing and crypto-to-fiat on and off ramps across Bitcoin, Ethereum, Solana and Polygon. It is a financial technology company rather than a bank: accounts, payments and custody run through licensed partners, and balances are held in stablecoins and displayed as US dollars rather than held as dollar deposits.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2021,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/onesafe.io?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "brian-ko",
+        "name": "Brian Ko",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/brianbko",
+        "x_url": "https://x.com/briankostar",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CTO of OneSafe. Attended the University of Toronto, 2007–2011. Previously founder in residence at HF0 and Entrepreneur First, and before that spent eight years in the Toronto area, including at BlueRush.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2021-12-17",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "First Round Capital",
+          "Felicis",
+          "Pareto Holdings",
+          "Soma Capital",
+          "Abstract Ventures",
+          "Backend Capital",
+          "Coinbase Ventures",
+          "Long Journey Ventures",
+          "HF0",
+          "Dorm Room Fund"
+        ],
+        "source_urls": [
+          "https://pitchbook.com/profiles/company/490044-70",
+          "https://www.cbinsights.com/company/thresholds"
+        ],
+        "notes": "Never publicly announced. PitchBook shows two completed seed rounds, the later dated 17 December 2021, with amounts blank and ten investors in total; the investor names here are the union across PitchBook and CB Insights. No amount and no valuation have been disclosed at any point."
+      }
+    ],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://docs.onesafe.io/legal/onesafe-terms-of-service",
+        "https://www.onesafe.io/",
+        "https://www.onesafe.io/author/brian-ko",
+        "https://www.linkedin.com/in/brianbko",
+        "https://pitchbook.com/profiles/company/490044-70",
+        "https://www.firstround.com/companies"
+      ],
+      "last_verified": "2026-10-05T12:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio. LEGAL ENTITY IS THRESHOLDZ INC., named in the terms of service as “a Delaware corporation” — search filings under that name. HQ CITY IS INFERRED AND SHOULD BE TREATED AS PROVISIONAL: the terms give Delaware governing law with JAMS arbitration and a legal-notice address of 3 Germay Drive, Wilmington, which is a registered-agent address; the site footer gives 6415 S Fort Apache Rd, Las Vegas, which is a commercial mail drop; the privacy policy gives no address at all. New York is recorded because both co-founders are New York-based and the company publishes a 646 number. The “Miami” figure that circulates traces solely to Tracxn and has no primary source — do not adopt it. CAPITAL RAISED IS NULL, NOT ZERO: the company has never announced a round and no amount appears in any source, so the Raised column shows an em dash. Qualifies on Brian Ko’s University of Toronto attendance, 2007–2011. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Co-founder and CEO Chris Shei (Cornell, Cornell Tech) has no identified Canadian connection and so is not listed. Note the author pages on onesafe.io label both men “co-founder and CEO” in their title tags, which is a CMS bug; the meta descriptions correctly identify Ko as CTO."
+    }
   }
 ]
