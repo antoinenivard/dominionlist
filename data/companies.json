@@ -54339,11 +54339,11 @@
     ],
     "funding_rounds": [
       {
-        "date": "2022-01-20",
+        "date": "2021-10-19",
         "round": "Series A",
         "kind": "funding",
-        "amount_usd": 6500000,
-        "amount_display": "$6.5M",
+        "amount_usd": 5380974,
+        "amount_display": "$5.4M",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [
@@ -54354,17 +54354,20 @@
           "Chandaria Family Holdings"
         ],
         "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/1891048/000189104822000001/primary_doc.xml",
           "https://diversio.com/diversio-announces-series-a-funding/"
         ],
-        "notes": "The company’s own announcement says it “closed our series A funding, raising a total of $6.5MM”, which is ambiguous between the round and the lifetime total; it also says Diversio was self-funded and profitable from 2018 until this round, so the two are probably the same figure. No valuation disclosed."
+        "notes": "AMOUNT AND DATE ARE FROM THE FORM D, which reports $5,380,974 sold to three investors in equity and options, first sale 19 October 2021. The company announced the round on 20 January 2022 saying it had “closed our series A funding, raising a total of $6.5MM” — a figure that is both larger than the filing and ambiguous between the round and the lifetime total. The filed number is used. Diversio says it was self-funded and profitable from 2018 until this round. No valuation disclosed."
       }
     ],
-    "capital_raised_usd": 6500000,
-    "capital_raised_display": "$6.5M",
+    "capital_raised_usd": 5380974,
+    "capital_raised_display": "$5.4M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
       "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1891048/000189104822000001/primary_doc.xml",
+        "https://icis.corp.delaware.gov/ecorp/entitysearch/NameSearch.aspx",
         "https://diversio.com/terms-and-conditions/",
         "https://diversio.com/contact-us/",
         "https://diversio.com/company/about/",
@@ -54372,8 +54375,8 @@
         "https://betakit.com/diversio-acquires-ccdi-consulting-to-expand-its-workplace-inclusion-services/",
         "https://www.firstround.com/companies"
       ],
-      "last_verified": "2026-10-05T16:00:00-07:00",
-      "notes": "Found by screening the First Round Capital portfolio, which led the Series A. LISTED UNDER THE REVISED HQ RULE adopted 5 October 2026, which counts a US-incorporated company so long as the US entity is not a subsidiary of a Canadian parent; under the previous rule, which required US headquarters and explicitly excluded a Delaware entity operating from Toronto, this entry was screened and rejected. HQ IS THE DELAWARE ADDRESS AND THE OPERATIONS ARE NOT THERE. The terms of service state the application is provided by “Diversio Inc., 2093 Philadelphia Pike #7205, Claymont, DE 19703”, a suite number at a mail-forwarding address. Diversio’s own contact page says the opposite about where the company sits: “Diversio, headquartered in Toronto, has clients in over 35 countries”, and its operating address is 100 Adelaide St W, Toronto. The sequence is also not Delaware-first: the company was founded in Toronto in 2018 by two Canadians and the Delaware entity appears later. UNVERIFIED: whether Diversio Inc. (Delaware) is a subsidiary of a Canadian parent, which is the condition the revised rule turns on. No filing establishing the group structure was found, so the entry rests on the Delaware entity existing and not being shown to be a subsidiary — recheck if the structure ever surfaces. Qualifies on Laura McGee, whose BA and MA from Western University and JD from the University of Toronto are stated on Diversio’s own company page. Co-founder and COO Anya Klimbovskaia is not listed; her Canadian connection has not been screened. Self-funded and profitable from 2018 until the 2022 Series A."
+      "last_verified": "2026-10-05T18:00:00-07:00",
+      "notes": "Found by screening the First Round Capital portfolio, which led the Series A. QUALIFIES ON THE CAP-TABLE TEST, and the evidence is issuer-level rather than inferred. Diversio Inc. is a Delaware corporation, file number 6295061, incorporated 11 October 2021 with Cogency Global as agent. Its Form D (CIK 0001891048, filed 25 January 2022) names Diversio Inc., jurisdiction Delaware, as the issuer that sold the securities, signed by Laura McGee as president and CEO, with a first sale on 19 October 2021 — eight days after the Delaware incorporation. That gap is the signature of a Delaware flip executed immediately before the round, which is exactly what the rule asks for: the entity investors bought into is the US one. The privacy policy names Diversio Inc. as owner and data controller. OPERATIONS ARE IN TORONTO AND THE HQ FIELD IS A DELAWARE ADDRESS. The terms give “Diversio Inc., 2093 Philadelphia Pike #7205, Claymont, DE 19703”, a suite number at a mail-forwarding address, and that is what is recorded here on the owner’s instruction. The company’s own contact page says “Diversio, headquartered in Toronto”, its operating address is 100 Adelaide St W, and it was founded in Toronto in 2018 by two Canadians, three years before the Delaware entity existed. Note the Form D gives a different and more substantive US address, 34 West 13th Street Suite 6, New York — worth considering if this entry is ever revisited. The pre-flip Ontario operating company is almost certainly still alive as a subsidiary; no Corporations Canada federal record exists, and Ontario’s registry is not freely searchable, so its registered name was not retrieved. No document was found stating the group structure in terms, so the parent finding rests on the Form D rather than on a “X Inc. and its subsidiary Y” sentence, and the filing is four years old with no later one. Qualifies on Laura McGee, whose BA and MA from Western University and JD from the University of Toronto are stated on Diversio’s own company page. Co-founder and COO Anya Klimbovskaia is not listed; her Canadian connection has not been screened. Acquired CCDI Consulting in 2024."
     }
   }
 ]
