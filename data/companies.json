@@ -54386,5 +54386,163 @@
       "last_verified": "2026-10-05T18:00:00-07:00",
       "notes": "Found by screening the First Round Capital portfolio, which led the Series A. QUALIFIES ON THE CAP-TABLE TEST, and the evidence is issuer-level rather than inferred. Diversio Inc. is a Delaware corporation, file number 6295061, incorporated 11 October 2021 with Cogency Global as agent. Its Form D (CIK 0001891048, filed 25 January 2022) names Diversio Inc., jurisdiction Delaware, as the issuer that sold the securities, signed by Laura McGee as president and CEO, with a first sale on 19 October 2021 — eight days after the Delaware incorporation. That gap is the signature of a Delaware flip executed immediately before the round, which is exactly what the rule asks for: the entity investors bought into is the US one. The privacy policy names Diversio Inc. as owner and data controller. OPERATIONS ARE IN TORONTO AND THE HQ FIELD IS A DELAWARE ADDRESS. HQ is recorded as New York, from the issuer address on the Form D — 34 West 13th Street Suite 6, New York, NY 10011 — which is the most substantive US address the company has filed. Not the Claymont address in its terms of service (2093 Philadelphia Pike #7205), which is a suite number at a mail-forwarding address. The company’s own contact page says “Diversio, headquartered in Toronto”, its operating address is 100 Adelaide St W, and it was founded in Toronto in 2018 by two Canadians, three years before the Delaware entity existed. The pre-flip Ontario operating company is almost certainly still alive as a subsidiary; no Corporations Canada federal record exists, and Ontario’s registry is not freely searchable, so its registered name was not retrieved. No document was found stating the group structure in terms, so the parent finding rests on the Form D rather than on a “X Inc. and its subsidiary Y” sentence, and the filing is four years old with no later one. Qualifies on Laura McGee, whose BA and MA from Western University and JD from the University of Toronto are stated on Diversio’s own company page. Co-founder and COO Anya Klimbovskaia is not listed; her Canadian connection has not been screened. Acquired CCDI Consulting in 2024."
     }
+  },
+  {
+    "id": "vexo",
+    "name": "Vexo",
+    "website": "https://www.vexoai.com",
+    "description": "Screenless woven AI bracelet with a microphone plus heart-rate, skin-temperature and motion sensors, BLE, onboard memory and haptics. It turns overheard conversational context into private memories and acts on them through the wearer’s existing apps — booking a reservation, drafting a Gmail reply, filling a grocery cart — with integrations live for Gmail, Google Calendar, Drive, Notion, GitHub, Render and Supabase. The band is listed at $199 and the company says it retains no audio.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/vexoai.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "haris-malik",
+        "name": "Haris Malik",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/haris-malik-/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of Vexo (YC F26). Honours BSc in Computer Science and Mathematics, co-op, at the University of Toronto. Previously at Tesla and K-Scale Labs.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "vikram-narra",
+        "name": "Vikram Narra",
+        "role": "Founder & CPO",
+        "linkedin": "https://www.linkedin.com/in/vikramnarra",
+        "x_url": "https://x.com/vikramnarra13",
+        "wikipedia_url": "",
+        "bio": "Founder & CPO of Vexo (YC F26). Computer Science at the University of Toronto. Previously at Amazon and Shopify.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "farqaleet-kiani",
+        "name": "Farqaleet Kiani",
+        "role": "Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/kianif/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Founder & CTO of Vexo (YC F26). Mechatronics at McMaster University, where he was a teaching assistant. Previously at Tesla, AMD, GM, Geotab and Molex.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McMaster University",
+        "canadian_institutions": [
+          "McMaster University"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/vexo"
+        ],
+        "notes": "Standard YC deal. No other financing disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/vexo",
+        "https://www.vexoai.com"
+      ],
+      "last_verified": "2026-10-06T10:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email of 2 October 2026, Fall 2026 batch. ALL THREE FOUNDERS QUALIFY, each from their own YC bio: Haris Malik “CS at UofT”, Vikram Narra “CS at UofT”, Farqaleet Kiani “Mechatronics @ McMaster”. HQ San Francisco per YC. The product was repositioned during the batch — an August F26 listing described Vexo as a health ring at vexoring.com under the same founder — so older references may not match the current description."
+    }
+  },
+  {
+    "id": "terse",
+    "name": "Terse",
+    "website": "https://www.useterse.ai",
+    "description": "Durable state infrastructure for AI agents: serverless actors and workflows with strongly typed TypeScript APIs running on Rust runtimes. Positioned as an open-source alternative to Cloudflare Durable Objects, with higher memory limits, direct SQLite access and concurrency safety by default, aimed at multi-agent coordination. Open source under a Sustainable Use licence with a hosted cloud option, in early access.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/useterse.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "thomas-elias-karatzas",
+        "name": "Thomas Elias Karatzas",
+        "role": "Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/thomas-karatzas-a3015a94",
+        "x_url": "https://x.com/karatzas_thomas",
+        "wikipedia_url": "",
+        "bio": "Founder & CEO of Terse (YC F26). Software engineering degree from McGill University. Previously a staff engineer at Apple for seven years working on Siri and Apple Intelligence, and before that founder of Know Your VC, acquired by RateMyInvestor.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [
+          "Articulate"
+        ],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/useterse"
+        ],
+        "notes": "Standard YC deal. The company site also names Articulate, Helen Min’s pre-seed fund, as an investor; that round’s size is not disclosed, so only the YC deal is counted. No valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/useterse",
+        "https://www.useterse.ai"
+      ],
+      "last_verified": "2026-10-06T10:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email of 2 October 2026, Fall 2026 batch. Qualifies on Karatzas, whose YC bio reads “Software Engineering degree from McGill University”. HQ New York per YC, with 368 9th Ave in the site footer. SLUG TRAP: the YC page is /companies/useterse — /companies/terse 301-redirects to an unrelated Winter 2024 company called Leaping, so a naive lookup silently lands on the wrong company. Co-founder and CTO Olivier Simard-Morissette is NOT cleared: no school is named for him anywhere, and there are circumstantial Montréal signals that one search engine turned into a McGill claim while visibly conflating him with other people of the same name. He is omitted rather than ruled out, and would be a second qualifying founder if confirmed."
+    }
   }
 ]
