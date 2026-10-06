@@ -240,9 +240,27 @@ def check_photo_urls(companies):
         except Exception as e:
             return type(e).__name__ + (f": {e}" if len(str(e)) < 80 else "")
 
+    # A whole-check deadline, not just a per-request timeout. urlopen's timeout
+    # covers socket operations but not DNS, and a host that accepts a connection
+    # and then never answers can hang a worker indefinitely. Two CI runs were
+    # cancelled after 15 minutes because of exactly that, which mails the repo
+    # owner a failure notice for what is only a warning-level check. Budget the
+    # whole thing and report what did not finish in time.
+    import concurrent.futures
+    deadline = 180
+    results = []
     try:
         with ThreadPoolExecutor(max_workers=12) as ex:
-            results = list(ex.map(probe, urls))
+            futures = [ex.submit(probe, u) for u in urls]
+            for f in futures:
+                try:
+                    results.append(f.result(timeout=deadline))
+                except concurrent.futures.TimeoutError:
+                    results.append("timed out — link check exceeded its budget")
+                except Exception as e:
+                    results.append(type(e).__name__)
+            for f in futures:
+                f.cancel()
     except Exception:
         return
 
