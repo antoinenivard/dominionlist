@@ -6,7 +6,7 @@ An open-source database of the most influential Canadian founders building compa
 
 ## What is this?
 
-The Dominion List tracks 570+ US-headquartered technology companies founded or co-founded by people with significant Canadian roots. The database includes funding history, valuations, founder profiles, institutional connections, and industry classification for each company.
+The Dominion List tracks 620+ US technology companies founded or co-founded by people with significant Canadian roots. A company counts as a US company when the entity at the top of its cap table is a US corporation, whatever the location of its offices. The database includes funding history, valuations, founder profiles, institutional connections, and industry classification for each company.
 
 The project exists to quantify the scale and impact of Canadian-born and Canadian-educated founders in the American technology ecosystem.
 

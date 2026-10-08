@@ -1,6 +1,6 @@
 ---
 name: Submit a company
-about: Add a US-headquartered company with a Canadian-connected founder
+about: Add a US company with a Canadian-connected founder
 title: "[Company] "
 labels: submission
 ---
@@ -9,8 +9,8 @@ labels: submission
 
 **Website**
 
-**US headquarters** (city, state)
-<!-- Must be headquartered in the US. A Delaware entity operating from Toronto or London does not qualify. -->
+**US location** (city, state)
+<!-- The entity at the top of the cap table must be a US corporation. Offices may be anywhere, so a Delaware parent operating from Toronto or London does qualify; a US subsidiary of a Canadian parent does not. An SEC Form D, which names the issuer and its jurisdiction, is the best evidence. -->
 
 **Founder with a Canadian connection** (name and role)
 

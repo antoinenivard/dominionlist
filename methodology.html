@@ -244,7 +244,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
 <main class="page">
 
   <h2>Methodology</h2>
-  <p>The Dominion List is an open-source database of US-headquartered companies founded or co-founded by people with significant Canadian roots. It tracks <strong id="methCount">430</strong> companies that have collectively raised <strong id="methRaised">$347B</strong> in venture capital. This page documents how the database is built, maintained, and verified.</p>
+  <p>The Dominion List is an open-source database of US companies founded or co-founded by people with significant Canadian roots. A company counts as a US company when the entity at the top of its cap table is a US corporation, whatever the location of its offices. It tracks <strong id="methCount">430</strong> companies that have collectively raised <strong id="methRaised">$347B</strong> in venture capital. This page documents how the database is built, maintained, and verified.</p>
 
   <hr class="divider">
 
@@ -378,7 +378,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <tr><td>name</td><td>Official company name</td></tr>
     <tr><td>website</td><td>Primary company URL</td></tr>
     <tr><td>description</td><td>One-line company description</td></tr>
-    <tr><td>hq_city, hq_region</td><td>US headquarters (city and state)</td></tr>
+    <tr><td>hq_city, hq_region</td><td>US location (city and two-letter state code). Since the October 2026 rule change this is the company&rsquo;s US base, which is not always where its team sits &mdash; see the inclusion criteria</td></tr>
     <tr><td>founding_year</td><td>Year the company was founded</td></tr>
     <tr><td>industry</td><td>Primary industry category</td></tr>
     <tr><td>stage</td><td>Current company stage</td></tr>

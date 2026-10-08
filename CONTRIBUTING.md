@@ -7,7 +7,7 @@ Thank you for helping improve The Dominion List. This document explains how to s
 A company qualifies if it meets **all** of the following:
 
 1. At least one founder or co-founder has a meaningful Canadian connection (born in Canada, attended a Canadian institution, or holds Canadian citizenship).
-2. The company is incorporated or headquartered in the United States.
+2. The entity at the top of the company's cap table — the one investors hold shares in, and the parent of any other group companies — is a US corporation. Operating offices may be anywhere, so a Delaware parent running its team from Toronto qualifies. A US subsidiary of a Canadian parent does not, and nor does a company with no US entity at all.
 3. The company is a technology company or venture-backed startup that has raised venture capital, achieved meaningful revenue scale, or reached a significant valuation.
 
 To submit a company, open a [GitHub issue](https://github.com/antoinenivard/dominionlist/issues/new/choose). Include at least one public source confirming the Canadian founder connection.
