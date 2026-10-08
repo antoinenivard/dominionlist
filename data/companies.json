@@ -24224,12 +24224,12 @@
     "id": "mecka-ai",
     "name": "Mecka",
     "website": "https://www.mecka.ai",
-    "description": "Data and deployment layer for physical AI — captures, structures, and evaluates real-world egocentric activity into training datasets for robotics teams. Its dataset product is Egoverse.",
+    "description": "Data and deployment layer for physical AI. Pays people to record everyday tasks — making coffee, fixing cars — wearing its own multi-sensor hardware, then turns that into structured training data for humanoid and other robots; the dataset product is EgoVerse. It also operates as a robotics integrator, capturing data on site, post-training on it and running deployments for enterprises with no robotics team of their own. Supplies several frontier robotics labs and multiple Mag 7 companies.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
     "industry": "AI",
-    "stage": "Series A",
+    "stage": "Series B",
     "status": "Private",
     "founding_year": 2025,
     "yc_batch": "",
@@ -24351,15 +24351,51 @@
           "https://betakit.com/mecka-ai-announces-60-million-usd-to-power-physical-ai/"
         ],
         "notes": "Also a SAFE. Announced together with the $25M as a combined \"$60M Series A\"."
+      },
+      {
+        "date": "2026-10-07",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 60000000,
+        "amount_display": "$60M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "NVIDIA",
+          "M12",
+          "Qualcomm Ventures",
+          "Samsung",
+          "Kindred Ventures",
+          "Framework Ventures",
+          "Neo",
+          "Tony Xu",
+          "Frank Slootman",
+          "Milan Kovac"
+        ],
+        "source_urls": [
+          "https://www.mecka.ai/news/series-b",
+          "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+          "https://betakit.com/mecka-ai-reveals-60-million-usd-series-b-round-backed-by-sequoia-nvidia/"
+        ],
+        "notes": "Investor list is from the company’s own announcement: led by Sequoia Capital, new money from NVIDIA, M12 (Microsoft’s venture fund), Qualcomm Ventures and Samsung, with Kindred, Framework and Neo following on, plus angels Tony Xu of DoorDash, Frank Slootman and Milan Kovac, formerly head of Optimus at Tesla. NO VALUATION DISCLOSED. TechCrunch reported on 11 September 2026, while the round was being raised, that it was nearing a $500M valuation; that figure was not repeated at announcement, is not specified as pre- or post-money, and is therefore not recorded. Several aggregators have already hardened it into a headline — do not adopt it from them. This is the company’s first round with a disclosed letter and a priced structure; the earlier Series A and its extension were SAFEs."
       }
     ],
-    "capital_raised_usd": 68000000,
-    "capital_raised_display": "$68M",
+    "capital_raised_usd": 128000000,
+    "capital_raised_display": "$128M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Legal entity Carbon Based Technology Corporation, dba Mecka AI. Three of four co-founders are Canadian: Josh Gao (Ivey/Western, confirmed by a Western University primary source), Jason Chong (UBC) and Mogen Cheng (U of T) — the latter two rest on aggregator and search-index data since LinkedIn is login-walled, so both are lower confidence. Fourth co-founder Duy Nguyen (Arizona State) has NO Canadian tie beyond adult residence in Toronto and is not listed. HQ NOTE: Fortune states it is headquartered in New York and BetaKit confirms it is US-domiciled, but roughly 40 of 45 staff are in Toronto and it launched from stealth in Aug 2025 as a Toronto-based company — a genuinely cross-border business whose operational centre is Ontario. IMPORTANT ON FUNDING: the widely reported \"$60M Series A\" is not one round — it is $25M (Nov 2025) plus a $35M extension, both SAFEs, announced together. Total including the $8M seed is $68M. No valuation has ever been disclosed because the rounds were SAFEs. The company claims a ~$100M run rate; that is an unverified company claim."
+      "last_verified": "2026-10-07T18:00:00-07:00",
+      "notes": "Legal entity Carbon Based Technology Corporation, dba Mecka AI. Three of four co-founders are Canadian: Josh Gao (Ivey/Western, confirmed by a Western University primary source), Jason Chong (UBC) and Mogen Cheng (U of T) — the latter two rest on aggregator and search-index data since LinkedIn is login-walled, so both are lower confidence. Fourth co-founder Duy Nguyen (Arizona State) has NO Canadian tie beyond adult residence in Toronto and is not listed. HQ NOTE: Fortune states it is headquartered in New York and BetaKit confirms it is US-domiciled, but roughly 40 of 45 staff are in Toronto and it launched from stealth in Aug 2025 as a Toronto-based company — a genuinely cross-border business whose operational centre is Ontario. FOUNDING YEAR IS CONTESTED: 2025 is recorded here, but TechCrunch says “founded in 2024” and other coverage repeats it; the company came out of stealth in August 2025, which may be what 2025 reflects. Worth resolving. VALUATION STILL NULL AFTER THE SERIES B: the October 2026 round disclosed no valuation. TechCrunch reported a ~$500M figure in September while the round was being raised, unlabelled as pre- or post-money and not repeated at announcement, so it is not recorded even though aggregators have started printing it as fact. IMPORTANT ON FUNDING: the widely reported \"$60M Series A\" is not one round — it is $25M (Nov 2025) plus a $35M extension, both SAFEs, announced together. Total including the $8M seed and the October 2026 $60M Series B is $128M. No valuation has ever been disclosed because the rounds were SAFEs. The company claims it passed a $100M run rate in June 2026 and projects $300M by the end of 2026; both are unverified company claims.",
+      "sources": [
+        "https://www.mecka.ai/news/series-b",
+        "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+        "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+        "https://betakit.com/mecka-ai-reveals-60-million-usd-series-b-round-backed-by-sequoia-nvidia/"
+      ]
     }
   },
   {
