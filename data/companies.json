@@ -35813,8 +35813,8 @@
   {
     "id": "replicas",
     "name": "Replicas",
-    "website": "https://tryreplicas.com",
-    "description": "Cloud coding agents for engineering teams. Spawns Claude Code, Codex, Cursor, or Opencode in isolated Linux VMs preloaded with your codebase, tooling, and dependencies, triggered from Slack, Linear, GitHub, or the API.",
+    "website": "https://replicas.dev",
+    "description": "Cloud platform for background coding agents. Spawns Claude Code, Codex, Cursor or Opencode in isolated Linux VMs preloaded with the team’s codebase, tooling and dependencies, each agent getting its own machine with a browser and test database so it can verify its own work end to end. Tasks are delegated from Slack, Linear, GitHub, a CLI, a macOS app or the API. Customers include Mintlify and Knowunity.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -35856,7 +35856,7 @@
     "funding_rounds": [
       {
         "date": "2026-03",
-        "round": "Seed",
+        "round": "Pre-Seed",
         "kind": "funding",
         "amount_usd": 500000,
         "amount_display": "$500K",
@@ -35866,18 +35866,62 @@
           "Y Combinator"
         ],
         "other_investors": [],
-        "source_urls": [],
-        "notes": "YC P'26 standard deal."
+        "source_urls": [
+          "https://www.ycombinator.com/companies/replicas"
+        ],
+        "notes": "Y Combinator standard deal, Spring 2026 batch. Relabelled from Seed to Pre-Seed when the October 2026 seed was recorded."
+      },
+      {
+        "date": "2026-10-13",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 4000000,
+        "amount_display": "$4M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Y Combinator",
+          "Flex Capital",
+          "Founders' Co-op",
+          "Pioneer Fund",
+          "Robinhood Ventures",
+          "Twenty Two Ventures",
+          "Metsu Capital",
+          "Blast",
+          "Paul Graham",
+          "Zeno Rocha",
+          "Merrill Lutsky",
+          "Henri Stern",
+          "Jake Heller",
+          "Eli Brown",
+          "Rami Essaid",
+          "Justin Torre",
+          "Cole Gottdank",
+          "Christian Mathiesen",
+          "JJ Fliegelman",
+          "James Greenhill"
+        ],
+        "source_urls": [
+          "https://replicas.dev/blog/seed",
+          "https://x.com/connortbot/status/2110037854386843677"
+        ],
+        "notes": "Investor list is from the company’s own announcement. NO LEAD IS NAMED and no valuation is disclosed, pre- or post-. Institutions: Y Combinator, Flex Capital, Founders’ Co-op, Pioneer Fund, Robinhood Ventures, Twenty Two Ventures, Metsu Capital and Blast. The rest of the list is angels — Paul Graham; Zeno Rocha of Resend; Merrill Lutsky of Graphite; Henri Stern of Privy; Jake Heller of Casetext; Eli Brown of Guilded; Rami Essaid of Finmark and Distil; Justin Torre and Cole Gottdank of Helicone; Christian Mathiesen of Frigade; JJ Fliegelman of WayUp; James Greenhill, an early PostHog engineer — and the post says “and many more”, so the list is not exhaustive."
       }
     ],
-    "capital_raised_usd": 500000,
-    "capital_raised_display": "$500K",
-    "icon_url": "https://tryreplicas.com/favicon.ico",
+    "capital_raised_usd": 4500000,
+    "capital_raised_display": "$4.5M",
+    "icon_url": "https://img.logo.dev/replicas.dev?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-14T22:00:00-08:00",
-      "notes": ""
+      "last_verified": "2026-10-13T17:00:00-07:00",
+      "notes": "DOMAIN CHANGED: the company now runs at replicas.dev, not the tryreplicas.com this entry previously carried — the announcement, the live product and the founders’ posts all use replicas.dev. The old favicon icon_url went with it and has been replaced. CAPITAL RAISED MAY DOUBLE-COUNT: $4.5M is the $500K Y Combinator standard deal plus the $4M seed, but Y Combinator is itself named among the investors in the $4M, so the standard deal may be folded into that figure rather than additional, in which case the true total is $4M. No source resolves it. NO LEAD AND NO VALUATION were disclosed in the October 2026 seed. Qualifies on both founders, each University of Waterloo. Traction from the announcement, all company-stated: agent usage crossed 1 million minutes in May 2026, 2 million in July, 5 million in September and almost 7 million three weeks later, across more than a million workspaces. Connor Loi is CEO and the public face; co-founder Saai Arora has no bio recorded here and his role beyond “Co-Founder” is not documented.",
+      "sources": [
+        "https://replicas.dev/blog/seed",
+        "https://x.com/connortbot/status/2110037854386843677",
+        "https://www.ycombinator.com/companies/replicas"
+      ]
     }
   },
   {
