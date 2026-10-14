@@ -29230,13 +29230,14 @@
         "https://www.crunchbase.com/organization/openai/company_financials",
         "https://news.crunchbase.com/venture/largest-funding-rounds-genai-defense-eoy-2025/"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
+      "last_verified": "2026-10-15T14:00:00-07:00",
       "valuation_usd": 852000000000,
       "valuation_display": "$852B",
       "valuation_type": "post_money",
       "valuation_confidence": "high",
       "valuation_source_url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
-      "notes": "Valuation source: Series F Feb 2026 post-money."
+      "notes": "Valuation is the $852B post-money of the Series G that closed 31 March 2026. The previous note here read “Series F Feb 2026 post-money”, which was wrong — that round priced at $840B and is a separate, earlier row. NOT RECORDING THE $1.4T FIGURE, as of 15 October 2026. Bloomberg reported on 29 September that OpenAI is pitching a round of at least $30B to a UAE sovereign group led by MGX, with BlackRock, at about $1.4 trillion. It is excluded on three independent grounds: the round has not closed and reporting describes the talks as early with terms subject to change; the figure is explicitly PRE-MONEY (“excluding the new capital”), and this database records post-money only — the validator errors on pre_money; and there is no lead investor, with the price set by OpenAI rather than negotiated. If it closes on those terms the post-money would be about $1.43T, and that is the number to record, not $1.4T. TWO OTHER THINGS TO TIDY WHEN SOMEONE IS IN HERE: two separate rounds are both labelled Series F (March 2025 at $300B and February 2026 at $840B), and the April 2023 round carries a range, “$27-29B”, in valuation_display where the field expects a single figure.",
+      "valuation_as_of": "2026-03"
     },
     "capital_raised_usd": 289900000000,
     "capital_raised_display": "$289.9B",
