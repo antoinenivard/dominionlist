@@ -69,7 +69,6 @@
         "notes": "SAFE."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-10-05T18:00:00-07:00",
       "valuation_usd": null,
@@ -187,9 +186,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Added founder Matt Loszak (Canadian, co-founded Humi)."
     },
@@ -255,7 +251,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 100000000,
     "capital_raised_display": "$100M"
   },
@@ -354,7 +349,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco",
     "capital_raised_usd": 17000000,
     "capital_raised_display": "$17M",
     "icon_url": ""
@@ -392,7 +386,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -477,9 +470,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -545,9 +535,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -650,7 +637,7 @@
         "round": "Seed",
         "kind": "funding",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
@@ -673,7 +660,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -789,9 +775,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2017-09",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -895,7 +879,6 @@
     ],
     "capital_raised_usd": 30500000,
     "capital_raised_display": "$30.5M",
-    "hq_display": "San Francisco, CA",
     "metadata": {
       "sources": [
         "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/",
@@ -908,7 +891,9 @@
       "valuation_usd": 3200000000,
       "valuation_display": "$3.2B",
       "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. Recorded as an undisclosed Venture round dated to the report: no round letter, amount or investors are stated, and the round may still be open. capital_raised_usd therefore remains the $30.5M actually announced, and stage remains Series A as the last confirmed closed round. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer — who is also AfterQuery's YC primary partner — is quoted saying this makes AfterQuery the fastest company in YC history from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Forbes report Sep 2026 — round size and investors undisclosed.",
-      "valuation_source_url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/"
+      "valuation_source_url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-09"
     }
   },
   {
@@ -946,14 +931,14 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [
-      "https://www.agentbase.sh/blog/introducing-agentbase"
-    ],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "",
+      "sources": [
+        "https://www.agentbase.sh/blog/introducing-agentbase"
+      ]
     }
   },
   {
@@ -1009,7 +994,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2600000,
     "capital_raised_display": "$2.6M",
     "icon_url": ""
@@ -1137,7 +1121,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5000000,
     "capital_raised_display": "$5M",
     "icon_url": ""
@@ -1213,7 +1196,6 @@
       "valuation_as_of": "2021-05",
       "notes": ""
     },
-    "hq_display": "Great Falls, MT",
     "capital_raised_usd": 100000,
     "capital_raised_display": "$100K",
     "icon_url": ""
@@ -1348,7 +1330,6 @@
       "valuation_as_of": "2025-07",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series B 2024."
     },
-    "hq_display": "Wilmington, DE",
     "capital_raised_usd": 287300000,
     "capital_raised_display": "$287M",
     "icon_url": ""
@@ -1438,7 +1419,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Irvine, CA",
     "capital_raised_usd": 42000000,
     "capital_raised_display": "$42M",
     "icon_url": ""
@@ -1500,9 +1480,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -1590,7 +1567,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3520000,
     "capital_raised_display": "$3.5M"
   },
@@ -1790,7 +1766,6 @@
       "valuation_display": "",
       "notes": "Stage corrected Seed->Series A: $11M Series A led by Madrona announced 2026-03-10; prior rounds were undated/unattributed. Domain amigo.ai + founder Ali Khokhar confirmed in BusinessWire release. Total $17.5M ($6.5M+$11M); press states '$17M total'. FORWARD SIGNAL: Axios (2026-03-10) reports Khokhar in talks for a $30-50M Series B before end of 2026 - recheck in Q4."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 17500000,
     "capital_raised_display": "$17.5M",
     "icon_url": ""
@@ -2187,7 +2162,6 @@
         "notes": "Aggregator-sourced; no amount, date or round name published."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -2240,9 +2214,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": "CORRECTION: previously recorded as Acquired. No acquirer or price exists — a 2012 Facebook acqui-hire rumour was never substantiated and aggregators mark it deadpooled. Founded 2001 by Trevor Blackwell; entered \"rebuild mode\" under CEO David Rogan in 2012; last product 2013. "
     },
@@ -2479,7 +2450,6 @@
       "valuation_source_url": "https://thelogic.co/news/appdirect-valued-at-north-of-us1-5-billion-after-closing-new-funding-round/",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series F 2020. Added CDPQ debt rounds ($80M 2021, $100M 2024); $1.5B valuation sourced from The Logic (Series F 2020)."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 610750000,
     "capital_raised_display": "$611M",
     "icon_url": ""
@@ -2560,9 +2530,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -2667,7 +2634,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 31000000,
     "capital_raised_display": "~$31M",
     "name": "Arc",
@@ -2732,7 +2698,6 @@
         "notes": "Emerged from stealth. Angels include Aravind Srinivas, Lukasz Kaiser, Kunle Olukotun."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -2930,7 +2895,6 @@
       "valuation_as_of": "2022-10",
       "notes": "Valuation source: Series F 2021."
     },
-    "hq_display": "Eden Prairie, MN",
     "capital_raised_usd": 883000000,
     "capital_raised_display": "$883M",
     "icon_url": ""
@@ -3181,7 +3145,7 @@
         "valuation_display": "$227.5B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/ANET"
@@ -3232,7 +3196,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/anet/",
       "notes": "Market cap at the 30 Sep 2026 close ($203.59 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "Santa Clara, CA",
     "ticker": "ANET",
     "capital_raised_usd": 10000000,
     "capital_raised_display": "$10M",
@@ -3361,9 +3324,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -3484,9 +3444,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -3542,7 +3499,7 @@
         "round": "Seed",
         "kind": "funding",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
@@ -3565,7 +3522,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Mountain View, CA",
     "icon_url": "https://img.logo.dev/atlasgrid.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
@@ -3746,7 +3702,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -3864,13 +3819,12 @@
       "sources": [
         "https://augmentcode.com"
       ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_usd": 977000000,
+      "valuation_display": "$977M",
       "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2024-04"
     },
     "capital_raised_usd": 252000000,
     "capital_raised_display": "$252M"
@@ -3965,7 +3919,7 @@
         "valuation_display": "$12.9B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/AUR"
@@ -4106,7 +4060,6 @@
       "valuation_display": "",
       "notes": "Legal entity Polybit Inc., also known as Standard Library; branded StdLib, then Autocode. Co-founded by Keith Horwood and Jacob Lee — only Horwood has a verified Canadian tie, so Lee is not listed. LOGO NOTE: autocode.com now redirects to superuser.app, so any live favicon fetch returns the wrong brand. The icon here is the legacy Autocode chevron on a white tile, supplied by the DB owner. A transparent white-on-nothing version exists at https://avatars.githubusercontent.com/u/80448855?s=460&v=4 (the github.com/acode org avatar, keyed to an immutable numeric ID) but it renders near-invisible against the light table background, so it is kept here only as a fallback if the gstatic thumbnail ever expires. Horwood has since founded Superuser."
     },
-    "hq_display": "San Francisco",
     "capital_raised_usd": 2000000,
     "capital_raised_display": "$2M",
     "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UJ0aSF8CgP9zBLsLdVBYyL1MK8SIuOfmebuR7KoCbw&s"
@@ -4270,7 +4223,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 10760000,
     "capital_raised_display": "$10.8M"
   },
@@ -4396,7 +4348,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Santa Monica, CA",
     "capital_raised_usd": 5000000,
     "capital_raised_display": "$5M",
     "icon_url": ""
@@ -4476,7 +4427,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -4576,7 +4526,6 @@
       "valuation_as_of": "2025-09",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series E 2025."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 252000000,
     "capital_raised_display": "$252M",
     "icon_url": ""
@@ -4641,7 +4590,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 530000,
     "capital_raised_display": "$530K"
   },
@@ -4890,7 +4838,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/bamboo-health",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Insight Partners 2021."
     },
-    "hq_display": "Louisville, KY",
     "capital_raised_usd": 60000000,
     "capital_raised_display": "$60M",
     "icon_url": ""
@@ -4959,7 +4906,6 @@
       "valuation_display": "",
       "notes": "No new round; $4M total confirmed by CB Insights ($3.5M seed + convertible note). Seed now dated and attributed. MILESTONE: launched Spirit-EEL, described by YC as the first AI-controlled satellite constellation; positioning has moved from 'Dispatch' spacecraft OS to 'Constellations as a Service' powered by Diamond AI - DB description is stale. Canadian founder Alex Choi (U of T, COO) confirmed on YC profile alongside CEO Max."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M",
     "icon_url": ""
@@ -5069,7 +5015,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/baselane",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 42300000,
     "capital_raised_display": "$42.3M",
     "icon_url": ""
@@ -5160,7 +5105,6 @@
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "Boston, MA",
     "capital_raised_usd": 19100000,
     "capital_raised_display": "$19.1M"
   },
@@ -5330,9 +5274,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2024",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -5389,7 +5331,6 @@
         "notes": "YC W25 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -5567,7 +5508,6 @@
       "valuation_as_of": "2024-03",
       "notes": "Company valuation is the \"over $1B\" reported with the March 2024 growth round; no exact post-money was disclosed. The $1.25B previously carried here is the April 2021 Series D extension mark and now sits on that round."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 254000000,
     "capital_raised_display": "$320M",
     "icon_url": ""
@@ -5633,7 +5573,6 @@
       "valuation_display": "",
       "notes": "No new round since 2025-07 seed. Status Active on YC as of this check. Canadian founder Puneet Sukhija confirmed (dropped out of CS at UBC; built hundreds of houses in Canada per his YC bio and the Launch HN post). NOTE: product has narrowed - YC now describes Bild as Division 8 estimating (doors, frames, hardware) exporting into Comsense/Avaware/ProTech, not general blueprint reading; DB description is stale."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3600000,
     "capital_raised_display": "$3.6M",
     "icon_url": ""
@@ -5761,7 +5700,7 @@
         "round": "Market Cap",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 415000000,
         "valuation_display": "$415M",
         "notes": "Market cap as of July 31, 2026",
@@ -5813,7 +5752,6 @@
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/bioa/"
     },
-    "hq_display": "Berkeley, CA",
     "capital_raised_usd": 283000000,
     "capital_raised_display": "$283M",
     "ticker": "BIOA"
@@ -6037,7 +5975,6 @@
       "valuation_display": "",
       "notes": "2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 59000000,
     "capital_raised_display": "$59M",
     "icon_url": ""
@@ -6188,12 +6125,9 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_as_of": "",
       "last_verified": "",
       "notes": "CORRECTION: previously recorded as Inactive. The site was rebuilt in 2024 and its iPhone app WHIB is still live — a two-person indie shop rather than a venture-track startup. "
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -6332,7 +6266,7 @@
         "valuation_display": "$421M",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/BLND"
@@ -6384,7 +6318,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/blnd/",
       "notes": "Market cap at the 30 Sep 2026 close ($1.03 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "BLND",
     "capital_raised_usd": 1005000000,
     "capital_raised_display": "$1.0B",
@@ -6446,9 +6379,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -6512,9 +6442,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -6603,7 +6530,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/bluerock-therapeutics",
       "notes": "Valuation source: Bayer acquisition 2019."
     },
-    "hq_display": "Cambridge, MA",
     "capital_raised_usd": 225000000,
     "capital_raised_display": "$225M",
     "icon_url": ""
@@ -6657,7 +6583,7 @@
         "round": "Seed",
         "kind": "funding",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
@@ -6681,7 +6607,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -6764,7 +6689,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 11000000,
     "capital_raised_display": "$11M",
     "icon_url": ""
@@ -6838,7 +6762,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 11325000,
     "capital_raised_display": "$11.32M",
     "icon_url": ""
@@ -6913,7 +6836,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": 7000000,
     "capital_raised_display": "$7M",
     "icon_url": ""
@@ -7037,7 +6959,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 6700000,
     "capital_raised_display": "$6.7M",
     "icon_url": ""
@@ -7148,7 +7069,6 @@
       "valuation_display": "",
       "notes": "Series B of $33M announced 2026-09-15. No valuation disclosed at any round, so the company carries no rank in the valuation sort. The $40M ENGIE wholesale power supply facility remains non-dilutive and is excluded from capital raised. icon_url was empty until this update. $40M ENGIE wholesale power supply facility is non-dilutive, not equity funding."
     },
-    "hq_display": "Houston, TX",
     "capital_raised_usd": 48300000,
     "capital_raised_display": "$48.3M",
     "icon_url": "https://img.logo.dev/branchenergy.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -7192,9 +7112,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -7299,7 +7216,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/greenlite",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series B 2024."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 90000000,
     "capital_raised_display": "$90M",
     "icon_url": ""
@@ -7356,7 +7272,6 @@
         "notes": "Angels from OpenAI, Opendoor, CBRE, Zillow"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -7464,7 +7379,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Beaverton, OR",
     "capital_raised_usd": 6500000,
     "capital_raised_display": "$6.5M",
     "icon_url": ""
@@ -7595,7 +7509,6 @@
         "notes": "YC S22 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -7679,9 +7592,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2021",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -7747,7 +7658,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Mateo, CA",
     "capital_raised_usd": 2500000,
     "capital_raised_display": "$2.5M",
     "icon_url": ""
@@ -7807,9 +7717,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -7948,9 +7855,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -8018,9 +7922,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -8085,7 +7986,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -8206,9 +8106,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": ""
     },
@@ -8284,7 +8181,6 @@
       "valuation_display": "",
       "notes": "Oct 2026 sweep: backfilled Apr 2023 $7M Series A."
     },
-    "hq_display": "Erie, CO",
     "capital_raised_usd": 13700000,
     "capital_raised_display": "$13.7M",
     "icon_url": ""
@@ -8398,9 +8294,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T00:00:00Z",
       "notes": "No new round. Active and shipping as of 2026-06. Note: a 'March 2026 funding' item on Riley Tomasek's LinkedIn feed refers to a different company (Mega), not Charlie Labs."
     },
@@ -8465,7 +8358,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -8510,9 +8402,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-10-05T18:00:00-07:00",
       "notes": "RETESTED 5 OCTOBER 2026 UNDER THE CAP-TABLE RULE AND KEPT. This entry had been flagged LIKELY DISQUALIFIED under the old US-headquarters criterion; that criterion no longer applies. Chatbase Inc. is a Delaware corporation — its data processing addendum, an executed contract rather than marketing copy, reads “entered into by and between Customer… and Chatbase Inc. a Delaware corporation”, and the same document makes Chatbase Inc. the data importer under the EU standard contractual clauses with no Canadian affiliate interposed. No Canadian entity appears in the terms, the privacy notice, the DPA or the sub-processor list. The terms set Delaware law with venue in New Castle County, and the footer reads © Chatbase Inc. The operating facts that drove the old flag are all still true and are now irrelevant: the job board lists every role as Toronto, on-site five days a week, with salaries in Canadian dollars, and there are no US roles. NOT A Y COMBINATOR COMPANY — Chatbase is bootstrapped to roughly $10M ARR with no outside funding, so the absence of an SEC filing is expected and proves nothing either way; with no investors, top of the cap table simply means the entity whose shares Elsaid holds. CAVEAT: the Delaware parent is established from the DPA and the absence of any superior entity, not from a charter or share register; Ontario’s registry is not freely searchable, so a Canadian holdco that never appears in customer-facing documents cannot be formally excluded. Nothing in the record hints at one. For the record, the San Francisco address in the privacy policy, 2261 Market St STE 85690, is a virtual mailbox and should not be read as an office."
     },
@@ -8711,7 +8600,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 6400000,
     "capital_raised_display": "$6.4M",
     "icon_url": ""
@@ -8789,7 +8677,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3000000,
     "capital_raised_display": "$3M",
     "icon_url": ""
@@ -9039,7 +8926,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 12000000,
     "capital_raised_display": "$12M",
     "icon_url": ""
@@ -9116,7 +9002,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -9193,9 +9078,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -9365,7 +9247,6 @@
       "valuation_as_of": "2025-08",
       "notes": "Valuation source: Series B 2024."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 156000000,
     "capital_raised_display": "$156M",
     "icon_url": ""
@@ -9428,16 +9309,14 @@
         "notes": ""
       }
     ],
-    "source_urls": [
-      "https://clerk.chat/blog/seed-funding/"
-    ],
     "metadata": {
       "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
       "notes": "Renamed from Clerk Chat to Clerk AI in spring 2026, when it opened a Montreal engineering hub. The id stays clerk-chat so existing links keep resolving.",
       "sources": [
-        "https://www.montrealinternational.com/en/news/clerk-ai-expands-in-canada-launches-montreal-engineering-hub-to-support-growth/"
+        "https://www.montrealinternational.com/en/news/clerk-ai-expands-in-canada-launches-montreal-engineering-hub-to-support-growth/",
+        "https://clerk.chat/blog/seed-funding/"
       ]
     }
   },
@@ -9698,7 +9577,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/net/",
       "notes": "Market cap at the 30 Sep 2026 close ($347.28 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "NET",
     "capital_raised_usd": 332100000,
     "capital_raised_display": "$332.1M",
@@ -9847,7 +9725,6 @@
       "valuation_as_of": "2021-08",
       "notes": ""
     },
-    "hq_display": "San Francisco",
     "icon_url": "https://img.logo.dev/ourcocoon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 3125000,
     "capital_raised_display": "$3.12M"
@@ -9963,7 +9840,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M",
     "icon_url": "https://img.logo.dev/compound-foods.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -10001,7 +9877,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -10067,9 +9942,6 @@
       "sources": [],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -10140,7 +10012,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Fort Worth, TX",
     "capital_raised_usd": 725000000,
     "capital_raised_display": "$725M",
     "icon_url": ""
@@ -10334,11 +10205,9 @@
       "valuation_usd": null,
       "valuation_display": "",
       "valuation_type": "post_money",
-      "valuation_confidence": "",
       "valuation_source_url": "https://www.crunchbase.com/organization/convelo",
       "notes": "Corrected Seed from $7.8M to $2M; cleared unverifiable $100M valuation."
     },
-    "hq_display": "Cleveland, OH",
     "capital_raised_usd": 20620000,
     "capital_raised_display": "$20.6M",
     "icon_url": ""
@@ -10413,7 +10282,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 8600000,
     "capital_raised_display": "$8.6M"
   },
@@ -10532,12 +10400,9 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_as_of": "",
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 27600000,
     "capital_raised_display": "$27.6M"
   },
@@ -10645,9 +10510,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "YC lists Cover (W16) as Inactive; cover.com now operated by an unrelated entity. Founder Karn Saroya now CEO of Re."
     },
@@ -10687,7 +10549,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -10757,7 +10618,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -10933,7 +10793,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Diego, CA",
     "capital_raised_usd": 15000000,
     "capital_raised_display": "$15M",
     "icon_url": ""
@@ -11250,7 +11109,6 @@
       "valuation_as_of": "2026-02",
       "notes": "Valuation source: Series J Dec 2024."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 19000000000,
     "capital_raised_display": "$19B",
     "icon_url": ""
@@ -11332,7 +11190,6 @@
       "valuation_display": "",
       "notes": "No new round since 2025-10 Series A ($15M, Chemistry). Total $17.7-18.2M consistent. FLAG: co-founder Charley Lee (Waterloo CS) missing from founders list."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 18200000,
     "capital_raised_display": "$18.2M",
     "icon_url": ""
@@ -11420,7 +11277,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -11556,14 +11412,14 @@
         "notes": "YC P26 batch"
       }
     ],
-    "source_urls": [
-      "https://www.datost.com"
-    ],
     "metadata": {
       "last_verified": "2026-09-18T19:45:00Z",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": "Renamed and pivoted. datost.com now redirects to e1o.com, whose footer reads \"E1O is operated by Datost Inc.\" — same entity, new product. YC’s /companies/datost redirects to /companies/e1o, which lists Maceo Cardinale Kwik as sole founder, team size 1. Kwik’s own YC bio: Datost reached $400K ARR in eight weeks, then he pivoted to the hardware he wanted to build. Jason Wang, the Canadian-connected co-founder, left and founded Lark (YC F26) with his brother; he is kept on this record because departure does not undo founding, the same rule applied to Jimmy Ba at xAI. Kwik has no identified Canadian connection and so is not listed."
+      "notes": "Renamed and pivoted. datost.com now redirects to e1o.com, whose footer reads \"E1O is operated by Datost Inc.\" — same entity, new product. YC’s /companies/datost redirects to /companies/e1o, which lists Maceo Cardinale Kwik as sole founder, team size 1. Kwik’s own YC bio: Datost reached $400K ARR in eight weeks, then he pivoted to the hardware he wanted to build. Jason Wang, the Canadian-connected co-founder, left and founded Lark (YC F26) with his brother; he is kept on this record because departure does not undo founding, the same rule applied to Jimmy Ba at xAI. Kwik has no identified Canadian connection and so is not listed.",
+      "sources": [
+        "https://www.datost.com"
+      ]
     },
     "id": "datost",
     "legacy_id": "411"
@@ -11706,7 +11562,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Somerville, MA",
     "capital_raised_usd": 18000000,
     "capital_raised_display": "$18M",
     "icon_url": ""
@@ -11827,7 +11682,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": "https://img.logo.dev/getdecipher.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -11916,7 +11770,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5500000,
     "capital_raised_display": "$5.5M",
     "icon_url": ""
@@ -12092,7 +11945,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20630000,
     "capital_raised_display": "$20.6M"
   },
@@ -12312,7 +12164,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2525000,
     "capital_raised_display": "$2.52M",
     "icon_url": ""
@@ -12374,9 +12225,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -12438,7 +12286,6 @@
         "notes": "Angels include CPO of Discord, former CPO of Nextdoor, former CTO of Match Group"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -12568,9 +12415,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -12649,7 +12493,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -12722,7 +12565,6 @@
         "acquirer": "Whop"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-08-31T16:00:00-08:00",
       "valuation_usd": null,
@@ -12791,9 +12633,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -12853,7 +12692,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -12979,7 +12817,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Wilmington, DE",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -13041,9 +12878,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -13108,7 +12942,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -13176,9 +13009,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -13252,7 +13082,7 @@
         "round": "Market Cap",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 50700000000,
         "valuation_display": "$50.7B",
         "notes": "Market cap as of July 31, 2026",
@@ -13366,7 +13196,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -13510,7 +13339,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 7200000,
     "capital_raised_display": "$7.2M",
     "icon_url": ""
@@ -13733,9 +13561,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -13863,7 +13688,6 @@
       "notes": "Nvidia deal recorded as an acquisition though it was structured as a technology licence plus team hire; see the 2025 row.",
       "valuation_as_of": "2025-09"
     },
-    "hq_display": "Mountain View, CA",
     "capital_raised_usd": 290000000,
     "capital_raised_display": "$290M",
     "icon_url": ""
@@ -14049,7 +13873,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3600000,
     "capital_raised_display": "$3.6M",
     "icon_url": ""
@@ -14112,7 +13935,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 40000000,
     "capital_raised_display": "$40M",
     "icon_url": "https://img.logo.dev/ergeon.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -14208,7 +14030,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -14378,7 +14199,6 @@
       "valuation_as_of": "2025-10",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series D 2024."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 370500000,
     "capital_raised_display": "$370M",
     "icon_url": ""
@@ -14448,7 +14268,6 @@
       "valuation_display": "",
       "notes": "Oct 2026 sweep: pre-seed corrected to $2.5M (Feb 2025, GeekWire); the rumoured $5M seed was not found."
     },
-    "hq_display": "Bellevue, WA",
     "capital_raised_usd": 2500000,
     "capital_raised_display": "$2.5M"
   },
@@ -14526,9 +14345,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -14619,7 +14435,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Cambridge, MA",
     "capital_raised_usd": 53500000,
     "capital_raised_display": "$53.5M",
     "icon_url": ""
@@ -14877,7 +14692,6 @@
       "valuation_as_of": "2025-11",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Tender Offer Nov 2025."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1095400000,
     "capital_raised_display": "$1.1B",
     "icon_url": ""
@@ -14956,9 +14770,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2019",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -15041,9 +14853,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -15214,7 +15023,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -15269,14 +15077,14 @@
         "notes": "YC W26 batch"
       }
     ],
-    "source_urls": [
-      "https://www.ycombinator.com/companies/fern-bot"
-    ],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": ""
+      "notes": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/fern-bot"
+      ]
     },
     "id": "fern",
     "legacy_id": "406"
@@ -15321,7 +15129,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -15477,7 +15284,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 625000,
     "capital_raised_display": "$625K",
     "icon_url": "https://img.logo.dev/finic.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -15543,7 +15349,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco",
     "capital_raised_usd": 3700000,
     "capital_raised_display": "$3.7M",
     "icon_url": ""
@@ -15765,15 +15570,11 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
     "capital_raised_usd": 2000000,
-    "capital_raised_display": "$2M",
-    "hq_display": "San Francisco"
+    "capital_raised_display": "$2M"
   },
   {
     "id": "first-day-entertainment",
@@ -15836,7 +15637,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -15976,7 +15776,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 8500000,
     "capital_raised_display": "$8.5M",
     "icon_url": ""
@@ -16039,7 +15838,9 @@
       "valuation_usd": 2500000000,
       "valuation_display": "$2.5B",
       "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos. Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Canadian founder: CEO Rob Williams (Waterloo). Other co-founders Thomas Reardon (Columbia, ex-CTRL-labs), Joshua Vogelstein (Johns Hopkins), and Vish Sivakumar (ex-Meta) are not verified Canadian. Backed by Jeff Bezos. Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026"
     }
   },
   {
@@ -16104,9 +15905,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -16191,9 +15989,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2021",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -16232,7 +16028,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -16372,7 +16167,9 @@
       "valuation_usd": 467000000,
       "valuation_display": "$467M",
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Global app hosting platform (YC W'20). Other co-founders (non-Canadian): Kurt Mackey (CEO, Chicago), Michael Dwan (Colorado), Thomas Ptacek (Chicago, security researcher, prev. Matasano Security/NCC Group). Jérôme Gravel-Niquet is CTO and the Canadian founder, based in Montreal."
+      "notes": "Global app hosting platform (YC W'20). Other co-founders (non-Canadian): Kurt Mackey (CEO, Chicago), Michael Dwan (Colorado), Thomas Ptacek (Chicago, security researcher, prev. Matasano Security/NCC Group). Jérôme Gravel-Niquet is CTO and the Canadian founder, based in Montreal.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2023-06"
     }
   },
   {
@@ -16570,11 +16367,8 @@
       "last_verified": "2026-04-14T00:00:00Z",
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_confidence": "",
-      "valuation_source_url": "",
       "notes": "Valuation source: Pre-acquisition valuation on Series D 2025-05-23; acquisition terms undisclosed."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 116000000,
     "capital_raised_display": "$116M",
     "icon_url": ""
@@ -16634,7 +16428,6 @@
         "notes": "Investors named on the company site; no amount, date or round name disclosed."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -16836,7 +16629,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2500000,
     "capital_raised_display": "~$2.5M",
     "name": "FreeSolo",
@@ -16920,7 +16712,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Minneapolis, MN",
     "capital_raised_usd": 14500000,
     "capital_raised_display": "$14.5M",
     "icon_url": ""
@@ -16978,7 +16769,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "name": "Fuse",
@@ -17131,7 +16921,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3200000,
     "capital_raised_display": "$3.2M",
     "icon_url": ""
@@ -17196,12 +16985,9 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Backed by Anthropic, True Ventures, Menlo Ventures, Ridge Ventures + super angels (CEOs of G2 and Zendesk); amounts undisclosed. Co-founded by Mayank Mehta (CEO) and Anand (CTO) per company FAQ. CORRECTED: previously carried Gather.town’s 2021 Sequoia/Index rounds ($26M Series A, $50M Series B) — a different company (founder Phillip Wang)."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -17258,7 +17044,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Rochester, NY",
     "capital_raised_usd": 11500000,
     "capital_raised_display": "$11.5M",
     "icon_url": ""
@@ -17668,7 +17453,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Seattle, WA",
     "capital_raised_usd": 21000000,
     "capital_raised_display": "$21M"
   },
@@ -17750,7 +17534,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 22000000,
     "capital_raised_display": "$22M"
   },
@@ -17829,7 +17612,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 125000,
     "capital_raised_display": "$125K",
     "icon_url": ""
@@ -17940,7 +17722,6 @@
       "valuation_confidence": "medium",
       "notes": "Valuation source: Series A 2024. Oct 2026 sweep: acquired by Superhuman (fka Grammarly), terms undisclosed."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13500000,
     "capital_raised_display": "$13.5M",
     "icon_url": ""
@@ -17996,7 +17777,6 @@
         "notes": "Amount undisclosed."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -18047,7 +17827,7 @@
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 220000000,
         "valuation_display": "$220M",
         "lead_investors": [],
@@ -18071,7 +17851,6 @@
       "valuation_confidence": "high",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -18135,9 +17914,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -18197,7 +17973,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 9000000,
     "capital_raised_display": "$9M",
     "icon_url": ""
@@ -18276,9 +18051,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -18349,7 +18121,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Leandro, CA",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M"
   },
@@ -18432,9 +18203,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -18802,7 +18570,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 70100000,
     "capital_raised_display": "$70.1M",
     "icon_url": ""
@@ -18867,9 +18634,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -19001,9 +18765,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T00:00:00Z",
       "notes": "DATA CORRECTION: prior $12.5M round was sourced from tracxn.com/d/companies/hedgehoglab/ = 'hedgehog lab', a UK digital-product consultancy. Wrong company. The 2025-04 undisclosed 'Series B' from PitchBook 490208-95 was unverifiable and likely the same contamination; removed. Correct entity is Hedgehog Foods Inc. (hedgehogfoods.com, Palo Alto, YC S22, Balsillie + Ruotolo), $4M+ per Forbes. SEPARATE FLAG: Jamie Balsillie's Canadian connection is asserted but unsourced here - all public bios cite Stanford MBA / McKinsey / Indigo. Needs verification."
     },
@@ -19063,7 +18824,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -19101,7 +18861,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -19266,7 +19025,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Seattle, WA",
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M"
   },
@@ -19535,7 +19293,6 @@
         "notes": "Never announced publicly — no press coverage and no Form D. Investors are founder-stated on his personal site; amount, lead and valuation all undisclosed."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-08-26T14:00:00-07:00",
       "valuation_usd": null,
@@ -19578,7 +19335,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -19687,9 +19443,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -19963,9 +19716,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-31T16:00:00-08:00",
       "notes": ""
     },
@@ -20005,7 +19755,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -20109,11 +19858,9 @@
       "valuation_usd": null,
       "valuation_display": "",
       "valuation_confidence": "medium",
-      "valuation_as_of": "",
       "valuation_source_url": "https://www.crunchbase.com/organization/iex",
       "notes": "Valuation source: Investors Circle 2021."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 100900000,
     "capital_raised_display": "$100.9M",
     "icon_url": ""
@@ -20171,7 +19918,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Carlsbad, CA",
     "capital_raised_usd": 3000000,
     "capital_raised_display": "$3M",
     "icon_url": ""
@@ -20250,7 +19996,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -20381,9 +20126,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -20550,7 +20292,7 @@
         "valuation_display": "$10.3B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/CART"
@@ -20603,7 +20345,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/cart/",
       "notes": "Market cap at the 30 Sep 2026 close ($43.12 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "CART",
     "capital_raised_usd": 2164800000,
     "capital_raised_display": "$2.2B",
@@ -20667,7 +20408,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M"
   },
@@ -20789,7 +20529,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -20869,7 +20608,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 6500000,
     "capital_raised_display": "$6.5M",
     "name": "Inventive",
@@ -21145,13 +20883,9 @@
       "sources": [],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
-    "hq_display": "Menlo Park, CA",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M"
   },
@@ -21215,7 +20949,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -21302,7 +21035,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/julius-ai",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 10500000,
     "capital_raised_display": "$10.5M",
     "icon_url": ""
@@ -21383,7 +21115,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -21459,7 +21190,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Jose, CA",
     "capital_raised_usd": 125000000,
     "capital_raised_display": "$125M",
     "icon_url": ""
@@ -21518,7 +21248,6 @@
         "notes": "a16z Speedrun"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -21561,7 +21290,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -21612,7 +21340,7 @@
         "round": "Acquired",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 90000000,
         "valuation_display": "$90M",
         "lead_investors": [],
@@ -21636,7 +21364,6 @@
       "valuation_confidence": "medium",
       "notes": ""
     },
-    "hq_display": "Menlo Park, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -21757,7 +21484,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 5500000,
     "capital_raised_display": "$5.5M",
     "icon_url": ""
@@ -21969,9 +21695,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Capital corrected $18M->$33M (Series A coverage states $33M cumulative incl. an earlier unannounced seed); metadata.total_funding_display already said $33M. Mainnet + Agent Passport launched 2026-04-30. NOTE: now crosses the $25M Tier-A threshold."
     },
@@ -22101,7 +21824,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "North Reading, MA",
     "capital_raised_usd": 34350000,
     "capital_raised_display": "$34.4M",
     "icon_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPt8F1Gd0J0NV-xp42wTgdZSGxkwTu4I_IHw&s"
@@ -22233,9 +21955,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "FOUNDER ATTRIBUTION UNVERIFIED: Kojo’s own site identifies Maria Davidson as CEO and does not mention Ryan Gibson; his Canadian tie is recorded as birthplace with no institution. Company identity (usekojo.com, construction procurement, fka Agora) and funding are correct."
     },
@@ -22299,7 +22018,6 @@
       "valuation_as_of": "2025-07",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -22393,9 +22111,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "MISSED ROUND: $30M Series A announced 2025-06-12 was absent from the DB entirely; total $12.5M->$42.5M, stage Seed->Series A. Domain landbase.com + founder Daniel Saks confirmed in BusinessWire release and on Landbase's own blog. NOTE: now crosses the $25M Tier-A threshold. Landbase also acquired Adauris (custom intent signals via content generation) - acquisition date unconfirmed, worth a follow-up. Co-founder Emily Zhang (ex-OysterHR, Carta) not listed here."
     },
@@ -22477,7 +22192,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 38625000,
     "capital_raised_display": "$38.62M",
     "icon_url": ""
@@ -22515,7 +22229,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -22600,7 +22313,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Chicago, IL",
     "capital_raised_usd": 50600000,
     "capital_raised_display": "$50.6M",
     "icon_url": ""
@@ -22754,9 +22466,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -22821,7 +22530,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -22882,9 +22590,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -23057,9 +22762,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -23119,7 +22821,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Philadelphia, PA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "name": "Lucy",
@@ -23168,9 +22869,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -23412,7 +23110,7 @@
         "valuation_display": "$6.0B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/LYFT"
@@ -23644,7 +23342,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 30000000,
     "capital_raised_display": "~$30M",
     "name": "Macro",
@@ -23733,9 +23430,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -23831,7 +23525,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 41000000,
     "capital_raised_display": "$41M",
     "icon_url": ""
@@ -24002,7 +23695,6 @@
       "valuation_as_of": "2025-03",
       "notes": "Acquired by Autodesk for $3.6B all-cash (announced May 28, 2026), largest acquisition in Autodesk history. Founder Chris Turlica (McGill). Valuation source: Series D 2024."
     },
-    "hq_display": "Miami, FL",
     "capital_raised_usd": 253800000,
     "capital_raised_display": "$254M",
     "icon_url": ""
@@ -24211,9 +23903,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Corporate history: the entity was originally incorporated as SpinPunch, Inc. (YC S12), a games studio, and renamed Mattermost, Inc. Confirmed by the \"Previous Names\" field on Mattermost's 2019 Form D (CIK 0001781182). The SpinPunch games brand became Battlehouse and wound down in 2023. A separate SpinPunch record was merged into this one. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -24521,7 +24210,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Reno, NV",
     "capital_raised_usd": 2840000,
     "capital_raised_display": "$2.8M",
     "icon_url": "https://img.logo.dev/melrok.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -24604,9 +24292,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -24672,9 +24357,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -24784,9 +24466,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Oct 2026 sweep: backfilled Dec 2024 acquisition by Onboard Partners."
     },
@@ -24854,9 +24533,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-04-30T15:17:00-07:00",
       "notes": ""
     },
@@ -24929,7 +24605,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -25031,12 +24706,9 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_as_of": "",
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "Boston, MA",
     "capital_raised_usd": 22325000,
     "capital_raised_display": "$22.32M"
   },
@@ -25140,7 +24812,6 @@
       "valuation_display": "",
       "notes": "Oct 2026 sweep: $26M Series A (Aug 2026)."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 29400000,
     "capital_raised_display": "$29.4M",
     "icon_url": ""
@@ -25207,7 +24878,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -25271,7 +24941,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Sunnyvale, CA",
     "capital_raised_usd": 5300000,
     "capital_raised_display": "$5.3M",
     "icon_url": "https://img.logo.dev/minds.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -25404,7 +25073,6 @@
       "valuation_display": "",
       "notes": "LEGAL ENTITY IS LAMINAR RUN, INC., per the site footer — the product was formerly called Laminar, so search filings and older coverage under that name too. CAPITAL RAISED MAY DOUBLE-COUNT AND ALSO UNDERSTATES: $4.3M is the $500K Y Combinator standard deal plus the $3.8M seed, but Y Combinator is named as a participant in the seed, so the standard deal may be folded into that figure rather than additional, in which case the total is $3.8M. Pulling the other way, the 2025 NOMO Ventures pre-seed has never had an amount published, so whatever the right reading, the true total is higher than what is recorded. No valuation has been disclosed at any round. Qualifies on both founders, each with a BASc in software engineering from the University of Ottawa."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4300000,
     "capital_raised_display": "$4.3M"
   },
@@ -25535,9 +25203,10 @@
       "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 500000000,
       "valuation_display": "$500M",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-04"
     },
-    "hq_display": "San Francisco",
     "capital_raised_usd": 67000000,
     "capital_raised_display": "$67M"
   },
@@ -25653,9 +25322,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -25735,9 +25401,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -25886,7 +25549,7 @@
         "valuation_display": "$21.9B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/MRNA"
@@ -25939,7 +25602,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/mrna/",
       "notes": "Market cap at the 30 Sep 2026 close ($192.57 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "Cambridge, MA",
     "ticker": "MRNA",
     "capital_raised_usd": 2795000000,
     "capital_raised_display": "$2.8B",
@@ -26005,7 +25667,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -26068,7 +25729,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 5350000,
     "capital_raised_display": "$5.35M"
   },
@@ -26145,7 +25805,6 @@
       "valuation_display": "",
       "notes": "No new round since 2025-11 Series A ($15M, Standard Capital). $19.2M total confirmed ($500K YC + $3.7M seed + $15M A); Tracxn's $22.8M is an aggregator outlier."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 19200000,
     "capital_raised_display": "$19.2M",
     "icon_url": ""
@@ -26248,7 +25907,6 @@
       "valuation_as_of": "2026",
       "notes": "Acquired by Salesforce in early 2026."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 18000000,
     "capital_raised_display": "$18M",
     "icon_url": ""
@@ -26321,7 +25979,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -26472,9 +26129,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -26588,7 +26242,6 @@
         "notes": "YC F25 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -26681,7 +26334,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/movellus",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series B 2023."
     },
-    "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 29000000,
     "capital_raised_display": "$29M",
     "icon_url": ""
@@ -26741,7 +26393,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Boston, MA",
     "capital_raised_usd": 17600000,
     "capital_raised_display": "$17.6M",
     "icon_url": ""
@@ -26949,7 +26600,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/nantomics",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: NantOmics est.."
     },
-    "hq_display": "Culver City, CA",
     "icon_url": "https://nantomics.com/wp-content/uploads/2018/12/cropped-favicon-180x180.png",
     "capital_raised_usd": 150000000,
     "capital_raised_display": "$150M"
@@ -27110,9 +26760,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -27227,7 +26874,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 7000000,
     "capital_raised_display": "$7M"
   },
@@ -27393,7 +27039,7 @@
         "valuation_display": "$5.1B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/NTSK"
@@ -27445,7 +27091,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/ntsk/",
       "notes": "Market cap at the 30 Sep 2026 close ($17.44 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "Santa Clara, CA",
     "ticker": "NTSK",
     "capital_raised_usd": 1947700000,
     "capital_raised_display": "$1.9B",
@@ -27542,7 +27187,6 @@
       "valuation_source_url": "https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series E Jun 2025 post-money."
     },
-    "hq_display": "Fremont, CA",
     "capital_raised_usd": 973000000,
     "capital_raised_display": "$973M",
     "icon_url": ""
@@ -27729,7 +27373,6 @@
       "valuation_as_of": "2014-12",
       "notes": "Valuation source: TPG/F. Prime acquisition 2023."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 199500000,
     "capital_raised_display": "$200M",
     "icon_url": ""
@@ -27811,9 +27454,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -27904,9 +27544,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "No new round since 2024-11. DB previously held a single undated '2023' $18M round; that is actually two rounds ($3.3M seed Oct 2023 led by Polychain; $15M Series A Nov 2024 led by Paradigm). Total corrected to $18.3M. FLAGS: (1) co-founder Stefan Coolican is described by Forbes/Upstarts as a 'fellow Canadian' and is called to the Bar of Ontario, but is absent from the founders list - likely a second qualifying Canadian founder. (2) HQ is ambiguous across sources: Tracxn says Etobicoke ON, Dealroom says Austin TX. Needs resolution given the US-HQ inclusion criterion."
     },
@@ -27993,7 +27630,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Santa Monica, CA",
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M"
   },
@@ -28072,7 +27708,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -28222,7 +27857,6 @@
       "valuation_as_of": "2021-10",
       "notes": "Valuation source: Series C 2024."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 337000000,
     "capital_raised_display": "$337M",
     "icon_url": ""
@@ -28316,9 +27950,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Oct 2026 sweep: $11.5M seed led by Hyperion."
     },
@@ -28499,7 +28130,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/atomwise",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series B 2020."
     },
-    "hq_display": "San Francisco, CA",
     "icon_url": "https://numerionlabs.ai/wp-content/uploads/2025/11/nl-logomark-512x512-1-300x300.png",
     "capital_raised_usd": 318790000,
     "capital_raised_display": "$319M"
@@ -28579,7 +28209,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Troy, NY",
     "capital_raised_usd": 925000,
     "capital_raised_display": "$925K"
   },
@@ -28665,9 +28294,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Renamed from Flatfile to Obvious (obvious.ai)."
     },
@@ -28735,9 +28361,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -28882,9 +28505,10 @@
       "valuation_display": "~$250M",
       "valuation_source_url": "",
       "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_as_of": "2024-09",
       "last_verified": "2026-04-12T00:00:00Z",
-      "notes": ""
+      "notes": "",
+      "valuation_type": "acquisition"
     },
     "capital_raised_usd": 131900000,
     "capital_raised_display": "$132M"
@@ -29035,9 +28659,10 @@
       "valuation_display": "$99M",
       "valuation_source_url": "",
       "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_as_of": "2025-07",
       "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": ""
+      "notes": "",
+      "valuation_type": "post_money"
     },
     "capital_raised_usd": 17200000,
     "capital_raised_display": "$17.2M"
@@ -29156,7 +28781,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -29281,9 +28905,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Palo Alto. Founders Jeffrey Morgan & Michael Chiang (Waterloo). Total $88M raised (Series A $15M Benchmark, Series B $65M Theory Ventures + early/undisclosed rounds). Valuation not disclosed. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -29358,7 +28979,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 31000000,
     "capital_raised_display": "$31M",
     "icon_url": ""
@@ -29618,7 +29238,6 @@
       "valuation_source_url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
       "notes": "Valuation source: Series F Feb 2026 post-money."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 289900000000,
     "capital_raised_display": "$289.9B",
     "icon_url": ""
@@ -29658,7 +29277,7 @@
         "round": "Seed",
         "kind": "funding",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
@@ -29681,7 +29300,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": "https://api.typedream.com/v0/document/public/929dfde1-a7c7-4ebf-bd78-6ab3608c36c4/3553kpZhSIP8hfuvUL7Qr8JSpEi_openbuilder_logo_white_on_black.png"
@@ -30047,9 +29665,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -30159,7 +29774,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4800000,
     "capital_raised_display": "$4.8M"
   },
@@ -30214,7 +29828,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Overland Park, KS",
     "capital_raised_usd": 1950000,
     "capital_raised_display": "$1.9M",
     "icon_url": ""
@@ -30291,7 +29904,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": "https://img.logo.dev/outerport.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -30360,7 +29972,6 @@
         "notes": "YC W25 standard deal"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -30423,7 +30034,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -30594,9 +30204,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -30675,7 +30282,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 1125000,
     "capital_raised_display": "$1.12M",
     "icon_url": ""
@@ -30850,7 +30456,7 @@
         "valuation_display": "$816M",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/PD"
@@ -30903,7 +30509,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/pd/",
       "notes": "Market cap at the 30 Sep 2026 close ($15.1 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "PD",
     "capital_raised_usd": 173600000,
     "capital_raised_display": "$174M",
@@ -30967,7 +30572,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Berkeley, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -31033,9 +30637,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-13T11:10:00-08:00",
       "notes": "Renamed from Hex Security to Parameter (YC page: \"Parameter (fka Hex Security)\"). Canadian co-founder Ahmad Khan (Waterloo). Other co-founders Prama Yudhistira (Georgia Tech) and Huzaifa Ahmad are not Canadian."
     },
@@ -31144,9 +30745,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -31710,7 +31308,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/pepper-19d6",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series C 2024."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 96000000,
     "capital_raised_display": "$96M",
     "icon_url": ""
@@ -31768,7 +31365,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Edmonds, WA",
     "capital_raised_usd": 5580000,
     "capital_raised_display": "$5.6M",
     "icon_url": ""
@@ -31849,7 +31445,6 @@
       "valuation_source_url": "https://techfundingnews.com/ex-openai-execs-raise-200m-at-1b-valuation-for-ai-materials-science-startup-backed-by-a16z/",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Seed round post-money ($1B pre + $300M round)."
     },
-    "hq_display": "Mountain View, CA",
     "capital_raised_usd": 300000000,
     "capital_raised_display": "$300M",
     "icon_url": ""
@@ -31910,7 +31505,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Austin, TX",
     "capital_raised_usd": 125000,
     "capital_raised_display": "$125K",
     "icon_url": ""
@@ -32110,7 +31704,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -32233,7 +31826,6 @@
       "valuation_as_of": "2023-02",
       "notes": "Both founders are Waterloo mechatronics graduates, confirmed by the university’s own news page of 13 Sep 2019: \"Mitchell Catoen, Devon Copeland, David Ferris, and Rareș Topor-Gosman, who all graduated from Waterloo’s mechatronics engineering program last spring\". BetaKit describes them as \"a pair of former Uber and Google engineers from Toronto, who met while studying at the University of Waterloo\". NOTE ON THE DOMAIN: phonic.ai today belongs to an unrelated voice-agent company founded in 2024 by Moin Nadeem — do not read its current legal pages as this company’s. "
     },
-    "hq_display": "San Francisco, CA",
     "icon_url": "https://bookface-images.s3.amazonaws.com/small_logos/accc040e6e05d59906b58dd5cbcb069fe6d2cfc0.png",
     "capital_raised_usd": 2350000,
     "capital_raised_display": "$2.4M"
@@ -32334,13 +31926,12 @@
         "https://www.pietrastudio.com/",
         "https://techcrunch.com/2021/06/30/pietra-raises-15m-from-founders-fund/"
       ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_usd": 75000000,
+      "valuation_display": "$75M",
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2021-06"
     },
     "capital_raised_usd": 35000000,
     "capital_raised_display": "$35M"
@@ -32400,9 +31991,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -32563,7 +32151,7 @@
         "amount_usd": 4000000,
         "amount_display": "$4M",
         "valuation_usd": 20000000,
-        "valuation_display": "$20M post-money",
+        "valuation_display": "$20M",
         "lead_investors": [
           "Founders Fund"
         ],
@@ -32609,13 +32197,12 @@
         "https://techcrunch.com/2021/08/26/playbook-which-aims-to-be-the-dropbox-for-designers-raises-4m-in-round-led-by-founders-fund/",
         "https://techcrunch.com/2022/04/19/playbook-where-pinterest-meets-dropbox-for-designers-closes-on-18m-in-funding/"
       ],
-      "valuation_usd": null,
-      "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_usd": 20000000,
+      "valuation_display": "$20M",
       "last_verified": "2026-04-13T00:00:00Z",
-      "notes": ""
+      "notes": "",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2021-08"
     },
     "capital_raised_usd": 22000000,
     "capital_raised_display": "$22M"
@@ -32800,9 +32387,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -32878,7 +32462,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M"
   },
@@ -32937,9 +32520,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -33293,9 +32873,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -33502,16 +33079,16 @@
         "image_last_checked_at": "2026-09-01T15:10:00Z"
       }
     ],
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)",
-      "https://en.wikipedia.org/wiki/Rajat_Suri",
-      "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
-    ],
     "metadata": {
       "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 525000000,
       "valuation_display": "$525M",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)",
+        "https://en.wikipedia.org/wiki/Rajat_Suri",
+        "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
+      ]
     },
     "capital_raised_usd": 110500000,
     "capital_raised_display": "$110.5M",
@@ -33602,9 +33179,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": "Oct 2026 sweep: backfilled 2023 $30M Series B."
     },
@@ -33708,7 +33282,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13920000,
     "capital_raised_display": "$13.9M",
     "icon_url": ""
@@ -33815,7 +33388,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York",
     "capital_raised_usd": 6000000,
     "capital_raised_display": "$6M"
   },
@@ -33978,7 +33550,6 @@
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 10500000,
     "capital_raised_display": "$10.5M"
   },
@@ -34070,7 +33641,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Austin, TX",
     "capital_raised_usd": 28000000,
     "capital_raised_display": "$28M",
     "icon_url": ""
@@ -34179,7 +33749,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Mountain View, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -34356,7 +33925,6 @@
         "notes": "$96M from General Catalyst CVF + $9M from existing investors"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": null,
@@ -34485,9 +34053,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -34564,9 +34129,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-19T18:00:00Z",
       "notes": "Founded 2019 per the company’s own LinkedIn page (\"Established in 2019\"); Brodie dates his own role from Jun 2020. Co-founder Bryan Hatton (CTO) has no identified Canadian connection and is not listed. Capital raised and the 2025 round come from PitchBook; the $10M seed is Crunchbase-sourced and carries no lead."
     },
@@ -34657,7 +34219,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/rainbow-me",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M",
     "icon_url": ""
@@ -34711,7 +34272,6 @@
         "notes": "YC S26 batch. Founder also YC S19 alum (Sable)."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -34901,9 +34461,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -35090,7 +34647,9 @@
       "valuation_usd": 250000000,
       "valuation_display": "$250M",
       "last_verified": "2026-08-13T11:10:00-08:00",
-      "notes": "Both co-founders University of Waterloo (David Gu, Amanda Zhu). Founded 2020 as Perfect Recall (YC W20); rebranded to Recall.ai in Feb 2022."
+      "notes": "Both co-founders University of Waterloo (David Gu, Amanda Zhu). Founded 2020 as Perfect Recall (YC W20); rebranded to Recall.ai in Feb 2022.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2025-09"
     }
   },
   {
@@ -35184,7 +34743,7 @@
         "round": "Seed",
         "kind": "funding",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": null,
         "valuation_display": "",
         "lead_investors": [],
@@ -35207,7 +34766,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "icon_url": "https://img.logo.dev/recipeui.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
@@ -35265,7 +34823,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Scottsdale, AZ",
     "capital_raised_usd": 1440000,
     "capital_raised_display": "$1.44M",
     "icon_url": ""
@@ -35317,7 +34874,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -35496,7 +35052,6 @@
       "valuation_source_url": "https://www.crunchbase.com/organization/reflexion-medical",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series C 2021."
     },
-    "hq_display": "Hayward, CA",
     "capital_raised_usd": 444600000,
     "capital_raised_display": "$445M",
     "icon_url": ""
@@ -35565,9 +35120,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T00:00:00Z",
       "notes": "No new round; still the $10M seed. MILESTONE: emerged from stealth 2026-07-13 with an on-device AI security platform and first product (Fortune, PRNewswire) - DB description predated the launch. Domain reken.ai + founder Shuman Ghosemajumder confirmed; Canadian connection (Western/UWO) corroborated by Crunchbase and U of T Munk School. FLAG: co-founder Rich Griffiths (ex-Shape Security VP Product, COO) absent from founders list."
     },
@@ -35648,7 +35200,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -35705,7 +35256,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2275000,
     "capital_raised_display": "$2.3M",
     "icon_url": ""
@@ -36027,7 +35577,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": 1255000,
     "capital_raised_display": "$1.3M",
     "icon_url": ""
@@ -36397,7 +35946,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 12300000,
     "capital_raised_display": "$12.3M"
   },
@@ -36456,9 +36004,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -36538,7 +36083,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M",
     "icon_url": ""
@@ -36744,7 +36288,7 @@
         "round": "Market Cap",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 4990000000,
         "valuation_display": "$5.0B",
         "notes": "Market cap as of July 31, 2026",
@@ -36802,7 +36346,6 @@
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/rgti/"
     },
-    "hq_display": "Berkeley, CA",
     "capital_raised_usd": 907250000,
     "capital_raised_display": "$907M",
     "ticker": "RGTI"
@@ -36974,7 +36517,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/rblx/",
       "notes": "Market cap at the 30 Sep 2026 close ($42.37 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "San Mateo, CA",
     "ticker": "RBLX",
     "capital_raised_usd": 845000000,
     "capital_raised_display": "$845M",
@@ -37123,7 +36665,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 9105000,
     "capital_raised_display": "$9.11M"
   },
@@ -37215,7 +36756,6 @@
       "valuation_display": "",
       "notes": "Shut down Jan 2021 due to Thomson Reuters lawsuit."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 13000000,
     "capital_raised_display": "$13M",
     "icon_url": ""
@@ -37283,7 +36823,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M"
   },
@@ -37346,7 +36885,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3700000,
     "capital_raised_display": "$3.7M",
     "icon_url": ""
@@ -37384,7 +36922,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -37578,7 +37115,6 @@
       "valuation_as_of": "2025-04",
       "notes": "Valuation source: Series B Oct 2025."
     },
-    "hq_display": "Palo Alto, CA",
     "icon_url": "https://cdn.theorg.com/665d9726-6c85-4202-852f-89707e2f5df3_thumb.jpg",
     "capital_raised_usd": 8000000000,
     "capital_raised_display": "$8B"
@@ -37636,7 +37172,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 4500000,
     "capital_raised_display": "$4.5M",
     "icon_url": ""
@@ -37737,7 +37272,6 @@
       "valuation_display": "",
       "notes": "No confirmed new equity round. UNRESOLVED TOTALS - do not treat $15.5M as firm: CB Insights says $10.5M round on 2024-10-30 with $15.5M total (matches DB), but Sapien's own blog says that round 'brings our total funding to $10.5M', which would make the DB's $5M + $10.5M a double-count. A Bitget listing page (2025-08) claims $19.2M incl. General Catalyst. Company also has a live SAPIEN token, so token raises may be conflated with equity. FLAG: founder list looks wrong - every source names Rowan Stone (Base co-creator) as CEO and Trevor Koverko as CSO/COO; 'Kelly Ryan' appears in no public source. Koverko's Canadian connection is solid (NHL NY Rangers draft pick, Ivey/Western)."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 15500000,
     "capital_raised_display": "$15.5M",
     "icon_url": ""
@@ -37898,7 +37432,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M"
   },
@@ -37961,7 +37494,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -38080,7 +37612,6 @@
       "valuation_display": "",
       "notes": "Acquired by Atlassian December 2025."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 16100000,
     "capital_raised_display": "$16.1M",
     "icon_url": ""
@@ -38181,7 +37712,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 17500000,
     "capital_raised_display": "$17.5M"
   },
@@ -38282,7 +37812,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -38366,7 +37895,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 5000000,
     "capital_raised_display": "$5M",
     "icon_url": ""
@@ -38429,9 +37957,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-04-29T16:44:00-07:00",
       "notes": ""
     },
@@ -38630,7 +38155,7 @@
         "valuation_display": "$414M",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/SERV"
@@ -38681,7 +38206,6 @@
       "valuation_as_of": "2026-09-30",
       "notes": "Market cap at the 30 Sep 2026 close ($4.65 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "Redwood City, CA",
     "ticker": "SERV",
     "capital_raised_usd": 70000000,
     "capital_raised_display": "$70M",
@@ -38761,9 +38285,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -38871,9 +38392,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
@@ -39025,7 +38543,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": null,
     "capital_raised_display": ""
   },
@@ -39088,9 +38605,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -39241,7 +38755,6 @@
       "valuation_confidence": "high",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 243730000,
     "capital_raised_display": "$244M",
     "icon_url": ""
@@ -39306,9 +38819,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -39401,7 +38911,9 @@
       "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 2000000000,
       "valuation_display": "$2B",
-      "notes": "Canadian co-founder Lainie Yallen (Co-Founder & COO per her LinkedIn; McGill BCom). Note: simile.com highlights the three Stanford research co-founders (Joon Sung Park CEO, Michael Bernstein CDO, Percy Liang Chief Scientist), who are not listed with Canadian ties."
+      "notes": "Canadian co-founder Lainie Yallen (Co-Founder & COO per her LinkedIn; McGill BCom). Note: simile.com highlights the three Stanford research co-founders (Joon Sung Park CEO, Michael Bernstein CDO, Percy Liang Chief Scientist), who are not listed with Canadian ties.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-07"
     },
     "capital_raised_usd": 300000000,
     "capital_raised_display": "$300M"
@@ -39486,9 +38998,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -39560,9 +39069,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -39663,9 +39169,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": "Three co-founders: Sam Pasupalak (CEO), Kaheer Suleman (CTO) and Sumit Pasupalak (CPO, Sam's brother — BetaKit added him in a 24 Jul 2026 update, which is why some records show only two). Sam and Kaheer previously co-founded Maluuba at Waterloo, acquired by Microsoft in 2017. Sumit's Canadian tie is not yet verified and he is not listed here. HQ was New York in early 2025 and is now San Francisco with the main research team in Toronto; Crunchbase and Dealroom still carry the stale New York record. Founding year 2024 is unconfirmed — no company source states one and PitchBook says 2023. TOTAL RAISED IS UNKNOWN and deliberately left as undisclosed: no amount has ever been published for either round and there is no Form D. Ignore GetLatka's \"$0 raised / bootstrapped / $3.3M ARR\" figures — they are modelled estimates contradicted by the company's own press release."
     },
@@ -39913,7 +39416,6 @@
       "valuation_as_of": "2021-07",
       "notes": "Valuation source: Salesforce acquisition 2021."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1206250000,
     "capital_raised_display": "$1.2B",
     "icon_url": ""
@@ -40025,7 +39527,6 @@
       "valuation_as_of": "2026",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 160600000,
     "capital_raised_display": "$160.6M"
   },
@@ -40110,7 +39611,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 840000,
     "capital_raised_display": "$840K",
     "icon_url": ""
@@ -40201,7 +39701,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 1825000,
     "capital_raised_display": "$1.82M",
     "icon_url": ""
@@ -40312,7 +39811,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 23900000,
     "capital_raised_display": "$23.9M",
     "icon_url": ""
@@ -40370,7 +39868,6 @@
         "notes": "Amount undisclosed; aggregator figures conflict."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -40470,9 +39967,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2015-12",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -40555,9 +40050,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2023-12",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -40753,7 +40246,6 @@
       "valuation_as_of": "2025-02",
       "notes": ""
     },
-    "hq_display": "Kirkland, WA",
     "capital_raised_usd": 3000000,
     "capital_raised_display": "$3M",
     "icon_url": ""
@@ -41250,7 +40742,7 @@
         "round": "Market Cap",
         "kind": "event",
         "amount_usd": null,
-        "amount_display": null,
+        "amount_display": "",
         "valuation_usd": 2650000000,
         "valuation_display": "$2.7B",
         "notes": "Market cap as of July 31, 2026",
@@ -41306,7 +40798,6 @@
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/soun/"
     },
-    "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 700000000,
     "capital_raised_display": "$700M",
     "ticker": "SOUN"
@@ -41370,7 +40861,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -41667,7 +41157,6 @@
       "valuation_as_of": "2026-09-30",
       "notes": "Market cap at the 30 Sep 2026 close ($150.86 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "Hawthorne, CA",
     "capital_raised_usd": 81300000000,
     "capital_raised_display": "$81.3B",
     "icon_url": "",
@@ -41773,7 +41262,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 55000000,
     "capital_raised_display": "$55M",
     "icon_url": ""
@@ -41876,9 +41364,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
       "notes": "Creator platform and 3D world hosting sunset Jul 2026; pivoted to in-house game studio (Wooster Games). Enterprise platform continues."
     },
@@ -41943,7 +41428,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -42003,9 +41487,6 @@
       "sources": [],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -42098,7 +41579,6 @@
         "notes": "Raised as Campfire for AI gaming pivot. Immad Akhund is Mercury founder, Chris Ye is Uken Games founder."
       }
     ],
-    "source_urls": [],
     "metadata": {
       "sources": [
         "https://sprites.ai",
@@ -42265,9 +41745,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -42368,7 +41845,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 4525000,
     "capital_raised_display": "$4.5M",
     "icon_url": "https://img.logo.dev/squire.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404"
@@ -42500,9 +41976,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -42567,9 +42040,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -42681,7 +42151,6 @@
         "notes": "YC P26 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -42762,7 +42231,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K",
     "icon_url": ""
@@ -42816,7 +42284,6 @@
         "notes": "YC W26 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -42954,9 +42421,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -43106,7 +42570,6 @@
       "valuation_as_of": "2025-07",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Andreessen 2024."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 180425000,
     "capital_raised_display": "$180M",
     "icon_url": ""
@@ -43169,7 +42632,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -43360,9 +42822,10 @@
       "last_verified": "2026-08-14T12:00:00-08:00",
       "valuation_usd": 1200000000,
       "valuation_display": "$1.2B",
-      "notes": ""
+      "notes": "",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-07"
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 257400000,
     "capital_raised_display": "$257.4M",
     "icon_url": ""
@@ -43459,7 +42922,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "New York",
     "capital_raised_usd": 60000000,
     "capital_raised_display": "$60M"
   },
@@ -43584,7 +43046,6 @@
       "valuation_as_of": "2021-08",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series E 2021."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 108000000,
     "capital_raised_display": "$108M",
     "icon_url": ""
@@ -43870,7 +43331,9 @@
       "valuation_usd": 524000000,
       "valuation_display": "$524M",
       "last_verified": "2026-06-10T09:33:00-08:00",
-      "notes": "Acquired by SpaceX (announced Aug 2021, closed Nov 2021). Canadian co-founder Sara Spangelo (Winnipeg, U Manitoba); co-founder/CTO Ben Longmier (U Michigan) is American, not included. Both later co-founded Ambrosia Energy."
+      "notes": "Acquired by SpaceX (announced Aug 2021, closed Nov 2021). Canadian co-founder Sara Spangelo (Winnipeg, U Manitoba); co-founder/CTO Ben Longmier (U Michigan) is American, not included. Both later co-founded Ambrosia Energy.",
+      "valuation_type": "acquisition",
+      "valuation_as_of": "2021-11"
     }
   },
   {
@@ -43931,7 +43394,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 2500000,
     "capital_raised_display": "$2.5M",
     "icon_url": ""
@@ -43994,7 +43456,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -44135,9 +43596,10 @@
       "valuation_display": "$102.5M",
       "valuation_source_url": "",
       "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_as_of": "2011-10",
       "last_verified": "2026-04-11T00:00:00Z",
-      "notes": "Valuation source: Acquired by Nuance 2011."
+      "notes": "Valuation source: Acquired by Nuance 2011.",
+      "valuation_type": "acquisition"
     },
     "capital_raised_usd": 18000000,
     "capital_raised_display": "$18M"
@@ -44236,7 +43698,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "Ann Arbor",
     "capital_raised_usd": 139000000,
     "capital_raised_display": "$139M"
   },
@@ -44317,9 +43778,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -44398,9 +43856,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-05-04T11:00:00-07:00",
       "notes": ""
     },
@@ -44474,9 +43929,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-05-14T08:20:00-07:00",
       "notes": "Ian Crosby previously co-founded Bench Accounting (shut down Dec 2024) and Teal (acquired by Mercury). Also a venture partner at Basis Set Ventures. Product is fully autonomous AI bookkeeper for software/AI startups, still in design phase. One of founding engineers is Canadian. Team of 5, working from SF, 6 days/week."
     },
@@ -44538,9 +43990,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -44675,7 +44124,6 @@
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "Seattle, WA",
     "capital_raised_usd": 47000000,
     "capital_raised_display": "$47M"
   },
@@ -44880,7 +44328,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Los Angeles, CA",
     "capital_raised_usd": 5050000,
     "capital_raised_display": "~$5.05M",
     "name": "Taloflow",
@@ -44986,7 +44433,6 @@
       "valuation_display": "",
       "notes": "Recorded here as acquired by Alteryx; no such transaction exists. Alteryx Ventures made a strategic investment in Tamr announced 12 Jul 2023, which is the likely source of the error. Tamr is independent and operating — its own press page carries \"Tamr Reports Strong FY26 Growth\" dated 5 Mar 2026. Alteryx itself was taken private by Clearlake and Insight in Mar 2024. "
     },
-    "hq_display": "Cambridge, MA",
     "capital_raised_usd": 26000000,
     "capital_raised_display": "$26M"
   },
@@ -45129,7 +44575,6 @@
       "valuation_display": "",
       "valuation_source_url": "https://www.fenwick.com/insights/experience/fenwick-represents-databricks-in-acquisition-of-the-assets-of-tecton",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2025",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -45194,7 +44639,6 @@
       "valuation_display": "",
       "notes": "Part of the NantWorks group (Patrick Soon-Shiong); first round in Oct 2010 came from his California Capital Equity. Often described as acquired, but no acquisition transaction is documented — the NantWorks affiliation is the likely source of that. Site live but no press since about 2016, so plausibly dormant."
     },
-    "hq_display": "Carlsbad, CA",
     "capital_raised_usd": 23600000,
     "capital_raised_display": "$23.6M",
     "icon_url": "https://tensorcom.com/wp-content/uploads/2021/09/favicon.png"
@@ -45341,7 +44785,6 @@
       "notes": "The $2.7B previously carried here and the $2.6B on the round were never two facts — both are roundings of the same December 2024 Series D. The company disclosed only a $2B pre-money.",
       "valuation_as_of": "2024-12"
     },
-    "hq_display": "Santa Clara, CA",
     "capital_raised_usd": 926200000,
     "capital_raised_display": "$926M",
     "icon_url": ""
@@ -45544,7 +44987,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M"
   },
@@ -45916,7 +45358,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M",
     "icon_url": ""
@@ -46326,9 +45767,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -46433,9 +45871,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -46500,9 +45935,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -46558,7 +45990,6 @@
         "notes": ""
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": null,
@@ -46752,7 +46183,6 @@
       "valuation_as_of": "2023-04",
       "notes": "Valuation source: Series E 2021."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 580000000,
     "capital_raised_display": "$580M",
     "icon_url": ""
@@ -46886,7 +46316,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M",
     "icon_url": ""
@@ -46912,7 +46341,7 @@
         "role": "Co-Founder & CEO",
         "bio": "Originally from Toronto. Award-winning filmmaker. Studied CS, astrophysics, and neuroscience at Harvard. Forbes 30 Under 30 (2021).",
         "canadian_connection_type": "birthplace",
-        "canadian_institution": null,
+        "canadian_institution": "",
         "canadian_institutions": [],
         "linkedin": "https://www.linkedin.com/in/benbrook",
         "wikipedia_url": "",
@@ -46993,7 +46422,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 68950000,
     "capital_raised_display": "$68M",
     "icon_url": ""
@@ -47057,9 +46485,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-25T00:00:00Z",
       "notes": ""
     },
@@ -47117,7 +46542,6 @@
         "notes": "YC P26 batch"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -47185,7 +46609,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Jose, CA",
     "capital_raised_usd": 2500000,
     "capital_raised_display": "$2.5M",
     "icon_url": ""
@@ -47370,7 +46793,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "icon_url": "https://img.logo.dev/truelynk.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "capital_raised_usd": null,
     "capital_raised_display": ""
@@ -47481,7 +46903,6 @@
       "valuation_as_of": "2025-08",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series D 2023."
     },
-    "hq_display": "Mountain View, CA",
     "capital_raised_usd": 243000000,
     "capital_raised_display": "$243M",
     "icon_url": ""
@@ -47643,7 +47064,7 @@
         "valuation_display": "$143.6B",
         "round": "Market Cap",
         "kind": "event",
-        "amount_display": null,
+        "amount_display": "",
         "notes": "Market cap as of July 31, 2026",
         "source_urls": [
           "https://finance.yahoo.com/quote/UBER"
@@ -47697,7 +47118,6 @@
       "valuation_source_url": "https://stockanalysis.com/stocks/uber/",
       "notes": "Market cap at the 30 Sep 2026 close ($68.51 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "UBER",
     "capital_raised_usd": 15256000000,
     "capital_raised_display": "$15.3B",
@@ -47767,9 +47187,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-27T00:00:00Z",
       "notes": ""
     },
@@ -47862,9 +47279,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2015-05",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -48078,7 +47493,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 12000000,
     "capital_raised_display": "$12M",
     "icon_url": ""
@@ -48207,7 +47621,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Boston, MA",
     "capital_raised_usd": 8880000,
     "capital_raised_display": "$8.9M",
     "icon_url": ""
@@ -48279,7 +47692,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 3500000,
     "capital_raised_display": "$3.5M"
   },
@@ -48381,7 +47793,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 15600000,
     "capital_raised_display": "$15.6M"
   },
@@ -48461,12 +47872,9 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_as_of": "",
       "last_verified": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 20000000,
     "capital_raised_display": "$20M"
   },
@@ -48525,9 +47933,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
     },
@@ -48646,7 +48051,6 @@
       "valuation_source_url": "https://www.globenewswire.com/news-release/2024/12/12/2996317/0/en/Vapi-Dials-in-20M-in-Series-A",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series B 2026. Corrected valuation from $500M to $130M, added seed round and co-founder Nikhil Gupta."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 72100000,
     "capital_raised_display": "$72.1M",
     "icon_url": ""
@@ -48730,7 +48134,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 55000000,
     "capital_raised_display": "$55M",
     "icon_url": ""
@@ -48787,7 +48190,6 @@
         "notes": "Backed by General Catalyst and Valor per LinkedIn"
       }
     ],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -48896,7 +48298,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": null,
     "capital_raised_display": "",
     "icon_url": ""
@@ -48990,7 +48391,6 @@
       }
     ],
     "funding_rounds": [],
-    "source_urls": [],
     "metadata": {
       "last_verified": "2026-05-05T17:26:00-08:00",
       "valuation_usd": null,
@@ -49340,9 +48740,7 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
       "valuation_type": "acquisition",
-      "valuation_confidence": "",
       "valuation_as_of": "2023-04",
       "last_verified": "2026-03-24T20:03:37Z",
       "notes": ""
@@ -49427,9 +48825,10 @@
       "valuation_display": "$20M",
       "valuation_source_url": "",
       "valuation_confidence": "",
-      "valuation_as_of": "",
+      "valuation_as_of": "2013-03",
       "last_verified": "2026-04-11T00:00:00Z",
-      "notes": ""
+      "notes": "",
+      "valuation_type": "acquisition"
     },
     "capital_raised_usd": 1000000,
     "capital_raised_display": "$1M"
@@ -49490,7 +48889,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 7500000,
     "capital_raised_display": "$7.5M",
     "icon_url": ""
@@ -49581,9 +48979,6 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "valuation_source_url": "",
-      "valuation_confidence": "",
-      "valuation_as_of": "",
       "last_verified": "2026-09-30T16:00:00-08:00",
       "notes": ""
     },
@@ -49781,7 +49176,6 @@
       "valuation_source_url": "https://finance.yahoo.com/quote/WISH",
       "notes": "Wish marketplace acquired by Qoo10 (Apr 2024, ~$173M). Founders Peter Szulczewski (Waterloo) & Danny Zhang. The public shell pivoted to ContextLogic (US Salt business); that entity is not tracked here. Valuation source: public_market_data."
     },
-    "hq_display": "San Francisco, CA",
     "ticker": "",
     "capital_raised_usd": 1370700000,
     "capital_raised_display": "$1.4B",
@@ -49975,7 +49369,9 @@
       "valuation_usd": 1900000000,
       "valuation_display": "$1.9B",
       "last_verified": "2026-08-20T18:00:00-08:00",
-      "notes": "May Habib was raised in Canada from early childhood after her family emigrated from Lebanon (Inc., March 2026; corroborated on Writer's own blog). Her post-secondary education is Harvard, not a Canadian university — the tie is upbringing, not schooling, and no source names the Canadian city. Co-founder Waseem AlShikh (Syria/Lebanon/Jordan) has no Canadian tie. Writer relaunched in 2020 from Qordoba, founded 2014."
+      "notes": "May Habib was raised in Canada from early childhood after her family emigrated from Lebanon (Inc., March 2026; corroborated on Writer's own blog). Her post-secondary education is Harvard, not a Canadian university — the tie is upbringing, not schooling, and no source names the Canadian city. Co-founder Waseem AlShikh (Syria/Lebanon/Jordan) has no Canadian tie. Writer relaunched in 2020 from Qordoba, founded 2014.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2024-11"
     }
   },
   {
@@ -50201,7 +49597,6 @@
       "valuation_as_of": "2026-02",
       "notes": "Valuation source: SpaceX acquisition Feb 2026. Acquired by SpaceX in all-stock deal Feb 2026."
     },
-    "hq_display": "Palo Alto, CA",
     "capital_raised_usd": 42134700000,
     "capital_raised_display": "$42.1B",
     "icon_url": ""
@@ -50293,7 +49688,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Mateo, CA",
     "capital_raised_usd": 189000000,
     "capital_raised_display": "$189M"
   },
@@ -50409,7 +49803,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Leandro, CA",
     "capital_raised_usd": 3650000,
     "capital_raised_display": "$3.7M",
     "icon_url": ""
@@ -50497,7 +49890,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "New York, NY",
     "capital_raised_usd": 14400000,
     "capital_raised_display": "$14.4M",
     "icon_url": ""
@@ -50568,7 +49960,6 @@
       "valuation_display": "",
       "notes": ""
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 500000,
     "capital_raised_display": "$500K"
   },
@@ -50760,7 +50151,6 @@
       "valuation_display": "",
       "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
     },
-    "hq_display": "San Francisco, CA",
     "capital_raised_usd": 58800000,
     "capital_raised_display": "$58.8M",
     "icon_url": ""

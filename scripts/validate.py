@@ -335,6 +335,38 @@ def main():
             err(f"{who}: valuation_type {vtype!r} is not one of {sorted(VALUATION_TYPES)} "
                 f"— it would render as a raw enum in the tooltip")
 
+        # ── valuation metadata has to agree with itself and with the rounds ──
+        # The October 2026 schema audit found three ways these drift apart, all
+        # of them silent: a type describing a valuation that is not there, a
+        # valuation carrying no type (so the tooltip has nothing to label it),
+        # and a round that records a valuation the company-level mark never
+        # picked up — which matters because the site sorts on the company-level
+        # figure, so the entry sorts as if it had no valuation at all.
+        mval = c.get("metadata", {}).get("valuation_usd")
+        if vtype and mval is None:
+            warn(f"{who}: metadata has valuation_type {vtype!r} but no valuation_usd "
+                 f"— a type describing a valuation that is not recorded")
+        if mval and not vtype:
+            warn(f"{who}: valuation_usd is set but valuation_type is missing "
+                 f"— the tooltip has no label for it")
+        if mval is None:
+            rvals = [r for r in c.get("funding_rounds", []) if r.get("valuation_usd")]
+            if rvals:
+                last = rvals[-1]
+                warn(f"{who}: a {last.get('round')} round records a valuation of "
+                     f"{last.get('valuation_display') or last.get('valuation_usd')} but "
+                     f"metadata.valuation_usd is null, so the company sorts as unvalued")
+
+        # ── dead fields must not come back ──
+        # hq_display duplicated hq_city and index.html never read it (hq_city
+        # always won the fallback); company-level source_urls duplicated
+        # metadata.sources and was documented only for rounds. Both were
+        # stripped in the October 2026 audit.
+        for dead in ("hq_display", "source_urls"):
+            if dead in c:
+                err(f"{who}: {dead!r} is a removed field — use "
+                    f"{'hq_city/hq_region' if dead == 'hq_display' else 'metadata.sources'}")
+
         raised = c.get("capital_raised_display") or ""
         raised_usd = c.get("capital_raised_usd")
         if raised and not MONEY_RE.fullmatch(raised):

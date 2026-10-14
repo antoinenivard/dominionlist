@@ -410,7 +410,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <tr><td>valuation_usd</td><td>Post-money valuation, if known</td></tr>
     <tr><td>lead_investors</td><td>Array of lead investor names</td></tr>
     <tr><td>other_investors</td><td>Array of participating investors</td></tr>
-    <tr><td>source_urls</td><td>Array of source URLs for the round</td></tr>
+    <tr><td>source_urls</td><td>Array of source URLs. Lives on each funding round; the company-level equivalent is <code>metadata.sources</code>. A company-level <code>source_urls</code> field existed on 49 entries and was removed in the October 2026 schema audit</td></tr>
   </table>
 
   <hr class="divider">
