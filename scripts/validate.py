@@ -215,6 +215,16 @@ def check_photo_urls(companies):
             u = f.get("photo_url")
             if u:
                 urls.setdefault(u, []).append(f"{f.get('name')} ({c.get('name')})")
+        # Company icons rot the same way headshots do, and more quietly: a dead
+        # icon_url just falls back to initials, so nobody notices. Two were
+        # found 404ing during the October 2026 audit. logo.dev URLs are checked
+        # too — they return 404 when logo.dev has no mark for the domain, which
+        # is exactly the case worth knowing about. Note this cannot catch the
+        # other failure mode, a logo.dev URL that resolves to a STALE mark from
+        # before a rebrand; that needs an eye on the image.
+        icon = c.get("icon_url")
+        if icon:
+            urls.setdefault(icon, []).append(f"icon ({c.get('name')})")
 
     def probe(u):
         req = urllib.request.Request(
@@ -266,7 +276,8 @@ def check_photo_urls(companies):
 
     for (u, who), problem in zip(urls.items(), results):
         if problem:
-            warn(f"photo_url unreachable — {problem} — {', '.join(who)} — {u}")
+            label = "icon_url" if any(w.startswith("icon (") for w in who) else "photo_url"
+            warn(f"{label} unreachable — {problem} — {', '.join(who)} — {u}")
 
 
 def main():

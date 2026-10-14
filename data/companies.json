@@ -24959,7 +24959,7 @@
     "stage": "Seed",
     "status": "Private",
     "yc_batch": "P'26",
-    "icon_url": "https://img.logo.dev/minicor.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "icon_url": "https://minicor.com/images/webclip.png",
     "founders": [
       {
         "id": "faizaan-chishtie",
@@ -25068,10 +25068,10 @@
         "https://www.linkedin.com/in/fchishtie/",
         "https://www.linkedin.com/in/saheed-akinbile/"
       ],
-      "last_verified": "2026-10-14T17:00:00-07:00",
+      "last_verified": "2026-10-15T11:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": "LEGAL ENTITY IS LAMINAR RUN, INC., per the site footer — the product was formerly called Laminar, so search filings and older coverage under that name too. CAPITAL RAISED MAY DOUBLE-COUNT AND ALSO UNDERSTATES: $4.3M is the $500K Y Combinator standard deal plus the $3.8M seed, but Y Combinator is named as a participant in the seed, so the standard deal may be folded into that figure rather than additional, in which case the total is $3.8M. Pulling the other way, the 2025 NOMO Ventures pre-seed has never had an amount published, so whatever the right reading, the true total is higher than what is recorded. No valuation has been disclosed at any round. Qualifies on both founders, each with a BASc in software engineering from the University of Ottawa."
+      "notes": "ICON IS A DIRECT FAVICON, NOT LOGO.DEV, DELIBERATELY. logo.dev serves a stale mark for minicor.com — a blue asterisk from before the rebrand — while the current brand is a two-peak mountain. The 180×180 apple-touch icon at /images/webclip.png carries the current mark at the best available resolution; /images/favicon.png is the same design but only 32×32, and /favicon.ico is a different black-circle treatment. Recheck whether logo.dev has caught up before switching back. LEGAL ENTITY IS LAMINAR RUN, INC., per the site footer — the product was formerly called Laminar, so search filings and older coverage under that name too. CAPITAL RAISED MAY DOUBLE-COUNT AND ALSO UNDERSTATES: $4.3M is the $500K Y Combinator standard deal plus the $3.8M seed, but Y Combinator is named as a participant in the seed, so the standard deal may be folded into that figure rather than additional, in which case the total is $3.8M. Pulling the other way, the 2025 NOMO Ventures pre-seed has never had an amount published, so whatever the right reading, the true total is higher than what is recorded. No valuation has been disclosed at any round. Qualifies on both founders, each with a BASc in software engineering from the University of Ottawa."
     },
     "capital_raised_usd": 4300000,
     "capital_raised_display": "$4.3M"
