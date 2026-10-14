@@ -54190,5 +54190,98 @@
       "last_verified": "2026-10-09T16:00:00-07:00",
       "notes": "Sourced from a Y Combinator investor announcement email of 9 October 2026, Fall 2026 batch. Qualifies on Surya Pandiaraju, whose YC bio reads “PhD candidate at Johns Hopkins BME, Waterloo BME grad”. NO WEBSITE: YC’s website field is empty and no company site exists yet, which is why the website field here is blank rather than guessed — fill it in when they launch one, and the thin description should be rewritten then too. HQ San Francisco and founding year 2026 per YC; team size 3. Co-founder Runming (Tony) Wang, also a Johns Hopkins BME PhD candidate, has not been screened for a Canadian connection and is omitted rather than ruled out."
     }
+  },
+  {
+    "id": "general-compute",
+    "name": "General Compute",
+    "website": "https://www.generalcompute.com",
+    "description": "Inference cloud built on non-GPU AI silicon. Buys and operates racks of Cerebras CS-3, SambaNova SN50, Positron and d-Matrix systems alongside NVIDIA B300 GPUs, and sells dedicated capacity on them under a single contract, sited with the customer’s own fleet. The pitch is prefill/decode disaggregation — running the compute-bound prefill phase on GPUs and the memory-bound decode phase on purpose-built ASICs, which it argues GPUs stall on. Also offers an OpenAI-compatible inference API for hosted open-weight models.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://www.generalcompute.com/apple-touch-icon.png",
+    "founders": [
+      {
+        "id": "jason-goodison",
+        "name": "Jason Goodison",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/jasonlevigoodison/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CTO of General Compute, where he owns the architecture of the inference platform. Computer science at the University of Waterloo, graduating with distinction. Spent about four years at Microsoft on distributed systems, and was previously co-founder and CTO of Pair AI, a Y Combinator W23 company. Runs a developer-focused YouTube channel with roughly 138,000 subscribers.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-05-28",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 15000000,
+        "amount_display": "$15M",
+        "valuation_usd": 60000000,
+        "valuation_display": "$60M",
+        "lead_investors": [
+          "FUSE"
+        ],
+        "other_investors": [
+          "Carya Venture Partners",
+          "Village Global",
+          "Evercrest Capital Partners",
+          "Gaingels"
+        ],
+        "source_urls": [
+          "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/"
+        ],
+        "notes": "TechCrunch, exclusive: “a $15 million seed round at a $60 million post-money valuation, led by FUSE VC with participation from Carya Venture Partners and Village Global Ventures.” The valuation is stated as post-money in those words, so it is recorded as given. Evercrest Capital Partners is named in the same piece; Gaingels is inferred from an SPV Form D it filed in September 2026 (Gaingels General Compute LLC, CIK 0002149700) rather than from any announcement — neither appears on the company’s own backer list."
+      },
+      {
+        "date": "2026-07-17",
+        "round": "Debt Financing",
+        "kind": "funding",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Upper90"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+          "https://www.generalcompute.com/blog/general-compute-cerebras-multi-year-agreement"
+        ],
+        "notes": "A chip-collateralised credit facility of UP TO $400M from Upper90, reported as the first secured against inference-specific rather than GPU silicon. AMOUNT LEFT NULL DELIBERATELY: $400M is the committed ceiling, not money raised — TechCrunch calls it “a $400 million loan” while the company and other coverage say “up to $400 million”, and the company’s Cerebras post describes the deployment as “the first deployment drawn against” it, so drawdowns are partial and unpublished. Adding the ceiling to capital raised would produce the “$415M total raised” figure circulating on investor tear sheets, which conflates debt capacity with equity. Upper90 is also reported to hold equity."
+      }
+    ],
+    "capital_raised_usd": 15000000,
+    "capital_raised_display": "$15M",
+    "metadata": {
+      "valuation_usd": 60000000,
+      "valuation_display": "$60M",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-05",
+      "sources": [
+        "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
+        "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+        "https://www.generalcompute.com/team",
+        "https://www.generalcompute.com/blog/general-compute-cerebras-multi-year-agreement",
+        "https://csclub.uwaterloo.ca/events/2024/winter/Jason-Goodison-Talk/",
+        "https://www.ycombinator.com/companies/pair-ai",
+        "https://opencorporates.com/companies/us_de/10439770"
+      ],
+      "last_verified": "2026-10-16T12:00:00-07:00",
+      "notes": "Qualifies on Jason Goodison. The company’s own team page calls him “a Waterloo CS grad”, and that is corroborated independently of the company: Y Combinator’s launch post for his previous startup, Pair AI (W23), says he “graduated with distinction from the University of Waterloo”, and the University of Waterloo Computer Science Club billed him in Winter 2024 as “a YC founder, Ex-Microsoft, YouTuber, and Waterloo alumnus”. US ENTITY RESTS ON REGISTRY AND AGGREGATOR EVIDENCE, NOT A FILING. There is no Form D for the operating company — the only EDGAR hits are investor SPVs set up to invest in it (General Compute, a Series of Carya Funds, LLC; Gaingels General Compute LLC), which say nothing about the issuer’s own jurisdiction. The Delaware name index carries GENERAL COMPUTE INC. as a domestic corporation, file 10439770, and Crunchbase states the legal name as General Compute Inc. on a profile that unambiguously matches this company. A probable California foreign qualification exists as ‘General Compute of Delaware Inc.’, the standard device when the true name is taken in-state, but an unrelated New Jersey entity shares that name, so it is corroborating only. Worth upgrading to filing-grade proof if a Form D ever appears. HQ San Francisco from the company’s own careers page, which lists every open role as San Francisco, and its launch press release. Founding year 2025 from that same release; no registry date was obtained. The terms and privacy pages are empty shells with no entity, address or governing-law clause, so the usual HQ check was unavailable. CO-FOUNDER AND CEO FINN PUKLOWSKI IS SCREENED AND DOES NOT QUALIFY: he is a New Zealander, raised in Raglan, on the board of Endeavor New Zealand, and built Fluency Academy, a Brazilian language-learning company, to $40M ARR with General Atlantic backing. No Canadian institution, birth or citizenship appears anywhere, so he is not listed. Commercial context, company-stated: a multi-year agreement with Cerebras announced 29 September 2026 with capacity live Q1 2027, $300M of SambaNova SN50 chips on order, and 30MW+ in colocation pipeline."
+    }
   }
 ]
