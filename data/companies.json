@@ -11,7 +11,7 @@
     "stage": "Pre-Seed",
     "status": "Private",
     "yc_batch": "",
-    "icon_url": "",
+    "icon_url": "https://www.blueprint.io/favicons/android-chrome-512x512.png",
     "capital_raised_usd": 1045000,
     "capital_raised_display": "$1.05M",
     "founders": [
@@ -70,10 +70,10 @@
       }
     ],
     "metadata": {
-      "last_verified": "2026-10-05T18:00:00-07:00",
+      "last_verified": "2026-10-15T12:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": "RETESTED 5 OCTOBER 2026 UNDER THE CAP-TABLE RULE AND KEPT. This entry had been flagged LIKELY DISQUALIFIED under the old US-headquarters criterion; that criterion no longer applies. 3e8 Robotics Inc. is a Delaware corporation, registered in California as a foreign stock corporation, document B20250218149 filed 22 July 2025, status active, “Formed In: Delaware”, principal address 2 Marina Blvd B300, San Francisco — the Founders Inc building — with David Feldt as CEO and director, Sajeel Purewal as CFO, secretary and director, and Ari Wasch as director. No Canadian entity was found for either 3E8 or Blueprint. The BetaKit “Toronto-based” framing and Feldt’s “Toronto, ON CA” site header describe where the team intends to live and are now irrelevant. THE BRAND IS NOW BLUEPRINT: blueprint.am redirects to blueprint.io, and the site is a single-page app that exposes no legal-entity name, so it is not established whether the SAFEs were issued by 3e8 Robotics Inc. under a charter amendment or by a newly formed Delaware entity — either way a Delaware corporation is at the top, and a Canadian holdco over an a16z speedrun company would be unusual and is unevidenced. Funding is SAFEs, which is why no Form D exists. The original 3E8 Robotics product is no longer operational; the team pivoted to Blueprint. CONSIDER RENAMING THIS ENTRY: it is still filed under 3E8 while everything the company ships is branded Blueprint, and the Delaware entity of record is 3e8 Robotics Inc., so all three names are in play.",
+      "notes": "ICON ADDED AND DELIBERATELY NOT LOGO.DEV: this entry had no icon at all. logo.dev does resolve for blueprint.io but serves a stylised “B” that does not match the live brand, which is a blue rounded square with a chip glyph — the same stale-mark problem found on Minicor. Using the company’s own 512×512 android-chrome icon; the site serves it with a ?v=2 cache-buster but the bare path resolves and is used here. Confirmed the right company: the page title reads “Blueprint - AI Hardware Design Tool”. RETESTED 5 OCTOBER 2026 UNDER THE CAP-TABLE RULE AND KEPT. This entry had been flagged LIKELY DISQUALIFIED under the old US-headquarters criterion; that criterion no longer applies. 3e8 Robotics Inc. is a Delaware corporation, registered in California as a foreign stock corporation, document B20250218149 filed 22 July 2025, status active, “Formed In: Delaware”, principal address 2 Marina Blvd B300, San Francisco — the Founders Inc building — with David Feldt as CEO and director, Sajeel Purewal as CFO, secretary and director, and Ari Wasch as director. No Canadian entity was found for either 3E8 or Blueprint. The BetaKit “Toronto-based” framing and Feldt’s “Toronto, ON CA” site header describe where the team intends to live and are now irrelevant. THE BRAND IS NOW BLUEPRINT: blueprint.am redirects to blueprint.io, and the site is a single-page app that exposes no legal-entity name, so it is not established whether the SAFEs were issued by 3e8 Robotics Inc. under a charter amendment or by a newly formed Delaware entity — either way a Delaware corporation is at the top, and a Canadian holdco over an a16z speedrun company would be unusual and is unevidenced. Funding is SAFEs, which is why no Form D exists. The original 3E8 Robotics product is no longer operational; the team pivoted to Blueprint. CONSIDER RENAMING THIS ENTRY: it is still filed under 3E8 while everything the company ships is branded Blueprint, and the Delaware entity of record is 3e8 Robotics Inc., so all three names are in play.",
       "sources": [
         "https://www.bizprofile.net/ca/san-francisco/3e8-robotics-inc",
         "https://speedrun.a16z.com/companies/blueprint",
@@ -52954,7 +52954,7 @@
     "status": "Private",
     "founding_year": 2024,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/grizzhq.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "icon_url": "https://grizzhq.com/images/grizzly-logo.svg",
     "founders": [
       {
         "id": "adeel-zaman",
@@ -53007,8 +53007,8 @@
         "https://pitchbook.com/profiles/company/600602-59",
         "https://stealthstartupspy.substack.com/p/stealth-startup-spy-361"
       ],
-      "last_verified": "2026-10-01T12:00:00-07:00",
-      "notes": "Found by sweeping the 2026 Stealth Startup Spy newsletters (issue #361); the company spent about 29 months in stealth. LEGAL ENTITY IS ALGOHOUSE INC. — PitchBook carries it as formerly AlgoHouse Incorporated and the site footer still reads “© 2026 AlgoHouse Inc.”; search for that name, not Grizzly, when checking filings. HQ: the California Secretary of State registry gives AlgoHouse Inc. (doc. 6171531) a principal address of 833 Mahler Rd, Suite 20, Burlingame, CA, with Zaman as CEO, CFO, secretary and registered agent, Delaware incorporation and a California filing date of 3 April 2024. Burlingame is recorded on that basis even though the newsletter and some listings say San Francisco. The usual governing-law check is unavailable — grizzhq.com is a product and order site with no terms or privacy policy. CAPITAL RAISED IS NULL, NOT ZERO: one round exists but its amount has never been disclosed, so the Raised column shows an em dash rather than a figure. QUALIFIES ON ZAMAN’S WATERLOO ATTENDANCE, and the sourcing is second-hand rather than primary: Crunchbase states plainly that he “attended the University of Waterloo” and lists Computer Science, TheOrg’s Communitech profile says he holds “degrees from the University of Waterloo in Computer Science”, and a LinkedIn-scraped education section lists “Combinatorics & Optimization” — a department that exists only at Waterloo, which is why the attribution is treated as solid. His place of birth and citizenship are stated nowhere. Crunchbase also says he was among “Canada’s top 50 math students”, which would imply a Canadian secondary school, but no school is named so that is not recorded. DOZR is prior employment and does not itself qualify. Sole founder: Zaman is the only officer on the California filing and is described everywhere as founder in the singular."
+      "last_verified": "2026-10-15T12:00:00-07:00",
+      "notes": "ICON IS A DIRECT LOGO, NOT LOGO.DEV: logo.dev has no mark for grizzhq.com and returned 404, so this entry had been rendering fallback initials. The site’s only declared favicon is 16×16, so the 149×150 SVG logo is used instead — it is the bear-head mark and scales cleanly. Found by sweeping the 2026 Stealth Startup Spy newsletters (issue #361); the company spent about 29 months in stealth. LEGAL ENTITY IS ALGOHOUSE INC. — PitchBook carries it as formerly AlgoHouse Incorporated and the site footer still reads “© 2026 AlgoHouse Inc.”; search for that name, not Grizzly, when checking filings. HQ: the California Secretary of State registry gives AlgoHouse Inc. (doc. 6171531) a principal address of 833 Mahler Rd, Suite 20, Burlingame, CA, with Zaman as CEO, CFO, secretary and registered agent, Delaware incorporation and a California filing date of 3 April 2024. Burlingame is recorded on that basis even though the newsletter and some listings say San Francisco. The usual governing-law check is unavailable — grizzhq.com is a product and order site with no terms or privacy policy. CAPITAL RAISED IS NULL, NOT ZERO: one round exists but its amount has never been disclosed, so the Raised column shows an em dash rather than a figure. QUALIFIES ON ZAMAN’S WATERLOO ATTENDANCE, and the sourcing is second-hand rather than primary: Crunchbase states plainly that he “attended the University of Waterloo” and lists Computer Science, TheOrg’s Communitech profile says he holds “degrees from the University of Waterloo in Computer Science”, and a LinkedIn-scraped education section lists “Combinatorics & Optimization” — a department that exists only at Waterloo, which is why the attribution is treated as solid. His place of birth and citizenship are stated nowhere. Crunchbase also says he was among “Canada’s top 50 math students”, which would imply a Canadian secondary school, but no school is named so that is not recorded. DOZR is prior employment and does not itself qualify. Sole founder: Zaman is the only officer on the California filing and is described everywhere as founder in the singular."
     }
   },
   {
@@ -53582,7 +53582,7 @@
     "status": "Private",
     "founding_year": 2021,
     "yc_batch": "",
-    "icon_url": "https://img.logo.dev/arlynaccess.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "icon_url": "https://arlynaccess.ai/apple-icon.png",
     "founders": [
       {
         "id": "yutong-sun",
@@ -53634,8 +53634,8 @@
         "https://www.linkedin.com/in/yutong-sun-60629754",
         "https://www.firstround.com/companies"
       ],
-      "last_verified": "2026-10-05T12:00:00-07:00",
-      "notes": "Found by screening the First Round Capital portfolio. LEGAL ENTITY IS QUANTILE HEALTH INC., a Delaware corporation previously named Fennec Health Inc., SEC CIK 0002010428 — search filings under those names, not Arlyn AI, which is a 2026 rebrand. US HQ is New York, owner-confirmed and consistent with job postings placing the team at Hudson Yards on-site three days a week; the Albany and Great Neck addresses on the Form D are filing-agent addresses, and no terms-of-service governing-law clause is published. Founding year 2021 from the Form D’s year-of-incorporation field. Qualifies on Yutong Sun’s University of Toronto BASc in Engineering Science, 2008–2013. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Co-founders Peter D. Hancock (former AIG CEO, former J.P. Morgan CFO) and Andrew W. Lo (MIT Sloan) have no identified Canadian connection and so are not listed; Jonathan Gruber is chief policy officer, not a founder. No valuation has been disclosed and no round later than the 2024 seed has been found."
+      "last_verified": "2026-10-15T12:00:00-07:00",
+      "notes": "ICON IS A DIRECT FAVICON, NOT LOGO.DEV: logo.dev has no mark for arlynaccess.ai and returned 404, so this entry had been rendering fallback initials. Using the site’s own 180×180 apple-touch icon. The site serves it with a content-hash query string; the bare path resolves and is used here so a redeploy does not break it. Found by screening the First Round Capital portfolio. LEGAL ENTITY IS QUANTILE HEALTH INC., a Delaware corporation previously named Fennec Health Inc., SEC CIK 0002010428 — search filings under those names, not Arlyn AI, which is a 2026 rebrand. US HQ is New York, owner-confirmed and consistent with job postings placing the team at Hudson Yards on-site three days a week; the Albany and Great Neck addresses on the Form D are filing-agent addresses, and no terms-of-service governing-law clause is published. Founding year 2021 from the Form D’s year-of-incorporation field. Qualifies on Yutong Sun’s University of Toronto BASc in Engineering Science, 2008–2013. Canadian connection is owner-confirmed: the database owner checked the founder’s LinkedIn education section and confirms it. Our own attempt to read LinkedIn education sections failed for every profile in that session — a rendering limitation, not an absence — which is why this entry was held back once before being added. Co-founders Peter D. Hancock (former AIG CEO, former J.P. Morgan CFO) and Andrew W. Lo (MIT Sloan) have no identified Canadian connection and so are not listed; Jonathan Gruber is chief policy officer, not a founder. No valuation has been disclosed and no round later than the 2024 seed has been found."
     }
   },
   {
