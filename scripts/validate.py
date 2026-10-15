@@ -46,7 +46,21 @@ EVENT_ROUNDS = {
     "Acquired", "IPO", "SPAC", "Direct Listing",
     "Spin-Off", "Wind Down", "Bankruptcy", "Restructuring", "Recapitalization",
     "Secondary", "Secondary Public Offering", "Tender Offer",
-    "Post-IPO ATM", "Post-IPO Equity", "Post-IPO Debt", "Market Cap",
+    "Post-IPO ATM", "Post-IPO Equity", "Market Cap",
+}
+
+# Debt is not tracked. Borrowing is not capital raised against the company's
+# equity, the amounts are usually facility ceilings rather than money in the
+# bank, and mixing the two inflates the Raised column and the totals on the
+# front page — General Compute's $400M Upper90 facility against a $15M seed is
+# the case that forced the rule. Seven rows were removed in October 2026
+# (AppDirect x2, Highbeam, Solcoa, SingleStore, SoundHound's post-IPO debt and
+# General Compute), each recorded in the entry's notes so the fact survives
+# without being counted. Convertible notes are NOT debt for this purpose: they
+# convert to equity and sit on the equity track, so they stay.
+DEBT_ROUNDS = {
+    "Debt Financing", "Venture Debt", "Debt - General", "Debt",
+    "Post-IPO Debt", "Term Loan", "Credit Facility", "Revolver",
 }
 ROUND_KINDS = {"funding", "event"}
 
@@ -516,6 +530,12 @@ def main():
             if kind not in ROUND_KINDS:
                 err(f"{who} / {label}: kind {kind!r} must be one of {sorted(ROUND_KINDS)}")
             else:
+                if r.get("round") in DEBT_ROUNDS:
+                    err(f"{who} / {label}: {r.get('round')!r} is a debt financing, and this "
+                        f"database does not track debt. Remove the round and record the "
+                        f"borrowing in metadata.notes instead; make sure capital_raised "
+                        f"excludes it.")
+
                 expected = "event" if r.get("round") in EVENT_ROUNDS else "funding"
                 if kind != expected:
                     err(f"{who} / {label}: kind is {kind!r} but the round label "

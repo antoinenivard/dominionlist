@@ -2399,40 +2399,6 @@
           "https://thelogic.co/news/appdirect-valued-at-north-of-us1-5-billion-after-closing-new-funding-round/"
         ],
         "notes": "Valued at 'north of' US$1.5B per The Logic"
-      },
-      {
-        "date": "2021-06-23",
-        "round": "Debt Financing",
-        "kind": "funding",
-        "amount_usd": 80000000,
-        "amount_display": "$80M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "CDPQ"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.cdpq.com/en/news/pressreleases/cdpq-partners-with-appdirect-to-launch-appdirect-capital"
-        ],
-        "notes": "Debt facility to launch AppDirect Capital, a financing program for SaaS and marketplace partners"
-      },
-      {
-        "date": "2024-10-15",
-        "round": "Debt Financing",
-        "kind": "funding",
-        "amount_usd": 100000000,
-        "amount_display": "$100M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "CDPQ"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.appdirect.com/about/press/releases/appdirect-secures-100-million-from-cdpq-to-expand-appdirect-capital"
-        ],
-        "notes": "Expansion of AppDirect Capital debt facility"
       }
     ],
     "metadata": {
@@ -2448,10 +2414,10 @@
       "valuation_type": "post_money",
       "valuation_confidence": "high",
       "valuation_source_url": "https://thelogic.co/news/appdirect-valued-at-north-of-us1-5-billion-after-closing-new-funding-round/",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series F 2020. Added CDPQ debt rounds ($80M 2021, $100M 2024); $1.5B valuation sourced from The Logic (Series F 2020)."
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Debt Financing $80M on 2021-06-23 from CDPQ, Debt Financing $100M on 2024-10-15 from CDPQ. Capital raised was reduced from $610,750,000 accordingly. Recorded here so the fact is not lost, but it is not a round and is not counted. Checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Series F 2020. Added CDPQ debt rounds ($80M 2021, $100M 2024); $1.5B valuation sourced from The Logic (Series F 2020)."
     },
-    "capital_raised_usd": 610750000,
-    "capital_raised_display": "$611M",
+    "capital_raised_usd": 430750000,
+    "capital_raised_display": "$430.8M",
     "icon_url": ""
   },
   {
@@ -19095,23 +19061,6 @@
         "notes": ""
       },
       {
-        "date": "2023-02-13",
-        "round": "Venture Debt",
-        "kind": "funding",
-        "amount_usd": 10000000,
-        "amount_display": "$10M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "TriplePoint"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://techcrunch.com/2023/02/13/highbeam-secures-10m-loan-to-provide-credit-spend-monitoring-and-more-to-e-commerce-retailers/"
-        ],
-        "notes": "Debt facility"
-      },
-      {
         "date": "2025-09-10",
         "round": "Series A",
         "kind": "funding",
@@ -19135,14 +19084,14 @@
         "notes": ""
       }
     ],
-    "capital_raised_usd": 47000000,
-    "capital_raised_display": "$47M",
+    "capital_raised_usd": 37000000,
+    "capital_raised_display": "$37M",
     "icon_url": "",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found."
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Venture Debt $10M on 2023-02-13 from TriplePoint. Capital raised was reduced from $47,000,000 accordingly. Recorded here so the fact is not lost, but it is not a round and is not counted. Checked 2026-08-14 in full financing sweep — no new round/exit found."
     }
   },
   {
@@ -40140,32 +40089,15 @@
           "https://www.axios.com/pro/climate-deals/2026/09/24/solcoa-75-million-rare-earth"
         ],
         "notes": "Equity half of a $75M package announced the same day; the $30M of debt and equipment financing is the next row. The release gives no round name — Axios calls it seed equity and debt, PitchBook logs it as Early Stage VC, and nothing calls it a Series A. Bain’s Alyssa Co joins as the named partner (the release spells it “Alysaa”). No valuation disclosed. Funds construction and commissioning of Solcoa One plus expanded reactor manufacturing in Alameda."
-      },
-      {
-        "date": "2026-09-24",
-        "round": "Debt Financing",
-        "kind": "funding",
-        "amount_usd": 30000000,
-        "amount_display": "$30M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "J.P. Morgan"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://www.businesswire.com/news/home/20260924752270/en/"
-        ],
-        "notes": "Debt and equipment financing anchored by J.P. Morgan, announced together with the $45M of equity as “$75 million in financing.” Split into its own row so the Raised column does not imply $75M of equity."
       }
     ],
-    "capital_raised_usd": 78000000,
-    "capital_raised_display": "$78M",
+    "capital_raised_usd": 48000000,
+    "capital_raised_display": "$48M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
       "last_verified": "2026-09-25T12:00:00-07:00",
-      "notes": "US HQ per the company’s own September 2026 announcement — “Founded in 2025 and headquartered in Alameda, California” — plus a 31,000 sq ft Alameda facility and Alameda job postings. The usual governing-law check is unavailable: solcoaindustries.com is a single page with no terms or privacy policy. Ignore PitchBook’s Wilmington, DE address, a registered-agent address evidencing Delaware incorporation rather than the operating HQ. NO SEC FILING EXISTS: EDGAR full-text returns zero hits for “Solcoa” across all form types, so there is no Form D to arbitrate HQ, incorporation year or the officer list — unusual for a round this size, and worth re-checking later in case one simply had not posted. FOUNDING YEAR IS CONTESTED: 2023 is recorded and matches PitchBook, Scroll.media and our own 2024 pre-seed row, but the company’s own release says 2025, twice. The gap is probably a predecessor entity — it was previously called Solcoa Technologies. Do not ‘fix’ one without the other. VALUATION REMOVED: this entry used to carry $100M as a post-money on the pre-seed. That figure traces to marketing copy on the website of Solcoa’s branding agency and to a Forbes estimate relayed by Scroll.media, which said it could not verify it — it is an estimate of the company, not a disclosed round post-money, it predates the September 2026 round, and $3M raised at a $100M post-money was never plausible. No valuation has been disclosed at any round, so the company carries no rank in the valuation sort. CAPITAL RAISED is $78M and still understates the total: the pre-seed amount is unconfirmed, and Reza Nezhad’s $200,000 Thiel Fellowship is a grant to the founder rather than company equity, so it is not counted. QUALIFIES ON REZA NEZHAD, and the grounds have been corrected. Canadian secondary schooling is the sturdy one: Youth Science Canada’s official 2023 Canada-Wide Science Fair results list him as a Senior finalist for Waterloo-Wellington, Ontario, and CWSF finalists must be grade 7–12 students delegated by a Canadian regional fair; Foresight called him “a high school senior” and the Thiel Foundation’s 2025 announcement gives his hometown as “Waterloo, Canada.” Axios describes him as “a 20-year-old Canadian,” a reporter’s characterisation rather than a citizenship record, and he holds an O-1, consistent with being a non-US national. The previous ‘born Waterloo ON’ claim was unsupported — his place of birth is stated nowhere — so the type is education_citizenship, not birthplace_education. University of Waterloo has been removed from his institutions: he was a researcher in its Energy Research Center from age 16 while still in high school, never an enrolled student. University of Toronto is kept but rests only on his LinkedIn education section; he deferred university for the fellowship, so this may be an admission he did not take up. Worth confirming. The specific Waterloo high school is unconfirmed. CTO and co-founder Artem Iurkovskyi is Ukrainian, a Worcester Polytechnic graduate, with no identified Canadian connection, so he is not listed.",
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Debt Financing $30M on 2026-09-24 from J.P. Morgan. Capital raised was reduced from $78,000,000 accordingly. Recorded here so the fact is not lost, but it is not a round and is not counted. US HQ per the company’s own September 2026 announcement — “Founded in 2025 and headquartered in Alameda, California” — plus a 31,000 sq ft Alameda facility and Alameda job postings. The usual governing-law check is unavailable: solcoaindustries.com is a single page with no terms or privacy policy. Ignore PitchBook’s Wilmington, DE address, a registered-agent address evidencing Delaware incorporation rather than the operating HQ. NO SEC FILING EXISTS: EDGAR full-text returns zero hits for “Solcoa” across all form types, so there is no Form D to arbitrate HQ, incorporation year or the officer list — unusual for a round this size, and worth re-checking later in case one simply had not posted. FOUNDING YEAR IS CONTESTED: 2023 is recorded and matches PitchBook, Scroll.media and our own 2024 pre-seed row, but the company’s own release says 2025, twice. The gap is probably a predecessor entity — it was previously called Solcoa Technologies. Do not ‘fix’ one without the other. VALUATION REMOVED: this entry used to carry $100M as a post-money on the pre-seed. That figure traces to marketing copy on the website of Solcoa’s branding agency and to a Forbes estimate relayed by Scroll.media, which said it could not verify it — it is an estimate of the company, not a disclosed round post-money, it predates the September 2026 round, and $3M raised at a $100M post-money was never plausible. No valuation has been disclosed at any round, so the company carries no rank in the valuation sort. CAPITAL RAISED is $78M and still understates the total: the pre-seed amount is unconfirmed, and Reza Nezhad’s $200,000 Thiel Fellowship is a grant to the founder rather than company equity, so it is not counted. QUALIFIES ON REZA NEZHAD, and the grounds have been corrected. Canadian secondary schooling is the sturdy one: Youth Science Canada’s official 2023 Canada-Wide Science Fair results list him as a Senior finalist for Waterloo-Wellington, Ontario, and CWSF finalists must be grade 7–12 students delegated by a Canadian regional fair; Foresight called him “a high school senior” and the Thiel Foundation’s 2025 announcement gives his hometown as “Waterloo, Canada.” Axios describes him as “a 20-year-old Canadian,” a reporter’s characterisation rather than a citizenship record, and he holds an O-1, consistent with being a non-US national. The previous ‘born Waterloo ON’ claim was unsupported — his place of birth is stated nowhere — so the type is education_citizenship, not birthplace_education. University of Waterloo has been removed from his institutions: he was a researcher in its Energy Research Center from age 16 while still in high school, never an enrolled student. University of Toronto is kept but rests only on his LinkedIn education section; he deferred university for the fellowship, so this may be an admission he did not take up. Worth confirming. The specific Waterloo high school is unconfirmed. CTO and co-founder Artem Iurkovskyi is Ukrainian, a Worcester Polytechnic graduate, with no identified Canadian connection, so he is not listed.",
       "sources": [
         "https://www.businesswire.com/news/home/20260924752270/en/",
         "https://www.axios.com/pro/climate-deals/2026/09/24/solcoa-75-million-rare-earth",
@@ -40700,24 +40632,6 @@
         "notes": "Preferred equity from financial and strategic investors"
       },
       {
-        "date": "2023-04-17",
-        "round": "Post-IPO Debt",
-        "kind": "event",
-        "amount_usd": 100000000,
-        "amount_display": "$100M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Atlas Credit Partners"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-secures-100-million-strategic-financing-atlas",
-          "https://www.businesswire.com/news/home/20230417005377/en/SoundHound-AI-Secures-100-Million-in-Strategic-Financing-From-Atlas-Credit-Partners"
-        ],
-        "notes": "$125M loan facility ($100M funded at close, $25M available); 4-year term to 2027"
-      },
-      {
         "date": "2024-12",
         "round": "Post-IPO ATM",
         "kind": "event",
@@ -40794,13 +40708,13 @@
       "last_verified": "2026-09-30T16:00:00-08:00",
       "valuation_usd": 2673542200,
       "valuation_display": "$2.67B",
-      "notes": "Market cap at the 30 Sep 2026 close ($6.02 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Post-IPO Debt $100M on 2023-04-17 from Atlas Credit Partners. Capital raised was reduced from $700M to $600M accordingly — note this company’s total legitimately includes event rows (the 2022 SPAC, 2023 post-IPO equity and 2024 ATM), so it is not the sum of the funding rows alone. Recorded here so the fact is not lost, but it is not a round and is not counted. Market cap at the 30 Sep 2026 close ($6.02 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
       "valuation_as_of": "2026-09-30",
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/soun/"
     },
-    "capital_raised_usd": 700000000,
-    "capital_raised_display": "$700M",
+    "capital_raised_usd": 600000000,
+    "capital_raised_display": "$600M",
     "ticker": "SOUN"
   },
   {
@@ -53450,21 +53364,6 @@
         "notes": "A later-stage round PitchBook records with no amount and no valuation; the date is a placeholder of 1 January 2019 rather than a known day."
       },
       {
-        "date": "2020-05-11",
-        "round": "Debt Financing",
-        "kind": "funding",
-        "amount_usd": 50000000,
-        "amount_display": "$50M",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [
-          "https://pitchbook.com/profiles/company/55437-83"
-        ],
-        "notes": "General debt. Counted in capital raised, which is why that figure is not purely equity."
-      },
-      {
         "date": "2020-12-08",
         "round": "Series E",
         "kind": "funding",
@@ -53551,8 +53450,8 @@
         "acquirer": "Vector Capital"
       }
     ],
-    "capital_raised_usd": 582200000,
-    "capital_raised_display": "$582.2M",
+    "capital_raised_usd": 532200000,
+    "capital_raised_display": "$532.2M",
     "metadata": {
       "valuation_usd": 1320000000,
       "valuation_display": "$1.32B",
@@ -53567,7 +53466,7 @@
         "https://www.firstround.com/companies"
       ],
       "last_verified": "2026-10-05T16:00:00-07:00",
-      "notes": "Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. FUNDING HISTORY IS FROM PITCHBOOK’S DEAL HISTORY, supplied by the database owner, and replaces an earlier reconstruction from press and Wikipedia that was wrong on several dates and amounts and missed four deals entirely — the 2011 accelerator, a 2019 later-stage round, $50M of debt in 2020 and the second 2022 Series F. CAPITAL RAISED is $582.2M, PitchBook’s raised-to-date at the buyout; note it includes the $50M debt facility, so it is not a pure equity figure. The commonly cited $318.1M is stale. VALUATION IS THE JULY 2022 SERIES G POST-MONEY OF $1.32B, against a $1.20B pre-money. That resolves what this entry previously flagged as unresolvable: press at the time said only “more than $1 billion” and Bloomberg-sourced coverage said roughly $1.3B without specifying pre or post. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Debt Financing $50M on 2020-05-11. Capital raised was reduced from $582,200,000 accordingly. Recorded here so the fact is not lost, but it is not a round and is not counted. Found by screening the First Round Capital portfolio, which backed the Series A. US HQ confirmed by the terms of use, which give California governing law with venue in San Francisco and the legal address 388 Market Street, Suite 860, San Francisco; Sunnyvale, Seattle, Raleigh, London, Lisbon and Hyderabad are hubs, not the HQ. Founded January 2011 as MemSQL by Eric Frenkiel, Nikita Shamgunov and Adam Prout; renamed SingleStore in October 2020. Qualifies on Prout, whose Waterloo degrees are stated on SingleStore’s own author page for him: “Adam holds a bachelor’s and master’s in computer science from the University of Waterloo” — first-party, not an aggregator. Frenkiel (Stanford) and Shamgunov (educated entirely in Russia) have no Canadian connection and so are not listed. FUNDING HISTORY IS FROM PITCHBOOK’S DEAL HISTORY, supplied by the database owner, and replaces an earlier reconstruction from press and Wikipedia that was wrong on several dates and amounts and missed four deals entirely — the 2011 accelerator, a 2019 later-stage round, $50M of debt in 2020 and the second 2022 Series F. CAPITAL RAISED is $582.2M, PitchBook’s raised-to-date at the buyout; note it includes the $50M debt facility, so it is not a pure equity figure. The commonly cited $318.1M is stale. VALUATION IS THE JULY 2022 SERIES G POST-MONEY OF $1.32B, against a $1.20B pre-money. That resolves what this entry previously flagged as unresolvable: press at the time said only “more than $1 billion” and Bloomberg-sourced coverage said roughly $1.3B without specifying pre or post. Status is Acquired with stage Private (PE), following the New Relic precedent for a private-equity takeover where the company keeps operating."
     }
   },
   {
@@ -54244,24 +54143,6 @@
           "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/"
         ],
         "notes": "TechCrunch, exclusive: “a $15 million seed round at a $60 million post-money valuation, led by FUSE VC with participation from Carya Venture Partners and Village Global Ventures.” The valuation is stated as post-money in those words, so it is recorded as given. Evercrest Capital Partners is named in the same piece; Gaingels is inferred from an SPV Form D it filed in September 2026 (Gaingels General Compute LLC, CIK 0002149700) rather than from any announcement — neither appears on the company’s own backer list."
-      },
-      {
-        "date": "2026-07-17",
-        "round": "Debt Financing",
-        "kind": "funding",
-        "amount_usd": null,
-        "amount_display": "Undisclosed",
-        "valuation_usd": null,
-        "valuation_display": "",
-        "lead_investors": [
-          "Upper90"
-        ],
-        "other_investors": [],
-        "source_urls": [
-          "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
-          "https://www.generalcompute.com/blog/general-compute-cerebras-multi-year-agreement"
-        ],
-        "notes": "A chip-collateralised credit facility of UP TO $400M from Upper90, reported as the first secured against inference-specific rather than GPU silicon. AMOUNT LEFT NULL DELIBERATELY: $400M is the committed ceiling, not money raised — TechCrunch calls it “a $400 million loan” while the company and other coverage say “up to $400 million”, and the company’s Cerebras post describes the deployment as “the first deployment drawn against” it, so drawdowns are partial and unpublished. Adding the ceiling to capital raised would produce the “$415M total raised” figure circulating on investor tear sheets, which conflates debt capacity with equity. Upper90 is also reported to hold equity."
       }
     ],
     "capital_raised_usd": 15000000,
@@ -54281,7 +54162,7 @@
         "https://opencorporates.com/companies/us_de/10439770"
       ],
       "last_verified": "2026-10-16T12:00:00-07:00",
-      "notes": "Qualifies on Jason Goodison. The company’s own team page calls him “a Waterloo CS grad”, and that is corroborated independently of the company: Y Combinator’s launch post for his previous startup, Pair AI (W23), says he “graduated with distinction from the University of Waterloo”, and the University of Waterloo Computer Science Club billed him in Winter 2024 as “a YC founder, Ex-Microsoft, YouTuber, and Waterloo alumnus”. US ENTITY RESTS ON REGISTRY AND AGGREGATOR EVIDENCE, NOT A FILING. There is no Form D for the operating company — the only EDGAR hits are investor SPVs set up to invest in it (General Compute, a Series of Carya Funds, LLC; Gaingels General Compute LLC), which say nothing about the issuer’s own jurisdiction. The Delaware name index carries GENERAL COMPUTE INC. as a domestic corporation, file 10439770, and Crunchbase states the legal name as General Compute Inc. on a profile that unambiguously matches this company. A probable California foreign qualification exists as ‘General Compute of Delaware Inc.’, the standard device when the true name is taken in-state, but an unrelated New Jersey entity shares that name, so it is corroborating only. Worth upgrading to filing-grade proof if a Form D ever appears. HQ San Francisco from the company’s own careers page, which lists every open role as San Francisco, and its launch press release. Founding year 2025 from that same release; no registry date was obtained. The terms and privacy pages are empty shells with no entity, address or governing-law clause, so the usual HQ check was unavailable. CO-FOUNDER AND CEO FINN PUKLOWSKI IS SCREENED AND DOES NOT QUALIFY: he is a New Zealander, raised in Raglan, on the board of Endeavor New Zealand, and built Fluency Academy, a Brazilian language-learning company, to $40M ARR with General Atlantic backing. No Canadian institution, birth or citizenship appears anywhere, so he is not listed. Commercial context, company-stated: a multi-year agreement with Cerebras announced 29 September 2026 with capacity live Q1 2027, $300M of SambaNova SN50 chips on order, and 30MW+ in colocation pipeline."
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Debt Financing Undisclosed on 2026-07-17 from Upper90. Recorded here so the fact is not lost, but it is not a round and is not counted. Qualifies on Jason Goodison. The company’s own team page calls him “a Waterloo CS grad”, and that is corroborated independently of the company: Y Combinator’s launch post for his previous startup, Pair AI (W23), says he “graduated with distinction from the University of Waterloo”, and the University of Waterloo Computer Science Club billed him in Winter 2024 as “a YC founder, Ex-Microsoft, YouTuber, and Waterloo alumnus”. US ENTITY RESTS ON REGISTRY AND AGGREGATOR EVIDENCE, NOT A FILING. There is no Form D for the operating company — the only EDGAR hits are investor SPVs set up to invest in it (General Compute, a Series of Carya Funds, LLC; Gaingels General Compute LLC), which say nothing about the issuer’s own jurisdiction. The Delaware name index carries GENERAL COMPUTE INC. as a domestic corporation, file 10439770, and Crunchbase states the legal name as General Compute Inc. on a profile that unambiguously matches this company. A probable California foreign qualification exists as ‘General Compute of Delaware Inc.’, the standard device when the true name is taken in-state, but an unrelated New Jersey entity shares that name, so it is corroborating only. Worth upgrading to filing-grade proof if a Form D ever appears. HQ San Francisco from the company’s own careers page, which lists every open role as San Francisco, and its launch press release. Founding year 2025 from that same release; no registry date was obtained. The terms and privacy pages are empty shells with no entity, address or governing-law clause, so the usual HQ check was unavailable. CO-FOUNDER AND CEO FINN PUKLOWSKI IS SCREENED AND DOES NOT QUALIFY: he is a New Zealander, raised in Raglan, on the board of Endeavor New Zealand, and built Fluency Academy, a Brazilian language-learning company, to $40M ARR with General Atlantic backing. No Canadian institution, birth or citizenship appears anywhere, so he is not listed. Commercial context, company-stated: a multi-year agreement with Cerebras announced 29 September 2026 with capacity live Q1 2027, $300M of SambaNova SN50 chips on order, and 30MW+ in colocation pipeline."
     }
   }
 ]
