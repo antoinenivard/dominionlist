@@ -44568,7 +44568,7 @@
     "hq_country": "US",
     "founding_year": 2016,
     "industry": "AI",
-    "stage": "Series D",
+    "stage": "Series E",
     "status": "Private",
     "yc_batch": "",
     "founders": [
@@ -44682,26 +44682,63 @@
           "https://betakit.com/ai-chipmaker-tenstorrent-closes-nearly-700-million-usd-series-d-at-2-6-billion-valuation/"
         ],
         "notes": "Company disclosed a $2B pre-money; $2B + $693M is about $2.69B post-money. Bloomberg and BetaKit both published $2.6B, which is the figure in general use and the one recorded here."
+      },
+      {
+        "date": "2026-10-19",
+        "round": "Series E",
+        "kind": "funding",
+        "amount_usd": 1500000000,
+        "amount_display": "$1.5B",
+        "valuation_usd": 6200000000,
+        "valuation_display": "$6.2B",
+        "lead_investors": [
+          "Trace Capital",
+          "Innovation X"
+        ],
+        "other_investors": [
+          "ARK Invest",
+          "Fidelity Management & Research Company",
+          "Morgan Stanley",
+          "T. Rowe Price",
+          "Sandisk",
+          "Tether Investments",
+          "Protagonist",
+          "Eclipse",
+          "Maverick Silicon",
+          "Cadence Ventures",
+          "Virtu Financial",
+          "XTX Markets",
+          "Agostinelli Group",
+          "Troluce Capital",
+          "Brett Barna"
+        ],
+        "source_urls": [
+          "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
+          "https://money.usnews.com/investing/news/articles/2026-10-19/ai-chip-startup-tenstorrent-more-than-doubles-its-valuation-to-6-2-billion-in-funding-round"
+        ],
+        "notes": "From the company’s own announcement, which states the terms plainly: “closed $1.5B in Series E funding at a $6.2B post-money valuation”, led by Trace Capital and Innovation X. Post-money is stated in those words, so no derivation. Capital funds deploying Galaxy servers at scale and the AI and CPU IP it licenses. Reuters coverage adds that Tenstorrent explored acquisition talks with Intel and Qualcomm earlier in 2026 and that Jim Keller judged raising to be the better outcome — reported, not company-confirmed, and recorded here only as context."
       }
     ],
     "metadata": {
       "sources": [
+        "https://money.usnews.com/investing/news/articles/2026-10-19/ai-chip-startup-tenstorrent-more-than-doubles-its-valuation-to-6-2-billion-in-funding-round",
+        "https://tenstorrent.com/newsroom/tenstorrent-announces-series-e",
         "https://techcrunch.com/2025/01/13/ai-chip-startup-tenstorrent-raises-693m/",
         "https://tenstorrent.com/en/vision/tenstorrent-closes-693m-of-series-d-funding-led-by-samsung-securities-and-afw-partners",
         "https://www.crunchbase.com/person/ljubisa-bajic",
         "https://betakit.com/hardware-startup-tenstorrent-raises-over-200-million-in-funding-claims-1-billion-valuation/"
       ],
-      "last_verified": "2026-08-14T12:00:00-08:00",
-      "valuation_usd": 2600000000,
-      "valuation_display": "$2.6B",
+      "last_verified": "2026-10-19T12:00:00-07:00",
+      "valuation_usd": 6200000000,
+      "valuation_display": "$6.2B",
       "valuation_type": "post_money",
       "valuation_confidence": "medium",
       "valuation_source_url": "https://techcrunch.com/2025/01/13/ai-chip-startup-tenstorrent-raises-693m/",
-      "notes": "The $2.7B previously carried here and the $2.6B on the round were never two facts — both are roundings of the same December 2024 Series D. The company disclosed only a $2B pre-money.",
-      "valuation_as_of": "2024-12"
+      "notes": "Valuation is the $6.2B post-money of the Series E closed 19 October 2026, stated as post-money in the company’s own announcement. That is up from $2.6B in December 2024 — roughly 2.4x in under two years. The $2.7B previously carried here and the $2.6B on the round were never two facts — both are roundings of the same December 2024 Series D. The company disclosed only a $2B pre-money.",
+      "valuation_as_of": "2026-10"
     },
-    "capital_raised_usd": 926200000,
-    "capital_raised_display": "$926M",
+    "capital_raised_usd": 2426200000,
+    "capital_raised_display": "$2.43B",
     "icon_url": ""
   },
   {
