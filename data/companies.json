@@ -5814,13 +5814,13 @@
     "id": "blacksmith",
     "name": "Blacksmith",
     "website": "https://blacksmith.sh",
-    "description": "Blacksmith is the fastest way to run GitHub Actions CI, providing high-performance cloud infrastructure for continuous integration.",
+    "description": "Infrastructure platform for building and testing code. Runs GitHub Actions CI on bare-metal cloud runners purpose-built for CI workloads, with caching tooling on top; the company says jobs run about twice as fast at roughly 60% lower cost. More than 10,000 companies use it, including Ashby, Granola, Handshake and LangChain.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
     "founding_year": 2024,
     "industry": "Enterprise",
-    "stage": "Series B",
+    "stage": "Series C",
     "status": "Private",
     "yc_batch": "W'24",
     "founders": [
@@ -5927,22 +5927,47 @@
           "https://www.prnewswire.com/news-releases/blacksmith-raises-45m-series-b-from-peak-xv-partners-as-ai-generated-code-drives-demand-for-faster-code-validation-302849104.html"
         ],
         "notes": "Announced 2026-08-12. 6,000+ customers incl. Supabase, Clerk, Ashby, Mercury. Also ships 'codesmith', a cloud coding agent."
+      },
+      {
+        "date": "2026-10-21",
+        "round": "Series C",
+        "kind": "funding",
+        "amount_usd": 66000000,
+        "amount_display": "$66M",
+        "valuation_usd": 1000000000,
+        "valuation_display": "$1B",
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "other_investors": [
+          "Premji Invest",
+          "Peak XV Partners",
+          "GV",
+          "Y Combinator"
+        ],
+        "source_urls": [
+          "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html"
+        ],
+        "notes": "From the company’s own release: “a $66M Series C led by Sequoia Capital at a $1 billion valuation, with participation from Premji Invest and existing investors Peak XV Partners, GV and Y Combinator”. Isaiah Boone is the Sequoia partner. The release says “at a $1 billion valuation” without the word post-money; it is recorded as post-money on the owner’s reading and on the convention that a round announcement quoting “raises $X at a $Y valuation” means post — the same treatment given to Docker’s Series C here. Two months after the Series B, which Fortune reported at a $550M valuation; that earlier figure is not recorded because it has not been verified first-hand."
       }
     ],
     "metadata": {
       "sources": [
+        "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html",
         "https://betakit.com/here-are-the-canadian-startups-in-y-combinators-winter-2024-batch/",
         "https://www.blacksmith.sh/blog/blacksmith-seed-announcement",
         "https://www.ycombinator.com/companies/blacksmith",
         "https://www.prnewswire.com/news-releases/blacksmith-raises-10m-to-unblock-ai-development-302559870.html"
       ],
-      "last_verified": "2026-08-14T00:00:00Z",
-      "valuation_usd": null,
-      "valuation_display": "",
-      "notes": "2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release."
+      "last_verified": "2026-10-21T12:00:00-07:00",
+      "valuation_usd": 1000000000,
+      "valuation_display": "$1B",
+      "notes": "Reached unicorn status on the October 2026 Series C. Before that this entry carried NO valuation at all, so it had been sorting as unvalued. CAPITAL RAISED is $125M, the total the company states in its own release; note the itemised rounds sum to $124.5M, the difference being the Y Combinator standard cheque, which this database counts in the total but does not itemise. The release is datelined San Francisco and the company is hiring in both New York and San Francisco. All three founders are named in it — Aditya (JP) Jayaprakash, Aayush Shah and Aditya Maru — and founding year 2024 is confirmed there. 2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release.",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-10"
     },
-    "capital_raised_usd": 59000000,
-    "capital_raised_display": "$59M",
+    "capital_raised_usd": 125000000,
+    "capital_raised_display": "$125M",
     "icon_url": ""
   },
   {
