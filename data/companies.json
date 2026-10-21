@@ -54201,5 +54201,77 @@
       "last_verified": "2026-10-16T12:00:00-07:00",
       "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Debt Financing Undisclosed on 2026-07-17 from Upper90. Recorded here so the fact is not lost, but it is not a round and is not counted. Qualifies on Jason Goodison. The company’s own team page calls him “a Waterloo CS grad”, and that is corroborated independently of the company: Y Combinator’s launch post for his previous startup, Pair AI (W23), says he “graduated with distinction from the University of Waterloo”, and the University of Waterloo Computer Science Club billed him in Winter 2024 as “a YC founder, Ex-Microsoft, YouTuber, and Waterloo alumnus”. US ENTITY RESTS ON REGISTRY AND AGGREGATOR EVIDENCE, NOT A FILING. There is no Form D for the operating company — the only EDGAR hits are investor SPVs set up to invest in it (General Compute, a Series of Carya Funds, LLC; Gaingels General Compute LLC), which say nothing about the issuer’s own jurisdiction. The Delaware name index carries GENERAL COMPUTE INC. as a domestic corporation, file 10439770, and Crunchbase states the legal name as General Compute Inc. on a profile that unambiguously matches this company. A probable California foreign qualification exists as ‘General Compute of Delaware Inc.’, the standard device when the true name is taken in-state, but an unrelated New Jersey entity shares that name, so it is corroborating only. Worth upgrading to filing-grade proof if a Form D ever appears. HQ San Francisco from the company’s own careers page, which lists every open role as San Francisco, and its launch press release. Founding year 2025 from that same release; no registry date was obtained. The terms and privacy pages are empty shells with no entity, address or governing-law clause, so the usual HQ check was unavailable. CO-FOUNDER AND CEO FINN PUKLOWSKI IS SCREENED AND DOES NOT QUALIFY: he is a New Zealander, raised in Raglan, on the board of Endeavor New Zealand, and built Fluency Academy, a Brazilian language-learning company, to $40M ARR with General Atlantic backing. No Canadian institution, birth or citizenship appears anywhere, so he is not listed. Commercial context, company-stated: a multi-year agreement with Cerebras announced 29 September 2026 with capacity live Q1 2027, $300M of SambaNova SN50 chips on order, and 30MW+ in colocation pipeline."
     }
+  },
+  {
+    "id": "asymptote-labs",
+    "name": "Asymptote Labs",
+    "website": "https://asymptotelabs.ai",
+    "description": "Runtime observability, governance and security layer for AI agents. Its open-source core, Beacon, is an MIT-licensed telemetry layer that captures agent activity across Claude Code, Codex, Cursor and more than twenty other harnesses and normalises it into a common data model extending OpenTelemetry. The enterprise platform sits on top, intercepting live agent activity and enforcing policy guardrails at the prompt and tool level to block risky actions, with detections covering data leakage, insider threats and AI supply-chain risk. Security teams are the initial customers, with engineering, platform and FinOps uses layered on the same telemetry.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "",
+    "icon_url": "https://asymptotelabs.ai/apple-icon.png",
+    "founders": [
+      {
+        "id": "justin-d-souza",
+        "name": "Justin D'Souza",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/jqdsouza/",
+        "x_url": "https://x.com/jqdsouza",
+        "wikipedia_url": "",
+        "bio": "Co-Founder & CEO of Asymptote Labs. Born in Canada and studied computer engineering at the University of Waterloo, after a childhood spent largely in Hong Kong, India and the Philippines. Previously an early engineer at Doppel, where he built the real-time machine-learning detection platform and scaled it from a million to over a billion domains a day, and before that at Level, Caffeine and Quandl. South Park Commons Founder Fellow.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-10-20",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 5500000,
+        "amount_display": "$5.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Tower Research Ventures"
+        ],
+        "other_investors": [
+          "Lytical Ventures",
+          "1984 Ventures",
+          "South Park Commons",
+          "Kevin Tian",
+          "Rahul Madduluri",
+          "Feross Aboukhadijeh"
+        ],
+        "source_urls": [
+          "https://asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round"
+        ],
+        "notes": "From the company’s own announcement: an oversubscribed $5.5M seed led by Tower Research Ventures, the venture arm of Tower Research Capital, with Lytical Ventures, 1984 Ventures and South Park Commons. Angels named are Doppel co-founders Kevin Tian and Rahul Madduluri and Socket founder Feross Aboukhadijeh; the site lists a much longer roster of security and engineering angels whose participation in this specific round is not stated, so they are not recorded. NO VALUATION DISCLOSED — not in the release, nor in any coverage found."
+      }
+    ],
+    "capital_raised_usd": 5500000,
+    "capital_raised_display": "$5.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round",
+        "https://asymptotelabs.ai/about",
+        "http://justindsouza.com/",
+        "https://github.com/Asymptote-Labs/agent-beacon"
+      ],
+      "last_verified": "2026-10-20T14:00:00-07:00",
+      "notes": "Qualifies on Justin D’Souza on BOTH available grounds, from his own site: “I studied Computer Engineering at the University of Waterloo. My childhood was a bit unusual. I was born in Canada, but spent most of my early years abroad in different pockets of Asia (Hong Kong, India, and the Philippines). I later returned north for school and eventually settled in the U.S.” The Waterloo leg is corroborated independently by the company’s own about page. canadian_city is left empty because the birth city is not stated — only the country. HQ New York, confirmed three ways: the press release is datelined and states “headquartered in New York City”, South Park Commons’ portfolio lists New York, and the terms of service point severed claims to New York state or federal courts. Note the terms give a notice address that is an apartment, 888 8th Avenue Apt 16L, so that is a founder’s residence used as a registered contact rather than an office. LEGAL ENTITY IS ASYMPTOTE LABS, INC., per the terms and the site footer, but THE STATE OF INCORPORATION IS NOT ESTABLISHED: EDGAR full-text returns zero Form D filings for the company, so the seed was either not filed under Reg D or has not posted yet, and no Delaware record surfaced. Delaware should be treated as unconfirmed rather than assumed; recheck for a Form D in November 2026. The terms carry no clean choice-of-law clause — arbitration runs under the Federal Arbitration Act with JAMS, seated in the claimant’s county. Co-founder and CTO Shukan Shah does not qualify: Georgia Tech computer science, corroborated by the company’s about page, his ResearchGate profile and a 2018 paper out of Georgia Tech’s Entertainment Intelligence Lab. His secondary school is probably John P. Stevens High School in Edison, New Jersey, but that rests on thin sourcing and is not established; either way no Canadian ground is in evidence, so he is not listed. DO NOT READ THE ANGEL ROSTER AS A CANADIAN TIE: the homepage lists Henry Shi, co-founder of Super.com, who is Canadian and separately on this list, among its backers. An investor’s connection does not qualify a company. Founded 2025 per South Park Commons’ portfolio; Beacon launched May 2026 and reached number three on GitHub’s global trending repositories, with stars up more than 460% in September 2026 — company-stated figures."
+    }
   }
 ]
