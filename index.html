@@ -2282,6 +2282,13 @@ function openDetail(c) {
     const dateKey = r => r.date || (r.year ? String(r.year) : '');
     const sorted = rounds.sort((a, b) => dateKey(b).localeCompare(dateKey(a)) || stageOrder(b.stage || '') - stageOrder(a.stage || ''));
     sorted.forEach(r => {
+      /* The schema field is source_urls, an array, and it is populated on every
+         round. This only ever read the singular sourceUrl/source_url, which no
+         round has, so round sources never reached the Sources panel at all —
+         1,276 rounds' worth of citations were invisible. Read the array, keep
+         the singular fallback for any legacy record. */
+      const list = r.sourceUrls || r.source_urls;
+      if (Array.isArray(list)) list.forEach(u => { if (u) fundingSources.push(u); });
       const src = r.sourceUrl || r.source_url;
       if (src) fundingSources.push(src);
     });

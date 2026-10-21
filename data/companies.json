@@ -5914,8 +5914,8 @@
         "kind": "funding",
         "amount_usd": 45000000,
         "amount_display": "$45M",
-        "valuation_usd": null,
-        "valuation_display": "",
+        "valuation_usd": 550000000,
+        "valuation_display": "$550M",
         "lead_investors": [
           "Peak XV Partners"
         ],
@@ -5924,9 +5924,10 @@
           "Google Ventures"
         ],
         "source_urls": [
+          "https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/",
           "https://www.prnewswire.com/news-releases/blacksmith-raises-45m-series-b-from-peak-xv-partners-as-ai-generated-code-drives-demand-for-faster-code-validation-302849104.html"
         ],
-        "notes": "Announced 2026-08-12. 6,000+ customers incl. Supabase, Clerk, Ashby, Mercury. Also ships 'codesmith', a cloud coding agent."
+        "notes": "Valuation of $550M from Fortune's 21 October 2026 exclusive on the Series C, which states the Series C “comes about two months after the company raised a $45 million Series B led by Peak XV Partners at a $550 million valuation”. The August Series B press release itself did not give a valuation. Note the round actually closed in March 2026 and was announced in August, five months later, so the date here is the announcement."
       },
       {
         "date": "2026-10-21",
@@ -5953,18 +5954,20 @@
     ],
     "metadata": {
       "sources": [
+        "https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/",
         "https://www.prnewswire.com/news-releases/blacksmith-raises-sequoia-led-series-c-at-1-billion-valuation-to-scale-code-validation-302915140.html",
         "https://betakit.com/here-are-the-canadian-startups-in-y-combinators-winter-2024-batch/",
         "https://www.blacksmith.sh/blog/blacksmith-seed-announcement",
         "https://www.ycombinator.com/companies/blacksmith",
         "https://www.prnewswire.com/news-releases/blacksmith-raises-10m-to-unblock-ai-development-302559870.html"
       ],
-      "last_verified": "2026-10-21T12:00:00-07:00",
+      "last_verified": "2026-10-21T16:00:00-07:00",
       "valuation_usd": 1000000000,
       "valuation_display": "$1B",
-      "notes": "Reached unicorn status on the October 2026 Series C. Before that this entry carried NO valuation at all, so it had been sorting as unvalued. CAPITAL RAISED is $125M, the total the company states in its own release; note the itemised rounds sum to $124.5M, the difference being the Y Combinator standard cheque, which this database counts in the total but does not itemise. The release is datelined San Francisco and the company is hiring in both New York and San Francisco. All three founders are named in it — Aditya (JP) Jayaprakash, Aayush Shah and Aditya Maru — and founding year 2024 is confirmed there. 2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release.",
+      "notes": "The Series B now carries its $550M valuation, sourced to Fortune's Series C exclusive, which is where the figure appears — the August Series B release gave no valuation. That makes the step-up visible: $550M to $1B in two months. Reached unicorn status on the October 2026 Series C. Before that this entry carried NO valuation at all, so it had been sorting as unvalued. CAPITAL RAISED is $125M, the total the company states in its own release; note the itemised rounds sum to $124.5M, the difference being the Y Combinator standard cheque, which this database counts in the total but does not itemise. The release is datelined San Francisco and the company is hiring in both New York and San Francisco. All three founders are named in it — Aditya (JP) Jayaprakash, Aayush Shah and Aditya Maru — and founding year 2024 is confirmed there. 2026-08 Series B $45M led by Peak XV. Domain blacksmith.sh + all three founders (Jayaprakash/Shah/Maru) confirmed in release.",
       "valuation_type": "post_money",
-      "valuation_as_of": "2026-10"
+      "valuation_as_of": "2026-10",
+      "valuation_source_url": "https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/"
     },
     "capital_raised_usd": 125000000,
     "capital_raised_display": "$125M",
