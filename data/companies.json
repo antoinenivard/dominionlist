@@ -1692,10 +1692,10 @@
     }
   },
   {
-    "id": "amigo",
-    "name": "Amigo",
-    "website": "https://www.amigo.ai",
-    "description": "AI-based clinical agent infrastructure for healthcare delivery optimization.",
+    "id": "concurrence",
+    "name": "Concurrence",
+    "website": "https://www.concurrence.com",
+    "description": "Clinical AI agents for healthcare organisations. Handles the work surrounding diagnosis rather than diagnosis itself — intake, care navigation, scheduling, follow-up, documentation and support between visits — deployed into health systems, payers, life sciences and public sector bodies. Agents are trained against populations of simulated virtual patients before deployment, an approach the company calls a digital residency, and the resulting interaction traces are fed back as what it calls Patient Trajectories. SOC 2 Type II audited with EHR integrations; the company says it has reached more than ten million patients.",
     "hq_city": "New York",
     "hq_region": "NY",
     "hq_country": "US",
@@ -1760,15 +1760,20 @@
       }
     ],
     "metadata": {
-      "sources": [],
-      "last_verified": "2026-09-30T16:00:00-08:00",
+      "sources": [
+        "https://www.concurrence.com/blog/amigo-changes-name-to-concurrence",
+        "https://www.morningstar.com/news/pr-newswire/20260921ny52320/amigo-announces-rebrand-as-concurrence-to-turn-healthcare-into-a-system-that-learns",
+        "https://www.concurrence.com/blog/concurrence-announces-partnership-with-databricks-to-build-health-world-models-that-predict-patient-outcomes"
+      ],
+      "last_verified": "2026-10-27T12:00:00-07:00",
       "valuation_usd": null,
       "valuation_display": "",
-      "notes": "Stage corrected Seed->Series A: $11M Series A led by Madrona announced 2026-03-10; prior rounds were undated/unattributed. Domain amigo.ai + founder Ali Khokhar confirmed in BusinessWire release. Total $17.5M ($6.5M+$11M); press states '$17M total'. FORWARD SIGNAL: Axios (2026-03-10) reports Khokhar in talks for a $30-50M Series B before end of 2026 - recheck in Q4."
+      "notes": "RENAMED FROM AMIGO TO CONCURRENCE on 21 September 2026 — same company, same founder, announced by Ali Khokhar on the company blog and over PR Newswire. The id here is now concurrence with legacy_id amigo, so existing ?company=amigo links still resolve. Search older coverage, filings and aggregator profiles under Amigo or Amigo AI; its marketplace listings on AWS, Microsoft and Databricks still carry the Amigo name. Q4 RECHECK RESOLVED, NO SERIES B: the previous note flagged an Axios report of 10 March 2026 that Khokhar was in talks for a $30–50M Series B before the end of 2026. As of 27 October 2026 no Series B has been announced — the Series A remains the latest round in the company’s own posts, Crunchbase and press. Worth one more look in December. FOUNDING YEAR IS CONTESTED: 2023 is recorded here, but Khokhar’s rename post says “I started Amigo in 2024” and Crunchbase dates the seed to 2024 at $6.3M where this entry has $6.5M in 2025. The seed row’s own date and amount should be re-sourced alongside the founding year rather than changed piecemeal. PitchBook separately reports $23.3M raised against the $17.5M recorded here, which is the sum of the two sourced rounds. Announced a multi-year partnership with Databricks on 22 September 2026 to build health world models. Stage corrected Seed->Series A: $11M Series A led by Madrona announced 2026-03-10; prior rounds were undated/unattributed. Domain amigo.ai + founder Ali Khokhar confirmed in BusinessWire release. Total $17.5M ($6.5M+$11M); press states '$17M total'. FORWARD SIGNAL: Axios (2026-03-10) reports Khokhar in talks for a $30-50M Series B before end of 2026 - recheck in Q4."
     },
     "capital_raised_usd": 17500000,
     "capital_raised_display": "$17.5M",
-    "icon_url": ""
+    "icon_url": "https://www.concurrence.com/apple-touch-icon.png",
+    "legacy_id": "amigo"
   },
   {
     "id": "anthropic",
