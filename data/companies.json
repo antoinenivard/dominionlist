@@ -54306,5 +54306,225 @@
       "last_verified": "2026-10-20T14:00:00-07:00",
       "notes": "Qualifies on Justin D’Souza on BOTH available grounds, from his own site: “I studied Computer Engineering at the University of Waterloo. My childhood was a bit unusual. I was born in Canada, but spent most of my early years abroad in different pockets of Asia (Hong Kong, India, and the Philippines). I later returned north for school and eventually settled in the U.S.” The Waterloo leg is corroborated independently by the company’s own about page. canadian_city is left empty because the birth city is not stated — only the country. HQ New York, confirmed three ways: the press release is datelined and states “headquartered in New York City”, South Park Commons’ portfolio lists New York, and the terms of service point severed claims to New York state or federal courts. Note the terms give a notice address that is an apartment, 888 8th Avenue Apt 16L, so that is a founder’s residence used as a registered contact rather than an office. LEGAL ENTITY IS ASYMPTOTE LABS, INC., per the terms and the site footer, but THE STATE OF INCORPORATION IS NOT ESTABLISHED: EDGAR full-text returns zero Form D filings for the company, so the seed was either not filed under Reg D or has not posted yet, and no Delaware record surfaced. Delaware should be treated as unconfirmed rather than assumed; recheck for a Form D in November 2026. The terms carry no clean choice-of-law clause — arbitration runs under the Federal Arbitration Act with JAMS, seated in the claimant’s county. Co-founder and CTO Shukan Shah does not qualify: Georgia Tech computer science, corroborated by the company’s about page, his ResearchGate profile and a 2018 paper out of Georgia Tech’s Entertainment Intelligence Lab. His secondary school is probably John P. Stevens High School in Edison, New Jersey, but that rests on thin sourcing and is not established; either way no Canadian ground is in evidence, so he is not listed. DO NOT READ THE ANGEL ROSTER AS A CANADIAN TIE: the homepage lists Henry Shi, co-founder of Super.com, who is Canadian and separately on this list, among its backers. An investor’s connection does not qualify a company. Founded 2025 per South Park Commons’ portfolio; Beacon launched May 2026 and reached number three on GitHub’s global trending repositories, with stars up more than 460% in September 2026 — company-stated figures."
     }
+  },
+  {
+    "id": "anyalpha",
+    "name": "AnyAlpha",
+    "website": "https://anyalpha.ai",
+    "description": "Agentic trading platform that turns a stated trading idea into an autonomous agent. The product scopes the idea with the user, builds the agent on institutional-grade market data, backtests it against history and then trades it live around the clock across multiple exchanges. Launched on prediction markets with an iOS app, with further asset classes planned.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/anyalpha.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "shirley-shiyi-peng",
+        "name": "Shirley (Shiyi) Peng",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "https://x.com/shiyi_peng",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of AnyAlpha (YC F26). Studied computer science at the University of Waterloo and built trading systems at Coinbase and LSEG. Previously created MasterInterview, a top-10 GPT in OpenAI's GPT Store, and bootstrapped apps to $500K ARR with co-founder Jerry Miao.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/anyalpha"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/anyalpha",
+        "https://anyalpha.ai"
+      ],
+      "last_verified": "2026-10-28T12:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email of 23 October 2026, Fall 2026 batch. Qualifies on Shirley Peng, whose YC bio reads “Shirley studied computer science at the University of Waterloo”. HQ San Francisco per YC. Co-founder and CTO Jerry Miao studied computer science at UC Berkeley and has no Canadian connection, so he is not listed."
+    }
+  },
+  {
+    "id": "telamont",
+    "name": "Telamont",
+    "website": "https://telamont.com",
+    "description": "Risk detection for construction documents. Telamont connects to where a project's files live, ingests every drawing, specification, contract, geotechnical study, addendum and revision as it lands, and checks each page against the rest of the project to surface contractual, technical and code-compliance discrepancies. Teams then track each flagged risk from detection to resolution, with integrations into Procore, Autodesk Construction Cloud, SharePoint, Box and Dropbox.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/telamont.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "charles-goulet",
+        "name": "Charles Goulet",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/charles-goulet-62655b17a",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Telamont (YC F26). Computer science at Université Laval. Third-generation member of a Quebec construction family. Previously a senior engineer at 1Password and a quant at Scotiabank.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université Laval",
+        "canadian_institutions": [
+          "Université Laval"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "william-g-gagnon",
+        "name": "William G. Gagnon",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/williamggagnon",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Telamont (YC F26). Computer science at Université Laval. Previously a data and AI engineer at Poka.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université Laval",
+        "canadian_institutions": [
+          "Université Laval"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/telamont"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/telamont",
+        "https://telamont.com"
+      ],
+      "last_verified": "2026-10-28T12:00:00-07:00",
+      "notes": "Sourced from a Y Combinator investor announcement email of 23 October 2026, Fall 2026 batch. Both founders qualify on education: YC's own company page states “CS, Université Laval” for each. HQ San Francisco per YC; the company is also hiring in Quebec, which does not affect the cap-table test."
+    }
+  },
+  {
+    "id": "plyxl",
+    "name": "Plyxl",
+    "website": "https://plyxl.com",
+    "description": "AI workspace for small and mid-sized businesses. Plyxl connects to the tools a company already uses and lets staff ask in plain language for an app, an automation or a one-off task, then builds and runs it across those systems. Actions that cannot be undone, such as sending email or taking payment, wait for explicit approval. Connects to arbitrary MCP servers and APIs.",
+    "hq_city": "",
+    "hq_region": "",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "W'27",
+    "icon_url": "https://img.logo.dev/plyxl.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "nirmay-singh",
+        "name": "Nirmay Singh",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/nirmay-singh",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Plyxl (YC W27). Attended Burnaby North Secondary in Burnaby, British Columbia and the University of British Columbia. Previously founded The Game Box, an open-source educational game platform with more than 5,000 monthly classroom users.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of British Columbia",
+        "canadian_institutions": [
+          "University of British Columbia",
+          "Burnaby North Secondary"
+        ],
+        "canadian_city": "Burnaby, BC"
+      },
+      {
+        "id": "nirek-shetty",
+        "name": "Nirek Shetty",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/nirekshetty",
+        "x_url": "https://x.com/nirekshetty",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Plyxl (YC W27). Attended Brebeuf College School, a Toronto Catholic District School Board secondary school. Previously a product engineer at Penseum.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Brebeuf College School",
+        "canadian_institutions": [
+          "Brebeuf College School"
+        ],
+        "canadian_city": "Toronto, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/plyxl"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/plyxl",
+        "https://plyxl.com"
+      ],
+      "last_verified": "2026-10-28T12:00:00-07:00",
+      "notes": "Surfaced while screening the Y Combinator investor announcement emails of 16 and 23 October 2026. BATCH CORRECTION: the announcement listed Plyxl among the Fall 2026 companies, but its YC page reads “Winter 2027”, so it is recorded as W'27. Qualifies twice over on YC's own “Alumnus of” fields: Nirmay Singh at the University of British Columbia and Burnaby North Secondary, Nirek Shetty at Brebeuf College School in Toronto. HQ IS UNKNOWN: YC lists no location for this company at all and the site gives no address, so hq_city and hq_region are deliberately left empty rather than guessed; fill them in once YC populates the field. The other two co-founders, Mitch Crevier and Aarush Bhardwaj, are both UIUC and are not listed."
+    }
   }
 ]
