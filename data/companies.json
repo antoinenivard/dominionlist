@@ -54526,5 +54526,147 @@
       "last_verified": "2026-10-28T12:00:00-07:00",
       "notes": "Surfaced while screening the Y Combinator investor announcement emails of 16 and 23 October 2026. BATCH CORRECTION: the announcement listed Plyxl among the Fall 2026 companies, but its YC page reads “Winter 2027”, so it is recorded as W'27. Qualifies twice over on YC's own “Alumnus of” fields: Nirmay Singh at the University of British Columbia and Burnaby North Secondary, Nirek Shetty at Brebeuf College School in Toronto. HQ IS UNKNOWN: YC lists no location for this company at all and the site gives no address, so hq_city and hq_region are deliberately left empty rather than guessed; fill them in once YC populates the field. The other two co-founders, Mitch Crevier and Aarush Bhardwaj, are both UIUC and are not listed."
     }
+  },
+  {
+    "id": "fleety",
+    "name": "Fleety",
+    "website": "https://usefleety.com",
+    "description": "AI dispatcher for plumbing and HVAC contractors. Fleety listens to every incoming service call and routes each job to the technician most likely to generate the most revenue, rebuilding the day's schedule continuously as cancellations, overruns and emergencies come in. Aimed at operators handling a hundred or more jobs a day, where the best technician can be worth several hundred thousand dollars a year more than the average.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/usefleety.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "ben-zhou",
+        "name": "Ben Zhou",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/b-zhou",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Fleety (YC F26). Attended McGill University. Previously founded Timrep, a contractor permitting startup that reached six-figure revenue and raised $540K from Accomplice and YC angels, and before that founded and ran B&A Roofing.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "ariyaman-molanorouzi",
+        "name": "Ariyaman Molanorouzi",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "https://x.com/ariyamanmo",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Fleety (YC F26). Attended École Félix-Leclerc and Cégep Gérald-Godin, both in Quebec. Previously CEO of Ciel PM, where he automated property management operations across more than 3,000 units in Montreal and Toronto.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Cégep Gérald-Godin",
+        "canadian_institutions": [
+          "Cégep Gérald-Godin",
+          "École Félix-Leclerc"
+        ],
+        "canadian_city": "Montreal, QC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/fleety"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/fleety",
+        "https://usefleety.com"
+      ],
+      "last_verified": "2026-11-01T12:00:00-08:00",
+      "notes": "Sourced from the Y Combinator investor announcement email of 30 October 2026, Fall 2026 batch. Both founders qualify on education per YC's own “Alumnus of” fields: Ben Zhou at McGill (his other school, Woodberry Forest, is in Virginia) and Ariyaman Molanorouzi at Cégep Gérald-Godin in Sainte-Geneviève, Montréal and École Félix-Leclerc. Molanorouzi's earlier role running property management across Montreal and Toronto is employment and was NOT relied on. HQ San Francisco per YC."
+    }
+  },
+  {
+    "id": "tesser",
+    "name": "Tesser",
+    "website": "https://tesser.sh",
+    "description": "Cloud development runtime that lets a developer run several dev environments in parallel without loading down their laptop. Its CLI moves servers, builds, tests and typechecking onto isolated cloud machines while the developer keeps their existing editor and coding agents, handling provisioning, networking and port forwarding. Teams can open each other's environments through a gateway, share live previews, and run it on Tesser's infrastructure or their own cloud.",
+    "hq_city": "",
+    "hq_region": "",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "W'27",
+    "icon_url": "https://tesser.sh/icon.svg",
+    "founders": [
+      {
+        "id": "jeffrey-lin",
+        "name": "Jeffrey Lin",
+        "role": "Co-Founder & CEO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Tesser (YC W27). Systems Design Engineering at the University of Waterloo. Previously founding engineer at Fleetline (YC S25) and a software engineering intern at Shopify and at Agentnoon (YC W22). Twice a founder with two exits.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/tesser"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/tesser",
+        "https://tesser.sh"
+      ],
+      "last_verified": "2026-11-01T12:00:00-08:00",
+      "notes": "Sourced from the Y Combinator investor announcement email of 30 October 2026. BATCH: the email grouped it with the Fall 2026 announcements but its YC page reads “Winter 2027”, so it is recorded as W'27. Qualifies on Jeffrey Lin, whose YC bio reads “Systems Design Engineering at University of Waterloo”. NOTE ON THE FOUNDER SLUG: /founders/jeffrey-lin is a DIFFERENT Jeffrey Lin (CTO of Datoric, NYU) — do not source this entry from that page. HQ IS UNKNOWN: YC lists no location for Tesser, so hq_city and hq_region are left empty rather than guessed. Co-founder and CTO Rohan Godha is Georgia Tech CS and is not listed. LOGO: logo.dev returns a 200 for tesser.sh but serves a screenshot of the homepage, not a mark, so icon_url points at the site's own /icon.svg instead."
+    }
   }
 ]
