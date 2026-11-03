@@ -54668,5 +54668,132 @@
       "last_verified": "2026-11-01T12:00:00-08:00",
       "notes": "Sourced from the Y Combinator investor announcement email of 30 October 2026. BATCH: the email grouped it with the Fall 2026 announcements but its YC page reads “Winter 2027”, so it is recorded as W'27. Qualifies on Jeffrey Lin, whose YC bio reads “Systems Design Engineering at University of Waterloo”. NOTE ON THE FOUNDER SLUG: /founders/jeffrey-lin is a DIFFERENT Jeffrey Lin (CTO of Datoric, NYU) — do not source this entry from that page. HQ IS UNKNOWN: YC lists no location for Tesser, so hq_city and hq_region are left empty rather than guessed. Co-founder and CTO Rohan Godha is Georgia Tech CS and is not listed. LOGO: logo.dev returns a 200 for tesser.sh but serves a screenshot of the homepage, not a mark, so icon_url points at the site's own /icon.svg instead."
     }
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca",
+    "website": "",
+    "description": "AI canvas for digital artists. Alpaca stylised and rendered early concept sketches inside a layered drawing surface with generation masks, so an illustrator could iterate on composition and look without leaving the canvas. Acquired by the AI video company Captions in November 2024 and shut down the same autumn.",
+    "hq_city": "",
+    "hq_region": "",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Acquired",
+    "founding_year": 2022,
+    "yc_batch": "",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "nicole-fitzgerald",
+        "name": "Nicole Fitzgerald",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/nicole-fitzgerald",
+        "x_url": "https://x.com/ninklefitz",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Tacit Labs. Graduate student at Mila, the Montreal Institute for Learning Algorithms, at the Université de Montréal, under Laurent Charlin, studying the dynamics of learning at scale in large language models. Co-founded Alpaca in 2022 with William Buchwalter; it was acquired by Captions in 2024. Also a research scientist at MosaicML and a research engineer at Microsoft Research Montreal.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université de Montréal",
+        "canadian_institutions": [
+          "Université de Montréal"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 4200000,
+        "amount_display": "$4.2M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Index Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://slator.com/ai-video-editing-startup-captions-acquires-digital-canvas-platform-alpaca/"
+        ],
+        "notes": "Reported only in the acquisition coverage — “AlpacaML raised $4.2 million in a seed funding round”, Index Ventures leading, an investor it shared with Captions. No announcement, date or valuation was ever published, and there is no SEC Form D, so the round is undated here."
+      },
+      {
+        "date": "2024-11-13",
+        "round": "Acquired",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.axios.com/pro/media-deals/2024/11/13/captions-video-editing-app-alpacaml",
+          "https://slator.com/ai-video-editing-startup-captions-acquires-digital-canvas-platform-alpaca/"
+        ],
+        "notes": "Captions' first acquisition, broken by Axios on 13 November 2024 and announced the same day by Captions CEO Gaurav Misra. Price undisclosed. Co-founder William Buchwalter joined Captions as a research engineer and all six Alpaca employees received offers. Fitzgerald's own site dates the deal to October 2024, which matches the product shutdown rather than the announcement.",
+        "acquirer": "Captions"
+      }
+    ],
+    "capital_raised_usd": 4200000,
+    "capital_raised_display": "$4.2M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://ninkle.github.io/",
+        "https://slator.com/ai-video-editing-startup-captions-acquires-digital-canvas-platform-alpaca/",
+        "https://mila.quebec/en/about/impact-reports/impact-report-2022-23"
+      ],
+      "last_verified": "2026-11-03T12:00:00-08:00",
+      "notes": "Added on the owner's suggestion, November 2026. Qualifies on Nicole Fitzgerald, who states on her own site that she was “a graduate student at the Montreal Institute for Learning Algorithms (Universite de Montreal)”; Mila's 2022-23 impact report lists Alpaca under its startups with “Cofounder: Nicole Fitzgerald, M.Sc., Mila”. Her years as a research engineer at Microsoft Research Montreal are employment and were NOT relied on. WEBSITE IS DEAD: alpacaml.com now returns a Framer “Site Not Found” page, so the website field is left empty rather than pointing at a stub; the same goes for icon_url. CAP TABLE: the operating entity was AlpacaML, Inc., and before the site went down its Terms of Use named that entity, gave a Wilmington, Delaware address and set Delaware governing law with venue in Wilmington — the signature of a Delaware parent. That evidence can no longer be re-read at source, and there is no Form D, so it rests on a single reading. No Canadian or other non-US parent is suggested anywhere. HQ left empty: the team worked out of Montreal (Mila lists the company there) and the only US address on record was a registered-agent mail drop, so neither is an honest HQ city. Co-founder William Buchwalter, named CEO in the acquisition coverage, has no Canadian connection found and is not listed. NOT the stock-trading API company at alpaca.markets (AlpacaDB, Inc., San Mateo) and not the Stanford language model of the same name."
+    }
+  },
+  {
+    "id": "tacit-labs",
+    "name": "Tacit Labs",
+    "website": "https://tacitlabs.co",
+    "description": "Applied research lab building data, evaluations and research environments for AI in the life sciences. Its premise is that biology lacks the verification loop that let models improve quickly in code and mathematics, so it builds long-horizon evaluations spanning the drug discovery and development pipeline for frontier model developers to train and measure against.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Health",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "https://tacitlabs.co/favicon.svg",
+    "founders": [
+      {
+        "id": "nicole-fitzgerald",
+        "name": "Nicole Fitzgerald",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/nicole-fitzgerald",
+        "x_url": "https://x.com/ninklefitz",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Tacit Labs. Graduate student at Mila, the Montreal Institute for Learning Algorithms, at the Université de Montréal, under Laurent Charlin, studying the dynamics of learning at scale in large language models. Co-founded Alpaca in 2022 with William Buchwalter; it was acquired by Captions in 2024. Also a research scientist at MosaicML and a research engineer at Microsoft Research Montreal.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Université de Montréal",
+        "canadian_institutions": [
+          "Université de Montréal"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [],
+    "capital_raised_usd": null,
+    "capital_raised_display": "",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://tacitlabs.co/team",
+        "https://tacitlabs.co/introducing-tacit-labs",
+        "https://ninkle.github.io/"
+      ],
+      "last_verified": "2026-11-03T12:00:00-08:00",
+      "notes": "Added on the owner's suggestion, November 2026. Launched publicly 17 June 2026. Qualifies on Nicole Fitzgerald, Co-Founder/CEO per the company's own team page, who states on her personal site that she was a graduate student at Mila, Université de Montréal. HQ San Francisco, taken from the contact block on the company's own team page. THE “LONDON” CLAIM IS WRONG: Falcon and some aggregators place Tacit Labs in London, but the only UK company of that name, TACIT LABS LTD no. 17110976 at 71-75 Shelton Street, is an unrelated March 2026 incorporation whose three directors are Joseph Adby, Arnaud Betourne and Christopher Hull — neither founder appears as an officer or PSC. The London reading is a name collision, possibly reinforced by co-founder Anne Marie Droste's years in London. CAP TABLE NOT DOCUMENTED: no SEC Form D exists and no Delaware record was retrievable, so the US entity rests on the company's own San Francisco self-description and the absence of any non-US parent; re-check once a Form D appears. FUNDING: PitchBook shows one undisclosed early-stage round dated 1 March 2026 and Dan Shipper of Every and the angel Ron Alfa have each said publicly they backed it, but no amount, date or lead is confirmed by any primary source, so no round is recorded. Co-founder and COO Anne Marie Droste studied at Cambridge and Utrecht and has no Canadian connection, so she is not listed. DISTINCT from Tacit Machines (tacitmachines.com, Muhammad Usman Farooq), which is a separate company already in this database, and from Tacit Therapeutics."
+    }
   }
 ]
