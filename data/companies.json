@@ -54795,5 +54795,72 @@
       "last_verified": "2026-11-03T12:00:00-08:00",
       "notes": "Added on the owner's suggestion, November 2026. Launched publicly 17 June 2026. Qualifies on Nicole Fitzgerald, Co-Founder/CEO per the company's own team page, who states on her personal site that she was a graduate student at Mila, Université de Montréal. HQ San Francisco, taken from the contact block on the company's own team page. THE “LONDON” CLAIM IS WRONG: Falcon and some aggregators place Tacit Labs in London, but the only UK company of that name, TACIT LABS LTD no. 17110976 at 71-75 Shelton Street, is an unrelated March 2026 incorporation whose three directors are Joseph Adby, Arnaud Betourne and Christopher Hull — neither founder appears as an officer or PSC. The London reading is a name collision, possibly reinforced by co-founder Anne Marie Droste's years in London. CAP TABLE NOT DOCUMENTED: no SEC Form D exists and no Delaware record was retrievable, so the US entity rests on the company's own San Francisco self-description and the absence of any non-US parent; re-check once a Form D appears. FUNDING: PitchBook shows one undisclosed early-stage round dated 1 March 2026 and Dan Shipper of Every and the angel Ron Alfa have each said publicly they backed it, but no amount, date or lead is confirmed by any primary source, so no round is recorded. Co-founder and COO Anne Marie Droste studied at Cambridge and Utrecht and has no Canadian connection, so she is not listed. DISTINCT from Tacit Machines (tacitmachines.com, Muhammad Usman Farooq), which is a separate company already in this database, and from Tacit Therapeutics."
     }
+  },
+  {
+    "id": "core-automation",
+    "name": "Core Automation",
+    "website": "https://www.coreauto.com",
+    "description": "AI research lab pursuing learning algorithms meant to supersede large-scale pretraining and reinforcement learning, and architectures that scale better than transformers, on the premise that the next step change will not come from making current models larger. It describes itself as “the world's most automated AI lab” and says its first application is automating its own research. Founded in 2026 by researchers from OpenAI and Google DeepMind.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "https://www.coreauto.com/assets/apple_touch_icon.png",
+    "founders": [
+      {
+        "id": "francis-zhang",
+        "name": "Francis Zhang",
+        "role": "Co-Founder & Member of Technical Staff",
+        "linkedin": "https://www.linkedin.com/in/zhangfrancis",
+        "x_url": "https://x.com/_franciszhang",
+        "wikipedia_url": "",
+        "bio": "Co-founder and member of the technical staff at Core Automation since April 2026. Bachelor of Applied Science in Computer Engineering from the University of Waterloo, 2014-2019. Previously a member of technical staff at OpenAI working on model scaling, a software engineer at Databricks on the Photon query engine, and a software engineer at Facebook on ads ranking.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-07-15",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 432125053,
+        "amount_display": "$432.1M",
+        "valuation_usd": 3620000000,
+        "valuation_display": "$3.62B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/2148145/000214814526000001/primary_doc.xml",
+          "https://forgeglobal.com/core-automation_ipo/"
+        ],
+        "notes": "Figures are from the company's own Form D, filed 30 July 2026: $635,249,754 offered, $432,125,053 sold to 51 accredited investors, first sale 15 July 2026, equity under Rule 506(b), no sales commissions or finder's fees. The filing states the amount sold “includes $135,252,607 of securities issued upon conversion and cancellation of outstanding SAFEs”, so earlier SAFE money is already inside this number and is not counted again. New money was therefore roughly $297M. The $3.62B post-money is from Forge Global and is SECONDARY — no primary source gives a valuation. Press reporting (The Information, summarised by Dealroom and The Decoder) described an earlier round of about $100M at roughly $1B and a subsequent raise sought at about $4B, with Nvidia, Spark Capital and Accel named as backers; none of those investors appears in any primary document, so none is recorded here."
+      }
+    ],
+    "capital_raised_usd": 432125053,
+    "capital_raised_display": "$432.1M",
+    "metadata": {
+      "valuation_usd": 3620000000,
+      "valuation_display": "$3.62B",
+      "valuation_type": "post_money",
+      "valuation_as_of": "2026-07",
+      "valuation_source_url": "https://forgeglobal.com/core-automation_ipo/",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2148145/000214814526000001/primary_doc.xml",
+        "https://www.coreauto.com",
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148145&type=D",
+        "https://forgeglobal.com/core-automation_ipo/"
+      ],
+      "last_verified": "2026-11-06T12:00:00-08:00",
+      "notes": "Added on the owner's suggestion, November 2026, on a LinkedIn profile export he supplied. CAP TABLE IS DOCUMENTED, unusually well: the Form D names Core Automation, Inc., EDGAR CIK 0002148145, entity type Corporation, jurisdiction of incorporation DELAWARE, year of incorporation 2026, principal office 340 Brannan Street Suite 301, San Francisco. The Delaware issuer is the entity selling the securities, so it sits at the top of the cap table. QUALIFIES on Francis Zhang, University of Waterloo B.A.Sc. in Computer Engineering 2014-2019. HIS CO-FOUNDER STATUS IS SELF-REPORTED: his LinkedIn reads “Core Automation — Co-Founder and Member of the Technical Staff, April 2026 - Present”, and Forge Global lists a “Francis Z.” among the founders, but the company publishes no team page, its blog posts are unbylined, and he is not among the Form D's related persons (expected, since that section lists only officers, directors and promoters). Re-check if the company ever publishes a founder list. OTHER FOUNDERS ARE NOT SETTLED: the Form D names Jaroslaw “Jerry” Tworek as Executive Officer and Director, Julia Villagra as Executive Officer, and Rohan Anil and Aliisa Rosenthal as Directors; secondary rosters from Forge and AlphaXiv add Swapnil Patil, Kanav Garg, Mark Saroufim, Anmol Gulati and Joanne Jang but do not agree with each other. None has a known Canadian connection, so none is listed. NAME COLLISION: this is NOT Core Automation, Inc. of Vacaville, California (coreautomation.com), an industrial electrical and process-automation firm founded around 2001 — note the different domain. Also not Core Automation Limited of Dunstable, England, and not the “Core Automation Opportunity Fund” SPV on EDGAR, which is a fund rather than the company."
+    }
   }
 ]
