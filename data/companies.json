@@ -55183,5 +55183,191 @@
       "last_verified": "2026-11-06T12:00:00-08:00",
       "notes": "Added on the owner's suggestion, November 2026, on a LinkedIn profile export he supplied. CAP TABLE IS DOCUMENTED, unusually well: the Form D names Core Automation, Inc., EDGAR CIK 0002148145, entity type Corporation, jurisdiction of incorporation DELAWARE, year of incorporation 2026, principal office 340 Brannan Street Suite 301, San Francisco. The Delaware issuer is the entity selling the securities, so it sits at the top of the cap table. QUALIFIES on Francis Zhang, University of Waterloo B.A.Sc. in Computer Engineering 2014-2019. HIS CO-FOUNDER STATUS IS SELF-REPORTED: his LinkedIn reads “Core Automation — Co-Founder and Member of the Technical Staff, April 2026 - Present”, and Forge Global lists a “Francis Z.” among the founders, but the company publishes no team page, its blog posts are unbylined, and he is not among the Form D's related persons (expected, since that section lists only officers, directors and promoters). Re-check if the company ever publishes a founder list. OTHER FOUNDERS ARE NOT SETTLED: the Form D names Jaroslaw “Jerry” Tworek as Executive Officer and Director, Julia Villagra as Executive Officer, and Rohan Anil and Aliisa Rosenthal as Directors; secondary rosters from Forge and AlphaXiv add Swapnil Patil, Kanav Garg, Mark Saroufim, Anmol Gulati and Joanne Jang but do not agree with each other. None has a known Canadian connection, so none is listed. NAME COLLISION: this is NOT Core Automation, Inc. of Vacaville, California (coreautomation.com), an industrial electrical and process-automation firm founded around 2001 — note the different domain. Also not Core Automation Limited of Dunstable, England, and not the “Core Automation Opportunity Fund” SPV on EDGAR, which is a fund rather than the company."
     }
+  },
+  {
+    "id": "axiomat",
+    "name": "Axiomat",
+    "website": "https://www.axiomat.com",
+    "description": "Formal verification layer for AI agents querying company data. Axiomat proves that an agent's queries are correct before employees or customers rely on the answers, aiming to give mathematical guarantees of correctness without constraining what the agent can do. Starts with data queries and analysis.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://www.axiomat.com/assets/apple-touch-icon.png",
+    "founders": [
+      {
+        "id": "ethan-kharitonov",
+        "name": "Ethan Kharitonov",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/ethan-kharitonov",
+        "x_url": "https://x.com/KharitonovEthan",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Axiomat (YC F26). B.S. in Mathematics and Computer Science from the University of Toronto, where he led research in functional analysis and topology. Previously an applied scientist at AWS researching formal methods and AI verification; left a PhD at Georgia Tech to start Axiomat.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "jack-naimer",
+        "name": "Jack Naimer",
+        "role": "Co-Founder & COO",
+        "linkedin": "https://www.linkedin.com/in/jacknaimer",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and COO of Axiomat (YC F26). B.A.Sc. in Engineering Science, majoring in Machine Intelligence, from the University of Toronto. Previously a master's research scholar in AI at EPFL, where he led pretraining of a large-scale DNA foundation model, and before that built a DNA reasoning model in Bo Wang's lab and a machine learning model for the Peter Munk Cardiac Centre.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "elad-perlman",
+        "name": "Elad Perlman",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/elad-perlman",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Axiomat (YC F26). B.S. in Mathematics and Computer Science from the University of Toronto, graduated with high distinction. Previously a full-stack engineer at Survalent building real-time control software for utilities.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/axiomat"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/axiomat",
+        "https://www.axiomat.com"
+      ],
+      "last_verified": "2026-11-06T16:00:00-08:00",
+      "notes": "Sourced from the Y Combinator investor announcement email of 6 November 2026, Fall 2026 batch. All three founders qualify on education, each confirmed on their YC founder page's “Alumnus of” field: Ethan Kharitonov, Jack Naimer and Elad Perlman are all University of Toronto. Naimer also lists EPFL, which does not bear on the test. HQ San Francisco per YC."
+    }
+  },
+  {
+    "id": "versine",
+    "name": "Versine",
+    "website": "https://versine.com",
+    "description": "Payments rail for AI agents. Versine connects to ChatGPT, Claude or a custom agent over MCP and lets it send and receive money on the user's behalf: splitting a dinner receipt from a photo, paying invoices that arrive by email, settling rent and utilities with housemates, or paying out on a conditional rule the agent checks itself. Recipients need no account and cash out by link; banking and payouts run through licensed partners.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://versine.com/apple-touch-icon.png",
+    "founders": [
+      {
+        "id": "harshith-latchupatula",
+        "name": "Harshith Latchupatula",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/harshithlatchupatula",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of Versine (YC F26). University of Toronto. Previously worked on Connect at Stripe and on AWS Fargate autoscaling at Amazon, and earlier at HubSpot, IBM, theScore and Apollo.io.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "vishnudev-poil",
+        "name": "Vishnudev Poil",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/vishnudev-poil",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of Versine (YC F26). University of Waterloo. Previously worked on Ads at Amazon and observability at OpenText, and earlier at Ground News, Magnify Digital and ShyftLabs.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "param-thakkar",
+        "name": "Param Thakkar",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/paramt",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of Versine (YC F26). University of Waterloo. Previously worked on vector search at Databricks, Deep Research at Glean and ads ML at Quora, and earlier at Dropbase.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/versine"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/versine",
+        "https://versine.com"
+      ],
+      "last_verified": "2026-11-06T16:00:00-08:00",
+      "notes": "Sourced from the Y Combinator investor announcement email of 6 November 2026, Fall 2026 batch. All three founders qualify on education, each confirmed on their YC founder page's “Alumnus of” field: Harshith Latchupatula at the University of Toronto, Vishnudev Poil and Param Thakkar at the University of Waterloo. The announcement email's bios named no schools at all, so the founder pages were the source. HQ San Francisco per YC. YC lists all three simply as “Founder” with no differentiated titles. Note their shared X handle is the company account @VersineApp, so no personal x_url is recorded."
+    }
   }
 ]
