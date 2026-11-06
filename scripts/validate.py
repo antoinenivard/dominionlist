@@ -439,6 +439,53 @@ def main():
                 err(f"{who}: acquisition on {r.get('date')} lists lead_investors "
                     f"{r['lead_investors']} — an acquirer is not an investor, use acquirer")
 
+        # ── the Market Cap series ──
+        # Public companies carry one "Market Cap" round per month-end mark, so the
+        # rounds are a time series, not a single current figure. Two ways that
+        # series gets wrecked, both seen for real:
+        #   (1) a refresh updates metadata.valuation_* and forgets the rounds, so
+        #       the mark on the profile and the latest point in the series drift
+        #       apart — that happened silently between July and October 2026;
+        #   (2) a refresh "fixes" the drift by writing the new figure over EVERY
+        #       Market Cap round instead of appending one, flattening months of
+        #       history into a single repeated value. That was caught with 57
+        #       rounds already overwritten and only an uncommitted diff to undo it.
+        # The guard below makes both loud. It is deliberately an error, not a
+        # warning: this file is the only thing standing between a careless
+        # refresh and history that cannot be reconstructed from the live site.
+        mcaps = [r for r in c.get("funding_rounds", [])
+                 if r.get("round") == "Market Cap"]
+        if mcaps:
+            dates = [r.get("date") or "" for r in mcaps]
+            dupes = {d for d in dates if dates.count(d) > 1}
+            if dupes:
+                err(f"{who}: {len(dupes)} duplicated Market Cap date(s) "
+                    f"{sorted(dupes)} — each month-end mark is one round, so a "
+                    f"repeat means a refresh appended twice or rewrote the wrong row")
+
+            vals = [r.get("valuation_usd") for r in mcaps]
+            if len(mcaps) >= 3 and len(set(vals)) == 1:
+                err(f"{who}: all {len(mcaps)} Market Cap rounds carry the same "
+                    f"valuation — a month-end series does not repeat a figure "
+                    f"exactly; this is the signature of a refresh that overwrote "
+                    f"the series instead of appending to it")
+
+            latest = max(mcaps, key=lambda r: r.get("date") or "")
+            mark = c.get("metadata", {}).get("valuation_usd")
+            if latest.get("valuation_usd") != mark:
+                err(f"{who}: the latest Market Cap round ({latest.get('date')}, "
+                    f"{latest.get('valuation_usd')!r}) disagrees with "
+                    f"metadata.valuation_usd ({mark!r}) — the profile mark and the "
+                    f"newest point in the series must be the same number")
+
+            as_of = c.get("metadata", {}).get("valuation_as_of")
+            if as_of and latest.get("date") and not latest["date"].startswith(as_of):
+                warn(f"{who}: metadata.valuation_as_of is {as_of!r} but the latest "
+                     f"Market Cap round is dated {latest['date']!r}")
+        elif c.get("status") == "Public" and c.get("metadata", {}).get("valuation_usd"):
+            warn(f"{who}: public with a valuation but no Market Cap round, so the "
+                 f"figure has no dated point in the month-end series")
+
         # capital_raised_usd is the headline figure; the rounds are the receipts.
         # They should reconcile, allowing for an unitemised YC cheque.
         cr = c.get("capital_raised_usd")
