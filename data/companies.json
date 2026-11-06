@@ -8276,26 +8276,37 @@
     ],
     "funding_rounds": [
       {
-        "date": "2026-01",
+        "date": "2025-12-22",
         "round": "Seed",
         "kind": "funding",
-        "amount_usd": 10100000,
-        "amount_display": "$10.1M",
+        "amount_usd": 10056320,
+        "amount_display": "$10.06M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [],
-        "source_urls": [],
-        "notes": "~$10.1M per SEC filing / AlleyWatch; lead undisclosed."
+        "lead_investors": [
+          "Castle Island Ventures"
+        ],
+        "other_investors": [
+          "Collab+Currency",
+          "Hash3"
+        ],
+        "source_urls": [
+          "https://www.sec.gov/Archives/edgar/data/2106724/000123191926000079/primary_doc.xml"
+        ],
+        "notes": "Exact figures from the company's own Form D, filed 23 January 2026 by Chakra Digital Labs, Inc.: $10,056,355 offered and $10,056,320 sold, first sale 22 December 2025. The filing notes the totals include $8,500 of token warrants. Castle Island Ventures led, with Collab+Currency and Hash3 participating, per PitchBook — the Form D itself names no investors. Dated to the first sale rather than the 23 January filing date, which is also the date PitchBook shows."
       }
     ],
-    "capital_raised_usd": 10100000,
-    "capital_raised_display": "$10.1M",
+    "capital_raised_usd": 10056320,
+    "capital_raised_display": "$10.06M",
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Canadian founder Alex Fung (Waterloo, CTO). Co-founder/CEO Nirmal Krishnan (Johns Hopkins) not Canadian."
+      "last_verified": "2026-11-06T17:00:00-08:00",
+      "notes": "Qualifies on Alex Fung, Co-Founder and CTO, computer science at the University of Waterloo. Co-founder and CEO Nirmal Krishnan is Johns Hopkins and is not Canadian, so he is not listed. CAP TABLE: the Form D names Chakra Digital Labs, Inc., EDGAR CIK 0002106724, jurisdiction of incorporation DELAWARE, year of incorporation 2024, offices at 63 Roebling Street, Brooklyn NY — a documented US parent. Both founders appear as related persons. ROUND CORRECTED November 2026 from a rounded “~$10.1M, lead undisclosed” to the Form D figures with Castle Island Ventures as lead. NOTE ON THE DESCRIPTION: PitchBook still describes the company as open data infrastructure turning public web data into queryable datasets, which is the earlier positioning; the description here follows the company's own current framing as a frontier data lab for computer-use agents. Entity address is Brooklyn per the Form D; HQ is kept as New York.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/2106724/000123191926000079/primary_doc.xml",
+        "https://chakra.dev"
+      ]
     }
   },
   {
