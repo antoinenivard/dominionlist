@@ -3151,6 +3151,21 @@
           "https://stockanalysis.com/stocks/anet/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 213340000000,
+        "valuation_display": "$213.3B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/anet/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -3925,6 +3940,21 @@
           "https://stockanalysis.com/stocks/aur/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 8809000000,
+        "valuation_display": "$8.809B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/aur/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -5708,6 +5738,21 @@
           "https://stockanalysis.com/stocks/bioa/"
         ],
         "notes": "Market cap as of September 30, 2026. Close of $7.09 taken from a search summary; the quote page was stale. Lower confidence."
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 269000000,
+        "valuation_display": "$269M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/bioa/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -6300,6 +6345,21 @@
           "https://stockanalysis.com/stocks/blnd/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 265000000,
+        "valuation_display": "$265M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/blnd/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -9558,6 +9618,21 @@
           "https://stockanalysis.com/stocks/net/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 100600000000,
+        "valuation_display": "$100.6B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/net/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -13118,6 +13193,21 @@
           "https://stockanalysis.com/stocks/ebay/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 53400000000,
+        "valuation_display": "$53.4B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ebay/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "capital_raised_usd": 6700000,
@@ -20309,6 +20399,21 @@
           "https://stockanalysis.com/stocks/cart/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 13350000000,
+        "valuation_display": "$13.35B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/cart/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -23127,6 +23232,21 @@
           "https://stockanalysis.com/stocks/lyft/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 6129000000,
+        "valuation_display": "$6.129B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/lyft/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -25566,6 +25686,21 @@
           "https://stockanalysis.com/stocks/mrna/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 88520000000,
+        "valuation_display": "$88.52B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/mrna/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -27056,6 +27191,21 @@
           "https://stockanalysis.com/stocks/ntsk/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 9932000000,
+        "valuation_display": "$9.932B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/ntsk/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -30474,6 +30624,21 @@
           "https://stockanalysis.com/stocks/pd/"
         ],
         "notes": "Market cap as of September 30, 2026. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence."
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1317000000,
+        "valuation_display": "$1.317B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pd/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -31025,6 +31190,21 @@
           "https://stockanalysis.com/stocks/pypl/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 47360000000,
+        "valuation_display": "$47.36B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/pypl/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -36308,6 +36488,21 @@
           "https://stockanalysis.com/stocks/rgti/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 3752000000,
+        "valuation_display": "$3.752B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rgti/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -36483,6 +36678,21 @@
           "https://stockanalysis.com/stocks/rblx/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 30770000000,
+        "valuation_display": "$30.77B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/rblx/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -38173,6 +38383,21 @@
           "https://stockanalysis.com/stocks/serv/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 225000000,
+        "valuation_display": "$225M",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/serv/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -40727,6 +40952,21 @@
           "https://stockanalysis.com/stocks/soun/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 2066000000,
+        "valuation_display": "$2.066B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/soun/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -41085,6 +41325,21 @@
           "https://stockanalysis.com/stocks/spcx/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1827600000000,
+        "valuation_display": "$1.83T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/spcx/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -45254,6 +45509,21 @@
           "https://stockanalysis.com/stocks/tsla/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 1584950000000,
+        "valuation_display": "$1.58T",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/tsla/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
@@ -47084,6 +47354,21 @@
           "https://stockanalysis.com/stocks/uber/"
         ],
         "notes": "Market cap as of September 30, 2026"
+      },
+      {
+        "date": "2026-10-30",
+        "round": "Market Cap",
+        "kind": "event",
+        "amount_usd": null,
+        "amount_display": "",
+        "valuation_usd": 133230000000,
+        "valuation_display": "$133.2B",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://stockanalysis.com/stocks/uber/"
+        ],
+        "notes": "Market cap as of the close on October 30, 2026, the last trading day of the month (31 October fell on a Saturday)."
       }
     ],
     "metadata": {
