@@ -3158,14 +3158,14 @@
         "https://www.crunchbase.com/organization/arista-networks",
         "https://finance.yahoo.com/quote/ANET/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 256774833601,
-      "valuation_display": "$256.8B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 213340000000,
+      "valuation_display": "$213.3B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/anet/",
-      "notes": "Market cap at the 30 Sep 2026 close ($203.59 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($203.59 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "ANET",
     "capital_raised_usd": 10000000,
@@ -3933,14 +3933,14 @@
         "https://www.bloomberg.com/news/articles/2019-02-07/aurora-self-driving-startup-gets-funding-from-sequoia-amazon",
         "https://fortune.com/2018/02/28/aurora-self-driving-cars-investment/"
       ],
-      "valuation_usd": 11100000000,
-      "valuation_display": "$11.1B",
+      "valuation_usd": 8809000000,
+      "valuation_display": "$8.809B",
       "valuation_source_url": "https://stockanalysis.com/stocks/aur/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Market cap at the 30 Sep 2026 close ($5.54 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($5.54 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "AUR",
     "capital_raised_usd": 620000000,
@@ -5715,11 +5715,11 @@
         "https://bioagelabs.com",
         "https://www.felicis.com/portfolio"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 325431000,
-      "valuation_display": "$325M",
-      "notes": "Market cap at the 30 Sep 2026 close ($7.09 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $7.09 taken from a search summary; the quote page was stale. Lower confidence. Valuation source: public_market_data.",
-      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 269000000,
+      "valuation_display": "$269M",
+      "notes": "Market cap at the 30 Sep 2026 close ($7.09 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $7.09 taken from a search summary; the quote page was stale. Lower confidence. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close.",
+      "valuation_as_of": "2026-10-30",
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/bioa/"
     },
@@ -6308,14 +6308,14 @@
         "https://finance.yahoo.com/quote/BLND/",
         "https://www.prnewswire.com/news-releases/blend-closes-300m-in-funding-nearly-doubling-valuation-to-3-3b-301207008.html"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 243605300,
-      "valuation_display": "$244M",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 265000000,
+      "valuation_display": "$265M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/blnd/",
-      "notes": "Market cap at the 30 Sep 2026 close ($1.03 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($1.03 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "BLND",
     "capital_raised_usd": 1005000000,
@@ -9567,14 +9567,14 @@
         "https://en.wikipedia.org/wiki/Michelle_Zatlyn",
         "https://techcrunch.com/2015/09/22/cloudflare-locks-down-110m-from-fidelity-microsoft-google-baidu-and-qualcomm/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 123659462400,
-      "valuation_display": "$123.7B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 100600000000,
+      "valuation_display": "$100.6B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/net/",
-      "notes": "Market cap at the 30 Sep 2026 close ($347.28 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($347.28 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "NET",
     "capital_raised_usd": 332100000,
@@ -13124,11 +13124,11 @@
     "capital_raised_display": "$6.7M",
     "icon_url": "https://img.logo.dev/ebay.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "metadata": {
-      "valuation_usd": 47192250000,
-      "valuation_display": "$47.2B",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Market cap at the 30 Sep 2026 close ($106.05 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
-      "valuation_as_of": "2026-09-30",
+      "valuation_usd": 53400000000,
+      "valuation_display": "$53.4B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($106.05 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close.",
+      "valuation_as_of": "2026-10-30",
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/ebay/"
     },
@@ -20318,14 +20318,14 @@
         "https://finance.yahoo.com/quote/CART/",
         "https://techcrunch.com/2017/03/07/instacart-raises-400-million-at-a-3-4-billion-valuation/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 9982280000,
-      "valuation_display": "$9.98B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 13350000000,
+      "valuation_display": "$13.35B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/cart/",
-      "notes": "Market cap at the 30 Sep 2026 close ($43.12 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($43.12 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "CART",
     "capital_raised_usd": 2164800000,
@@ -23137,14 +23137,14 @@
         "https://techcrunch.com/2013/05/23/lyft-a16z/",
         "https://en.wikipedia.org/wiki/Rajat_Suri"
       ],
-      "valuation_usd": 5681885400,
-      "valuation_display": "$5.68B",
+      "valuation_usd": 6129000000,
+      "valuation_display": "$6.129B",
       "valuation_source_url": "https://stockanalysis.com/stocks/lyft/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Market cap at the 30 Sep 2026 close ($15.01 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($15.01 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "LYFT",
     "capital_raised_usd": 4772200000,
@@ -25575,14 +25575,14 @@
         "https://www.fiercebiotech.com/venture-capital/moderna-hauls-450m-to-push-its-pioneering-approach-to-mrna",
         "https://www.fiercebiotech.com/biotech/moderna-raises-500m-to-move-mrna-drugs-deeper-into-human-tests"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 76881646800,
-      "valuation_display": "$76.9B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 88520000000,
+      "valuation_display": "$88.52B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/mrna/",
-      "notes": "Market cap at the 30 Sep 2026 close ($192.57 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($192.57 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "MRNA",
     "capital_raised_usd": 2795000000,
@@ -27064,14 +27064,14 @@
         "https://techcrunch.com/2013/10/03/netskope-comes-out-of-stealth-with-21m-from-socialcapital-and-lightspeed/",
         "https://www.netskope.com/press-releases/netskope-attracts-300-million-in-additional-investment"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 7125809600,
-      "valuation_display": "$7.13B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 9932000000,
+      "valuation_display": "$9.932B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/ntsk/",
-      "notes": "Market cap at the 30 Sep 2026 close ($17.44 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($17.44 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "NTSK",
     "capital_raised_usd": 1947700000,
@@ -30483,14 +30483,14 @@
         "https://www.pagerduty.com/newsroom/raises-series-d-investment/",
         "https://finance.yahoo.com/quote/PD/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 1175535000,
-      "valuation_display": "$1.18B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 1317000000,
+      "valuation_display": "$1.317B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/pd/",
-      "notes": "Market cap at the 30 Sep 2026 close ($15.1 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($15.1 x shares outstanding), from the monthly sweep run on 1 Oct. Close of $15.10 taken from a search summary, consistent with the Oct 1 quote; lower confidence. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "PD",
     "capital_raised_usd": 173600000,
@@ -31033,14 +31033,14 @@
         "https://en.wikipedia.org/wiki/PayPal",
         "https://companiesmarketcap.com/paypal/marketcap/"
       ],
-      "valuation_usd": 44937313800,
-      "valuation_display": "$44.9B",
+      "valuation_usd": 47360000000,
+      "valuation_display": "$47.36B",
       "valuation_source_url": "https://stockanalysis.com/stocks/pypl/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Market cap at the 30 Sep 2026 close ($52.53 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($52.53 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "capital_raised_usd": 217500000,
     "capital_raised_display": "$217.5M"
@@ -36321,11 +36321,11 @@
         "https://techcrunch.com/2020/08/04/rigetti-raises-79m-series-c-for-its-quantum-computing-platform/",
         "https://www.globenewswire.com/news-release/2022/03/02/2395179/0/en/Rigetti-Computing-Announces-Closing-of-Business-Combination-with-Supernova-Partners-Acquisition-Company-II-Ltd-Begins-Trading-on-Nasdaq-Capital-Market-Today.html"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 5253539800,
-      "valuation_display": "$5.25B",
-      "notes": "Market cap at the 30 Sep 2026 close ($15.74 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
-      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 3752000000,
+      "valuation_display": "$3.752B",
+      "notes": "Market cap at the 30 Sep 2026 close ($15.74 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close.",
+      "valuation_as_of": "2026-10-30",
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/rgti/"
     },
@@ -36491,14 +36491,14 @@
         "https://finance.yahoo.com/quote/RBLX/",
         "https://techcrunch.com/2018/09/05/roblox-series-f/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 30268280600,
-      "valuation_display": "$30.3B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 30770000000,
+      "valuation_display": "$30.77B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/rblx/",
-      "notes": "Market cap at the 30 Sep 2026 close ($42.37 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($42.37 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "RBLX",
     "capital_raised_usd": 845000000,
@@ -38180,14 +38180,14 @@
         "https://finance.yahoo.com/quote/SERV/",
         "https://techcrunch.com/2023/08/10/uber-nvidia-backed-delivery-robot-startup-serve-robotics-to-go-public/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 403015500,
-      "valuation_display": "$403M",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 225000000,
+      "valuation_display": "$225M",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
       "valuation_source_url": "https://stockanalysis.com/stocks/serv/",
-      "valuation_as_of": "2026-09-30",
-      "notes": "Market cap at the 30 Sep 2026 close ($4.65 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "notes": "Market cap at the 30 Sep 2026 close ($4.65 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "SERV",
     "capital_raised_usd": 70000000,
@@ -40738,11 +40738,11 @@
         "https://techcrunch.com/2018/05/03/soundhound-has-raised-a-big-100m-round-to-take-on-alexa-and-google-assistant/",
         "https://voicebot.ai/2022/04/28/soundhound-goes-public-on-nasdaq-following-spac-merger/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 2673542200,
-      "valuation_display": "$2.67B",
-      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Post-IPO Debt $100M on 2023-04-17 from Atlas Credit Partners. Capital raised was reduced from $700M to $600M accordingly — note this company’s total legitimately includes event rows (the 2022 SPAC, 2023 post-IPO equity and 2024 ATM), so it is not the sum of the funding rows alone. Recorded here so the fact is not lost, but it is not a round and is not counted. Market cap at the 30 Sep 2026 close ($6.02 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data.",
-      "valuation_as_of": "2026-09-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 2066000000,
+      "valuation_display": "$2.066B",
+      "notes": "DEBT REMOVED 16 OCTOBER 2026 under the rule that this database does not track debt financings: Post-IPO Debt $100M on 2023-04-17 from Atlas Credit Partners. Capital raised was reduced from $700M to $600M accordingly — note this company’s total legitimately includes event rows (the 2022 SPAC, 2023 post-IPO equity and 2024 ATM), so it is not the sum of the funding rows alone. Recorded here so the fact is not lost, but it is not a round and is not counted. Market cap at the 30 Sep 2026 close ($6.02 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close.",
+      "valuation_as_of": "2026-10-30",
       "valuation_type": "market_cap",
       "valuation_source_url": "https://stockanalysis.com/stocks/soun/"
     },
@@ -41096,14 +41096,14 @@
         "https://www.cnbc.com/2023/01/02/spacex-raising-750-million-at-137-billion-valuation-a16z-investing.html",
         "https://www.bloomberg.com/news/articles/2024-12-11/spacex-completes-record-tender-offer-at-350-billion-valuation"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 2047170200000,
-      "valuation_display": "$2.05T",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 1827600000000,
+      "valuation_display": "$1.83T",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
       "valuation_source_url": "https://stockanalysis.com/stocks/spcx/",
-      "valuation_as_of": "2026-09-30",
-      "notes": "Market cap at the 30 Sep 2026 close ($150.86 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "notes": "Market cap at the 30 Sep 2026 close ($150.86 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "capital_raised_usd": 81300000000,
     "capital_raised_display": "$81.3B",
@@ -45262,14 +45262,14 @@
         "https://en.wikipedia.org/wiki/Tesla,_Inc.",
         "https://companiesmarketcap.com/tesla/marketcap/"
       ],
-      "valuation_usd": 1400080260000,
-      "valuation_display": "$1.40T",
+      "valuation_usd": 1584950000000,
+      "valuation_display": "$1.58T",
       "valuation_source_url": "https://stockanalysis.com/stocks/tsla/",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "notes": "Market cap at the 30 Sep 2026 close ($354.81 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "valuation_as_of": "2026-10-30",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "notes": "Market cap at the 30 Sep 2026 close ($354.81 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "capital_raised_usd": 278000000,
     "capital_raised_display": "$278M"
@@ -47094,14 +47094,14 @@
         "https://fortune.com/2016/06/01/uber-funding-saudi-arabia/",
         "https://techcrunch.com/2013/08/22/google-ventures-puts-258m-into-uber-its-largest-deal-ever/"
       ],
-      "last_verified": "2026-09-30T16:00:00-08:00",
-      "valuation_usd": 139924824000,
-      "valuation_display": "$139.9B",
+      "last_verified": "2026-11-06T14:00:00-08:00",
+      "valuation_usd": 133230000000,
+      "valuation_display": "$133.2B",
       "valuation_type": "market_cap",
       "valuation_confidence": "high",
-      "valuation_as_of": "2026-09-30",
+      "valuation_as_of": "2026-10-30",
       "valuation_source_url": "https://stockanalysis.com/stocks/uber/",
-      "notes": "Market cap at the 30 Sep 2026 close ($68.51 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data."
+      "notes": "Market cap at the 30 Sep 2026 close ($68.51 x shares outstanding), from the monthly sweep run on 1 Oct. Valuation source: public_market_data. October month-end mark: valuation refreshed to the close of Friday 30 October 2026, the last trading day of the month (31 October fell on a Saturday). Market cap derived from stockanalysis.com as shares outstanding times that day's close."
     },
     "ticker": "UBER",
     "capital_raised_usd": 15256000000,
