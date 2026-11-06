@@ -33201,6 +33201,22 @@
         "notes": "Asset acquisition from Presto Automation; reincorporated as Presto Phoenix, Inc."
       },
       {
+        "date": "2025-01-07",
+        "round": "Acquired",
+        "kind": "event",
+        "acquirer": "Presto Phoenix (Remus Capital-led consortium)",
+        "amount_usd": null,
+        "amount_display": "Undisclosed",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [],
+        "source_urls": [
+          "https://presto.com/presto-automation-announces-sale/"
+        ],
+        "notes": "Article 9 foreclosure sale, concluded at auction on 3 December 2024 and announced 7 January 2025. Remus Capital led a group including Link Ventures and PRST's prior lender Metropolitan Partners Group to acquire the assets of Presto Automation. The buyer injected $18M of new capital. Common shareholders of the public company were not expected to recover anything, so this was a change of control that wiped the prior cap table rather than a priced exit. No price disclosed."
+      },
+      {
         "date": "2026-01",
         "round": "Growth",
         "kind": "funding",
@@ -33219,6 +33235,23 @@
           "https://www.businesswire.com/news/home/20260108472215/en/"
         ],
         "notes": "Strategic angels include CEO of ElevenLabs"
+      },
+      {
+        "date": "2026-09-28",
+        "round": "Growth",
+        "kind": "funding",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [],
+        "other_investors": [
+          "Remus Capital"
+        ],
+        "source_urls": [
+          "https://restauranttechnologynews.com/2026/10/presto-raises-10-million-to-expand-drive-thru-voice-ai-as-pos-integration-shapes-competition/"
+        ],
+        "notes": "Announced 28 September 2026, from investors affiliated with Remus Capital and other existing investors. No valuation and no structure disclosed, so it is not necessarily a priced equity round. Supports Presto Phoenix, Inc., which operates under the Presto name."
       }
     ],
     "founders": [
@@ -33243,21 +33276,24 @@
       }
     ],
     "metadata": {
-      "last_verified": "2026-08-14T12:00:00-08:00",
-      "valuation_usd": 525000000,
-      "valuation_display": "$525M",
-      "notes": "Checked 2026-08-14 in full financing sweep — no new round/exit found.",
+      "last_verified": "2026-11-06T15:00:00-08:00",
+      "valuation_usd": null,
+      "valuation_display": "",
+      "notes": "STATUS CORRECTED November 2026. This entry had been carrying status Public with a $525M valuation that had no valuation_type — a stale 2022 SPAC figure, not a market cap. What actually happened: Presto Automation's assets were sold in an Article 9 foreclosure auction on 3 December 2024, announced 7 January 2025, to a consortium led by Remus Capital with Link Ventures and the prior lender Metropolitan Partners Group. The buyer named the new private entity Presto Phoenix, Inc., which kept the Presto Voice platform, technology, team and brand, and injected $18M. Public shareholders were wiped; the listed shell PRST still trades OTC at $0.0001 for a market cap of about $41K on 411.69M shares, so the old $525M was wrong by four orders of magnitude and the company mark is now null. Recorded as Acquired rather than Inactive because the business did not wind down — status Acquired with stage Growth, which is what the orthogonal status/stage split is for. The post-sale financings of Presto Phoenix are kept as rounds, following the convention this entry already used for the December 2024 $18M restructuring and the January 2026 $10M: added the $10M announced 28 September 2026. Note capital_raised includes the $18M restructuring, which the validator's funding-only sum excludes, hence the standing gap warning. Presto Phoenix's CEO is Krishna Gupta; Gee Lefevre was CEO at the time of the sale. Rajat Suri, the Canadian founder this entry qualifies on, founded the original company and is no longer involved — founder history does not lapse, so the entry stays.",
       "sources": [
         "https://en.wikipedia.org/wiki/Presto_(restaurant_technology_platform)",
         "https://en.wikipedia.org/wiki/Rajat_Suri",
-        "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus"
+        "https://investor.presto.com/news-releases/news-release-details/presto-automation-announces-sale-assets-consortium-led-remus",
+        "https://presto.com/presto-automation-announces-sale/",
+        "https://restauranttechnologynews.com/2026/10/presto-raises-10-million-to-expand-drive-thru-voice-ai-as-pos-integration-shapes-competition/",
+        "https://stockanalysis.com/quote/otc/PRST/"
       ]
     },
-    "capital_raised_usd": 110500000,
-    "capital_raised_display": "$110.5M",
+    "capital_raised_usd": 120500000,
+    "capital_raised_display": "$120.5M",
     "yc_batch": "S'10",
     "hq_region": "CA",
-    "status": "Public"
+    "status": "Acquired"
   },
   {
     "id": "prime-roots",
