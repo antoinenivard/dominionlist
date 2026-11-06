@@ -796,7 +796,7 @@
     "stage": "Series A",
     "status": "Private",
     "yc_batch": "W'25",
-    "icon_url": "https://img.logo.dev/afterquery.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "icon_url": "https://www.afterquery.com/icon.png",
     "founders": [
       {
         "id": "carlos-georgescu",
@@ -887,10 +887,10 @@
         "https://www.businesswire.com/news/home/20260409469482/en/",
         "https://www.crunchbase.com/organization/afterquery"
       ],
-      "last_verified": "2026-09-01T14:35:00-07:00",
+      "last_verified": "2026-11-06T13:00:00-08:00",
       "valuation_usd": 3200000000,
       "valuation_display": "$3.2B",
-      "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. Recorded as an undisclosed Venture round dated to the report: no round letter, amount or investors are stated, and the round may still be open. capital_raised_usd therefore remains the $30.5M actually announced, and stage remains Series A as the last confirmed closed round. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer — who is also AfterQuery's YC primary partner — is quoted saying this makes AfterQuery the fastest company in YC history from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Forbes report Sep 2026 — round size and investors undisclosed.",
+      "notes": "Valuation of $3.2B reported by Forbes on 2026-09-01, sourced to two people with direct knowledge; AfterQuery declined to comment and has made no announcement on its own site, LinkedIn or X as of that date. Recorded as an undisclosed Venture round dated to the report: no round letter, amount or investors are stated, and the round may still be open. capital_raised_usd therefore remains the $30.5M actually announced, and stage remains Series A as the last confirmed closed round. That $3.2B is more than 10x the $300M valuation set five months earlier in the April 2026 Series A. YC partner Gustaf Alstromer — who is also AfterQuery's YC primary partner — is quoted saying this makes AfterQuery the fastest company in YC history from inception to unicorn. Previously: checked 2026-08-14 in full financing sweep — no new round/exit found. Valuation source: Forbes report Sep 2026 — round size and investors undisclosed. LOGO: logo.dev returned a 200 for afterquery.com but served a blank white square, invisible against the light page. icon_url now points at the site's own /icon.png, a white A on a black tile.",
       "valuation_source_url": "https://www.forbes.com/sites/annatong/2026/09/01/afterquery-becomes-ycs-fastest-unicorn-at-32-billion/",
       "valuation_type": "post_money",
       "valuation_as_of": "2026-09"
