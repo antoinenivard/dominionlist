@@ -55410,6 +55410,21 @@
           "McGill University"
         ],
         "canadian_city": ""
+      },
+      {
+        "id": "avi-brudner",
+        "name": "Avi Brudner",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/avibrudner",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of Blackletter. Bachelor of Arts in Philosophy from McGill University, 2004-2008, and a Juris Doctor from Yale Law School, 2008-2011, where he edited the Yale Law Journal and the Yale Law and Policy Review. Previously a corporate attorney at Fried, Frank, Harris, Shriver & Jacobson in New York, then chief operating officer of the Toronto legal-AI company Blue J.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": ""
       }
     ],
     "funding_rounds": [
@@ -55456,8 +55471,8 @@
         "https://www.artificiallawyer.com/2026/11/09/blackletter-bags-6m-for-transactional-new-mod/",
         "https://apps.dos.ny.gov/publicInquiry/EntitySearch"
       ],
-      "last_verified": "2026-11-09T14:00:00-08:00",
-      "notes": "Added November 2026 after the owner supplied Rosenbluth's LinkedIn education section. QUALIFIES on Jonathan Rosenbluth: Bachelor of Arts in History and Economics, McGill University, 2010-2014, read directly off his profile. WORTH RECORDING WHY THIS WAS NEARLY MISSED: the launch post and the press coverage are full of Canadian signals that do NOT qualify under this database's rules — Cohere is employment, Maple VC, Garage Capital and Ripple Ventures are investors, Gomez, Zhang and Frosst are angels, the Osler alumni are staff, and Toronto offices are residence. None of that counts, and a screen that stopped at the press would have either wrongly added it on investors or wrongly rejected it. Separately, a Ripple Ventures podcast page describes Rosenbluth's undergraduate degree as Harvard history, which is WRONG; it is McGill. STRUCTURE: an MSO-style arrangement, and a cross-border one. The firm's own Terms of Use state that Blackletter is an assumed name under which two law firms trade — Blackletter Legal LLP, a New York registered LLP, DOS ID 7895067, filed 23 April 2026, and Blackletter Professional Corporation, regulated by the Law Society of Ontario. Neither can have taken the investment: New York Rule 5.4 and the LSO both bar non-lawyer ownership of a law firm, so the $6M went into an undisclosed technology entity that owns BlacketterOS. NO SEC FORM D EXISTS for any Blackletter issuer, under the firm's name or either founder's. New York records do show Blackletter Legal Systems, LLC, a New York LLC filed 28 January 2026 in Westchester, which would fit an MSO, but nothing ties it to this firm and an unrelated Blackletter Inc. has sat in Westchester since 2005. HQ New York on the owner's instruction; the firm is dual-office with Toronto, Business Insider describes the team as spread across the US and Canada, and Crunchbase lists Toronto. SECOND LIKELY CANADIAN FOUNDER NOT LISTED: co-founder Avi Brudner, previously COO of Blue J and an attorney at Fried Frank, is reported by Equilar, Crunchbase and Wellfound to hold a B.A. from McGill alongside his Yale J.D. All three are aggregators, so he is omitted rather than ruled out and would be a second qualifier if confirmed from his LinkedIn. Third co-founder David Stewart, previously product at Cohere, has no education on record anywhere. Seven lawyers at launch, per Artificial Lawyer. NOT Blackletter Capital, Blackletter Companies LLC, blackletterlaws.com or Blackletter Films."
+      "last_verified": "2026-11-09T15:00:00-08:00",
+      "notes": "Added November 2026 after the owner supplied Rosenbluth's LinkedIn education section. QUALIFIES on Jonathan Rosenbluth: Bachelor of Arts in History and Economics, McGill University, 2010-2014, read directly off his profile. WORTH RECORDING WHY THIS WAS NEARLY MISSED: the launch post and the press coverage are full of Canadian signals that do NOT qualify under this database's rules — Cohere is employment, Maple VC, Garage Capital and Ripple Ventures are investors, Gomez, Zhang and Frosst are angels, the Osler alumni are staff, and Toronto offices are residence. None of that counts, and a screen that stopped at the press would have either wrongly added it on investors or wrongly rejected it. Separately, a Ripple Ventures podcast page describes Rosenbluth's undergraduate degree as Harvard history, which is WRONG; it is McGill. STRUCTURE: an MSO-style arrangement, and a cross-border one. The firm's own Terms of Use state that Blackletter is an assumed name under which two law firms trade — Blackletter Legal LLP, a New York registered LLP, DOS ID 7895067, filed 23 April 2026, and Blackletter Professional Corporation, regulated by the Law Society of Ontario. Neither can have taken the investment: New York Rule 5.4 and the LSO both bar non-lawyer ownership of a law firm, so the $6M went into an undisclosed technology entity that owns BlacketterOS. NO SEC FORM D EXISTS for any Blackletter issuer, under the firm's name or either founder's. New York records do show Blackletter Legal Systems, LLC, a New York LLC filed 28 January 2026 in Westchester, which would fit an MSO, but nothing ties it to this firm and an unrelated Blackletter Inc. has sat in Westchester since 2005. HQ New York on the owner's instruction; the firm is dual-office with Toronto, Business Insider describes the team as spread across the US and Canada, and Crunchbase lists Toronto. SECOND QUALIFYING FOUNDER: co-founder Avi Brudner, B.A. Philosophy from McGill 2004-2008 with a Yale J.D. 2008-2011, confirmed from his own LinkedIn education section after the aggregator reports of the same pairing were judged too thin to list on. Previously a corporate attorney at Fried Frank in New York and COO of Blue J in Toronto. Not to be confused with Alan Brudner, the University of Toronto law professor who also holds a McGill B.A. — a real trap on this name. Third co-founder David Stewart, previously product at Cohere, has no education on record anywhere. Seven lawyers at launch, per Artificial Lawyer. NOT Blackletter Capital, Blackletter Companies LLC, blackletterlaws.com or Blackletter Films."
     }
   }
 ]
