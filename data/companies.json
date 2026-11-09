@@ -55380,5 +55380,84 @@
       "last_verified": "2026-11-06T16:00:00-08:00",
       "notes": "Sourced from the Y Combinator investor announcement email of 6 November 2026, Fall 2026 batch. All three founders qualify on education, each confirmed on their YC founder page's “Alumnus of” field: Harshith Latchupatula at the University of Toronto, Vishnudev Poil and Param Thakkar at the University of Waterloo. The announcement email's bios named no schools at all, so the founder pages were the source. HQ San Francisco per YC. YC lists all three simply as “Founder” with no differentiated titles. Note their shared X handle is the company account @VersineApp, so no personal x_url is recorded."
     }
+  },
+  {
+    "id": "blackletter",
+    "name": "Blackletter",
+    "website": "https://blackletterfirm.com",
+    "description": "Law firm built around its own AI operating system, BlacketterOS, which runs multi-step legal matters end to end and accumulates each client's business context so the work improves with every engagement. Unlike most AI-native firms it targets the complex transactional end — M&A, financing and diligence — rather than routine contracts, and quotes a fixed fee upfront on every matter instead of billing hours. More than 75 clients, including Fanatics, TwelveLabs, Ada and Crux; advised WindBorne Systems on its US$37M Series B.",
+    "hq_city": "New York",
+    "hq_region": "NY",
+    "hq_country": "US",
+    "industry": "Enterprise",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "https://framerusercontent.com/images/HF2nmnwoW9GjjktaEp5yVMn5M4.svg",
+    "founders": [
+      {
+        "id": "jonathan-rosenbluth",
+        "name": "Jonathan Rosenbluth",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/rosenbluth",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of Blackletter. Bachelor of Arts in History and Economics from McGill University, 2010-2014, and a Juris Doctor from Harvard Law School, 2015-2018. Previously a consultant at McKinsey & Company in Toronto, then an early employee at Cohere, where he led partnerships and product teams before leaving to start Blackletter.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "McGill University",
+        "canadian_institutions": [
+          "McGill University"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-11-09",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 6000000,
+        "amount_display": "$6M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Lerer Hippeau"
+        ],
+        "other_investors": [
+          "Seven Stars",
+          "Maple VC",
+          "Garage Capital",
+          "Ripple Ventures",
+          "Aidan Gomez",
+          "Ivan Zhang",
+          "Nick Frosst",
+          "Jae Lee",
+          "Sara Hooker",
+          "Jaron Waldman",
+          "Sami Ghoche"
+        ],
+        "source_urls": [
+          "https://www.businessinsider.com/startup-law-firm-blackletter-raises-6-million-from-lerer-hippeau-2026-11",
+          "https://www.artificiallawyer.com/2026/11/09/blackletter-bags-6m-for-transactional-new-mod/"
+        ],
+        "notes": "Announced 9 November 2026. Lerer Hippeau's first cheque into legal, per a firm spokesperson. Angels are Aidan Gomez, Ivan Zhang and Nick Frosst, the co-founders of Cohere; Jae Lee of Twelve Labs; Sara Hooker of Adaption; Jaron Waldman; and Sami Ghoche of Forethought. No valuation disclosed anywhere. The fund is named Garage Capital in the founder's own announcement and Garage Ventures by Business Insider; Garage Capital, the Waterloo fund, is used here."
+      }
+    ],
+    "capital_raised_usd": 6000000,
+    "capital_raised_display": "$6M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://blackletterfirm.com",
+        "https://blackletterfirm.com/terms-of-use",
+        "https://www.businessinsider.com/startup-law-firm-blackletter-raises-6-million-from-lerer-hippeau-2026-11",
+        "https://www.artificiallawyer.com/2026/11/09/blackletter-bags-6m-for-transactional-new-mod/",
+        "https://apps.dos.ny.gov/publicInquiry/EntitySearch"
+      ],
+      "last_verified": "2026-11-09T14:00:00-08:00",
+      "notes": "Added November 2026 after the owner supplied Rosenbluth's LinkedIn education section. QUALIFIES on Jonathan Rosenbluth: Bachelor of Arts in History and Economics, McGill University, 2010-2014, read directly off his profile. WORTH RECORDING WHY THIS WAS NEARLY MISSED: the launch post and the press coverage are full of Canadian signals that do NOT qualify under this database's rules — Cohere is employment, Maple VC, Garage Capital and Ripple Ventures are investors, Gomez, Zhang and Frosst are angels, the Osler alumni are staff, and Toronto offices are residence. None of that counts, and a screen that stopped at the press would have either wrongly added it on investors or wrongly rejected it. Separately, a Ripple Ventures podcast page describes Rosenbluth's undergraduate degree as Harvard history, which is WRONG; it is McGill. STRUCTURE: an MSO-style arrangement, and a cross-border one. The firm's own Terms of Use state that Blackletter is an assumed name under which two law firms trade — Blackletter Legal LLP, a New York registered LLP, DOS ID 7895067, filed 23 April 2026, and Blackletter Professional Corporation, regulated by the Law Society of Ontario. Neither can have taken the investment: New York Rule 5.4 and the LSO both bar non-lawyer ownership of a law firm, so the $6M went into an undisclosed technology entity that owns BlacketterOS. NO SEC FORM D EXISTS for any Blackletter issuer, under the firm's name or either founder's. New York records do show Blackletter Legal Systems, LLC, a New York LLC filed 28 January 2026 in Westchester, which would fit an MSO, but nothing ties it to this firm and an unrelated Blackletter Inc. has sat in Westchester since 2005. HQ New York on the owner's instruction; the firm is dual-office with Toronto, Business Insider describes the team as spread across the US and Canada, and Crunchbase lists Toronto. SECOND LIKELY CANADIAN FOUNDER NOT LISTED: co-founder Avi Brudner, previously COO of Blue J and an attorney at Fried Frank, is reported by Equilar, Crunchbase and Wellfound to hold a B.A. from McGill alongside his Yale J.D. All three are aggregators, so he is omitted rather than ruled out and would be a second qualifier if confirmed from his LinkedIn. Third co-founder David Stewart, previously product at Cohere, has no education on record anywhere. Seven lawyers at launch, per Artificial Lawyer. NOT Blackletter Capital, Blackletter Companies LLC, blackletterlaws.com or Blackletter Films."
+    }
   }
 ]
