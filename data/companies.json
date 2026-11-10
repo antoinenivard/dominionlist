@@ -20176,12 +20176,14 @@
         "linkedin": "https://www.linkedin.com/in/michael-yk",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Co-founder and CTO of Inference.AI. Previously co-founded Toronto-based Bifrost Cloud with John Yue, and before that was a senior software engineer at Toronto-based Horizon Blockchain Games, a consultant at AppCentrica and a software engineer at IBM.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_city": "Toronto, ON",
+        "bio": "Co-founder and CTO of Inference.AI. Bachelor of Computer Science, University of Waterloo. Previously co-founded Toronto-based Bifrost Cloud with John Yue, did blockchain R&D at Sequence, acquired by Polygon, and was a consultant at Eviden and a software engineer at IBM.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "",
         "role": "Co-Founder & CTO",
-        "canadian_institutions": []
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
       }
     ],
     "funding_rounds": [
@@ -20214,8 +20216,8 @@
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-11-09T17:00:00-08:00",
-      "notes": "ROUND AND FOUNDER EVIDENCE CORRECTED November 2026. John Yue's basis was changed from an unsourced ‘birthplace / Toronto’ to EDUCATION: the University of Waterloo's own Faculty of Math alumni speaker page states “John Yue (BCS ’17) is the Co-Founder and CEO of Inference.ai” — an institutional primary source for a Canadian degree, which is far stronger than the birthplace claim it replaces. His Canadian home town is now blank because none is sourced. MICHAEL YU IS THE WEAK LINK: he is still recorded as birthplace Toronto with no source for it. BetaKit calls the company “Canadian-founded” and “Canadian-led” and notes he ran Toronto companies, but employment and residence do not qualify anyone under this database's rules and neither does a publication calling a company Canadian. No school has been found for him. The entry does NOT depend on him — Yue carries it — but his row should be re-sourced or his connection type downgraded. FOUNDING YEAR: kept at 2023 per BetaKit and Tracxn. The Waterloo page says Yue “founded Inference.ai in 2019”, which appears to conflate it with Bifrost Cloud, founded 2019. HQ Palo Alto per BetaKit."
+      "last_verified": "2026-11-09T18:00:00-08:00",
+      "notes": "ROUND AND FOUNDER EVIDENCE CORRECTED November 2026. John Yue's basis was changed from an unsourced ‘birthplace / Toronto’ to EDUCATION: the University of Waterloo's own Faculty of Math alumni speaker page states “John Yue (BCS ’17) is the Co-Founder and CEO of Inference.ai” — an institutional primary source for a Canadian degree, which is far stronger than the birthplace claim it replaces. His Canadian home town is now blank because none is sourced. Michael Yu was ALSO re-sourced the same day: he too was carried as an unsourced ‘birthplace / Toronto’ and is now on EDUCATION, Bachelor of Computer Science at the University of Waterloo, from his LinkedIn education section supplied by the owner. Both founders are therefore Waterloo graduates and neither rests on a birthplace claim any more. FOUNDING YEAR: kept at 2023 per BetaKit and Tracxn. The Waterloo page says Yue “founded Inference.ai in 2019”, which appears to conflate it with Bifrost Cloud, founded 2019. HQ Palo Alto per BetaKit."
     },
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M"
@@ -55506,6 +55508,146 @@
       ],
       "last_verified": "2026-11-09T15:00:00-08:00",
       "notes": "Added November 2026 after the owner supplied Rosenbluth's LinkedIn education section. QUALIFIES on Jonathan Rosenbluth: Bachelor of Arts in History and Economics, McGill University, 2010-2014, read directly off his profile. WORTH RECORDING WHY THIS WAS NEARLY MISSED: the launch post and the press coverage are full of Canadian signals that do NOT qualify under this database's rules — Cohere is employment, Maple VC, Garage Capital and Ripple Ventures are investors, Gomez, Zhang and Frosst are angels, the Osler alumni are staff, and Toronto offices are residence. None of that counts, and a screen that stopped at the press would have either wrongly added it on investors or wrongly rejected it. Separately, a Ripple Ventures podcast page describes Rosenbluth's undergraduate degree as Harvard history, which is WRONG; it is McGill. STRUCTURE: an MSO-style arrangement, and a cross-border one. The firm's own Terms of Use state that Blackletter is an assumed name under which two law firms trade — Blackletter Legal LLP, a New York registered LLP, DOS ID 7895067, filed 23 April 2026, and Blackletter Professional Corporation, regulated by the Law Society of Ontario. Neither can have taken the investment: New York Rule 5.4 and the LSO both bar non-lawyer ownership of a law firm, so the $6M went into an undisclosed technology entity that owns BlacketterOS. NO SEC FORM D EXISTS for any Blackletter issuer, under the firm's name or either founder's. New York records do show Blackletter Legal Systems, LLC, a New York LLC filed 28 January 2026 in Westchester, which would fit an MSO, but nothing ties it to this firm and an unrelated Blackletter Inc. has sat in Westchester since 2005. HQ New York on the owner's instruction; the firm is dual-office with Toronto, Business Insider describes the team as spread across the US and Canada, and Crunchbase lists Toronto. SECOND QUALIFYING FOUNDER: co-founder Avi Brudner, B.A. Philosophy from McGill 2004-2008 with a Yale J.D. 2008-2011, confirmed from his own LinkedIn education section after the aggregator reports of the same pairing were judged too thin to list on. Previously a corporate attorney at Fried Frank in New York and COO of Blue J in Toronto. Not to be confused with Alan Brudner, the University of Toronto law professor who also holds a McGill B.A. — a real trap on this name. Third co-founder David Stewart, previously product at Cohere, has no education on record anywhere. Seven lawyers at launch, per Artificial Lawyer. NOT Blackletter Capital, Blackletter Companies LLC, blackletterlaws.com or Blackletter Films."
+    }
+  },
+  {
+    "id": "more-labs",
+    "name": "More Labs",
+    "website": "https://www.morelabs.com",
+    "description": "Functional beverage company best known for Morning Recovery, a pre-alcohol drink built around dihydromyricetin, a herbal compound studied by USC pharmacologist Jing Liang. Launched on Indiegogo in 2017 and now sells a broader line including Liquid Focus, Dream Well and pre-alcohol drink powders through tens of thousands of US retail locations. Trades as More Labs; the legal entity remains 82 Labs, Inc., named for South Korea's telephone country code.",
+    "hq_city": "Los Angeles",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Series B",
+    "status": "Private",
+    "founding_year": 2017,
+    "yc_batch": "",
+    "icon_url": "https://www.morelabs.com/cdn/shop/files/more-labs-favicon_180x180.png?v=1674143792",
+    "founders": [
+      {
+        "id": "sisun-lee",
+        "name": "Sisun Lee",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/sisunlee",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of More Labs and its CEO until December 2021, afterwards a director. Bachelor of Applied Science in Systems Design Engineering, University of Waterloo, 2014. Born in South Korea and moved to Toronto aged nine, growing up there through university. Previously a product manager at Facebook, growth at Uber in Southeast Asia and a growth product lead at Tesla.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Toronto, ON"
+      },
+      {
+        "id": "kenny-leung",
+        "name": "Kenny Leung",
+        "role": "Co-Founder",
+        "linkedin": "https://www.linkedin.com/in/kenny-leung-8a8f",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of More Labs and a director of 82 Labs, Inc. on its 2018 Form D. A University of Waterloo classmate and roommate of Sisun Lee, brought in as co-founder for his e-commerce experience at Facebook.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": ""
+      },
+      {
+        "id": "misha-frolov",
+        "name": "Misha Frolov",
+        "role": "Co-Founder & Chief Design Officer",
+        "linkedin": "https://www.linkedin.com/in/mishafrolov",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and chief design officer of More Labs. Born and raised in Moscow, moved to Canada after high school and studied at a Canadian art college before working as a designer. Led product design teams at Uber, where he met Sisun Lee. Has since left; previously at Shopify and Stripe.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Alberta University of the Arts",
+        "canadian_institutions": [
+          "Alberta University of the Arts"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2017",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 1500000,
+        "amount_display": "$1.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Thunder Road Capital"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://uwaterloo.ca/news/engineering-alumni/promising-solution-hangover-misery",
+          "https://betakit.com/morning-recovery-raises-10-million-cad-to-cure-hangovers-with-a-scientific-approach/"
+        ],
+        "notes": "About $500K initially, roughly $1.5M in total. Thunder Road Capital, the fund of former Facebook Canada managing director Jordan Banks, is the named backer; Ameet Shah of Golden Ventures was an early angel. Separately the company pre-sold more than $250K on Indiegogo in July 2017, which is not counted here as equity."
+      },
+      {
+        "date": "2018-04-06",
+        "round": "Series A",
+        "kind": "funding",
+        "amount_usd": 8000000,
+        "amount_display": "$8M",
+        "valuation_usd": 33000000,
+        "valuation_display": "$33M",
+        "lead_investors": [
+          "Altos Ventures",
+          "Slow Ventures"
+        ],
+        "other_investors": [
+          "R7 Partners",
+          "Strong Ventures",
+          "Thunder Road Capital"
+        ],
+        "source_urls": [
+          "https://betakit.com/morning-recovery-raises-10-million-cad-to-cure-hangovers-with-a-scientific-approach/",
+          "https://www.sec.gov/Archives/edgar/data/1737298/000173729818000001/primary_doc.xml"
+        ],
+        "notes": "Co-led by Altos Ventures and Slow Ventures, announced 2 April 2018 as $10M CAD, $8M USD, at a $42M CAD post-money, about $33M USD. Dated to the Form D's first sale of 6 April 2018. NOTE THE DISCREPANCY: the Form D reports $9,534,979 sold to 50 investors against the $8M reported in press, most likely because the filing swept in converted seed notes. The press figure is recorded as the round size."
+      },
+      {
+        "date": "2021-09-30",
+        "round": "Series B",
+        "kind": "funding",
+        "amount_usd": 10000000,
+        "amount_display": "$10M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Btomorrow Ventures"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.bevnet.com/news/2021/morning-recovery-parent-co-more-labs-closes-10m-series-b/",
+          "https://www.sec.gov/Archives/edgar/data/1737298/000173729821000006/primary_doc.xml"
+        ],
+        "notes": "Led by Btomorrow Ventures, the corporate venture arm of British American Tobacco; announced October 2021. No valuation disclosed. Dated to the Form D's first sale of 30 September 2021. The Form D records $12,008,028 offered and only $7,008,028 sold to 16 investors as of the 8 November 2021 filing, with no amendment since, so the $10M press figure is not confirmed in EDGAR."
+      }
+    ],
+    "capital_raised_usd": 19500000,
+    "capital_raised_display": "$19.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://uwaterloo.ca/news/engineering-alumni/promising-solution-hangover-misery",
+        "https://www.morelabs.com/blogs/trailblazers/misha-frolov",
+        "https://www.sec.gov/Archives/edgar/data/1737298/000173729818000001/primary_doc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1737298/000173729821000006/primary_doc.xml",
+        "https://betakit.com/morning-recovery-raises-10-million-cad-to-cure-hangovers-with-a-scientific-approach/",
+        "https://www.bevnet.com/news/2021/morning-recovery-parent-co-more-labs-closes-10m-series-b/",
+        "https://www.morelabs.com/blogs/journal/our-story-the-road-to-morning-recovery"
+      ],
+      "last_verified": "2026-11-09T18:00:00-08:00",
+      "notes": "Added November 2026 on the owner's suggestion. ALL THREE CO-FOUNDERS QUALIFY, which is unusual. Sisun Lee: the University of Waterloo's own alumni story calls him “the 2014 Waterloo systems design engineering graduate” — primary. A 2017 interview adds that he was born in South Korea, moved to Toronto at nine, grew up there through university and is a Canadian citizen; that is well-supported secondary and the entry does not depend on it, since the degree settles the test. Kenny Leung: the same Waterloo story calls him Lee's “classmate” who was “rooming and working on school projects together” at Waterloo, and he is a named director on the 2018 Form D. His specific degree comes only from Crunchbase, so the institution is solid but the programme is not. Misha Frolov: on More Labs' own site he writes “I was born and raised in Moscow, Russia. I moved to Canada after high school and began studies at an art college” — primary and first-person for Canadian post-secondary study. WHICH art college is less certain: Alberta University of the Arts, formerly the Alberta College of Art and Design, and the University of Regina both appear on aggregators, and it is unclear whether these are sequential or one is an error. The institution named here should be treated as the lower-confidence part of an otherwise solid row. CAP TABLE: the legal entity is 82 Labs, Inc., EDGAR CIK 0001737298, jurisdiction of incorporation DELAWARE, year 2017, offices on Wilshire Boulevard in Los Angeles. It is the issuer on both Form Ds, and there is no non-US parent. British American Tobacco's venture arm led the Series B but is a minority investor, which does not bear on the test. SEARCH TRAP: EDGAR has nothing under “More Labs” — every filing is under 82 Labs, Inc. STILL OPERATING as of November 2026: the storefront is live with a current promotion, a new pre-alcohol powder line and blog posts through August 2026, despite the trade press going quiet after 2024. Josh Groff became CEO in December 2021 and signed the 2021 Form D; he is not a founder and is not listed. NOT the Web3 “MORE Labs” or Moonveil's MORE token. VALUATION LEFT NULL DELIBERATELY: the Series A carries its $33M post-money, which raises the standing “dangling valuation” warning, but that figure is from April 2018 and the 2021 Series B disclosed none. Carrying an eight-year-old mark as the company's current valuation would be worse than carrying none, so the entry sorts as unvalued on purpose — do not “fix” this by promoting the Series A figure."
     }
   }
 ]
