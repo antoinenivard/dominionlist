@@ -20161,12 +20161,14 @@
         "linkedin": "https://www.linkedin.com/in/johnyuejy",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Canadian co-founder of Inference.AI, Toronto-based venture background.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
-        "canadian_city": "Toronto, ON",
-        "role": "",
-        "canadian_institutions": []
+        "bio": "Co-founder and CEO of Inference.AI. Bachelor of Computer Science, University of Waterloo, class of 2017. Previously co-founded and led Toronto-based Bifrost Cloud, a distributed cloud storage company, and before that worked at Mavennet, Aion, Merrill Lynch, RLDatix and the Ontario Teachers' Pension Plan.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_city": "",
+        "role": "Co-Founder & CEO",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
       },
       {
         "id": "michael-yu",
@@ -20174,43 +20176,46 @@
         "linkedin": "https://www.linkedin.com/in/michael-yk",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Canadian co-founder of Inference.AI.",
+        "bio": "Co-founder and CTO of Inference.AI. Previously co-founded Toronto-based Bifrost Cloud with John Yue, and before that was a senior software engineer at Toronto-based Horizon Blockchain Games, a consultant at AppCentrica and a software engineer at IBM.",
         "canadian_connection_type": "birthplace",
         "canadian_institution": "",
         "canadian_city": "Toronto, ON",
-        "role": "",
+        "role": "Co-Founder & CTO",
         "canadian_institutions": []
       }
     ],
     "funding_rounds": [
       {
-        "date": "2024",
+        "date": "2023-12",
         "round": "Seed",
         "kind": "funding",
         "amount_usd": 4000000,
         "amount_display": "$4M",
         "valuation_usd": null,
         "valuation_display": "",
-        "lead_investors": [],
-        "other_investors": [
+        "lead_investors": [
           "Maple VC",
-          "Cherubic Ventures",
+          "Cherubic Ventures"
+        ],
+        "other_investors": [
           "Fusion Fund"
         ],
         "source_urls": [
+          "https://betakit.com/maple-vc-co-leads-4-million-seed-round-for-canadian-led-inference-ai/",
           "https://www.crunchbase.com/organization/inferenceai"
         ],
-        "notes": ""
+        "notes": "$4M USD, CO-LED by Maple VC and Cherubic Ventures with Fusion Fund participating, plus undisclosed others. Proceeds earmarked for continued development of hardware deployment infrastructure. DATE: PitchBook puts the close in December 2023; BetaKit announced it on 16 February 2024. The close date is used here, which is why this row previously read simply ‘2024’. The lead was also previously blank with all three investors in other_investors — BetaKit's headline and body both say co-led."
       }
     ],
     "metadata": {
       "sources": [
-        "https://betakit.com/maple-vc-co-leads-4-million-seed-round-for-canadian-led-inference-ai/"
+        "https://betakit.com/maple-vc-co-leads-4-million-seed-round-for-canadian-led-inference-ai/",
+        "https://uwaterloo.ca/math-innovation/student-entrepreneurship/entrepreneurship-and-impact-series"
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-03-24T20:03:37Z",
-      "notes": ""
+      "last_verified": "2026-11-09T17:00:00-08:00",
+      "notes": "ROUND AND FOUNDER EVIDENCE CORRECTED November 2026. John Yue's basis was changed from an unsourced ‘birthplace / Toronto’ to EDUCATION: the University of Waterloo's own Faculty of Math alumni speaker page states “John Yue (BCS ’17) is the Co-Founder and CEO of Inference.ai” — an institutional primary source for a Canadian degree, which is far stronger than the birthplace claim it replaces. His Canadian home town is now blank because none is sourced. MICHAEL YU IS THE WEAK LINK: he is still recorded as birthplace Toronto with no source for it. BetaKit calls the company “Canadian-founded” and “Canadian-led” and notes he ran Toronto companies, but employment and residence do not qualify anyone under this database's rules and neither does a publication calling a company Canadian. No school has been found for him. The entry does NOT depend on him — Yue carries it — but his row should be re-sourced or his connection type downgraded. FOUNDING YEAR: kept at 2023 per BetaKit and Tracxn. The Waterloo page says Yue “founded Inference.ai in 2019”, which appears to conflate it with Bifrost Cloud, founded 2019. HQ Palo Alto per BetaKit."
     },
     "capital_raised_usd": 4000000,
     "capital_raised_display": "$4M"
