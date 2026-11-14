@@ -54469,8 +54469,8 @@
   {
     "id": "preload",
     "name": "Preload",
-    "website": "",
-    "description": "Describes itself as the motor cortex for physical AI. Both founders are biomedical engineering PhD candidates at Johns Hopkins working on neural interfaces. Y Combinator publishes no long description and the company has no public site yet, so the product is not documented beyond that positioning.",
+    "website": "https://preload.ai",
+    "description": "Gives robots a nervous system: synchronized video, touch and muscle data that captures how hard human hands hold, press and let go. Workers wear a head-mounted camera, a tactile glove that measures pressure across the fingers and palm, and a forearm EMG band. Preload runs the pipeline from sensors and data collection through robot policy training, evaluation and deployment, selling to frontier AI labs, robotics companies, surgical teams and industrial operators.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -54479,7 +54479,7 @@
     "status": "Private",
     "founding_year": 2026,
     "yc_batch": "F'26",
-    "icon_url": "",
+    "icon_url": "https://preload.ai/assets/apple-touch-icon.png",
     "founders": [
       {
         "id": "surya-pandiaraju",
@@ -54522,10 +54522,11 @@
       "valuation_usd": null,
       "valuation_display": "",
       "sources": [
+        "https://preload.ai",
         "https://www.ycombinator.com/companies/preload"
       ],
-      "last_verified": "2026-10-09T16:00:00-07:00",
-      "notes": "Sourced from a Y Combinator investor announcement email of 9 October 2026, Fall 2026 batch. Qualifies on Surya Pandiaraju, whose YC bio reads “PhD candidate at Johns Hopkins BME, Waterloo BME grad”. NO WEBSITE: YC’s website field is empty and no company site exists yet, which is why the website field here is blank rather than guessed — fill it in when they launch one, and the thin description should be rewritten then too. HQ San Francisco and founding year 2026 per YC; team size 3. Co-founder Runming (Tony) Wang, also a Johns Hopkins BME PhD candidate, has not been screened for a Canadian connection and is omitted rather than ruled out."
+      "last_verified": "2026-11-14T15:30:00-08:00",
+      "notes": "Sourced from a Y Combinator investor announcement email of 9 October 2026, Fall 2026 batch. Qualifies on Surya Pandiaraju, whose YC bio reads “PhD candidate at Johns Hopkins BME, Waterloo BME grad”. WEBSITE ADDED 14 November 2026: preload.ai is live and its footer reads “Backed by Y Combinator · F26”, so it is this company. The description was rewritten from the site, replacing the earlier placeholder built on YC’s one-line positioning, “the motor cortex for physical AI”. ICON: logo.dev serves a white house-shaped pentagon for preload.ai that does not match the site’s own square mark, probably left from an earlier owner of the domain, so icon_url points at the site’s apple-touch-icon instead — do not switch it to logo.dev. HQ San Francisco and founding year 2026 per YC; team size 3. Co-founder Runming (Tony) Wang, also a Johns Hopkins BME PhD candidate, has not been screened for a Canadian connection and is omitted rather than ruled out."
     }
   },
   {
