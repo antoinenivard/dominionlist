@@ -17030,7 +17030,7 @@
     "legacy_id": "326",
     "name": "Gather",
     "website": "https://www.gatherhq.com",
-    "description": "AI-powered research tool for marketers, automating market research from days to minutes.",
+    "description": "Agentic market research for enterprise go-to-market teams. Gather's long-horizon agent continually interviews real buyers, turns what it learns into content meant to drive pipeline, and maintains a living simulation of a market that AI agents and teams can keep querying. The company says it has run more than 250,000 interviews and serves 60 enterprise customers.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
     "hq_country": "US",
@@ -17038,7 +17038,7 @@
     "industry": "AI",
     "stage": "Seed",
     "status": "Private",
-    "yc_batch": "",
+    "yc_batch": "F'26",
     "icon_url": "https://vjrxythvfkjsopsrebco.supabase.co/storage/v1/object/public/media-library/1770937231027_converted_1770937229270.jpg",
     "founders": [
       {
@@ -17081,12 +17081,13 @@
     ],
     "metadata": {
       "sources": [
-        "https://www.linkedin.com/in/imayank/"
+        "https://www.linkedin.com/in/imayank/",
+        "https://www.ycombinator.com/companies/gatherhq"
       ],
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-08-14T12:00:00-08:00",
-      "notes": "Backed by Anthropic, True Ventures, Menlo Ventures, Ridge Ventures + super angels (CEOs of G2 and Zendesk); amounts undisclosed. Co-founded by Mayank Mehta (CEO) and Anand (CTO) per company FAQ. CORRECTED: previously carried Gather.town’s 2021 Sequoia/Index rounds ($26M Series A, $50M Series B) — a different company (founder Phillip Wang)."
+      "last_verified": "2026-11-14T12:00:00-08:00",
+      "notes": "Backed by Anthropic, True Ventures, Menlo Ventures, Ridge Ventures + super angels (CEOs of G2 and Zendesk); amounts undisclosed. Co-founded by Mayank Mehta (CEO) and Anand (CTO) per company FAQ. CORRECTED: previously carried Gather.town’s 2021 Sequoia/Index rounds ($26M Series A, $50M Series B) — a different company (founder Phillip Wang). UPDATED 14 November 2026: the company appeared in the Y Combinator investor announcement email of 13 November as GatherHQ, Fall 2026 batch, so yc_batch is now F'26 and the description follows YC's own copy. It is the SAME company as this entry — same domain gatherhq.com, same founder, same San Francisco base — and a near-duplicate entry under the id ‘gatherhq’ was created and then removed when validate.py's founder-consistency check flagged Mayank Mehta as already present elsewhere. YC gives the founding year as 2025 against the 2024 recorded here; 2024 is kept as it predates the YC listing and the seed round is dated 2024. YC's company page currently lists only Jay Flaherty under Active Founders, and /founders/mayank-mehta is a 404, although the launch post is signed “Mayank, Anand & Jay”. The other two founders, Jay Flaherty (University of Michigan) and Anand Thaker (UIUC), have no Canadian connection. Anand Thaker also appears in Stealth Startup Spy #389 as “Technical Co-Founder at Gather”, San Francisco — same company."
     },
     "capital_raised_usd": null,
     "capital_raised_display": ""
@@ -55648,6 +55649,70 @@
       ],
       "last_verified": "2026-11-09T18:00:00-08:00",
       "notes": "Added November 2026 on the owner's suggestion. ALL THREE CO-FOUNDERS QUALIFY, which is unusual. Sisun Lee: the University of Waterloo's own alumni story calls him “the 2014 Waterloo systems design engineering graduate” — primary. A 2017 interview adds that he was born in South Korea, moved to Toronto at nine, grew up there through university and is a Canadian citizen; that is well-supported secondary and the entry does not depend on it, since the degree settles the test. Kenny Leung: the same Waterloo story calls him Lee's “classmate” who was “rooming and working on school projects together” at Waterloo, and he is a named director on the 2018 Form D. His specific degree comes only from Crunchbase, so the institution is solid but the programme is not. Misha Frolov: on More Labs' own site he writes “I was born and raised in Moscow, Russia. I moved to Canada after high school and began studies at an art college” — primary and first-person for Canadian post-secondary study. WHICH art college is less certain: Alberta University of the Arts, formerly the Alberta College of Art and Design, and the University of Regina both appear on aggregators, and it is unclear whether these are sequential or one is an error. The institution named here should be treated as the lower-confidence part of an otherwise solid row. CAP TABLE: the legal entity is 82 Labs, Inc., EDGAR CIK 0001737298, jurisdiction of incorporation DELAWARE, year 2017, offices on Wilshire Boulevard in Los Angeles. It is the issuer on both Form Ds, and there is no non-US parent. British American Tobacco's venture arm led the Series B but is a minority investor, which does not bear on the test. SEARCH TRAP: EDGAR has nothing under “More Labs” — every filing is under 82 Labs, Inc. STILL OPERATING as of November 2026: the storefront is live with a current promotion, a new pre-alcohol powder line and blog posts through August 2026, despite the trade press going quiet after 2024. Josh Groff became CEO in December 2021 and signed the 2021 Form D; he is not a founder and is not listed. NOT the Web3 “MORE Labs” or Moonveil's MORE token. VALUATION LEFT NULL DELIBERATELY: the Series A carries its $33M post-money, which raises the standing “dangling valuation” warning, but that figure is from April 2018 and the 2021 Series B disclosed none. Carrying an eight-year-old mark as the company's current valuation would be worse than carrying none, so the entry sorts as unvalued on purpose — do not “fix” this by promoting the Series A figure."
+    }
+  },
+  {
+    "id": "verno",
+    "name": "Verno",
+    "website": "https://verno-ai.com",
+    "description": "AI for the engineering documents behind industrial plants. An engineer describes a change and Verno edits the P&ID inside the native CAD file, carries it through line lists and downstream documents, and checks each against engineering rules before approval. On drawings already issued for construction it has caught contradictions such as one tank carrying three different design pressures across three documents. Starting with process EPCs in oil and gas, chemicals, semiconductors, pharma and food and beverage.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "",
+    "founders": [
+      {
+        "id": "ujjawal-madan",
+        "name": "Ujjawal Madan",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Verno (YC F26). Trained as a classical trumpeter and graduated from the Glenn Gould School, the professional post-secondary school of the Royal Conservatory of Music in Toronto, before teaching himself to code. Later took an M.S. at Georgia Tech. Previously principal data scientist and senior manager at Asurion and an AI engineer at Promise.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "The Royal Conservatory of Music",
+        "canadian_institutions": [
+          "The Royal Conservatory of Music"
+        ],
+        "canadian_city": ""
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/verno"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/verno",
+        "https://www.ycombinator.com/founders/ujjawal-madan",
+        "https://radio.journalism.torontomu.ca/saying-goodbye-to-your-dream-career/"
+      ],
+      "last_verified": "2026-11-14T12:00:00-08:00",
+      "notes": "Sourced from the Y Combinator investor announcement email of 13 November 2026, Fall 2026 batch. QUALIFIES ON A JUDGEMENT CALL WORTH REVISITING. Ujjawal Madan's YC founder page lists “Alumnus of: Georgia Institute of Technology, The Royal Conservatory of Music”. The RCM alone would NOT have been enough: it runs a worldwide examination system and millions hold RCM certificates without ever attending in Canada. What settles it is a Toronto Metropolitan University journalism feature of March 2019 on “trumpeter Ujjawal Madan”, who had “recently graduat[ed] from the acclaimed classical music post-secondary institution, the Glenn Gould School” — the RCM's degree-granting professional school in Toronto, so in-person post-secondary study in Canada. Identity is tight: Verno's own bio describes him as a professional musician who taught himself to code and then took a Georgia Tech M.S., matching both the article and the YC alumnus field. THE OPEN QUESTION is whether a music conservatory counts as a “college” under the education test. It is a degree-granting post-secondary institution, so it is recorded as qualifying, but it is the first conservatory in this database and the owner may want to rule on it. Co-founder and CEO Oliver Wesche is Harvard Business School and the University of Alabama in Huntsville, with no Canadian connection, so he is not listed."
     }
   }
 ]
