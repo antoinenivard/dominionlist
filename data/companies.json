@@ -50992,7 +50992,7 @@
   {
     "id": "lark-wholesale",
     "name": "Lark",
-    "website": "https://trylark.ai",
+    "website": "https://larkagents.com",
     "description": "Specialised AI agents that automate manual workflows for wholesale distributors, working against existing ERP systems and learning from each distributor’s historical data and its team’s decisions.",
     "hq_city": "San Francisco",
     "hq_region": "CA",
@@ -51002,7 +51002,7 @@
     "status": "Private",
     "founding_year": 2026,
     "yc_batch": "F'26",
-    "icon_url": "https://img.logo.dev/trylark.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "icon_url": "https://img.logo.dev/larkagents.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
     "founders": [
       {
         "id": "jason-wang",
@@ -51047,8 +51047,8 @@
     "metadata": {
       "valuation_usd": null,
       "valuation_display": "",
-      "last_verified": "2026-09-18T19:45:00Z",
-      "notes": "YC Fall 2026, announced in YC’s investor digest on 18 Sep 2026. HQ San Francisco per the YC company page (ycombinator.com/companies/lark-2 — note /companies/lark is a different, unrelated Lark from S25); LarkAI Technologies, Inc. is a Delaware corporation per the site’s terms, which are governed by Delaware law. No funding disclosed beyond the standard YC deal, so capital raised is left null rather than assumed. MICHAEL WANG’S CONNECTION IS SELF-REPORTED: the Team Canada badminton claim comes from his own YC founder bio and nothing else. Badminton Canada rosters, Badminton Ontario and BWF results were searched and he does not appear on any of them. Representing Canada nationally would require citizenship, which is why it is recorded that way, but it rests on one self-authored sentence. Jason Wang’s University of Toronto degree is also self-reported, on YC and LinkedIn, and is the connection the entry actually stands on."
+      "last_verified": "2026-11-14T15:45:00-08:00",
+      "notes": "DOMAIN CHANGED 14 November 2026: the company now runs at larkagents.com, and trylark.ai 308-redirects there. The new site’s footer reads “© 2026 LarkAI Technologies, Inc.” and it links to ycombinator.com/companies/lark-2, so it is this company. The icon changed with it: logo.dev’s mark for trylark.ai is the old green grid “D”, while its mark for larkagents.com is the new black bird that matches the site’s own favicon. YC Fall 2026, announced in YC’s investor digest on 18 Sep 2026. HQ San Francisco per the YC company page (ycombinator.com/companies/lark-2 — note /companies/lark is a different, unrelated Lark from S25); LarkAI Technologies, Inc. is a Delaware corporation per the site’s terms, which are governed by Delaware law. No funding disclosed beyond the standard YC deal, so capital raised is left null rather than assumed. MICHAEL WANG’S CONNECTION IS SELF-REPORTED: the Team Canada badminton claim comes from his own YC founder bio and nothing else. Badminton Canada rosters, Badminton Ontario and BWF results were searched and he does not appear on any of them. Representing Canada nationally would require citizenship, which is why it is recorded that way, but it rests on one self-authored sentence. Jason Wang’s University of Toronto degree is also self-reported, on YC and LinkedIn, and is the connection the entry actually stands on."
     }
   },
   {
