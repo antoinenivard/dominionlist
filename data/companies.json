@@ -1804,10 +1804,10 @@
         "canadian_institutions": [
           "University of Toronto"
         ],
-        "photo_url": "https://avatars.githubusercontent.com/u/61658?v=4",
-        "image_source_type": "github",
-        "image_source_page": "https://github.com/colah",
-        "image_last_checked_at": "2026-04-12T04:20:22Z",
+        "photo_url": "https://assets.claude.com/fcc30d635acba82820bde8e6c8153c360a99bc26.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://www.anthropic.com/company/leadership",
+        "image_last_checked_at": "2026-11-18T18:18:31Z",
         "github_username": "colah",
         "role": ""
       }
