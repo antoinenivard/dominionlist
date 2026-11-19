@@ -55808,5 +55808,71 @@
       "last_verified": "2026-11-18T14:00:00-08:00",
       "notes": "Added 18 November 2026 at the owner's request. Fall 2026 YC batch. US HQ: YC lists San Francisco, and the company's own site says “Two engineers in San Francisco”. Both founders qualify on education, each confirmed by the “Alumnus of” field on his YC founder page. RYAN NING: “Alumnus of University of Toronto”; Simulithic's site adds computer science and AI research at U of T. SATYAM SINGH: “Alumnus of University of Regina”. Identity is tied by the NASA hackathon: Simulithic's site calls him the “First Canadian winner of NASA’s global hackathon out of 15,444 teams”, and a January 2025 University of Regina story names second-year computer science student Satyam Singh on Team Asteroid Destroyer, winner of the Global Connection Award at the 2024 NASA International Space Apps Challenge, quoting the same 15,444 teams. Only the standard YC deal is public; no other round or valuation disclosed. PHOTOS: both headshots are from the founders section of simulithic.com. ICON: logo.dev's mark matches the site's own favicon (white pixel “S” on a blue square), checked 18 November 2026."
     }
+  },
+  {
+    "id": "lucidic-ai",
+    "name": "Lucidic AI",
+    "website": "https://lucidic.ai",
+    "description": "Training platform for AI agents. It turns a company's own data (agent traces, past support tickets, policies and internal documents) into simulations of its hardest cases, then either optimizes the agent's harness (prompts, memory, tools and steps) or trains the model and harness together, routing each case to LoRA fine-tuning, on-policy distillation or GRPO. The trained agent loads with a single training ID and no code changes, aiming at lower cost per task and more tasks done correctly.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "W'25",
+    "icon_url": "https://lucidic.ai/apple-touch-icon.png",
+    "founders": [
+      {
+        "id": "andy-liang",
+        "name": "Andy Liang",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/andyliang223/",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Lucidic AI (YC W25). Attended Eric Hamber Secondary School in Vancouver, where he and a classmate won a bronze medal and the Ted Rogers Innovation Award at the 2019 Canada-Wide Science Fair, and in 2020 co-built GrocerCheck, a non-profit site showing live crowding at grocery stores during COVID-19. BS and MS in computer science from Stanford. Previously a software engineering intern at Citadel Securities and AppLovin.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Eric Hamber Secondary School",
+        "canadian_institutions": [
+          "Eric Hamber Secondary School"
+        ],
+        "canadian_city": "Vancouver, BC"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-03",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/lucidic-ai"
+        ],
+        "notes": "Standard YC deal for the Winter 2025 batch; month is the batch's Demo Day. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/lucidic-ai",
+        "https://lucidic.ai/",
+        "https://gvrsf.ca/2019/06/27/congratulations-to-the-2019-canada-wide-science-fair-winners-from-the-gvrsf/",
+        "https://dailyhive.com/vancouver/grocercheck-vancouver",
+        "https://github.com/GrocerCheck/GrocerCheck"
+      ],
+      "last_verified": "2026-11-18T17:15:00-08:00",
+      "notes": "Added 18 November 2026 at the owner's request. Winter 2025 YC batch. US HQ: YC lists San Francisco and every role on lucidic.ai/careers is on-site in San Francisco. QUALIFIES ON A CANADIAN SECONDARY SCHOOL ALONE, which the methodology allows. Andy Liang's LinkedIn profile lists Eric Hamber Secondary (2016–2021) in Vancouver, then Stanford. Public sources tie it together: the Greater Vancouver Regional Science Fair's list of 2019 Canada-Wide Science Fair winners names “Andy Liang and Alexander Sun … (Intermediate, Eric Hamber Secondary School)” with a bronze medal and the Ted Rogers Innovation Award; a Daily Hive story of 28 May 2020 says GrocerCheck co-founder Brian Chen “reached out to his friend Andy Liang” to build the Vancouver grocery-crowding site, run by Grade 11 and 12 students; and Liang's YC bio says he “Previously built GrocerCheck … endorsed by the Government of Canada”. Co-founders Abhinav Sinha (CEO) and Jeremy Tian (Chief Scientist) both list Stanford BS/MS degrees; no Canadian connection was found for either, so they are not listed. Only the standard YC deal is public. ICON: uses the site's own apple-touch-icon (a script “L” on a pastel gradient); logo.dev still serves an older dotted mark as of 18 November 2026, so do not switch it to logo.dev. PHOTO: none; the YC avatar is a signed URL that expires within an hour and the site has no team page."
+    }
   }
 ]
