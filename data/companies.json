@@ -55874,5 +55874,88 @@
       "last_verified": "2026-11-18T17:15:00-08:00",
       "notes": "Added 18 November 2026 at the owner's request. Winter 2025 YC batch. US HQ: YC lists San Francisco and every role on lucidic.ai/careers is on-site in San Francisco. QUALIFIES ON A CANADIAN SECONDARY SCHOOL ALONE, which the methodology allows. Andy Liang's LinkedIn profile lists Eric Hamber Secondary (2016–2021) in Vancouver, then Stanford. Public sources tie it together: the Greater Vancouver Regional Science Fair's list of 2019 Canada-Wide Science Fair winners names “Andy Liang and Alexander Sun … (Intermediate, Eric Hamber Secondary School)” with a bronze medal and the Ted Rogers Innovation Award; a Daily Hive story of 28 May 2020 says GrocerCheck co-founder Brian Chen “reached out to his friend Andy Liang” to build the Vancouver grocery-crowding site, run by Grade 11 and 12 students; and Liang's YC bio says he “Previously built GrocerCheck … endorsed by the Government of Canada”. Co-founders Abhinav Sinha (CEO) and Jeremy Tian (Chief Scientist) both list Stanford BS/MS degrees; no Canadian connection was found for either, so they are not listed. Only the standard YC deal is public. ICON: uses the site's own apple-touch-icon (a script “L” on a pastel gradient); logo.dev still serves an older dotted mark as of 18 November 2026, so do not switch it to logo.dev. PHOTO: none; the YC avatar is a signed URL that expires within an hour and the site has no team page."
     }
+  },
+  {
+    "id": "oro-ai",
+    "name": "ORO AI",
+    "website": "https://oroagents.com",
+    "description": "Applied AI research lab teaching AI agents the judgment to run businesses. It builds business simulations grounded in data from industry partners; its first public benchmark, SMB Bench, puts frontier models in charge of a produce wholesaler's buying desk for a simulated 90-day quarter in which shortages and supplier failures have delayed effects, and scores the profit they make. It also runs an open arena on the Bittensor network, Subnet 15, where outside participants submit autonomous commerce agents that are scored against its benchmarks.",
+    "hq_city": "",
+    "hq_region": "",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://img.logo.dev/oroagents.com?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "shardul-bansal",
+        "name": "Shardul Bansal",
+        "role": "Co-Founder & CEO",
+        "linkedin": "https://www.linkedin.com/in/shardul-bansal",
+        "x_url": "https://x.com/shardiban",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CEO of ORO AI (YC F26). Studied computer science at the University of Toronto, where he did undergraduate research on evaluations for distributed training. Previously a founding engineer at Crucible Labs, building on Bittensor, and an engineer on AWS Cloud Map.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "canadian_city": "Toronto, ON"
+      },
+      {
+        "id": "seth-schilbe",
+        "name": "Seth Schilbe",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/sethschilbe/",
+        "x_url": "https://x.com/SethSchilbe",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of ORO AI (YC F26). Attended Bow Valley High School and the University of Waterloo, and holds a software engineering degree from the University of New Brunswick. Previously a senior software engineer at AWS leading distributed-systems projects across ECS and AWS Cloud Map, and earlier co-founded HomeWurk, a marketplace for local service work aimed at students.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of New Brunswick",
+        "canadian_institutions": [
+          "Bow Valley High School",
+          "University of Waterloo",
+          "University of New Brunswick"
+        ],
+        "canadian_city": "Fredericton, NB"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/oro-ai"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/oro-ai",
+        "https://www.ycombinator.com/founders/1611976-shardul-bansal",
+        "https://www.ycombinator.com/founders/3911452-seth-schilbe",
+        "https://oroagents.com/",
+        "https://oroagents.com/privacy-policy"
+      ],
+      "last_verified": "2026-11-20T16:15:00-08:00",
+      "notes": "Found by screening the Y Combinator investor announcement email of 20 November 2026, Fall 2026 batch. QUALIFIES UNDER THE 5 OCTOBER 2026 CAP-TABLE RULE, NOT THE OLD HQ RULE. YC lists the company in Vancouver, Canada, but the terms of service on oroagents.com (last updated 2 October 2026) read “The service is operated by ORO AI, Inc., a Delaware corporation”, with Delaware governing law and exclusive Delaware venue, and name no Canadian entity. EDGAR full-text search returned no Form D for “ORO AI” as of 20 November 2026; recheck later. HQ LEFT EMPTY, following the Alpaca precedent: no US office or address was found, and the privacy policy says only that it uses infrastructure in the United States and Canada. BOTH FOUNDERS QUALIFY ON EDUCATION, per the “Alumnus of” field on their YC founder pages. SHARDUL BANSAL: University of Toronto; his YC bio adds computer science and undergraduate research on evals for distributed training. SETH SCHILBE: University of New Brunswick, Bow Valley High School and University of Waterloo; his YC bio says he “Attended UWaterloo and ha[s] a degree in Software Engineering from University of New Brunswick”. The order of his three institutions is inferred, not stated, and Bow Valley High School is taken to be the Cochrane, Alberta school. FUNDING: only the standard YC deal is recorded. The site's “Backed by” strip also links Unsupervised Capital, a liquid token fund focused on Bittensor subnets, and Savant; no amount or instrument is public, and the Unsupervised position may be in subnet tokens rather than equity, so neither is recorded as a round. ICON: logo.dev matches the site's own icon (white rounded bars on dark green), checked 20 November 2026. PHOTOS: none; YC avatars are signed URLs that expire within an hour and the site has no team page."
+    }
   }
 ]
