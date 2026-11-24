@@ -56025,5 +56025,73 @@
       "last_verified": "2026-11-24T10:45:00-08:00",
       "notes": "Added 24 November 2026 at the owner's request, from Bloomberg's report that day, “xAI Founders Unveil New AI Startup to Predict Future Events”. Read from the full Bloomberg article (by Natasha Mascarenhas and Carmen Arroyo, 8:50 AM PST), checked against Epochal's own launch post and legal pages. Bloomberg describes Zhang, Dai and Kroiss as three of the founding members who left xAI after Musk merged it with SpaceX in February, and says other former staff of xAI, OpenAI, Anthropic and Google DeepMind have also joined. CAP TABLE AND HQ ARE FIRST-PARTY: the terms of service are “an agreement between you and Epochal, Inc., a Delaware corporation”, governed by Delaware law, and both the terms and the privacy policy give 777 California Ave, Suite 150, Palo Alto, CA 94304; the privacy policy also says “We are based in the United States”. No Form D yet. QUALIFIES ON GUODONG ZHANG, University of Toronto PhD (2023). His founder record is copied from the xAI entry so the two stay consistent; only his role and bio differ. The launch post names the team as “Guodong Zhang, Zihang Dai, and Manuel Kroiss, key members of xAI’s founding team, along with Alex Bocharoff and Frank Luan”, without titles. None of the other four has a Canadian connection: Dai and Kroiss were already left off the xAI entry for that reason; Frank Luan studied at the University of Chicago and did his PhD at UC Berkeley; Alex Bocharoff lists Zaporizhzhia State Engineering Academy in Ukraine and was previously at Cloudflare. FUNDING IS SINGLE-SOURCED: Bloomberg reported, citing one person familiar with the matter, that Zhang is personally investing $100 million, and an Epochal spokesperson declined to comment on funding, so the company has not confirmed the figure. It is recorded as a Seed round led by him because no outside investors, instrument or valuation were disclosed. Founded 2026, after xAI's merger with SpaceX in February; Time Portal was built in 90 days. ICON: uses the site's own favicon.svg (a white ring on dark green); logo.dev serves an unrelated eight-ball mark for epochal.com, so do not switch it to logo.dev."
     }
+  },
+  {
+    "id": "avout",
+    "name": "Avout",
+    "website": "https://avoutcapital.com",
+    "description": "Asset-based financing for frontier hardware companies in AI infrastructure, autonomy, robotics and space, lent against the contracts and machines they already have so they need not pay for hardware with equity. Its early-access products are receivables financing, advancing up to 85% of invoices sent to AI labs, hyperscalers and government agencies; compute financing for GPU servers and networking, repaid monthly from compute revenue; and robotics deployment financing, repaid from the customer's contract payments. It is a financial technology company, not a bank, and banking services come from a partner bank.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Fintech",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "F'26",
+    "icon_url": "https://avoutcapital.com/icon.svg",
+    "founders": [
+      {
+        "id": "cody-devilliers",
+        "name": "Cody DeVilliers",
+        "role": "Co-Founder & CTO",
+        "linkedin": "https://www.linkedin.com/in/codydevilliers",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and CTO of Avout (YC F26). Studied at Ryerson University (now Toronto Metropolitan University) in Toronto from 2010 to 2014. Spent about a decade building regulated financial infrastructure, including as a DevSecOps engineer, at Interac, Moneris, Liquidnet and TD Bank.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "Ryerson University",
+        "canadian_institutions": [
+          "Ryerson University"
+        ],
+        "canadian_city": "Toronto, ON",
+        "photo_url": "https://avoutcapital.com/images/team/cody.jpg",
+        "image_source_type": "company_website",
+        "image_source_page": "https://avoutcapital.com/",
+        "image_last_checked_at": "2026-11-24T18:51:00Z"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/avout"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/avout",
+        "https://avoutcapital.com/",
+        "https://www.linkedin.com/in/codydevilliers"
+      ],
+      "last_verified": "2026-11-24T10:55:00-08:00",
+      "notes": "Found by screening the Y Combinator investor announcement email of 20 November 2026, Fall 2026 batch, and added 24 November 2026 once the owner confirmed the Canadian tie. QUALIFIES ON CODY DEVILLIERS, co-founder and CTO: Ryerson University (now Toronto Metropolitan University), 2010–2014, per his LinkedIn profile as checked by the owner. No university or news source was found, so the tie rests on that profile. It fits his career: his YC bio says “DevSecOps engineer at Interac, Moneris, and Liquidnet”, and Avout's team section says “A decade building regulated financial infrastructure at Interac, Moneris, Liquidnet and TD Bank”. The institution is recorded under its name at the time, Ryerson University, which is the name the site's institution list uses. Co-founder and CEO Artem Milinchuk is not listed: he holds a BA and MA in economics from the Higher School of Economics in Moscow and a Wharton MBA, and his Toronto roles at Ontario Teachers' Pension Plan and Sprott are employment, which the methodology does not count. US COMPANY RESTS ON YC ALONE: YC lists San Francisco, but the site names no legal entity and has no terms page, and EDGAR full-text search finds no Form D for Avout as of 24 November 2026; recheck for one. YC's company page lists no founders. Any credit facility or warehouse line Avout lends from is debt and is not tracked. ICON: uses the site's own icon.svg (a triangular “A” on cream); logo.dev serves a different sunrise-in-a-circle mark for avoutcapital.com, so do not switch it to logo.dev. PHOTO: Cody's headshot is from the team section of avoutcapital.com, alt text “Portrait of Cody DeVilliers”."
+    }
   }
 ]
