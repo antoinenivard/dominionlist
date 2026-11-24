@@ -55957,5 +55957,73 @@
       "last_verified": "2026-11-20T16:15:00-08:00",
       "notes": "Found by screening the Y Combinator investor announcement email of 20 November 2026, Fall 2026 batch. QUALIFIES UNDER THE 5 OCTOBER 2026 CAP-TABLE RULE, NOT THE OLD HQ RULE. YC lists the company in Vancouver, Canada, but the terms of service on oroagents.com (last updated 2 October 2026) read “The service is operated by ORO AI, Inc., a Delaware corporation”, with Delaware governing law and exclusive Delaware venue, and name no Canadian entity. EDGAR full-text search returned no Form D for “ORO AI” as of 20 November 2026; recheck later. HQ LEFT EMPTY, following the Alpaca precedent: no US office or address was found, and the privacy policy says only that it uses infrastructure in the United States and Canada. BOTH FOUNDERS QUALIFY ON EDUCATION, per the “Alumnus of” field on their YC founder pages. SHARDUL BANSAL: University of Toronto; his YC bio adds computer science and undergraduate research on evals for distributed training. SETH SCHILBE: University of New Brunswick, Bow Valley High School and University of Waterloo; his YC bio says he “Attended UWaterloo and ha[s] a degree in Software Engineering from University of New Brunswick”. The order of his three institutions is inferred, not stated, and Bow Valley High School is taken to be the Cochrane, Alberta school. FUNDING: only the standard YC deal is recorded. The site's “Backed by” strip also links Unsupervised Capital, a liquid token fund focused on Bittensor subnets, and Savant; no amount or instrument is public, and the Unsupervised position may be in subnet tokens rather than equity, so neither is recorded as a round. ICON: logo.dev matches the site's own icon (white rounded bars on dark green), checked 20 November 2026. PHOTOS: none; YC avatars are signed URLs that expire within an hour and the site has no team page."
     }
+  },
+  {
+    "id": "epochal",
+    "name": "Epochal",
+    "website": "https://epochal.com",
+    "description": "AI lab teaching models to forecast future events by letting agents live through the past one day at a time. Its first product, Time Portal, is a point-in-time web environment indexing more than a trillion archived pages across 30-plus years of internet history at one-minute granularity, offered as search, fetch and sandbox APIs, so an agent can browse the web as it stood on a chosen date, with nothing captured later leaking through, and be scored on predicting what happened next.",
+    "hq_city": "Palo Alto",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "AI",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2026,
+    "yc_batch": "",
+    "icon_url": "https://epochal.com/favicon.svg",
+    "founders": [
+      {
+        "id": "guodong-zhang",
+        "name": "Guodong Zhang",
+        "x_url": "https://x.com/Guodzh",
+        "role": "Co-Founder",
+        "bio": "Co-founder of Epochal, in which he is personally investing $100 million according to Bloomberg. Previously a co-founder of xAI, where he co-led core AI model development, and a research scientist at Google DeepMind. PhD in Computer Science from the University of Toronto (2023).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Toronto",
+        "canadian_institutions": [
+          "University of Toronto"
+        ],
+        "wikipedia_url": "",
+        "linkedin": "https://www.linkedin.com/in/zhang-guodong",
+        "photo_url": "https://www.cs.toronto.edu/~gdzhang/figures/photo.jpg",
+        "image_source_type": "personal_site",
+        "image_source_page": "https://www.cs.toronto.edu/~gdzhang/",
+        "image_last_checked_at": "2026-09-01T15:45:00Z"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026-11",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 100000000,
+        "amount_display": "$100M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Guodong Zhang"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events"
+        ],
+        "notes": "Bloomberg reported on 24 November 2026, citing one person familiar with the matter, that co-founder Guodong Zhang is personally investing $100 million; an Epochal spokesperson declined to comment on funding. No outside investors were disclosed, and the instrument, close date and valuation are not public."
+      }
+    ],
+    "capital_raised_usd": 100000000,
+    "capital_raised_display": "$100M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+        "https://epochal.com/blog/introducing-epochal",
+        "https://epochal.com/legal/terms-of-service",
+        "https://epochal.com/legal/privacy-policy"
+      ],
+      "last_verified": "2026-11-24T10:45:00-08:00",
+      "notes": "Added 24 November 2026 at the owner's request, from Bloomberg's report that day, “xAI Founders Unveil New AI Startup to Predict Future Events”. Read from the full Bloomberg article (by Natasha Mascarenhas and Carmen Arroyo, 8:50 AM PST), checked against Epochal's own launch post and legal pages. Bloomberg describes Zhang, Dai and Kroiss as three of the founding members who left xAI after Musk merged it with SpaceX in February, and says other former staff of xAI, OpenAI, Anthropic and Google DeepMind have also joined. CAP TABLE AND HQ ARE FIRST-PARTY: the terms of service are “an agreement between you and Epochal, Inc., a Delaware corporation”, governed by Delaware law, and both the terms and the privacy policy give 777 California Ave, Suite 150, Palo Alto, CA 94304; the privacy policy also says “We are based in the United States”. No Form D yet. QUALIFIES ON GUODONG ZHANG, University of Toronto PhD (2023). His founder record is copied from the xAI entry so the two stay consistent; only his role and bio differ. The launch post names the team as “Guodong Zhang, Zihang Dai, and Manuel Kroiss, key members of xAI’s founding team, along with Alex Bocharoff and Frank Luan”, without titles. None of the other four has a Canadian connection: Dai and Kroiss were already left off the xAI entry for that reason; Frank Luan studied at the University of Chicago and did his PhD at UC Berkeley; Alex Bocharoff lists Zaporizhzhia State Engineering Academy in Ukraine and was previously at Cloudflare. FUNDING IS SINGLE-SOURCED: Bloomberg reported, citing one person familiar with the matter, that Zhang is personally investing $100 million, and an Epochal spokesperson declined to comment on funding, so the company has not confirmed the figure. It is recorded as a Seed round led by him because no outside investors, instrument or valuation were disclosed. Founded 2026, after xAI's merger with SpaceX in February; Time Portal was built in 90 days. ICON: uses the site's own favicon.svg (a white ring on dark green); logo.dev serves an unrelated eight-ball mark for epochal.com, so do not switch it to logo.dev."
+    }
   }
 ]
