@@ -1147,6 +1147,17 @@ const INSTITUTION_ALIASES = {
   /* OCAD */ 'OCAD': 'OCAD University',
 };
 function normalizeInstitution(name) { return INSTITUTION_ALIASES[name] || name; }
+/* Every institution a founder lists, primary first, de-duplicated. canadian_institution holds
+   only the primary school; canadian_institutions holds all of them (David Cheriton: UBC, then
+   Waterloo), so reading the primary alone drops every school after the first. */
+function founderInstitutions(f) {
+  const out = [];
+  [f.canadianInstitution].concat(f.canadian_institutions || []).forEach(i => {
+    const v = (i || '').trim();
+    if (v && !out.includes(v)) out.push(v);
+  });
+  return out;
+}
 
 /* Sidebar-only short labels for institution filter */
 const INSTITUTION_SHORT_LABELS = {
@@ -1265,10 +1276,9 @@ function computeFilterCounts(sourceList) {
       maps.state.set(city, (maps.state.get(city) || 0) + 1);
     }
     (c.founders || []).forEach(f => {
-      if (f.canadianInstitution) {
-        const norm = normalizeInstitution(f.canadianInstitution);
+      new Set(founderInstitutions(f).map(normalizeInstitution)).forEach(norm => {
         if (!HIGH_SCHOOLS.has(norm)) maps.institution.set(norm, (maps.institution.get(norm) || 0) + 1);
-      }
+      });
       if (f.canadianConnectionType) {
         normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
           maps.connection.set(sig, (maps.connection.get(sig) || 0) + 1);
@@ -1408,10 +1418,9 @@ function toggleInstOtherParent(checked) {
   const counts = new Map();
   source.forEach(c => {
     (c.founders || []).forEach(f => {
-      if (f.canadianInstitution) {
-        const norm = normalizeInstitution(f.canadianInstitution);
+      new Set(founderInstitutions(f).map(normalizeInstitution)).forEach(norm => {
         if (!HIGH_SCHOOLS.has(norm)) counts.set(norm, (counts.get(norm) || 0) + 1);
-      }
+      });
     });
   });
   counts.forEach((count, inst) => {
@@ -1772,7 +1781,7 @@ function applyFilters() {
     if (q) {
       const hay = [c.companyName, c.industry, c.hqDisplay, c.stage, c.ycBatch || '',
         ...c.founders.map(f => f.name),
-        ...c.founders.map(f => f.canadianInstitution || ''),
+        ...c.founders.map(f => founderInstitutions(f).join(' ')),
         ...c.founders.map(f => f.canadianConnectionType || '')
       ].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
@@ -1793,7 +1802,7 @@ function applyFilters() {
         && (c.companyStatus !== 'Private' || !activeFilters.stage.has(stageBucket(c.stage)))) return false;
     if (activeFilters.batch.size && !activeFilters.batch.has(c.ycBatch || '')) return false;
     if (activeFilters.institution.size) {
-      if (!c.founders.some(f => f.canadianInstitution && activeFilters.institution.has(normalizeInstitution(f.canadianInstitution)))) return false;
+      if (!c.founders.some(f => founderInstitutions(f).some(i => activeFilters.institution.has(normalizeInstitution(i))))) return false;
     }
     if (activeFilters.connection.size) {
       if (!c.founders.some(f => {
@@ -1831,7 +1840,7 @@ function resolveInstitution(v) {
     _instResolver = {};
     const add = (k, canon) => { if (k) _instResolver[String(k).toLowerCase()] = canon; };
     companies.forEach(c => (c.founders || []).forEach(f => {
-      if (f.canadianInstitution) { const canon = normalizeInstitution(f.canadianInstitution); add(canon, canon); }
+      founderInstitutions(f).forEach(i => { const canon = normalizeInstitution(i); add(canon, canon); });
     }));
     Object.keys(INSTITUTION_ALIASES).forEach(a => add(a, INSTITUTION_ALIASES[a]));
     Object.keys(INSTITUTION_SHORT_LABELS).forEach(canon => add(INSTITUTION_SHORT_LABELS[canon], canon));
