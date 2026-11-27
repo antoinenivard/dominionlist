@@ -56093,5 +56093,71 @@
       "last_verified": "2026-11-24T10:55:00-08:00",
       "notes": "Found by screening the Y Combinator investor announcement email of 20 November 2026, Fall 2026 batch, and added 24 November 2026 once the owner confirmed the Canadian tie. QUALIFIES ON CODY DEVILLIERS, co-founder and CTO: Ryerson University (now Toronto Metropolitan University), 2010–2014, per his LinkedIn profile as checked by the owner. No university or news source was found, so the tie rests on that profile. It fits his career: his YC bio says “DevSecOps engineer at Interac, Moneris, and Liquidnet”, and Avout's team section says “A decade building regulated financial infrastructure at Interac, Moneris, Liquidnet and TD Bank”. The institution is recorded under its name at the time, Ryerson University, which is the name the site's institution list uses. Co-founder and CEO Artem Milinchuk is not listed: he holds a BA and MA in economics from the Higher School of Economics in Moscow and a Wharton MBA, and his Toronto roles at Ontario Teachers' Pension Plan and Sprott are employment, which the methodology does not count. US COMPANY RESTS ON YC ALONE: YC lists San Francisco, but the site names no legal entity and has no terms page, and EDGAR full-text search finds no Form D for Avout as of 24 November 2026; recheck for one. YC's company page lists no founders. Any credit facility or warehouse line Avout lends from is debt and is not tracked. ICON: uses the site's own icon.svg (a triangular “A” on cream); logo.dev serves a different sunrise-in-a-circle mark for avoutcapital.com, so do not switch it to logo.dev. PHOTO: Cody's headshot is from the team section of avoutcapital.com, alt text “Portrait of Cody DeVilliers”."
     }
+  },
+  {
+    "id": "ergodex-ai",
+    "name": "Ergodex AI",
+    "website": "https://ergodex.ai",
+    "description": "AI-native chip design. Builds environments that turn chip-design tasks with measurable objectives into an implement, verify, score and optimize loop, and can optimize the EDA algorithms used to design a chip as well as the chip and its flow scripts. Its FrontierEDA environments ship tools built for fast AI-driven iteration, and the company claims 100x faster design verification and 50% faster convergence on power, performance and area. Also works on 3D IC and advanced-packaging design, and has been rated “awardable” on DARPA's ERIS marketplace.",
+    "hq_city": "San Francisco",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Industrial",
+    "stage": "Pre-Seed",
+    "status": "Private",
+    "founding_year": 2025,
+    "yc_batch": "F'26",
+    "icon_url": "https://ergodex.ai/assets/favicon-light.svg",
+    "founders": [
+      {
+        "id": "amur-ghose",
+        "name": "Amur Ghose",
+        "role": "Co-Founder",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder of Ergodex AI (YC F26). Studied at IIT Kanpur, then completed an M.Math. in computer science at the University of Waterloo in 2020 under Pascal Poupart, with a thesis on deterministic autoencoders and adversarial examples. Went on to be a research scientist at Huawei Canada and a CS/ML PhD student at UC San Diego. Previously co-founder and CTO of SigIQ AI, which raised more than $10 million from General Catalyst. Publishes at NeurIPS, EMNLP, DAC and ICCAD.",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2026",
+        "round": "Pre-Seed",
+        "kind": "funding",
+        "amount_usd": 500000,
+        "amount_display": "$500K",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "Y Combinator"
+        ],
+        "other_investors": [],
+        "source_urls": [
+          "https://www.ycombinator.com/companies/ergodex-ai"
+        ],
+        "notes": "Standard YC deal. No other round disclosed and no valuation."
+      }
+    ],
+    "capital_raised_usd": 500000,
+    "capital_raised_display": "$500K",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.ycombinator.com/companies/ergodex-ai",
+        "https://ergodex.ai/",
+        "https://ergodex.ai/partners.html",
+        "https://cs.uwaterloo.ca/~ppoupart/students.html",
+        "https://cs.uwaterloo.ca/~ppoupart/publications.html"
+      ],
+      "last_verified": "2026-11-27T14:30:00-08:00",
+      "notes": "Found by screening the Y Combinator investor announcement email of 27 November 2026, Fall 2026 batch. QUALIFIES ON AMUR GHOSE, University of Waterloo, and the evidence is first-party academic: Pascal Poupart's student page at the Cheriton School of Computer Science lists “Amur Ghose (Research Scientist at Huawei Canada) M.Math. thesis (completed August 2020)”, and Poupart's publication list has him as first author on Waterloo papers from 2018 to 2023. The YC email describes him as “prev at Waterloo/IIT Kanpur” with a CS/ML PhD at UCSD and as former co-founder and CTO of SigIQ AI. HIS FOUNDER STATUS COMES FROM THE YC EMAIL: it lists him and Yugesh Kothari as founders, but YC's company page shows only Kothari, as Founder/CEO, so Ghose's title is not stated and he is recorded as Co-Founder. Kothari is not listed: his YC page gives EPFL and IIT Kanpur, with no Canadian connection. US COMPANY RESTS ON YC: YC lists San Francisco and a team of 12, founded 2025; the site (“© Ergodex Labs”) names no legal entity, and EDGAR has no filing for Ergodex as of 27 November 2026. Being rated awardable on DARPA's ERIS marketplace for US government procurement fits a US entity but does not prove one. ICON: uses the site's own favicon-light.svg (a gridded half-disc with an orange arc); logo.dev serves the Framer logo for ergodex.ai, so do not switch it to logo.dev. PHOTO: none found; the site has no team page and YC does not show him."
+    }
   }
 ]
