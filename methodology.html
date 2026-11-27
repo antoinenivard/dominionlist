@@ -399,7 +399,7 @@ a{color:var(--link);text-decoration:none}a:hover{color:var(--link-h);text-decora
     <tr><td>bio</td><td>Brief biographical summary</td></tr>
     <tr><td>canadian_connection_type</td><td>birthplace, education, citizenship, or compound</td></tr>
     <tr><td>canadian_institution</td><td>Primary Canadian institution</td></tr>
-    <tr><td>canadian_institutions</td><td>Array of all Canadian institutions attended, in the order they were attended. The institution filter and the charts read <code>canadian_institution</code>, the primary one, so a founder's second and later institutions appear on their profile but not in the filter counts.</td></tr>
+    <tr><td>canadian_institutions</td><td>Array of all Canadian institutions attended, in the order they were attended. The institution filter reads every institution in <code>canadian_institutions</code>, so a founder counts under each school they attended; the charts read <code>canadian_institution</code>, the primary one.</td></tr>
   </table>
 
   <h3>Funding round fields</h3>
