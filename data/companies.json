@@ -18115,11 +18115,12 @@
         "linkedin": "https://www.linkedin.com/in/arsham-eslami",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "CTO. York University grad (2014-2018). Experience at Antler and On Deck.",
+        "bio": "CTO. Studied engineering at the University of Waterloo (2010-2013). York University grad (2014-2018). Experience at Antler and On Deck.",
         "canadian_connection_type": "education",
         "canadian_institution": "York University",
         "canadian_city": "Toronto, ON",
         "canadian_institutions": [
+          "University of Waterloo",
           "York University"
         ],
         "role": ""
