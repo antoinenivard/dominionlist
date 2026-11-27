@@ -9993,12 +9993,14 @@
         "linkedin": "https://www.linkedin.com/in/jasonlor",
         "wikipedia_url": "",
         "x_url": "https://x.com/mrjasonlor",
-        "bio": "Canadian founder and CEO of Config.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
+        "bio": "Canadian founder and CEO of Config. Studied at the University of Waterloo (2007–2012).",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
         "canadian_city": "",
         "role": "",
-        "canadian_institutions": []
+        "canadian_institutions": [
+          "University of Waterloo"
+        ]
       }
     ],
     "funding_rounds": [
