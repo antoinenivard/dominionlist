@@ -16117,11 +16117,13 @@
         "id": "brandon-weng",
         "name": "Brandon Weng",
         "linkedin": "https://www.linkedin.com/in/brandonweng",
-        "bio": "Co-Founder & CEO.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
+        "bio": "Co-Founder & CEO. Honours Computer Science, University of Waterloo.",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
         "canadian_city": "",
-        "canadian_institutions": [],
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
         "x_url": "",
         "wikipedia_url": "",
         "role": ""
