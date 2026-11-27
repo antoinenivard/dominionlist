@@ -47673,10 +47673,11 @@
         "name": "John Dengis",
         "linkedin": "https://www.linkedin.com/in/john-dengis",
         "role": "Co-Founder",
-        "bio": "Studied at the University of Toronto. Previously at Instacart.",
+        "bio": "BSc in Mathematical Physics from the University of Waterloo (2014). Studied at the University of Toronto. Previously at Instacart.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Toronto",
         "canadian_institutions": [
+          "University of Waterloo",
           "University of Toronto"
         ],
         "wikipedia_url": "",
