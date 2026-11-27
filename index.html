@@ -1080,8 +1080,9 @@ async function loadData() {
     c.hqDisplay = c.hqCity || c.hq_display || '';
     const insts = [], seen = new Set();
     (c.founders || []).forEach(f => {
-      const inst = (f.canadianInstitution || '').trim();
-      if (inst && !seen.has(inst)) { seen.add(inst); insts.push(inst); }
+      founderDisplayInstitutions(f).forEach(inst => {
+        if (!seen.has(inst)) { seen.add(inst); insts.push(inst); }
+      });
     });
     c._institutionDisplay = insts;
     const conns = [], seenC = new Set();
@@ -1129,7 +1130,9 @@ function slugify(name) {
 const HIGH_SCHOOLS = new Set([
   'Colonel By Secondary School', 'Cégep Édouard-Montpetit',
   'Olympiads School', 'Pearson College UWC', 'Shawnigan Lake School',
-  'St. George\'s School', 'University of Toronto Schools', 'Upper Canada College'
+  'St. George\'s School', 'University of Toronto Schools', 'Upper Canada College',
+  'Bow Valley High School', 'Brebeuf College School', 'Burnaby North Secondary',
+  'Eric Hamber Secondary School', 'Old Scona Academic High School', 'Thousand Islands Secondary School'
 ]);
 
 const INSTITUTION_ALIASES = {
@@ -1147,6 +1150,18 @@ const INSTITUTION_ALIASES = {
   /* OCAD */ 'OCAD': 'OCAD University',
 };
 function normalizeInstitution(name) { return INSTITUTION_ALIASES[name] || name; }
+/* Every institution a founder lists, in the order attended (how the schema defines
+   canadian_institutions), de-duplicated; the primary canadian_institution is appended only if the
+   list lacks it. Reading the primary alone drops every other school (David Cheriton: UBC, then
+   Waterloo). */
+function founderInstitutions(f) {
+  const out = [];
+  (f.canadian_institutions || []).concat([f.canadianInstitution]).forEach(i => {
+    const v = (i || '').trim();
+    if (v && !out.includes(v)) out.push(v);
+  });
+  return out;
+}
 
 /* Sidebar-only short labels for institution filter */
 const INSTITUTION_SHORT_LABELS = {
@@ -1177,6 +1192,15 @@ const INSTITUTION_SHORT_LABELS = {
   'Vanier College': 'Vanier',
 };
 function instShortLabel(canonical) { return INSTITUTION_SHORT_LABELS[canonical] || canonical; }
+
+/* What the Institution column and a founder's profile show: every school the founder lists,
+   leaving out a high school when they also list a university or college (the school filter
+   ignores high schools too). A founder whose only Canadian school is a high school keeps it. */
+function founderDisplayInstitutions(f) {
+  const all = founderInstitutions(f);
+  const post = all.filter(i => !HIGH_SCHOOLS.has(normalizeInstitution(i)));
+  return post.length ? post : all;
+}
 
 /* Connection signal normalization: raw values → clean signal set */
 const CONNECTION_SIGNAL_MAP = {
@@ -2258,7 +2282,7 @@ function openDetail(c) {
       ? '<a href="' + f.linkedinUrl + '" target="_blank">' + f.name + '</a>'
       : f.name;
     const details = [];
-    if (f.canadianInstitution) details.push(f.canadianInstitution);
+    details.push(...founderDisplayInstitutions(f));
     const badges = [];
     if (f.canadianConnectionType) {
       normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
