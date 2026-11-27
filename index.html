@@ -1149,12 +1149,13 @@ const INSTITUTION_ALIASES = {
   /* OCAD */ 'OCAD': 'OCAD University',
 };
 function normalizeInstitution(name) { return INSTITUTION_ALIASES[name] || name; }
-/* Every institution a founder lists, primary first, de-duplicated. canadian_institution holds
-   only the primary school; canadian_institutions holds all of them (David Cheriton: UBC, then
-   Waterloo), so reading the primary alone drops every school after the first. */
+/* Every institution a founder lists, in the order attended (how the schema defines
+   canadian_institutions), de-duplicated; the primary canadian_institution is appended only if the
+   list lacks it. Reading the primary alone drops every other school (David Cheriton: UBC, then
+   Waterloo). */
 function founderInstitutions(f) {
   const out = [];
-  [f.canadianInstitution].concat(f.canadian_institutions || []).forEach(i => {
+  (f.canadian_institutions || []).concat([f.canadianInstitution]).forEach(i => {
     const v = (i || '').trim();
     if (v && !out.includes(v)) out.push(v);
   });
