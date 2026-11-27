@@ -1080,8 +1080,9 @@ async function loadData() {
     c.hqDisplay = c.hqCity || c.hq_display || '';
     const insts = [], seen = new Set();
     (c.founders || []).forEach(f => {
-      const inst = (f.canadianInstitution || '').trim();
-      if (inst && !seen.has(inst)) { seen.add(inst); insts.push(inst); }
+      founderInstitutions(f).forEach(inst => {
+        if (!seen.has(inst)) { seen.add(inst); insts.push(inst); }
+      });
     });
     c._institutionDisplay = insts;
     const conns = [], seenC = new Set();
@@ -1147,6 +1148,17 @@ const INSTITUTION_ALIASES = {
   /* OCAD */ 'OCAD': 'OCAD University',
 };
 function normalizeInstitution(name) { return INSTITUTION_ALIASES[name] || name; }
+/* Every institution a founder lists, primary first, de-duplicated. canadian_institution holds
+   only the primary school; canadian_institutions holds all of them (David Cheriton: UBC, then
+   Waterloo), so reading the primary alone drops every school after the first. */
+function founderInstitutions(f) {
+  const out = [];
+  [f.canadianInstitution].concat(f.canadian_institutions || []).forEach(i => {
+    const v = (i || '').trim();
+    if (v && !out.includes(v)) out.push(v);
+  });
+  return out;
+}
 
 /* Sidebar-only short labels for institution filter */
 const INSTITUTION_SHORT_LABELS = {
@@ -2258,7 +2270,7 @@ function openDetail(c) {
       ? '<a href="' + f.linkedinUrl + '" target="_blank">' + f.name + '</a>'
       : f.name;
     const details = [];
-    if (f.canadianInstitution) details.push(f.canadianInstitution);
+    details.push(...founderInstitutions(f));
     const badges = [];
     if (f.canadianConnectionType) {
       normalizeConnectionSignals(f.canadianConnectionType).forEach(sig => {
