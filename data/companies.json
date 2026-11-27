@@ -21956,12 +21956,14 @@
         "linkedin": "https://www.linkedin.com/in/ryanjgibson",
         "wikipedia_url": "",
         "x_url": "",
-        "bio": "Canadian co-founder of Kojo, winner of Canadian Engineering Competition 2016.",
-        "canadian_connection_type": "birthplace",
-        "canadian_institution": "",
+        "bio": "Canadian co-founder of Kojo, winner of Canadian Engineering Competition 2016. BASc in Electrical Engineering from the University of Waterloo (2016).",
+        "canadian_connection_type": "birthplace_education",
+        "canadian_institution": "University of Waterloo",
         "canadian_city": "",
         "role": "",
-        "canadian_institutions": [],
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
         "photo_url": "https://www.enr.com/ext/resources/events/futuretech/speakers/gibson.jpg",
         "image_source_type": "conference",
         "image_source_page": "https://www.enr.com/future-tech/speakers/ryan-gibson",
