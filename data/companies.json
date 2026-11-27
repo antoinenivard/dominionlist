@@ -56116,7 +56116,7 @@
         "linkedin": "",
         "x_url": "",
         "wikipedia_url": "",
-        "bio": "Co-founder of Ergodex AI (YC F26). Studied at IIT Kanpur, then completed an M.Math. in computer science at the University of Waterloo in 2020 under Pascal Poupart, with a thesis on deterministic autoencoders and adversarial examples. Went on to be a research scientist at Huawei Canada and a CS/ML PhD student at UC San Diego. His YC bio also describes him as a former co-founder and CTO of SigIQ AI, the Berkeley AI-tutoring company. Publishes at NeurIPS, EMNLP, DAC and ICCAD.",
+        "bio": "Co-founder of Ergodex AI (YC F26). Studied at IIT Kanpur, then completed an M.Math. in computer science at the University of Waterloo in 2020 under Pascal Poupart, with a thesis on deterministic autoencoders and adversarial examples. Went on to be a research scientist at Huawei Canada and a CS/ML PhD student at UC San Diego. Previously co-founder and first CTO of SigIQ AI, the Berkeley AI-tutoring company, from March 2023 to December 2024. Publishes at NeurIPS, EMNLP, DAC and ICCAD.",
         "canadian_connection_type": "education",
         "canadian_institution": "University of Waterloo",
         "canadian_institutions": [
@@ -56157,7 +56157,83 @@
         "https://cs.uwaterloo.ca/~ppoupart/publications.html"
       ],
       "last_verified": "2026-11-27T14:30:00-08:00",
-      "notes": "Found by screening the Y Combinator investor announcement email of 27 November 2026, Fall 2026 batch. QUALIFIES ON AMUR GHOSE, University of Waterloo, and the evidence is first-party academic: Pascal Poupart's student page at the Cheriton School of Computer Science lists “Amur Ghose (Research Scientist at Huawei Canada) M.Math. thesis (completed August 2020)”, and Poupart's publication list has him as first author on Waterloo papers from 2018 to 2023. The YC email describes him as “prev at Waterloo/IIT Kanpur” with a CS/ML PhD at UCSD and as former co-founder and CTO of SigIQ AI with “10M+ raised from General Catalyst”. That SigIQ claim is not corroborated: SigIQ's own team page, live and in Wayback snapshots from April 2025 on, and its April 2025 seed coverage name only Karttikeya Mangalam and Kurt Keutzer as founders, and the $9.5M seed was co-led by The House Fund and GSV Ventures, with General Catalyst India among the participants. SigIQ was checked on 27 November 2026 and is not listed, since its only possible Canadian tie is Ghose and his founder role there is unconfirmed. HIS FOUNDER STATUS COMES FROM THE YC EMAIL: it lists him and Yugesh Kothari as founders, but YC's company page shows only Kothari, as Founder/CEO, so Ghose's title is not stated and he is recorded as Co-Founder. Kothari is not listed: his YC page gives EPFL and IIT Kanpur, with no Canadian connection. US COMPANY RESTS ON YC: YC lists San Francisco and a team of 12, founded 2025; the site (“© Ergodex Labs”) names no legal entity, and EDGAR has no filing for Ergodex as of 27 November 2026. Being rated awardable on DARPA's ERIS marketplace for US government procurement fits a US entity but does not prove one. ICON: uses the site's own favicon-light.svg (a gridded half-disc with an orange arc); logo.dev serves the Framer logo for ergodex.ai, so do not switch it to logo.dev. PHOTO: none found; the site has no team page and YC does not show him."
+      "notes": "Found by screening the Y Combinator investor announcement email of 27 November 2026, Fall 2026 batch. QUALIFIES ON AMUR GHOSE, University of Waterloo, and the evidence is first-party academic: Pascal Poupart's student page at the Cheriton School of Computer Science lists “Amur Ghose (Research Scientist at Huawei Canada) M.Math. thesis (completed August 2020)”, and Poupart's publication list has him as first author on Waterloo papers from 2018 to 2023. The YC email describes him as “prev at Waterloo/IIT Kanpur” with a CS/ML PhD at UCSD and as former co-founder and CTO of SigIQ AI with “10M+ raised from General Catalyst”. His LinkedIn, as shown by the owner on 27 November 2026, lists him as “Co-founder/CTO - SigIQ AI” from March 2023 to December 2024, so SigIQ is listed as well (see that entry), although SigIQ's own pages name only Karttikeya Mangalam and Kurt Keutzer as founders. The “10M+ raised from General Catalyst” wording overstates it: SigIQ's $9.5M seed was co-led by The House Fund and GSV Ventures, with General Catalyst India among the participants. HIS FOUNDER STATUS COMES FROM THE YC EMAIL: it lists him and Yugesh Kothari as founders, but YC's company page shows only Kothari, as Founder/CEO, so Ghose's title is not stated and he is recorded as Co-Founder. Kothari is not listed: his YC page gives EPFL and IIT Kanpur, with no Canadian connection. US COMPANY RESTS ON YC: YC lists San Francisco and a team of 12, founded 2025; the site (“© Ergodex Labs”) names no legal entity, and EDGAR has no filing for Ergodex as of 27 November 2026. Being rated awardable on DARPA's ERIS marketplace for US government procurement fits a US entity but does not prove one. ICON: uses the site's own favicon-light.svg (a gridded half-disc with an orange arc); logo.dev serves the Framer logo for ergodex.ai, so do not switch it to logo.dev. PHOTO: none found; the site has no team page and YC does not show him."
+    }
+  },
+  {
+    "id": "sigiq-ai",
+    "name": "SigIQ.ai",
+    "website": "https://www.sigiq.ai",
+    "description": "AI tutoring company aiming to bring the cost of personalised instruction down to the cost of computation. Its products are PadhAI, an AI tutor for India's UPSC civil-service exam that reached more than 200,000 learners in its first six months, and EverTutor, which started with GRE preparation in the US and now includes EverTutor Live, a real-time talk-back tutor with screen sharing that is sold to schools and teachers.",
+    "hq_city": "Berkeley",
+    "hq_region": "CA",
+    "hq_country": "US",
+    "industry": "Consumer",
+    "stage": "Seed",
+    "status": "Private",
+    "founding_year": 2023,
+    "yc_batch": "",
+    "icon_url": "https://img.logo.dev/sigiq.ai?token=pk_TMPlbc0JR9SVBY_55sZSPQ&retina=true&fallback=404",
+    "founders": [
+      {
+        "id": "amur-ghose",
+        "name": "Amur Ghose",
+        "role": "Co-Founder & CTO",
+        "linkedin": "",
+        "x_url": "",
+        "wikipedia_url": "",
+        "bio": "Co-founder and SigIQ AI's first CTO, from March 2023 to December 2024, overseeing its first two test-prep products, for India and for global markets. M.Math. in computer science from the University of Waterloo (2020) under Pascal Poupart; later a research scientist at Huawei Canada and a CS/ML PhD student at UC San Diego. Went on to co-found Ergodex AI (YC F26).",
+        "canadian_connection_type": "education",
+        "canadian_institution": "University of Waterloo",
+        "canadian_institutions": [
+          "University of Waterloo"
+        ],
+        "canadian_city": "Waterloo, ON"
+      }
+    ],
+    "funding_rounds": [
+      {
+        "date": "2025-04-07",
+        "round": "Seed",
+        "kind": "funding",
+        "amount_usd": 9500000,
+        "amount_display": "$9.5M",
+        "valuation_usd": null,
+        "valuation_display": "",
+        "lead_investors": [
+          "The House Fund",
+          "GSV Ventures"
+        ],
+        "other_investors": [
+          "Duolingo",
+          "General Catalyst India (Venture Highway)",
+          "Peak XV Partners",
+          "Calibrate Ventures",
+          "Andy Konwinski",
+          "Christian Storm"
+        ],
+        "source_urls": [
+          "https://www.thesaasnews.com/news/sigiq-ai-raises-9-5-million-in-seed-round",
+          "https://www.startuphub.ai/ai-news/funding-round/2025/ai-edtech-startup-sigiq-ai-exits-stealth-with-9-5m/",
+          "https://www.entrepreneur.com/en-in/news-and-trends/sigiqai-raises-usd-95-mn-funding-co-led-by-the-house-fund/489673"
+        ],
+        "notes": "Announced as the company came out of stealth. Angels also included professors from Berkeley, MIT and Princeton. No valuation disclosed."
+      }
+    ],
+    "capital_raised_usd": 9500000,
+    "capital_raised_display": "$9.5M",
+    "metadata": {
+      "valuation_usd": null,
+      "valuation_display": "",
+      "sources": [
+        "https://www.sigiq.ai/",
+        "https://www.sigiq.ai/team",
+        "https://padhai.ai/privacy-policy",
+        "https://www.startuphub.ai/ai-news/funding-round/2025/ai-edtech-startup-sigiq-ai-exits-stealth-with-9-5m/",
+        "https://cs.uwaterloo.ca/~ppoupart/students.html"
+      ],
+      "last_verified": "2026-11-27T14:45:00-08:00",
+      "notes": "Added 27 November 2026 at the owner's request, found through Amur Ghose of Ergodex AI. QUALIFIES ON AMUR GHOSE, University of Waterloo M.Math. (completed August 2020), per Pascal Poupart's student page; his founder record matches the Ergodex entry. HIS FOUNDER ROLE IS SELF-REPORTED AND THE COMPANY DOES NOT LIST HIM. His LinkedIn, as shown by the owner, reads “Co-founder/CTO - SigIQ AI”, March 2023 to December 2024, Berkeley, and says he “Served as SigIQ AI's first CTO, oversaw making two products for test prep in India and also globally”; his YC bio for Ergodex says the same. SigIQ's own team page, live and in Wayback snapshots from April 2025 on, and its April 2025 seed coverage name only Karttikeya Mangalam (CEO) and Kurt Keutzer as founders. He left in December 2024, four months before the company came out of stealth. Mangalam (IIT Kanpur, UC Berkeley PhD) and Keutzer (UC Berkeley professor, former CTO of Synopsys) have no Canadian connection and are not listed. US COMPANY: the PadhAI privacy policy (last updated 11 February 2025) says “SigIQ.ai is based in the United States”, that its services are “primarily governed by U.S. laws”, and gives Suite 106, 1600 Shattuck Ave, Berkeley, CA 94709; PadhAI's footer gives a second office in Gurugram. No legal entity name, state of incorporation or Form D was found, and EDGAR returns nothing for SigIQ as of 27 November 2026, so the cap-table test rests on that policy; recheck. FOUNDED 2023: coverage says July 2023, while Ghose's LinkedIn role starts in March 2023. FUNDING: the $9.5M seed of April 2025 is the only round on record; Ghose's LinkedIn describes it as “about 9.5M USD in total funding”. ICON: logo.dev matches the site's own mark (a sigma formed from book pages), checked 27 November 2026. PHOTO: none."
     }
   }
 ]
